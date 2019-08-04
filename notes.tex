@@ -10,23 +10,15 @@
 
 \maketitle
 
-\setcounter{tocdepth}{0}
+\setcounter{tocdepth}{1}
 \tableofcontents
-\numberwithin{thm}{chapter}
+\numberwithin{thm}{section}
 
-\renewcommand{\chaptername}{Section}
-\renewcommand{\abstractname}{License}
-\begin{abstract}
+\chapter{Introduction}
+\label{introduction}
 
-This work is licensed under the Creative Commons
-Attribution-ShareAlike 4.0 International License.
-
-\end{abstract}
-
-\chapter*{Welcome to the Course}
-\label{Welcome to the Course}
-
-\section*{Organization of the Course}
+\section{Organization of the Course}
+\label{organization}
 
 This calculus courses has a slightly unconventional method of
 organization. We are using a teaching model
@@ -56,9 +48,9 @@ detailed schedule on the course website showing when the
 various lectures happen over the term. Please use this
 schedule to ensure you watch the appropriate videos before
 class and bring the appropriate sections of the notes.
-\clearpage
 
-\section*{Other Resources}
+\section{Other Resources}
+\label{resources}
 
 In addition to the notes associated to each lecture, there are
 a number of other resources which are distributed via
@@ -94,7 +86,8 @@ will be nothing on the exam that isn't referenced on this
 sheet.
 \end{itemize}
 
-\section*{Perspectives and Philosophy}
+\section{Perspectives and Philosophy}
+\label{philosophy}
 
 In addition to the strictly mathematical material of the
 course, I will try to share some ideas about the philosophy of
@@ -107,8 +100,14 @@ you engage with these questions and find them intriguing. The
 perspectives and philosophy aspect of the course will not be
 part of the exam.
 
-\chapter{Analytic Geometry}
-\label{Analytic Geometry}
+\chapter{Functions \& Models}
+\label{functions-and-models}
+
+\section{Analytic Geometry}
+\label{analytic-geometry}
+
+\subsection{The Cartesian Plane}
+\label{cartesian-plane}
 
 Analytic geometry was a huge breakthrough for
 mathematics. Prior to the 17th century, algebra and geometry
@@ -135,9 +134,8 @@ advances in history.
 \centering
 \includegraphics[width=7cm]{figure01.eps}
 \caption{Cartesian Coordiantes in $\RR^2$}
-\label{Cartesian Coordiantes}
+\label{figure-cartesian-coordiantes}
 \end{figure}
-\clearpage
 
 The basic idea of cartesian coordinates should be familiar to
 you from high school level mathematics. In the plane, 
@@ -170,11 +168,14 @@ aspects of cartesian coordinates -- we can now do geometry in
 many dimensions and transcend the limitations of our
 three-dimensional vision and perception.
 
+\subsection{Loci}
+\label{loci}
+
 \begin{figure}[t]
 \centering
 \includegraphics[width=5cm]{figure64.eps}
 \caption{The Circle: A Locus}
-\label{The Circle}
+\label{figure-circle}
 \end{figure}
 
 Cartesian coordinate are useful for giving
@@ -185,22 +186,23 @@ when $x$ is replaced by $a$ and $y$ is replaced by $b$.
 Such an collection of points is called \emph{locus} of the
 equation. The plural of locus is \emph{loci}.
 
+\subsection{Lines}
+\label{lines}
+
 \begin{figure}[t]
 \centering
 \begin{subfigure}{.5\textwidth}
  \centering
  \includegraphics[width=5cm]{figure02.eps}
  \caption{Four Lines}
- \label{Four  Lines}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
  \centering
  \includegraphics[width=5cm]{figure22.eps}
  \caption{Intersections of Lines}
- \label{Intersections of Lines}
 \end{subfigure}
 \caption{Lines as Loci}
-\label{Lines as Loci}
+\label{figure-lines-as-loci}
 \end{figure}
 
 The simplest these loci are lines. Lines are given by
@@ -222,7 +224,7 @@ particularly important when we describe tangent lines to
 graphs.
 
 You will also be expected to find the intersections of lines.
-In Figure \ref{Intersections of Lines}, we have the lines
+In Figure \ref{figure-lines-as-loci}, we have the lines
 $y=x+1$ and $y=3-3x$. Finding the intersetion point is
 equivalent to finding two coordinates $x$ and $y$ which
 satisfy both equations. Algebraically, that is solving the
@@ -237,10 +239,8 @@ y & = x+1 = 2+1 = 3 \hspace{1cm} \implies \text{The
 intersection point is $(2,3)$}
 \end{align*}
 
-\chapter{Conics and Loci}
-\label{Conics and Loci}
-
-\section*{Conics}
+\subsection{Conics}
+\label{conics}
 
 The conics are the second important class of loci. Unlike
 the linear loci, these are objects where we allow degree two
@@ -258,9 +258,8 @@ the conic is centred at the origin.
 \centering
 \includegraphics[width=7cm]{figure23.eps}
 \caption{Slicing a Cone}
-\label{Slicing a Cone}
+\label{figure-slicing-a-cone}
 \end{figure}
-\clearpage
 
 \begin{figure}[t]
 \centering
@@ -274,7 +273,7 @@ the conic is centred at the origin.
  \includegraphics[width=5cm]{figure06.eps}
  \caption{The Ellipse}
 \end{subfigure}
-\label{Conics 1}
+\label{figure-conics1}
 \end{figure}
 
 \begin{description}
@@ -317,9 +316,8 @@ axis and the length $b$ is called the semi-minor axis.
  \includegraphics[width=5cm]{figure04.eps}
  \caption{The Hyperbola}
 \end{subfigure}
-\label{Conics 2}
+\label{figure-conics2}
 \end{figure}
-\clearpage
 
 \begin{description}
 \item[The Parabola]
@@ -362,15 +360,15 @@ hyperbolas for those with escape velocity. Though not perfect
 relativistic corrections are included), Kepler's model is
 remarkably accurate. Conics are still used as the basic
 models of orbital paths.
-\clearpage
 
-\section*{Other Loci}
+\subsection{Other Loci}
+\label{other-loci}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=6cm]{figure07.eps}
 \caption{Several Other Loci}
-\label{Several Other Loci}
+\label{figure-several-other-loci}
 \end{figure}
 
 Lines and conics are just two of many classes and families of
@@ -405,7 +403,7 @@ positive, no other values satisfy. Worse, consider $x^2 + y^2
 \centering
 \includegraphics[width=6cm]{figure08.eps}
 \caption{Four Graphs}
-\label{Four Graphs} 
+\label{figure-four-graphs} 
 \end{figure}
 
 Graphs of functions are also loci. If $f(x)$ is a real-valued
@@ -427,14 +425,15 @@ addition, graphs never double back and never self-intersect.
 \centering
 \includegraphics[width=6cm]{figure24.eps}
 \caption{Intersection of a Line and an Ellipse}
-\label{Intersection of a Line and an Ellipse}
+\label{figure-intersection}
 \end{figure}
 
-\section*{Intersection}
+\subsection{Intersection}
+\label{intersection}
 
 Intersection is a key idea in analytic geometry. Given two
 loci in $\RR^n$, we often want to know if they intersect.
-In diagram \ref{Intersection of a Line and an Ellipse}, the
+In diagram \ref{figure-intersection}, the
 ellipse $\frac{x^2}{4} + \frac{y^2}{1} = 1 $ and
 the line $y=-x$ have two intersection points:
 $p_1 = (\frac{-2}{\sqrt{5}},\frac{2}{\sqrt{5}})$ and
@@ -446,13 +445,14 @@ equations. Solving systems of equations is one of the most
 basic tasks in mathematics. and intersection is the geometric
 interpretation.
 
-\section*{Shifts}
+\subsection{Shifts}
+\label{shifts}
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=7cm]{figure25.eps}
 \caption{Shifts of a Circle}
-\label{Shifts of a Circle}
+\label{figure-shifts-circle}
 \end{figure}
 
 For conics, I noted that all of the conic equations were
@@ -474,8 +474,8 @@ locus $a$ units in the positive $y$ direction.
 locus $a$ units in the negative $y$ direction.
 \end{smallitemize}
 Consider the cirlce $x^2 + y^2 = 1$, which is a circle of
-radius one centered at the origin. Figure \ref{Shifts of a
-Circle} shows the following shifts.
+radius one centered at the origin. Figure \ref{figure-shifts-circle}
+shows the following shifts.
 \begin{smallitemize}
 \item The locus $(x-1)^2 + (y-2)^2 = 1$ is a circle of radius
 1 centered at $(1,2)$.
@@ -489,10 +489,8 @@ Circle} shows the following shifts.
 Shifts do not only apply to conics: we can shift any locus in
 this way.
 
-\chapter{Functions}
-\label{Functions}
-
-\section*{Definitions}
+\section{Functions}
+\label{functions}
 
 In order to define functions, we need to define sets. A
 \emph{set} is any collection of things; the things in a set
@@ -532,7 +530,8 @@ functions. Visualizing the action of a function by its graph is
 a very convenient way to remember the function and its
 properties.
 
-\section*{Functions on $\RR$}
+\subsection{Functions on $\RR$}
+\label{real-functions}
 
 For the purposes of calculus, we will deal with functions
 defined on $\RR$ and its subsets. For most functions, we will
@@ -561,12 +560,14 @@ time; the domain of the function will be after that starting
 time. Restricting domains is also useful to make a function
 invertible.
 
-\section*{Types of Functions}
+\section{Types of Functions}
+\label{types-of-functions}
 
 We want to give a catalog of the common types of functions we
 encounter in calculus.
 
-\subsection*{Constant Functions}
+\subsection{Constant Functions}
+\label{constant-functions}
 
 \begin{figure}[t]
 \centering
@@ -580,7 +581,7 @@ encounter in calculus.
  \includegraphics[width=5cm]{figure27.eps}
  \caption{A Linear Function}
 \end{subfigure}
-\label{Types of Functions 1}
+\label{figure-types-of-functions1}
 \end{figure}
 
 The simpliest kind of function is a constant function. Its
@@ -589,7 +590,8 @@ $f(x) = 5$ is constant at 5: it will give the value 5 no
 matter what value of $x$ we specify. Constant functions have
 no domain restrictions.
 
-\subsection*{Linear Functions}
+\subsection{Linear Functions}
+\label{linear-functions}
 
 Linear functions have the form $f(x) = ax + b$ for real
 numbers $a$ and $b$. Their graphs which are straight lines,
@@ -604,7 +606,8 @@ A particularly important linear function is the function $f(x)
 unique function which takes any input and gives that input back
 without any action.
 
-\subsection*{Quadratic Functions}
+\subsection{Quadratic Functions}
+\label{quadratic-functions}
 
 Quadratic functions have the form $f(x) = ax^2 + bx + c$.
 Their graphs are parabolas. We have a large array of
@@ -627,10 +630,11 @@ domain restrictions.
  \includegraphics[width=4cm]{figure28.eps}
  \caption{A Polynomial Function}
 \end{subfigure}
-\label{Types of Functions 2}
+\label{figure-types-of-functions2}
 \end{figure}
 
-\subsection*{Polynomial Functions}
+\subsection{Polynomial Functions}
+\label{polynomials}
 
 Polynomial functions have the following form, where the $a_i$
 are anyreal numbers.
@@ -651,7 +655,8 @@ degree. Polynomials of degree $n$ can have at most $n$ roots,
 though they may have fewer. Polynomial functions have no
 domain restrictions. 
 
-\subsection*{Rational Functions}
+\subsection{Rational Functions}
+\label{rational-functions}
 
 Rational numbers are fractions involving integers, In the same
 way, rational functions are fractions involving polynomials.
@@ -679,10 +684,11 @@ function approaches near an undefined point.
  \includegraphics[width=5cm]{figure30.eps}
  \caption{An Algebraic Function}
 \end{subfigure}
-\label{Types of Functions 3}
+\label{figure-types-of-functions3}
 \end{figure}
 
-\subsection*{Algebraic Functions} 
+\subsection{Algebraic Functions} 
+\label{algebraic-functions}
 
 We are now moving into much broader categories of functions,
 where it is impossible to give a cohesive sense of the
@@ -696,7 +702,8 @@ exponents. ($\sqrt{x} = x^{\frac{1}{2}}$). Algebraic
 functions can be very complicated conglomerations of these
 operations. 
 
-\subsection*{Trigonometric Functions}
+\subsection{Trigonometric Functions}
+\label{trig-functions}
 
 \begin{figure}[b]
 \centering
@@ -710,7 +717,7 @@ operations.
  \includegraphics[width=5cm]{figure34.eps}
  \caption{Trigonometry and the Circle}
 \end{subfigure}
-\label{Trigonometric Functions}
+\label{figure-grigonometric-functions}
 \end{figure}
 
 The first type of non-algebraic functions are trigonometric
@@ -739,13 +746,14 @@ former notation is familiar from calculators, we will use the
 latter in these notes to avoid confusions with
 $\frac{1}{\sin(x)}$.
 
-\subsection*{Exponential and Logarithmic Functions}
+\subsection{Exponential and Logarithmic Functions}
+\label{exponential-functions}
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=8cm]{figure31.eps}
 \caption{An Exponential Function}
-\label{An Exponential Function}
+\label{figure-an-exponential-function}
 \end{figure}
 
 If $a$ is a positive real number, then functions of the form
@@ -776,7 +784,8 @@ will almost exclusively deal with the natural logarithm in
 calculus. Logarithms (in any base) can only act on positive
 numbers.
 
-\subsection*{Hyperbolic Functions}
+\subsection{Hyperbolic Functions}
+\label{hyperbolic-functions}
 
 Though we won't define or investigate these function until
 Calculus II, it is useful to mention that there is a third important
@@ -786,13 +795,14 @@ to trigonometric functions and in some ways similar to
 exponentials. They have inverse functions as well, called the
 inverse hyperbolics. 
 
-\subsection*{Elementary Functions}
+\subsection{Elementary Functions}
+\label{elementary}
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=12cm]{figure35.eps}
 \caption{The Universe of Functions}
-\label{The Universe of Functions}
+\label{figure-universe-of-functions}
 \end{figure}
 
 Everything we've defined so far comes together to form the
@@ -804,9 +814,9 @@ elementary function. As we will see later, calculus gives us
 methods for defining many non-elementary functions. Depending
 on how far you proceed through the calculus stream, you will
 see a few or many of these non-elementary functions.
-\clearpage
 
-\section*{Properties of Functions}
+\section{Properties of Functions}
+\label{properties-of-functions}
 
 We use a number of properties of functions to describe their
 behaviour.
@@ -852,10 +862,11 @@ a place where it crosses the $x$ axis or, equivalently, has
 the output $f(x) = 0$. 
 \end{smallitemize}
 
-\chapter{Operations on Functions}
-\label{Operations on Functions}
+\section{Operations on Functions}
+\label{operations-on-functions}
 
-\section*{Pointwise Operations}
+\subsection{Pointwise Operations}
+\label{pointwise-operations}
 
 The most familiar way to put functions together is through the
 conventional operations of arithmetic: addition, subtraction,
@@ -866,7 +877,8 @@ restrictions, such as avoiding the roots of $g$ in
 $\frac{f}{g}$. We call these combinations \emph{pointwise
 operations} on function. 
 
-\section*{Composition}
+\subsection{Composition}
+\label{composition}
 
 A more novel way to combine function is \emph{composition}.
 In pointwise operations, both the functions act seperately on
@@ -903,7 +915,8 @@ Composition can be iterated. If $f$, $g$ and $h$ are
 functions, $f \circ g \circ h(x)$ is the composition of all
 three, with $h$ acting first, $g$ second and $f$ third. 
 
-\section*{Inversion}
+\subsection{Inversion}
+\label{inversion}
 
 The last important operation on functions is inversion.
 Inversion attempts to undo what a function has accomplished,
@@ -954,15 +967,15 @@ $e^x$ is $(0,\infty)$, so that becomes the domain of $\ln x$.
 In the second second above, $\sin x$ is not monotonic on its
 whole domain, so we have to make an adjustment before we can
 understand the range. 
-\clearpage
 
-\section*{Restriction of Domain}
+\subsection{Restriction of Domain}
+\label{restriction}
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=10cm]{figure36.eps}
 \caption{Restricting the Domain of $f(x) = x^2$}
-\label{Restriction of Domain}
+\label{figure-restriction}
 \end{figure}
 
 Many functions are not monotonic, but we would like to invert
@@ -985,8 +998,8 @@ choice is the interval $\left[ \frac{-\pi}{2}, \frac{\pi}{2}
 interval, the range of $\sin x$ is $[-1,1]$, so the domain of
 $\arcsin x$ is also $[-1,1]$. 
 
-\chapter{Models}
-\label{Models}
+\section{Models}
+\label{models}
 
 In this course, we use the term `model' in the broadest
 possible mathematical sense: a model is any application of a
@@ -1031,8 +1044,8 @@ have reasonable meaning and interpretation.
 \end{smallitemize}
 
 The analysis of models thus consists of everything we used to
-analyze functions in Sections \ref{Functions} and
-\ref{Operations on Functions} as well as these new
+analyze functions in Sections \ref{functions} and
+\ref{operations-on-functions} as well as these new
 questions. Often we will want a qualitative analysis of the
 model. Understanding the general shape and behaviour of the
 functions involved is invaluable to this qualitative analysis.
@@ -1045,7 +1058,8 @@ the independant variable is time, as it often is, what is the
 story of the dependant variable over a time span? What
 happens to it? 
 
-\section*{Regression}
+\subsection{Regression}
+\label{regression}
 
 One of the greatest challenges of applied mathematics is
 choosing appropriate models. If the real world provides us
@@ -1064,25 +1078,25 @@ courses.
 \centering
 \includegraphics[width=12cm]{figure37.eps}
 \caption{A Linear Regression}
-\label{A Linear Regression}
+\label{figure-linear-regression}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=12cm]{figure38.eps}
 \caption{A Sinusoidal Regression}
-\label{A Sinusoidal Regression}
+\label{figure-sinusoidal-regression}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=12cm]{figure39.eps}
 \caption{A Square-Root Regression}
-\label{A Square-Root Regression}
+\label{figure-square-root-regression}
 \end{figure}
 
-\chapter{Population Growth}
-\label{Population Growth}
+\section{Population Growth}
+\label{population-growth}
 
 A very natural motivating problem is population growth.
 Here are some reasonable mathematical questions we might ask
@@ -1101,7 +1115,7 @@ independant variable time ($t$).
 \centering
 \includegraphics[width=10cm]{figure40.eps}
 \caption{An Exponential Regression}
-\label{An Exponential Regression}
+\label{figure-exponential-regression}
 \end{figure}
 
 \begin{table}[h]
@@ -1127,7 +1141,7 @@ Year & Population & Growth Rate
 Consider this data set for a population (where $t$ is
 counted in years). This growth looks exponential. We could
 apply exponential regression to find an exponential function,
-as in Figure \ref{An Exponential Regression}.  However, there
+as in Figure \ref{figure-exponential-regression}.  However, there
 is another way of finding a function to fit this model, using
 the growth rates to find a function to fit the data. Algebraic
 techniques have a hard time understanding growth rates, or
@@ -1215,10 +1229,11 @@ current value.
 \frac{dp}{dt} = c(p(t))^2
 \end{equation*}
 
-\chapter{Autonomous Differential Equations}
-\label{Autonomous Differential Equations}
+\section{Autonomous Differential Equations}
+\label{autonomous-des}
 
-\section*{Phase Line Analysis}
+\subsection{Phase Line Analysis}
+\label{phase-line}
 
 At this point in the course, we lack the tools to solve 
 differential equations. Instead, we want to do some
@@ -1255,7 +1270,6 @@ negative, we have a negative growth rate and the population
 decreases. This direction of growth, negative or positive, is
 called the \emph{trajectory} of the popluation between the
 steady states.
-\clearpage
 
 Amazingly, this gives us an impressively complete
 understanding of the population.
@@ -1290,7 +1304,7 @@ phase line encodes this information.
 \centering
 \includegraphics[width=12cm]{figure41.eps}
 \caption{The Phase Line Diagram for $\frac{dp}{dx} = p^2 - p$}
-\label{Phase Line 1}
+\label{figure-phase-line1}
 \end{figure}
 
 \begin{example}
@@ -1308,17 +1322,17 @@ derivative is negative, so the trajectory is decreasing.
 \centering
 \includegraphics[width=12cm]{figure43.eps}
 \caption{The Phase Line Diagram for $\frac{dp}{dt} - 4p - p^2$}
-\label{Phase Line 2}
+\label{figure-phase-line2}
 \end{figure}
 
 The logistic equation leads to logistic growth. We can see
-from the Figure \ref{Phase Line 2} that the trajectories
+from the Figure \ref{figure-phase-line2} that the trajectories
 all point towards the steady state $p=4$. In logistic growth,
 the population wants to approach to some non-zero steady
 state. From below, this is growth up to some maximum and from
 above it is decay down to a minimum. (After exponential
 growth, logistic growth is the most commonly used model for
-populations.) Figure \ref{Exponential and Logistic Growth}
+populations.) Figure \ref{figure-exponential-growth}
 shows both exponential and logistic growth (where the steady
 state for the logistic model is at $p=6$.)
 
@@ -1326,7 +1340,7 @@ state for the logistic model is at $p=6$.)
 \centering
 \includegraphics[width=12cm]{figure44.eps}
 \caption{Exponential and Logistic Growth}
-\label{Exponential and Logistic Growth}
+\label{figure-exponential-growth}
 \end{figure}
 
 \begin{example}
@@ -1347,19 +1361,20 @@ trajectory is increasing.
 \includegraphics[width=12cm]{figure42.eps}
 \caption{The Phase Line Diagram for $\frac{dp}{dt} = p^3 -
 7p^2 + 10p$}
-\label{Phase Line 3}
+\label{figure-phase-line3}
 \end{figure}
 
-\chapter{Two Motivating Problems}
-\label{Two Motivating Problems}
+\section{Two Motivating Problems}
+\label{two-motivating-problems}
 
-\section*{The Velocity Problem}
+\subsection{The Velocity Problem}
+\label{velocity-problem}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=10cm]{figure10.eps}
 \caption{Slope of a Linear Function}
-\label{Slope of a Linear Function}
+\label{figure-slope-linear}
 \end{figure}
 
 Moving from biological examples to physics, the velocity
@@ -1396,7 +1411,7 @@ twice).
  \caption{A Secant Line}
 \end{subfigure}
 \caption{Tangent and Secant Lines}
-\label{Tangent and Secant Lines}
+\label{figure-secant-lines}
 \end{figure}
 
 The slope of a graph is defined to be the slope of its
@@ -1407,7 +1422,7 @@ Again, algebra has trouble with this.  The best that algebra
 can do is find secant lines which approximate a tangent line.
 We adjust the approximation by letting the two points of the
 secant line come closer and closer together, as in the Figure
-\ref{Secant Approximations 1}. In this way, we build an
+\ref{figure-secant-approximations1}. In this way, we build an
 approximation process which can get better an better. However,
 algebra an never finish the process -- it can just supply
 improved approximations.
@@ -1416,10 +1431,11 @@ improved approximations.
 \centering
 \includegraphics[width=12cm]{figure13.eps}
 \caption{Secant Approximations to the Tangent Line}
-\label{Secant Approximations 1}
+\label{figure-secant-approximations1}
 \end{figure}
 
-\section*{The Distance Travelled Problem}
+\subsection{The Distance Travelled Problem}
+\label{distance-problem}
 
 Let's consider the opposite problem. Say we have a function
 $v(t)$ which tells us the velocity of an object at any point
@@ -1439,7 +1455,7 @@ over a period of time?
  \caption{Non-Constant Velocity}
 \end{subfigure}
 \caption{Distance Travelled Problem}
-\label{Distance Travelled 1}
+\label{figure-distance-travelled1}
 \end{figure}
 
 Again, algebra can only answer this
@@ -1448,7 +1464,7 @@ velocity $v(t) = c$ is constant. In this case, if we have
 constant velocity of $c$ unit distance for unit time and we
 have travelled for $t_0$ units of time, the distance is just the
 product $ct_0$. Graphically, the situation is summarized in 
-Figure \ref{Distance Travelled 1}. We can see that the distance
+Figure \ref{figure-distance-travelled1}. We can see that the distance
 travelled under constant velocity is the area under the
 velocity graph.  To solve the distance travelled problem, we
 have to find areas under curves. Like tangent lines, this is
@@ -1469,7 +1485,7 @@ we can use rectanges to approximate areas.
  \caption{Improved Approximation with More Rectangles}
 \end{subfigure}
 \caption{Approximating Areas under Curves}
-\label{Approximating Areas under Curves 1}
+\label{figure-approximating-areas1}
 \end{figure}
 
 The sum of the areas of all the rectangles is reasonable
@@ -1480,8 +1496,11 @@ areas under curves. Algebra can never completely answer the
 question, but it can get better and better approximations by
 using more and more rectangles in its approximation.
 
-\chapter{Limits at Finite Values}
-\label{Limits af Finite Values}
+\chapter{Limits}
+\label{limits}
+
+\section{Limits at Finite Values}
+\label{finite-values}
 
 In the prevous section, the two motivating problems of
 velocity and distance-travelled led us to approximation
@@ -1497,7 +1516,8 @@ understanding an infinite process and asking where the process
 eventually leads.  The limit is the key new tool that
 transcends algebra and creates calculus.
 
-\section*{Defining Limits}
+\subsection{Definitions}
+\label{limit-definitions}
 
 Our definition of limits will be restricted to limits of
 functions. In a limit, we are comparing the input and output
@@ -1516,13 +1536,12 @@ f(x) (the output) gets closer and closer to $L$. If such an
 $L$ exists, we say the limit of $f(x)$ exists at $x=a$; we
 also say that the limit converges. Otherwise we say the limit
 diverges. 
-\clearpage
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=10cm]{figure18.eps}
 \caption{A Convergent Limit}
-\label{A Convergent Limit}
+\label{figure-convergent-limit}
 \end{figure}
 
 There are several ways in which the limit can diverge. The
@@ -1544,23 +1563,24 @@ bound. The statement
 means that the limit does not exist; it doesn't approach any
 number at all.
 
-\section*{Vertical Asymptotes}
+\subsection{Vertical Asymptotes}
+\label{vertical-asymptotes}
 
 For limits which approach $\pm \infty$, we see that the graph
 of the function approaches a verticle line.  These lines are
 called \emph{vertical asymptotes} for the functions.  Vertical
 asymptotes are shown as the dotted lines in the Figure
-\ref{Three Divergent Limits}.
-\clearpage
+\ref{figure-three-divergent-limits}.
 
 \begin{figure}[ht]
 \centering
 \includegraphics{figure19.eps}
 \caption{Three Divergent Limits}
-\label{Three Divergent Limits}
+\label{figure-three-divergent-limits}
 \end{figure}
 
-\section*{One-Sided Limits}
+\subsection{One-Sided Limits}
+\label{one-sided}
 
 In the above definitions, we assume that $x \rightarrow a$
 means $x$ approaches $a$ from both sides, considering $x$ slightly
@@ -1578,7 +1598,8 @@ larger than $a$), we write $a^+$.
 \lim_{x \rightarrow a^+} f(x)
 \end{equation*}
 
-\section*{Calculating Limits}
+\subsection{Calculating Limits}
+\label{calculation-limits}
 
 There is a three step procedure to calculating limits.
 \begin{smallitemize}
@@ -1595,7 +1616,8 @@ conjugates, trig identities) and rules for manipulating limits
 to change the limit into a more approachable form.
 \end{smallitemize}
 
-\section*{Limits Rule}
+\subsection{Limits Rules}
+\label{limit-rules}
 
 The third step referred to the rules for manipulating limits,
 which we will now state.
@@ -1628,10 +1650,11 @@ definition of the exponential base $e$.
 \lim_{x \rightarrow 0^+} \left( 1 + x \right)^{\frac{1}{x}} & = e
 \end{align*}
 
-\chapter{Limits at Infinity and Asymptotic Analysis }
-\label{Limits at Infinity}
+\section{Limits at Infinity}
+\label{limits-at-infinity}
 
-\section*{Definition of Limits at Infinity}
+\subsection{Definitions}
+\label{definitions-at-infinity}
 
 In addition to asking what happens to a function as the input
 approaches paticular finite values, we can also ask what
@@ -1663,10 +1686,11 @@ without bound.
 \centering
 \includegraphics[width=10cm]{figure20.eps}
 \caption{Horizontal Asymptotes}
-\label{Horizontal Asymptotes}
+\label{figure-horizontal-Asymptotes}
 \end{figure}
 
-\section*{Horizontal Asymptotes}
+\subsection{Horizontal Asymptotes}
+\label{horizontal-asymptotes}
 
 If we have a function $f(x)$ where the limit 
 \begin{equation*}
@@ -1676,7 +1700,11 @@ exists either at positive or negative infinity, that means
 that the graph of the function approaches the line $y=L$.
 Such lines are called \emph{horizontal asymptotes}.
 
-\section*{Calculation of Infinite Limits}
+\section{Asymptotic Analysis}
+\label{asymptotic analysis}
+
+\subsection{A Novel Technique}
+\label{novel-technique}
 
 The calculation of infinite limits is similar to the same
 steps as finite limits except that the first step, evaluation,
@@ -1685,8 +1713,6 @@ simple logical explanation. If such an explanation is not
 forthcoming, the limit is an indeterminate form and we use
 algegra and the limit rules. The limit rules apply to infinite
 limits as they did to finite limits.
-
-\section*{Asymptotic Analysis}
 
 In addition to the algebraic methods already discussed, for
 infinite limits there is a powerful technique called
@@ -1710,7 +1736,8 @@ and $g$ has roughly the same growth, then the limit should
 settle to some finite value larger than $0$. This leads to
 the notion of asymptotic order.
 
-\section*{Asymptotic Order}
+\subsection{Asymptotic Order}
+\label{asymptotic-order}
 
 In asymptotic analysis, we start with a quotient limit.
 \begin{equation*}
@@ -1732,7 +1759,8 @@ With this definition, we can evaluate many limits by just
 knowing which functions have greater or lesser asymptotic
 order.
 
-\section*{An Asymptotic Ranking of Functions}
+\subsection{An Asymptotic Ranking of Functions}
+\label{asymptotic-ranking}
 
 Here are several rules for asymptotic order of functions. Many
 of these are obvious, but some require more work to establish.
@@ -1765,7 +1793,8 @@ memorize or frequently reference for many limits in this course.
 There are other functions at the top of this list which grow
 faster than $x^x$, but they are not frequently used.
 
-\section*{Determining Asymptotic Order}
+\section{Determining Asymptotic Order}
+\label{determining-asymptotic-order}
 
 In quotient limits, $f$ and $g$ may be more complicated than
 the simple functions in our asymptotic ranking. We have a
@@ -1783,7 +1812,8 @@ Basically, this says that relationships of asymptotic order are
 preserved in products.
 \end{itemize}
 
-\section*{Ratios with Equivalent Asymptotic Order}
+\section{Ratios with Equivalent Asymptotic Order}
+\label{ratios}
 
 In a quotient limit where $f$ and $g$ have the same asymptotic
 order, we look at the \emph{leading coefficients}. The leading
@@ -1808,8 +1838,8 @@ the constants may be, only the asymptotic order tells us which
 pieces are important.
 \end{example}
 
-\chapter{Limits, Asymptotics and Models}
-\label{Limits, Asymptotics and Models}
+\section{Limits, Asymptotics and Models}
+\label{limits-asymptotics-models}
 
 We can use our tools of limits and asymptotic analysis to
 analyze models. Limits at finite values tell us how models
@@ -1897,14 +1927,14 @@ $V$ is very close to the value $nb$.
 Therefore, in this model, extreme pressures happen near the
 fixed, but non-zero, volume $V = nb$.
 
-\chapter{Continuity}
-\label{Continuity}
+\section{Continuity}
+\label{continuity}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=12cm]{figure45.eps}
 \caption{Continuity}
-\label{Continuity Diagram}
+\label{figure-continuity}
 \end{figure}
 
 A function is continuous at a point $a$ in its domain if 
@@ -1926,7 +1956,8 @@ function.  Visually, the graph of a continuous function is
 connected; it can be drawn without lifting your pen (pencil,
 chalk, etc).
 
-\section*{Intermediate Value Theorem}
+\subsection{Intermediate Value Theorem}
+\label{ivt}
 
 Though it has a formal name, the Intermediate Value Theorem is
 a very sensible and obvious result of continuity. Formally
@@ -1945,10 +1976,11 @@ connected; it can't jump over any intermediate values.
 \centering
 \includegraphics[width=12cm]{figure46.eps}
 \caption{Intermediate Value Theorem}
-\label{Intermediate Value Theorem}
+\label{figure-ivt}
 \end{figure}
 
-\section*{Piecewise Functions}
+\subsection{Piecewise Functions}
+\label{piecewise}
 
 We know that all of our familiar elementary functions are
 continuous on their domains. One might ask why we are worried
@@ -1968,7 +2000,7 @@ f(x) = \left\{ \begin{matrix} g(x) & x < a \\ h(x) & x \geq a
 \centering
 \includegraphics[width=12cm]{figure21.eps}
 \caption{The Heaviside Function}
-\label{The Heaviside Function}
+\label{figure-heaviside}
 \end{figure}
 
 A very well-known example is the Heaviside function.
@@ -1994,7 +2026,7 @@ x^2 + 1 & x \in [0,3] \\
 \end{equation*}
 The domain of this function is $(-5,7)$, which is the union of
 all the intervals of definition in the piecewise expression.
-It's graph is Figure \ref{A Discontinuous Piecewise Function}.
+It's graph is Figure \ref{figure-discontinuous-piecewise}.
 
 Piecewise functions can be extremely strange.
 \begin{equation*}
@@ -2005,16 +2037,16 @@ This function depends on whether its input is rational or
 irrational, returning one and zero respectively. It is a
 horendously discontinuous functions, with ones and zeros
 everywhere and no intermediate values. 
-\clearpage
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=12cm]{figure47.eps}
 \caption{A Discontinuous Piecewise Function}
-\label{A Discontinuous Piecewise Function}
+\label{figure-discontinuous-piecewise}
 \end{figure}
 
-\section*{Continuity of Piecewise Functions}
+\subsection{Continuity of Piecewise Functions}
+\label{piecewise-continuity}
 
 It is important to be able to check if a piecewise function is
 continuous at its crossover point. Say we have a piecewise
@@ -2032,25 +2064,28 @@ three are the same.
 \lim_{x \rightarrow a^+} f(x) = f(a)
 \end{equation*}
 
-\chapter{Definition of the Derivative}
-\label{Definition of the Derivative}
+\chapter{Derivatives}
+\label{derivatives}
 
-\section*{Limits of Secant Line}
+\section{Definition of the Derivative}
+\label{derivative-definition}
+
+\subsection{Limits of Secant Lines}
+\label{secant-lines}
 
 \begin{figure}[ht]
 \centering
 \includegraphics{figure13.eps}
 \caption{Secant Approximations to the Tangent Line}
-\label{Secant Approximations 2}
+\label{figure-secant-approximations2}
 \end{figure}
 
-In Section \ref{Population Growth}, we defined the derivative
-as the rate of change of a function. In Section \ref{Two
-Motivating Problems}, we
-connected that definition to the geometry of slopes of tangent
-lines and constructed a process by which algebra can
-approximate a tangent line by using secant lines. Now that we
-have limits, we can ask for the limit of that approximation
+In Section \ref{population-growth}, we defined the derivative as the
+rate of change of a function. In Section
+\ref{two-motivating-problems}, we connected that definition to the
+geometry of slopes of tangent lines and constructed a process by which
+algebra can approximate a tangent line by using secant lines. Now that
+we have limits, we can ask for the limit of that approximation
 process.
 
 Let's say we want the slope of the tangent line at a point
@@ -2091,7 +2126,8 @@ f^\prime(x) = \frac{df}{dx} = \lim_{h \rightarrow 0}
 \frac{f(x+h) - f(x)}{h} 
 \end{equation*}
 
-\section*{Differential Operators}
+\subsection{Differential Operators}
+\label{operators}
 
 We think of the derivative as an operation on functions: it
 takes a function and gives us a new function which measures
@@ -2108,7 +2144,8 @@ With this notation, we think of $\frac{d}{dx}$ as the
 operator: the thing that takes derivatives. Having notation
 for such an operator is extremely convenient.
 
-\section*{Differentiability}
+\subsection{Differentiability}
+\label{differentiability}
 
 The limit defining the derivative may not always exist. If it
 does exist at a point $a$ in the domain, we say that $f$ is
@@ -2121,7 +2158,7 @@ Differentiability also requires a `smoothness' condition. A
 function whose graph has sharp corners is not differentiable
 at the sharp corners, because it doesn't make sense to define
 a tangent line at a sharp corner. The graph of the function
-must be smooth. Figure \ref{Differentiability Problems}  shows
+must be smooth. Figure \ref{figure-differentiability-problems} shows
 how a jump or sharp corner makes the choice of a tangent line
 problematic.
 
@@ -2129,10 +2166,11 @@ problematic.
 \centering
 \includegraphics[width=12cm]{figure48.eps}
 \caption{Differentiability Problems}
-\label{Differentiability Problems}
+\label{figure-differentiability-problems}
 \end{figure}
 
-\section*{Interpretation}
+\subsection{Interpretation}
+\label{derivative-interpretation}
 
 Now that we have a definition of the derivative and
 differentiability, let's review what this all means. The
@@ -2151,14 +2189,15 @@ domain. In the applied interpretation, this means that the
 function has a well-defined rate of change at all points in
 its domain.
 
-\chapter{Derivative Rules Part 1}
-\label{Derivative Rules Part 1}
+\section{Rules for Differentiation}
+\label{derivative-rules}
 
 Now that we have the definition and an idea of its meaning, we
 move on to several lectures on the technical details of
 calculating derivatives. 
 
-\section*{Important Derivatives}
+\subsection{Important Derivatives}
+\label{important-derivatives}
 
 We'll start with a number of standard derivatives. If a
 function is constant, its rate of change is zero, so its must
@@ -2194,26 +2233,26 @@ The vertical line means ``evaluated at $x=0$''.
 
 This formula shows that derivative of $a^x$ is formed by
 multiply by the derivative at $x=0$. Note that all
-exponentials go through the point $(0,1)$. Figure \ref{Four
-Exponential Functions} shows the the graphs of several
-exponential function (for bases $a > 1$).
+exponentials go through the point $(0,1)$. Figure
+\ref{figure-four-exponential-functions} shows the the graphs of
+several exponential function (for bases $a > 1$).
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=10cm]{figure49.eps}
 \caption{Four Exponential Functions}
-\label{Four Exponential Functions}
+\label{figure-four-exponential-functions}
 \end{figure}
 
 The slope at $(0,1)$ determines
-the derivative. As seen in the Figure \ref{Four Exponential
-Functions}, for different
-choices of the base, we get different slopes going through the
-point $(0,1)$. There is one special base which has slope $1$ at the
-point $(0,1)$. By definition, that base is the number $e$.
-(This number was defined earlier by a limit and we in Calculus
-II that the two definitions coincide.) By definition, the
-function $e^x$ satisfies an important property.
+the derivative. As seen in the Figure
+\ref{figure-four-exponential-functions}, for different choices of the
+base, we get different slopes going through the point $(0,1)$. There
+is one special base which has slope $1$ at the point $(0,1)$. By
+definition, that base is the number $e$.  (This number was defined
+earlier by a limit and we in Calculus II that the two definitions
+coincide.) By definition, the function $e^x$ satisfies an important
+property.
 \begin{equation*}
 \frac{d}{dx} e^x = e^x
 \end{equation*}
@@ -2221,7 +2260,8 @@ This is the main reason that we are so fond of $e$ as an
 expoenntial base. $e^x$ is the nicest function to
 differentiate, since it doesn't change at all. 
 
-\section*{Power Rule}
+\subsection{Power Rule}
+\label{power-rule}
 
 So far, we've looked at specific derivatives and used the
 definition to work them out. This approach quickly becomes
@@ -2246,7 +2286,8 @@ x^{n-2}h^2 + \ldots + nxh^{n-1} + h^n}{h} \\
 & = nx^{n-1}
 \end{align*}
 
-\section*{Linearity}
+\subsection{Linearity}
+\label{derivatives-linearity}
 
 The next rules is a set of three rules which are called
 linearity. (Linearity shows that derivatives addition,
@@ -2276,7 +2317,8 @@ polynomial.
 \end{align*}
 \end{example}
 
-\section*{Leibniz Rule}
+\subsection{Leibniz Rule}
+\label{leibniz-rule}
 
 Limits worked well with all four arithmetic operations:
 addition, subtraction, multiplication and division. We might
@@ -2316,7 +2358,8 @@ g(x) \lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h} \\
 \end{align*}
 \end{example}
 
-\section*{Quotient Rule}
+\subsection{Quotient Rule}
+\label{quotient-rule}
 
 Let $f$ be a differentiable function
 and $g$ be a differentiable function with $g(x) \neq 0$, then
@@ -2337,10 +2380,8 @@ x}{dx}}{\cos^2 x} = \frac{\cos^2 x + \sin^2 x}{\cos^2 x} =
 \end{align*}
 \end{example}
 
-\chapter{Derivative Rules Part 2}
-\label{Derivative Rules Part 2}
-
-\section*{Chain Rule}
+\subsection{Chain Rule}
+\label{chain-rule}
 
 The rules we have so far give us the tools to calculate many
 derivatives. However, they don't address composition. 
@@ -2369,7 +2410,6 @@ In this last version of the chain rule, we can think of the
 infinitesimals $df$, $dg$ and $dx$ as something like fractions
 in Leibniz notation ($\frac{df}{dx}$). These terms are not
 fractions, but they act a bit like fractions.
-\clearpage
 
 The proof of the chain rule is tricky, but the following
 argument gives the idea. The argument is a little imprecise
@@ -2420,7 +2460,6 @@ arbitrary exponential functions in more detail than before:
 a^x \ln a 
 \end{align*}
 \end{example}
-\clearpage
 
 \begin{example}
 We can also use the chain rule with a neat little exponential
@@ -2444,7 +2483,8 @@ fg^\prime}{g^2}
 \end{align*}
 \end{example}
 
-\section*{Derivatives of Inverse Functions}
+\subsection{Derivatives of Inverse Functions}
+\label{derivatives-inverse-functions}
 
 We just used the rule $\frac{d}{dx} \ln x = \frac{1}{x}$
 without justification. What is this justification? The
@@ -2474,7 +2514,6 @@ functions.
 \frac{d}{dx} \arctan x & = \frac{1}{\sec^2(\arctan x)} =
 \frac{1}{1+\tan^2(\arctan x)} = \frac{1}{1+x^2} 
 \end{align*}
-\clearpage
 
 \begin{example}
 \begin{align*}
@@ -2508,10 +2547,11 @@ x + \sqrt{x^2-9} ) \right) \\
 \end{align*}
 \end{example}
 
-\chapter{Tangent Lines and Implicit Derivatives}
-\label{Implicit Derivatives}
+\section{Tangent Lines and Implicit Derivatives}
+\label{tangent-lines-implicit}
 
-\section*{Equations of Tangent Lines}
+\subsection{Equations of Tangent Lines}
+\label{equations-tangent-lines}
 
 By definition, a derivative is the slope of a tangent line to
 a function. Therefore, once we can calculate derivatives using
@@ -2553,7 +2593,8 @@ The tangent lien to the function $f(x) = \sqrt{x}$ at the
 point $(9,3)$ is the line $y = \frac{x}{6} + \frac{3}{2}$. 
 \end{example}
 
-\section*{Implicit Derivatives}
+\subsection{Implicit Derivatives}
+\label{implicit-derivatives}
 
 So far, we've looked for the slopes of tangent lines to the
 graphs of functions. We could  consider a broader category of
@@ -2569,7 +2610,7 @@ them?
 \centering
 \includegraphics[width=6cm]{figure50.eps}
 \caption{Tangent Lines to the Circle}
-\label{Tangent Lines to the Circle}
+\label{figure-tangent-lines-circle}
 \end{figure}
 
 The technique for finding these slopes is a technique called
@@ -2630,8 +2671,8 @@ function of $x$ breaks down. However, even with these
 restrictions, implicit differentiation is a powerful
 technique.
 
-\chapter{Higher Derivatives}
-\label{Higher Derivatives}
+\section{Higher Derivatives}
+\label{higher-derivatives}
 
 Starting with a differentiable function $f(x)$, we used
 derivatives to get a whole new function $f^\prime(x)$ which
@@ -2730,8 +2771,8 @@ one, until we eventually get to zero. If we take enough
 derivatives of any polynomial, we will eventually reach zero.
 \end{example}
 
-\chapter{Linear Approximation}
-\label{Linear Approximation}
+\section{Linear Approximation}
+\label{linear-approximation}
 
 In this last section on differentiation, we discuss a third
 interpretation of the derivative. So far, we have viewed the 
@@ -2743,25 +2784,24 @@ function.
 \centering
 \includegraphics[width=10cm]{figure51.eps}
 \caption{Tangent Lines and Linear Approximation}
-\label{Tangent Lines and Linear Approximation}
+\label{figure-linear-approximation}
 \end{figure}
 
-In Figure \ref{Tangent Lines and Linear Approximation}, we've
+In Figure \ref{figure-linear-approximation}, we've
 drawn the function $f(x) = 3^x$ and the tangent line at the
 point $(1,3)$. The derivative is $f^\prime(x) = 3^x \ln 3$, so
 the slope at $(1,3)$ is $3 \ln 3$, which is approximatly
 $3.296$. The equation of the tangent line is $y = (3 \ln 3) x
 + (3 - 3 \ln 3)$. 
-\clearpage
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=10cm]{figure52.eps}
 \caption{Close Zoom of a Tangent Line}
-\label{Close Zoom of a Tangent Line}
+\label{figure-tangent-zoom}
 \end{figure}
 
-In Figure \ref{Close Zoom of a Tangent Line} we zoom in very
+In Figure \ref{figure-tangent-zoom} we zoom in very
 close on $(1,3)$.  In this zoom, the graph of the function and
 the graph of the tangent line are very close. That means that
 value of the function is very close to the value of the linear
@@ -2787,8 +2827,11 @@ have these linear approximations:
 In trigonometry, we use these identities frequently. For small
 angles, we often replace $\sin x \cong x$ and $\cos x \cong 1$.
 
-\chapter{Sigma Notation}
-\label{Sigma Notation}
+\chapter{Integrals}
+\label{integrals}
+
+\section{Sigma Notation}
+\label{sigma-notation}
 
 Sigma notation is a convenient way to write large and
 complicated sums. The name comes from the fact that is uses
@@ -2881,16 +2924,17 @@ first $n$ cubes is always a square. You are welcome to check
 for yourself: the first few sums are $1$, $9$, $36$, $100$ and
 $225$, all of which are square. 
 
-\chapter{Riemann Integral}
-\label{Riemann Integral}
+\section{The Riemann Integral}
+\label{riemann-integral}
 
-\section*{The Definite Integral}
+\subsection{Definition}
+\label{integral-definition}
 
 Recall the distance travelled problem, where we tried to
 understand the distance travelled by an object when we knew
 its velocity function $v(t)$. Geometrically, this was
 equivalent to finding the area under the graph of the
-function, as in Figure \ref{Distance Travelled 2}. 
+function, as in Figure \ref{figure-distance-travelled2}.
 
 \begin{figure}[ht]
 \centering
@@ -2905,7 +2949,7 @@ function, as in Figure \ref{Distance Travelled 2}.
  \caption{Non-Constant Velocity}
 \end{subfigure}
 \caption{Distance Travelled}
-\label{Distance Travelled 2}
+\label{figure-distance-travelled2}
 \end{figure}
 
 We set up a process to solve this problem, at
@@ -2915,7 +2959,6 @@ under the curve and adding up the area of the rectangles.
 Integration will be the limit of this approximation process,
 just as differentiation was the limit of the approximation
 process of secant lines approaching the tangent line. 
-\clearpage
 
 \begin{figure}[t]
 \centering
@@ -2930,7 +2973,7 @@ process of secant lines approaching the tangent line.
  \caption{Improved Approximation with More Rectangles}
 \end{subfigure}
 \caption{Approximating Areas under Curves}
-\label{Approximating Areas under Curves 2}
+\label{figure-approximating-areas2}
 \end{figure}
 
 Sigma notation gives us a concice notation for the
@@ -3042,7 +3085,8 @@ x^*_k \right] \frac{b-a}{n} \\
 \end{align*}
 \end{example}
 
-\section*{Properties of the Definite Integral}
+\subsection{Properties of the Definite Integral}
+\label{integral-properties}
 
 The definite integral is linear.
 \begin{align*} 
@@ -3065,8 +3109,8 @@ whole interval $[a,c]$.
 \int_a^bf(x) dx + \int_b^c f(x) dx = \int_a^c f(x) dx 
 \end{equation*}
 
-\chapter{The Fundamental Theorem} 
-\label{The Fundamental Theorem}
+\section{The Fundamental Theorem} 
+\label{fundamental-theorem}
 
 As mentioned above, we need a way to avoid using the
 definition. With derivative, we just developed a series of
@@ -3103,7 +3147,7 @@ interesting functions in mathematics.
 \end{example}
 
 Now that we have this function $f(x)$, we can look at its
-derivative. Figure \ref{The Area Function} gives a useful
+derivative. Figure \ref{figure-area-function} gives a useful
 visualization. In the figure,  we've labelled a
 point $x$ and a small increase $x+h$.
 
@@ -3111,7 +3155,7 @@ point $x$ and a small increase $x+h$.
 \centering
 \includegraphics[width=10cm]{figure53.eps}
 \caption{The Area Function $f(x)$}
-\label{The Area Function}
+\label{figure-area-function}
 \end{figure}
 
 We use the limit definition of the derivative.
@@ -3119,9 +3163,9 @@ We use the limit definition of the derivative.
 \frac{d}{dx} f(x) = \lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h}
 \end{equation*}
 Since $f$ measures area, the difference $f(x+h) - f(x)$ is just
-the area of the very thin rectangle in Figure \ref{The Area
-Function}.  When $h$ is small, this area is roughly the height
-$g(x)$ times the width $h$. 
+the area of the very thin rectangle in Figure
+\ref{figure-area-function}.  When $h$ is small, this area is roughly
+the height $g(x)$ times the width $h$.
 \begin{equation*}
 \frac{d}{dx} f(x) = \lim_{h \rightarrow 0} \frac{g(x) h}{h} =
 g(x)
@@ -3210,8 +3254,8 @@ The antiderivative of $x^2$ is $\frac{x^3}{3}$.
 \end{equation*}
 \end{example}
 
-\chapter{The Substitution Rule}
-\label{The Substitution Rule}
+\section{The Substitution Rule}
+\label{substitution-rule}
 
 Since doing integrals is doing derivatives backwards, we might
 try to start reversing all the differentiation rules.
@@ -3311,10 +3355,11 @@ x \quad du = -\sin x dx \quad u(0) = 1 \quad u(\pi/4) =
 \end{align*}
 \end{example}
 
-\chapter{Solving Differential Equations}
-\label{Solving Differential Equations}
+\section{Solving Differential Equations}
+\label{des}
 
-\section*{Solving By Direct Integration}
+\subsection{Solving By Direct Integration}
+\label{direct-integration}
 
 Early in the course, we talked about differential equations in
 order to understand derivatives as rates of changes. We looked
@@ -3341,7 +3386,8 @@ funciton $f$.
 f(x) = \int g(x) dx
 \end{equation*}
 
-\section*{Initial Value Problems}
+\subsection{Initial Value Problems}
+\label{ivps}
 
 When we integrate to solve a DE, we will get a constant of integration. 
 In order to determine that constant, we are often
@@ -3379,7 +3425,8 @@ f(x) & = \arctan x + \frac{3\pi}{4}
 \end{align*}
 \end{example}
 
-\section*{Seperable Differential Equation}
+\subsection{Seperable Differential Equations}
+\label{seperable}
 
 Solving DEs is a very difficult task is general; the previous
 examples were all artificially simple. For this course, we're
@@ -3465,10 +3512,14 @@ y & = 2 \tanh (-2x)
 \end{align*}
 \end{example}
 
-\chapter{L'H\^opital's Rule}
-\label{L'Hopital's Rule}
+\chapter{Applications of Derivatives}
+\label{applications-derivatives}
 
-\section*{Indeterminate Forms}
+\section{L'H\^opital's Rule}
+\label{h-rule}
+
+\subsection{Indeterminate Forms}
+\label{intederminate-forms}
 
 Recall that a limit is called an \emph{indeterminate form} if
 it cannot be evaluated or logically determined. We can
@@ -3500,7 +3551,8 @@ with the one-sided limit or $x \rightarrow \pm \infty$; the
 indeterminate forms are classified the same way for any type
 of limit.
 
-\section*{L'H\^opital's Rule}
+\subsection{L'H\^opital's Rule}
+\label{h-rule-definition}
 
 The first application of derivatives is a strange reversal:
 after using limits to define derivatives, we are going to use
@@ -3534,8 +3586,8 @@ saying that the logarithm $\ln x$ is asymptotically slower
 that $\sqrt{x}$. 
 \end{example}
 
-\chapter{Extrema}
-\label{Extrema}
+\section{Extrema}
+\label{extrema}
 
 Let $f: [a,b] \rightarrow \RR$ be a function. 
 \begin{smallitemize}
@@ -3557,14 +3609,14 @@ for all $x$ in the domain.
 One of the most important uses of derivatives is finding local
 extrema. The reason that derivatives are useful is that local
 extrema (for differentiable functions) are identified by their
-tangent lines. Look at the tangent lines Figure \ref{Tangent
-Lines at Extrema}.
+tangent lines. Look at the tangent lines Figure
+\ref{figure-tangent-lines-at-extrema}. 
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=10cm]{figure54.eps}
 \caption{Tangent Lines at Extrema}
-\label{Tangent Lines at Extrema}
+\label{figure-tangent-lines-at-extrema}
 \end{figure}
 
 The tangent lines are horizontal at maximum or minimum values.
@@ -3641,7 +3693,7 @@ f \text{ is increasing.} & f \text{ is decreasing.}
 Then at $x=-3$, the function switches from increasing to
 decreasing, so $(-3,85)$ is a local maximum. At $x=2$, the
 function switches from decreasing to increasing, so $(2,-48)$
-is a local minimum. Figure \ref{Cubic Extrema Example} shows
+is a local minimum. Figure \ref{figure-cubic-extrema-example} shows
 the behaviour.
 \end{example}
 
@@ -3649,11 +3701,14 @@ the behaviour.
 \centering
 \includegraphics[width=10cm]{figure55.eps}
 \caption{Extrema of a Cubic}
-\label{Cubic Extrema Example}
+\label{figure-cubic-extrema-example}
 \end{figure}
 
-\chapter{Optimization}
-\label{Optimization}
+\section{Optimization}
+\label{optimization}
+
+\subsection{Extreme Values of Models}
+\label{models-exterem-values}
 
 Now that we understand how to find extrema using derivatives,
 we can use this technique to solve optimization problems.  An
@@ -3669,15 +3724,14 @@ A very classic (if somewhat contrived) example of an
 optmization problem is maximing the area of a rectangle with
 fixed perimeter. Let's say that $P$ is the fixed perimeter and
 the rectangle has height $h$ and length $l$, as in Figure
-\ref{A Fixed-Perimeter Rectangle}.
+\ref{figure-fixed-perimeter-rectangle}.
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=10cm]{figure56.eps}
 \caption{A Fixed-Perimeter Rectangle}
-\label{A Fixed-Perimeter Rectangle}
+\label{figure-fixed-perimeter-rectangle}
 \end{figure}
-\clearpage
 
 We want to maximize area, so we will eventually be
 differentiating an area function. However, the area function
@@ -3696,18 +3750,19 @@ the result shows that a square (where both $l$ and $h$ are
 exactly one quarter of the perimeter) maximizes area.
 \end{example}
 
-\section{Optimized Distances}
+\subsection{Optimized Distances}
+\label{optmized-distances}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=8cm]{figure65.eps}
 \caption{Distance Between Points}
-\label{Distance Between Points}
+\label{figure-distance-between-points}
 \end{figure}
 
 Many applications of optmization are found in geometry, both
 for purely mathematics and very practical reasons. As shown in
-Figure \ref{Distance Between Points}, the distance between two
+Figure \ref{figure-distance-between-points}, the distance between two
 points $(a,b)$ and $(c,d)$ is determined by Pythagorus:
 $\sqrt{(c-a)^2 + (b-d)^2}$. This function, with squares and a
 square root, is not the nicest funtion to work with and
@@ -3724,7 +3779,7 @@ this is a much easier function to work with.
 \centering
 \includegraphics[width=8cm]{figure66.eps}
 \caption{A Distance Optimization}
-\label{A Distance Optimization}
+\label{figure-distance-optimization}
 \end{figure}
 
 \begin{example}
@@ -3764,12 +3819,13 @@ We conclude that there is a minimum at $x=\sqrt[3]{32}$.
 Since $y = \frac{x^2}{4}$, the corresponding $y$ value is
 $\frac{(\sqrt[3]{32})^2}{4}$.  The closest point on the
 parabola to $(4,2)$ is $P = \left( \sqrt[3]{32},
-\frac{(\sqrt[3]{32})^2}{4} \right)$. Figure \ref{A Distance
-Optimization} shows the outcome of the optimization.
+\frac{(\sqrt[3]{32})^2}{4} \right)$. Figure
+\ref{figure-distance-optimization} shows the outcome of the
+optimization.
 \end{example}
 
-\chapter{Marginal Analysis}
-\label{Marginal Analysis}
+\subsection{Marginal Analysis}
+\label{marginal-analysis}
 
 A nice use of optimization happens in economic and finance
 through a technique called marginal analysis.  Naively,
@@ -3836,7 +3892,7 @@ between the various questions.
 \centering
 \includegraphics[width=12cm]{figure57.eps}
 \caption{Example of Marginal Analysis}
-\label{Example of Marginal Analysis}
+\label{figure-marginal-analysis}
 \end{figure}
 
 \begin{example}
@@ -3864,8 +3920,8 @@ $0.45$ and $1.81$. We discard the negative value again. The
 largest break-even point is at approximately $1.81$. 
 \end{example}
 
-\chapter{Curve Sketching}
-\label{Curve Sketching}
+\section{Curve Sketching}
+\label{curve-sketching}
 
 In the last two lectures of the course, we want to pull
 together all of the techniques we have learned in order to
@@ -3931,7 +3987,7 @@ of the second derivative.
 \centering
 \includegraphics[width=12cm]{figure58.eps}
 \caption{$f(x) = x \ln x$}
-\label{Curve Sketching Example 1}
+\label{figure-curve-sketching1}
 \end{figure}
 
 \begin{example}
@@ -3980,7 +4036,7 @@ concave up on $(0, \infty)$, which is the entire domain.
 \centering
 \includegraphics[width=12cm]{figure59.eps}
 \caption{$f(x) = xe^{-x^2}$}
-\label{Curve Sketching Example 2}
+\label{figure-curve-sketching2}
 \end{figure}
 
 \begin{example}
@@ -4041,7 +4097,7 @@ concave up}
 \centering
 \includegraphics[width=12cm]{figure60.eps}
 \caption{$f(x) = x^4 + 8x^3 - 270x^2 + 10$}
-\label{Curve Sketching Example 3}
+\label{figure-curve-sketching-example3}
 \end{figure}
 
 \begin{example}
@@ -4092,8 +4148,8 @@ f^{\prime\prime} (x) > 0 \\[1em]
 \end{smallparts}
 \end{example}
 
-\chapter{Model Interpretation}
-\label{Model Interpretation}
+\section{Model Interpretation}
+\label{model-interpretation}
 
 In the previous section, we combined many techniques from the
 whole course together in order to sketch curves. In this
@@ -4176,9 +4232,8 @@ eventually dropping to near-zero levels.
 \centering
 \includegraphics[width=12cm]{figure62.eps}
 \caption{A Model of Radioactivity}
-\label{A Model of Radioactivity}
+\label{figure-model-radioactivity}
 \end{figure}
-\clearpage
 
 \begin{example}
 Conisder a population model, where $p$ is
@@ -4216,9 +4271,8 @@ seasonal variation in growth.
 \centering
 \includegraphics[width=12cm]{figure61.eps}
 \caption{A Population Model}
-\label{A Population Model}
+\label{figure-population-model}
 \end{figure}
-\clearpage
 
 \begin{example}
 Consider a  model of temperature in a chemical
@@ -4260,7 +4314,7 @@ operate for relatively small $t$.
 \centering
 \includegraphics[width=12cm]{figure63.eps}
 \caption{A Temperature Model}
-\label{A Temperature Model}
+\label{figure-temperature-model}
 \end{figure}
 
 The description of models is, in many ways, the culmulation of
