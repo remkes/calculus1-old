@@ -6,97 +6,97 @@
 \contentsline {section}{\numberline {2.1}Analytic Geometry}{5}{section.2.1}% 
 \contentsline {subsection}{\numberline {2.1.1}The Cartesian Plane}{5}{subsection.2.1.1}% 
 \contentsline {subsection}{\numberline {2.1.2}Loci}{6}{subsection.2.1.2}% 
-\contentsline {subsection}{\numberline {2.1.3}Lines}{6}{subsection.2.1.3}% 
-\contentsline {subsection}{\numberline {2.1.4}Conics}{7}{subsection.2.1.4}% 
-\contentsline {subsection}{\numberline {2.1.5}Other Loci}{10}{subsection.2.1.5}% 
-\contentsline {subsection}{\numberline {2.1.6}Intersection}{11}{subsection.2.1.6}% 
-\contentsline {subsection}{\numberline {2.1.7}Shifts}{11}{subsection.2.1.7}% 
-\contentsline {section}{\numberline {2.2}Functions}{12}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Functions on $\mathbb {R}$}{13}{subsection.2.2.1}% 
-\contentsline {section}{\numberline {2.3}Types of Functions}{14}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}Constant Functions}{14}{subsection.2.3.1}% 
-\contentsline {subsection}{\numberline {2.3.2}Linear Functions}{15}{subsection.2.3.2}% 
-\contentsline {subsection}{\numberline {2.3.3}Quadratic Functions}{15}{subsection.2.3.3}% 
-\contentsline {subsection}{\numberline {2.3.4}Polynomial Functions}{15}{subsection.2.3.4}% 
-\contentsline {subsection}{\numberline {2.3.5}Rational Functions}{16}{subsection.2.3.5}% 
-\contentsline {subsection}{\numberline {2.3.6}Algebraic Functions}{16}{subsection.2.3.6}% 
-\contentsline {subsection}{\numberline {2.3.7}Trigonometric Functions}{17}{subsection.2.3.7}% 
-\contentsline {subsection}{\numberline {2.3.8}Exponential and Logarithmic Functions}{17}{subsection.2.3.8}% 
-\contentsline {subsection}{\numberline {2.3.9}Hyperbolic Functions}{18}{subsection.2.3.9}% 
-\contentsline {subsection}{\numberline {2.3.10}Elementary Functions}{18}{subsection.2.3.10}% 
-\contentsline {section}{\numberline {2.4}Properties of Functions}{19}{section.2.4}% 
-\contentsline {section}{\numberline {2.5}Operations on Functions}{20}{section.2.5}% 
-\contentsline {subsection}{\numberline {2.5.1}Pointwise Operations}{20}{subsection.2.5.1}% 
-\contentsline {subsection}{\numberline {2.5.2}Composition}{20}{subsection.2.5.2}% 
-\contentsline {subsection}{\numberline {2.5.3}Inversion}{21}{subsection.2.5.3}% 
-\contentsline {subsection}{\numberline {2.5.4}Restriction of Domain}{22}{subsection.2.5.4}% 
-\contentsline {section}{\numberline {2.6}Models}{22}{section.2.6}% 
-\contentsline {subsection}{\numberline {2.6.1}Regression}{23}{subsection.2.6.1}% 
-\contentsline {section}{\numberline {2.7}Population Growth}{24}{section.2.7}% 
-\contentsline {section}{\numberline {2.8}Autonomous Differential Equations}{27}{section.2.8}% 
-\contentsline {subsection}{\numberline {2.8.1}Phase Line Analysis}{27}{subsection.2.8.1}% 
-\contentsline {section}{\numberline {2.9}Two Motivating Problems}{29}{section.2.9}% 
-\contentsline {subsection}{\numberline {2.9.1}The Velocity Problem}{29}{subsection.2.9.1}% 
-\contentsline {subsection}{\numberline {2.9.2}The Distance Travelled Problem}{29}{subsection.2.9.2}% 
-\contentsline {chapter}{\numberline {3}Limits}{33}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Limits at Finite Values}{33}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}Definitions}{33}{subsection.3.1.1}% 
-\contentsline {subsection}{\numberline {3.1.2}Vertical Asymptotes}{34}{subsection.3.1.2}% 
-\contentsline {subsection}{\numberline {3.1.3}One-Sided Limits}{34}{subsection.3.1.3}% 
-\contentsline {subsection}{\numberline {3.1.4}Calculating Limits}{35}{subsection.3.1.4}% 
-\contentsline {subsection}{\numberline {3.1.5}Limits Rules}{35}{subsection.3.1.5}% 
-\contentsline {section}{\numberline {3.2}Limits at Infinity}{36}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}Definitions}{36}{subsection.3.2.1}% 
-\contentsline {subsection}{\numberline {3.2.2}Horizontal Asymptotes}{37}{subsection.3.2.2}% 
-\contentsline {section}{\numberline {3.3}Asymptotic Analysis}{37}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}A Novel Technique}{37}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Asymptotic Order}{38}{subsection.3.3.2}% 
-\contentsline {subsection}{\numberline {3.3.3}An Asymptotic Ranking of Functions}{38}{subsection.3.3.3}% 
-\contentsline {section}{\numberline {3.4}Determining Asymptotic Order}{39}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Ratios with Equivalent Asymptotic Order}{39}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Limits, Asymptotics and Models}{39}{section.3.6}% 
-\contentsline {section}{\numberline {3.7}Continuity}{41}{section.3.7}% 
-\contentsline {subsection}{\numberline {3.7.1}Intermediate Value Theorem}{41}{subsection.3.7.1}% 
-\contentsline {subsection}{\numberline {3.7.2}Piecewise Functions}{42}{subsection.3.7.2}% 
-\contentsline {subsection}{\numberline {3.7.3}Continuity of Piecewise Functions}{44}{subsection.3.7.3}% 
-\contentsline {chapter}{\numberline {4}Derivatives}{45}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Definition of the Derivative}{45}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Limits of Secant Lines}{45}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Differential Operators}{46}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}Differentiability}{47}{subsection.4.1.3}% 
-\contentsline {subsection}{\numberline {4.1.4}Interpretation}{47}{subsection.4.1.4}% 
-\contentsline {section}{\numberline {4.2}Rules for Differentiation}{48}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Important Derivatives}{48}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Power Rule}{49}{subsection.4.2.2}% 
-\contentsline {subsection}{\numberline {4.2.3}Linearity}{49}{subsection.4.2.3}% 
-\contentsline {subsection}{\numberline {4.2.4}Leibniz Rule}{50}{subsection.4.2.4}% 
-\contentsline {subsection}{\numberline {4.2.5}Quotient Rule}{51}{subsection.4.2.5}% 
-\contentsline {subsection}{\numberline {4.2.6}Chain Rule}{51}{subsection.4.2.6}% 
-\contentsline {subsection}{\numberline {4.2.7}Derivatives of Inverse Functions}{53}{subsection.4.2.7}% 
-\contentsline {section}{\numberline {4.3}Tangent Lines and Implicit Derivatives}{54}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}Equations of Tangent Lines}{54}{subsection.4.3.1}% 
-\contentsline {subsection}{\numberline {4.3.2}Implicit Derivatives}{55}{subsection.4.3.2}% 
-\contentsline {section}{\numberline {4.4}Higher Derivatives}{56}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Linear Approximation}{58}{section.4.5}% 
-\contentsline {chapter}{\numberline {5}Integrals}{60}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Sigma Notation}{60}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}The Riemann Integral}{62}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}Definition}{62}{subsection.5.2.1}% 
-\contentsline {subsection}{\numberline {5.2.2}Properties of the Definite Integral}{65}{subsection.5.2.2}% 
-\contentsline {section}{\numberline {5.3}The Fundamental Theorem}{66}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}The Substitution Rule}{68}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Solving Differential Equations}{70}{section.5.5}% 
-\contentsline {subsection}{\numberline {5.5.1}Solving By Direct Integration}{70}{subsection.5.5.1}% 
-\contentsline {subsection}{\numberline {5.5.2}Initial Value Problems}{71}{subsection.5.5.2}% 
-\contentsline {subsection}{\numberline {5.5.3}Seperable Differential Equations}{72}{subsection.5.5.3}% 
-\contentsline {chapter}{\numberline {6}Applications of Derivatives}{75}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}L'H\^opital's Rule}{75}{section.6.1}% 
-\contentsline {subsection}{\numberline {6.1.1}Indeterminate Forms}{75}{subsection.6.1.1}% 
-\contentsline {subsection}{\numberline {6.1.2}L'H\^opital's Rule}{76}{subsection.6.1.2}% 
-\contentsline {section}{\numberline {6.2}Extrema}{76}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}Optimization}{78}{section.6.3}% 
-\contentsline {subsection}{\numberline {6.3.1}Extreme Values of Models}{78}{subsection.6.3.1}% 
-\contentsline {subsection}{\numberline {6.3.2}Optimized Distances}{79}{subsection.6.3.2}% 
-\contentsline {subsection}{\numberline {6.3.3}Marginal Analysis}{81}{subsection.6.3.3}% 
-\contentsline {section}{\numberline {6.4}Curve Sketching}{82}{section.6.4}% 
-\contentsline {section}{\numberline {6.5}Model Interpretation}{87}{section.6.5}% 
+\contentsline {subsection}{\numberline {2.1.3}Lines}{7}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.4}Conics}{8}{subsection.2.1.4}% 
+\contentsline {subsection}{\numberline {2.1.5}Other Loci}{11}{subsection.2.1.5}% 
+\contentsline {subsection}{\numberline {2.1.6}Intersection}{12}{subsection.2.1.6}% 
+\contentsline {subsection}{\numberline {2.1.7}Shifts}{12}{subsection.2.1.7}% 
+\contentsline {section}{\numberline {2.2}Functions}{14}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Functions on $\mathbb {R}$}{14}{subsection.2.2.1}% 
+\contentsline {section}{\numberline {2.3}Types of Functions}{15}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Constant Functions}{15}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Linear Functions}{16}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}Quadratic Functions}{16}{subsection.2.3.3}% 
+\contentsline {subsection}{\numberline {2.3.4}Polynomial Functions}{16}{subsection.2.3.4}% 
+\contentsline {subsection}{\numberline {2.3.5}Rational Functions}{17}{subsection.2.3.5}% 
+\contentsline {subsection}{\numberline {2.3.6}Algebraic Functions}{17}{subsection.2.3.6}% 
+\contentsline {subsection}{\numberline {2.3.7}Trigonometric Functions}{18}{subsection.2.3.7}% 
+\contentsline {subsection}{\numberline {2.3.8}Exponential and Logarithmic Functions}{18}{subsection.2.3.8}% 
+\contentsline {subsection}{\numberline {2.3.9}Hyperbolic Functions}{19}{subsection.2.3.9}% 
+\contentsline {subsection}{\numberline {2.3.10}Elementary Functions}{20}{subsection.2.3.10}% 
+\contentsline {section}{\numberline {2.4}Properties of Functions}{20}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Operations on Functions}{22}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Pointwise Operations}{22}{subsection.2.5.1}% 
+\contentsline {subsection}{\numberline {2.5.2}Composition}{22}{subsection.2.5.2}% 
+\contentsline {subsection}{\numberline {2.5.3}Inversion}{22}{subsection.2.5.3}% 
+\contentsline {subsection}{\numberline {2.5.4}Restriction of Domain}{23}{subsection.2.5.4}% 
+\contentsline {section}{\numberline {2.6}Models}{24}{section.2.6}% 
+\contentsline {subsection}{\numberline {2.6.1}Regression}{25}{subsection.2.6.1}% 
+\contentsline {section}{\numberline {2.7}Population Growth}{25}{section.2.7}% 
+\contentsline {section}{\numberline {2.8}Autonomous Differential Equations}{29}{section.2.8}% 
+\contentsline {subsection}{\numberline {2.8.1}Phase Line Analysis}{29}{subsection.2.8.1}% 
+\contentsline {section}{\numberline {2.9}Two Motivating Problems}{30}{section.2.9}% 
+\contentsline {subsection}{\numberline {2.9.1}The Velocity Problem}{30}{subsection.2.9.1}% 
+\contentsline {subsection}{\numberline {2.9.2}The Distance Travelled Problem}{32}{subsection.2.9.2}% 
+\contentsline {chapter}{\numberline {3}Limits}{35}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Limits at Finite Values}{35}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Definitions}{35}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}Vertical Asymptotes}{36}{subsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.1.3}One-Sided Limits}{36}{subsection.3.1.3}% 
+\contentsline {subsection}{\numberline {3.1.4}Calculating Limits}{37}{subsection.3.1.4}% 
+\contentsline {subsection}{\numberline {3.1.5}Limits Rules}{37}{subsection.3.1.5}% 
+\contentsline {section}{\numberline {3.2}Limits at Infinity}{38}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Definitions}{38}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Horizontal Asymptotes}{39}{subsection.3.2.2}% 
+\contentsline {section}{\numberline {3.3}Asymptotic Analysis}{39}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}A Novel Technique}{39}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Asymptotic Order}{40}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}An Asymptotic Ranking of Functions}{40}{subsection.3.3.3}% 
+\contentsline {section}{\numberline {3.4}Determining Asymptotic Order}{41}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Ratios with Equivalent Asymptotic Order}{41}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Limits, Asymptotics and Models}{41}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}Continuity}{43}{section.3.7}% 
+\contentsline {subsection}{\numberline {3.7.1}Intermediate Value Theorem}{43}{subsection.3.7.1}% 
+\contentsline {subsection}{\numberline {3.7.2}Piecewise Functions}{44}{subsection.3.7.2}% 
+\contentsline {subsection}{\numberline {3.7.3}Continuity of Piecewise Functions}{45}{subsection.3.7.3}% 
+\contentsline {chapter}{\numberline {4}Derivatives}{47}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Definition of the Derivative}{47}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Limits of Secant Lines}{47}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Differential Operators}{48}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Differentiability}{49}{subsection.4.1.3}% 
+\contentsline {subsection}{\numberline {4.1.4}Interpretation}{49}{subsection.4.1.4}% 
+\contentsline {section}{\numberline {4.2}Rules for Differentiation}{50}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Important Derivatives}{50}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Power Rule}{51}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}Linearity}{51}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.4}Leibniz Rule}{52}{subsection.4.2.4}% 
+\contentsline {subsection}{\numberline {4.2.5}Quotient Rule}{53}{subsection.4.2.5}% 
+\contentsline {subsection}{\numberline {4.2.6}Chain Rule}{53}{subsection.4.2.6}% 
+\contentsline {subsection}{\numberline {4.2.7}Derivatives of Inverse Functions}{55}{subsection.4.2.7}% 
+\contentsline {section}{\numberline {4.3}Tangent Lines and Implicit Derivatives}{56}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Equations of Tangent Lines}{56}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}Implicit Derivatives}{57}{subsection.4.3.2}% 
+\contentsline {section}{\numberline {4.4}Higher Derivatives}{58}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Linear Approximation}{60}{section.4.5}% 
+\contentsline {chapter}{\numberline {5}Integrals}{62}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Sigma Notation}{62}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}The Riemann Integral}{64}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Definition}{64}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}Properties of the Definite Integral}{66}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {5.3}The Fundamental Theorem}{67}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}The Substitution Rule}{70}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Solving Differential Equations}{72}{section.5.5}% 
+\contentsline {subsection}{\numberline {5.5.1}Solving By Direct Integration}{72}{subsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.5.2}Initial Value Problems}{72}{subsection.5.5.2}% 
+\contentsline {subsection}{\numberline {5.5.3}Seperable Differential Equations}{73}{subsection.5.5.3}% 
+\contentsline {chapter}{\numberline {6}Applications of Derivatives}{76}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}L'H\^opital's Rule}{76}{section.6.1}% 
+\contentsline {subsection}{\numberline {6.1.1}Indeterminate Forms}{76}{subsection.6.1.1}% 
+\contentsline {subsection}{\numberline {6.1.2}L'H\^opital's Rule}{77}{subsection.6.1.2}% 
+\contentsline {section}{\numberline {6.2}Extrema}{77}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Optimization}{79}{section.6.3}% 
+\contentsline {subsection}{\numberline {6.3.1}Extreme Values of Models}{79}{subsection.6.3.1}% 
+\contentsline {subsection}{\numberline {6.3.2}Optimized Distances}{80}{subsection.6.3.2}% 
+\contentsline {subsection}{\numberline {6.3.3}Marginal Analysis}{82}{subsection.6.3.3}% 
+\contentsline {section}{\numberline {6.4}Curve Sketching}{84}{section.6.4}% 
+\contentsline {section}{\numberline {6.5}Model Interpretation}{88}{section.6.5}% 
