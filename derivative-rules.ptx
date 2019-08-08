@@ -1,0 +1,530 @@
+<section xml:id="derivative-rules">
+  <title>Rules for Differentiation</title>
+  <introduction>
+    <p>
+      Now that we have the definition and an idea of its meaning, we
+      move on to several lectures on the technical details of
+      calculating derivatives.
+    </p>
+  </introduction>
+  <subsection xml:id="important-derivatives">
+    <title>Important Derivatives</title>
+    <p>
+      We'll start with a number of standard derivatives. If a
+      function is constant, its rate of change is zero, so its must
+      have a zero derivative.
+      <me>
+        \frac{d}{dx} c = 0
+      </me>
+    </p>
+    <p>
+      For the function <m>f(x) = ax + b</m>, the graph is a straight
+      line with slope <m>a</m>. Since the derivative measures the
+      slope, it should be constant <m>a</m>.
+      <me>
+        \frac{d}{dx} ax + b = a
+      </me>
+    </p>
+    <p>
+      We have two standard derivatives we start with for trigonometry.
+      There are given here without proof.
+      <md>
+        <mrow>
+        \frac{d}{dx} \sin x \amp = \cos x \amp \frac{d}{dx} \cos
+        x \amp = -\sin x
+        </mrow>
+      </md>
+    </p>
+    <p>
+      We also have a standard derivative for the exponential function,
+      established using the definition of the derivative.
+      <md>
+        <mrow>
+          \frac{d}{dx} a^x \amp = \lim_{h \rightarrow 0}
+          \frac{a^{x+h} - a^x}{h} = \lim_{h \rightarrow 0} \frac{a^x
+          a^h - a^x}{h}
+        </mrow>
+        <mrow>
+          \amp = \lim_{h \rightarrow 0} a^x \frac{a^h-1}{h} = = a^x
+          \lim_{h \rightarrow 0} \frac{a^h-1}{h} = a^x \left( \left.
+          \frac{d}{dx} a^x \right|_{x=0} \right)
+        </mrow>
+      </md>
+    </p>
+    <p>
+      In the last step, we changed the limit into a derivative using
+      the definition of the derivative at the specific point
+      <m>x=0</m>. The vertical line means <q>evaluated at
+      <m>x=0</m></q>.
+    </p>
+    <p>
+      This formula shows that derivative of <m>a^x</m> is formed by
+      multiply by the derivative at <m>x=0</m>. Note that all
+      exponentials go through the point <m>(0,1)</m>. <xref
+      ref="figure-four-exponential-functions">Figure</xref> shows the
+      the graphs of several exponential function (for bases <m>a >
+      1</m>).
+    </p>
+    <figure xml:id="figure-four-exponential-functions">
+      <caption>Four Exponential Functions</caption>
+      <image width="85%" source="images/figure49"/>
+    </figure>
+    <p>
+      The slope at <m>(0,1)</m> determines the derivative. As seen in
+      the <xref ref="figure-four-exponential-functions">Figure</xref>,
+      for different choices of the base, we get different slopes going
+      through the point <m>(0,1)</m>. There is one special base which
+      has slope <m>1</m> at the point <m>(0,1)</m>. By definition,
+      that base is the number <m>e</m>. (This number was defined
+      earlier by a limit and we in Calculus II that the two
+      definitions coincide.) By definition, the function <m>e^x</m>
+      satisfies an important property.
+      <me>
+        \frac{d}{dx} e^x = e^x
+      </me>
+    </p>
+    <p>
+      This is the main reason that we are so fond of <m>e</m> as an
+      expoenntial base. <m>e^x</m> is the nicest function to
+      differentiate, since it doesn't change at all.
+    </p>
+  </subsection>
+  <subsection xml:id="power-rule">
+    <title>Power Rule</title>
+    <p>
+      So far, we've looked at specific derivatives and used the
+      definition to work them out. This approach quickly becomes
+      intenable due to complications in the limit calculation.
+      Therefore, we'd like to find some general rules that allow us to
+      calculate derivatives without using the definition. The first
+      rules is called the power rules.
+      Let <m>n \in \RR</m> with <m>n=0</m>.
+      <me>
+        \frac{d}{dx} x^n = nx^{n-1}
+      </me>
+    </p>
+    <p>
+      We can give a proof when <m>n</m> is a positive integer, using
+      the binomial theorem.
+      <md>
+        <mrow>
+          \frac{d}{dx} x^n \amp = \lim_{h \rightarrow 0}
+          \frac{(x+h)^n - x^n}{h} =
+        </mrow>
+        <mrow>
+          \amp = \lim_{h \rightarrow 0} \frac{x^n + nx^{n-1}h +
+          \binom{n}{2} x^{n-2}h^2 + \ldots + nxh^{n-1} + h^n -
+          x^n}{h}
+        </mrow>
+        <mrow>
+          \amp = \lim_{h \rightarrow 0} \frac{nx^{n-1}h +
+          \binom{n}{2} x^{n-2}h^2 + \ldots + nxh^{n-1} + h^n}{h}
+        </mrow>
+        <mrow>
+          \amp = \lim_{h \rightarrow 0} nx^{n-1} + \binom{n}{2}
+          x^{n-2}h + \ldots + nxh^{n-2} + h^{n-1}
+        </mrow>
+        <mrow>
+          \amp = nx^{n-1}
+        </mrow>
+      </md>
+    </p>
+  </subsection>
+  <subsection xml:id="derivatives-linearity">
+    <title>Linearity</title>
+    <p>
+      The next rules is a set of three rules which are called
+      linearity. (Linearity shows that derivatives addition,
+      subtraction and multiplication by constants. In general, any
+      operation in mathematics that cooperates with those these
+      actions is called a linear property). If <m>f</m> and <m>g</m>
+      are differentiable functions and <m>c</m> is a real constant,
+      then three rules hold.
+      <md>
+        <mrow>
+          \frac{d}{dx} f + g \amp = \frac{df}{dx} + \frac{dg}{dx}
+        </mrow>
+        <mrow>
+          \frac{d}{dx} f - g \amp = \frac{df}{dx} - \frac{dg}{dx}
+        </mrow>
+        <mrow>
+          \frac{d}{dx} cf \amp = c \frac{df}{dx}
+        </mrow>
+      </md>
+    </p>
+    <p>
+      The proof of the linearity rules is excluded here, though it is
+      relatively easy to construct using the linearity of the limit
+      and the definition of the derivative. Using linearity and the
+      power rule, we can take the derivative of any polynomial.
+    </p>
+    <example>
+      <statement>
+        <md>
+          <mrow>
+            \frac{d}{dx} x^2 -3x -4 \amp = \frac{d}{dx} x^2 -
+            \frac{d}{dx} 3x - \frac{d}{dx} 4 = 2x - 3 - 0 = 2x -3
+          </mrow>
+          <mrow>
+            \frac{d}{dx} 7x^3 + 9x^2 - 14x - 26 \amp = 7 \frac{d}{dx}
+            x^3 + 9 \frac{d}{dx} x^2 - 14 \frac{d}{dx} x -
+            \frac{d}{dx} 26
+          </mrow>
+          <mrow>
+            \amp = 7 (3x^2) + 9(2x) - 14 - 0 = 21 x^2 + 18 x - 14
+          </mrow>
+        </md>
+      </statement>
+    </example>
+  </subsection>
+  <subsection xml:id="leibniz-rule">
+    <title>Leibniz Rule</title>
+    <p>
+      Limits worked well with all four arithmetic operations:
+      addition, subtraction, multiplication and division. We might
+      hope the same is true for derivatives, but we would be
+      disappointed. There are rules for multiplication and division,
+      but they are more complicated that what we had for limits. The
+      rule for products is called the product rules or the Leibniz
+      rule. Let <m>f</m> and <m>g</m> be differentiable functions.
+      <me>
+        \frac{d}{dx} fg = g \frac{df}{dx} + f \frac{dg}{dx}
+      </me>
+    </p>
+    <p>
+      The Leibniz rule is, in many ways, the archetypical rule that
+      identifies differentiation. There are many derivative-like
+      operations in mathematics and they all conform to some version
+      of the Leibniz rule.
+    </p>
+    <p>
+      The following calculation is a proof for the Leibniz rule. Note
+      in the second step, we've added and subtracted the same term in
+      the numerator.
+      <md>
+        <mrow>
+          \frac{d}{dx} fg \amp = \lim_{h \rightarrow 0}
+          \frac{f(x+h)g(x+h) - f(x)g(x)}{h}
+        </mrow>
+        <mrow>
+          \amp = \lim_{h \rightarrow 0} \frac{f(x+h)g(x+h) - f(x+h)
+          g(x) + f(x+h) g(x) - f(x)g(x)}{h}
+        </mrow>
+        <mrow>
+          \amp = \lim_{h \rightarrow 0} f(x+h)\frac{g(x+h) - g(x)}{h}
+          + \lim_{h \rightarrow 0} g(x) \frac{f(x+h) - f(x)}{h}
+        </mrow>
+        <mrow>
+          \amp = f(x) \lim_{h \rightarrow 0} \frac{g(x+h) - g(x)}{h}
+          + g(x) \lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h}
+        </mrow>
+        <mrow>
+          \amp = f(x) \frac{dg}{dx} + f(x) \frac{df}{dx}
+        </mrow>
+      </md>
+    </p>
+    <example>
+      <statement>
+        <md>
+          <mrow>
+            \frac{d}{dx} x^2 e^x \amp = 2x e^x + x^2 e^x
+          </mrow>
+          <mrow>
+            \frac{d}{dx} x^2 \sin x \amp = 2x \sin x + x^2 \cos x
+          </mrow>
+          <mrow>
+            \frac{d}{dx} e^x \sin x \amp = e^x \sin x + e^x \cos x
+          </mrow>
+        </md>
+      </statement>
+    </example>
+  </subsection>
+  <subsection xml:id="quotient-rule">
+    <title>Quotient Rule</title>
+    <p>
+      Let <m>f</m> be a differentiable function and <m>g</m> be a
+      differentiable function with <m>g(x) \neq 0</m>, then the
+      quotient rule states:
+      <me>
+        \frac{d}{dx} \frac{f(x)}{g(x)} = \frac{\frac{df}{dx} g(x) -
+        f(x) \frac{dg}{dx}}{(g(x))^2}
+      </me>
+    </p>
+    <example>
+      <statement>
+        <md>
+          <mrow>
+            \frac{d}{dx} \tan x \amp = \frac{d}{dx} \frac{\sin
+            x}{\cos x} = \frac{\frac{d \sin x}{dx} \cos x - \sin x
+            \frac{d \cos x}{dx}}{\cos^2 x} = \frac{\cos^2 x + \sin^2
+            x}{\cos^2 x} = \sec^2 x
+          </mrow>
+          <mrow>
+            \frac{d}{dx} \sec x \amp = \frac{d}{dx} \frac{1}{\cos x}
+            = \frac{0 - - \sin x}{\cos^2 x} = \sec x \tan x
+          </mrow>
+        </md>
+      </statement>
+    </example>
+  </subsection>
+  <subsection xml:id="chain-rule">
+    <title>Chain Rule</title>
+    <p>
+      The rules we have so far give us the tools to calculate many
+      derivatives. However, they don't address composition. How do
+      we differentiate <m>\sin x^2</m>?  The rule that addresses
+      derivatives of composed functions is called the chain rule. The
+      chain rule has two notations. Let <m>f</m> and <m>g</m> be
+      differentiable functions and consider the composition
+      <m>f(g(x))</m>. It is often useful to label <m>g(x)</m> by a
+      new, temporary variable <m>u = g(x)</m>. The vertical line mean
+      evaluate by replaing <m>u</m> with <m>g(x)</m>. 
+      <me>
+        \frac{d}{dx} f(g(x)) = f^\prime(g(x)) g^\prime(x) = \left.
+        \frac{df(u)}{du} \right|_{u=g(x)} \frac{dg}{dx} 
+      </me>
+    </p>
+    <p>
+      The variety of notations is somewhat due to the difficult nature
+      of the rule<mdash />it's hard to clearly describe. The key idea
+      is to think of composition in terms of inside and outside
+      functions. The derivative of the composition is the derivative
+      of the outside (<m>f^\prime</m>) evaluted at the inside
+      (<m>f^\prime(g(x))</m>), then multiplied by the derivative of
+      the inside (<m>g^\prime</m>). There is one other way of
+      expressing the chain rule.
+      <me>
+        \frac{df}{dx} = \frac{df}{dg} \frac{dg}{dx}
+      </me>
+    </p>
+    <p>
+      In this last version of the chain rule, we can think of the
+      infinitesimals <m>df</m>, <m>dg</m> and <m>dx</m> as something
+      like fractions in Leibniz notation (<m>\frac{df}{dx}</m>).
+      These terms are not fractions, but they act a bit like fractions.
+    </p>
+    <p>
+      The proof of the chain rule is tricky, but the following
+      argument gives the idea. The argument is a little imprecise in
+      the fourth step, where we replace <m>g(x)</m> with the temporary
+      variable <m>u</m>, since we haven't established that such an
+      operation is valid. In the proof, let <m>F = f \circ g</m>.
+      <md>
+        <mrow>
+          \frac{dF}{dx}(a) \amp = \lim_{x \rightarrow a} \frac{f
+          \circ g (x) - f \circ g(a)}{x-a} = \lim_{x \rightarrow a}
+          \frac{f(g(x)) - f(g(a))}{x-a}
+        </mrow>
+        <mrow>
+          \amp = \lim_{x \rightarrow a} \frac{f(g(x)) - f(g(a))}{g(x)
+          - g(a)} \frac{g(x) - g(a)}{x-a}
+        </mrow>
+        <mrow>
+          \amp = \lim_{x \rightarrow a} \frac{f(g(x)) - f(g(a))}{g(x)
+          - g(a)} \lim_{x \rightarrow a} \frac{g(x) - g(a)}{x-a}
+        </mrow>
+        <mrow>
+          \amp = \lim_{u \rightarrow g(a)} \frac{f(u) - f(g(a))}{u -
+          g(a)} \lim_{x \rightarrow a} \frac{g(x) - g(a)}{x-a}
+        </mrow>
+        <mrow>
+          \amp = \left. \frac{df}{du} \right|_{u=g(a)} \left.
+          \frac{dg}{dx} \right|_{x=a} = f^\prime(g(a)) g^\prime(a)
+        </mrow>
+      </md>
+    </p>
+    <example>
+      <statement>
+        <md>
+          <mrow>
+            \frac{d}{dx} e^{ax} \amp = ae^{ax}
+          </mrow>
+          <mrow>
+            \frac{d}{dx} \sin 3x \amp = 3 \cos 3x
+          </mrow>
+          <mrow>
+            \frac{d}{dx} e^{x^2+2} \amp = (2x) e^{x^2+2}
+          </mrow>
+          <mrow>
+            \frac{d}{dx} e^{e^x} \amp = e^x e^{e^x}
+          </mrow>
+          <mrow>
+            \frac{d}{dx} \sin \left( \frac{x^2+1}{x^2-1} \right) \amp
+            = \cos \left( \frac{x^2+1}{x^2-1} \right) \frac{d}{dx}
+            \frac{x^2+1}{x^2-1}
+          </mrow>
+          <mrow>
+            \amp = \cos \left( \frac{x^2+1}{x^2-1} \right)
+            \frac{(x^2-1) \frac{d}{dx} (x^2+1) - (x^2+1) \frac{d}{dx}
+            (x^2-1)}{(x^2-1)^2}
+          </mrow>
+          <mrow>
+            \amp = \cos \left( \frac{x^2+1}{x^2-1} \right)
+            \frac{(x^2-1) (2x) - (x^2+1) (2x)}{(x^2-1)^2}
+          </mrow>
+          <mrow>
+            \amp = \cos \left( \frac{x^2+1}{x^2-1} \right)
+            \frac{2x(x^2-1 - x^2 -1)}{(x^2-1)^2} = - \cos \left(
+            \frac{x^2+1}{x^2-1} \right) \frac{4x}{(x^2-1)^2}
+          </mrow>
+          <mrow>
+            \frac{d}{dx} \cos ( e^{\sin x}) \amp = -\sin (e^{\sin x})
+            \frac{d}{dx} e^{\sin x} = -\sin (e^{\sin x}) e^{\sin x}
+            \frac{d}{dx} \sin x = -\sin (e^{\sin x}) e^{\sin x} \cos
+        </mrow>
+        </md>
+      </statement>
+    </example>
+    <example>
+      <statement>
+        <p>
+          We can use the chain rule to differentiate arbitrary
+          exponential functions in more detail than before:
+          <md>
+            <mrow>
+              \frac{d}{dx} a^x\amp = \frac{d}{dx} e^{x\ln a} = e^{x
+              \ln a} \ln a = a^x \ln a
+            </mrow>
+          </md>
+        </p>
+      </statement>
+    </example>
+    <example>
+      <statement>
+        <p>
+          We can also use the chain rule with a neat little
+          exponential trick to differentiate <m>f(x) = x^x</m>. (In
+          this calculation, we use <m>\frac{d}{dx} \ln x =
+          \frac{1}{x}</m>, which we will prove in the next section.)
+          <md>
+            <mrow>
+              \frac{d}{dx} x^x \amp = \frac{d}{dx} e^{x\ln x} =
+              e^{x\ln x} \frac{d}{dx} x\ln x = x^x (\ln x \frac{d}{dx}
+              x + x \frac{d}{dx} \ln x) = x^x(\ln x + 1)
+            </mrow>
+          </md>
+        </p>
+      </statement>
+    </example>
+    <example>
+      <statement>
+        <p>
+          We can use the chain rule to prove the quotient rule.
+          <md>
+            <mrow>
+              \frac{d}{dx} \frac{f}{g} \amp = \frac{d}{dx} f g^{-1} =
+              f \frac{d}{dx} g^{-1} + g^{-1} \frac{d}{dx} = -f g^{-2}
+              \frac{dg}{dx} + g^{-1} \frac{df}{dx} = \frac{gf^\prime -
+              fg^\prime}{g^2}
+            </mrow>
+          </md>
+        </p>
+      </statement>
+    </example>
+  </subsection>
+  <subsection xml:id="derivatives-inverse-functions">
+    <title>Derivatives of Inverse Functions</title>
+    <p>
+      We just used the rule <m>\frac{d}{dx} \ln x = \frac{1}{x}</m>
+      without justification. What is this justification?  The
+      logarithm is the inverse of the exponential, which leads us to
+      thinking about the derivatives of inverse functions. There is a
+      rule for such derivatives. Let's write <m>x = f \circ
+      f^{-1}(x)</m>, differentiate both sides using the chain rule,
+      and rearrange to get an expression for <m>\frac{d}{dx}
+      f^{-1}(x)</m>.
+      <md>
+        <mrow>
+          1 \amp = \frac{d}{dx} x = \frac{d}{dx} f \circ f^{-1} =
+          f^\prime ( f^{-1}(x)) \frac{d}{dx} f^{-1}(x)
+        </mrow>
+        <mrow>
+          \frac{d}{dx} f^{-1}(x) \amp =
+          \frac{1}{f^\prime(f^{-1}(x))}
+        </mrow>
+      </md>
+    </p>
+    <p>
+      Then we can prove the derivative formula we just used for <m>\ln
+      x</m>.
+      <me>
+        \frac{d}{dx} \ln x = \frac{1}{e^{\ln x}} = \frac{1}{x}
+      </me>
+    </p>
+    <p>
+      We can also prove derivative rules for the inverse trig
+      functions.
+      <md>
+        <mrow>
+          \frac{d}{dx} \arccos x \amp = \frac{1}{-\sin(\arccos x)} =
+          \frac{-1}{\sqrt{1-\cos^2(\arccos x)}} =
+          \frac{-1}{\sqrt{1-x^2}}
+        </mrow>
+        <mrow>
+          \frac{d}{dx} \arcsin x \amp = \frac{1}{\cos(\arcsin x)} =
+          \frac{1}{\sqrt{1-\sin^2(\arcsin x)}} =
+          \frac{1}{\sqrt{1-x^2}}
+        </mrow>
+        <mrow>
+          \frac{d}{dx} \arctan x \amp = \frac{1}{\sec^2(\arctan x)} =
+          \frac{1}{1+\tan^2(\arctan x)} = \frac{1}{1+x^2}
+        </mrow>
+      </md>
+    </p>
+    <example>
+      <statement>
+        <md>
+          <mrow>
+            \frac{d}{dx} \ln(x^2+1) \amp = \frac{1}{x^2+1}
+            \frac{d}{dx} x^2+1 = \frac{2x}{x^2+1}
+          </mrow>
+          <mrow>
+            \frac{d}{dx} \ln (x + 3x \arcsin x) \amp =
+            \frac{1}{x+3\arcsin x} \left( 1 + 3\arcsin x +
+            \frac{3x}{\sqrt{1-x^2}} \right)
+         </mrow>
+        </md>
+      </statement>
+    </example>
+    <example>
+      <statement>
+        <p>
+          Usually, when we differentiate, we get complicated
+          expressions which we can't simplify into nice forms. Every
+          now and then, we have an example that allows a very nice
+          simplifcation.
+          <md>
+            <mrow>
+              \amp \frac{d}{dx} \left( \frac{x}{2} \sqrt{x^2-9} -
+              \frac{9}{2} \ln( x + \sqrt{x^2-9} ) \right) 
+            </mrow>
+            <mrow>
+              \amp = \frac{\sqrt{x^2-9}}{2} + \frac{x
+              2x}{4\sqrt{x^2-9}} - \frac{9}{2} \frac{1}{x+
+              \sqrt{x^2-9}} \left( 1 + \frac{2x}{2\sqrt{x^2-9}}
+              \right)
+            </mrow>
+            <mrow>
+              \amp = \frac{\sqrt{x^2-9}}{2} +
+              \frac{x^2}{2\sqrt{x^2-9}} - \frac{9}{2} \frac{2
+              \sqrt{x^2-9} + 2x}{2\sqrt{x^2-9}(x+ \sqrt{x^2-9})}
+            </mrow>
+            <mrow>
+              \amp = \frac{\sqrt{x^2-9}}{2} +
+              \frac{x^2}{2\sqrt{x^2-9}} - \frac{9}{2}
+              \frac{\sqrt{x^2-9} + x}{\sqrt{x^2-9}(x+ \sqrt{x^2-9})}
+            </mrow>
+            <mrow>
+              \amp = \frac{\sqrt{x^2-9}}{2} +
+              \frac{x^2-9}{2\sqrt{x^2-9}}
+            </mrow>
+            <mrow>
+              \amp = \frac{\sqrt{x^2-9}}{2} +
+              \frac{\sqrt{x^2-9}}{2} = \sqrt{x^2-9}
+            </mrow>
+          </md>
+        </p>
+      </statement>
+    </example>
+  </subsection>
+</section>

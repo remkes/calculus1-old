@@ -1,0 +1,264 @@
+<section xml:id="optimization">
+  <title>Optimization</title>
+  <subsection xml:id="models-exterem-values">
+    <title>Extreme Values of Models</title>
+    <p>
+      Now that we understand how to find extrema using derivatives, we
+      can use this technique to solve optimization problems. An
+      optimization problem is any problem in applied mathematics where
+      the goal is the optimal value of function, either expressed as a
+      minimum or a maximum. The method for finding extrema is
+      unchagned; most of the challenge in optimization problems is
+      translating the problem into an appropriate function so that we
+      can use derivatives.
+    </p>
+    <example>
+      <statement>
+        <p>
+          A very classic (if somewhat contrived) example of an
+          optmization problem is maximing the area of a rectangle with
+          fixed perimeter. Let's say that <m>P</m> is the fixed
+          perimeter and the rectangle has height <m>h</m> and length
+          <m>l</m>, as in <xref
+          ref="figure-fixed-perimeter-rectangle">Figure</xref>.
+        </p>
+        <figure xml:id="figure-fixed-perimeter-rectangle">
+          <caption>A Fixed-Perimeter Rectangle</caption>
+          <image width="85%" source="images/figure56"/>
+        </figure>
+        <p>
+          We want to maximize area, so we will eventually be
+          differentiating an area function. However, the area
+          function is <m>A = hl</m>, which has two variables. We need
+          to use the perimeter restriction to eliminate one of the
+          variables. We know <m>P = 2h + 2l</m> so <m>h = \frac{P}{2}
+          - l</m>. If we substitute for <m>h</m> in the area
+          function, we get a single variable area function <m>A(l)</m>.
+          <me>
+            A(l) = l \left( \frac{P}{2} - l \right)
+          </me>
+        </p>
+        <p>
+          Then we can optimize. The derivative is <m>A^\prime(l) =
+          \frac{P}{2} - 2l</m>. This vanishes when <m>l =
+          \frac{P}{4}</m>. We can test that the critical point is a
+          maximum. Unsurprisingly, the result shows that a square
+          (where both <m>l</m> and <m>h</m> are exactly one quarter of
+          the perimeter) maximizes area.
+        </p>
+      </statement>
+    </example>
+  </subsection>
+  <subsection xml:id="optmized-distances">
+    <title>Optimized Distances</title>
+    <figure xml:id="figure-distance-between-points">
+      <caption>Distance Between Points</caption>
+      <image width="85%" source="images/figure65"/>
+    </figure>
+    <p>
+      Many applications of optmization are found in geometry, both for
+      purely mathematics and very practical reasons. As shown in
+      <xref ref="figure-distance-between-points">Figure</xref>, the
+      distance between two points <m>(a,b)</m> and <m>(c,d)</m> is
+      determined by Pythagorus: <m>\sqrt{(c-a)^2 + (b-d)^2}</m>. This
+      function, with squares and a square root, is not the nicest
+      funtion to work with and differentiate. However, if two points
+      are at an optimized distance (closest or most distance in some
+      situation), the square of the distance will also be smallest or
+      largest. Obviously, the square of the distance is a different
+      number, but it is optimized at the same place that distance is
+      optmized. For this reason, we usually optimize the square of
+      distance: <m>(c-a)^2 + (b-d)^2</m>. Having removed the square
+      root, this is a much easier function to work with.
+    </p>
+    <figure xml:id="figure-distance-optimization">
+      <caption>A Distance Optimization</caption>
+      <image width="85%" source="images/figure66"/>
+    </figure>
+    <example>
+      <statement>
+        <p>
+          As an example, let's ask which point on the parabola <m>y =
+          \frac{x^2}{4}</m> is closest to the point <m>(4,2)</m>. The
+          distance squared from a point <m>(x,y)</m> on the parabola
+          to <m>(4,2)</m> is given by the Pythagorean sum we just
+          derived.
+          <me>
+            h = (4-x)^2 + (2-y)^2
+          </me>
+        </p>
+        <p>
+          We use the function to replace <m>y</m> with
+          <m>\frac{x^2}{4}</m>, so that we have only one variable.
+          <md>
+            <mrow>
+              h(x) \amp  = (4-x)^2 + \left(2-\frac{x^2}{4} \right)^2
+            </mrow>
+            <mrow>
+              h(x) \amp  = 16 - 8x + x^2 + 4 - x^2 + \frac{x^4}{16} =
+              20 - 8x + \frac{x^4}{16}
+            </mrow>
+          </md>
+        </p>
+        <p>
+          We then differentiate to find the critical points.
+          <md>
+            <mrow>
+              h^\prime(x) \amp  = -8 + \frac{x^3}{4}
+            </mrow>
+            <mrow>
+              h^\prime(x) \amp  = 0 \implies \frac{x^3}{4} = 8
+              \implies x^3 = 32 \implies x = \sqrt[3]{32}
+            </mrow>
+          </md>
+        </p>
+        <p>
+          Once we have the critical point, we break up the domain
+          (which is all <m>\RR</m> here, since any <m>x</m> value is
+          possible) and look at the intervals.
+          <md>
+            <mrow>
+              \amp \left(-\infty, \sqrt[3]{32} \right) \amp \amp
+              \left( \sqrt[3]{32}, \infty \right) 
+            </mrow>
+            <mrow>
+              \amp h^\prime(0) = -8 \amp \amp h^\prime(4) = 8
+            </mrow>
+            <mrow>
+              \amp h^\prime(x) \lt 0 \amp \amp h^\prime(x) \gt 0 
+            </mrow>
+              \amp h \text{ is decreasing} \amp \amp h \text{ is
+              increasing} 
+          </md>
+        </p>
+        <p>
+          We conclude that there is a minimum at
+          <m>x=\sqrt[3]{32}</m>. Since <m>y = \frac{x^2}{4}</m>, the
+          corresponding <m>y</m> value is
+          <m>\frac{(\sqrt[3]{32})^2}{4}</m>. The closest point on the
+          parabola to <m>(4,2)</m> is <m>P = \left( \sqrt[3]{32},
+          \frac{(\sqrt[3]{32})^2}{4} \right)</m>. <xref
+          ref="figure-distance-optimization">Figure</xref> shows the
+          outcome of the optimization.
+        </p>
+      </statement>
+    </example>
+  </subsection>
+  <subsection xml:id="marginal-analysis">
+    <title>Marginal Analysis</title>
+    <p>
+      A nice use of optimization happens in economic and finance
+      through a technique called marginal analysis. Naively, marginal
+      analysis is frequently presented as a sales and production
+      question: <m>C(x)</m> is the cost of producing <m>x</m> units of
+      a product and <m>B(x)</m> is the revenue from selling <m>x</m>
+      units of a product. We'll take a slightly more general
+      interpretation, where we measure cost <m>C(x)</m> and benefit
+      <m>B(x)</m> without specifying exactly what form those costs and
+      benefits can take.
+    </p>
+    <p>
+      In this context, the derivative <m>C^\prime(x)</m> is called the
+      <em>marginal cost</em> and the derivative <m>B^\prime(x)</m> is
+      called the <em>marginal benefit</em>.
+    </p>
+    <p>
+      We can ask three questions.
+      <ul>
+        <li>
+          <p>
+            First, when do we have maximum net benefit?  That is, when
+            is the difference <m>B(x) - C(x)</m> maximized?  The
+            derivative must be zero, so <m>B^\prime(x) - C^\prime(x) =
+            0</m>, which is <m>B^\prime(x) = C^\prime(x)</m>. We
+            optimize net benefit when the marginal costs are equal.
+            After finding such a point, we will still have to
+            investigate to see if the point is a minimum, maximum or
+            neither.
+          </p>
+        </li>
+        <li>
+          <p>
+            The second question is a local variant of the first
+            question. If we are currently at a production rate of
+            <m>x_0</m> units, would more production increase the net
+            benefit?  That is, is the net benefit currently an
+            increasing function?  Increasing means positive
+            derivative, so we look for <m>B^\prime(x) - C^\prime(x) >
+            0</m>, which is <m>B^\prime(x) > C^\prime(x)</m>.
+            Increasing production increases the net benefit if the
+            marginal benefit is larger than the marginal cost. This
+            leads to a reasonable interpretation of these derivatives:
+            marginal cost is (roughly) the cost to produce <em>the
+            next</em> unit, and marginal benefit is the benefit due to
+            <em>the next</em> unit. We can increase net benefit if
+            the next unit has greater benefit than cost. 
+          </p>
+        </li>
+        <li>
+          <p>
+            Lastly, we can ask a different strategic question.
+            Instead of maximizing net benefit (like profit for a
+            company), what if our motivation is just maximum benefit
+            while still breaking even (more like a non-profit). This
+            is still an optimization question, but with a different
+            approach. Now we want to break even, which mathematically
+            is <m>B(x) = C(x)</m>. The derivatives no longer come
+            into play; we just have to solve this equality of
+            functions and find the solution <m>x</m> with the highest
+            gross benefit.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      This certainly isn't an exhaustive list of all possible
+      questions; strategically, there could be many considerations
+      leading to many questions. Perhaps we have a fixed budget, so
+      the cost <m>C(x)</m> cannot, under any circumstances, cross a
+      fixed maximum. If our product is a service, our goal might be
+      maximum usage instead of maximum net benefit. Perhaps we need
+      to minimize average cost of production instead of net benefit.
+      Whenever we use mathematics for strategic reasons in a applied
+      situation, it is important to remember that the mathematics only
+      answers the questions we asked. It doesn't tell us which
+      question we actually want to ask, nor how to compare between the
+      various questions.
+    </p>
+    <figure xml:id="figure-marginal-analysis">
+      <caption>Example of Marginal Analysis</caption>
+      <image width="85%" source="images/figure57"/>
+    </figure>
+    <example>
+      <statement>
+        <p>
+          Take the cost function <m>C(x) = x^3 - x^2 + x+ 1</m> and
+          the benefit function <m>B(x) = 3x</m>. Assume that we are
+          producing some unit for sale, that <m>x</m> is measured in
+          thousdands of units, and that <m>B</m> and <m>C</m> are
+          measured in millions of dollars. Notice that <m>C(0) =
+          1</m>, which could represent an initial start-up cost before
+          the production of a single unit.
+        </p>
+        <p>
+          We calculate the derivatives: <m>C^\prime(x) = 3x^2
+          -2x+1</m> and <m>B^\prime(x) = 3</m>. These are equal when
+          <m>x = \frac{1}{3} (1 +\pm \sqrt{7})</m>. Discarding the
+          negative, the other root is approximately <m>1.215</m>, so a
+          production of 1215 units gives the maximum net benefit.
+          Below that point, marginal benefit exceeds cost, so we
+          should increase production. Above that point, marginal cost
+          will exceed benefit, so we should decrease production.
+        </p>
+        <p>
+          The break even points are found by solving the cubic: <m>x^3
+          -x^2-2x+1 - 3x = 0</m>. The cubic doesn't factor nicely,
+          but a computer can give us the approximate even <m>x</m>
+          values: <m>-1.25</m>, <m>0.45</m> and <m>1.81</m>. We
+          discard the negative value again. The largest break-even
+          point is at approximately <m>1.81</m>.
+        </p>
+      </statement>
+    </example>
+  </subsection>
+</section>

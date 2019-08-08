@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<frontmatter xml:id="calculus1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <titlepage>
+    <author>
+      <personname>Remkes Kooistra</personname>
+      <department>Department of Mathematics</department>
+      <institution>The King's University</institution>
+      <email>remkes.kooistra@kingsu.ca</email>
+    </author>
+  </titlepage>
+</frontmatter>

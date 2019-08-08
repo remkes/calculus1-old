@@ -1,0 +1,144 @@
+<section xml:id="continuity">
+  <title>Continuity</title>
+  <introduction>
+    <figure xml:id="figure-continuity">
+      <caption>Continuity</caption>
+      <image width="85%" source="images/figure45"/>
+    </figure>
+    <p>
+      A function is continuous at a point <m>a</m> in its domain if
+      <me>
+        f(a) = \lim_{x \rightarrow a} f(x)
+      </me>
+    </p>
+    <p>
+      We have already encounted these kinds of limit: in the
+      calculation of limits, the first step was to try to evaluate the
+      function at the limit point. We were implicitly relying on the
+      continuity of our standard functions. Happily, we were
+      justified in doing so: all the standard elementary functions
+      (polynomials, rational function, algebraic functions, trig,
+      exponentials) are continuous on their domains. The phrase
+      <sq>on their domains</sq> is important; where there is a break
+      in the domain, the function cannot be continuous. Continuity
+      only happens inside the domain of a function. Visually, the
+      graph of a continuous function is connected; it can be drawn
+      without lifting your pen (pencil, chalk, etc).
+    </p>
+  </introduction>
+  <subsection xml:id="ivt">
+    <title>Intermediate Value Theorem</title>
+    <p>
+      Though it has a formal name, the Intermediate Value Theorem is a
+      very sensible and obvious result of continuity. Formally
+      stated, the theorem says that if <m>f</m> is a continuous
+      function on an interval <m>[a,b]</m> and <m>\alpha</m> is a real
+      number with <m>f(a) \lt \alpha \lt f(b)</m> or <m>f(a) > \alpha
+      > f(b)</m>, then there exists a number <m>c \in (a,b)</m> such
+      > that <m>f(c) = \alpha</m>.
+    </p>
+    <p>
+      Rephrased, the theorem says that a continuous function cannot
+      skip any values. If <m>f(a) = 0</m> and <m>f(b) = 1</m>, then
+      the function must output all values between <m>0</m> and
+      <m>1</m> as the input goes from <m>a</m> to <m>b</m>.
+      Continuity means the graph is connected; it can't jump over any
+      intermediate values.
+    </p>
+    <figure xml:id="figure-ivt">
+      <caption>Intermediate Value Theorem</caption>
+      <image width="85%" source="images/figure46"/>
+    </figure>
+  </subsection>
+  <subsection xml:id="piecewise">
+    <title>Piecewise Functions</title>
+    <p>
+      We know that all of our familiar elementary functions are
+      continuous on their domains. One might ask why we are worried
+      about continuity at all? A common place where continuity
+      becomes an issue is in piecewise functions. These are functions
+      which have different expressions or definitions over different
+      pieces of their domain. There is a particular notation for
+      piecewise functions. Say we have a function on <m>\RR</m> which
+      has two definitions, one for <m>x\lt a</m> and another <m>x \geq
+      a</m>. Then the function is written
+      <me>
+        f(x) = \begin{cases} g(x) \amp  x \lt  a \\ h(x) \amp
+        x \geq a \end{cases} 
+      </me>
+    </p>
+    <figure xml:id="figure-heaviside">
+      <caption>The Heaviside Function</caption>
+      <image width="85%" source="images/figure21"/>
+    </figure>
+    <p>
+      A very well-known example is the Heaviside function.
+      <me>
+        f(x) = \begin{cases} 0 \amp  x \lt  0 \\ 1 \amp  x
+        \geq 0 \end{cases} 
+      </me>
+    </p>
+    <p>
+      The Heaviside function is very frequently used to model
+      switches: it suddenly changes from off (0) to on (1) at
+      <m>x=0</m>. This is a discontinuous change, as the function
+      jumps from <m>0</m> to <m>1</m> without going through any
+      intermediate value.
+    </p>
+    <p>
+      In the definition of a piecewise function, there can be more
+      than two pieces and the conditions on <m>x</m> can be more
+      complicated than inequalities. Here is a piecewise function
+      with three pieces defined on intervals.
+      <me>
+        f(x) = \begin{cases} x^2 -1 \amp  x \in (-5,0) \\ x^2
+        + 1 \amp  x \in [0,3] \\ 3x-5 \amp  x \in (3,7) \end{cases}
+      </me>
+    </p>
+    <p>
+      The domain of this function is <m>(-5,7)</m>, which is the union
+      of all the intervals of definition in the piecewise expression.
+      It's graph is <xref
+      ref="figure-discontinuous-piecewise">Figure</xref>.
+    </p>
+    <p>
+      Piecewise functions can be extremely strange.
+      <me>
+        f(x) = \begin{cases} 1 \amp  x \in \QQ \\ 0 \amp  x
+        \notin \QQ \end{cases} 
+      </me>
+    </p>
+    <p>
+      This function depends on whether its input is rational or
+      irrational, returning one and zero respectively. It is a
+      horendously discontinuous functions, with ones and zeros
+      everywhere and no intermediate values.
+    </p>
+    <figure xml:id="figure-discontinuous-piecewise">
+      <caption>A Discontinuous Piecewise Function</caption>
+      <image width="85%" source="images/figure47"/>
+    </figure>
+  </subsection>
+  <subsection xml:id="piecewise-continuity">
+    <title>Continuity of Piecewise Functions</title>
+    <p>
+      It is important to be able to check if a piecewise function is
+      continuous at its crossover point. Say we have a piecewise
+      function with a break at <m>x=a</m>.
+      <me>
+        f(x) = \begin{cases} g(x) \amp  x \lt  a \\ h(x) \amp
+        x \geq a \end{cases} 
+      </me>
+    </p>
+    <p>
+      It is natural to ask if <m>f</m> is continuous at <m>x=a</m>.
+      In order to investigate this, we need to look at the function
+      value and the limits from both sides. The function is
+      continuous if all three are the same.
+      <me>
+        \lim_{x \rightarrow a^-} f(x) = \lim_{x \rightarrow a^+} f(x)
+        = f(a)
+      </me>
+    </p>
+  </subsection>
+</section>

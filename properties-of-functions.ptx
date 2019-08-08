@@ -1,0 +1,104 @@
+<section xml:id="properties-of-functions">
+  <title>Properties of Functions</title>
+  <p>
+    We use a number of properties of functions to describe their
+    behaviour.
+    <ul>
+      <li>
+        <p>
+          The <em>domain</em> of a function is all possible real
+          inputs to the function. The domain can be restricted to a
+          smaller subset if desired.
+        </p>
+      </li>
+      <li>
+        <p>
+          The <em>range</em> of a function is all possible real
+          outputs of the function.
+        </p>
+      </li>
+      <li>
+        <p>
+          A function is <em>even</em> if <m>f(-x) = f(x)</m>.
+          Visually, the graph of the function has a mirror-image
+          symmetry over the <m>y</m> axis.
+        </p>
+      </li>
+      <li>
+        <p>
+          A function is <em>odd</em> if <m>f(-x) = -f(x)</m>.
+          Visually, the graph of the function is the preserved under a
+          half-turn rotation about the origin.
+        </p>
+      </li>
+      <li>
+        <p>
+          A function is <em>periodic</em> if there is a real number
+          <m>a</m> such that <m>f(x+a) = f(a)</m> for all <m>x</m>.
+          The smallest positive real number <m>a</m> that satisfies is
+          called the period.
+        </p>
+      </li>
+      <li>
+        <p>
+          A function is called <em>increasing</em> if <m>a\lt b</m>
+          implies <m>f(a) \lt f(b)</m>. Visually, the graph of the
+          function is growing upwards as the input increases.
+        </p>
+      </li>
+      <li>
+        <p>
+          A function is called <em>decreasing</em> if <m>a\lt b</m>
+          implies <m>f(a) > f(b)</m>. Visually, the graph of the
+          function is declining downwards as the input increases.
+        </p>
+      </li>
+      <li>
+        <p>
+          A function is called <em>monotonic</em>
+          if it is either always increasing or always decreasing.
+        </p>
+      </li>
+      <li>
+        <p>
+          A function is <em>bounded above</em> if there is a number
+          <m>A</m> such that <m>f(x) \lt A</m> for all <m>x</m>.
+          Visually, the graph of the function never gets above the
+          height <m>y=A</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          A function is <em>bounded below</em> if there is a number
+          <m>B</m> such that <m>f(x) > B</m> for all <m>x</m>.
+          Visually, the graph of the function never gets below the
+          height <m>y=B</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          A function is <em>bounded</em> if it is both bounded above
+          and below. That is, there exists numbers <m>A</m> and
+          <m>B</m> such that <m>B \lt f(x) \lt A</m> for all <m>x</m>.
+          Visually, the function remains within the range <m>y \in
+          [A,B]</m> for any input.
+        </p>
+      </li>
+      <li>
+        <p>
+          A <em><m>y</m>-intercept</em> of a function is a place where
+          it crosses the <m>y</m> axis. Since a function satisfies a
+          vertical line test, there is only one possible <m>y</m>
+          intercept found at <m>f(0)</m> (if <m>0</m> is in the domain).
+        </p>
+      </li>
+      <li>
+        <p>
+          An <em><m>x</m>-interceopt</em> or <em>root</em> of a
+          function is a place where it crosses the <m>x</m> axis or,
+          equivalently, has the output <m>f(x) = 0</m>.
+        </p>
+      </li>
+    </ul>
+  </p>
+</section>
