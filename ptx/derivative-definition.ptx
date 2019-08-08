@@ -1,0 +1,134 @@
+<section xml:id="derivative-definition">
+  <title>Definition of the Derivative</title>
+  <subsection xml:id="secant-lines">
+    <title>Limits of Secant Lines</title>
+    <figure xml:id="figure-secant-approximations2">
+      <caption>Secant Approximations to the Tangent Line</caption>
+      <image width="73%" source="images/figure13.png" />
+    </figure>
+    <p>
+      In <xref ref="population-growth">Section</xref>,
+      we defined the derivative as the rate of change of a function.
+      In <xref ref="two-motivating-problems">Section</xref>,
+      we connected that definition to the geometry of slopes of tangent lines and constructed a process by which algebra can approximate a tangent line by using secant lines.
+      Now that we have limits,
+      we can ask for the limit of that approximation process.
+    </p>
+    <p>
+      Let's say we want the slope of the tangent line at a point
+      <m>(a,f(a))</m> on the graph of a function.
+      We can take <m>a</m> as one point to define a secant line and let <m>x</m> be the other point
+      (with <m>x \neq a</m>).
+      Then the slope of the secant line is the difference in output (<m>f(x) - f(a)</m>) dividing by the difference in input
+      (<m>x-a</m>).
+      <me>
+        \frac{f(x) - f(a)}{x-a}
+      </me>
+    </p>
+    <p>
+      We said that we should get better and better approximations to the tangent line as <m>x</m> gets closer to <m>a</m>.
+      Now we can ask for the limit as <m>x \rightarrow a</m>.
+      <me>
+        \lim_{x \rightarrow a} \frac{f(x) - f(a)}{x-a}
+      </me>
+    </p>
+    <p>
+      This limit, if it exists, will be the slope of the tangent line.
+      It is called the derivative and is the rate of change of the function at <m>x=a</m>.
+      <me>
+        f^\prime(a) = \frac{df}{dx} (a) = \lim_{x \rightarrow a} \frac{f(x) - f(a)}{x-a}
+      </me>
+    </p>
+    <p>
+      There is a slight alteration of the definition,
+      which is useful for some calculations.
+      If we let <m>h = x-a</m>, then we can write the limit as:
+      <me>
+        f^\prime(a) = \frac{df}{dx} (a) = \lim_{h \rightarrow 0} \frac{f(a+h) - f(a)}{h}
+      </me>
+    </p>
+    <p>
+      This second definition allows us to see that the derivative is an entirely new function.
+      At each point <m>x</m> in the domain of <m>f</m>,
+      we can ask for the slope of the tangent line.
+      That gives a new function:
+      <me>
+        f^\prime(x) = \frac{df}{dx} = \lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h}
+      </me>
+    </p>
+  </subsection>
+  <subsection xml:id="operators">
+    <title>Differential Operators</title>
+    <p>
+      We think of the derivative as an operation on functions:
+      it takes a function and gives us a new function which measures the rate of change of the previous function.
+      This solves the velocity problem:
+      if <m>x(t)</m> is a position function,
+      then its derivative <m>x^\prime(t)</m> is the velocity function.
+    </p>
+    <p>
+      Leibniz notation is useful for thinking of derivatives as operators.
+      If we seperate the notation slightly, we can write
+      <me>
+        \frac{df}{dx} = \frac{d}{dx} f
+      </me>
+    </p>
+    <p>
+      With this notation, we think of <m>\frac{d}{dx}</m> as the operator:
+      the thing that takes derivatives.
+      Having notation for such an operator is extremely convenient.
+    </p>
+  </subsection>
+  <subsection xml:id="differentiability">
+    <title>Differentiability</title>
+    <p>
+      The limit defining the derivative may not always exist.
+      If it does exist at a point <m>a</m> in the domain,
+      we say that <m>f</m> is <em>differentiable</em> at the point <m>a</m>.
+      If it exists for all points in the domain of <m>f</m>,
+      we say that <m>f</m> is a differentiable function.
+      Differentiability requires continuity:
+      if a function makes a sudden jump,
+      it doesn't make sense to talk about a rate of change and a tangent line cannot be defined.
+      Differentiability also requires a <sq>smoothness</sq> condition.
+      A function whose graph has sharp corners is not differentiable at the sharp corners,
+      because it doesn't make sense to define a tangent line at a sharp corner.
+      The graph of the function must be smooth.
+      <xref ref="figure-differentiability-problems">Figure</xref>
+      shows how a jump or sharp corner makes the choice of a tangent line problematic.
+    </p>
+    <figure xml:id="figure-differentiability-problems">
+      <caption>Differentiability Problems</caption>
+      <image width="1200%" source="images/figure48.png" />
+    </figure>
+  </subsection>
+  <subsection xml:id="derivative-interpretation">
+    <title>Interpretation</title>
+    <p>
+      Now that we have a definition of the derivative and differentiability,
+      let's review what this all means.
+      The derivative has two major interpretation,
+      one geometric and one applied.
+      <ul>
+        <li>
+          <p>
+            The derivative measures the slope of a tangent line to a function.
+          </p>
+        </li>
+        <li>
+          <p>
+            The derivative measures the rate of change of a function.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      If a function is differentiable on its domain,
+      that means its derivative exists at all points in the domain.
+      In the geometric interpretation,
+      this means that the graph of the function has a well-defined tangent line at all points in its domain.
+      In the applied interpretation,
+      this means that the function has a well-defined rate of change at all points in its domain.
+    </p>
+  </subsection>
+</section>

@@ -1,0 +1,174 @@
+<section xml:id="riemann-integral">
+  <title>The Riemann Integral</title>
+  <subsection xml:id="integral-definition">
+    <title>Definition</title>
+    <p>
+      Recall the distance travelled problem,
+      where we tried to understand the distance travelled by an object when we knew its velocity function <m>v(t)</m>.
+      Geometrically,
+      this was equivalent to finding the area under the graph of the function.
+    </p>
+    <p>
+      We set up a process to solve this problem, at least approximately.
+      That process involved making rectangles under the curve and adding up the area of the rectangles.
+    </p>
+    <p>
+      Integration will be the limit of this approximation process,
+      just as differentiation was the limit of the approximation process of secant lines approaching the tangent line.
+    </p>
+    <p>
+      Sigma notation gives us a concice notation for the approximation of areas by rectangles.
+      Let's say we are trying to calculate the area under the curve of <m>f(x)</m>,
+      a positive function, defined on an interval <m>[a,b]</m>.
+      We are dividing the area into <m>n</m> rectangles;
+      if we divide equally,
+      the width of each rectangle will be <m>\frac{b-a}{n}</m>.
+      The height of the rectangle will be the function value <m>f(x^*)</m> where <m>x^*</m> is some particular <m>x</m> in the subinterval.
+    </p>
+    <p>
+      With these notations, the area of a rectangle is width times height,
+      that is <m>\frac{b-a}{n} f(x^*)</m>.
+      To be more specific,
+      is we use <m>k</m> as an index to refer to various rectganles and <m>x_k^*</m> is in the kth interval,
+      the are of the kth rectangle is <m>\frac{b-a}{n} f(x_k^*)</m>.
+      To get the complete approximation,
+      we add up all these rectangles with sigma notation.
+      <me>
+        A \cong \sum_{k=1}^n \frac{b-a}{n} f(x_k^*)
+      </me>
+    </p>
+    <p>
+      This sum is called a Riemann Sum approximation for area.
+      If the function is well behaved
+      (for us, continuous),
+      then we can keep taking finer and finer partitions for better and better approximations.
+      This process can be extended into some kind of limit process.
+      In the limit, we expect a perfect calculation of area.
+      <me>
+        A = \lim_{n \rightarrow \infty} \sum_{k=1}^n f(x_k^*) \frac{b-a}{n}
+      </me>
+    </p>
+    <p>
+      This limit, if it exists, is called a
+      <em>definite integal</em>.
+      The area under the curve is calculated by a definite integral.
+      Since this definition uses Riemann sums,
+      we call this the Riemann definiton of the integral,
+      or simply the Riemann integral.
+      It has a new notation.
+      <me>
+        \int_a^b f(x) dx := \lim_{n \rightarrow \infty} \sum_{k=1}^n f(x_k^*) \frac{b-a}{n}
+      </me>
+    </p>
+    <p>
+      We can explain the notation.
+      The sigma of sigma notation gets replaced with <m>\int</m>,
+      which is the integral sign.
+      The bounds <m>k=1</m> and <m>n</m> get replaced with the endpoint of the interval,
+      <m>a</m> and <m>b</m> respectively.
+      The <m>f(x^*_k)</m> just becomes the function <m>f(x)</m>.
+      Finally, the term <m>\frac{b-a}{n}</m> gets infinitesimally small as <m>n \rightarrow \infty</m>,
+      so it becomes the infinitesimal term <m>dx</m>.
+    </p>
+    <p>
+      The first problem with limit definition is the existence of the limit.
+      Unfortunately,
+      this is an extremely difficult question to solve in general,
+      particular since it has to work for any possible choices of the values <m>x_k^*</m>.
+      Fortunately,
+      this limit will always exist if <m>f(x)</m> is continuous,
+      a fact that is presented here without proof.
+    </p>
+    <p>
+      We should point out some important facts.
+      First, this integral returns a number:
+      given a function and endpoints,
+      it calculates a fixed area.
+      It isn't (yet) a new function.
+      Second, we need the bounds:
+      the Riemann integral doesn't make any sense without the bounds of the interval <m>[a,b]</m>.
+      Third, we defined this for positive functions.
+      It also works for functions which have negative values,
+      but areas below the <m>x</m> axis are interpreted as negative.
+      If a function has both positive and negative values,
+      the integral will give the difference between the area above the axis
+      (the positive area)
+      and the area below the
+      (the negative area).
+    </p>
+    <p>
+      Recall when we talked about the derivatives,
+      we mentioned that the definition was correct and rigorous but difficult to use.
+      That comment is also true here, but even more severe.
+      The definition of the integral is nearly impossible to use for most functions.
+      We will only try to use the definition for small order polynomials.
+    </p>
+    <example>
+      <statement>
+        <p>
+          We choose <m>x_k^* = a + k \frac{b-a}{n}</m>.
+          <md>
+            <mrow>\int_0^3 x^2 \amp  = \lim_{n \rightarrow \infty} \sum_{k=1}^n (x^*_k)^2 \frac{b-a}{n}</mrow>
+            <mrow>\amp  = \lim_{n \rightarrow \infty} \sum_{k=1}^n \left( \frac{3k}{n} \right)^2 \frac{3}{n}</mrow>
+            <mrow>\amp  = \lim_{n \rightarrow \infty} \frac{27}{n^3} \sum_{k=1}^n k^2</mrow>
+            <mrow>\amp  = \lim_{n \rightarrow \infty} \frac{27}{n^3} \frac{n(n+1)(2n+1)}{6}</mrow>
+            <mrow>\amp  = \lim_{n \rightarrow \infty} \frac{9}{2} \frac{2n^3+3n^2+n}{n^3} = 9</mrow>
+          </md>
+        </p>
+      </statement>
+    </example>
+    <example>
+      <statement>
+        <md>
+          <mrow>\int_2^5 (x^3-x)
+          \amp  = \lim_{n \rightarrow \infty} \sum_{k=1}^n \left[ (x^*_k)^3 -
+          x^*_k \right] \frac{b-a}{n}</mrow>
+          <mrow>\amp  = \lim_{n \rightarrow \infty} \frac{3}{n} \sum_{k=1}^n \left[
+          \left(2 + \frac{3k}{n} \right)^3 - \left(2+ \frac{3k}{n}
+          \right) \right]</mrow>
+          <mrow>\amp  = \lim_{n \rightarrow \infty} \frac{3}{n} \sum_{k=1}^n \left[
+          8 + \frac{36k}{n} + \frac{54k^2}{n^2} + \frac{27k^3}{n^3} - 2 -
+          \frac{3k}{n} \right]</mrow>
+          <mrow>\amp  = \lim_{n \rightarrow \infty} \frac{3}{n} \sum_{k=1}^n \left[
+          6 + \frac{33k}{n} + \frac{54k^2}{n^2} + \frac{27k^3}{n^3} \right]</mrow>
+          <mrow>\amp  = \lim_{n \rightarrow \infty} \frac{3}{n} \left( 6n +
+          \frac{33}{n} \frac{n(n+1)}{2} + \frac{54}{n^2}
+          \frac{n(n+1)(2n+1)}{6} + \frac{27}{n^3} \left( \frac{n(n+1)}{2}
+          \right)^2 \right)</mrow>
+          <mrow>\amp  = 18 + \frac{99}{2} + 54 + \frac{81}{4} = \frac{72+ 199+ 216+
+          81}{4} = \frac{567}{4}</mrow>
+        </md>
+      </statement>
+    </example>
+  </subsection>
+  <subsection xml:id="integral-properties">
+    <title>Properties of the Definite Integral</title>
+    <p>
+      The definite integral is linear.
+      <md>
+        <mrow>\int_a^b (f \pm g) dx \amp  = \int_a^b f dx + \int_a^b g dx</mrow>
+        <mrow>\int_a^b c f(x) dx \amp  = c \int_a^b f(x) dx</mrow>
+      </md>
+    </p>
+    <p>
+      To integrate a constant, we just get the area of a rectangle.
+      <me>
+        \int_a^b c dx = c(b-a)
+      </me>
+    </p>
+    <p>
+      If, for some reason, we end up with reversed bounds,
+      we can change them by introducing a negative sign.
+      <me>
+        \int_a^b f(x) dx = - \int_b^a f(x) dx
+      </me>
+    </p>
+    <p>
+      If <m>f</m> is continuous on <m>[a,b]</m> and <m>[b,c]</m>,
+      then the integral over the two pieces is equivalent to the integral over the whole interval <m>[a,c]</m>.
+      <me>
+        \int_a^bf(x) dx + \int_b^c f(x) dx = \int_a^c f(x) dx
+      </me>
+    </p>
+  </subsection>
+</section>

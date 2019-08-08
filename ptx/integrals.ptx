@@ -1,0 +1,8 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="integrals">
+  <title>Integrals</title>
+  <xi:include  href="sigma-notation.ptx" />
+  <xi:include  href="riemann-integral.ptx" />
+  <xi:include  href="fundamental-theorem.ptx" />
+  <xi:include  href="substitution-rule.ptx" />
+  <xi:include  href="des.ptx" />
+</chapter>
