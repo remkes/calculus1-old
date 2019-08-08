@@ -1,0 +1,26 @@
+<section xml:id="determining-asymptotic-order">
+  <title>Determining Asymptotic Order</title>
+  <p>
+    In quotient limits,
+    <m>f</m> and <m>g</m> may be more complicated than the simple functions in our asymptotic ranking.
+    We have a two useful rules to help us work with <m>f</m> and <m>g</m> which are combinations of pieces of various asymptotic order.
+    <ul>
+      <li>
+        <p>
+          If <m>f = f_1 + f_2 + f_3 + \ldots + f_n</m> then the asymptotic order of <m>f</m> is the maximum of the asymptotic order of the <m>f_i</m>.
+          This means that in a sum or difference,
+          we only need to consider the fastest growing pieces.
+          We can simply ignore all the rest.
+        </p>
+      </li>
+      <li>
+        <p>
+          If <m>f_1 \lt g_1</m> and either
+          <m>f_2 \lt g_2</m> or <m>f_2</m> and <m>g_2</m> have the same asymptotic order,
+          then <m>f_1 f_2 \lt g_1 g_2</m>.
+          Basically, this says that relationships of asymptotic order are preserved in products.
+        </p>
+      </li>
+    </ul>
+  </p>
+</section>

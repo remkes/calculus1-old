@@ -1,0 +1,113 @@
+<section xml:id="limits-asymptotics-models">
+  <title>Limits, Asymptotics and Models</title>
+  <p>
+    We can use our tools of limits and asymptotic analysis to analyze models.
+    Limits at finite values tell us how models behave near their undefined points;
+    in particular,
+    whether they diverge to infinity or remain bounded.
+    This leads to an understanding of the limitations of a model and how it behaves at its own extreme situations.
+  </p>
+  <p>
+    Limits at infinity and asymptotic analysis tells us about the growth and long term behaviour of a model.
+    We can compare population growth models asymptotically to get an idea of which is fundamentally a faster growth model.
+    The analysis of algorithms in computing science is also done almost entirely with asymptotic analysis;
+    the asymptotic order of an algorithm is a very good measure of how fast it can operate.
+  </p>
+  <p>
+    The notion of <em>stability</em>
+    is frequently the focus of our study of limits and models.
+    The word <sq>stability</sq> has various technical definitions in pieces of applied mathematics,
+    but it always relates to the limits of the model and the behaviour near those limits.
+  </p>
+  <p>
+    If we consider popluation models,
+    we have four categories of long term (asymptotic) behaviour.
+    <ul>
+      <li>
+        <p>
+          The function can grow without bound,
+          as in the exponential growth function <m>p(t) = p_0 e^{at}</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          The function can decay to zero,
+          as in the exponential decay function <m>p(t) = p_0 e^{-at}</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          The function can approach a steady state,
+          as in the logistic growth function
+          <me>
+            p(t) = \frac{p_0 K e^{at}}{K + p_0 (e^{at}-1)}
+          </me>
+        </p>
+      </li>
+      <li>
+        <p>
+          The function can osscilate without ever reaching a steady state,
+          possibly with chaotic behaviour.
+          A non-chaotic osscilating function is this periodic version of logistic growth:
+          <me>
+            p(t) = \left(\frac{p_0 K e^{at}}{K + p_0 (e^{at}-1)} \right) \left( 1 + \frac{1}{5} \sin (bt) \right)
+          </me>
+        </p>
+      </li>
+    </ul>
+  </p>
+  <p>
+    Asymptotic analysis can also give information about the extreme values in a model.
+    Consider the ideal gas law (where <m>P</m> is pressure,
+    <m>V</m> is volume, <m>n</m> is the amount of gas,
+    <m>T</m> is temperature and <m>R</m> is a constant.
+    (We assume that <m>P</m> and <m>V</m> are the variables,
+    and <m>n</m>,
+    <m>R</m> and <m>T</m> are constant.)
+    <me>
+      PV = nRT
+    </me>
+  </p>
+  <p>
+    We can ask what happens to pressure at low volumes,
+    expressed as a limit as <m>V \rightarrow 0</m>.
+    <me>
+      \lim_{V \rightarrow 0} P = \lim_{V \rightarrow 0} \frac{nRT}{V} = \infty
+    </me>
+  </p>
+  <p>
+    This tells us that low volumes result in high pressures.
+    We could equivalently ask what happens at very high volumes.
+    <me>
+      \lim_{V \rightarrow \infty} P = \lim_{V \rightarrow \infty} \frac{nRT}{V} = 0
+    </me>
+  </p>
+  <p>
+    Unsurprisingly, very large volume result in very low pressures.
+  </p>
+  <p>
+    The behaviour at extreme values depends on the particulars of the models.
+    A more complicated gas law is the Vander Waal's gaw law
+    (where <m>a</m> and <m>b</m> are new positive constants).
+    <me>
+      \left( P + \frac{n^2 a}{V^2} \right) \left( V - nb \right) = nRT
+    </me>
+  </p>
+  <p>
+    What happens for these gasses at high pressures?
+    It's difficult to solve directly for volume,
+    but we can analyze the equation in its current form.
+    If the term involving pressure grows very large,
+    the term only involving volume must grow to zero,
+    so that the product remains the same.
+    That happens when <m>V</m> is very close to the value <m>nb</m>.
+    <me>
+      \lim_{P \rightarrow \infty} V = nb
+    </me>
+  </p>
+  <p>
+    Therefore, in this model,
+    extreme pressures happen near the fixed,
+    but non-zero, volume <m>V = nb</m>.
+  </p>
+</section>

@@ -1,0 +1,29 @@
+<section xml:id="ratios">
+  <title>Ratios with Equivalent Asymptotic Order</title>
+  <p>
+    In a quotient limit where <m>f</m> and <m>g</m> have the same asymptotic order,
+    we look at the <em>leading coefficients</em>.
+    The leading coefficients are the coefficients which sit in front of the term with the highest asymptotic order.
+  </p>
+  <example>
+    <statement>
+      <me>
+        \lim_{x \rightarrow \infty} \frac{8x^4 + 3x^2 + 4}{14x^4 -
+        9x^3 - 50x^2 - 4x - 1}
+      </me>
+      <p>
+        The leading coefficient in the numerator if <m>8</m>,
+        and in the denominator is <m>14</m>.
+        Only these terms matter, which radically simplifies the limit
+        <me>
+          \lim_{x \rightarrow \infty} \frac{8x^4 + 3x^2 + 4}{14x^4 - 9x^3 - 50x^2 - 4x - 1} = \frac{8}{14} = \frac{4}{7}
+        </me>
+      </p>
+      <p>
+        Note that none of the information associated to the pieces of lower asymptotic order matters at all.
+        No matter how large the constants may be,
+        only the asymptotic order tells us which pieces are important.
+      </p>
+    </statement>
+  </example>
+</section>

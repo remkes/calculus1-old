@@ -1,0 +1,51 @@
+<section xml:id="limits-at-infinity">
+  <title>Limits at Infinity</title>
+  <subsection xml:id="definitions-at-infinity">
+    <title>Definitions</title>
+    <p>
+      In addition to asking what happens to a function as the input approaches paticular finite values,
+      we can also ask what happens as the input approaches infinity, that is,
+      at the input gets larger and larger.
+    </p>
+    <p>
+      The statement
+      <me>
+        \lim_{x \rightarrow \infty} f(x) = L
+      </me>
+      means that as <m>x</m> gets larger and larger without bound,
+      <m>f(x)</m> gets closer and closer to <m>L</m>.
+      The statement
+      <me>
+        \lim_{x \rightarrow \infty} f(x) = \infty
+      </me>
+      means that as <m>x</m> gets larger and larger without bound,
+      <m>f(x)</m> also gets larger and larger without bound.
+      The statement
+      <me>
+        \lim_{x \rightarrow \infty} f(x) = -\infty
+      </me>
+      means that as <m>x</m> gets larger and larger without bound,
+      <m>f(x)</m> becomes a larger and larger negative number without bound.
+    </p>
+    <p>
+      These statements are defined the same way for
+      <m>x \rightarrow -\infty</m> when <m>x</m> becomes a larger and larger negative number without bound.
+    </p>
+    <figure xml:id="figure-horizontal-Asymptotes">
+      <caption>Horizontal Asymptotes</caption>
+      <image width="1000%" source="images/figure20.png" />
+    </figure>
+  </subsection>
+  <subsection xml:id="horizontal-asymptotes">
+    <title>Horizontal Asymptotes</title>
+    <p>
+      If we have a function <m>f(x)</m> where the limit
+      <me>
+        \lim_{x \rightarrow \pm \infty} f(x) = L
+      </me>
+      exists either at positive or negative infinity,
+      that means that the graph of the function approaches the line <m>y=L</m>.
+      Such lines are called <em>horizontal asymptotes</em>.
+    </p>
+  </subsection>
+</section>

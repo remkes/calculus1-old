@@ -1,0 +1,162 @@
+<section xml:id="autonomous-des">
+  <title>Autonomous Differential Equations</title>
+  <subsection xml:id="phase-line">
+    <title>Phase Line Analysis</title>
+    <p>
+      At this point in the course, we lack the tools to solve differential equations.
+      Instead, we want to do some qualitative analysis of the differential equation.
+      We will restrict this analysis to a particular type.
+      A differential equation where the left-side is just
+      <m>\frac{dp}{dt}</m> and the right-side is some algebraic expression in <m>p</m> is called an
+      <em>autonomous differential equation</em>.
+      Many natural models are described by autonomous equations,
+      including population growth.
+      There is a lovely piece of analysis for autonomous equations called the
+      <em>phase line analysis</em>.
+    </p>
+    <p>
+      Phase line analysis looks at the right side of the equation and asks for values of the function <m>p</m> which set the right side to zero.
+      What does this mean?
+      When the right side of our differential equation is zero,
+      so the left side is zero as well.
+      The left side is the growth rate,
+      so that means the growth rate is (momentarily) zero.
+      These are values of the population <m>p</m> where there is no growth.
+      We call these values <em>steady states</em> of the population.
+      If the population is exactly at its steady state, it will not change;
+      steady states are constant popluations which do no grow or decline.
+      For population models, we can make the reasonable assumptions that
+      <m>p \geq 0</m> and <m>p=0</m> is always a steady state.
+    </p>
+    <p>
+      Once we have the steady states,
+      we ask what happens between each steady state.
+      Assuming that the DE is reasonable,
+      then between the steady states,
+      the right side will be either positive or negative.
+      When it is positive,
+      we have a positive growth rate and the population increases.
+      When it is negative,
+      we have a negative growth rate and the population decreases.
+      This direction of growth, negative or positive,
+      is called the <em>trajectory</em>
+      of the popluation between the steady states.
+    </p>
+    <p>
+      Amazingly, this gives us an impressively complete understanding of the population.
+      <ul>
+        <li>
+          <p>
+            If the popluation is at a steady state, it doesn't change.
+          </p>
+        </li>
+        <li>
+          <p>
+            If the popluation is not at a steady state,
+            we look at the trajectory.
+          </p>
+        </li>
+        <li>
+          <p>
+            If the trajectory is positive,
+            the popluation grows to the closest larger steady state or infinity.
+          </p>
+        </li>
+        <li>
+          <p>
+            If the trajectory is neagative,
+            the population declines to the closest smaller steady state or zero.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      We summarize this information is a phase line diagram.
+      We take a ray representing
+      <m>p \geq 0</m> and put dots on the ray for the steady states.
+      In between, we put arrows to show the trajectories.
+      Its best to see the phase line diagrams through examples.
+    </p>
+    <example>
+      <statement>
+        <me>
+          \frac{dp}{dx} = p^2 - p
+        </me>
+        <p>
+          The right side is zero when <m>p=0</m> or <m>p=1</m>,
+          so those are the steady states.
+          When <m>p \in (0,1)</m> the derivative is negative,
+          so the trajectory is decreasing.
+          When <m>p \in (1, \infty)</m>,
+          the derivative is positive, so the trajectory is increasing.
+          This phase line encodes this information.
+        </p>
+      </statement>
+    </example>
+    <figure xml:id="figure-phase-line1">
+      <caption>The Phase Line Diagram for <m>\frac{dp}{dx} = p^2 - p</m></caption>
+      <image width="1200%" source="images/figure41.png" />
+    </figure>
+    <example>
+      <statement>
+        <p>
+          This is an example of the logistic equation.
+          <me>
+            \frac{dp}{dt} = 4p-p^2
+          </me>
+        </p>
+        <p>
+          The right side is zero when <m>p=0</m> or <m>p=4</m>,
+          so those are the steady states.
+          When <m>p \in (0,4)</m> the derivative is positive,
+          so the trajectory is increasing.
+          When <m>p \in (4, \infty)</m>,
+          the derivative is negative, so the trajectory is decreasing.
+        </p>
+      </statement>
+    </example>
+    <figure xml:id="figure-phase-line2">
+      <caption>The Phase Line Diagram for <m>\frac{dp}{dt} - 4p - p^2</m></caption>
+      <image width="1200%" source="images/figure43.png" />
+    </figure>
+    <p>
+      The logistic equation leads to logistic growth.
+      We can see from the <xref ref="figure-phase-line2">Figure</xref>
+      that the trajectories all point towards the steady state <m>p=4</m>.
+      In logistic growth,
+      the population wants to approach to some non-zero steady state.
+      From below, this is growth up to some maximum and from above it is decay down to a minimum.
+      (After exponential growth,
+      logistic growth is the most commonly used model for populations.)
+      <xref ref="figure-exponential-growth">Figure</xref>
+      shows both exponential and logistic growth (where the steady state for the logistic model is at <m>p=6</m>.)
+    </p>
+    <figure xml:id="figure-exponential-growth">
+      <caption>Exponential and Logistic Growth</caption>
+      <image width="1200%" source="images/figure44.png" />
+    </figure>
+    <example>
+      <statement>
+        <me>
+          \frac{dp}{dt} = p^3 -7p^2 + 10p
+        </me>
+        <p>
+          The right side factors as <m>p(p-2)(p-5)</m>,
+          so it is zero then <m>p=0</m>, <m>p=2</m> or <m>p=5</m>.
+          Those are the steady states.
+          When <m>p \in (0,2)</m> the derivative is positive,
+          so the trajectory is increasing.
+          When <m>f \in (2,5)</m>,
+          the derivative is negative, so the trajectory is decreasing.
+          When <m>p \in (5,\infty)</m>,
+          the derivative is positive, so the trajectory is increasing.
+        </p>
+      </statement>
+    </example>
+    <figure xml:id="figure-phase-line3">
+      <caption>The Phase Line Diagram for <m>\frac{dp}{dt} = p^3 -
+      7p^2 + 10p</m></caption>
+      <image width="1200%" source="images/figure42.png" />
+    </figure>
+  </subsection>
+</section>

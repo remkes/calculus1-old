@@ -1,0 +1,78 @@
+<section xml:id="h-rule">
+  <title>L'H&#xf4;pital's Rule</title>
+  <subsection xml:id="intederminate-forms">
+    <title>Indeterminate Forms</title>
+    <p>
+      Recall that a limit is called an
+      <em>indeterminate form</em>
+      if it cannot be evaluated or logically determined.
+      We can classify indeterminate forms by their type.
+      For now, we look at three types.
+      The first two types involve quotient limits.
+      <me>
+        \lim_{x \rightarrow a} \frac{f(x)}{g(x)}
+      </me>
+    </p>
+    <p>
+      If <m>f(x)</m> and <m>g(x)</m> approach <m>\pm \infty</m>,
+      the limit is called an indeterminate form of type <m>\frac{\infty}{\infty}</m>.
+      If instead both <m>f(x)</m> and <m>g(x)</m> approach <m>0</m>,
+      then it is an indeterminate form of type <m>\frac{0}{0}</m>.
+      In both cases,
+      we want to use algebra to factor out and cancel off the pieces of the quotients which tends to <m>\infty</m> or <m>0</m> to solve the limit.
+    </p>
+    <p>
+      The third type involves a difference limit.
+      <me>
+        \lim_{x \rightarrow a} f(x) - g(x)
+      </me>
+    </p>
+    <p>
+      If both <m>f(x)</m> and <m>g(x)</m> approach <m>\pm \infty</m>,
+      this limit is called an indeterminate form of type <m>\infty - \infty</m>.
+      For this type, we want to use common denominator,
+      conjugates or other algegraic tricks to reduce it to a limit of type
+      <m>\frac{\infty}{\infty}</m> or type <m>\frac{0}{0}</m>.
+    </p>
+    <p>
+      In all these definitions,
+      we could replace <m>x \rightarrow a</m> with the one-sided limit or <m>x \rightarrow \pm \infty</m>;
+      the indeterminate forms are classified the same way for any type of limit.
+    </p>
+  </subsection>
+  <subsection xml:id="h-rule-definition">
+    <title>L'H&#xf4;pital's Rule</title>
+    <p>
+      The first application of derivatives is a strange reversal:
+      after using limits to define derivatives,
+      we are going to use derivatives to calculate limits.
+      L'H&#xf4;pital's rule is a method that applies to limits of type
+      <m>\frac{\infty}{\infty}</m> or type <m>\frac{0}{0}</m>.
+      In this case,
+      if <m>f</m> and <m>g</m> are differentiable functions, L'H&#xf4;pital's rule states that the limit is preserved if we differentiate both numerator and denominator.
+      <me>
+        \lim_{x \rightarrow a} \frac{f(x)}{g(x)} = \lim_{x \rightarrow a} \frac{f^\prime(x)}{g^\prime(x)}
+      </me>
+    </p>
+    <p>
+      This is particular useful in asymptotic analysis, where many limits
+      (as <m>x \rightarrow \infty</m>)
+      have type <m>\frac{\infty}{\infty}</m>.
+    </p>
+    <example>
+      <statement>
+        <p>
+          Consider the claim that <m>\ln x</m> is asymptotically slower than <m>\sqrt{x}</m>.
+          We use L'H&#xf4;pital's rule to prove the claim.
+          <me>
+            \lim_{x \rightarrow \infty} \frac{\ln x}{\sqrt{x}} = \lim_{x \rightarrow \infty} \frac{\frac{1}{x}}{\frac{1}{2\sqrt{x}}} = \lim_{x \rightarrow \infty} \frac{2 \sqrt{x}}{x} = \lim_{x \rightarrow \infty} \frac{2}{\sqrt{x}} = 0
+          </me>
+        </p>
+        <p>
+          A limit of <m>0</m> means that the numerator has lower asymptotic order than the denominator;
+          we were justified in saying that the logarithm <m>\ln x</m> is asymptotically slower that <m>\sqrt{x}</m>.
+        </p>
+      </statement>
+    </example>
+  </subsection>
+</section>
