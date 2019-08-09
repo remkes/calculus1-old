@@ -1,5 +1,5 @@
+size(10cm,5cm,IgnoreAspect);
 import graph;
-size(12cm,7cm,IgnoreAspect);
 yaxis("height",Ticks());
 xaxis("time",Ticks());
 dot((0.2,0.91));

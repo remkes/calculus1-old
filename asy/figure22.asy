@@ -1,5 +1,5 @@
+size(10cm);
 import graph;
-size(8cm);
 xlimits(-4,5);
 ylimits(-5,6);
 xaxis("$x$");

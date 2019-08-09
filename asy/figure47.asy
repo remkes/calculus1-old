@@ -1,4 +1,4 @@
-size(12cm,6cm,IgnoreAspect);
+size(10cm,5cm,IgnoreAspect);
 import graph;
 xaxis("$x$",dotted);
 yaxis("$y$",dotted);

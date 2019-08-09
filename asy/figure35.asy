@@ -1,5 +1,5 @@
+size(16cm);
 import graph;
-size(15cm);
 draw(unitcircle);
 draw(scale(2)*unitcircle);
 draw(scale(3)*unitcircle);

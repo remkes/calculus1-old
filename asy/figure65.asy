@@ -1,4 +1,4 @@
-size(8cm,4cm,IgnoreAspect);
+size(10cm);
 dot("$(a,b)$",(1,1),NW);
 dot("$(c,d)$",(3,2),NE);
 draw((1,1)--(3,2));

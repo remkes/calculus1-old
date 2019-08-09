@@ -1,6 +1,6 @@
+size(10cm);
 import graph;
 xaxis("$x$");
 yaxis("$y$");
-size(8cm);
-real f(real x) {return (x-2)^2-3;}
+real f(real x) {return ((x-2)^2-3)/4;}
 draw(graph(f,-1,5));

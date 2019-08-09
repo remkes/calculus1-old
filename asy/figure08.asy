@@ -1,7 +1,7 @@
+size(10cm);
 import graph;
 xaxis("$x$");
 yaxis("$y$");
-size(6cm);
 real f1(real x) {return exp(x)/5 + 1/2;}
 real f2(real x) {return x^3/7;}
 real f3(real x) {return sin(x);}

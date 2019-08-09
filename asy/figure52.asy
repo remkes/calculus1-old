@@ -1,4 +1,4 @@
-size(12cm,7cm,IgnoreAspect);
+size(10cm,5cm,IgnoreAspect);
 import graph;
 real f(real x) {return 3^x;}
 draw(graph(f,0.8,1.2));

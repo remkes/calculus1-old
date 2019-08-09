@@ -1,7 +1,7 @@
+size(10cm);
 import graph;
 xaxis("$x$");
 yaxis("$y$");
-size(7cm);
 real f1(real x) {return sqrt(x);}
 real f2(real x) {return -sqrt(x);}
 real f3(real x) {return 1/x;}

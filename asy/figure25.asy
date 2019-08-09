@@ -1,5 +1,5 @@
+size(10cm);
 import graph;
-size(9cm);
 xaxis("$x$",-5,6);
 yaxis("$y$",-7,4);
 draw(unitcircle);

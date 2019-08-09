@@ -1,4 +1,4 @@
-size(10cm,5cm,IgnoreAspect);
+size(10cm);
 draw((0,0)--(5,0)--(5,3)--(0,3)--(0,0));
 label("$a$",(0,1.5),E);
 label("$b$",(2.5,0),S);

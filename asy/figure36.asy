@@ -1,7 +1,7 @@
+size(10cm);
 import graph;
 xaxis("$x$",-4,4);
 yaxis("$y$",-1,5);
-size(12cm);
 real f(real x) {return x^2/4;} 
 real g(real x) {return sqrt(4x);}
 draw(graph(f,-4,4));

@@ -1,5 +1,5 @@
+size(10cm);
 import graph;
-size(5cm);
 xaxis("$x$");
 yaxis("$y$");
 real f5(real x) {return (x^2)/3;}

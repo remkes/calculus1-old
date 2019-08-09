@@ -1,5 +1,5 @@
+size(10cm,5cm,IgnoreAspect);
 import graph;
-size(12cm,7cm,IgnoreAspect);
 yaxis("concentration",Ticks());
 xaxis("time",Ticks());
 dot((1,2.13));

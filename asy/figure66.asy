@@ -1,4 +1,4 @@
-size(8cm);
+size(10cm);
 import graph;
 yaxis("$x$",Ticks());
 xaxis("$y$",Ticks());

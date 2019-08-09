@@ -1,5 +1,5 @@
+size(10cm);
 import graph;
-size(5cm);
 xaxis("$x$");
 yaxis("$y$");
 real f3(real x) {return sqrt(x^2-1);}
