@@ -91,7 +91,8 @@
       </statement>
     </example>
     <figure xml:id="figure-phase-line1">
-      <caption>The Phase Line Diagram for <m>\frac{dp}{dx} = p^2 - p</m></caption>
+      <caption>The Phase Line Diagram for <m>\frac{dp}{dx} = p^2 -
+      p</m></caption>
       <image width="85%" source="images/figure41"/>
     </figure>
     <example>
@@ -131,7 +132,7 @@
     </p>
     <figure xml:id="figure-exponential-growth">
       <caption>Exponential and Logistic Growth</caption>
-      <image width="85%" source="images/figure44"/>
+      <image width="60%" source="images/figure44"/>
     </figure>
     <example>
       <statement>

@@ -139,7 +139,7 @@
     <title>Restriction of Domain</title>
     <figure xml:id="figure-restriction">
       <caption>Restricting the Domain of <m>f(x) = x^2</m></caption>
-      <image width="85%" source="images/figure36"/>
+      <image width="60%" source="images/figure36"/>
     </figure>
     <p>
       Many functions are not monotonic, but we would like to invert

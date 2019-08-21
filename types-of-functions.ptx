@@ -10,11 +10,7 @@
     <title>Constant Functions</title>
     <figure xml:id="figure-constant-function">
       <caption>A Constant Function</caption>
-      <image width="85%" source="images/figure26"/>
-    </figure>
-    <figure xml:id="figure-linear-function">
-      <caption>A Linear Function</caption>
-      <image width="85%" source="images/figure27"/>
+      <image width="60%" source="images/figure26"/>
     </figure>
     <p>
       The simpliest kind of function is a constant function. Its
@@ -26,6 +22,10 @@
   </subsection>
   <subsection xml:id="linear-functions">
     <title>Linear Functions</title>
+    <figure xml:id="figure-linear-function">
+      <caption>A Linear Function</caption>
+      <image width="60%" source="images/figure27"/>
+    </figure>
     <p>
       Linear functions have the form <m>f(x) = ax + b</m> for real
       numbers <m>a</m> and <m>b</m>. Their graphs which are straight
@@ -44,6 +44,10 @@
   </subsection>
   <subsection xml:id="quadratic-functions">
     <title>Quadratic Functions</title>
+    <figure xml:id="figure-quadratic-function">
+      <caption>A Quadratic Function</caption>
+      <image width="60%" source="images/figure33"/>
+    </figure>
     <p>
       Quadratic functions have the form <m>f(x) = ax^2 + bx + c</m>.
       Their graphs are parabolas. We have a large array of tools to
@@ -52,17 +56,13 @@
       (to find the roots). Quadratic functions have no domain
       restrictions.
     </p>
-    <figure xml:id="figure-quadratic-function">
-      <caption>A Quadratic Function</caption>
-      <image width="85%" source="images/figure33"/>
-    </figure>
-    <figure xml:id="figure-polynomial-function">
-      <caption>A Polynomial Function</caption>
-      <image width="85%" source="images/figure28"/>
-    </figure>
   </subsection>
   <subsection xml:id="polynomials">
     <title>Polynomial Functions</title>
+    <figure xml:id="figure-polynomial-function">
+      <caption>A Polynomial Function</caption>
+      <image width="60%" source="images/figure28"/>
+    </figure>
     <p>
       Polynomial functions have the following form, where the
       <m>a_i</m> are anyreal numbers.
@@ -87,6 +87,10 @@
   </subsection>
   <subsection xml:id="rational-functions">
     <title>Rational Functions</title>
+    <figure xml:id="figure-rational-function">
+      <caption>A Rational Function</caption>
+      <image width="60%" source="images/figure29"/>
+    </figure>
     <p>
       Rational numbers are fractions involving integers, In the same
       way, rational functions are fractions involving polynomials.
@@ -104,17 +108,13 @@
       line which the graph of the function approaches near an
       undefined point.
     </p>
-    <figure xml:id="figure-rational-function">
-      <caption>A Rational Function</caption>
-      <image width="85%" source="images/figure29"/>
-    </figure>
-    <figure xml:id="figure-algebraic-function">
-      <caption>An Algebraic Function</caption>
-      <image width="85%" source="images/figure30"/>
-    </figure>
   </subsection>
   <subsection xml:id="algebraic-functions">
     <title>Algebraic Functions</title>
+    <figure xml:id="figure-algebraic-function">
+      <caption>An Algebraic Function</caption>
+      <image width="60%" source="images/figure30"/>
+    </figure>
     <p>
       We are now moving into much broader categories of functions,
       where it is impossible to give a cohesive sense of the behaviour
@@ -132,11 +132,7 @@
     <title>Trigonometric Functions</title>
     <figure xml:id="figure-trigonometric-function">
       <caption>A Trigonometric Function</caption>
-      <image width="85%" source="images/figure32"/>
-    </figure>
-    <figure xml:id="figure-trig-circle">
-      <caption>Trigonometry and the Circle</caption>
-      <image width="85%" source="images/figure34"/>
+      <image width="60%" source="images/figure32"/>
     </figure>
     <p>
       The first type of non-algebraic functions are trigonometric
@@ -148,6 +144,10 @@
       they have undefined points and vertical asymptotes at regular
       intervals.
     </p>
+    <figure xml:id="figure-trig-circle">
+      <caption>Trigonometry and the Circle</caption>
+      <image width="50%" source="images/figure34"/>
+    </figure>
     <p>
       Though the trigonometric functions are usually associated to
       triangles, it is more natural to define them using the circle.
@@ -173,7 +173,7 @@
     <title>Exponential and Logarithmic Functions</title>
     <figure xml:id="figure-an-exponential-function">
       <caption>An Exponential Function</caption>
-      <image width="85%" source="images/figure31"/>
+      <image width="60%" source="images/figure31"/>
     </figure>
     <p>
       If <m>a</m> is a positive real number, then functions of the

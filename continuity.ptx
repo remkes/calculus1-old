@@ -3,7 +3,7 @@
   <introduction>
     <figure xml:id="figure-continuity">
       <caption>Continuity</caption>
-      <image width="85%" source="images/figure45"/>
+      <image width="60%" source="images/figure45"/>
     </figure>
     <p>
       A function is continuous at a point <m>a</m> in its domain if
@@ -47,11 +47,15 @@
     </p>
     <figure xml:id="figure-ivt">
       <caption>Intermediate Value Theorem</caption>
-      <image width="85%" source="images/figure46"/>
+      <image width="60%" source="images/figure46"/>
     </figure>
   </subsection>
   <subsection xml:id="piecewise">
     <title>Piecewise Functions</title>
+    <figure xml:id="figure-heaviside">
+      <caption>The Heaviside Function</caption>
+      <image width="60%" source="images/figure21"/>
+    </figure>
     <p>
       We know that all of our familiar elementary functions are
       continuous on their domains. One might ask why we are worried
@@ -67,10 +71,6 @@
         x \geq a \end{cases} 
       </me>
     </p>
-    <figure xml:id="figure-heaviside">
-      <caption>The Heaviside Function</caption>
-      <image width="85%" source="images/figure21"/>
-    </figure>
     <p>
       A very well-known example is the Heaviside function.
       <me>

@@ -24,7 +24,7 @@
         </p>
         <figure xml:id="figure-fixed-perimeter-rectangle">
           <caption>A Fixed-Perimeter Rectangle</caption>
-          <image width="85%" source="images/figure56"/>
+          <image width="60%" source="images/figure56"/>
         </figure>
         <p>
           We want to maximize area, so we will eventually be
@@ -73,7 +73,7 @@
     </p>
     <figure xml:id="figure-distance-optimization">
       <caption>A Distance Optimization</caption>
-      <image width="85%" source="images/figure66"/>
+      <image width="60%" source="images/figure66"/>
     </figure>
     <example>
       <statement>
@@ -227,7 +227,7 @@
     </p>
     <figure xml:id="figure-marginal-analysis">
       <caption>Example of Marginal Analysis</caption>
-      <image width="85%" source="images/figure57"/>
+      <image width="60%" source="images/figure57"/>
     </figure>
     <example>
       <statement>

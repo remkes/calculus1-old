@@ -25,7 +25,7 @@
     </p>
     <figure xml:id="figure-cartesian-coordiantes">
       <caption>Cartesian Coordiantes in <m>\RR^2</m></caption>
-      <image width="85%" source="images/figure01"/>
+      <image width="60%" source="images/figure01"/>
     </figure>
     <p>
       The basic idea of cartesian coordinates should be familiar to
@@ -68,7 +68,7 @@
     <title>Loci</title>
     <figure xml:id="figure-circle-locus">
       <caption>The Circle: A Locus</caption>
-      <image width="85%" source="images/figure64"/>
+      <image width="40%" source="images/figure64"/>
     </figure>
     <p>
       Cartesian coordinate are useful for giving algebraic definitions
@@ -84,11 +84,7 @@
     <title>Lines</title>
     <figure xml:id="four-lines">
       <caption>Four Lines</caption>
-      <image width="85%" source="images/figure02"/>
-    </figure>
-    <figure xml:id="intersection-of-lines">
-      <caption>Intersections of Lines</caption>
-      <image width="85%" source="images/figure22"/>
+      <image width="60%" source="images/figure02"/>
     </figure>
     <p>
       The simplest these loci are lines. Lines are given by equations
@@ -110,6 +106,10 @@
       particularly important when we describe tangent lines to
       graphs.
     </p>
+    <figure xml:id="intersection-of-lines">
+      <caption>Intersections of Lines</caption>
+      <image width="50%" source="images/figure22"/>
+    </figure>
     <p>
       You will also be expected to find the intersections of lines.
       In <xref ref="intersection-of-lines">Figure</xref>, we have the
@@ -155,17 +155,9 @@
       equations. For the algebraic equations, we will assume that the
       conic is centred at the origin.
     </p>
-    <figure xml:id="figure-slicing-a-cone">
-      <caption>Slicing a Cone</caption>
-      <image width="85%" source="images/figure23"/>
-    </figure>
     <figure xml:id="figure-circle">
       <caption>The Circle</caption>
-      <image width="85%" source="images/figure03"/>
-    </figure>
-    <figure xml:id="figure-ellipse">
-      <caption>The Ellipse</caption>
-      <image width="85%" source="images/figure06"/>
+      <image width="50%" source="images/figure03"/>
     </figure>
     <ul>
       <li>
@@ -191,6 +183,10 @@
         </p>
       </li>
     </ul>
+    <figure xml:id="figure-ellipse">
+      <caption>The Ellipse</caption>
+      <image width="60%" source="images/figure06"/>
+    </figure>
     <ul>
       <li>
         <title>Intrinsic Definition</title>
@@ -223,11 +219,7 @@
     </ul>
     <figure xml:id="figure-parabola">
       <caption>The Parabola</caption>
-      <image width="85%" source="images/figure05"/>
-    </figure>
-    <figure xml:id="figure-hyperbola">
-      <caption>The Hyperbola</caption>
-      <image width="85%" source="images/figure04"/>
+      <image width="60%" source="images/figure05"/>
     </figure>
     <ul>
       <li>
@@ -256,6 +248,10 @@
         </p>
       </li>
     </ul>
+    <figure xml:id="figure-hyperbola">
+      <caption>The Hyperbola</caption>
+      <image width="60%" source="images/figure04"/>
+    </figure>
     <ul>
       <li>
         <title>Intrinsic Definition</title>
@@ -303,7 +299,7 @@
     <title>Other Loci</title>
     <figure xml:id="figure-several-other-loci">
       <caption>Several Other Loci</caption>
-      <image width="85%" source="images/figure07"/>
+      <image width="60%" source="images/figure07"/>
     </figure>
     <p>
       Lines and conics are just two of many classes and families of
@@ -351,7 +347,7 @@
     </p>
     <figure xml:id="figure-four-graphs">
       <caption>Four Graphs</caption>
-      <image width="85%" source="images/figure08"/>
+      <image width="60%" source="images/figure08"/>
     </figure>
     <p>
       Graphs of functions are also loci. If <m>f(x)</m> is a
@@ -373,7 +369,7 @@
     </p>
     <figure xml:id="figure-intersection">
       <caption>Intersection of a Line and an Ellipse</caption>
-      <image width="85%" source="images/figure24"/>
+      <image width="60%" source="images/figure24"/>
     </figure>
   </subsection>
   <subsection xml:id="intersection">
@@ -398,7 +394,7 @@
     <title>Shifts</title>
     <figure xml:id="figure-shifts-circle">
       <caption>Shifts of a Circle</caption>
-      <image width="85%" source="images/figure25"/>
+      <image width="60%" source="images/figure25"/>
     </figure>
     <p>
       For conics, I noted that all of the conic equations were

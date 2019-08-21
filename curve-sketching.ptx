@@ -97,7 +97,7 @@
   </p>
   <figure xml:id="figure-curve-sketching1">
     <caption><m>f(x) = x \ln x</m></caption>
-    <image width="85%" source="images/figure58"/>
+    <image width="60%" source="images/figure58"/>
   </figure>
   <example>
     <statement>
@@ -186,7 +186,7 @@
   </example>
   <figure xml:id="figure-curve-sketching2">
     <caption><m>f(x) = xe^{-x^2}</m></caption>
-    <image width="85%" source="images/figure59"/>
+    <image width="60%" source="images/figure59"/>
   </figure>
   <example>
     <statement>
@@ -297,7 +297,7 @@
   </example>
   <figure xml:id="figure-curve-sketching-example3">
     <caption><m>f(x) = x^4 + 8x^3 - 270x^2 + 10</m></caption>
-    <image width="85%" source="images/figure60"/>
+    <image width="60%" source="images/figure60"/>
   </figure>
   <example>
     <statement>

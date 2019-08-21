@@ -9,7 +9,7 @@
   </p>
   <figure xml:id="figure-linear-approximation">
     <caption>Tangent Lines and Linear Approximation</caption>
-    <image width="85%" source="images/figure51"/>
+    <image width="60%" source="images/figure51"/>
   </figure>
   <p>
     In <xref ref="figure-linear-approximation">Figure</xref>, we've
@@ -21,7 +21,7 @@
   </p>
   <figure xml:id="figure-tangent-zoom">
     <caption>Close Zoom of a Tangent Line</caption>
-    <image width="85%" source="images/figure52"/>
+    <image width="60%" source="images/figure52"/>
   </figure>
   <p>
     In <xref ref="figure-tangent-zoom">Figure</xref> we zoom in very

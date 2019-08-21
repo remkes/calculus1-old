@@ -54,7 +54,7 @@
   </p>
   <figure xml:id="figure-area-function">
     <caption>The Area Function <m>f(x)</m></caption>
-    <image width="85%" source="images/figure53"/>
+    <image width="60%" source="images/figure53"/>
   </figure>
   <p>
     We use the limit definition of the derivative.

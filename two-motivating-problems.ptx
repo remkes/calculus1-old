@@ -4,7 +4,7 @@
     <title>The Velocity Problem</title>
     <figure xml:id="figure-slope-linear">
       <caption>Slope of a Linear Function</caption>
-      <image width="85%" source="images/figure10"/>
+      <image width="60%" source="images/figure10"/>
     </figure>
     <p>
       Moving from biological examples to physics, the velocity problem
@@ -31,11 +31,11 @@
     </p>
     <figure xml:id="figure-tangent-line">
       <caption>A Tangent Line</caption>
-      <image width="85%" source="images/figure11"/>
+      <image width="60%" source="images/figure11"/>
     </figure>
     <figure xml:id="figure-secant-line">
       <caption>A Secant Line</caption>
-      <image width="85%" source="images/figure12"/>
+      <image width="60%" source="images/figure12"/>
     </figure>
     <p>
       The slope of a graph is defined to be the slope of its tangent,
@@ -66,11 +66,11 @@
     </p>
     <figure xml:id="figure-constant-velocity">
       <caption>Constant Velocity</caption>
-      <image width="85%" source="images/figure14"/>
+      <image width="60%" source="images/figure14"/>
     </figure>
     <figure xml:id="figure-non-constant-velocity">
       <caption>Non-Constant Velocity</caption>
-      <image width="85%" source="images/figure15"/>
+      <image width="60%" source="images/figure15"/>
     </figure>
     <p>
       Again, algebra can only answer this question for very simple
@@ -90,11 +90,11 @@
     </p>
     <figure xml:id="figure-approximation-by-rectangles">
       <caption>Approximation of Area by Rectangles</caption>
-      <image width="85%" source="images/figure16"/>
+      <image width="60%" source="images/figure16"/>
     </figure>
     <figure xml:id="figure-improved-approximation-by-rectangles">
       <caption>Improved Approximation with More Rectangles</caption>
-      <image width="85%" source="images/figure17"/>
+      <image width="60%" source="images/figure17"/>
     </figure>
     <p>
       The sum of the areas of all the rectangles is reasonable

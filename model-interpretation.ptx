@@ -142,7 +142,7 @@
   </example>
   <figure xml:id="figure-model-radioactivity">
     <caption>A Model of Radioactivity</caption>
-    <image width="85%" source="images/figure62"/>
+    <image width="60%" source="images/figure62"/>
   </figure>
   <example>
     <statement>
@@ -203,7 +203,7 @@
   </example>
   <figure xml:id="figure-population-model">
     <caption>A Population Model</caption>
-    <image width="85%" source="images/figure61"/>
+    <image width="60%" source="images/figure61"/>
   </figure>
   <example>
     <statement>
@@ -264,7 +264,7 @@
   </example>
   <figure xml:id="figure-temperature-model">
     <caption>A Temperature Model</caption>
-    <image width="85%" source="images/figure63"/>
+    <image width="60%" source="images/figure63"/>
   </figure>
   <p>
     The description of models is, in many ways, the culmulation of

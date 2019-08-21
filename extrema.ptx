@@ -46,7 +46,7 @@
   </p>
   <figure xml:id="figure-tangent-lines-at-extrema">
     <caption>Tangent Lines at Extrema</caption>
-    <image width="85%" source="images/figure54"/>
+    <image width="60%" source="images/figure54"/>
   </figure>
   <p>
     The tangent lines are horizontal at maximum or minimum values. We
@@ -165,6 +165,6 @@
   </example>
   <figure xml:id="figure-cubic-extrema-example">
     <caption>Extrema of a Cubic</caption>
-    <image width="85%" source="images/figure55"/>
+    <image width="60%" source="images/figure55"/>
   </figure>
 </section>

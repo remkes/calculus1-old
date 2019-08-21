@@ -67,7 +67,7 @@
     </p>
     <figure xml:id="figure-four-exponential-functions">
       <caption>Four Exponential Functions</caption>
-      <image width="85%" source="images/figure49"/>
+      <image width="60%" source="images/figure49"/>
     </figure>
     <p>
       The slope at <m>(0,1)</m> determines the derivative. As seen in
@@ -364,14 +364,20 @@
           </mrow>
           <mrow>
             \amp = \cos \left( \frac{x^2+1}{x^2-1} \right)
-            \frac{2x(x^2-1 - x^2 -1)}{(x^2-1)^2} = - \cos \left(
+            \frac{2x(x^2-1 - x^2 -1)}{(x^2-1)^2} 
+          </mrow>
+          <mrow>
+            \amp = - \cos \left(
             \frac{x^2+1}{x^2-1} \right) \frac{4x}{(x^2-1)^2}
           </mrow>
           <mrow>
             \frac{d}{dx} \cos ( e^{\sin x}) \amp = -\sin (e^{\sin x})
             \frac{d}{dx} e^{\sin x} = -\sin (e^{\sin x}) e^{\sin x}
-            \frac{d}{dx} \sin x = -\sin (e^{\sin x}) e^{\sin x} \cos
-        </mrow>
+            \frac{d}{dx} \sin x 
+          </mrow>
+          <mrow>
+            \amp = -\sin (e^{\sin x}) e^{\sin x} \cos
+          </mrow>
         </md>
       </statement>
     </example>
