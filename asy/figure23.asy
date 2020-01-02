@@ -1,4 +1,4 @@
-size(10cm,0);
+unitsize(3cm);
 import graph3;
 
 currentprojection=orthographic(1,10,1);
