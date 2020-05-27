@@ -1,0 +1,4 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="week9">
+  <title>Week 9</title>
+  <xi:include href="substitution-rule.ptx" />
+</chapter>

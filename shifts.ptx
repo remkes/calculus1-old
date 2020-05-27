@@ -1,0 +1,87 @@
+<section xml:id="shifts">
+  <title>Shifts</title>
+  <subsection xml:id="shifts-of-conics">
+    <title>Shifts of Conics</title>
+    <figure xml:id="figure-shifts-circle">
+      <caption>Shifts of a Circle</caption>
+      <image width="60%" source="images/figure25"/>
+    </figure>
+    <p>
+      For conics, I noted that all of the conic equations were
+      centered at the origin. By understanding shifts of loci, we
+      learn how to write conics centered at any point. Shifts are a
+      process of changing the equation of a locus to move the locus
+      around the plane.
+    </p>
+    <p>
+      Let <m>a</m> be a positive real number and consider the equation
+      of a locus.
+      <ul>
+        <li>
+          <p>
+            If we replace all instance of <m>x</m> by <m>x-a</m>, we
+            move the locus <m>a</m> units in the positive <m>x</m>
+            direction.
+          </p>
+        </li>
+        <li>
+          <p>
+            If we replace all instance of <m>x</m> by <m>x+a</m>, we
+            move the locus <m>a</m> units in the negative <m>x</m>
+            direction.
+          </p>
+        </li>
+        <li>
+          <p>
+            If we replace all instance of <m>y</m> by <m>y-a</m>, we
+            move the locus <m>a</m> units in the positive <m>y</m>
+            direction.
+          </p>
+        </li>
+        <li>
+          <p>
+            If we replace all instance of <m>y</m> by <m>y+a</m>, we
+            move the locus <m>a</m> units in the negative <m>y</m>
+            direction.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      Consider the cirlce <m>x^2 + y^2 = 1</m>, which is a circle of
+      radius one centered at the origin. <xref
+      ref="figure-shifts-circle">Figure</xref> shows the following
+      shifts.
+      <ul>
+        <li>
+          <p>
+            The locus <m>(x-1)^2 + (y-2)^2 = 1</m> is a circle of
+            radius 1 centered at <m>(1,2)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            The locus <m>(x+3)^2 + (y-3)^2 = 1</m> is a circle of
+            radius 1 centered at <m>(-3,3)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            The locus <m>(x+4)^2 + (y+6)^2 = 1</m> is a circle of
+            radius 1 centered at <m>(-4,-6)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            The locus <m>(x-5)^2 + (y+2)^2 = 1</m> is a circle of
+            radius 1 centered at <m>(5,-2)</m>.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      Shifts do not only apply to conics:
+      we can shift any locus in this way.
+    </p>
+  </subsection>
+</section>

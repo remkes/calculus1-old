@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
 <frontmatter xml:id="calculus1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <titlepage>
     <author>
@@ -9,4 +8,6 @@
       <email>remkes.kooistra@kingsu.ca</email>
     </author>
   </titlepage>
+  <xi:include  href="colophon.ptx" />
+  <xi:include  href="preface.ptx" />
 </frontmatter>

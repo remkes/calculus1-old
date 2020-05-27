@@ -1,0 +1,6 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="week8">
+  <title>Week 8</title>
+  <xi:include href="sigma-notation.ptx" />
+  <xi:include href="riemann-integral.ptx" />
+  <xi:include href="fundamental-theorem.ptx" />
+</chapter>

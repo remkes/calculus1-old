@@ -1,6 +1,6 @@
 <section xml:id="optimization">
   <title>Optimization</title>
-  <subsection xml:id="models-exterem-values">
+  <subsection xml:id="models-exterme-values">
     <title>Extreme Values of Models</title>
     <p>
       Now that we understand how to find extrema using derivatives, we

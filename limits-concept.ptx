@@ -1,5 +1,5 @@
-<section xml:id="finite-values">
-  <title>Limits at Finite Values</title>
+<section xml:id="limits-concept">
+  <title>The Concept of a Limit</title>
   <introduction>
     <p>
       In the prevous section, the two motivating problems of velocity
@@ -100,90 +100,6 @@
       <me>
         \lim_{x \rightarrow a^+} f(x)
       </me>
-    </p>
-  </subsection>
-  <subsection xml:id="calculation-limits">
-    <title>Calculating Limits</title>
-    <p>
-      There is a three step procedure to calculating limits.
-      <ul>
-        <li>
-          <p>
-            First, try to evaluate the function at the limit point.
-            For reasonable funciton (specifically, continuous
-            funcitons, which will be defined later), if the function
-            can be evaluated directly, the function value will be your
-            limit value.
-          </p>
-        </li>
-        <li>
-          <p>
-            If the first method fails, try to work out logically what
-            the limit should do.
-          </p>
-        </li>
-        <li>
-          <p>
-            If both methods fail, the limit is called an
-            <em>indeterminante form</em>. In this case, we need to
-            use various algebraic tricks (factoring, expanding,
-            multiplying by conjugates, trig identities) and rules for
-            manipulating limits to change the limit into a more
-            approachable form.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection>
-  <subsection xml:id="limit-rules">
-    <title>Limits Rules</title>
-    <p>
-      The third step referred to the rules for manipulating limits,
-      which we will now state. Let <m>f</m> and <m>g</m> be functions
-      with limits defined at <m>x=a</m> and let <m>c</m> be a
-      constant. (In the quotient limit, assume <m>g(x) \neq 0</m>, and
-      in the exponential limit, assume <m>f(x) > 0</m>.)
-      <md>
-        <mrow>
-          \lim_{x \rightarrow a} f(x) + g(x) \amp  = \lim_{x
-          \rightarrow a} f(x) + \lim_{x \rightarrow a} g(x)
-        </mrow>
-        <mrow>
-          \lim_{x \rightarrow a} f(x) - g(x) \amp  = \lim_{x
-          \rightarrow a} f(x) - \lim_{x \rightarrow a} g(x)
-        </mrow>
-        <mrow>
-          \lim_{x \rightarrow a} c f(x) \amp  = c \lim_{x \rightarrow
-          a} f(x)
-        </mrow>
-        <mrow>
-          \lim_{x \rightarrow a} f(x) g(x) \amp  = \lim_{x \rightarrow
-          a} f(x) \lim_{x \rightarrow a} g(x)
-        </mrow>
-        <mrow>
-          \lim_{x \rightarrow a} \frac{f(x)}{g(x)} \amp  =
-          \frac{\lim_{x \rightarrow a} f(x)} {\lim_{x \rightarrow a}
-          g(x)}
-        </mrow>
-        <mrow>
-          \lim_{x \rightarrow a} (f(x))^c \amp  = (\lim_{x \rightarrow
-          a} f(x))^c
-        </mrow>
-      </md>
-    </p>
-    <p>
-      In addition to the limit rules, there are two limits that are
-      frequently useful. The second limit can be taken as a
-      definition of the exponential base <m>e</m>.
-      <md>
-        <mrow>
-          \lim_{x \rightarrow 0} \frac{\sin x}{x} \amp  = 1
-        </mrow>
-        <mrow>
-          \lim_{x \rightarrow 0^+} \left( 1 + x \right)^{\frac{1}{x}}
-          \amp  = e
-        </mrow>
-      </md>
     </p>
   </subsection>
 </section>

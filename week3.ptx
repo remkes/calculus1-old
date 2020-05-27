@@ -1,0 +1,6 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="week3">
+  <title>Week 3</title>
+  <xi:include href="population-growth.ptx" />
+  <xi:include href="differential-equations.ptx" />
+  <xi:include href="autonomous-des.ptx" />
+</chapter>

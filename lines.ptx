@@ -1,0 +1,30 @@
+<section xml:id="lines">
+  <title>Lines</title>
+  <subsection xml:id="equations-of-lines">
+    <title>Equations of Lines</title>
+    <figure xml:id="four-lines">
+      <caption>Four Lines</caption>
+      <image width="60%" source="images/figure02"/>
+    </figure>
+    <p>
+      The simplest these loci are lines. Lines are given by equations
+      <m>ax + by + c = 0</m> for constants <m>a,b,c</m>. If <m>b \neq
+      0</m>, then this can be converted into the more familiar
+      slope-intercept form <m>y = mx + n</m> by solving for <m>y</m>.
+      Along with planes and other flat objects, lines are called the
+      <em>linear loci</em>. Linear loci can are loci whose equations
+      in <m>x</m> and <m>y</m> (or in more variables in higher
+      dimensional <m>\RR^n</m>) involve only degree one polynomials.
+      The subject of linear algebra is the study of such linear loci
+      and their many properties.
+    </p>
+    <p>
+      You will be expected to work with the equations of lines. In
+      particular, you will need to be able to derive the equation of
+      the line, both in standard form and slope-intercept form, given
+      two points or given a point and a slope. This will be
+      particularly important when we describe tangent lines to
+      graphs.
+    </p>
+  </subsection>
+</section>

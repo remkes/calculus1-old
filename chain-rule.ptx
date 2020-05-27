@@ -1,0 +1,164 @@
+<section xml:id="chain-rule">
+  <title>Chain Rules</title>
+  <subsection xml:id="derivatives-composition">
+    <title>Derivatives of Compositions</title>
+    <p>
+      The rules we have so far give us the tools to calculate many
+      derivatives. However, they don't address composition. How do
+      we differentiate <m>\sin x^2</m>?  The rule that addresses
+      derivatives of composed functions is called the chain rule. The
+      chain rule has two notations. Let <m>f</m> and <m>g</m> be
+      differentiable functions and consider the composition
+      <m>f(g(x))</m>. It is often useful to label <m>g(x)</m> by a
+      new, temporary variable <m>u = g(x)</m>. The vertical line mean
+      evaluate by replaing <m>u</m> with <m>g(x)</m>. 
+      <me>
+        \frac{d}{dx} f(g(x)) = f^\prime(g(x)) g^\prime(x) = \left.
+        \frac{df(u)}{du} \right|_{u=g(x)} \frac{dg}{dx} 
+      </me>
+    </p>
+    <p>
+      The variety of notations is somewhat due to the difficult nature
+      of the rule<mdash />it's hard to clearly describe. The key idea
+      is to think of composition in terms of inside and outside
+      functions. The derivative of the composition is the derivative
+      of the outside (<m>f^\prime</m>) evaluted at the inside
+      (<m>f^\prime(g(x))</m>), then multiplied by the derivative of
+      the inside (<m>g^\prime</m>). There is one other way of
+      expressing the chain rule.
+      <me>
+        \frac{df}{dx} = \frac{df}{dg} \frac{dg}{dx}
+      </me>
+    </p>
+    <p>
+      In this last version of the chain rule, we can think of the
+      infinitesimals <m>df</m>, <m>dg</m> and <m>dx</m> as something
+      like fractions in Leibniz notation (<m>\frac{df}{dx}</m>).
+      These terms are not fractions, but they act a bit like fractions.
+    </p>
+    <p>
+      The proof of the chain rule is tricky, but the following
+      argument gives the idea. The argument is a little imprecise in
+      the fourth step, where we replace <m>g(x)</m> with the temporary
+      variable <m>u</m>, since we haven't established that such an
+      operation is valid. In the proof, let <m>F = f \circ g</m>.
+      <md>
+        <mrow>
+          \frac{dF}{dx}(a) \amp = \lim_{x \rightarrow a} \frac{f
+          \circ g (x) - f \circ g(a)}{x-a} = \lim_{x \rightarrow a}
+          \frac{f(g(x)) - f(g(a))}{x-a}
+        </mrow>
+        <mrow>
+          \amp = \lim_{x \rightarrow a} \frac{f(g(x)) - f(g(a))}{g(x)
+          - g(a)} \frac{g(x) - g(a)}{x-a}
+        </mrow>
+        <mrow>
+          \amp = \lim_{x \rightarrow a} \frac{f(g(x)) - f(g(a))}{g(x)
+          - g(a)} \lim_{x \rightarrow a} \frac{g(x) - g(a)}{x-a}
+        </mrow>
+        <mrow>
+          \amp = \lim_{u \rightarrow g(a)} \frac{f(u) - f(g(a))}{u -
+          g(a)} \lim_{x \rightarrow a} \frac{g(x) - g(a)}{x-a}
+        </mrow>
+        <mrow>
+          \amp = \left. \frac{df}{du} \right|_{u=g(a)} \left.
+          \frac{dg}{dx} \right|_{x=a} = f^\prime(g(a)) g^\prime(a)
+        </mrow>
+      </md>
+    </p>
+    <example>
+      <statement>
+        <md>
+          <mrow>
+            \frac{d}{dx} e^{ax} \amp = ae^{ax}
+          </mrow>
+          <mrow>
+            \frac{d}{dx} \sin 3x \amp = 3 \cos 3x
+          </mrow>
+          <mrow>
+            \frac{d}{dx} e^{x^2+2} \amp = (2x) e^{x^2+2}
+          </mrow>
+          <mrow>
+            \frac{d}{dx} e^{e^x} \amp = e^x e^{e^x}
+          </mrow>
+          <mrow>
+            \frac{d}{dx} \sin \left( \frac{x^2+1}{x^2-1} \right) \amp
+            = \cos \left( \frac{x^2+1}{x^2-1} \right) \frac{d}{dx}
+            \frac{x^2+1}{x^2-1}
+          </mrow>
+          <mrow>
+            \amp = \cos \left( \frac{x^2+1}{x^2-1} \right)
+            \frac{(x^2-1) \frac{d}{dx} (x^2+1) - (x^2+1) \frac{d}{dx}
+            (x^2-1)}{(x^2-1)^2}
+          </mrow>
+          <mrow>
+            \amp = \cos \left( \frac{x^2+1}{x^2-1} \right)
+            \frac{(x^2-1) (2x) - (x^2+1) (2x)}{(x^2-1)^2}
+          </mrow>
+          <mrow>
+            \amp = \cos \left( \frac{x^2+1}{x^2-1} \right)
+            \frac{2x(x^2-1 - x^2 -1)}{(x^2-1)^2} 
+          </mrow>
+          <mrow>
+            \amp = - \cos \left(
+            \frac{x^2+1}{x^2-1} \right) \frac{4x}{(x^2-1)^2}
+          </mrow>
+          <mrow>
+            \frac{d}{dx} \cos ( e^{\sin x}) \amp = -\sin (e^{\sin x})
+            \frac{d}{dx} e^{\sin x} = -\sin (e^{\sin x}) e^{\sin x}
+            \frac{d}{dx} \sin x 
+          </mrow>
+          <mrow>
+            \amp = -\sin (e^{\sin x}) e^{\sin x} \cos
+          </mrow>
+        </md>
+      </statement>
+    </example>
+    <example>
+      <statement>
+        <p>
+          We can use the chain rule to differentiate arbitrary
+          exponential functions in more detail than before:
+          <md>
+            <mrow>
+              \frac{d}{dx} a^x\amp = \frac{d}{dx} e^{x\ln a} = e^{x
+              \ln a} \ln a = a^x \ln a
+            </mrow>
+          </md>
+        </p>
+      </statement>
+    </example>
+    <example>
+      <statement>
+        <p>
+          We can also use the chain rule with a neat little
+          exponential trick to differentiate <m>f(x) = x^x</m>. (In
+          this calculation, we use <m>\frac{d}{dx} \ln x =
+          \frac{1}{x}</m>, which we will prove in the next section.)
+          <md>
+            <mrow>
+              \frac{d}{dx} x^x \amp = \frac{d}{dx} e^{x\ln x} =
+              e^{x\ln x} \frac{d}{dx} x\ln x = x^x (\ln x \frac{d}{dx}
+              x + x \frac{d}{dx} \ln x) = x^x(\ln x + 1)
+            </mrow>
+          </md>
+        </p>
+      </statement>
+    </example>
+    <example>
+      <statement>
+        <p>
+          We can use the chain rule to prove the quotient rule.
+          <md>
+            <mrow>
+              \frac{d}{dx} \frac{f}{g} \amp = \frac{d}{dx} f g^{-1} =
+              f \frac{d}{dx} g^{-1} + g^{-1} \frac{d}{dx} = -f g^{-2}
+              \frac{dg}{dx} + g^{-1} \frac{df}{dx} = \frac{gf^\prime -
+              fg^\prime}{g^2}
+            </mrow>
+          </md>
+        </p>
+      </statement>
+    </example>
+  </subsection>
+</section>

@@ -1,0 +1,9 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="week2">
+  <title>Week 2</title>
+  <xi:include href="functions.ptx" />
+  <xi:include href="types-of-functions.ptx" />
+  <xi:include href="properties-of-functions.ptx" />
+  <xi:include href="operations-on-functions.ptx" />
+  <xi:include href="composition-and-inversion.ptx" />
+  <xi:include href="models.ptx" />
+</chapter>

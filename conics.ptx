@@ -1,0 +1,160 @@
+<section xml:id="conics">
+  <title>Conics</title>
+  <subsection xml:id="idea-of-conics">
+    <title>Slicing a Cone</title>
+    <p>
+      The conics are the second important class of loci. Unlike the
+      linear loci, these are objects where we allow degree two
+      polynomials in the coordinate variables. Conics are a very old
+      topic in mathematics; their names and definitions come from
+      ancient Greece. They are called conics (short for conic
+      sections) since they can be formed by taking slices of a hollow
+      cone at various angles. We will give three equivalent
+      definitions for each conic: one instrinsically geometric
+      definition, one as a the slice of a cone, and one by algebraic
+      equations. For the algebraic equations, we will assume that the
+      conic is centred at the origin.
+    </p>
+  </subsection>
+  <subsection xml:id="description-of-conics">
+    <figure xml:id="figure-circle">
+      <caption>The Circle</caption>
+      <image width="50%" source="images/figure03"/>
+    </figure>
+    <ul>
+      <li>
+        <title>Intrinsic Definition</title>
+        <p>
+          Given a positive real number <m>r</m>, a circle is the set
+          of all points in the plane which are exactly <m>r</m> units
+          away from the origin. <m>r</m> is called the radius of the
+          cicle.
+        </p>
+      </li>
+      <li>
+        <title>Conic Slice Definition</title>
+        <p>
+          A circle is a perfectly horizontal slice of a cone.
+        </p>
+      </li>
+      <li>
+        <title>Algebraic Definition</title>
+        <p>
+          A circle is described by the equation <m>x^2 + y^2 =
+          r^2</m>.
+        </p>
+      </li>
+    </ul>
+    <figure xml:id="figure-ellipse">
+      <caption>The Ellipse</caption>
+      <image width="60%" source="images/figure06"/>
+    </figure>
+    <ul>
+      <li>
+        <title>Intrinsic Definition</title>
+        <p>
+          Given two points <m>p</m> and <m>q</m> and a positive real
+          number <m>r</m>, the ellipse is the set of all points in the
+          plane where the sum of the distances to <m>p</m> and
+          <m>q</m> is exactly <m>r</m>. The points are called the
+          foci (singular focus).
+        </p>
+      </li>
+      <li>
+        <title>Conic Slice Definition</title>
+        <p>
+          An ellipse is a slice of a cone at an angle greater than
+          zero but less than the angle of the cone.
+        </p>
+      </li>
+      <li>
+        <title>Algebraic Definition</title>
+        <p>
+          An ellipse is described by the equation <m>\frac{x^2}{a^2} +
+          \frac{y^2}{b^2} = 1</m>. Assuming that <m>a>b</m>, the foci
+          are at <m>(\sqrt{a^2-b^2},0)</m> and
+          <m>(-\sqrt{a^2-b^2},0)</m>. The length <m>a</m> is called
+          the semi-major axis and the length <m>b</m> is called the
+          semi-minor axis.
+        </p>
+      </li>
+    </ul>
+    <figure xml:id="figure-parabola">
+      <caption>The Parabola</caption>
+      <image width="60%" source="images/figure05"/>
+    </figure>
+    <ul>
+      <li>
+        <title>Intrinsic Definition</title>
+        <p>
+          Given a positive real number <m>r</m>, a point <m>p</m> and
+          a line <m>L</m>, the parabola is the set of all points in
+          the plane which are equidistant to the point <m>p</m> and
+          the line <m>L</m>. The point <m>p</m> is called the focus
+          and the line <m>L</m> is called the directrix.
+        </p>
+      </li>
+      <li>
+        <title>Conic Slice Definition</title>
+        <p>
+          A parabola is a slice of the cone at exactly the angle of
+          the cone.
+        </p>
+      </li>
+      <li>
+        <title>Algebraic Definition</title>
+        <p>
+          A parabola is described by the equation <m>y = ax^2</m>.
+          The focus is <m>(0,\frac{a}{4})</m> and the directrix is
+          <m>y=\frac{-a}{4}</m>.
+        </p>
+      </li>
+    </ul>
+    <figure xml:id="figure-hyperbola">
+      <caption>The Hyperbola</caption>
+      <image width="60%" source="images/figure04"/>
+    </figure>
+    <ul>
+      <li>
+        <title>Intrinsic Definition</title>
+        <p>
+          Given two points <m>p</m> and <m>q</m> and a positive real
+          number <m>r</m>, the hyperbola is the set of all points in
+          the plane where the difference of the distances to <m>p</m>
+          and <m>q</m> is exactly <m>r</m>. The points are called the
+          foci (singular focus).
+        </p>
+      </li>
+      <li>
+        <title>Conic Slice Definition</title>
+        <p>
+          A hyperbola is slice of a cone at an angle steeper than the
+          angle of the cone.
+        </p>
+      </li>
+      <li>
+        <title>Algebraic Definition</title>
+        <p>
+          A hyperbola is described by the equation <m>\frac{x^2}{a^2}
+          - \frac{y^2}{b^2} = 1</m>
+        </p>
+      </li>
+    </ul>
+    <p>
+      One of the major motivating problems for conics and analytic
+      geometry is the problem of celestial motion <mdash /> how
+      planets, moons, stars, comets and other celestial objects move
+      and orbit around each other. The Greeks assumed, erroneously,
+      that orbits ought to be perfect circles. Johannes Kepler, in
+      the 16th century, correctly observed that orbit take
+      non-circular shapes. He put forward a very convincing theory
+      that orbits have shapes which are conics with the larger object
+      fixed at one of the foci of the conic. This leads to ellipses
+      for objects without escape velocity and hyperbolas for those
+      with escape velocity. Though not perfect (particularly in
+      complicated multi-body problems or when relativistic corrections
+      are included), Kepler's model is remarkably accurate. Conics
+      are still used as the basic models of orbital paths.
+    </p>
+  </subsection>
+</section>

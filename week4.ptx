@@ -1,0 +1,7 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="week4">
+  <title>Week 4</title>
+  <xi:include href="limits-concept.ptx" />
+  <xi:include href="limits-at-finite-values.ptx" />
+  <xi:include href="continuity.ptx" />
+  <xi:include href="extreme-values-of-models.ptx" />
+</chapter>

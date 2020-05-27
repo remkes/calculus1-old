@@ -1,0 +1,5 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="week12">
+  <title>Week 12</title>
+  <xi:include href="curve-sketching.ptx" />
+  <xi:include href="model-interpretation.ptx" />
+</chapter>

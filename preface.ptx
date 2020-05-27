@@ -1,4 +1,31 @@
-<section xml:id="resources">
+<preface xml:id="preface">
+  <section xml:id="organization">
+  <title>Organization</title>
+  <p>
+    These are course notes and materials for a blended or online
+    Calculus 1 course. The course, and hence these materials, are
+    organized into 12 weeks of content following a typical 3 month
+    Canadian academic term (with an additional Week 0 for organization
+    and Week 13 for review). Each chapter (week) of the notes includes
+    several sections of content as well as activities and an
+    assignment. 
+  </p>
+  <p>
+    These notes are not meant to stand alone; instead, they are
+    designed to be the written reference material for a set of videos.
+    The notes are short on examples, since many of the examples are
+    presented in the videos. The main purpose of the notes is to be a
+    sets of explanations and references which are easier to use than
+    the videos. 
+  </p>
+  <p>
+    For each week of the course, you are expected to watch the videos
+    for the week and do the activities and assignmnets presented in
+    this notes. In the activities, material labelled ``Extra
+    Practice'' or ``Challenge Problems' is optional material. 
+  </p>
+  </section>
+  <section xml:id="resources">
   <title>Other Resources</title>
   <p>
     In addition to the notes associated to each lecture, there are a
@@ -55,4 +82,16 @@
       </li>
     </ul>
   </p>
-</section>
+  </section>
+  <section xml:id="philosophy">
+  <title>Perspectives and Philosophy</title>
+  <p>
+    In addition to the strictly mathematical material of the course, I
+    will try to share some ideas about the philosophy of mathematics,
+    the aesthetics of mathematics, and how our own worldview and
+    assumptions influence mathematical thought. As several spots in
+    the course, I will include short videos on these topics. I will
+    ask you to write some reflections on these short videos.
+  </p>
+  </section>
+</preface>

@@ -1,0 +1,8 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="week1">
+  <title>Week 1</title>
+  <xi:include href="analytic-geometry.ptx" />
+  <xi:include href="lines.ptx" />
+  <xi:include href="conics.ptx" />
+  <xi:include href="intersection.ptx" />
+  <xi:include href="shifts.ptx" />
+</chapter>
