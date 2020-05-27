@@ -5,4 +5,5 @@
   <xi:include href="conics.ptx" />
   <xi:include href="intersection.ptx" />
   <xi:include href="shifts.ptx" />
+  <xi:include href="week1-activity.ptx" />
 </chapter>

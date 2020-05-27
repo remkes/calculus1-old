@@ -1,0 +1,154 @@
+<section xml:id="week2-activity">
+  <title>Week 2 Activity</title>
+  <subsection xml:id="equations-of-lines">
+    <title>Composing Functions</title>
+    <activity>
+      <statement>
+        <p>
+          Compose the functions <m>f(x) = \frac{1}{x+4}</m> and <m>g(x)
+          = x^2 - 4</m> in both orders. Determine the domain of both
+          compositions. 
+        </p>
+      </statement>
+      <solution>
+        <p>
+          For the composition <m>f \circ g</m>, <m>f</m> is the
+          outside function and <m>g</m> is the inside function. We use
+          the function <m>g</m> to replace the variable in the
+          function <m>f</m>.
+          <me>
+            f \circ g(x) = \frac{1}{(x^2-4) + 4} = \frac{1}{x^2} 
+          </me>
+          In the resulting function, we need to exclude <m>x = 0</m>
+          to avoid division by zero. The inside function <m>g</m> has
+          no restriction, so there are no other domain concerns and
+          the domain is all real numbers except 0.
+        </p>
+        <p>
+          For the composition <m>g \circ f</m>, <m>g</m> is the
+          outside function and <m>f</m> is the inside function. We use
+          the function <m>f</m> to replace the variable in the
+          function <m>g</m>.
+          <me>
+            g \circ f(x) = \left( \frac{1}{x+4} \right)^2 - 4 =
+            \frac{1}{(x+4)^2} - 4 
+          </me>
+          In the resulting function, we need to exclude <m>x = -4</m>
+          to avoid division by zero. The inside function <m>f</m> has
+          the same restriction, <m>x \neq -4</m>, so there are no
+          other domain concerns and the domain is all real numbers
+          except <m>-4</m>.
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Compose the functions <m>f(x) = e^{x^2-1}</m> and <m>g(x)
+          = \sqrt{x^3-5}</m> in both orders. Determine the domain of both
+          compositions. 
+        </p>
+      </statement>
+      <solution>
+        <p>
+          For the composition <m>f \circ g</m>, <m>f</m> is the
+          outside function and <m>g</m> is the inside function. We use
+          the function <m>g</m> to replace the variable in the
+          function <m>f</m>.
+          <me>
+            f \circ g(x) = e^{(\sqrt{x^3-5})^2-1} = e^{x^3-5-1} =
+            e^{x^3-6}
+          </me>
+          The resulting function have no obvious domain restrictons.
+          However, since we have to do the inside function <m>g</m>
+          first, we need to respect the domain restrictions of
+          <m>g</m>. The argument in the square root needs to be
+          positive, we we need <m>x^3-5 \geq 0</m>. This inequality
+          simplifies into <m>x^3 \geq 5</m> and further to <m> x \geq
+          \sqrt[3]{5}</m>. Therefore, the domain of the composition is
+          all real number <m>x \geq \sqrt[3]{5}</m>.
+        </p>
+        <p>
+          For the composition <m>g \circ f</m>, <m>g</m> is the
+          outside function and <m>f</m> is the inside function. We use
+          the function <m>f</m> to replace the variable in the
+          function <m>g</m>.
+          <me>
+            g \circ f(x) = \sqrt{(e^{x^2-1})^3 - 5} =
+            \sqrt{e^{3(x^2-1)} - 5}
+          </me>
+          We've simplified this one step using the laws of exponents.
+          Even though this is still a complicated expression, there
+          aren't any more reasonable simplification. The domain
+          restrictions are also complicated here. The inside function
+          <m>f</m> has no restrictions, so we only have to worry about
+          the final form; unfortunately, that final form isn't easy to
+          pull apart. The square root is the only restrict, so the
+          term inside the square root must be non-negative. Let's work
+          with that inequality a bit. (We're going to apply a
+          logarithm to get ride of the exponential; this respect the
+          inequality, since the logarithm is an increasing function.
+          Any increasing function preserves inequalities and an
+          decreasing function reverses them.)
+          <md>
+            <mrow>
+              e^{3(x^2-1)} - 5 \amp \geq 0 
+            </mrow>
+            <mrow>
+              e^{3(x^2-1)} \amp \geq 5 
+            </mrow>
+            <mrow>
+              \ln (e^{3(x^2-1)}) \amp \geq \ln 5 
+            </mrow>
+            <mrow>
+             3(x^2-1) \amp \geq \ln 5 
+            </mrow>
+            <mrow>
+             x^2-1 \amp \geq \frac{1}{3} \ln 5 
+            </mrow>
+            <mrow>
+             x^2 \amp \geq \frac{1}{3} \ln 5 + 1 
+            </mrow>
+            <mrow>
+             x \amp \geq \sqrt{\frac{1}{3} \ln 5 + 1}
+            </mrow>
+          </md>
+          After the manipulation of this inequality, we do get an
+          understandable domain restriction. This composition is
+          define for all real numbers <m>x \geq \sqrt{\frac{1}{3} \ln
+          5 + 1}</m>. 
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="invering-functions">
+    <title>Inverting Functions</title>
+    <activity>
+      <statement>
+        <p>
+          TDB
+        </p>
+      </statement>
+      <solution>
+        <p>
+          TDB
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="regression">
+    <title>Regression</title>
+    <activity>
+      <statement>
+        <p>
+          TDB
+        </p>
+      </statement>
+      <solution>
+        <p>
+          TDB
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+</section>
