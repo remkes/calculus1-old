@@ -3,4 +3,5 @@
   <xi:include href="two-motivating-problems.ptx" />
   <xi:include href="derivative-definition.ptx" />
   <xi:include href="derivative-rules.ptx" />
+  <xi:include href="week6-activity.ptx" />
 </chapter>

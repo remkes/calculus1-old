@@ -1,6 +1,6 @@
 <section xml:id="week2-activity">
   <title>Week 2 Activity</title>
-  <subsection xml:id="equations-of-lines">
+  <subsection xml:id="composing-functions">
     <title>Composing Functions</title>
     <activity>
       <statement>
@@ -121,17 +121,141 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="invering-functions">
-    <title>Inverting Functions</title>
+  <subsection xml:id="recognizing-composition">
+    <title>Recognizing Composition</title>
     <activity>
       <statement>
         <p>
-          TDB
+          Express the function <m>f(x) = \sqrt[4]{x^2-4}</m> as a
+          composition of two functions.
         </p>
       </statement>
       <solution>
         <p>
-          TDB
+          We want to write <m>f = g \circ h</m> for some functions
+          <m>g</m> and <m>h</m>. We need to break this into successive
+          processes. The first observation is that the fourth root
+          is the last operations of the function: first we square the
+          variable, then subtract 4, then apply the fourth root.
+          Therefore, the fourth root is a reasonable choice of the
+          outside function, with everything inside the root as the
+          inside function. That gives a decomposition.
+          <me>
+            f = g \circ h \text{ where } g(x) = \sqrt[4]{x} \text{ and
+            } h(x) = x^2-4
+          </me>
+          Note that this isn't the only possible answer. Often there
+          are many ways to break apart a function as the composition
+          of two (or more) pieces. Here is another possibility.
+          <me>
+            f = g \circ h \text{ where } g(x) = \sqrt[4]{x-4} \text{ and
+            } h(x) = x^2
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Express <m>f(x) = sin(e^{x^2+x+1})</m> as the composition of
+          two functions.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We want to write <m>f = g \circ h</m> for some functions
+          <m>g</m> and <m>h</m>. We need to break this into successive
+          processes. If we want the simplest outside function, we can
+          observe that the sine function is the last step, applied to
+          everything else in the function. We could choose the sine
+          function as the outside function, leaving everything else as
+          the inside. 
+          <me>
+            f = g \circ h \text{ where } g(x) = \sin (x) \text{ and
+            } h(x) = e^{x^2+x+1}
+          </me>
+          There are other possible solution. Here is one where we'd
+          like the inside function to be slightly simpler. 
+          <me>
+            f = g \circ h \text{ where } g(x) = \sin (e^x) \text{ and
+            } h(x) = x^2+x+1
+          </me>
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="inverting-functions">
+    <title>Inverting Functions</title>
+    <activity>
+      <statement>
+        <p>
+          Invert the function <m>f(x) = \ln (\sqrt{x})</m> on the
+          domain <m>x > 0</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The function is increasing on this domain (since it is the
+          composition of two increasing functions), so it is
+          invertible. We follow the steps of the process: set <m>y =
+          f(x)</m>, solve for <m>y</m>, then switch variables to write
+          the inverse as a function of our conventional independent
+          variables <m>x</m>.
+          <md>
+            <mrow>
+              y \amp = \ln (\sqrt{x}) 
+            </mrow>
+            <mrow>
+              e^y \amp = \sqrt{x} 
+            </mrow>
+            <mrow>
+              (e^y)^2 \amp = x 
+            </mrow>
+            <mrow>
+              f^{-1}(x) \amp = e^{2x}
+            </mrow>
+          </md>
+          Note that we use the exponential to remove the logarith:
+          these are inverse operations, so one removes the other. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Invert the function <m>f(x) = \frac{1}{\ln (x-1)}</m> on the
+          domain <m>x > 2</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          When <m>x > 2 </m>, the logarithm <m>\ln (x-1)</m> is positive
+          and growing, so its reciprocal is positive and decreasing.
+          The function is invertible on this domain.  We follow the
+          steps of the process: set <m>y = f(x)</m>, solve for
+          <m>y</m>, then switch variables to write the inverse as a
+          function of our conventional independent variables
+          <m>x</m>. (In the step from the first to the second line, we
+          simply take the reciprocal of each side of the equation;
+          when the numerators are not zero, this is a valid
+          operation). 
+          <md>
+            <mrow>
+              y \amp = \frac{1}{\ln (x-1)}
+            </mrow>
+            <mrow>
+              \frac{1}{y} \amp = \ln (x-1)
+            </mrow>
+            <mrow>
+              e^{\frac{1}{y}} \amp = x-1 
+            </mrow>
+            <mrow>
+              e^{\frac{1}{y}} + 1  \amp = x 
+            </mrow>
+            <mrow>
+              f^{-1}(x) \amp = e^{\frac{1}{x}} + 1 
+            </mrow>
+          </md>
         </p>
       </solution>
     </activity>
@@ -141,14 +265,432 @@
     <activity>
       <statement>
         <p>
-          TDB
+          Here is a dataset. Plot the points of this dataset on the
+          cartesian plane. Choose a type of function to match the
+          data. (You don't have give a specific function, just a
+          general class: linear, quadratic, sinusoidal, exponential,
+          etc). 
+          <table xml:id="data-set-1">
+            <title>Data Set 1 for Regression</title>
+            <tabular>
+              <row bottom="medium">
+                <cell right="medium">x</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>3</cell>
+                <cell>4</cell>
+                <cell>5</cell>
+                <cell>6</cell>
+                <cell>7</cell>
+                <cell>8</cell>
+                <cell>9</cell>
+                <cell>10</cell>
+                <cell>11</cell>
+              </row>
+              <row>
+                <cell right="medium">y</cell>
+                <cell>0.8</cell>
+                <cell>-0.4</cell>
+                <cell>-2.3</cell>
+                <cell>-2.8</cell>
+                <cell>-2.9</cell>
+                <cell>-2.7</cell>
+                <cell>-2.2</cell>
+                <cell>-0.7</cell>
+                <cell>0.5</cell>
+                <cell>5.4</cell>
+                <cell>7.1</cell>
+                <cell>9.4</cell>
+              </row>
+            </tabular>
+          </table>
         </p>
       </statement>
       <solution>
         <p>
-          TDB
+          We plots the points of the data set in the cartesian plane.
+          They drop initially, then rise again. A reasonable choice
+          for this data set is a quadratic function.
+        </p>
+        <figure xml:id="quadratic-regression">
+          <caption>A Quadratic Regression</caption>
+          <image width="100%" source="images/figure67" />
+        </figure>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Here is a dataset. Plot the points of this dataset on the
+          cartesian plane. Choose a type of function to match the
+          data. (You don't have give a specific function, just a
+          general class: linear, quadratic, sinusoidal, exponential,
+          etc). 
+          <table xml:id="data-set-2">
+            <title>Data Set 2 for Regression</title>
+            <tabular>
+              <row bottom="medium">
+                <cell right="medium">x</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>3</cell>
+                <cell>4</cell>
+                <cell>5</cell>
+                <cell>6</cell>
+                <cell>7</cell>
+                <cell>8</cell>
+                <cell>9</cell>
+                <cell>10</cell>
+                <cell>11</cell>
+              </row>
+              <row>
+                <cell right="medium">y</cell>
+                <cell>-2.5</cell>
+                <cell>1.2</cell>
+                <cell>2.7</cell>
+                <cell>2.1</cell>
+                <cell>-0.4</cell>
+                <cell>-2.8</cell>
+                <cell>-2.6</cell>
+                <cell>-0.1</cell>
+                <cell>2.4</cell>
+                <cell>2.7</cell>
+                <cell>1.2</cell>
+                <cell>-2.4</cell>
+              </row>
+            </tabular>
+          </table>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We plots the points of the data set in the cartesian plane.
+          The data rises and falls in what looks like a regular
+          pattern. A sinusoidal function is a good choice for this
+          data.
+        </p>
+        <figure xml:id="sinusoidal-regression">
+          <caption>A Sinusoidal Regression</caption>
+          <image width="100%" source="images/figure69" />
+        </figure>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Here is a dataset. Plot the points of this dataset on the
+          cartesian plane. Choose a type of function to match the
+          data. (You don't have give a specific function, just a
+          general class: linear, quadratic, sinusoidal, exponential,
+          etc). 
+          <table xml:id="data-set-3">
+            <title>3ata Set 3 for Regression</title>
+            <tabular>
+              <row bottom="medium">
+                <cell right="medium">x</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>3</cell>
+                <cell>4</cell>
+                <cell>5</cell>
+                <cell>6</cell>
+                <cell>7</cell>
+                <cell>8</cell>
+                <cell>9</cell>
+                <cell>10</cell>
+                <cell>11</cell>
+              </row>
+              <row>
+                <cell right="medium">y</cell>
+                <cell>-0.8</cell>
+                <cell>1.7</cell>
+                <cell>2.9</cell>
+                <cell>2.4</cell>
+                <cell>0.6</cell>
+                <cell>-0.3</cell>
+                <cell>-1.1</cell>
+                <cell>0.1</cell>
+                <cell>3.2</cell>
+                <cell>7.2</cell>
+                <cell>20.6</cell>
+                <cell>64.4</cell>
+              </row>
+            </tabular>
+          </table>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We plots the points of the data set in the cartesian plane.
+          The data rises, fall, and then rises rapidly. Three changes
+          in directions is possible with a cubic, so that is a
+          reasonable choise for this data. 
+        </p>
+        <figure xml:id="cubic-regression">
+          <caption>A cubic Regression</caption>
+          <image width="100%" source="images/figure70" />
+        </figure>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Here is a dataset. Plot the points of this dataset on the
+          cartesian plane. Choose a type of function to match the
+          data. (You don't have give a specific function, just a
+          general class: linear, quadratic, sinusoidal, exponential,
+          etc). 
+          <table xml:id="data-set-4">
+            <title>Data Set 4 for Regression</title>
+            <tabular>
+              <row bottom="medium">
+                <cell right="medium">x</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>3</cell>
+                <cell>4</cell>
+                <cell>5</cell>
+                <cell>6</cell>
+                <cell>7</cell>
+                <cell>8</cell>
+                <cell>9</cell>
+                <cell>10</cell>
+                <cell>11</cell>
+              </row>
+              <row>
+                <cell right="medium">y</cell>
+                <cell>-2.9</cell>
+                <cell>-2.4</cell>
+                <cell>-2.3</cell>
+                <cell>-2.0</cell>
+                <cell>-1.8</cell>
+                <cell>-1.7</cell>
+                <cell>-1.1</cell>
+                <cell>0.9</cell>
+                <cell>1.4</cell>
+                <cell>1.7</cell>
+                <cell>2.2</cell>
+                <cell>2.3</cell>
+              </row>
+            </tabular>
+          </table>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We plots the points of the data set in the cartesian plane.
+          The data here points to a increasing function and looks
+          mostly linear. We could simply guess a linear function.
+          However, there seems to be a jump between 6 and 7, which
+          makes a single line a bit problematic. It could be a more
+          complicated kind of function which connects the two pieces.
+          It would also be a discontinuous piecewise function:
+          sometimes functions make sudden jumps. I've chosen this last
+          option, and show two different lines for the two pieces of
+          the data set.
+        </p>
+        <figure xml:id="piecewise-regression">
+          <caption>A Piecewise Regression</caption>
+          <image width="100%" source="images/figure71" />
+        </figure>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Here is a dataset. Plot the points of this dataset on the
+          cartesian plane. Choose a type of function to match the
+          data. (You don't have give a specific function, just a
+          general class: linear, quadratic, sinusoidal, exponential,
+          etc). 
+          <table xml:id="data-set-5">
+            <title>Data Set 5 for Regression</title>
+            <tabular>
+              <row bottom="medium">
+                <cell right="medium">x</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>3</cell>
+                <cell>4</cell>
+                <cell>5</cell>
+                <cell>6</cell>
+                <cell>7</cell>
+                <cell>8</cell>
+                <cell>9</cell>
+                <cell>10</cell>
+                <cell>11</cell>
+              </row>
+              <row>
+                <cell right="medium">y</cell>
+                <cell>-2.1</cell>
+                <cell>-0.4</cell>
+                <cell>0.4</cell>
+                <cell>0.5</cell>
+                <cell>0.9</cell>
+                <cell>1.4</cell>
+                <cell>1.5</cell>
+                <cell>2.0</cell>
+                <cell>2.2</cell>
+                <cell>2.6</cell>
+                <cell>2.8</cell>
+                <cell>3.0</cell>
+              </row>
+            </tabular>
+          </table>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We plots the points of the data set in the cartesian plane.
+          The data is increasing, but more and more slowly as we go
+          along. We want some kind of function which increases but
+          bends downward. Two comnon functions with this behaviours
+          are the square root and the logarithm. I've chose to do with
+          a square root function.
+        </p>
+        <figure xml:id="square-root-regression">
+          <caption>A Square Root Regression</caption>
+          <image width="100%" source="images/figure72" />
+        </figure>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="interpreting-parameters">>
+    <title>Interpreting Parameter</title>
+    <activity>
+      <statement>
+        <p>
+        Consider <m>C(t) = ae^{-bt}</m>, a model of the concentration
+        of a chemical over time. Give an interpretation for the
+        parameters <m>a</m> and <m>b</m> in this model. Assume that
+        the parameters are positive.
+        </p>
+      </statement>
+      <solution>
+        <p>
+        This is the same form as our exponential form for population
+        growth, but with a negative exponent. We can use our
+        undersatnding of the parameters in population growth to
+        interpret these parameters. When <m>t=0</m>, we have <m>C(0) =
+        a</m>, so <m>a</m> the starting value. The coefficient in the
+        exponential was the rate of exponential growth for population.
+        We can likewise conclude that <m>b</m> is control the rate of
+        decay of concentration here. We say this is decay because this
+        is a negative exponential. 
         </p>
       </solution>
     </activity>
+    <activity>
+      <statement>
+        <p>
+        Consider <m>p(d) = a + bd</m>, a model of the pressure in a
+        body of water as a function of depth. Give an interpretation
+        for the parameters <m>a</m> and <m>b</m> in this model. Assume
+        that the parameters are positive.
+        </p>
+      </statement>
+      <solution>
+        <p>
+        When the depth is zero, we have <m>p(0) = a</m>. We can
+        conclude that <m>a</m> is the pressure at the surface of the
+        body of water. Since the parameters are positive, this
+        pressure increases linearly as the depth increases. The
+        parameter <m>b</m> is the slope of this increas, so it measure
+        that rate of which we gain pressure as we descend.
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+        Consider <m>h(t) = a + b\sin(\pi t) - ct</m>, a model of
+        hieght of an object as a function of time. Give an
+        interpretation for the parameters <m>a</m>, <m>b</m> and
+        <m>c</m>in this model. Assume that the parameters are
+        positive.
+        </p>
+      </statement>
+      <solution>
+        <p>
+        When the time is 0, we have <m>p(0) = a</m>. Therefore, we can
+        call <m>a</m> the starting height. The other pieces of the
+        function are sinusoidal oscillation linear decline. The
+        parameter <m>b</m> is the amplitude of the sinusoidal piece
+        and the parameter <m>c</m> is the negative slope of the linear
+        decline. The behaviour of the model comes from adding these
+        two behaviours together: so we get some oscillations while
+        generally having a linear decline. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+        Consider <m>p(t) = (a-b)t + c</m>, a model of population as a
+        function of time. Give an interpretation for the parameters
+        <m>a</m>, <m>b</m> and <m>c</m> in this model. Assume that the
+        parameters are positive.
+        </p>
+      </statement>
+      <solution>
+        <p>
+        When time is 0, we have <m>p(0) = c</m>, so <m>c</m> is the
+        starting value of the population. The population is linear,
+        with slope <m>a-b</m>. This will be positive or negative
+        depending on which parameter is larger. Since the parater
+        <m>a</m> is positive but we subtract the parameter <m>b</m>,
+        <m>a</m> must have a positive effect on the population and
+        <m>b</m> must have a negative effect. The simpliest way to
+        interpret this is to assume that <m>a</m> is a birth rate and
+        <m>b</m> is a death rate. The population will only grow if the
+        rate of briths exceeds the rate of deaths. 
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="week2-concepts">
+    <title>Conceptual Review Questions</title>
+    <p>
+      <ul>
+        <li>
+          What do we mean by the behaviour of a function? What tools
+          do we have to describe how functions behave?
+        </li>
+        <li>
+          What is domain and how it is determined?
+        </li>
+        <li>
+          What is boundedness?
+        </li>
+        <li>
+          What is monotonicity?
+        </li>
+        <li>
+          What is composition and how does it differ from pointwise
+          operations?
+        </li>
+        <li>
+          What does it meant to invert a function? What does the
+          inverse of a function do?
+        </li>
+        <li>
+          In a composition, how do the domains of the pieces work
+          together to determine the domain of the composition?
+        </li>
+        <li>
+          How does a function model a set of data? What does it mean
+          to fit a function to a data set?
+        </li>
+        <li>
+          What are the common shapes of functions and how do we
+          recognize them?
+        </li>
+      </ul>
+    </p>
   </subsection>
 </section>

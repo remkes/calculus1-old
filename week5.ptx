@@ -4,6 +4,7 @@
   <xi:include href="asymptotic_analysis.ptx" />
   <xi:include href="indeterminate-forms.ptx" />
   <xi:include href="long-term-behaviour-of-models.ptx" />
+  <xi:include href="week5-activity.ptx" />
 </chapter>
 
 

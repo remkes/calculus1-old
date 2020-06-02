@@ -3,4 +3,5 @@
   <xi:include href="population-growth.ptx" />
   <xi:include href="differential-equations.ptx" />
   <xi:include href="autonomous-des.ptx" />
+  <xi:include href="week3-activity.ptx" />
 </chapter>

@@ -1,0 +1,665 @@
+<section xml:id="week4-activity">
+  <title>Week 4 Activity</title>
+  <subsection xml:id="limits-at-finite-values">
+    <title>Limits at Finite Values</title>
+    <activity>
+      <statement>
+        <p>
+          Calculate the limit
+          <me>
+            \lim_{x \rightarrow 3} 4x^2 -5 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          There are no domain restrictions here; this limit can be
+          directly evaluated. 
+          <me>
+            \lim_{x \rightarrow 3} 4x^2 -5 = 4(3)^2 - 5 = 31
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate the limit
+          <me>
+            \lim_{x \rightarrow 3} \frac{1}{x-3}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We cannot directly evaluation, since that would lead to
+          division by zero. However, we can logically analyze this
+          limit. The numerator is fixed and the denominator is getting
+          very small. Division by smaller and smaller numbers leads to
+          larger and larger numbers. We conclude the limit must be
+          infinite. The denominator can be negative or positive, so we
+          write 
+         <me>
+            \lim_{x \rightarrow 3} \frac{1}{x-3} = \pm \infty
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate the limit
+          <me>
+            \lim_{x \rightarrow 2} \frac{x^2 - 5x + 6}{x^2 - 7x + 10} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The numerator and denominator both approach zero. This is an
+          indeterminate form of type <m>\frac{0}{0}</m>. We need to do
+          some manipulations to deal with it. Both terms are
+          quadratic, so we will try to factor them to simplify the
+          limit. 
+          <md>
+            <mrow>
+              \lim_{x \rightarrow 2} \frac{x^2 - 5x + 6}{x^2 - 7x + 10} 
+              \amp = \lim_{x \rightarrow 2} \frac{(x-2)(x-3)}{(x-2)(x-5)} 
+            </mrow>
+            <mrow>
+              \amp = \lim_{x \rightarrow 2} \frac{x-3}{x-5}
+            </mrow>
+          </md>
+          After cancelling the <m>(x-2)</m> term, this is now a limit
+          that can be directly evaluated.
+          <me>
+            \lim_{x \rightarrow 2} \frac{x-3}{x-5} = \frac{2-3}{2-5} =
+            \frac{-1}{-3} = \frac{1}{3} 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+         Calculate the limit
+          <me>
+            \lim_{x \rightarrow -3} \frac{x+3}{x^3+27} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Both the numerator and denominator approach zero, so this is
+          an indeterminate form of type <m>\frac{0}{0}</m>. We can't
+          do anything to the numerator, but we can factor the
+          denominator to try to simplify the limit.
+          <md>
+            <mrow>
+            \lim_{x \rightarrow -3} \frac{x+3}{x^3+27} \amp 0
+            \lim_{x \rightarrow -3} \frac{(x+3)}{(x+3)(x^2-3x+9} 
+            \amp = \lim_{x \rightarrow -3} \frac{1}{x^2-3x+9} 
+            </mrow>
+          </md>
+          This is a limit we can now evaluate.
+          <me>
+            \lim_{x \rightarrow -3} \frac{1}{x^2-3x+9} =
+            \frac{1}{(-3)^2 - 3(-3) + 9} = \frac{1}{27} 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate the limit
+          <me>
+            \lim_{x \rightarrow 0} \frac{x^4+3x^-8x^2}{x^4 + 6x^3 +
+            10x^2} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Both numerator and denominator approach zero, so this is an
+          indeterminate form of type <m>\frac{0}{0}</m>. We can factor
+          <m>x^2</m> out of both numerator and denominator to simplify
+          the limit. After that factoring, we can direclty evaluate. 
+          <md>
+            <mrow>
+              \lim_{x \rightarrow 0} \frac{x^4+3x^-8x^2}{x^4 + 6x^3 +
+              10x^2} \amp = \lim_{x \rightarrow 0}
+              \frac{x^2(x^2+3x-8)}{x^2(x^2+6x+10} 
+            </mrow>
+            <mrow> 
+              \amp = \lim_{x \rightarrow 0} \frac{x^2+3x-8}{x^2+6x+10}
+              = \frac{-8}{10} = \frac{-4}{5} 
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate the limit
+          <me>
+            \lim_{x \rightarrow \frac{1}{2}} \frac{4x^2 + 4x - 3}{8x^2 -
+            2x -1}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Both numerator and denominator approach 0, so this is a
+          limit of indeterminate form <m>\frac{0}{0}</m>. Both terms
+          are quadratics, so we will try to factor the quadratic to
+          simplify the limit. 
+          <md>
+            <mrow>
+              \lim_{x \rightarrow \frac{1}{2}} \frac{4x^2 + 4x - 3}{8x^2 -
+              2x -1} \amp = \lim_{x \rightarrow \frac{1}{2}}
+             \frac{(2x-1)(2x+3)}{(2x-1)(4x+1)}
+            </mrow>
+            <mrow>
+              \amp = \lim_{x \rightarrow \frac{1}{2}}
+              \frac{2x+3}{4x+1}
+            </mrow>
+          </md>
+          This is a limit we can now directly evaluate. 
+          <me>
+            \lim_{x \rightarrow \frac{1}{2}} \frac{2x+3}{4x+1}
+            = \frac{1+3}{2+1} = \frac{4}{3} 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate the limit
+          <me>
+            \lim_{x \rightarrow 0} \frac{\sin^2 x}{x} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We have a limit involving <m>x</m> and <m>\sin x</m>. We
+          want to use the known limit for the ratio of these two
+          functions. We manipulate this limit to isolate the known
+          limit, using the rules for limits and multiplication.
+          <me>
+            \lim_{x \rightarrow 0} \frac{\sin^2 x}{x} = \lim_{x
+            \rightarrow 0} \frac{\sin x}{x} \lim_{x \rightarrow 0}
+            \sin x
+          </me>
+          Then the first part of this is the known limit, which
+          evaluates to 1. The second part can be directly evaluated to
+          0. The product of 1 and 0 is 0, so the limit is 0. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate the limit
+          <me>
+            \lim_{x \rightarrow 0} x \cot x 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          This involves trigonometry and <m>x</m>, so we will try to
+          isolate the ration of <m>x</m> and <m>\sin x</m>. To do that
+          we have to write cotagents in terms of sine and cosine. 
+          <me>
+            \lim_{x \rightarrow 0} x \cot x = \lim_{x \rightarrow 0} x
+            \frac{\cos x}{\sin x}
+          </me>
+          Then we manipulate the limit to isolate the known ratio of
+          <m>x</m> amd <m>sin x</m>.
+          <me>
+            = \lim_{x \rightarrow 0} \frac{x}{\sin x} \cos x = \lim_{x
+            \rightarrow 0} \frac{x}{\sin x} \lim_{x \rightarrow 0}
+            \cos x
+          </me>
+          Now there are two limits, each of which evaluate to 1, so
+          the original limit is also 1. 
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="vertical-asymptotes">
+    <title>Vertical Asymptotes</title>
+    <activity>
+      <statement>
+        <p>
+          Find the vertical asymptotes of the the function
+          <me>
+            f(x) = \frac{1}{x^2-4x+3} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To find vertical asymptotes of a rational function, we look
+          for the points on the edge of the domain and take the limits
+          approaching those points. Here, domain is all real number
+          except <m>x=3</m> and <m>x=1</m>. Those two numbers are the
+          roots of the denominator. To determine whether we have
+          vertical asymptotes are the undefined points, we need to
+          take the limits approaching them. We have two limits to
+          consider.
+          <me>
+            \lim_{x \rightarrow 1} \frac{1}{x^2-4x+3} \text{ and }
+            \lim_{x \rightarrow 3} \frac{1}{x^2-4x+3} 
+          </me>
+          Both of these limits are limits where the numerator is fixed
+          and the denominator approaches 0. In these cases, dividing by
+          very small numbers produced very large numbers, so the
+          limits are both <m>\pm \infty</m>. Since the limits are
+          infinite, we conclucde that the lines <m>x=1</m> and
+          <m>x=3</m> are both vertical asymptotes. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Find the vertical asymptotes of the the function
+          <me>
+            f(x) = \frac{x-3}{x^2 + x - 12} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To find vertical asymptotes of a rational function, we look
+          for the points on the edge of the domain and take the limits
+          approaching those points. Here, domain is all real number
+          except <m>x=3</m> and <m>x=-4</m>. Those two numbers are the
+          roots of the denominator. To determine whether we have
+          vertical asymptotes are the undefined points, we need to
+          take the limits approaching them. We have two limits to
+          consider.
+          <me>
+            \lim_{x \rightarrow 3} \frac{x-3}{(x-3)(x+4)} \text{ and }
+            \lim_{x \rightarrow -4} \frac{x-3}{(x-3)(x+4)}
+          </me>
+          In the first limit, the <m>(x-3)</m> terms cancel out and
+          the limit can be directly evaluted to <m>\frac{1}{7}</m>.
+          Since this limit if not infinite, this is not a vertical
+          asymptote.  In the second limit, the numerator is fixed
+          and the denominator approaches 0. In this case, dividing by
+          very small numbers produced very large numbers, so the
+          limit is <m>\pm \infty</m>. Since the limit is 
+          infinite, we conclucde that the line <m>x=-4</m> is
+          is a vertical asymptote. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Find the vertical asymptotes of the the function
+          <me>
+            f(x) = \ln (x-4)
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Unlike the previous questions, this is more about
+          familiarity with common functions and shifts in the plane.
+          We know that the logarithm has an asymptote at <m>x=0</m>.
+          Replacing <m>x</m> by <m>(x-4)</m> is a shift of 4 units in
+          the positive direction, so this function has a vertical
+          asymptote at <m>x=4</m>.
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Find the vertical asymptotes of the the function
+          <me>
+            f(x) = \tan (3x)
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          This is also about fammiliarity with known functions. We
+          know the tangent function has asymptotes at every odd
+          multiple of <m>\frac{\pi}{2}</m>. In this function, we
+          multiply by 3 inside the tangent function. The effect of
+          this is to move the asymptotes closer together. We now have
+          asymptotes at every odd multiple of <m> \frac{\pi}{6}</m>
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="continuity">
+    <title>Continuity</title>
+    <activity>
+      <statement>
+        <p>
+          Find a value for <m>a</m> (if there is any) which makes this
+          piecewise function continuous.
+          <me>
+            f(x) = \left\{ \begin{matrix}
+            x+3 \amp x > 0 \\
+            -2x + a \amp x \leq 0 
+            \end {matrix} \right.
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To determine continuity, we need to take the limit from the
+          left and the limit from the right approaching the cross over
+          point. Here are the two limits
+          <md>
+            <mrow>
+              \lim_{x \rightarrow 0^+} f(x) = 
+              \lim_{x \rightarrow 0^+} x+3 = 3 
+            </mrow>
+            <mrow>
+              \lim_{x \rightarrow 0^-} f(x) = 
+              \lim_{x \rightarrow 0^-} -2x + a = a 
+            </mrow>
+          </md>
+          Making these equation gives the equation
+          <me>
+            3 = a 
+          </me>
+          This equation is (obviously) solved when <m>a=3</m>.
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Find a value for <m>a</m> (if there is any) which makes this
+          piecewise function continuous.
+          <me>
+            f(x) = \left\{ \begin{matrix}
+            x^2 + 2x + 5 \amp x \lt -1 \\
+            ax^2 \amp x \geq -1 
+            \end {matrix} \right.
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To determine continuity, we need to take the limit from the
+          left and the limit from the right approaching the cross over
+          point. Here are the two limits
+          <md>
+            <mrow>
+              \lim_{x \rightarrow -1^+} f(x) = 
+              \lim_{x \rightarrow -1^+} ax^2 = a
+            </mrow>
+            <mrow>
+              \lim_{x \rightarrow -1^-} f(x) = 
+              \lim_{x \rightarrow -1^-} x^2 + 2x + 5 = 1 - 2 + 5 = 4
+            </mrow>
+          </md>
+          Making these equation gives the equation
+          <me>
+            a = 4 
+          </me>
+          This equation is (obviously) solved when <m>a = 4</m>.
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Find a value for <m>a</m> (if there is any) which makes this
+          piecewise function continuous.
+          <me>
+            f(x) = \left\{ \begin{matrix}
+            \sin (\pi x)  \amp x > \frac{5}{2} \\
+            x^2 + ax + 2  \amp x \leq \frac{5}{2}
+            \end {matrix} \right.
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To determine continuity, we need to take the limit from the
+          left and the limit from the right approaching the cross over
+          point. Here are the two limits
+          <md>
+            <mrow>
+              \lim_{x \rightarrow \frac{5}{2}^+} f(x) = 
+              \lim_{x \rightarrow \frac{5}{2}^+} \sin (\pi x) = \sin
+              \left( \frac{5\pi}{2} \right) = 1 
+            </mrow>
+            <mrow>
+              \lim_{x \rightarrow \frac{5}{2}^-} f(x) = 
+              \lim_{x \rightarrow \frac{5}{2}^-} x^2 + ax + 2 =
+              \frac{25}{4} + \frac{5a}{2} + 2  = \frac{33 + 10a}{4} 
+            </mrow>
+          </md>
+          Making these equation gives the equation
+          <me>
+            1 = \frac{33 + 10a}{4} 
+          </me>
+          This equation is solved when <m>a = \frac{-29}{10}</m>.
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Find a value for <m>a</m> (if there is any) which makes this
+          piecewise function continuous.
+          <me>
+            f(x) = \left\{ \begin{matrix}
+            \frac{1}{x} \amp x > 0 \\
+            x^2 + ax + a \amp x \leq 0 
+            \end {matrix} \right.
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To determine continuity, we need to take the limit from the
+          left and the limit from the right approaching the cross over
+          point. Here are the two limits
+          <md>
+            <mrow>
+              \lim_{x \rightarrow 0^+} f(x) = 
+              \lim_{x \rightarrow 0^+} \frac{1}{x} = \infty 
+            </mrow>
+            <mrow>
+              \lim_{x \rightarrow 0^-} f(x) = 
+              \lim_{x \rightarrow 0^-} x^2 + ax + a = a
+            </mrow>
+          </md>
+          We cannot equate these limits, since <m>\infty</m> is not a
+          number. There is no value of <m>a</m> which makes this
+          piecewise function continuous. 
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="edge-behaviour-of-models">
+    <title>Edge Behaviour of Models</title>
+    <activity>
+      <statement>
+        <p>
+          Consider a population model.
+          <me>
+            f(t) = \left\{ \begin{matrix}
+            \frac{1}{16}e^{\frac{1}{10}x} \amp t \in [0,10] \\
+            \frac{39}{12}e^{\frac{1}{7}x} \amp t \in [10,20] 
+            \end{matrix} \right.
+          </me>
+          Is this model continuous? If not, what happens at <m>t =
+          20</m>?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We take the limits from the left and from the right to
+          determine continuity. The limit from the left is
+          <m>\frac{e}{16}</m> from the right is
+          <m>\frac{39}{12}e^{\frac{10}{7}}</m>. The approximate values
+          of these numbers is, respectively, <m>0.1699</m> and
+          <m>13.5614</m>. These are not the same, so the function is
+          continuous. At <m>t=10</m> the population has a sudden and
+          significant jump; through some process, a large population
+          has suddenly been added to the existing population.
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Consider a model of temperature in a chemical reaction, as a
+          function of time. 
+          <me>
+            T(t) = 24 + \frac{\sqrt{(t-5)^3}}{t-5}
+          </me>
+          The point <m>t=5</m> is the edge of the domain of this
+          model. What happens to the temperature as we approach this
+          edge point?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We take the limit approaching the edge point.
+          <me>
+            lim_{t \rightarrow 5} 24 +
+            \frac{\sqrt{(t-5)^3}}{t-5} = 24 \lim_{t \rightarrow 5} +
+            \frac{(t-5)}{(t-5)} \sqrt{t-5} = 24 + 0 = 24 
+          </me>
+          Even though the function is undefined, the limit is
+          reasonable and the temperature simply approaches 24.
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="week4-concepts">
+    <title>Conceptual Review Questions</title>
+    <p>
+      <ul>
+        <li>
+          What is a limit?
+        </li>
+        <li>
+          Why are limits about values approaching a certain point, as
+          opposed to values at a certain point?
+        </li>
+        <li>
+          Why don't we write division by zero when doing limits?
+        </li>
+        <li>
+          When do we stop writing <m>\lim_{a \rightarrow a}</m> in the
+          process of a limit calculation and why?
+        </li>
+        <li>
+          What is a vertical asymptote? How does it relate to a limit? 
+        </li>
+        <li>
+          What is the edge behaviour of a model?
+        </li>
+        <li>
+          How do we use limits at finite values to analysie models?
+        </li>
+      </ul>
+    </p>
+  </subsection>
+  <subsection xml:id="week-4-extra-practice">
+    <title>Extra Practice</title>
+    <activity>
+      <statement>
+        <p>
+          Calculate the limit
+          <me>
+            \lim_{x \rightarrow 4} \sin (\pi x) - \frac{x}{3} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate the limit
+          <me>
+            \lim_{x \rightarrow 4} \frac{1}{x^2 - 8x + 16} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate the limit
+          <me>
+            \lim_{x \rightarrow 1^+} \sqrt{\frac{x-1}{x^2-1}}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate the limit
+          <me>
+            \lim_{x \rightarrow 0} \frac{\frac{1}{x} - \frac{1}{x^2}}{x}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate the limit
+          <me>
+            \lim_{x \rightarrow 0} \frac{\cos^2 x}{x^2}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate the limit
+          <me>
+            \lim_{x \rightarrow 0} \frac{\tan^2 x}{x^2} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+</section>

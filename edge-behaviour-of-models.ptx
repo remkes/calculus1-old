@@ -1,5 +1,5 @@
-<section xml:id="extreme-values-of-models">
-  <title>Extreme Values of Models</title>
+<section xml:id="edge-behaviour-of-models">
+  <title>Edge Behaviour of Models</title>
   <p>
     We can use our tools of limits and asymptotic analysis to analyze
     models. Limits at finite values tell us how models behave near
