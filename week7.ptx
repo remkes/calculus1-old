@@ -4,5 +4,6 @@
   <xi:include href="derivatives-inverse.ptx" />
   <xi:include href="higher-derivatives.ptx" />
   <xi:include href="h-rule.ptx" />
+  <xi:include href="week7-activity.ptx" />
 </chapter>
 
