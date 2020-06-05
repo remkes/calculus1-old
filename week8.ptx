@@ -3,4 +3,5 @@
   <xi:include href="sigma-notation.ptx" />
   <xi:include href="riemann-integral.ptx" />
   <xi:include href="fundamental-theorem.ptx" />
+  <xi:include href="week8-activity.ptx" />
 </chapter>

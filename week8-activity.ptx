@@ -1,38 +1,737 @@
 <section xml:id="week8-activity">
   <title>Week 8 Activity</title>
-  <subsection xml:id="limits-at-infinity">
-    <title>Limits at Infinity</title>
+  <subsection xml:id="sigma-notation">
+    <title>Sigma Notation</title>
     <activity>
       <statement>
         <p>
+          Write this sum in ordinary notation. 
+          <me>
+            \sum_{i=2}^9 i^2 
+          </me>
         </p>
       </statement>
       <solution>
         <p>
+          Starting at 2, we replace <m>i</m> with all the numbers up
+          to 9 and then add all these results together.
+          <md>
+            <mrow>
+             \sum_{i=2}^9 i^2 = 2^2 + 3^2 + 4^2 + 5^2 + 6^2 + 7^2 + 8^2
+              + 9^2 
+            </mrow>
+            <mrow>
+              = 4 + 9 + 16 + 25 + 36 + 49 + 64 + 81
+            </mrow>
+          </md>
         </p>
       </solution>
     </activity>
+    <activity>
+      <statement>
+        <p>
+          Write this sum in ordinary notation. 
+          <me>
+            \sum_{i=-3}^{10} (6i-4)
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Starting at <m>-3</m>, we replace <m>i</m> with all the
+          numbers up to 10 and then add all these results together. 
+          <md>
+            <mrow>
+              \sum_{i=-3}^{10} (6i-4) = (6(-3) - 4) +  (6(-2) - 4) +
+              (6(-1) - 4) +  (6(0) - 4)
+            </mrow>
+            <mrow>
+              + (6(1) - 4) +  
+              (6(2) - 4) +  
+              (6(3) - 4) +  
+              (6(4) - 4) +  
+              (6(5) - 4) 
+            </mrow>
+            <mrow>
+              + (6(6) - 4) +  
+              (6(7) - 4) +  
+              (6(8) - 4) +  
+              (6(9) - 4) +  
+              (6(10) - 4) 
+            </mrow>
+            <mrow>
+              = -22 + (-16) + (-10) + (-4) + 2 + 8 + 14 + 20 + 26 + 32
+            </mrow>
+            <mrow>
+              + 38 + 44 + 50 + 56
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write this sum in ordinary notation. 
+          <me>
+            \sum_{i=0}^{15} 2^i
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Starting with 0, we replace <m>i</m> with all the numbers up
+          to 15 and then add all the resulting numbers together. 
+          <md>
+            <mrow>
+              \sum_{i=0}^{15} 2^i = 2^0 + 2^1 + 2^2 + 2^3 + 2^4 + 2^5 +
+              2^6 + 2^7 + 2^8 
+            </mrow>
+            <mrow>
+              + 2^9 + 2^{10} + 2^{11} + 2^{12} + 2^{13}
+              + 2^{14} + 2^{15} 
+            </mrow>
+            <mrow>
+              = 1 + 2 + 4 + 8 + 16 + 31 + 64 + 128 + 256 + 512 + 1024
+            </mrow>
+            <mrow>
+              + 2048 + 4096 + 8192 + 16384 + 32768
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write this sum in ordinary notation. 
+          <me>
+            \sum_{i=3}^7 (i^2 + 5i - 3^i)
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Starting with 3, we replace <m>i</m> will all the number
+          until 7. Then we add up all the resulting numbers. 
+          <md>
+            <mrow>
+              \sum_{i=3}^7 (i^2 + 5i - 3^i) = (3^2 + 5(3) - 3^3) +
+              (4^2 + 5(4) - 3^4) + (5^2 + 5(5) - 3^5) 
+            </mrow>
+            <mrow>
+              + (6^2 + 5(6) -
+              3^6) + (7^2 + 5(7) - 3^7) 
+            </mrow>
+            <mrow>
+              = (9 + 15 - 27) + (16 + 20 - 81) + (25 + 25 - 243) 
+            </mrow>
+            <mrow>
+              + (36 + 30 - 729) + (49 + 35 - 2187)
+            </mrow>
+            <mrow>
+              = (-3) + (-45) + (-193) + (-663) + (-2103)
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write this sum in sigma notation.
+          <me>
+            1 + 4 + 7 + 10 + 13 + 16 + 19
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We need a pattern. This is an arithmetic sequence, where we
+          add 3 in each step. We start with a value of 1. Using this,
+          we can start at <m>i=0</m> and describe this pattern as <m>1
+          + 3i</m>. The value of <m>i</m> that gives 19 is <m>i=6</m>,
+          so our sum will end at 6. 
+          <me>
+            1 + 4 + 7 + 10 + 13 + 16 + 19 = \sum_{i=0}^6 (1+3i)
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write this sum in sigma notation.
+          <me>
+            3 + 6 + 12 + 24 + 48 + 96
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We need a pattern. This is a geometric progression, where we
+          multiply by 2 in each ste. We start with a value of 3. Using
+          this, we can start at <m>i=0</m> and describe this pattern
+          as <m>3(2^i)</m>. The value of <m>i</m> that gives 96 is
+          <m>i = 5</m>, so our sum will end at 6.
+          <me>
+            3 + 6 + 12 + 24 + 48 + 96 = \sum_{i=0}^5 3(2^i)
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write this sum in sigma notation.
+          <me>
+            16 + 14 + 12 + 10 + 8 + 6 + 4 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We need a pattern. We have a couple options. We could keep
+          this in ths order is it written in, start from 16, and
+          subtract 2 in each step. We could also change the order and
+          write this as an arithmetic progression startnig at 4. I'll
+          chose the first option, starting with <m>i=0</m> and writing
+          <m>16 -2i</m> for the pattern. When <m>i=6</m>, we get the
+          last term, so our sum will end at 6. 
+          <me>
+            16 + 14 + 12 + 10 + 8 + 6 + 4 = \sum_{i=0}^6 (16-2i)
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Use linearity to split this into several sums with constants
+          removed. 
+          <me>
+            \sum_{i=0}^{44} (5i^3 - 2i^2 - 19i + 19)
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Linearity splits up the sum over addition and subtraction
+          and allows us to pull out the constants. In each piece, the
+          index and bounds of the sum stay the same. 
+          <me>
+            \sum_{i=0}^{44} (5i^3 - 2i^2 - 19i + 19) = 5
+            \sum_{i=0}^{44} i^3 - 2 \sum_{i=0}^{44} i^2 - 19
+            \sum_{i=0}^{44} i + 19 \sum_{i=0}^{44} 1
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Use linearity to split this into several sums with constants
+          removed. 
+          <me>
+            \sum_{i=4}^{104} (-12i^5 + i^3 - 71i^2 + 4)
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Linearity splits up the sum over addition and subtraction
+          and allows us to pull out the constants. In each piece, the
+          index and bounds of the sum stay the same. 
+          <me>
+            \sum_{i=4}^{104} (-12i^5 + i^3 - 71i^2 + 4) = 
+            -12 \sum_{i=4}^{104} i^5 + \sum_{i=4}^{104} i^3 - 71
+            \sum_{i=4}^{104} i^2 + 4 \sum_{i=4}^{104} 1
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Use linearity to combine this into one sum. 
+          <me>
+            4 \sum_{i=0}^{10} i^3 - 15 \sum_{i=0}^{10} i^2 - 7
+            \sum_{i=0}^{10} i + 9 \sum_{i=0}^{10} i 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The indices and bounds of all the sums are the same, so we
+          can combine them into one sum by taking the constants inside
+          the sums and writing the additions and subtractions inside
+          the sum. Notice there are two <m>i</m> terms, which we can
+          combine into one. 
+          <md>
+            <mrow>
+              4 \sum_{i=0}^{10} i^3 - 15 \sum_{i=0}^{10} i^2 - 7
+              \sum_{i=0}^{10} i + 9 \sum_{i=0}^{10} i = \sum_{i=0}^{10}
+              (4u^3 - 15i^2 - 7 + 9i) 
+            </mrow>
+            <mrow>
+              = \sum_{i=0}^{10} (4u^3 - 15i^2 + 2i)
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Use linearity to combine this into one sum. 
+          <me>
+            19 \sum_{i=4}^{17} i^3 - \sum_{i=4}^{17} i^3 + 2
+            \sum_{i=4}^{17} i^2 - 36 \sum_{i=4}^{17} i 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The indices and bounds of all the sums are the same, so we
+          can combine them into one sum by taking the constants inside
+          the sums and writing the additions and subtractions inside
+          the sum. Notice there are two <m>i^3</m> terms, which we can
+          combine into one. 
+          <md>
+            <mrow>
+              19 \sum_{i=4}^{17} i^3 - \sum_{i=4}^{17} i^3 + 2
+              \sum_{i=4}^{17} i^2 - 36 \sum_{i=4}^{17} i = 
+              \sum_{i=4}^{17} (19i^3 - i^3 + 2i^2 - 36 i) 
+            </mrow>
+            <mrow>
+              = \sum_{i=4}^{17} (18i^3 + 2i^2 - 36 i)
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="riemann-integral">
+    <title>Riemann Integral</title>
+    <activity>
+      <statement>
+        <p>
+          This is a multi-part activity to solve the integral 
+          <me>
+            \int_{-1}^1 (x^2 + 2x + 2)dx
+          </me>
+          by definition using the Reimann definition of the integral.
+          First, write the definition of the integral and replace the
+          general pieces with the specifics of this function.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Here is the general form.
+          <me>
+            \int_a^b f(x) dx = \lim_{n \rightarrow \infty}
+            \sum_{k=0}^n f(x_k^*) \left( \frac{b-a}{n} \right) 
+          </me>
+          In our situation, <m>a = -1</m>, <m>b = 1</m> and <m>f(x) =
+          (x^2 + 2x +2)</m>. We put these into the general form. 
+          <md>
+            <mrow>
+              \int_{-1}^1 (x^2 + 2x + 2)  dx = \lim_{n \rightarrow \infty}
+              \sum_{k=0}^n \left( (x_k^*)^2 + 2x_k^* + 2 \right) \left(
+              \frac{1-(-1)}{n} \right) 
+            </mrow>
+            <mrow>
+              = \lim_{n \rightarrow \infty} \sum_{k=0}^n \left(
+              (x_k^*)^2 + 2x_k^* + 2 \right) \left( \frac{2}{n}
+              \right)
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          When write an expression for <m>x_k^*</m> and use it in the
+          expresion.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          There is a general form for <m>x_k^*</m> in notes.
+          <me>
+            x_k^* = a + k \frac{b-a}{n} 
+          </me>
+          Now we put in the values for this particular integral.
+          <me>
+            x_k^* = -1 + k \frac{1-(-1)}{n}  = -1 + \frac{2k}{n} 
+          </me>
+          Then we can return to the form from the previous section and
+          replace <m>x_k^*</m> with this new expression. I'll proceed
+          to simplify the polynomial after I've
+          substituted<m>x_k^*</m>.
+          <md>
+            <mrow>
+              \int_{-1}^1 (x^2+2+2) dx = \lim_{n \rightarrow \infty}
+              \sum_{k=0}^n \left( \left( -1 + \frac{2k}{n} \right)^2 +
+              2 \left( -1 + \frac{2k}{n} \right) + 2 \right) \left(
+              \frac{2}{n} \right) 
+            </mrow>
+            <mrow>
+              = \lim_{n \rightarrow \infty} \sum_{k=0}^n \left(
+              1 - \frac{4k}{n} + \frac{4k^2}{n^2} + -2  - \frac{4k}{n}
+              + 2 \right) \left( \frac{2}{n} \right) 
+            </mrow>
+            <mrow>
+              = \lim_{n \rightarrow \infty} \sum_{k=0}^n \left(
+              1 + \frac{4k^2}{n^2} \right) \left( \frac{2}{n} \right) 
+            </mrow>
+            <mrow>
+              = \lim_{n \rightarrow \infty} \sum_{k=0}^n \left(
+              \frac{2}{n} + \frac{8k^2}{n^3} \right) 
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Then rearrange and split up the sum using linearity. 
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We have two pieces of the sum from the end of the previous
+          part. We split this into two sums and pull out the
+          constants. Note that <m>k</m> is the index of the sum, so
+          anything that doesn't involve <m>k</m> is a constant. That
+          means that <m>n</m> is a constant as far as the sum is
+          concerned and can be brought outside.
+          <md>
+            <mrow>
+              \int_{-1}^1 (x^2+2x+2) dx = \lim_{n \rightarrow \infty}
+              \sum_{k=0}^n \left( \frac{2}{n} + \frac{8k^2}{n^3}
+              \right) 
+            </mrow>
+            <mrow>
+              = \lim_{n \rightarrow \infty} \left( \sum_{k=0}^n
+              \frac{2}{n} + \sum_{k=0}^n \frac{8k^2}{n^3} \right)
+            </mrow>
+            <mrow>
+              = \lim_{n \rightarrow \infty} \left( \frac{2}{n} \sum_{k=0}^n
+              1+ \frac{8}{n^3} \sum_{k=0}^n k^2 \right)
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Then replace the remaining sums with their values according
+          to the standard sum formulas. 
+        </p>
+      </statement>
+      <solution>
+        <p>
+          From the previous step, we have sums with terms 1 and
+          <m>k^2</m>. We have forms for these from the notes, we we
+          use. After the replacement, we can simplify the expression a
+          bit.
+          <md>
+            <mrow>
+              \lim_{n \rightarrow \infty} \left( \frac{2}{n} \sum_{k=0}^n
+              1 + \frac{8}{n^3} \sum_{k=0}^n k^2 \right)
+            </mrow>
+            <mrow>
+              = \lim_{n \rightarrow \infty} \left( \frac{2}{n} n + 
+               \frac{8}{n^3} \frac{n(n+1)(2n+1)}{6} \right)
+            </mrow>
+            <mrow>
+              = \lim_{n \rightarrow \infty} \left( 2 +
+              \frac{8n(n+1)(2n+1)}{6n^3} \right)
+            </mrow>
+            <mrow>
+              = \lim_{n \rightarrow \infty} \left( 2 + \frac{8n(2n^2 +
+              3n + 1)}{6n^3} \right)
+            </mrow>
+            <mrow>
+              = \lim_{n \rightarrow \infty} \left( 2 + \frac{16n^3 +
+              24n^2 + 8n)}{6n^3} \right)
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Finally, use asymptotic analysis to solve the limit. Write
+          the final value of the integral. 
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The constant term 2 remains unchanged in the limit. Other
+          term is a fraction with <m>n^3</m> in the numerator and
+          denominator. Since these have the same asymptotic order,
+          asymptotic analysis tells that the limit is the ratio of the
+          leading coefficient. 
+          <me>
+            \lim_{n \rightarrow \infty} \left( 2 + \frac{16n^3 +
+            24n^2 + 8n)}{6n^3} \right) = 2 + \frac{16}{6} = 2 +
+            \frac{8}{3} = \frac{14}{3}
+          </me>
+          This completes the integral. The area under the curve
+          described by the original problem is <m>\frac{14}{3}</m>
+          units squared. 
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="fundamental-theorem">
+    <title>Fundamental Theorem of Calculus</title>
+    <activity>
+      <statement>
+        <p>
+          Write the following antiderivative by using known
+          derivatives or doing the derivative rules backwards.
+          <me>
+            \int -\sin x dx 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We look to our tables of derivatives. <m>-\sin x</m> shows up
+          as the derivative of <m>cos x</m>, so we go backwards to
+          that original function.
+          <me>
+            \int -\sin x dx = \cos x + C 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write the following antiderivative by using known
+          derivatives or doing the derivative rules backwards.
+          <me>
+            \int \frac{1}{x} dx 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We look to our tables of derivatives. If we differentiate
+          <m>\ln x</m>, we get <m>\frac{1}{x}</m>, so we go backwards
+          to that original function.
+          <me>
+            \int \frac{1}{x} dx = \ln x + C 
+          </me>
+          If we look at the tables of integrals, we can actually do a
+          bit better than this. The right side of the above equation
+          is only defined for <m>x > 0</m>, but the left side is
+          defined for all <m>x \neq 0</m>. There is an antiderivative
+          that matches the full domain. 
+          <me>
+            \int \frac{1}{x} dx = \ln |x| + C 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write the following antiderivative by using known
+          derivatives or doing the derivative rules backwards. You can
+          use the linearity of the integral.
+          <me>
+            \int (4 \cos x + 6 \sin x) dx 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can use linearity to split this into two integrals. 
+          <me>
+            \int (4 \cos x + 6 \sin x) dx = 4 \int \cos x dx + 6 \int
+            \sin x dx 
+          </me>
+          Then we look at our derivative tables and work backwards to
+          get the antiderivatives of sine and cosine. 
+          <me>
+            = 4 \int \cos x dx + 6 \int \sin x dx = 4 \sin x - 6 \cos
+            x + C 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write the following antiderivative by using known
+          derivatives or doing the derivative rules backwards. You can
+          use the linearity of the integral. 
+          <me>
+            \int (x^3-e^x)dx 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can use linearity to split this into two integrals.
+          <me>
+            \int (x^3-e^x)dx = \int x^3 dx - \int e^x dx 
+          </me>
+          For the first integral, we have to do the power rule
+          backwards. This increases the exponent and divides by the
+          new exponent. For the second integral, since the exponential
+          function is its own derivative, it is also its own
+          antiderivative. 
+          <me>
+            \int x^3 dx - \int e^x dx = \frac{x^4}{4} - e^x + C 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write the following antiderivative by using known
+          derivatives or doing the derivative rules backwards.
+          However, don't do the chain rule backwards; instead, use
+          what you know about the chain rule to make a reasonable
+          guess for the antiderivative.
+          <me>
+            \int e^{4x} dx
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          If we were to differentiate this, it would be a chain rule
+          derivative. The outside function would remain unchanged, but
+          the inside derivative is <m>\frac{d}{dx} 4x = 4</m>, so we
+          would have to multiply by 4. Going backwards, then, we
+          should do the opposite and divide by 4. 
+          <me>
+            \int e^{4x} dx = \frac{1}{4} e^{4x} + C 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write the following antiderivative by using known
+          derivatives or doing the derivative rules backwards.
+          <me>
+            \int_0^{\pi} \sin x dx 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The antiderivative of <m>\sin x</m> is <m>(-\cos x)</m>. For
+          definite integrals, after we find the antiderivative, we
+          evaluate it on the bounds. (We don't need the constant of
+          integral in definite integrals, since it would just cancel
+          off when we evaluate on the bounds.)
+          <me>
+            \int_0^{\pi} \sin x dx = -\cos x \Big|_0^{\pi} = -\cos
+            (\pi) - (- \cos (0)) = -(-1) - (-1) = 2
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write the following antiderivative by using known
+          derivatives or doing the derivative rules backwards.
+          <me>
+            \int_1^{\ln 4} e^x dx 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The antiderivative of the exponential it itself. We need to
+          evaluate on the bounds. Remember that the logarithm and the
+          exponential are inverse operations, so they remove each
+          other. 
+          <me>
+            \int_1^{\ln 4} e^x dx = e^x \Big|_1^{\ln 4} = e^{\ln 4} -
+            e^{1} = 4 - e
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write the following antiderivative by using known
+          derivatives or doing the derivative rules backwards.
+          <me>
+            \int_1^5 (2x-7) dx 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We use linearity to split up the integral.
+          <me>
+            \int_1^5 (2x-7) dx = \int_1^5 2x dx - \int_1^5 7 dx
+          </me>
+          Then we use the power rule backwards for the first integral.
+          In the second, the antiderivative of a constant is just the
+          variable itself. 
+          <me>
+            <mrow>
+              \int_1^5 2x dx - \int_1^5 7 dx = \frac{2x^2}{2}
+              \Big|_1^5 - 7x \Big|_1^5 
+            </mrow>
+            <mrow>
+              = 5^2 - 1^2 - (7(5) - 7) = 25 - 1 - 35 + 7 = -4 
+            </mrow>
+          </me>
+        </p>
+      </solution>
+    </activity>
+  </subsection>
   <subsection xml:id="week8-concepts">
     <title>Conceptual Review Questions</title>
     <p>
       <ul>
         <li>
+          What is sigma notation and why do we use it?
         </li>
         <li>
+          Why are sums linear?
         </li>
         <li>
+          What is a definite integral?
         </li>
         <li>
+          How does the definition of the integral use a limit?
         </li>
         <li>
+          How does the integral because exact, instead of just an
+          approximation, once we take the limit. 
         </li>
         <li>
+          What is an antiderivative?
         </li>
         <li>
+          How are the derivative and integral tables mirrors of each
+          other?
         </li>
         <li>
-        </li>
-        <li>
+          What is the difference between a definite and indefinite
+          integral?
         </li>
       </ul>
     </p>

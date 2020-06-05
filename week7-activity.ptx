@@ -55,12 +55,12 @@
           function is <m>g(x) = \ln x</m>. Then we proceed with the
           chain rule.
           <me>
-            \frac{d}{dx} \ln (\ln x) = \frac{d}{du} \ln u \Big_{u =
+            \frac{d}{dx} \ln (\ln x) = \frac{d}{du} \ln u \Big|_{u =
             \ln x} \frac{d}{dx} \ln x 
           </me>
           The deriavtive of the logarithm is a known derivative. 
           <me>
-            = \frac{1}{u} \Big_{u = \ln x} \frac{1}{x} = \frac{1}{x
+            = \frac{1}{u} \Big|_{u = \ln x} \frac{1}{x} = \frac{1}{x
             \ln x} 
           </me>
         </p>
@@ -83,14 +83,14 @@
           <m>u</m>. The inside function is <m>g(x) = 1 + e^x </m>.
           Then we proceed with the chain rule.
           <me>
-            \frac{d}{dx} \frac{1}{1+e^x} = \frac{d}{du} u^{-1} \Big_{u
-            = 1 + e^x} \frac{d}{dx} (1+e^x} 
+            \frac{d}{dx} \frac{1}{1+e^x} = \frac{d}{du} u^{-1} \Big|_{u
+            = 1 + e^x} \frac{d}{dx} (1+e^x) 
           </me>
           The first derivative is a power rule derivative. Linearity
           and the known derivative of the exponential function give us
           the second derivative. 
           <me>
-            = -u^{-2} \Big_{u = 1 + e^x} (e^x) 
+            = -u^{-2} \Big|_{u = 1 + e^x} (e^x) 
           </me>
           Then we replace <m>u</m>. 
           <me>
@@ -206,7 +206,7 @@
           <me>
             \frac{d}{dx} \sqrt{\sin(x^2+1)} = \frac{d}{du}
             u^\frac{1}{2} \Big|_{u = \sin (x^2 + 1)} \frac{d}{dx} \sin
-            (x^2+1}
+            (x^2+1)
           </me>
           We need to use the chain rule again for the second
           derivative. The outside is <m>\sin u</m> and the inside is
@@ -327,7 +327,7 @@
           <md>
             <mrow>
               \frac{d^4}{dx^4} \sin x - \cos x = \frac{d}{dx}
-              \frac{d}{dx} \frac{d}{dx} \frac{d}dx} \sin x - \cos x 
+              \frac{d}{dx} \frac{d}{dx} \frac{d}{dx} \sin x - \cos x 
             </mrow>
             <mrow>
               = \frac{d}{dx} \frac{d}{dx} \frac{d}{dx} \cos x + \sin x 
@@ -367,6 +367,20 @@
       </statement>
       <solution>
         <p>
+          Since <m>\cos 0 = 1</m>, the numerator approaches 0. The
+          denominator also approaches 0, so this is a indeterminate
+          form of type <m>\frac{0}{0}</m>. We apply L'Hôpital's rule. 
+          <md>
+            <mrow>
+              \lim_{x \rightarrow 0} \frac{\cos x - 1}{x} = \lim_{x
+              \rightarrow 0} \frac{ \frac{d}{dx} (\cos x -
+              1)}{\frac{d}{dx} x} 
+            </mrow>
+            <mrow>
+              = \lim_{x \rightarrow 0} \frac{ -\sin x - 0}{1} =
+              \frac{0}{1} = 0 
+            </mrow>
+          </md>
         </p>
       </solution>
     </activity>
@@ -375,7 +389,8 @@
         <p>
           Check that this limit is an indeterminate forms of type
           <m>\frac{0}{0}</m> or type <m>\frac{\infty}{\infty}</m>. Use
-          L'Hôpital's Rule to calculate the limit. 
+          L'Hôpital's Rule to calculate the limit. (Don't solve the
+          limit by factoring.) 
           <me>
             \lim_{x \rightarrow 4} \frac{x^2 - 7x + 12}{x^2 + x - 20}
           </me>
@@ -383,6 +398,22 @@
       </statement>
       <solution>
         <p>
+          The limit of the numerator as <m>x \rightarrow 4</m> is
+          <m>16 - 28 + 12 = 0</m>. The limit of the denominator as
+          <m>x \rightarrow 4</m> is <m>16 + 4 - 20 = 0</m>. This is an
+          indeterminate form of type <m>\frac{0}{0}</m> and we can
+          apply L'Hôpital's rule.
+          <md>
+            <mrow>
+              \lim_{x \rightarrow 4} \frac{x^2 - 7x + 12}{x^2 + x -
+              20} = \lim_{x \rightarrow 4} \frac{\frac{d}{dx} (x^2 - 7x
+              + 12)}{\frac{d}{dx} (x^2 + x + 20}
+            </mrow>
+            <mrow>
+              = \lim_{x \rightarrow 4} \frac{2x-7}{2x+1} =
+              \frac{8-7}{8+1} = \frac{-1}{9} 
+            </mrow>
+          </md>
         </p>
       </solution>
     </activity>
@@ -399,6 +430,32 @@
       </statement>
       <solution>
         <p>
+          Both the functions have asymptotes as we approach
+          <m>0^+</m>, so this is an indeterminate form fo type
+          <m>\frac{\infty}{\infty}</m>. We can apply L'Hôpital's rule.
+          <md>
+            <mrow>
+              \lim_{x \rightarrow 0^+} \frac{\ln x}{\frac{1}{x}} =
+              \lim_{x \rightarrow 0^+} \frac{\frac{d}{dx} \ln
+              x}{\frac{d}{dx} x^{-1}} 
+            </mrow>
+            <mrow>
+              = \lim_{x \rightarrow 0^+}
+              \frac{\frac{1}{x}}{\frac{-1}{x^2}}
+            </mrow>
+          </md>
+          Now we have to simplify the nested fraction. I'll remind you
+          of the general rule for simplifying nested tractions.
+          <me>
+            \frac{\frac{a}{b}}{\frac{c}{d}} = \frac{ad}{bc}
+          </me>
+          We apply this rule to the previous expression to finish the
+          limit. 
+          <me>
+            \lim_{x \rightarrow 0^+}
+            \frac{\frac{1}{x}}{\frac{-1}{x^2}} = \lim_{x \rightarrow
+            0^+} \frac{x^2}{-x} = \lim_{x \rightarrow 0^+} -x = 0 
+          </me>
         </p>
       </solution>
     </activity>
@@ -416,6 +473,46 @@
       </statement>
       <solution>
         <p>
+          Both numerator and denominator are growing functions without
+          bound, so this is an indeterminate form of type
+          <m>\frac{\infty}{\infty}</m>. We can apply L'Hôpital's rule.
+          <md>
+            <mrow>
+              \lim_{x \rightarrow \infty} \frac{x^2\ln x}{x^3+7} =
+              \lim_{x \rightarrow \infty} \frac{\frac{d}{dx} x^2 \ln
+              x}{\frac{d}{dx} x^3+7} 
+            </mrow>
+            <mrow>
+              = \lim_{x \rightarrow \infty} \frac{2x \ln x + x^2
+              \frac{1}{x}}{3x^2+0}
+            </mrow>
+            <mrow>
+              = \lim_{x \rightarrow \infty} \frac{2x \ln x + x}{3x^2+0}
+            </mrow>
+            <mrow>
+              = \lim_{x \rightarrow \infty} \frac{x (2\ln x + 1)}{3x^2}
+            </mrow>
+            <mrow>
+              = \lim_{x \rightarrow \infty} \frac{2\ln x + 1}{3x}
+            </mrow>
+          </md>
+          Here we can use L'Hôpital's rule again. Both functions are
+          still growing to <m>\infty</m>, so the rule still applies. 
+          <md>
+            <mrow>
+              = \lim_{x \rightarrow \infty} \frac{\frac{d}{dx} 2\ln x
+              + 1}{ \frac{d}{dx} 3x}
+            </mrow>
+            <mrow>
+              = \lim_{x \rightarrow \infty} \frac{\frac{2}{x}}{3}
+            </mrow>
+            <mrow>
+              = \lim_{x \rightarrow \infty} \frac{2}{3x} = 0 
+            </mrow>
+          </md>
+          This final limit can be directly determined: as <m>x</m>
+          gets very large, its reciprocal gets very small and the
+          limit goes to 0.
         </p>
       </solution>
     </activity>
