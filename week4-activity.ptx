@@ -363,11 +363,11 @@
           point. Here are the two limits
           <md>
             <mrow>
-              \lim_{x \rightarrow 0^+} f(x) = 
+              \lim_{x \rightarrow 0^+} f(x) \amp = 
               \lim_{x \rightarrow 0^+} x+3 = 3 
             </mrow>
             <mrow>
-              \lim_{x \rightarrow 0^-} f(x) = 
+              \lim_{x \rightarrow 0^-} f(x) \amp = 
               \lim_{x \rightarrow 0^-} -2x + a = a 
             </mrow>
           </md>
@@ -399,11 +399,11 @@
           point. Here are the two limits
           <md>
             <mrow>
-              \lim_{x \rightarrow -1^+} f(x) = 
+              \lim_{x \rightarrow -1^+} f(x) \amp = 
               \lim_{x \rightarrow -1^+} ax^2 = a
             </mrow>
             <mrow>
-              \lim_{x \rightarrow -1^-} f(x) = 
+              \lim_{x \rightarrow -1^-} f(x) \amp = 
               \lim_{x \rightarrow -1^-} x^2 + 2x + 5 = 1 - 2 + 5 = 4
             </mrow>
           </md>
@@ -435,12 +435,12 @@
           point. Here are the two limits
           <md>
             <mrow>
-              \lim_{x \rightarrow \frac{5}{2}^+} f(x) = 
+              \lim_{x \rightarrow \frac{5}{2}^+} f(x) \amp = 
               \lim_{x \rightarrow \frac{5}{2}^+} \sin (\pi x) = \sin
               \left( \frac{5\pi}{2} \right) = 1 
             </mrow>
             <mrow>
-              \lim_{x \rightarrow \frac{5}{2}^-} f(x) = 
+              \lim_{x \rightarrow \frac{5}{2}^-} f(x) \amp = 
               \lim_{x \rightarrow \frac{5}{2}^-} x^2 + ax + 2 =
               \frac{25}{4} + \frac{5a}{2} + 2  = \frac{33 + 10a}{4} 
             </mrow>
@@ -473,11 +473,11 @@
           point. Here are the two limits
           <md>
             <mrow>
-              \lim_{x \rightarrow 0^+} f(x) = 
+              \lim_{x \rightarrow 0^+} f(x) \amp = 
               \lim_{x \rightarrow 0^+} \frac{1}{x} = \infty 
             </mrow>
             <mrow>
-              \lim_{x \rightarrow 0^-} f(x) = 
+              \lim_{x \rightarrow 0^-} f(x) \amp = 
               \lim_{x \rightarrow 0^-} x^2 + ax + a = a
             </mrow>
           </md>

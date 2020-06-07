@@ -3,4 +3,5 @@
   <xi:include href="extrema.ptx" />
   <xi:include href="optimization.ptx" />
   <xi:include href="marginal-analysis.ptx" />
+  <xi:include href="week11-activity.ptx" />
 </chapter>

@@ -2,4 +2,5 @@
   <title>Week 12</title>
   <xi:include href="curve-sketching.ptx" />
   <xi:include href="model-interpretation.ptx" />
+  <xi:include href="week12-activity.ptx" />
 </chapter>

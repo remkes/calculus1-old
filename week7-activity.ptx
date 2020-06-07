@@ -171,10 +171,10 @@
           <m>u</m> and <m>v</m> when we have finished the derivatives.
           <md>
             <mrow>
-              = -\sin \left( e^{-4x} \right) e^v \Big|_{v = -4x} (-4) 
+              \amp = -\sin \left( e^{-4x} \right) e^v \Big|_{v = -4x} (-4) 
             </mrow>
             <mrow>
-              = -\sin \left( e^{-4x} \right) e^{-4x} (-4) = -4 e^{-4x}
+              \amp = -\sin \left( e^{-4x} \right) e^{-4x} (-4) = -4 e^{-4x}
               \sin \left( e^{-4x} \right)
             </mrow>
           </md>
@@ -219,14 +219,14 @@
           re-arrange the answer into a reasonable form. 
           <md>
             <mrow>
-              = \frac{1}{2\sqrt{u}} \Big|_{u = \sin (x^2 + 1)}
+             \amp  = \frac{1}{2\sqrt{u}} \Big|_{u = \sin (x^2 + 1)}
               \cos v \Big|_{v = x^2 +1} (2x)
             </mrow>
             <mrow>
-              = \frac{1}{2\sqrt{\sin(x^2+1))}} \cos (x^2+1) (2x)
+              \amp = \frac{1}{2\sqrt{\sin(x^2+1))}} \cos (x^2+1) (2x)
             </mrow>
             <mrow>
-              = \frac{x\cos(x^2+1)}{\sqrt{\sin(x^2+1))}} 
+              \amp = \frac{x\cos(x^2+1)}{\sqrt{\sin(x^2+1))}} 
             </mrow>
           </md>
         </p>
@@ -251,14 +251,14 @@
           the power rule for the derivatives. 
           <md>
             <mrow>
-              \frac{d^2}{dx^2} 5x^4 - 7x^3 + 15x + 1 = \frac{d}{dx}
+              \frac{d^2}{dx^2} 5x^4 - 7x^3 + 15x + 1 \amp = \frac{d}{dx}
               \frac{d}{dx} 5x^4 - 7x^3 + 15x + 1 
             </mrow>
             <mrow>
-              = \frac{d}{dx} 20x^3 - 21x^2 + 15 
+              \amp = \frac{d}{dx} 20x^3 - 21x^2 + 15 
             </mrow>
             <mrow>
-              = 60x^2 - 42x 
+              \amp = 60x^2 - 42x 
             </mrow>
           </md>
         </p>
@@ -282,30 +282,30 @@
           the remaining steps due to linearity. 
           <md>
             <mrow>
-              \frac{d^3}{dx^3} e^{4x} = \frac{d}{dx} \frac{d}{dx}
+              \frac{d^3}{dx^3} e^{4x} \amp = \frac{d}{dx} \frac{d}{dx}
               \frac{d}{du} e^u \Big|_{u = 4x} \frac{d}{dx} 4x
             </mrow>
             <mrow>
-              = \frac{d}{dx} \frac{d}{dx} e^u \Big|_{u = 4x} 4
+              \amp = \frac{d}{dx} \frac{d}{dx} e^u \Big|_{u = 4x} 4
             </mrow>
             <mrow>
-              = 4 \frac{d}{dx} \frac{d}{dx} e^{4x} 
+              \amp = 4 \frac{d}{dx} \frac{d}{dx} e^{4x} 
             </mrow>
             <mrow>
-              = 4 \frac{d}{dx} \frac{d}{du} e^{u} \Big|_{u=4x}
+              \amp = 4 \frac{d}{dx} \frac{d}{du} e^{u} \Big|_{u=4x}
               \frac{d}{dx} 4x 
             </mrow>
             <mrow>
-              = 4 \frac{d}{dx} e^{u} \Big|_{u=4x} 4 
+              \amp = 4 \frac{d}{dx} e^{u} \Big|_{u=4x} 4 
             </mrow>
             <mrow>
-              = 16 \frac{d}{dx} e^{4x}
+              \amp = 16 \frac{d}{dx} e^{4x}
             </mrow>
             <mrow>
-              = 16 \frac{d}{du} e^{u} \Big|_{u=4x} \frac{d}{dx} 4x 
+              \amp = 16 \frac{d}{du} e^{u} \Big|_{u=4x} \frac{d}{dx} 4x 
             </mrow>
             <mrow>
-              = 16 e^{u} \Big|_{u=4x} 4 = 64 e^{4x} 
+              \amp = 16 e^{u} \Big|_{u=4x} 4 = 64 e^{4x} 
             </mrow>
           </md>
         </p>
@@ -326,23 +326,23 @@
           linearity and the known derivatives of sine and cosine.
           <md>
             <mrow>
-              \frac{d^4}{dx^4} \sin x - \cos x = \frac{d}{dx}
+              \frac{d^4}{dx^4} \sin x - \cos x \amp = \frac{d}{dx}
               \frac{d}{dx} \frac{d}{dx} \frac{d}{dx} \sin x - \cos x 
             </mrow>
             <mrow>
-              = \frac{d}{dx} \frac{d}{dx} \frac{d}{dx} \cos x + \sin x 
+              \amp = \frac{d}{dx} \frac{d}{dx} \frac{d}{dx} \cos x + \sin x 
             </mrow>
             <mrow>
-              = \frac{d}{dx} \frac{d}{dx} \frac{d}{dx} \cos x + \sin x 
+              \amp = \frac{d}{dx} \frac{d}{dx} \frac{d}{dx} \cos x + \sin x 
             </mrow>
             <mrow>
-              = \frac{d}{dx} \frac{d}{dx} -\sin x + \cos x 
+              \amp = \frac{d}{dx} \frac{d}{dx} -\sin x + \cos x 
             </mrow>
             <mrow>
-              = \frac{d}{dx} -\cos x - \sin x 
+              \amp = \frac{d}{dx} -\cos x - \sin x 
             </mrow>
             <mrow>
-              = \sin x - \cos x 
+              \amp = \sin x - \cos x 
             </mrow>
           </md>
           Notice that we return to the original expression. That is as
@@ -372,12 +372,12 @@
           form of type <m>\frac{0}{0}</m>. We apply L'Hôpital's rule. 
           <md>
             <mrow>
-              \lim_{x \rightarrow 0} \frac{\cos x - 1}{x} = \lim_{x
+              \lim_{x \rightarrow 0} \frac{\cos x - 1}{x} \amp = \lim_{x
               \rightarrow 0} \frac{ \frac{d}{dx} (\cos x -
               1)}{\frac{d}{dx} x} 
             </mrow>
             <mrow>
-              = \lim_{x \rightarrow 0} \frac{ -\sin x - 0}{1} =
+              \amp = \lim_{x \rightarrow 0} \frac{ -\sin x - 0}{1} =
               \frac{0}{1} = 0 
             </mrow>
           </md>
@@ -406,11 +406,11 @@
           <md>
             <mrow>
               \lim_{x \rightarrow 4} \frac{x^2 - 7x + 12}{x^2 + x -
-              20} = \lim_{x \rightarrow 4} \frac{\frac{d}{dx} (x^2 - 7x
+              20} \amp = \lim_{x \rightarrow 4} \frac{\frac{d}{dx} (x^2 - 7x
               + 12)}{\frac{d}{dx} (x^2 + x + 20}
             </mrow>
             <mrow>
-              = \lim_{x \rightarrow 4} \frac{2x-7}{2x+1} =
+              \amp = \lim_{x \rightarrow 4} \frac{2x-7}{2x+1} =
               \frac{8-7}{8+1} = \frac{-1}{9} 
             </mrow>
           </md>
@@ -435,12 +435,12 @@
           <m>\frac{\infty}{\infty}</m>. We can apply L'Hôpital's rule.
           <md>
             <mrow>
-              \lim_{x \rightarrow 0^+} \frac{\ln x}{\frac{1}{x}} =
+              \lim_{x \rightarrow 0^+} \frac{\ln x}{\frac{1}{x}} \amp =
               \lim_{x \rightarrow 0^+} \frac{\frac{d}{dx} \ln
               x}{\frac{d}{dx} x^{-1}} 
             </mrow>
             <mrow>
-              = \lim_{x \rightarrow 0^+}
+              \amp = \lim_{x \rightarrow 0^+}
               \frac{\frac{1}{x}}{\frac{-1}{x^2}}
             </mrow>
           </md>
@@ -478,36 +478,36 @@
           <m>\frac{\infty}{\infty}</m>. We can apply L'Hôpital's rule.
           <md>
             <mrow>
-              \lim_{x \rightarrow \infty} \frac{x^2\ln x}{x^3+7} =
+              \lim_{x \rightarrow \infty} \frac{x^2\ln x}{x^3+7} \amp =
               \lim_{x \rightarrow \infty} \frac{\frac{d}{dx} x^2 \ln
               x}{\frac{d}{dx} x^3+7} 
             </mrow>
             <mrow>
-              = \lim_{x \rightarrow \infty} \frac{2x \ln x + x^2
+              \amp = \lim_{x \rightarrow \infty} \frac{2x \ln x + x^2
               \frac{1}{x}}{3x^2+0}
             </mrow>
             <mrow>
-              = \lim_{x \rightarrow \infty} \frac{2x \ln x + x}{3x^2+0}
+              \amp = \lim_{x \rightarrow \infty} \frac{2x \ln x + x}{3x^2+0}
             </mrow>
             <mrow>
-              = \lim_{x \rightarrow \infty} \frac{x (2\ln x + 1)}{3x^2}
+              \amp = \lim_{x \rightarrow \infty} \frac{x (2\ln x + 1)}{3x^2}
             </mrow>
             <mrow>
-              = \lim_{x \rightarrow \infty} \frac{2\ln x + 1}{3x}
+              \amp = \lim_{x \rightarrow \infty} \frac{2\ln x + 1}{3x}
             </mrow>
           </md>
           Here we can use L'Hôpital's rule again. Both functions are
           still growing to <m>\infty</m>, so the rule still applies. 
           <md>
             <mrow>
-              = \lim_{x \rightarrow \infty} \frac{\frac{d}{dx} 2\ln x
+              \amp = \lim_{x \rightarrow \infty} \frac{\frac{d}{dx} 2\ln x
               + 1}{ \frac{d}{dx} 3x}
             </mrow>
             <mrow>
-              = \lim_{x \rightarrow \infty} \frac{\frac{2}{x}}{3}
+              \amp = \lim_{x \rightarrow \infty} \frac{\frac{2}{x}}{3}
             </mrow>
             <mrow>
-              = \lim_{x \rightarrow \infty} \frac{2}{3x} = 0 
+              \amp = \lim_{x \rightarrow \infty} \frac{2}{3x} = 0 
             </mrow>
           </md>
           This final limit can be directly determined: as <m>x</m>

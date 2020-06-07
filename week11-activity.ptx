@@ -1,10 +1,517 @@
 <section xml:id="week11-activity">
   <title>Week 11 Activity</title>
-  <subsection xml:id="limits-at-infinity">
-    <title>Limits at Infinity</title>
+  <subsection xml:id="extrema">
+    <title>Extrema</title>
     <activity>
       <statement>
         <p>
+          Find the <m>x</m> values of the maxima and minima of this
+          function.
+          <me>
+            f(x) = 7x^2 - 2x - 4
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First we take the derivative.
+          <me>
+            \frac{df}{dx} = 14x - 2
+          </me>
+          Next we set the derivative to zero and solve.
+          <md>
+            <mrow>
+              14x - 2 = 0 
+            </mrow>
+            <mrow>
+              x = \frac{1}{7} 
+            </mrow>
+          </md>
+          The domain of this function is all real numbers. We split up
+          this domain using the critical point to get the intervals.
+          On each interval, we test the sign of the derivative.
+          <md>
+            <mrow>
+              \amp\left(-\infty, \frac{1}{7} \right) \amp 
+              \amp\left( \frac{1}{7}, \infty \right)
+            </mrow>
+            <mrow>
+              \amp f^\prime (0) = -2  \amp 
+              \amp f^\prime (1) = 12 
+            </mrow>
+            <mrow>
+              \amp \text{Negative} \amp
+              \amp \text{Positive} 
+            </mrow>
+            <mrow>
+              \amp f \text{ is decreasing.} \amp
+              \amp f \text{ is increasing.} 
+            </mrow>
+          </md>
+          Since the function changes from decreasing to increasing at
+          the critical point, we must have a minimum at <m>x =
+          \frac{1}{7}</m>. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Find the <m>x</m> values of the maxima and minima of this
+          function.
+          <me>
+            f(x) = \frac{x-1}{x^2+7} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First we take the derivative, using the quotient rule.
+          <md>
+            <mrow>
+            \frac{df}{dx} \amp = \frac{(x^2+7) \left( \frac{d}{dx} x-1
+            \right) - (x-1) \left( \frac{d}{dx} x^2+7
+            \right)}{(x^2+7)^2} 
+            </mrow>
+            <mrow>
+            \amp = \frac{(x^2+7) - (x-1) (2x)}{(x^2+7)^2} 
+            </mrow>
+            <mrow>
+            \amp = \frac{x^2+7 - 2x^2 + 2x}{(x^2+7)^2} 
+            </mrow>
+            <mrow>
+            \amp = \frac{-x^2 + 2x + 7}{(x^2+7)^2} 
+            </mrow>
+          </md>
+          Next we set the derivative to zero and solve. We only need
+          to set the numerator equal to zero. 
+          <md>
+            <mrow>
+              -x^2 + 2x + 7 \amp = 0 
+            </mrow>
+            <mrow>
+              x^2 - 2x - 7 \amp = 0 
+            </mrow>
+            <mrow>
+              x \amp = \frac{2 \pm \sqrt{ 4 - (4)(1)(-7)}}{2}
+            </mrow>
+            <mrow>
+              x \amp = \frac{2 \pm \sqrt{32}}{2} = \frac{ 2 \pm 4
+              \sqrt{8}}{2} = 1 \pm \sqrt{8}
+            </mrow>
+          </md>
+          The domain of this function is all real numbers. We split up
+          this domain using the critical points to get the intervals.
+          On each interval, we test the sign of the derivative. 
+          <md>
+            <mrow>
+              \amp \left( -\infty, 1 - \sqrt{8} \right) \amp
+              \amp \left( 1 - \sqrt{8}, 1 + \sqrt{8}, \right) \amp
+              \amp \left( 1 + \sqrt{8}, \infty \right)
+            </mrow>
+            <mrow>
+              \amp f^\prime (-2) = \frac{-1}{121} \amp 
+              \amp f^\prime (0) = \frac{1}{7} \amp
+              \amp f^\prime (4) = \frac{-1}{519} 
+            </mrow>
+            <mrow>
+              \amp \text{Negative} \amp
+              \amp \text{Positive} \amp
+              \amp \text{Negative} 
+            </mrow>
+            <mrow>
+              \amp f \text{ is decreasing.} \amp
+              \amp f \text{ is increasing.} \amp
+              \amp f \text{ is decreasing.} 
+            </mrow>
+          </md>
+          At <m>x = 1 - \sqrt{8}</m>, the function changes from
+          decreasing to inscreasing, so this point is a minimum. 
+          At <m>x = 1 + \sqrt{8}</m>, the function changes from
+          increasing to decreasing, so this point is a maximum. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Find the <m>x</m> values of the maxima and minima of this
+          function.
+          <me>
+            f(x) = e^{x^2-4}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First we take the derivative, using the chain rule (I
+          haven't shown the steps here). 
+          <me>
+            \frac{df}{dx} = (2x)e^{x^2-4} 
+          </me>
+          Next we set the derivative to zero and solve. Note that the
+          exponential term can never be zero, so we are free to divide
+          by it, leaving only the polynomial term remaining. 
+          <md>
+            <mrow>
+              2xe^{x^2-4} \amp = 0 \implies 2x = 0 
+            </mrow>
+            <mrow>
+              x \amp = 0 
+            </mrow>
+          </md>
+          The domain of this function is all real numbers. We split up
+          this domain using the critical point to get the intervals.
+          On each interval, we test the sign of the derivative.
+          <md>
+            <mrow>
+              \amp \left(-\infty, 0 \right) \amp 
+              \amp \left( 0 \infty \right)
+            </mrow>
+            <mrow>
+              \amp f^\prime (-1) = -2e^{-3}  \amp 
+              \amp f^\prime (1) = 2e^{-3}
+            </mrow>
+            <mrow>
+              \amp \text{Negative} \amp
+              \amp \text{Positive} 
+            </mrow>
+            <mrow>
+              \amp f \text{ is decreasing.} \amp
+              \amp f \text{ is increasing.} 
+            </mrow>
+          </md>
+          Since the function change from decreasing to increasing at
+          the critical point, we must have a minimum at <m>x = 0</m>.
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Find the <m>x</m> values of the maxima and minima of this
+          function.
+          <me>
+            f(x) = \frac{1}{x^2 - 6x + 10}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First we take the derivative. I used the chain rule (with
+          <m>u^{-1}</m> as the outside function), but the quotient
+          rule works just a well.
+          <me>
+            \frac{df}{dx} = \frac{-(2x-6)}{(x^2-6x+10)^2} 
+          </me>
+          Next we set the derivative to zero and solve. Note we only
+          need to set the numerator equal to zero.
+          <md>
+            <mrow>
+              2x-6 = 0 
+            </mrow>
+            <mrow>
+              x = 3 
+            </mrow>
+          </md>
+          This is not a root of the denominator, so this is a valid
+          critical point.  The domain of this function is all real
+          numbers (since the denominator has no roots). We split up
+          this domain using the critical point to get the intervals.
+          On each interval, we test the sign of the derivative.
+          <md>
+            <mrow>
+              \amp \left(-\infty, 3 \right) \amp 
+              \amp \left( 3, \infty \right)
+            </mrow>
+            <mrow>
+              \amp f^\prime (0) = \frac{6}{100} \amp 
+              \amp f^\prime (4) = \frac{-2}{4} = \frac{-1}{2} 
+            </mrow>
+            <mrow>
+              \amp \text{Positive} \amp
+              \amp \text{Negative} 
+            </mrow>
+            <mrow>
+              \amp f \text{ is increasing.} \amp
+              \amp f \text{ is decreasing.} 
+            </mrow>
+          </md>
+          Since the function change from increasing to decreasing at
+          the critical point, we must have a minimum at <m>x = 3</m>. 
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="optimization">
+    <title>Optimization</title>
+    <activity>
+      <statement>
+        <p>
+          The function
+          <me>
+            h(t) = - 3t^2 + 9 t + 7
+          </me>
+          measures height as a function of time. Find the maximum
+          height.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First we take the derivative.
+          <me>
+            \frac{dh}{dt} = -6t + 9
+          </me>
+          Next we set the derivative to zero and solve.
+          <md>
+            <mrow>
+              -6t + 9 \amp = 0 
+            </mrow>
+            <mrow>
+             t = \frac{3}{2} 
+            </mrow>
+          </md>
+          The domain of this function is all real numbers, but we can
+          assume <m>t \geq </m> for the model. We split up
+          this domain using the critical point to get the intervals.
+          On each interval, we test the sign of the derivative.
+          <md>
+            <mrow>
+              \amp \left(0 \frac{3}{2} \right) \amp 
+              \amp \left(\frac{3}{2}, \infty \right)
+            </mrow>
+            <mrow>
+              \amp f^\prime (1) = 3  \amp 
+              \amp f^\prime (2) = -3 
+            </mrow>
+            <mrow>
+              \amp \text{Positive} \amp
+              \amp \text{Negative} 
+            </mrow>
+            <mrow>
+              \amp h \text{ is increasing.} \amp
+              \amp h \text{ is decreasing.} 
+            </mrow>
+          </md>
+          Since the function change from increasing to decreasing at
+          the critical point, we must have a maximum at <m>t =
+          \frac{3}{2}</m>. The value at <m>t = \frac{3}{2}</m> is
+          <m>-3 \left( \frac{3}{2} \right)^2 + 9 \frac{3}{2} + 7 =
+          \frac{-27}{4} + \frac{27}{2} + 7 = \frac{27}{4} +
+          \frac{28}{4} = \frac{55}{4}</m>. The maximum height is
+          <m>\frac{55}{4}</m> meters. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          A chemical reaction is controlled by a catalyst. The
+          function
+          <me>
+            T(c) = 14\sqrt{7 - 4x + x^2}
+          </me>
+          measure a bounding temperature of the reaction depending on
+          the concentration of the catalyst. Find the minimum
+          temperature bound. 
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First we take the derivative, using the chain rule (I
+          haven't shown the steps). 
+          <me>
+            \frac{dT}{dc} = \frac{14 (2x-4)}{2\sqrt{7 - 4x + x^2}} =
+            \frac{14x - 28}{\sqrt{7 - 4x + x^2}} 
+          </me>
+          Next we set the derivative to zero and solve. We only need
+          to consider the numerator. 
+          <md>
+            <mrow>
+              14x - 28 = 0 
+            </mrow>
+            <mrow>
+              x = 2 
+            </mrow>
+          </md>
+          The domain of this function is all real numbers, since the
+          quadratic in the square root is always positive. However,
+          concentration cannot be negative, so in the model we will
+          assume a domain of positive numbers. We split up
+          this domain using the critical point to get the intervals.
+          On each interval, we test the sign of the derivative.
+          <md>
+            <mrow>
+              \amp \left(0, 2 \right) \amp 
+              \amp \left( 2, \infty \right)
+            </mrow>
+            <mrow>
+              \amp f^\prime (1) = \frac{14-28}{\sqrt{7 - 4 + 1}} =
+              \frac{-14}{\sqrt{3}} \amp 
+              \amp f^\prime (3) =  \frac{42 - 28}{\sqrt{7 - 12 + 9}} =
+              \frac{14}{2} = 7 
+            </mrow>
+            <mrow>
+              \amp \text{Negative} \amp
+              \amp \text{Positive} 
+            </mrow>
+            <mrow>
+              \amp T \text{ is decreasing.} \amp
+              \amp T \text{ is increasing.} 
+            </mrow>
+          </md>
+          Since the function change from decreasing to increasing at
+          the critical point, we must have a minimum at <m>c = 2</m>.
+          The value of the function at <m>c=2</m> is <m>T(2) = 14
+          \sqrt{7 - 8 + 4} = 14 \sqrt{3} \doteq 24.25</m>. The minimum
+          bounding temperature if 24.25 degree celcius. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          The function
+          <me>
+            T(m) = n(4m - 15\ln(m-25))
+          </me>
+          bounds the sort time of a sorting algorithm which runs on
+          <m>m</m> parallel processors (for <m>m</m> at least 25).
+          <m>n</m> is the length of the list. How many processors give
+          the shortest sort time?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We replace <m>n</m> with 10000 in the function.
+          <me>
+            T(m) = 10000(4m - 15 \ln (m-25)
+          </me>
+          Then we take the derivative.
+          <me>
+            \frac{dT}{dm} = 10000(4 - 15 \frac{1}{m-25}) 
+          </me>
+          Next we set the derivative to zero and solve.
+          <md>
+            <mrow>
+              4 - 15 \frac{1}{m-25} \amp = 0 
+            </mrow>
+            <mrow>
+              m - 25 \amp = \frac{15}{4} 
+            </mrow>
+            <mrow>
+              m \amp = \frac{15}{4} + 25 = \frac{115}{4}
+            </mrow>
+          </md>
+          The domain of this function is all numbers above 25. 
+          We split up this domain using the critical point to get the
+          intervals.  On each interval, we test the sign of the
+          derivative.
+          <md>
+            <mrow>
+              \amp \left(25, \frac{115}{4}  \right) \amp 
+              \amp \left( \frac{115}{4}, \infty \right)
+            </mrow>
+            <mrow>
+              \amp f^\prime (26) = 10000 (4 - 15 \frac{1}{1}) = -1100000
+              \amp 
+              \amp f^\prime (35) = 10000 (4 - 15 \frac{1}{10} = 25000
+            </mrow>
+            <mrow>
+              \amp \text{Negative} \amp
+              \amp \text{Positive} 
+            </mrow>
+            <mrow>
+              \amp f \text{ is decreasing.} \amp
+              \amp f \text{ is increasing.} 
+            </mrow>
+          </md>
+          Since the function change from decreasing to increasing at
+          the critical point, we must have a minimum at <m>m =
+          \frac{115}{4} </m>. The closest whole number to this is 29,
+          so the ideal choice is 29 processors. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          The function
+          <me>
+            E(h) = \frac{-5}{3000}h^3 + \frac{1}{25}h^2 + 5
+          </me>
+          measure the fuel efficiency of an aircraft at height
+          <m>h</m> (in kilometers). Find the height with the maximum
+          fuel efficiency.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First we take the derivative.
+          <me>
+            \frac{dE}{dh} = -\frac{1}{200}h^2 + \frac{2}{25}h 
+          </me>
+          Next we set the derivative to zero and solve.
+          <md>
+            <mrow>
+              \frac{-1}{200}h^2 + \frac{2}{25}h = 0 
+            </mrow>
+            <mrow>
+              h = 0 \text{ or } h = 16
+            </mrow>
+          </md>
+          The domain of this function is all real numbers, but the
+          model only makes sense for positive numbers. We ignore the
+          critical point at 0, since we interested in positive
+          heights. We split up this domain using the critical point to
+          get the intervals.  On each interval, we test the sign of
+          the derivative.
+          <md>
+            <mrow>
+              \amp \left(0, 16 \right) \amp 
+              \amp \left(16, \infty \right)
+            </mrow>
+            <mrow>
+              \amp f^\prime (1) = \frac{-1}{200} + \frac{2}{25} =
+              \frac{15}{200}  \amp 
+              \amp f^\prime (20) = \frac{-400}{200} + \frac{40}{25} =
+              -2 + \frac{8}{5} = \frac{-3}{5} 
+            </mrow>
+            <mrow>
+              \amp \text{Positive} \amp
+              \amp \text{Negative} 
+            </mrow>
+            <mrow>
+              \amp f \text{ is increasing.} \amp
+              \amp f \text{ is decreasing.} 
+            </mrow>
+          </md>
+          Since the function change from increasing to decreasing at
+          the critical point, we must have a maximum at <m>h =
+          16</m>. Therefore, the best fuel efficiency happens at a
+          height of 16 kilometers.  
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="marginal-analysis">
+    <title>Marginal Analysis</title>
+    <activity>
+      <statement>
+        <p>
+          Consider the following cost and benefit functions.
+          <md>
+            <mrow>
+              C(x) \amp = \frac{1}{4}x^2 
+            </mrow>
+            <mrow>
+              B(x) \amp = 4 \sqrt{x} 
+            </mrow>
+          </md>
+          Determine the greatest possible net benefit. Also find the
+          break-even point with the highest gross benefit. Given an
+          interpretation of the cost and benefit functions, with
+          comment on their reasonability.
         </p>
       </statement>
       <solution>
@@ -12,27 +519,72 @@
         </p>
       </solution>
     </activity>
+    <activity>
+      <statement>
+        <p>
+          Consider the following cost and benefit functions.
+          <md>
+            <mrow>
+              C(x) \amp = 14 + \frac{1}{10}x 
+            </mrow>
+            <mrow>
+              B(x) \amp = 6 \sqrt[3]{x}
+            </mrow>
+          </md>
+          Determine the greatest possible net benefit. Also find the
+          break-even point with the highest gross benefit. Given an
+          interpretation of the cost and benefit functions, with
+          comment on their reasonability.
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Consider the following cost and benefit functions.
+          <md>
+            <mrow>
+              C(x) \amp = \frac{1}{9} x^3
+            </mrow>
+            <mrow>
+              B(x) \amp = \left\{ \begin{matrix} 4x \amp x \leq 2 \\ 8 \amp
+              x > 2 \end{matrix} \right. 
+            </mrow>
+          </md>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+  </subsection>
   <subsection xml:id="week11-concepts">
     <title>Conceptual Review Questions</title>
     <p>
       <ul>
         <li>
+          Why can we use derivatives to find maxima and minima of
+          function?
         </li>
         <li>
+          Why do we use intervals to test the sign of the derivative
+          on the intervals?
         </li>
         <li>
+          What is optimization and why is it part of calculus?
         </li>
         <li>
+          What are marginal cost and marginal benefit? Why are they
+          measure by derivatives?
         </li>
         <li>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-        <li>
+          Why do we have critical points when marginal cost and
+          marginal benefit are equal?
         </li>
       </ul>
     </p>

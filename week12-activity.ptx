@@ -1,10 +1,14 @@
 <section xml:id="week1w-activity">
   <title>Week 12 Activity</title>
-  <subsection xml:id="limits-at-infinity">
-    <title>Limits at Infinity</title>
+  <subsection xml:id="curve-sketching">
+    <title>Curve Sketching</title>
     <activity>
       <statement>
         <p>
+          Sketch the graph of the function
+          <me>
+            f(x) = e^{-x} (x^2 + 3x - 6).
+          </me>
         </p>
       </statement>
       <solution>
@@ -12,29 +16,213 @@
         </p>
       </solution>
     </activity>
+    <activity>
+      <statement>
+        <p>
+          Sketch the graph of the function
+          <me>
+            f(x) = \frac{x-9}{4x-5}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="model-analysis">
+    <title>Model Analysis</title>
+    <activity>
+      <statement>
+        <p>
+          Analyze and critique a model of population (in millions)
+          depending on time (in years) give by the function
+          <me>
+            p(t) = \frac{4t^2 + 3}{t^2+3}.
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Analyze and critique a model of temperature (in degree
+          celcius) depending on ocean depth (in meters) given by the
+          function
+          <me>
+            T(d) = 16 - \frac{\sqrt{d}}{3}.
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Analyze and critique a model of tree height (in cm)
+          depending on time (in years) given by the function
+          <me>
+            H(t) = 4 + 12t + 4\sin (\pi t).
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Analyze and critique a model of population (in thousands)
+          depending on time (in years) given by the differential
+          equation
+          <me>
+            \frac{dp}{dt} = 10 p (p-40).
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Analyze and critique a model of radioactive contamination
+          (in grays) depending on time (in years) given by the
+          function
+          <me>
+            r(t) = \left\{ \begin{matrix}
+              10 2^{-0.02t} \amp 0 \leq t \lt 100 \\
+              \frac{5}{2} + \frac{1}{4} \sin (20 \pi t)  \amp 100 \leq
+              t \lt 200 \\
+              \frac{5}{2} 2^{-0.01(t-200)}  \amp 200 \leq t \\
+            \end{matrix} \right. .
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+  </subsection>
   <subsection xml:id="week12-concepts">
     <title>Conceptual Review Questions</title>
     <p>
       <ul>
         <li>
+          How do you connect many of the tools in the course together
+          to get a holistic idea of the shape and behaviour of a
+          function?
         </li>
         <li>
+          What is the qualitative analysis of functions? What does it
+          mean to discuss the behaviour of a function?
         </li>
         <li>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-        <li>
+          What does it mean to critique a model?
         </li>
       </ul>
     </p>
+  </subsection>
+  <subsection xml:id="week12-extra-practice">
+    <title>Extra Practice</title>
+    <activity>
+      <statement>
+        <p>
+          Analyze and critique the model of frequency (in percentage)
+          of heights (as a function of height in meters) given by the
+          function
+          <me>
+            f(h) - \frac{1}{2} e^{- \frac{(h-3)^2}{2}.
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Analyze and critique the model of the period of an orbit (in
+          years) in terms of the maximum orbital distance (in hundred
+          millions of kilometers) given by the function
+          <me>
+            P(d) = 4 \sqrt{d^3 - 2d + 1}.
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Analyze and critique the model of bacteria population (in
+          milliions depending on time (in days) give by the
+          differential equation
+          <me>
+            \frac{dp}{dt} = \frac{p^2}{40}.
+          </me>
+          You may assume the initial value is <m>p(0) = 5</m>. 
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Analyze and critique the model of of value (in dollars) in a
+          savings account depending on time (in years) give by the
+          function
+          <me>
+            v(t) = \left\{ \begin{matrix}
+              (1000) 2^{0.05t} \amp 0 \leq t \lt 15 \\
+              (1500) 2^{0.07t} \amp 15 \leq t \lt 20 \\
+              (1200) 2^{0.06t} \amp 20 \leq t \lt 30 \\
+              (600) 2^{0.05t} \amp 30 \leq t \lt 40 
+            \end{matrix} \right. .
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Analyze and critique the model of stellar temperature (in
+          degrees kelvin) depending on the distance to the centre of a
+          star (in thousands of kilometers) given by the function
+          <me>
+            T(d) = \frac{500000d + 100000}{d^2} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
   </subsection>
 </section>

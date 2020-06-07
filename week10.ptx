@@ -3,5 +3,5 @@
   <xi:include href="des.ptx" />
   <xi:include href="population-de.ptx" />
   <xi:include href="logistic-de.ptx" />
-  <xi:include href="autonomous-des.ptx" />
+  <xi:include href="week10-activity.ptx" />
 </chapter>

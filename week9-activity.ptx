@@ -1,10 +1,311 @@
 <section xml:id="week9-activity">
   <title>Week 9 Activity</title>
-  <subsection xml:id="limits-at-infinity">
-    <title>Limits at Infinity</title>
+  <subsection xml:id="substitution-rule">
+    <title>Substitution Rule</title>
     <activity>
       <statement>
         <p>
+          Calculate this integral.
+          <me>
+            \int 3x^2 (x^3 - 4)^5 dx 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The second part of this integrand looks like a composition:
+          we have <m>(x^3 - 4)^5</m> is an inside function, with an
+          outside function <m>u^5</m>. Moreover, the remaining piece
+          of the integral looks like it might be the derivative of the
+          inside, which is idea for the substitution rule. Here is the
+          substitution. 
+          <md>
+            <mrow>
+              u \amp = x^3 - 4 
+            </mrow>
+            <mrow>
+              du \amp = 3x^2 dx 
+            </mrow>
+          </md>
+          We can rearrange the original integral to match these
+          pieces, then do the replacement. 
+          <md>
+            <mrow>
+              \int 3x^2 (x^3 - 4)^5 dx \amp = \int (x^3-4)^4 (3x^2 dx) 
+            </mrow>
+            <mrow>
+              \amp = \int u^5 du = \frac{u^6}{6} + C
+            </mrow>
+          </md>
+          At the end, we undo the substitution to return to the
+          original variable. 
+          <me>
+            \frac{u^6}{6} + C = \frac{(x^3-4)^6}{6} + C 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate this integral.
+          <me>
+            \int \cos (17 x) dx 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The integrand is a composition with inside <m>(17x)</m> and
+          outside <m>\cos (u)</m>. We'll try a substitution with these
+          pieces. 
+          <md>
+            <mrow>
+              u \amp = 17 x 
+            </mrow>
+            <mrow>
+              du \amp = 17 dx 
+            </mrow>
+            <mrow>
+              \frac{1}{17} du \amp = dx 
+            </mrow>
+          </md>
+          I had to move the 17 to the left, since the original
+          integral doesn't have a term which looks like <m>17 dx</m>.
+          In this form, however, we can replace all the piece of the
+          original integral with the new variable. 
+          <me>
+            \int \cos (17 x) dx = \int \cos u \frac{1}{17} du 
+          </me>
+          Then we can use linearity and known antideriatives to do the
+          integral. 
+          <me>
+            = \frac{1}{17} \sin (u) + C 
+          </me>
+          Finally, we reverse the substitution.
+          <me>
+            = \frac{1}{17} \sin (17 x) + C 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate this integral.
+          <me>
+            \int \frac{x-4}{x-5} dx 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          This doesn't look like a composition. However, substitution
+          is sometime still useful even when we don't obviously have a
+          composition. Here, I'm going to take the denominator as the
+          substitution, to try to produce an easier integral. 
+          <md>
+            <mrow>
+              u \amp = x - 5
+            </mrow>
+            <mrow>
+              du \amp = dx
+            </mrow>
+          </md>
+          I also need to know how to replace the numerator. 
+          <me>
+            u = x - 5 \implies u + 1 = x - 4 
+          </me>
+          Now I can replace all the piece of the original integral. 
+          <me>
+            \int \frac{x-4}{x-5} dx = \int \frac{u+1}{u} du 
+          </me>
+          Now that I have a simpler denominator, I can split the
+          numerator up to give two integrals, using linearity. 
+          <me>
+            = \int \frac{u}{u} + \frac{1}{u} du = \int 1 du + \int
+            \frac{1}{u} du 
+          </me>
+          Then we use known antiderivatives. 
+          <me>
+            = u + \ln |u| + C 
+          </me>
+          Finally, we reverse the substitution.
+          <me>
+            = (x-5) + \ln |x-5| + C 
+          </me>
+          As a final note, we could group the <m>(-5)</m> with the
+          constant, like this:
+          <me>
+            = x + \ln |x-5| + (C - 5)
+          </me>
+          If we did that, since the constant can be set to any real
+          number, subtracting 5 doesn't make a difference. Therefore,
+          an alternative form of the answer gets ride of this
+          <m>(-5)</m>.
+          <me>
+            = x + \ln |x-5| + C 
+          </me>
+          This certinaly isn't necessary, but I mention it here since
+          these kinds of steps with constants of integration are
+          commonly done. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate this integral.
+          <me>
+            \int_0^1 2x(x^2 + 4)^3 dx
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          This looks like a composition with inside function
+          <m>(x^2+4)</m> and outside function <m>u^3</m>. The rest of
+          the integrand looks like it might be close to the derivative
+          of the inside function, which is promising. We proceed with
+          the substitution rule. Now we will also change the bounds. 
+          <md>
+            <mrow>
+              u \amp = x^2 + 4
+            </mrow>
+            <mrow>
+              du \amp = 2x dx
+            </mrow>
+            <mrow>
+              x \amp = 0 \implies u = (0)^2 + 4 = 4 
+            </mrow>
+            <mrow>
+              x \amp = 1 \implies u = (1)^2 + 4 = 5 
+            </mrow>
+          </md>
+          We can rearrange the integral so that we can substitute all
+          the pieces clearly. 
+          <me>
+            \int_0^1 2x(x^2 + 4)^3 dx = \int_0^1 (x^2+4)^3 (2x dx)
+          </me>
+          Then we replace all the pieces, including changing the
+          bounds. 
+          <me>
+            = \int_4^5 u^3 du 
+          </me>
+          Then we can proceed to finish the integral. Since this is a
+          definite integral and we have changed the bounds as well, we
+          do not need to reverse the substitution. 
+          <me>
+            = \frac{u^4}{4} \Big|_4^5 = \frac{5^4}{4} - \frac{4^4}{4}
+            = \frac{625 - 256}{4} = \frac{369}{4} 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate this integral.
+          <me>
+            \int_0^4 \frac{x}{x+3} dx 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          I'd like to simplify the denominator, so I'll try a
+          substitution with <m>u = (x+3)</m>. Since this is a definite
+          integral, I'll change the bounds as well. Finally, I'll need
+          to replace the numerator in the substitution, so I'll figure
+          out how to express the numerator in the new variable. 
+          <md>
+            <mrow>
+              u \amp = x+3
+            </mrow>
+            <mrow>
+              du \amp = dx 
+            </mrow>
+            <mrow>
+              x \amp = 0 \implies u = 0 + 3 = 3 
+            </mrow>
+            <mrow>
+              x \amp = 4 \implies u = 4 + 3 = 7 
+            </mrow>
+            <mrow>
+              u \amp = x + 3 \implies x = u - 3 
+            </mrow>
+          </md>
+          Now we have all the pieces and we can change to the new
+          variable, including changing the bounds. 
+          <me>
+            \int_0^4 \frac{x}{x+3} dx = \int_3^7 \frac{u-3}{u} du 
+          </me>
+          Then we can split up the integral using linearity into two
+          integrals that we can solve with known antiderivatives. 
+          <md>
+            <mrow>
+              \amp = \int_3^7 \frac{u}{u} du - 3 \int_3^7 \frac{1}{u} du 
+            </mrow>
+            <mrow>
+              \amp = \int_3^7 1 du - 3 \int_3^7 \frac{1}{u} du 
+            </mrow>
+            <mrow>
+              \amp = u \Big|_3^7 - 3 \ln |u| \Big|_3^7 = (7-3) - 3 (\ln 7 -
+              \ln 3) = 4 - 3 (\ln 7 - \ln 3)
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate this integral.
+          <me>
+            \int_0^4 \frac{x}{x-3}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          This look very similar to the previous question. One might
+          thing that the process should be exactly the same. You could
+          follow that process and get an answer, but that answer would
+          not be valid. The problem, here, is that this is a definite
+          integral, which calculates an area under the curve. Given
+          these bounds, we are looking for the area between 0 and 4.
+          However, this function is undefined at <m>x=3</m>, where it
+          has a vertical asymptote. Therefore, the notion of area
+          under this curve is meaningless. There is no connected curve
+          under which we can define an area. This integral has no
+          answer. 
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="week9-concepts">
+    <title>Conceptual Review Questions</title>
+    <p>
+      <ul>
+        <li>
+          How is the substitution rule an inverse to the chain rule?
+        </li>
+        <li>
+          What does the substitution rule mean about areas under
+          curves?
+        </li>
+      </ul>
+    </p>
+  </subsection>
+  <subsection xml:id="week9-extra-practice">
+    <title>Extra Practice</title>
+    <activity>
+      <statement>
+        <p>
+          Calculate this integral.
+          <me>
+            \int (x^2+1)(x^3 + 3x + 6)^3 dx
+          </me>
         </p>
       </statement>
       <solution>
@@ -12,29 +313,47 @@
         </p>
       </solution>
     </activity>
-  <subsection xml:id="week9-concepts">
-    <title>Conceptual Review Questions</title>
-    <p>
-      <ul>
-        <li>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-      </ul>
-    </p>
+    <activity>
+      <statement>
+        <p>
+          Calculate this integral.
+          <me>
+            \int e^{24x} dx 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate this integral.
+          <me>
+            \int \frac{4x+4}{x^2+2x+1}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate this integral.
+          <me>
+            \int_0^{\pi} \sin (6x) dx 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        </p>
+      </solution>
+    </activity>
   </subsection>
 </section>

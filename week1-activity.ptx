@@ -396,10 +396,10 @@
           All together, we have two intersection points. 
           <md>
             <mrow>
-            \left( \frac{4 + \sqrt{76}}{3}, \frac{16 + \sqrt{76}}{3}
+            \amp \left( \frac{4 + \sqrt{76}}{3}, \frac{16 + \sqrt{76}}{3}
             \right) 
             </mrow>
-            \left( \frac{4 - \sqrt{76}}{3}, \frac{16 - \sqrt{76}}{3}
+            \amp \left( \frac{4 - \sqrt{76}}{3}, \frac{16 - \sqrt{76}}{3}
             \right) 
             <mrow>
             </mrow>

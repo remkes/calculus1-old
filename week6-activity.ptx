@@ -388,11 +388,11 @@
           writing the square root as a fractional exponent. 
           <md>
             <mrow>
-              = \frac{ (x^2+4) \frac{d}{dx} x^\frac{1}{x} - \sqrt{x}
+              \amp = \frac{ (x^2+4) \frac{d}{dx} x^\frac{1}{x} - \sqrt{x}
               \left( \frac{d}{dx} x^2 + \frac{d}{dx} 4 \right)}{(x^2+4)^2} 
             </mrow>
             <mrow>
-              = \frac{ (x^2+4) \frac{1}{2} x^{\frac{-1}{2}} - \sqrt{x}
+              \amp = \frac{ (x^2+4) \frac{1}{2} x^{\frac{-1}{2}} - \sqrt{x}
               (2x+0)}{(x^2+4)^2} 
             </mrow>
           </md>
@@ -518,11 +518,11 @@
           exponential and combining the polynomial terms. 
           <md>
             <mrow>
-              = e^x \left( (x^2+1) \cos x + (x^2+1) \sin x 
+              \amp = e^x \left( (x^2+1) \cos x + (x^2+1) \sin x 
               + (2x) (\sin x) \right) 
             </mrow>
             <mrow>
-              = e^x \left( (x^2+1) \cos x + (x^2 + 2x + 1) \sin x
+              \amp = e^x \left( (x^2+1) \cos x + (x^2 + 2x + 1) \sin x
               \right) 
             </mrow>
           </md>
