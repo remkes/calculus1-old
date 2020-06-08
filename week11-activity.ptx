@@ -21,10 +21,10 @@
           Next we set the derivative to zero and solve.
           <md>
             <mrow>
-              14x - 2 = 0 
+              14x - 2 \amp = 0 
             </mrow>
             <mrow>
-              x = \frac{1}{7} 
+              x \amp = \frac{1}{7} 
             </mrow>
           </md>
           The domain of this function is all real numbers. We split up
@@ -208,10 +208,10 @@
           need to set the numerator equal to zero.
           <md>
             <mrow>
-              2x-6 = 0 
+              2x-6 \amp = 0 
             </mrow>
             <mrow>
-              x = 3 
+              x \amp = 3 
             </mrow>
           </md>
           This is not a root of the denominator, so this is a valid
@@ -268,7 +268,7 @@
               -6t + 9 \amp = 0 
             </mrow>
             <mrow>
-             t = \frac{3}{2} 
+             t \amp = \frac{3}{2} 
             </mrow>
           </md>
           The domain of this function is all real numbers, but we can
@@ -328,10 +328,10 @@
           to consider the numerator. 
           <md>
             <mrow>
-              14x - 28 = 0 
+              14x - 28 \amp = 0 
             </mrow>
             <mrow>
-              x = 2 
+              x \amp = 2 
             </mrow>
           </md>
           The domain of this function is all real numbers, since the
@@ -454,10 +454,10 @@
           Next we set the derivative to zero and solve.
           <md>
             <mrow>
-              \frac{-1}{200}h^2 + \frac{2}{25}h = 0 
+              \frac{-1}{200}h^2 + \frac{2}{25}h \amp = 0 
             </mrow>
             <mrow>
-              h = 0 \text{ or } h = 16
+              h \amp = 0 \text{ or } h = 16
             </mrow>
           </md>
           The domain of this function is all real numbers, but the
@@ -516,6 +516,74 @@
       </statement>
       <solution>
         <p>
+          We have a possible maximum net benefit when the marginal cost
+          and marginal benefit are equal. We calculate those two and
+          set them equal to each other.
+          <md>
+            <mrow>
+              \frac{d}{dx} C(x) \amp = \frac{1}{2} x 
+            </mrow>
+            <mrow>
+              \frac{d}{dx} B(x) \amp = \frac{4}{2\sqrt{x}} =
+              \frac{2}{\sqrt{x}}
+            </mrow>
+            <mrow>
+              \frac{1}{2} x \amp = \frac{2}{\sqrt{x}}
+            </mrow>
+            <mrow>
+              x^\frac{3}{2} \amp = 4
+            </mrow>
+            <mrow>
+              x \amp = 4^\frac{2}{3} = \sqrt[3]{16} \doteq 2.52
+            </mrow>
+          </md>
+          Then we look at intervals. Below this critical value, say at
+          <m>x=1</m>, the marginal benefit is 2 and the marginal cost
+          is <m>\frac{1}{2}</m>. Here the net benefit is increasing,
+          since the marginal benefit exceeds the marginal cost. Above
+          the critical value, say at <m>x=4</m>, the marginal cost is
+          2 and the marginal benefit is 1. The marginal cost exceeds
+          the marginal benefit, so the net benefit is decreasing. We
+          conclude that we have a maximum net benefit at approximatly
+          <m>x = 2.52</m>2 and the marginal benefit is 1. The marginal
+          cost exceeds the marginal benefit, so the net benefit is
+          decreasing. We conclude that we have a maximum net benefit
+          at approximatly <m>x = 2.52</m> 
+          </p>
+          <p>
+          For the break even point, we set the two functions each to
+          each other and solve.
+          <md>
+            <mrow>
+              C(x) \amp = B(x) 
+            </mrow>
+            <mrow>
+              \frac{1}{4} x^2 \amp = 4 \sqrt{x} 
+            </mrow>
+            <mrow>
+              x^\frac{3}{2} \amp = 16
+            </mrow>
+            <mrow>
+              x \amp = \sqrt[3]{256} \doteq 6.34
+            </mrow>
+          </md>
+          This is only one positive break even point, at approximately
+          <m>x = 6.34</m>, so that is by default the largest. 
+          <xref ref="figure-marginal-1" /> shows the behaviour
+          of this marginal analysis model.
+          <figure xml:id="figure-marginal-1">
+            <caption>First Marginal Analysis Activity</caption>
+            <image width="100%" source="images/figure76"/>
+          </figure>
+          These cost and benefit functions seems at least somewhat
+          reasonable. The benefit function curves down, representing a
+          decreasing benefit with growing production. That reasonable
+          if the demand for a product eventually dries up. The cost
+          function curves up, showing that producing more eventually
+          ends up costing a great deal per unit. This might not be
+          correct if economies of scale bring down the cost, but it
+          might make sense if the skills or materials needed become
+          more difficult to acquire. 
         </p>
       </solution>
     </activity>
@@ -534,11 +602,73 @@
           Determine the greatest possible net benefit. Also find the
           break-even point with the highest gross benefit. Given an
           interpretation of the cost and benefit functions, with
-          comment on their reasonability.
+          comment on their reasonability. (As a computer for the
+          solution for the break even point, since this is not easily
+          solvable using algebraic methods.) 
         </p>
       </statement>
       <solution>
         <p>
+          We have a possile maximum net benefit when the marginal cost
+          and marginal benefit are equal. We calculate those two and
+          set them equal to each other.
+          <md>
+            <mrow>
+              \frac{d}{dx} C(x) \amp = \frac{1}{10}
+            </mrow>
+            <mrow>
+              \frac{d}{dx} B(x) \amp = \frac{6}{3\sqrt[3]{x^2}} =
+              \frac{2}{\sqrt[3]{x^2}} 
+            </mrow>
+            <mrow>
+              \frac{1}{10} \amp = \frac{2}{\sqrt[3]{x^2}}
+            </mrow>
+            <mrow>
+              x^\frac{2}{3} \amp = 20 
+            </mrow>
+            <mrow>
+             x \amp = \sqrt{20^3} \doteq 89.44
+            </mrow>
+          </md>
+          Then we look at intervals. The marginal cost is always
+          fixed, so we just need to look at the marginal benefit. When
+          <m>x \lt 89</m>, say <m>x = 27</m>, the marginal benefit is
+          <m>\frac{2}{9}</m>, which is larger than the marginal
+          cost. When <m>x \geq 90</m>, say <m>x = 125</m>, then the
+          marginal benefit is <m>\frac{2}{25}</m>, which is smaller than
+          the marginal cost. Therefore, the net benefit is increasing
+          before the critical point and decreasing after it, so we do
+          have a maximum.
+          </p>
+          <p>
+          For the break even point, we set the two functions each to
+          each other and solve
+          <md>
+            <mrow>
+              C(x) \amp = B(x) 
+            </mrow>
+            <mrow>
+              14 + \frac{1}{10}x \amp = 6 \sqrt[3]{x}
+            </mrow>
+            <mrow>
+              x \amp \doteq 18.4 \text{ or } x \doteq 224.85
+            </mrow>
+          </md>
+          A computer gives us the two approximate solution. Since the
+          benefit function is increasing, the larger <m>x</m> value is
+          the larger break even point. 
+          <xref ref="figure-marginal-2" /> shows the behaviour
+          of this marginal analysis model.
+          <figure xml:id="figure-marginal-2">
+            <caption>Second Marginal Analysis Activity</caption>
+            <image width="100%" source="images/figure77"/>
+          </figure>
+          This cost function is linear, showing that producing more or
+          less has no effect on the cost per unit. This is possible
+          for some items or services. The benefit function curve down
+          as in the previous activity, again likely representing that
+          eventually the demand for the product or service becomes
+          saturated.  
         </p>
       </solution>
     </activity>
@@ -559,6 +689,108 @@
       </statement>
       <solution>
         <p>
+          We have a possile maximum net benefit when the marginal cost
+          and marginal benefit are equal. We calculate those two and
+          set them equal to each other. We need to work with two
+          pieces, one for <m>x \leq 2</m> and another for <m>x \gt
+          2</m>. We will start with <m> x \leq 2</m>.
+          <md>
+            <mrow>
+              \frac{d}{dx} C(x) \amp = \frac{x^2}{3} 
+            </mrow>
+            <mrow>
+              \frac{d}{dx} B(x) \amp = 4
+            </mrow>
+            <mrow>
+              \frac{x^2}{3} \amp = 4 
+            </mrow>
+            <mrow>
+              x^2 \amp = 12 
+            </mrow>
+            <mrow>
+              x \amp \dot 3.46
+            </mrow>
+          </md>
+          This solution is not in the range <m>x \leq 2</m>, so there
+          are no critical points on this part of the domain. For all
+          of this part of the domain, the marginal cost is bounded by
+          <m>\frac{4}{3}</m>, which is always smaller than the
+          marginal benefit, so the net benefit is always increasing.
+          Now let's consider <m>x \gt 2</m>.
+          <md>
+            <mrow>
+              \frac{d}{dx} C(x) \amp = \frac{x^2}{3}
+            </mrow>
+            <mrow>
+              \frac{d}{dx} B(x) \amp = 0
+            </mrow>
+          </md>
+          These can never be equal and the marginal cost is always
+          larger than the marginal benefit. We don't have a critical
+          point and the net benefit is always decreasing. 
+          </p>
+          <p>
+          Even though we don't have a critical point, we have an
+          understandable situation. Before <m>x=2</m>, the net benefit
+          is increasing and after <m>x=2</m>, the net benefit is
+          decreasing. Therefore, we have the maximum net benefit at
+          the cross-over point, when <m>x=2</m>.
+          </p>
+          <p>
+          For the break even point, we set the two functions each to
+          each other and solve. Again, we work in two pieces, first
+          taking <m>x \leq 2</m>. 
+          <md>
+            <mrow>
+              C(x) \amp = B(x) 
+            </mrow>
+            <mrow>
+              \frac{1}{9}x^3 \amp = 4x 
+            </mrow>
+            <mrow>
+              x^2 \amp = 36 
+            </mrow>
+            <mrow>
+              x \amp = 6
+            </mrow>
+          </md>
+          This point isn't in this section of the domain, so it is not
+          a break even point. We also have <m>x=0</m> that satisfies
+          this equality, but that isn't an interesting break even
+          point. Now let's take <m>x \gt 2</m>. 
+          <md>
+            <mrow>
+              C(x) \amp = B(x) 
+            </mrow>
+            <mrow>
+              \frac{1}{9}x^3 \amp = 8
+            </mrow>
+            <mrow>
+              x^3 \amp = 72
+            </mrow>
+            <mrow>
+              x \amp = \sqrt[3]{72} \doteq 4.16
+            </mrow>
+          </md>
+          We have a break even point. It is the only (non-zero) break
+          even point and the benefit is always positive, so it must be
+          the largest break even point.  <xref
+          ref="figure-marginal-3" /> shows the behaviour of this
+          marginal analysis model.
+          <figure xml:id="figure-marginal-3">
+            <caption>Third Marginal Analysis Activity</caption>
+            <image width="100%" source="images/figure78"/>
+          </figure>
+          This cost function curve upwards, meaning that eventually
+          the materials or skills needed become scare and it becomes
+          more difficult to produce the item or service. The piecewise
+          benefit function is more interesting. For the first while,
+          benefit is linear, meaning that each unit produces the same
+          benefit. However, the benefit suddenly becomes flat, showing
+          that after a period of time, the demand is suddenly zero and
+          no more benefit can be produces. In this case, the
+          break-even analysis isn't very useful, since we are already
+          at the highest benefit value much ealier. 
         </p>
       </solution>
     </activity>

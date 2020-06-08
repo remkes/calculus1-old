@@ -1,4 +1,4 @@
-<section xml:id="week1w-activity">
+<section xml:id="week12-activity">
   <title>Week 12 Activity</title>
   <subsection xml:id="curve-sketching">
     <title>Curve Sketching</title>
@@ -13,6 +13,244 @@
       </statement>
       <solution>
         <p>
+          Domain: Neither the exponential or the polynomial pieces of
+          this function have any restrictions, so the domain is all
+          real numbers. 
+        </p>
+        <p>
+          Range: The range it hard to determine at the start. We will
+          return to this. 
+        </p>
+        <p>
+          Continuity: This is an elementary function, so it is
+          continuous on its domain. The domain is all real numbers, so
+          this function is continuous everywhere. 
+        </p>
+        <p>
+          Intercepts: To find the <m>y</m> intercept, we simply
+          evaluate the function at 0. 
+          <me>
+            f(0) = e^{-0} (0^2 + 30 - 6) = -6
+          </me>
+          There is a <m>y</m> intercept at <m>(0,-6)</m>. To find the
+          <m>x</m> intercept, we need to solve <m>f(x) = 0</m>. Note
+          that the exponential term can never be zero, so we just have
+          the polynomial term. We use the quadratic formula, since
+          this quadratic doesn't have whole number roots. 
+          <md>
+            <mrow>
+              f(x) \amp = e^{-x} (x^2 + 3x - 6) = 0 
+            </mrow>
+            <mrow>
+              x^2 + 3x - 6 \amp = 0 
+            </mrow>
+            <mrow>
+              x \amp = \frac{-3 \pm \sqrt{9 - (-24)}}{2} = \frac{-3 \pm
+              \sqrt{33}}{2}
+            </mrow>
+          </md>
+          We have <m>x</m> intercepts at two points: <m>x = \frac{-3
+          + \sqrt{33}}{2} \doteq 1.372</m> and <m>x = \frac{-3 -
+          \sqrt{33}}{2} \doteq -4.372</m>. 
+        </p>
+        <p>
+          Symmetry: There is no symmetry here. There is no periodic
+          symmetry because this is not a trigononmetric function.
+          There is no even or odd symmetry because <m>f(-x)</m> does
+          not simplify to either <m>f(x)</m> or <m>-f(x)</m>. 
+        </p>
+        <p>
+          Limits and Asymptotoes: There are no breaks in the domain,
+          so there is no possibility of vertical asymptotes. We can
+          look at the limits to <m>\pm \infty</m> for horizontal
+          asymptotes. 
+          <me>
+            \lim_{x \rightarrow \infty} e^{-x} (x^2 + 3x - 6) = 0 
+          </me>
+          Asymptotically, the exponential decay is dominant over the
+          polynomial growth, so the function approaches 0. This means
+          that the function has a horizontal asymptote <m>y=0</m> in
+          the positive direction. 
+          <me>
+            \lim_{x \rightarrow -\infty} e^{-x} (x^2 + 3x - 6) =
+            \infty
+          </me>
+          For negative numbers, both the polynomial and exponential
+          functions grow without bound. There is no horizontal
+          asymptote in the negative direction. 
+        </p>
+        <p>
+          First Derivative: We take the derivative. For ease of
+          working with is for the future steps, I'll factor out the
+          exponential term and collect the polynomial terms after
+          taking the derivative. 
+          <md>
+            <mrow>
+              \frac{d}{dx} (e^{-x} (x^2 + 3x -6)) \amp = \left(
+              \frac{d}{dx} e^{-x} \right) (x^2 + 3x - 6) + (e^{-x})
+              \left( \frac{d}{dx} x^2 + 3x - 6 \right) 
+            </mrow>
+            <mrow>
+              \amp = -e^{-x} (x^2 + 3x - 6) + (e^{-x}) (2x + 3) 
+            </mrow>
+            <mrow>
+              \amp = e^{-x} (-x^2 - 3x + 6 + 2x + 3) 
+            </mrow>
+            <mrow>
+              \amp = e^{-x} (-x^2 - x + 9) 
+            </mrow>
+          </md>
+          We set the derivative equal to zero and solve for the
+          critical points. Notes, again, that the exponential can never
+          be zero, so we only need to look at the quadratic.
+          <md>
+            <mrow>
+              e^{-x} (-x^2 - x + 9) \amp = 0 
+            </mrow>
+            <mrow>
+              -x^2 - x + 9 \amp = 0 
+            </mrow>
+            <mrow>
+              x^2 + x - 9 \amp = 0 
+            </mrow>
+            <mrow>
+              x \amp = \frac{-1 \pm \sqrt{1 + 36}}{2} = \frac{-1 \pm
+              \sqrt{37}}{2} 
+            </mrow>
+          </md>
+          We have two critical points. Their approximate values ate
+          <m>x \doteq -3.541</m> and <m>x \doteq 2.251</m>. We move on
+          to the intervals determined by these critical points. The
+          domain is all reals, so we have three intervals. Note also
+          that the exponential term is always positive, so the sign of
+          the derivative is entirely determined by the quadratic. 
+          <md>
+            <mrow>
+              \amp \left( -\infty, \frac{-1 - \sqrt{37}}{2} \right) \amp 
+              \amp \left( \frac{-1 - \sqrt{37}}{2}, \frac{-1 +
+              \sqrt{37}}{2} \right) \amp 
+              \amp \left( \frac{-1 + \sqrt{37}}{2}, \infty \right)
+            </mrow>
+            <mrow>
+              \amp f^\prime (-4) = e^4 (-16 + 4 + 9) \amp 
+              \amp f^\prime (0) = e^0 (0-0+9) \amp 
+              \amp f^\prime (3) = e^{-3} (-9-3+9) 
+            </mrow>
+            <mrow>
+              \amp f^\prime (-4) = e^4 (-3) \amp 
+              \amp f^\prime (0) = 9 \amp 
+              \amp f^\prime (3) = e^{-3} (-3) 
+            </mrow>
+            <mrow>
+              \amp \text{Negative} \amp
+              \amp \text{Positive} \amp 
+              \amp \text{Negative} 
+            </mrow>
+            <mrow>
+              \amp f \text{ is decreasing.} \amp
+              \amp f \text{ is increasing.} \amp 
+              \amp f \text{ is decreasing.} 
+            </mrow>
+          </md>
+          This gives us a minimum at the first critical point and a
+          maximum at the second. With the extrema and the intervals of
+          increase and decrease, we are done with the first
+          derivative. 
+        </p>
+        <p>
+          Second Derivative: We differentiate again. For ease of
+          working with is for the future steps, I'll again factor out
+          the exponential term and collect the polynomial terms after
+          taking the derivative. 
+          <md>
+            <mrow>
+              \frac{d}{dx} (e^{-x} (-x^2 - x + 9)) \amp 
+            </mrow>
+            <mrow>
+              \amp = \left( \frac{d}{dx} e^{-x} \right) (-x^2 - x + 9)
+              + (e^{-x}) \left( \frac{d}{dx} -x^2 - x + 9 \right) 
+            </mrow>
+            <mrow>
+              \amp = -e^{-x} (-x^2 - x + 9) + (e^{-x}) (-2x - 1)
+            </mrow>
+            <mrow>
+              \amp = e^{-x} (x^2 + x - 9 - 2x - 1) 
+            </mrow>
+            <mrow>
+              \amp = e^{-x} (x^2 - x - 10) 
+            </mrow>
+          </md>
+          We set the second derivative equal to zero and solve for the
+          potential inflection points. Notes, again, that the
+          exponential can never be zero, so we only need to look at
+          the quadratic.
+          <md>
+            <mrow>
+              e^{-x} (x^2 - x - 10) \amp = 0 
+            </mrow>
+            <mrow>
+              x^2 - x - 10 \amp = 0 
+            </mrow>
+            <mrow>
+              x \amp = \frac{1 \pm \sqrt{1 + 40}}{2} = \frac{1 \pm
+              \sqrt{41}}{2} 
+            </mrow>
+          </md>
+          We have two potential infelction points. Their approximate
+          values ate <m>x \doteq -2.702</m> and <m>x \doteq 3.702</m>.
+          We move on to the intervals. The domain is all reals, so we
+          have three intervals. Note also that the exponential term is
+          always positive, so the sign of the second derivative is
+          entirely determined by the quadratic. 
+          <md>
+            <mrow>
+              \amp \left( -\infty, \frac{1 - \sqrt{41}}{2} \right) \amp 
+              \amp \left( \frac{1 - \sqrt{41}}{2}, \frac{1 +
+              \sqrt{41}}{2} \right) \amp 
+              \amp \left( \frac{1 + \sqrt{41}}{2}, \infty \right)
+            </mrow>
+            <mrow>
+              \amp f^{\prime\prime} (-3) = e^3 (9 + 3 - 10) \amp 
+              \amp f^{\prime\prime} (0) = e^0 (0-0-10) \amp 
+              \amp f^{\prime\prime} (4) = e^{-4} (16 - 4 - 10) 
+            </mrow>
+            <mrow>
+              \amp f^{\prime\prime} (-4) = e^3 (2) \amp 
+              \amp f^{\prime\prime} (0) = -10 \amp 
+              \amp f^{\prime\prime} (3) = e^{-4} (2) 
+            </mrow>
+            <mrow>
+              \amp \text{Positive} \amp
+              \amp \text{Negative} \amp 
+              \amp \text{Positive} 
+            </mrow>
+            <mrow>
+              \amp f \text{ is concave up.} \amp
+              \amp f \text{ is concave down.} \amp 
+              \amp f \text{ is concave up.} 
+            </mrow>
+          </md>
+          This determines the concavity. 
+        </p>
+        <p>
+          Range again: We know the function diverges to infinity as
+          <m>x \righarrow -\infty</m>, so there is no upper bound.
+          However, the minimum is a lower bound, since the function
+          has a horizontal asymptote in the positive direction. The
+          minimum happens at <m>x = \frac{-1-\sqrt{37}}{2}</m>.
+          Evaluating the function at this point is awkward, but I
+          asked a computer for an approximate value: <m>f \left(
+          \frac{-1-\sqrt{37}}{2} \right) \doteq -140.915</m>.
+          Therefore, the range (in approximate values) if
+          <m>(-140.914, \infty)</m>
+        </p>
+        <p>
+          <xref ref="figure-sketching-1" /> shows the graph of the
+          function, matching out analysis above. 
+          <figure xml:id="figure-sketching-1">
+            <caption>First Curve Sketching Activity</caption>
+            <image width="100%" source="images/figure79"/>
+          </figure>
         </p>
       </solution>
     </activity>
@@ -27,6 +265,215 @@
       </statement>
       <solution>
         <p>
+          Domain: To avoid dividing by zero, we need to exclude <m>x =
+          \frac{5}{4}</m>. The domain is all real numbers except <m>
+          x = \frac{5}{4}</m>
+        </p>
+        <p>
+          Range: The range it hard to determine at the start. We will
+          return to this. 
+        </p>
+        <p>
+          Continuity: This is an elementary function, so it is
+          continuous on its domain. There are two pieces of
+          continuity: to the right and to the left of the undefined
+          point <m>x = \frac{5}{4}</m>.
+        </p>
+        <p>
+          Intercepts: To find the <m>y</m> intercept, we simply
+          evaluate the function at 0. 
+          <me>
+            f(0) = \frac{0-9}{4(0)-5} = \frac{-9}{-5} = \frac{9}{5} 
+          </me>
+          There is a <m>y</m> intercept at <m>\left(0,\frac{9}{5}
+          \right)</m>. To find the
+          <m>x</m> intercept, we need to solve <m>f(x) = 0</m>. To do
+          this, we only need to look at the numerator, since a
+          rational function is 0 only when its numerator is zero. 
+          <md>
+            <mrow>
+              f(x) \amp = \frac{x-9}{4x-5} = 0 
+            </mrow>
+            <mrow>
+              x-9 \amp 0 = 
+            </mrow>
+            <mrow>
+              x \amp = 9
+            </mrow>
+          </md>
+          The point <m>x=9</m> is in the domain, so <m>(9,0)</m> is an
+          intercept.
+        </p>
+        <p>
+          Symmetry: There is no symmetry here. There is no periodic
+          symmetry because this is not a trigononmetric function.
+          There is no even or odd symmetry because <m>f(-x)</m> does
+          not simplify to either <m>f(x)</m> or <m>-f(x)</m>. 
+        </p>
+        <p>
+          Limits and Asymptotoes: We have an undefined point at <m>x =
+          \frac{5}{4}</m>, so we take the limits approaching this from
+          the left and the right to see if there is a vertical
+          asymptote. (We do the two sides seperately to give us more
+          information about whether to draw the function approaching
+          positive or negative <m>\infty</m>.0
+          <me>
+            \lim_{x \rightarrow \frac{5}{4}^+} \frac{x-9}{4x-5} =
+            -\infty 
+          </me>
+          The numerator approaches a finite number and the denominator
+          approaches 0, so this does diverge to <m>\pm \infty</m>. Looking
+          at the sign, for numbers slightly larger than
+          <m>\frac{5}{4}</m>, the numerator is negative and the
+          denominator is positive, so this limit approahces <m> -
+          \infty</m>.
+          <me>
+            \lim_{x \rightarrow \frac{5}{4}^-} \frac{x-9}{4x-5} =
+            \infty
+          </me>
+          The numerator approaches a finite number and the denominator
+          approaches 0, so this does diverge to <m>\pm \infty</m>. Looking
+          at the sign, for numbers slightly smaller than
+          <m>\frac{5}{4}</m>, the numerator is negative and the
+          denominator is also negative, so this limit approahces <m>
+          \infty</m>. This means that the line <m>x = \frac{5}{4}</m>
+          is a vertical asymptote.
+        </p>
+        <p>
+          We can look at the limits to <m>\pm \infty</m> for
+          horizontal asymptotes. 
+          <me>
+            \lim_{x \rightarrow \infty} \frac{x-9}{4x-5} = \frac{1}{4} 
+          </me>
+          Asymptotically, the numerator and denominator has the same
+          order, so we look at the leading coefficients to evaluate
+          the limit. 
+          <me>
+            \lim_{x \rightarrow -\infty} \frac{x-9}{4x-5} = \frac{1}{4} 
+          </me>
+          The same behaviour holds in the negative direction as well.
+          Both numerator and denominator will be negative, which
+          cancels out, leaving just the ratio of the leading
+          coefficients. 
+        </p>
+        <p>
+          First Derivative: We take the derivative using the quotient
+          rule. 
+          <md>
+            <mrow>
+              \frac{d}{dx} \frac{x-9}{4x-5} \amp = 
+              \frac{ (4x-5) \frac{d}{dx} (x-9) - (x-9) \frac{d}{dx}
+              (4x-5) }{(4x-5)^2} 
+            </mrow>
+            <mrow>
+              \amp = \frac{(4x-5) - 4(x-9)}{(4x-5)^2} 
+            </mrow>
+            <mrow>
+              \amp = \frac{4x - 5 - 4x + 36}{(4x-5)^2} 
+            </mrow>
+            <mrow>
+              \amp = \frac{31}{(4x-5)^2} 
+            </mrow>
+          </md>
+          We set the derivative equal to zero and solve for the
+          critical points. However, this fraction has a constant
+          numerator, so it can never be zero. There are no critical
+          points, hence no possible minima or maxima. However, we
+          still have to look at the intervals to see where the
+          function is increasing or decreasing. The domain has two
+          intervals, since it is divided up by the undefined point
+          <m>x = \frac{5}{4}</m>. 
+          <md>
+            <mrow>
+              \amp \left( -\infty, \frac{5}{4} \right) \amp 
+              \amp \left( \frac{5}{4}, \infty \right) 
+            </mrow>
+            <mrow>
+              \amp f^\prime (0) = \frac{31}{(0-5)^2} \amp 
+              \amp f^\prime (2) = \frac{31}{(8-5)^2} 
+            </mrow>
+            <mrow>
+              \amp f^\prime (0) = \frac{31}{25} \amp
+              \amp f^\prime (2) = \frac{31}{9} 
+            </mrow>
+            <mrow>
+              \amp \text{Positive} \amp 
+              \amp \text{Positive} 
+            </mrow>
+            <mrow>
+              \amp f \text{ is increasing.} \amp
+              \amp f \text{ is increasing.} 
+            </mrow>
+          </md>
+          The function is increasing on both intervals. 
+        </p>
+        <p>
+          Second Derivative: We differentiate again, this time using
+          the chain rule. 
+          <md>
+            <mrow>
+              \frac{d}{dx} \frac{31}{(4x-5)^2} 
+              \amp = 31 \frac{d}{du} u^{-2} \Big|_{u = 4x-5}
+              \frac{d}{dx} (4x-5) 
+            </mrow>
+            <mrow>
+              \amp = 31 -2u^{-3} \Big|_{u = 4x-5} (4)
+            </mrow>
+            <mrow>
+              \amp = -248 (4x-5)^{-3} = \frac{-248}{(4x-5)^3}
+            </mrow>
+          </md>
+          We set the second derivative equal to zero and solve for the
+          potential inflection points. Again, however, there are no
+          solution, so there are no inflection points. We still
+          analyze the intervals to see where the function is concave
+          up and concave down. The intervals are the same as for the
+          first derivative, seperated by the undefined point. 
+          <md>
+            <mrow>
+              \amp \left( -\infty, \frac{5}{4} \right) \amp 
+              \amp \left( \frac{5}{4}, \infty \right) 
+            </mrow>
+            <mrow>
+              \amp f^{\prime\prime} (0) = \frac{-248}{(-5)^3} \amp
+              \amp f^{\prime\prime} (2) = \frac{-248}{(3)^3}
+            </mrow>
+            <mrow>
+              \amp f^{\prime\prime} (0) = \frac{-248}{-125} =
+              \frac{248}{125} \amp
+              \amp f^{\prime\prime} (2) = \frac{-248}{27} 
+            </mrow>
+            <mrow>
+              \amp \text{Negative} \amp 
+              \amp \text{Positive} 
+            </mrow>
+            <mrow>
+              \amp f \text{ is concave down.} \amp 
+              \amp f \text{ is concave up.} 
+            </mrow>
+          </md>
+          This determines the concavity. 
+        </p>
+        <p>
+          Range again: The function has a horizontal asymptote at <m>y
+          = \frac{1}{4}</m>. To the left of <m>x = \frac{5}{4}</m>,
+          the function is growing up from this asympote, approaching
+          <m>\infty</m> at the verical asymptote. Therefore, the range
+          includes all numbers greater than <m>\frac{1}{4}</m>. On the
+          right of <m>x = \frac{5}{4}</m>, the function starts with a
+          vertical asymptote and grows up to the horizontal asymptote
+          at <m>y = \frac{1}{4}</m>. Therefore, all number less than
+          <m>\frac{1}{4}</m> are also in the range. We conclude that
+          the range is all real numbers except <m>y =
+          \frac{1}{4}</m>.
+        </p>
+        <p>
+          <xref ref="figure-sketching-2" /> shows the graph of the
+          function, matching out analysis above. 
+          <figure xml:id="figure-sketching-2">
+            <caption>Second Curve Sketching Activity</caption>
+            <image width="100%" source="images/figure80"/>
+          </figure>
         </p>
       </solution>
     </activity>
