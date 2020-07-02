@@ -1,6 +1,6 @@
-<section xml:id="week5-activity">
+<section xml:id="section-week5-activity">
   <title>Week 5 Activity</title>
-  <subsection xml:id="limits-at-infinity">
+  <subsection xml:id="subsection-activity-limits-at-infinity">
     <title>Limits at Infinity</title>
     <activity>
       <statement>
@@ -253,7 +253,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="horizontal-asymptotes">
+  <subsection xml:id="subsection-activity-horizontal-asymptotes">
     <title>Horizontal Asymptotes</title>
     <activity>
       <statement>
@@ -392,7 +392,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="long-term-behaviour-of-models">
+  <subsection xml:id="subsection-activity-long-term-behaviour-of-models">
     <title>Long Term Behaviour of Models</title>
     <activity>
       <statement>
@@ -536,7 +536,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="week5-concepts">
+  <subsection xml:id="subsection-week5-concepts">
     <title>Conceptual Review Questions</title>
     <p>
       <ul>

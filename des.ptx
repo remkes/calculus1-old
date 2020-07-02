@@ -1,6 +1,6 @@
-<section xml:id="des">
+<section xml:id="section-des">
   <title>Solving Differential Equations</title>
-  <subsection xml:id="direct-integration">
+  <subsection xml:id="subsection-direct-integration">
     <title>Solving By Direct Integration</title>
     <p>
       Early in the course, we talked about differential equations in
@@ -34,7 +34,7 @@
       </me>
     </p>
   </subsection>
-  <subsection xml:id="ivps">
+  <subsection xml:id="subsection-ivps">
     <title>Initial Value Problems</title>
     <p>
       When we integrate to solve a DE, we will get a constant of
@@ -103,7 +103,7 @@
       </statement>
     </example>
   </subsection>
-  <subsection xml:id="seperable">
+  <subsection xml:id="subsection-seperable">
     <title>Seperable Differential Equations</title>
     <p>
       Solving DEs is a very difficult task is general; the previous

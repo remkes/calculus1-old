@@ -1,6 +1,6 @@
-<section xml:id="week9-activity">
+<section xml:id="section-week9-activity">
   <title>Week 9 Activity</title>
-  <subsection xml:id="substitution-rule">
+  <subsection xml:id="subsection-activity-substitution-rule">
     <title>Substitution Rule</title>
     <activity>
       <statement>
@@ -283,7 +283,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="week9-concepts">
+  <subsection xml:id="subsection-week9-concepts">
     <title>Conceptual Review Questions</title>
     <p>
       <ul>
@@ -297,7 +297,7 @@
       </ul>
     </p>
   </subsection>
-  <subsection xml:id="week9-extra-practice">
+  <subsection xml:id="subsection-week9-extra-practice">
     <title>Extra Practice</title>
     <activity>
       <statement>

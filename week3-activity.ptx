@@ -1,6 +1,6 @@
-<section xml:id="week3-activity">
+<section xml:id="section-week3-activity">
   <title>Week 3 Activity</title>
-  <subsection xml:id="exponential-regression">
+  <subsection xml:id="subsection-activity-exponential-regression">
     <title>Exponential Growth</title>
     <activity>
       <statement>
@@ -10,7 +10,7 @@
           exponential function. Evaluate that exponential function
           (using a calculator or computer) and compare the values with
           the data. 
-          <table xml:id="data-set-exponential-1">
+          <table xml:id="table-data-set-exponential-1">
             <title>Data Set 1 for Exponential Growth</title>
             <tabular>
               <row bottom="medium">
@@ -56,7 +56,7 @@
         The following table shows the values of this function to
         compare with the data set. 
         </p>
-          <table xml:id="data-set-exponential-1-answers">
+          <table xml:id="table-data-set-exponential-1-answers">
             <title>Data Set 1 for Exponential Growth - Values</title>
             <tabular>
               <row bottom="medium">
@@ -117,7 +117,7 @@
           exponential function. Evaluate that exponential function
           (using a calculator or computer) and compare the values with
           the data. 
-          <table xml:id="data-set-exponential-2">
+          <table xml:id="table-data-set-exponential-2">
             <title>Data Set 2 for Exponential Growth</title>
             <tabular>
               <row bottom="medium">
@@ -165,7 +165,7 @@
         The following table shows the values of this function to
         compare with the data set. 
         </p>
-          <table xml:id="data-set-exponential-2-answers">
+          <table xml:id="table-data-set-exponential-2-answers">
             <title>Data Set 2 for Exponential Growth - Values</title>
             <tabular>
               <row bottom="medium">
@@ -227,7 +227,7 @@
           exponential function. Evaluate that exponential function
           (using a calculator or computer) and compare the values with
           the data. 
-          <table xml:id="data-set-exponential-3">
+          <table xml:id="table-data-set-exponential-3">
             <title>Data Set 3 for Exponential Growth</title>
             <tabular>
               <row bottom="medium">
@@ -274,7 +274,7 @@
         The following table shows the values of this function to
         compare with the data set. 
         </p>
-          <table xml:id="data-set-exponential-3-answers">
+          <table xml:id="table-data-set-exponential-3-answers">
             <title>Data Set 3 for Exponential Growth - Values</title>
             <tabular>
               <row bottom="medium">
@@ -344,7 +344,7 @@
       </statement>
       <solution>
         <p>
-        <figure xml:id="phase-line-activity-1">
+        <figure xml:id="figure-activity-phase-line-activity-1">
           <caption>Phase Line for <m>p^2 - 9p + 18</m></caption>
           <image width="100%" source="images/figure73" />
         </figure>
@@ -401,7 +401,7 @@
       </statement>
       <solution>
         <p>
-        <figure xml:id="phase-line-activity-2">
+        <figure xml:id="figure-activity-phase-line-activity-2">
           <caption>Phase Line for <m>p^3 - 6p^2 + 11p - 6</m></caption>
           <image width="100%" source="images/figure74" />
         </figure>
@@ -471,7 +471,7 @@
       </statement>
       <solution>
         <p>
-        <figure xml:id="phase-line-activity-3">
+        <figure xml:id="figure-activity-phase-line-activity-3">
           <caption>
             Phase Line for <m>p^3 - 10p^2 + 32p - 32</m>
           </caption>

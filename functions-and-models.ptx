@@ -1,4 +1,5 @@
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="functions-and-models">
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"
+  xml:id="chapter-functions-and-models">
   <title>Functions &amp; Models</title>
   <xi:include  href="analytic-geometry.ptx" />
   <xi:include  href="functions.ptx" />

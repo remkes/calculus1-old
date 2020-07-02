@@ -1,6 +1,6 @@
-<section xml:id="riemann-integral">
+<section xml:id="section-riemann-integral">
   <title>The Riemann Integral</title>
-  <subsection xml:id="integral-definition">
+  <subsection xml:id="subsection-integral-definition">
     <title>Definition</title>
     <p>
       Recall the distance travelled problem, where we tried to
@@ -168,7 +168,7 @@
       </statement>
     </example>
   </subsection>
-  <subsection xml:id="integral-properties">
+  <subsection xml:id="subsection-integral-properties">
     <title>Properties of the Definite Integral</title>
     <p>
       The definite integral is linear.

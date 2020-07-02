@@ -1,6 +1,6 @@
-<section xml:id="limits-at-finite-values">
+<section xml:id="section-limits-at-finite-values">
   <title>Calcluating Limits at Finite Values</title>
-  <subsection xml:id="three-stpes">
+  <subsection xml:id="susection-three-stpes">
     <title>Three Steps</title>
     <p>
       There is a three step procedure to calculating limits.
@@ -33,7 +33,7 @@
       </ul>
     </p>
   </subsection>
-  <subsection xml:id="limit-rules">
+  <subsection xml:id="subsection-limit-rules">
     <title>Limits Rules</title>
     <p>
       The third step referred to the rules for manipulating limits,

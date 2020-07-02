@@ -1,6 +1,6 @@
-<section xml:id="week8-activity">
+<section xml:id="section-week8-activity">
   <title>Week 8 Activity</title>
-  <subsection xml:id="sigma-notation">
+  <subsection xml:id="subsection-activity-sigma-notation">
     <title>Sigma Notation</title>
     <activity>
       <statement>
@@ -311,7 +311,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="riemann-integral">
+  <subsection xml:id="subsection-activity-riemann-integral">
     <title>Riemann Integral</title>
     <activity>
       <statement>
@@ -490,7 +490,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="fundamental-theorem">
+  <subsection xml:id="subsection-activity-fundamental-theorem">
     <title>Fundamental Theorem of Calculus</title>
     <activity>
       <statement>
@@ -702,7 +702,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="week8-concepts">
+  <subsection xml:id="subsection-week8-concepts">
     <title>Conceptual Review Questions</title>
     <p>
       <ul>

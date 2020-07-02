@@ -1,7 +1,7 @@
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="week7">
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-week7">
   <title>Week 7</title>
   <xi:include href="chain-rule.ptx" />
-  <xi:include href="derivatives-inverse.ptx" />
   <xi:include href="higher-derivatives.ptx" />
   <xi:include href="h-rule.ptx" />
   <xi:include href="week7-activity.ptx" />

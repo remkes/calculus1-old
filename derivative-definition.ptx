@@ -1,15 +1,15 @@
-<section xml:id="derivative-definition">
+<section xml:id="section-derivative-definition">
   <title>Definition of the Derivative</title>
-  <subsection xml:id="secant-lines">
+  <subsection xml:id="subsection-secant-lines">
     <title>Limits of Secant Lines</title>
     <figure xml:id="figure-secant-approximations2">
       <caption>Secant Approximations to the Tangent Line</caption>
       <image width="85%" source="images/figure13"/>
     </figure>
     <p>
-      In <xref ref="population-growth">Section</xref>, we defined the
+      In <xref ref="section-population-growth" />, we defined the
       derivative as the rate of change of a function. In <xref
-      ref="two-motivating-problems">Section</xref>, we connected that
+      ref="section-two-motivating-problems" />, we connected that
       definition to the geometry of slopes of tangent lines and
       constructed a process by which algebra can approximate a tangent
       line by using secant lines. Now that we have limits, we can ask
@@ -61,7 +61,7 @@
       </me>
     </p>
   </subsection>
-  <subsection xml:id="operators">
+  <subsection xml:id="subsection-operators">
     <title>Differential Operators</title>
     <p>
       We think of the derivative as an operation on functions: it
@@ -83,7 +83,7 @@
       such an operator is extremely convenient.
     </p>
   </subsection>
-  <subsection xml:id="differentiability">
+  <subsection xml:id="subsection-differentiability">
     <title>Differentiability</title>
     <p>
       The limit defining the derivative may not always exist. If it
@@ -98,7 +98,7 @@
       corners is not differentiable at the sharp corners, because it
       doesn't make sense to define a tangent line at a sharp corner.
       The graph of the function must be smooth. <xref
-      ref="figure-differentiability-problems">Figure</xref> shows how
+      ref="figure-differentiability-problems" /> shows how
       a jump or sharp corner makes the choice of a tangent line
       problematic.
     </p>
@@ -107,7 +107,7 @@
       <image width="60%" source="images/figure48"/>
     </figure>
   </subsection>
-  <subsection xml:id="derivative-interpretation">
+  <subsection xml:id="subsection-derivative-interpretation">
     <title>Interpretation</title>
     <p>
       Now that we have a definition of the derivative and

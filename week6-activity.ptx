@@ -1,6 +1,6 @@
-<section xml:id="week6-activity">
+<section xml:id="subsection-week6-activity">
   <title>Week 6 Activity</title>
-  <subsection xml:id="derivatives-by-definition">
+  <subsection xml:id="subsection-activity-derivatives-by-definition">
     <title>Derivatives By Definition</title>
     <activity>
       <statement>
@@ -105,7 +105,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="derivatives">
+  <subsection xml:id="subsection-activity-derivatives">
     <title>Derivatives</title>
     <activity>
       <statement>
@@ -530,7 +530,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="week6-concepts">
+  <subsection xml:id="subsection-week6-concepts">
     <title>Conceptual Review Questions</title>
     <p>
       <ul>

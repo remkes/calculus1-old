@@ -1,4 +1,5 @@
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="week10">
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-week10">
   <title>Week 10</title>
   <xi:include href="des.ptx" />
   <xi:include href="population-de.ptx" />

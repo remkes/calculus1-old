@@ -1,6 +1,6 @@
-<section xml:id="two-motivating-problems">
+<section xml:id="section-two-motivating-problems">
   <title>Two Motivating Problems</title>
-  <subsection xml:id="velocity-problem">
+  <subsection xml:id="subsection-velocity-problem">
     <title>The Velocity Problem</title>
     <figure xml:id="figure-slope-linear">
       <caption>Slope of a Linear Function</caption>
@@ -46,7 +46,7 @@
       lines which approximate a tangent line. We adjust the
       approximation by letting the two points of the secant line come
       closer and closer together, as in the <xref
-      ref="figure-secant-approximations1">Figure</xref>. In this way,
+      ref="figure-secant-approximations1" />. In this way,
       we build an approximation process which can get better an
       better. However, algebra an never finish the process <mdash />
       it can just supply improved approximations.
@@ -56,7 +56,7 @@
       <image width="85%" source="images/figure13"/>
     </figure>
   </subsection>
-  <subsection xml:id="distance-problem">
+  <subsection xml:id="subsection-distance-problem">
     <title>The Distance Travelled Problem</title>
     <p>
       Let's consider the opposite problem. Say we have a function
@@ -79,8 +79,8 @@
       <m>c</m> unit distance for unit time and we have travelled for
       <m>t_0</m> units of time, the distance is just the product
       <m>ct_0</m>. Graphically, the situation is summarized in <xref
-      ref="figure-constant-velocity">Figures</xref> and <xref
-      ref="figure-non-constant-velocity"></xref>. We can see that the
+      ref="figure-constant-velocity" /> and <xref
+      ref="figure-non-constant-velocity" />. We can see that the
       distance travelled under constant velocity is the area under the
       velocity graph. To solve the distance travelled problem, we
       have to find areas under curves. Like tangent lines, this is

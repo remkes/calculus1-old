@@ -1,6 +1,6 @@
-<section xml:id="week11-activity">
+<section xml:id="section-week11-activity">
   <title>Week 11 Activity</title>
-  <subsection xml:id="extrema">
+  <subsection xml:id="subsection-activity-extrema">
     <title>Extrema</title>
     <activity>
       <statement>
@@ -243,7 +243,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="optimization">
+  <subsection xml:id="subsection-activity-optimization">
     <title>Optimization</title>
     <activity>
       <statement>
@@ -494,7 +494,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="marginal-analysis">
+  <subsection xml:id="subsection-activity-marginal-analysis">
     <title>Marginal Analysis</title>
     <activity>
       <statement>
@@ -795,7 +795,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="week11-concepts">
+  <subsection xml:id="subsection-week11-concepts">
     <title>Conceptual Review Questions</title>
     <p>
       <ul>

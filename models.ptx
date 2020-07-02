@@ -1,6 +1,7 @@
-<section xml:id="models">
+<section xml:id="section-models">
   <title>Models</title>
-  <introduction>
+  <subsection xml:id="subsection-what-is-model">
+    <title>The Concept of a Model</title>
     <p>
       In this course, we use the term <sq>model</sq> in the broadest
       possible mathematical sense: a model is any application of a
@@ -60,21 +61,21 @@
     </p>
     <p>
       The analysis of models thus consists of everything we used to
-      analyze functions in <xref ref="functions">Sections</xref> and
-      <xref ref="operations-on-functions"></xref> as well as these new
-      questions.  Often we will want a qualitative analysis of the
-      model.  Understanding the general shape and behaviour of the
+      analyze functions in <xref ref="section-functions" /> and <xref
+      ref="section-operations-on-functions" /> as well as these new
+      questions. Often we will want a qualitative analysis of the
+      model. Understanding the general shape and behaviour of the
       functions involved is invaluable to this qualitative analysis.
       A major goal for this course is to develop tools and
       competencies to allow students to analyze functions and models
-      both quantitatively and qualitatively.  The qualitative analysis
+      both quantitatively and qualitatively. The qualitative analysis
       can often be expressed in a narrative: what story is the
-      function telling about the relationship?  If the independant
+      function telling about the relationship? If the independant
       variable is time, as it often is, what is the story of the
       dependant variable over a time span?  What happens to it?
     </p>
-  </introduction>
-  <subsection xml:id="regression">
+  </subsection>
+  <subsection xml:id="subsection-regression">
     <title>Regression</title>
     <p>
       One of the greatest challenges of applied mathematics is

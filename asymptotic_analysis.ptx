@@ -1,6 +1,6 @@
-<section xml:id="asymptotic_analysis">
+<section xml:id="section-asymptotic_analysis">
   <title>Asymptotic Analysis</title>
-  <subsection xml:id="novel-technique">
+  <subsection xml:id="subsection-novel-technique">
     <title>A Novel Technique</title>
     <p>
       The calculation of infinite limits is similar to the same steps
@@ -37,7 +37,7 @@
       larger than <m>0</m>. This leads to the notion of asymptotic order.
     </p>
   </subsection>
-  <subsection xml:id="asymptotic-order">
+  <subsection xml:id="subsection-asymptotic-order">
     <title>Asymptotic Order</title>
     <p>
       In asymptotic analysis, we start with a quotient limit.
@@ -77,7 +77,7 @@
       order.
     </p>
   </subsection>
-  <subsection xml:id="asymptotic-ranking">
+  <subsection xml:id="subsection-asymptotic-ranking">
     <title>An Asymptotic Ranking of Functions</title>
     <p>
       Here are several rules for asymptotic order of functions. Many
@@ -142,7 +142,7 @@
       than <m>x^x</m>, but they are not frequently used.
     </p>
   </subsection>
-  <subsection xml:id="determining-ranking">
+  <subsection xml:id="subsection-determining-ranking">
     <title>Determining Asymptotic Ranking</title>
     <p>
       In quotient limits, <m>f</m> and <m>g</m> may be more
@@ -172,7 +172,7 @@
       </ul>
     </p>
   </subsection>
-  <subsection xml:id="asymoptotic-ratios">
+  <subsection xml:id="subsection-asymoptotic-ratios">
     <title>Asymptotic Analysis and Ratios of Functions</title>
     <p>
       In a quotient limit where <m>f</m> and <m>g</m> have the same

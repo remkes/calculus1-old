@@ -1,5 +1,5 @@
 <preface xml:id="preface">
-  <section xml:id="organization">
+  <section xml:id="section-organization">
   <title>Organization</title>
   <p>
     These are course notes and materials for a blended or online
@@ -25,7 +25,7 @@
     Practice'' or ``Challenge Problems' is optional material. 
   </p>
   </section>
-  <section xml:id="resources">
+  <section xml:id="section-resources">
   <title>Other Resources</title>
   <p>
     In addition to the notes associated to each lecture, there are a
@@ -83,7 +83,7 @@
     </ul>
   </p>
   </section>
-  <section xml:id="philosophy">
+  <section xml:id="section-philosophy">
   <title>Perspectives and Philosophy</title>
   <p>
     In addition to the strictly mathematical material of the course, I

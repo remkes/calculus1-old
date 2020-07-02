@@ -1,12 +1,6 @@
-<section xml:id="types-of-functions">
+<section xml:id="section-types-of-functions">
   <title>Types of Functions</title>
-  <introduction>
-    <p>
-      We want to give a catalog of the common types of functions we
-      encounter in calculus.
-    </p>
-  </introduction>
-  <subsection xml:id="constant-functions">
+  <subsection xml:id="subsection-constant-functions">
     <title>Constant Functions</title>
     <figure xml:id="figure-constant-function">
       <caption>A Constant Function</caption>
@@ -20,7 +14,7 @@
       restrictions.
     </p>
   </subsection>
-  <subsection xml:id="linear-functions">
+  <subsection xml:id="subsection-linear-functions">
     <title>Linear Functions</title>
     <figure xml:id="figure-linear-function">
       <caption>A Linear Function</caption>
@@ -42,7 +36,7 @@
       back without any action.
     </p>
   </subsection>
-  <subsection xml:id="quadratic-functions">
+  <subsection xml:id="subsection-quadratic-functions">
     <title>Quadratic Functions</title>
     <figure xml:id="figure-quadratic-function">
       <caption>A Quadratic Function</caption>
@@ -57,7 +51,7 @@
       restrictions.
     </p>
   </subsection>
-  <subsection xml:id="polynomials">
+  <subsection xml:id="subsection-polynomials">
     <title>Polynomial Functions</title>
     <figure xml:id="figure-polynomial-function">
       <caption>A Polynomial Function</caption>
@@ -85,7 +79,7 @@
       have fewer. Polynomial functions have no domain restrictions.
     </p>
   </subsection>
-  <subsection xml:id="rational-functions">
+  <subsection xml:id="subsection-rational-functions">
     <title>Rational Functions</title>
     <figure xml:id="figure-rational-function">
       <caption>A Rational Function</caption>
@@ -109,7 +103,7 @@
       undefined point.
     </p>
   </subsection>
-  <subsection xml:id="algebraic-functions">
+  <subsection xml:id="subsection-algebraic-functions">
     <title>Algebraic Functions</title>
     <figure xml:id="figure-algebraic-function">
       <caption>An Algebraic Function</caption>
@@ -128,7 +122,7 @@
       very complicated conglomerations of these operations.
     </p>
   </subsection>
-  <subsection xml:id="trig-functions">
+  <subsection xml:id="subsection-trig-functions">
     <title>Trigonometric Functions</title>
     <figure xml:id="figure-trigonometric-function">
       <caption>A Trigonometric Function</caption>
@@ -169,7 +163,7 @@
       <m>\frac{1}{\sin(x)}</m>.
     </p>
   </subsection>
-  <subsection xml:id="exponential-functions">
+  <subsection xml:id="subsection-exponential-functions">
     <title>Exponential and Logarithmic Functions</title>
     <figure xml:id="figure-an-exponential-function">
       <caption>An Exponential Function</caption>
@@ -206,7 +200,7 @@
       only act on positive numbers. 
     </p>
   </subsection>
-  <subsection xml:id="hyperbolic-functions">
+  <subsection xml:id="subsection-hyperbolic-functions">
     <title>Hyperbolic Functions</title>
     <p>
       Though we won't define or investigate these function until
@@ -218,7 +212,7 @@
       inverse hyperbolics.
     </p>
   </subsection>
-  <subsection xml:id="elementary">
+  <subsection xml:id="subsection-elementary">
     <title>Elementary Functions</title>
     <figure xml:id="figure-universe-of-functions">
       <caption>The Universe of Functions</caption>

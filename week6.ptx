@@ -1,4 +1,5 @@
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="week6">
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-week6">
   <title>Week 6</title>
   <xi:include href="two-motivating-problems.ptx" />
   <xi:include href="derivative-definition.ptx" />

@@ -1,6 +1,6 @@
-<section xml:id="conics">
+<section xml:id="section-conics">
   <title>Conics</title>
-  <subsection xml:id="idea-of-conics">
+  <subsection xml:id="subsection-idea-of-conics">
     <title>Slicing a Cone</title>
     <p>
       The conics are the second important class of loci. Unlike the
@@ -16,7 +16,7 @@
       conic is centred at the origin.
     </p>
   </subsection>
-  <subsection xml:id="description-of-conics">
+  <subsection xml:id="subsection-description-of-conics">
     <figure xml:id="figure-circle">
       <caption>The Circle</caption>
       <image width="50%" source="images/figure03"/>

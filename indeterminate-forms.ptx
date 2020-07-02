@@ -1,9 +1,43 @@
-<section xml:id="indeterminate-forms">
+<section xml:id="section-indeterminate-forms">
   <title>Indeterminate Forms</title>
-  <subsection xml:id="TBD">
-    <title>TBD</title>
+  <subsection xml:id="subsection-classifying-limits">
+    <title>Classifying Types of Limits</title>
     <p>
-      TBD
+      Recall that a limit is called an <em>indeterminate form</em> if
+      it cannot be evaluated or logically determined. We can classify
+      indeterminate forms by their type. For now, we look at three
+      types. The first two types involve quotient limits.
+      <me>
+        \lim_{x \rightarrow a} \frac{f(x)}{g(x)}
+      </me>
+    </p>
+    <p>
+      If <m>f(x)</m> and <m>g(x)</m> approach <m>\pm \infty</m>, the
+      limit is called an indeterminate form of type
+      <m>\frac{\infty}{\infty}</m>. If instead both <m>f(x)</m> and
+      <m>g(x)</m> approach <m>0</m>, then it is an indeterminate form
+      of type <m>\frac{0}{0}</m>. In both cases, we want to use
+      algebra to factor out and cancel off the pieces of the quotients
+      which tends to <m>\infty</m> or <m>0</m> to solve the limit.
+    </p>
+    <p>
+      The third type involves a difference limit.
+      <me>
+        \lim_{x \rightarrow a} f(x) - g(x)
+      </me>
+    </p>
+    <p>
+      If both <m>f(x)</m> and <m>g(x)</m> approach <m>\pm \infty</m>,
+      this limit is called an indeterminate form of type <m>\infty -
+      \infty</m>. For this type, we want to use common denominator,
+      conjugates or other algegraic tricks to reduce it to a limit of
+      type <m>\frac{\infty}{\infty}</m> or type <m>\frac{0}{0}</m>.
+    </p>
+    <p>
+      In all these definitions, we could replace <m>x \rightarrow
+      a</m> with the one-sided limit or <m>x \rightarrow \pm
+      \infty</m>; the indeterminate forms are classified the same way
+      for any type of limit.
     </p>
   </subsection>
 </section>

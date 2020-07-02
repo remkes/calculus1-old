@@ -1,6 +1,6 @@
-<section xml:id="chain-rule">
+<section xml:id="section-chain-rule">
   <title>The Chain Rule</title>
-  <subsection xml:id="derivatives-composition">
+  <subsection xml:id="subsection-derivatives-composition">
     <title>Derivatives of Compositions</title>
     <p>
       The rules we have so far give us the tools to calculate many

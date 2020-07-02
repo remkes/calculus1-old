@@ -1,8 +1,0 @@
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="derivatives">
-  <title>Derivatives</title>
-  <xi:include  href="derivative-definition.ptx" />
-  <xi:include  href="derivative-rules.ptx" />
-  <xi:include  href="tangent-lines-implicit.ptx" />
-  <xi:include  href="higher-derivatives.ptx" />
-  <xi:include  href="linear-approximation.ptx" />
-</chapter>

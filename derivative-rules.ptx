@@ -1,4 +1,4 @@
-<section xml:id="derivative-rules">
+<section xml:id="section-derivative-rules">
   <title>Rules for Differentiation</title>
   <introduction>
     <p>
@@ -7,7 +7,7 @@
       calculating derivatives.
     </p>
   </introduction>
-  <subsection xml:id="important-derivatives">
+  <subsection xml:id="subsection-important-derivatives">
     <title>Important Derivatives</title>
     <p>
       We'll start with a number of standard derivatives. If a
@@ -61,7 +61,7 @@
       This formula shows that derivative of <m>a^x</m> is formed by
       multiply by the derivative at <m>x=0</m>. Note that all
       exponentials go through the point <m>(0,1)</m>. <xref
-      ref="figure-four-exponential-functions">Figure</xref> shows the
+      ref="figure-four-exponential-functions" /> shows the
       the graphs of several exponential function (for bases <m>a >
       1</m>).
     </p>
@@ -71,7 +71,7 @@
     </figure>
     <p>
       The slope at <m>(0,1)</m> determines the derivative. As seen in
-      the <xref ref="figure-four-exponential-functions">Figure</xref>,
+      the <xref ref="figure-four-exponential-functions" />,
       for different choices of the base, we get different slopes going
       through the point <m>(0,1)</m>. There is one special base which
       has slope <m>1</m> at the point <m>(0,1)</m>. By definition,
@@ -89,7 +89,7 @@
       differentiate, since it doesn't change at all.
     </p>
   </subsection>
-  <subsection xml:id="power-rule">
+  <subsection xml:id="subsection-power-rule">
     <title>Power Rule</title>
     <p>
       So far, we've looked at specific derivatives and used the
@@ -130,7 +130,7 @@
       </md>
     </p>
   </subsection>
-  <subsection xml:id="derivatives-linearity">
+  <subsection xml:id="subsection-derivatives-linearity">
     <title>Linearity</title>
     <p>
       The next rules is a set of three rules which are called
@@ -177,7 +177,7 @@
       </statement>
     </example>
   </subsection>
-  <subsection xml:id="leibniz-rule">
+  <subsection xml:id="subsection-leibniz-rule">
     <title>Leibniz Rule</title>
     <p>
       Limits worked well with all four arithmetic operations:
@@ -239,7 +239,7 @@
       </statement>
     </example>
   </subsection>
-  <subsection xml:id="quotient-rule">
+  <subsection xml:id="subsection-quotient-rule">
     <title>Quotient Rule</title>
     <p>
       Let <m>f</m> be a differentiable function and <m>g</m> be a
@@ -267,7 +267,7 @@
       </statement>
     </example>
   </subsection>
-  <subsection xml:id="chain-rule">
+  <subsection xml:id="subsection-chain-rule">
     <title>Chain Rule</title>
     <p>
       The rules we have so far give us the tools to calculate many
@@ -428,7 +428,7 @@
       </statement>
     </example>
   </subsection>
-  <subsection xml:id="derivatives-inverse-functions">
+  <subsection xml:id="subsection-derivatives-inverse-functions">
     <title>Derivatives of Inverse Functions</title>
     <p>
       We just used the rule <m>\frac{d}{dx} \ln x = \frac{1}{x}</m>

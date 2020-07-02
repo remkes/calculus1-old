@@ -1,21 +1,21 @@
-<section xml:id="phase-lines">
+<section xml:id="section-phase-lines">
   <title>Phase Lines</title>
-  <subsection xml:id="autonomous-des">
+  <subsection xml:id="subsection-autonomous-des">
     <title>Autonomous DEs</title>
     <p>
     </p>
   </subsection>
-  <subsection xml:id="steady-states">
+  <subsection xml:id="subsection-steady-states">
     <title>Steady States</title>
     <p>
     </p>
   </subsection>
-  <subsection xml:id="trajectories">
+  <subsection xml:id="subsection-trajectories">
     <title>Trajectories</title>
     <p>
     </p>
   </subsection>
-  <subsection xml:id="drawing-phase-lines">
+  <subsection xml:id="subsection-drawing-phase-lines">
     <title>Drawing Phase Lines</title>
     <p>
     </p>

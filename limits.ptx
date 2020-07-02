@@ -1,8 +1,0 @@
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="limits">
-  <title>Limits</title>
-  <xi:include  href="finite-values.ptx" />
-  <xi:include  href="limits-at-infinity.ptx" />
-  <xi:include  href="asymptotic_analysis.ptx" />
-  <xi:include  href="limits-asymptotics-models.ptx" />
-  <xi:include  href="continuity.ptx" />
-</chapter>

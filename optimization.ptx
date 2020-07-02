@@ -1,6 +1,6 @@
-<section xml:id="optimization">
+<section xml:id="section-optimization">
   <title>Optimization</title>
-  <subsection xml:id="models-exterme-values">
+  <subsection xml:id="subsection-models-exterme-values">
     <title>Extreme Values of Models</title>
     <p>
       Now that we understand how to find extrema using derivatives, we
@@ -20,7 +20,7 @@
           fixed perimeter. Let's say that <m>P</m> is the fixed
           perimeter and the rectangle has height <m>h</m> and length
           <m>l</m>, as in <xref
-          ref="figure-fixed-perimeter-rectangle">Figure</xref>.
+          ref="figure-fixed-perimeter-rectangle" />.
         </p>
         <figure xml:id="figure-fixed-perimeter-rectangle">
           <caption>A Fixed-Perimeter Rectangle</caption>
@@ -49,7 +49,7 @@
       </statement>
     </example>
   </subsection>
-  <subsection xml:id="optmized-distances">
+  <subsection xml:id="subsection-optmized-distances">
     <title>Optimized Distances</title>
     <figure xml:id="figure-distance-between-points">
       <caption>Distance Between Points</caption>
@@ -58,7 +58,7 @@
     <p>
       Many applications of optmization are found in geometry, both for
       purely mathematics and very practical reasons. As shown in
-      <xref ref="figure-distance-between-points">Figure</xref>, the
+      <xref ref="figure-distance-between-points" />, the
       distance between two points <m>(a,b)</m> and <m>(c,d)</m> is
       determined by Pythagorus: <m>\sqrt{(c-a)^2 + (b-d)^2}</m>. This
       function, with squares and a square root, is not the nicest
@@ -138,13 +138,13 @@
           <m>\frac{(\sqrt[3]{32})^2}{4}</m>. The closest point on the
           parabola to <m>(4,2)</m> is <m>P = \left( \sqrt[3]{32},
           \frac{(\sqrt[3]{32})^2}{4} \right)</m>. <xref
-          ref="figure-distance-optimization">Figure</xref> shows the
+          ref="figure-distance-optimization" /> shows the
           outcome of the optimization.
         </p>
       </statement>
     </example>
   </subsection>
-  <subsection xml:id="marginal-analysis">
+  <subsection xml:id="subsection-marginal-analysis">
     <title>Marginal Analysis</title>
     <p>
       A nice use of optimization happens in economic and finance

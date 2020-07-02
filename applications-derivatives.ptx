@@ -1,4 +1,5 @@
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="applications-derivatives">
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"
+  xml:id="chapter-applications-derivatives">
   <title>Applications of Derivatives</title>
   <xi:include  href="h-rule.ptx" />
   <xi:include  href="extrema.ptx" />

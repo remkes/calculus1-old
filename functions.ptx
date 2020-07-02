@@ -1,6 +1,6 @@
-<section xml:id="functions">
+<section xml:id="section-functions">
   <title>Functions</title>
-  <introduction>
+  <subsection xml:id="subsection-functions-three-definitions">
     <p>
       In order to define functions, we need to define sets. A
       <em>set</em> is any collection of things; the things in a set
@@ -43,8 +43,8 @@
       a very convenient way to remember the function and its
       properties.
     </p>
-  </introduction>
-  <subsection xml:id="real-functions">
+  </subsection>
+  <subsection xml:id="subsection-real-functions">
     <title>Functions on <m>\RR</m></title>
     <p>
       For the purposes of calculus, we will deal with functions

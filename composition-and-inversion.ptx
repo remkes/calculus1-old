@@ -1,6 +1,6 @@
-<section xml:id="composition-and-inversion">
+<section xml:id="section-composition-inversion">
   <title>Composition and Inversion</title>
-  <subsection xml:id="composition">
+  <subsection xml:id="subsection-composition">
     <title>Composition</title>
     <p>
       A more novel way to combine function is <em>composition</em>.
@@ -48,7 +48,7 @@
       <m>f</m> third.
     </p>
   </subsection>
-  <subsection xml:id="inversion">
+  <subsection xml:id="subsection-inversion">
     <title>Inversion</title>
     <p>
       The last important operation on functions is inversion.
@@ -123,7 +123,7 @@
       understand the range.
     </p>
   </subsection>
-  <subsection xml:id="restriction">
+  <subsection xml:id="subsection-restriction">
     <title>Restriction of Domain</title>
     <figure xml:id="figure-restriction">
       <caption>Restricting the Domain of <m>f(x) = x^2</m></caption>

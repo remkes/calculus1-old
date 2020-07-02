@@ -1,8 +1,8 @@
-<section xml:id="lines">
+<section xml:id="section-lines">
   <title>Lines</title>
-  <subsection xml:id="equations-of-lines">
+  <subsection xml:id="subsection-equations-of-lines">
     <title>Equations of Lines</title>
-    <figure xml:id="four-lines">
+    <figure xml:id="figure-four-lines">
       <caption>Four Lines</caption>
       <image width="60%" source="images/figure02"/>
     </figure>

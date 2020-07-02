@@ -1,13 +1,13 @@
-<section xml:id="intersection">
+<section xml:id="section-intersection">
   <title>Intersection</title>
-  <subsection xml:id="intersections-of-lines">
-    <figure xml:id="intersection-of-lines">
+  <subsection xml:id="subsection-intersections-of-lines">
+    <figure xml:id="figure-intersection-of-lines">
       <caption>Intersections of Lines</caption>
       <image width="50%" source="images/figure22"/>
     </figure>
     <p>
       You will also be expected to find the intersections of lines.
-      In <xref ref="intersection-of-lines">Figure</xref>, we have the
+      In <xref ref="figure-intersection-of-lines" />, we have the
       lines <m>y=x+1</m> and <m>y=3-3x</m>. Finding the intersetion
       point is equivalent to finding two coordinates <m>x</m> and
       <m>y</m> which satisfy both equations. Algebraically, that is
@@ -35,16 +35,16 @@
       </md>
     </p>
   </subsection>
-  <subsection xml:id="intersection-with-conics">
+  <subsection xml:id="subsection-intersection-with-conics">
     <title>Intersection of Lines and Conics</title>
-    <figure xml:id="figure-intersection">
+    <figure xml:id="figure-intersection-line-ellipse">
       <caption>Intersection of a Line and an Ellipse</caption>
       <image width="60%" source="images/figure24"/>
     </figure>
     <p>
       Intersection is a key idea in analytic geometry. Given two loci
       in <m>\RR^n</m>, we often want to know if they intersect. In
-      <xref ref="figure-intersection">diagram</xref>, the ellipse
+      <xref ref="figure-intersection-line-ellipse" />, the ellipse
       <m>\frac{x^2}{4} + \frac{y^2}{1} = 1</m> and the line
       <m>y=-x</m> have two intersection points: <m>p_1 =
       (\frac{-2}{\sqrt{5}},\frac{2}{\sqrt{5}})</m> and <m>p_2 =

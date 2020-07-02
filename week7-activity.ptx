@@ -1,6 +1,6 @@
-<section xml:id="week7-activity">
+<section xml:id="section-week7-activity">
   <title>Week 7 Activity</title>
-  <subsection xml:id="chain-rule">
+  <subsection xml:id="subsection-activity-chain-rule">
     <title>Chain Rule</title>
     <activity>
       <statement>
@@ -233,7 +233,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="higher-derivatives">
+  <subsection xml:id="subsection-activity-higher-derivatives">
     <title>Higher Derivatives</title>
     <activity>
       <statement>
@@ -352,7 +352,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="lhopitals-rule">
+  <subsection xml:id="subsection-activity-lhopitals-rule">
     <title>L'Hôpital's Rule</title>
     <activity>
       <statement>
@@ -517,7 +517,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="week7-concepts">
+  <subsection xml:id="subsection-week7-concepts">
     <title>Conceptual Review Questions</title>
     <p>
       <ul>

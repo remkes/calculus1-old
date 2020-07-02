@@ -1,6 +1,6 @@
-<section xml:id="analyticgeometry">
+<section xml:id="section-analytic-geometry">
   <title>Analytic Geometry</title>
-  <subsection xml:id="cartesian-plane">
+  <subsection xml:id="subsection-cartesian-plane">
     <title>The Cartesian Plane</title>
     <p>
       Analytic geometry was a huge breakthrough for mathematics.
@@ -64,7 +64,7 @@
       three-dimensional vision and perception.
     </p>
   </subsection>
-  <subsection xml:id="loci">
+  <subsection xml:id="subsection-loci">
     <title>Loci</title>
     <figure xml:id="figure-circle-locus">
       <caption>The Circle: A Locus</caption>
@@ -80,7 +80,7 @@
       of the equation. The plural of locus is <em>loci</em>.
     </p>
   </subsection>
-  <subsection xml:id="other-loci">
+  <subsection xml:id="subsection-other-loci">
     <title>Other Loci</title>
     <figure xml:id="figure-several-other-loci">
       <caption>Several Other Loci</caption>

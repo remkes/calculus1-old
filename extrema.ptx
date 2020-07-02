@@ -1,170 +1,177 @@
-<section xml:id="extrema">
+<section xml:id="section-extrema">
   <title>Extrema</title>
-  <p>
-    Let <m>f: [a,b] \rightarrow \RR</m> be a function.
-    <ul>
-      <li>
+  <subsection xml:id="subsection-local-min-max">
+    <title>Local Minima and Maxima</title>
+    <p>
+      Let <m>f: [a,b] \rightarrow \RR</m> be a function.
+      <ul>
+        <li>
+          <p>
+            A point <m>(c,f(c))</m> is called a <em>local maximum</em>
+            for <m>f</m> if <m>f(c) \lt f(x)</m> for all <m>x</m> close
+            to <m>c</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            A point is a <em>local minimum</em> if <m>f(c) \lt f(x)</m>
+            for all <m>x</m> close to <m>c</m>.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      The plurals of these terms are local minima and local maxima; if
+      we want to refer to both, we will simply say local extrema. We
+      can also define global extrema.
+      <ul>
+        <li>
+          <p>
+            The point <m>(c,f(c))</m> is a global maximum if
+            <m>f(c) > f(x)</m> for all <m>x</m> in the domain of the
+            function.
+          </p>
+        </li>
+        <li>
+          <p>
+            The point is a global minimum if
+            <m>f(c) \lt f(x)</m> for all <m>x</m> in the domain.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      One of the most important uses of derivatives is finding local
+      extrema. The reason that derivatives are useful is that local
+      extrema (for differentiable functions) are identified by their
+      tangent lines. Look at the tangent lines <xref
+      ref="figure-tangent-lines-at-extrema" />.
+    </p>
+    <figure xml:id="figure-tangent-lines-at-extrema">
+      <caption>Tangent Lines at Extrema</caption>
+      <image width="60%" source="images/figure54"/>
+    </figure>
+    <p>
+      The tangent lines are horizontal at maximum or minimum values. We
+      can make use of this fact to try to find these extrema.
+      Horizontal tangent lines have zero slope, to they can only occur
+      when <m>f^\prime(x) = 0</m>. Therefore, we look for points
+      <m>x</m> where the derivative vanishes. Such points will be
+      called the <em>critical points</em> of the function.
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-extrema-examples">
+    <title>Examples</title>
+    <example>
+      <statement>
         <p>
-          A point <m>(c,f(c))</m> is called a <em>local maximum</em>
-          for <m>f</m> if <m>f(c) \lt f(x)</m> for all <m>x</m> close
-          to <m>c</m>.
+          Consider the quadratic <m>f(x) = x^2 + 2</m>. The derivative
+          is <m>f^\prime(x) = 2x</m>. To find the critical points, we
+          set the derivative equal to zero.
+          <md>
+            <mrow>
+              f(x) \amp  = x^2 + 2
+            </mrow>
+            <mrow>
+              f^\prime(x) \amp  = 2x
+            </mrow>
+            <mrow>
+              2x \amp  = 0 \implies x = 0
+            </mrow>
+          </md>
         </p>
-      </li>
-      <li>
         <p>
-          A point is a <em>local minimum</em> if <m>f(c) \lt f(x)</m>
-          for all <m>x</m> close to <m>c</m>.
+          So <m>x=0</m> is the only critical point. After we have found
+          a critical point, we need to determine if it is a maximum,
+          minimum, or neither. We do this by looking at the sign of the
+          derivative near the critical point. The easiest way to record
+          this information is in intevals of increase and decrease. We
+          divide the <em>domain</em> of the function into pieces
+          seperated by the critical points.
         </p>
-      </li>
-    </ul>
-  </p>
-  <p>
-    The plurals of these terms are local minima and local maxima; if
-    we want to refer to both, we will simply say local extrema. We
-    can also define global extrema.
-    <ul>
-      <li>
         <p>
-          The point <m>(c,f(c))</m> is a global maximum if
-          <m>f(c) > f(x)</m> for all <m>x</m> in the domain of the function.
+          In this example, the domain is <m>\RR</m> and the only
+          critical point is <m>x=0</m>. Splitting the domain by that
+          critical point gives us the intervals <m>(-\infty, 0)</m> and
+          <m>(0,\infty)</m>. On these intervals, the derivative will
+          either be positive or negative, so the function will either be
+          increasing or decreasing respectively. For this example,
+          <m>f^\prime(x) = 2x</m>, which is negative on
+          <m>(-\infty,0)</m> and positive on <m>(0, \infty)</m>;
+          therefore, the function is decreasing on <m>(-\infty,0)</m>
+          and increasing on <m>(0, \infty)</m>.
         </p>
-      </li>
-      <li>
         <p>
-          The point is a global minimum if
-          <m>f(c) \lt f(x)</m> for all <m>x</m> in the domain.
+          This lets us classify the critical point. At <m>x=0</m>, the
+          function switches from decreasing to increasing. This means
+          that <m>x</m> must be a minimum. We can conclude that
+          <m>(0,2)</m> is a local minimum of the function.
         </p>
-      </li>
-    </ul>
-  </p>
-  <p>
-    One of the most important uses of derivatives is finding local
-    extrema. The reason that derivatives are useful is that local
-    extrema (for differentiable functions) are identified by their
-    tangent lines. Look at the tangent lines <xref
-    ref="figure-tangent-lines-at-extrema">Figure</xref>.
-  </p>
-  <figure xml:id="figure-tangent-lines-at-extrema">
-    <caption>Tangent Lines at Extrema</caption>
-    <image width="60%" source="images/figure54"/>
-  </figure>
-  <p>
-    The tangent lines are horizontal at maximum or minimum values. We
-    can make use of this fact to try to find these extrema.
-    Horizontal tangent lines have zero slope, to they can only occur
-    when <m>f^\prime(x) = 0</m>. Therefore, we look for points
-    <m>x</m> where the derivative vanishes. Such points will be
-    called the <em>critical points</em> of the function.
-  </p>
-  <example>
-    <statement>
-      <p>
-        Consider the quadratic <m>f(x) = x^2 + 2</m>. The derivative
-        is <m>f^\prime(x) = 2x</m>. To find the critical points, we
-        set the derivative equal to zero.
-        <md>
-          <mrow>
-            f(x) \amp  = x^2 + 2
-          </mrow>
-          <mrow>
-            f^\prime(x) \amp  = 2x
-          </mrow>
-          <mrow>
-            2x \amp  = 0 \implies x = 0
-          </mrow>
-        </md>
-      </p>
-      <p>
-        So <m>x=0</m> is the only critical point. After we have found
-        a critical point, we need to determine if it is a maximum,
-        minimum, or neither. We do this by looking at the sign of the
-        derivative near the critical point. The easiest way to record
-        this information is in intevals of increase and decrease. We
-        divide the <em>domain</em> of the function into pieces
-        seperated by the critical points.
-      </p>
-      <p>
-        In this example, the domain is <m>\RR</m> and the only
-        critical point is <m>x=0</m>. Splitting the domain by that
-        critical point gives us the intervals <m>(-\infty, 0)</m> and
-        <m>(0,\infty)</m>. On these intervals, the derivative will
-        either be positive or negative, so the function will either be
-        increasing or decreasing respectively. For this example,
-        <m>f^\prime(x) = 2x</m>, which is negative on
-        <m>(-\infty,0)</m> and positive on <m>(0, \infty)</m>;
-        therefore, the function is decreasing on <m>(-\infty,0)</m>
-        and increasing on <m>(0, \infty)</m>.
-      </p>
-      <p>
-        This lets us classify the critical point. At <m>x=0</m>, the
-        function switches from decreasing to increasing. This means
-        that <m>x</m> must be a minimum. We can conclude that
-        <m>(0,2)</m> is a local minimum of the function.
-      </p>
-    </statement>
-  </example>
-  <example>
-    <statement>
-      <p>
-        If <m>f(x) = 2x^3 + 3x^2 - 36x + 4</m> then <m>f^\prime(x) =
-        6x^2 + 6x - 36 = 6(x^2 + x - 6)</m>. We set the derivative
-        equal to zero to find the critical points.
-        <md>
-          <mrow>
-            6 (x^2 + x - 6) \amp  = 0
-          </mrow>
-          <mrow>
-            x^2 + x - y \amp  = 0
-          </mrow>
-          <mrow>
-            (x-2)(x+3) \amp  = 0
-          </mrow>
-          <mrow>
-            x \amp  = 2
-          </mrow>
-          <mrow>
-            x \amp  = -3
-          </mrow>
-        </md>
-      </p>
-      <p>
-        We have two critical points, <m>x=2</m> and <m>x=-3</m>. The
-        domain of the function is <m>\RR</m>, so the intervals are
-        <m>(-\infty,-3)</m>, <m>(-3,2)</m> and <m>(2,\infty)</m>. We
-        check the sign of the derivative on these intevals; we do this
-        by simply choosing any point in the interval and evaluated.
-        The following table shows the intervals and the behaviour of
-        the derivative on each interval.
-        <md>
-          <mrow>
-           \amp (-\infty, -3) \amp \amp (-3,2) \amp \amp (2,\infty) 
-         </mrow>
-         <mrow>
-          \amp f^\prime(-4) = 36 \amp \amp f^\prime(0) = -36 \amp \amp
-          f^\prime(3) = 36 
-         </mrow>
-         <mrow>
-          \amp f^\prime(-4) \gt 0 \amp \amp f^\prime(0) \lt 0 \amp \amp
-          f^\prime(3) \gt 0 
-         </mrow>
-         <mrow>
-          \amp f \text{ is increasing.} \amp \amp f \text{ is
-          decreasing.} \amp \amp f \text{ is increasing.}
-         </mrow>
-        </md>
-      </p>
-      <p>
-        Then at <m>x=-3</m>, the function switches from increasing to
-        decreasing, so <m>(-3,85)</m> is a local maximum. At
-        <m>x=2</m>, the function switches from decreasing to
-        increasing, so <m>(2,-48)</m> is a local minimum. <xref
-        ref="figure-cubic-extrema-example">Figure</xref> shows the
-        behaviour.
-      </p>
-    </statement>
-  </example>
-  <figure xml:id="figure-cubic-extrema-example">
-    <caption>Extrema of a Cubic</caption>
-    <image width="60%" source="images/figure55"/>
-  </figure>
+      </statement>
+    </example>
+    <example>
+      <statement>
+        <p>
+          If <m>f(x) = 2x^3 + 3x^2 - 36x + 4</m> then <m>f^\prime(x) =
+          6x^2 + 6x - 36 = 6(x^2 + x - 6)</m>. We set the derivative
+          equal to zero to find the critical points.
+          <md>
+            <mrow>
+              6 (x^2 + x - 6) \amp  = 0
+            </mrow>
+            <mrow>
+              x^2 + x - y \amp  = 0
+            </mrow>
+            <mrow>
+              (x-2)(x+3) \amp  = 0
+            </mrow>
+            <mrow>
+              x \amp  = 2
+            </mrow>
+            <mrow>
+              x \amp  = -3
+            </mrow>
+          </md>
+        </p>
+        <p>
+          We have two critical points, <m>x=2</m> and <m>x=-3</m>. The
+          domain of the function is <m>\RR</m>, so the intervals are
+          <m>(-\infty,-3)</m>, <m>(-3,2)</m> and <m>(2,\infty)</m>. We
+          check the sign of the derivative on these intevals; we do this
+          by simply choosing any point in the interval and evaluated.
+          The following table shows the intervals and the behaviour of
+          the derivative on each interval.
+          <md>
+            <mrow>
+             \amp (-\infty, -3) \amp \amp (-3,2) \amp \amp (2,\infty) 
+           </mrow>
+           <mrow>
+            \amp f^\prime(-4) = 36 \amp \amp f^\prime(0) = -36 \amp \amp
+            f^\prime(3) = 36 
+           </mrow>
+           <mrow>
+            \amp f^\prime(-4) \gt 0 \amp \amp f^\prime(0) \lt 0 \amp \amp
+            f^\prime(3) \gt 0 
+           </mrow>
+           <mrow>
+            \amp f \text{ is increasing.} \amp \amp f \text{ is
+            decreasing.} \amp \amp f \text{ is increasing.}
+           </mrow>
+          </md>
+        </p>
+        <p>
+          Then at <m>x=-3</m>, the function switches from increasing to
+          decreasing, so <m>(-3,85)</m> is a local maximum. At
+          <m>x=2</m>, the function switches from decreasing to
+          increasing, so <m>(2,-48)</m> is a local minimum. <xref
+          ref="figure-cubic-extrema-example" /> shows the
+          behaviour.
+        </p>
+      </statement>
+    </example>
+    <figure xml:id="figure-cubic-extrema-example">
+      <caption>Extrema of a Cubic</caption>
+      <image width="60%" source="images/figure55"/>
+    </figure>
+  </subsection>
 </section>

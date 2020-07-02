@@ -1,6 +1,6 @@
-<section xml:id="operations-on-functions">
+<section xml:id="section-operations-on-functions">
   <title>Operations on Functions</title>
-  <subsection xml:id="pointwise-operations">
+  <subsection xml:id="subsection-pointwise-operations">
     <title>Pointwise Operations</title>
     <p> The most familiar way to put functions together is through the
     conventional operations of arithmetic: addition, subtraction,

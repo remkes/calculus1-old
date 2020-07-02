@@ -1,4 +1,5 @@
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="week2">
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-week2">
   <title>Week 2</title>
   <xi:include href="functions.ptx" />
   <xi:include href="types-of-functions.ptx" />

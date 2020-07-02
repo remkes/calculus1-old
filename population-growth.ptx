@@ -1,114 +1,117 @@
-<section xml:id="population-growth">
+<section xml:id="section-population-growth">
   <title>Population Growth</title>
-  <p>
-    A very natural motivating problem is population growth. Here are
-    some reasonable mathematical questions we might ask about
-    population.
-    <ul>
-      <li>
-        <p>
-          How do we encode population growth as a function?
-        </p>
-      </li>
-      <li>
-        <p>
-          What factors affect the growth of population?
-        </p>
-      </li>
-      <li>
-        <p>
-          What is the long-term behaviour of a population?
-        </p>
-      </li>
-      <li>
-        <p>
-          What is the growth rate of a population?
-        </p>
-      </li>
-    </ul>
-  </p>
-  <p>
-    To encode population growth as a function, we chose a function
-    <m>p(t)</m> representing population (<m>p</m>) in terms of the
-    independant variable time (<m>t</m>).
-  </p>
-  <figure xml:id="figure-exponential-regression">
-    <caption>An Exponential Regression</caption>
-    <image width="60%" source="images/figure40"/>
-  </figure>
-  <table>
-    <tabular>
-      <row>
-        <cell>Year</cell>
-        <cell>Population</cell>
-        <cell>Growth Rate
-          \vspace{.3cm}</cell>
-      </row>
-      <row>
-        <cell>0</cell>
-        <cell>1032</cell>
-        <cell>Not Applicable</cell>
-      </row>
-      <row>
-        <cell>1</cell>
-        <cell>1214</cell>
-        <cell>17.6 %</cell>
-      </row>
-      <row>
-        <cell>2</cell>
-        <cell>1372</cell>
-        <cell>13.0 %</cell>
-      </row>
-      <row>
-        <cell>3</cell>
-        <cell>1629</cell>
-        <cell>18.7 %</cell>
-      </row>
-      <row>
-        <cell>4</cell>
-        <cell>2143</cell>
-        <cell>31.6 %</cell>
-      </row>
-      <row>
-        <cell>5</cell>
-        <cell>2520</cell>
-        <cell>17.6 %</cell>
-      </row>
-      <row>
-        <cell>6</cell>
-        <cell>2940</cell>
-        <cell>16.7 %</cell>
-      </row>
-      <row>
-        <cell>7</cell>
-        <cell>3292</cell>
-        <cell>12.0 %</cell>
-      </row>
-      <row>
-        <cell>8</cell>
-        <cell>3813</cell>
-        <cell>15.8 %</cell>
-      </row>
-      <row>
-        <cell>9</cell>
-        <cell>4757</cell>
-        <cell>24.8 %</cell>
-      </row>
-      <row>
-        <cell>10</cell>
-        <cell>5632</cell>
-        <cell>18.4 %</cell>
-      </row>
-      <row>
-        <cell>11</cell>
-        <cell>6842</cell>
-        <cell>21.5 %</cell>
-      </row>
-      <row>
-        <cell>12</cell>
-        <cell>8010</cell>
-        <cell>17.1 %</cell>
-      </row>
-    </tabular>
-  </table>
+  <subsection xml:id="subsection-population-motivation">
+    <title>A Motivating Problem</title>
+    <p>
+      A very natural motivating problem is population growth. Here are
+      some reasonable mathematical questions we might ask about
+      population.
+      <ul>
+        <li>
+          <p>
+            How do we encode population growth as a function?
+          </p>
+        </li>
+        <li>
+          <p>
+            What factors affect the growth of population?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the long-term behaviour of a population?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the growth rate of a population?
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      To encode population growth as a function, we chose a function
+      <m>p(t)</m> representing population (<m>p</m>) in terms of the
+      independant variable time (<m>t</m>).
+    </p>
+    <figure xml:id="figure-exponential-regression">
+      <caption>An Exponential Regression</caption>
+      <image width="60%" source="images/figure40"/>
+    </figure>
+    <table>
+      <tabular>
+        <row>
+          <cell>Year</cell>
+          <cell>Population</cell>
+          <cell>Growth Rate
+            \vspace{.3cm}</cell>
+        </row>
+        <row>
+          <cell>0</cell>
+          <cell>1032</cell>
+          <cell>Not Applicable</cell>
+        </row>
+        <row>
+          <cell>1</cell>
+          <cell>1214</cell>
+          <cell>17.6 %</cell>
+        </row>
+        <row>
+          <cell>2</cell>
+          <cell>1372</cell>
+          <cell>13.0 %</cell>
+        </row>
+        <row>
+          <cell>3</cell>
+          <cell>1629</cell>
+          <cell>18.7 %</cell>
+        </row>
+        <row>
+          <cell>4</cell>
+          <cell>2143</cell>
+          <cell>31.6 %</cell>
+        </row>
+        <row>
+          <cell>5</cell>
+          <cell>2520</cell>
+          <cell>17.6 %</cell>
+        </row>
+        <row>
+          <cell>6</cell>
+          <cell>2940</cell>
+          <cell>16.7 %</cell>
+        </row>
+        <row>
+          <cell>7</cell>
+          <cell>3292</cell>
+          <cell>12.0 %</cell>
+        </row>
+        <row>
+          <cell>8</cell>
+          <cell>3813</cell>
+          <cell>15.8 %</cell>
+        </row>
+        <row>
+          <cell>9</cell>
+          <cell>4757</cell>
+          <cell>24.8 %</cell>
+        </row>
+        <row>
+          <cell>10</cell>
+          <cell>5632</cell>
+          <cell>18.4 %</cell>
+        </row>
+        <row>
+          <cell>11</cell>
+          <cell>6842</cell>
+          <cell>21.5 %</cell>
+        </row>
+        <row>
+          <cell>12</cell>
+          <cell>8010</cell>
+          <cell>17.1 %</cell>
+        </row>
+      </tabular>
+    </table>
+  </subsection>
 </section>

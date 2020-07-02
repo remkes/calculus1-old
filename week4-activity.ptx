@@ -1,6 +1,6 @@
-<section xml:id="week4-activity">
+<section xml:id="subsection-week4-activity">
   <title>Week 4 Activity</title>
-  <subsection xml:id="limits-at-finite-values">
+  <subsection xml:id="subsection-activity-limits-at-finite-values">
     <title>Limits at Finite Values</title>
     <activity>
       <statement>
@@ -231,7 +231,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="vertical-asymptotes">
+  <subsection xml:id="subsection-activity-vertical-asymptotes">
     <title>Vertical Asymptotes</title>
     <activity>
       <statement>
@@ -341,7 +341,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="continuity">
+  <subsection xml:id="subsection-activity-continuity">
     <title>Continuity</title>
     <activity>
       <statement>
@@ -488,7 +488,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="edge-behaviour-of-models">
+  <subsection xml:id="subsection-activity-edge-behaviour-of-models">
     <title>Edge Behaviour of Models</title>
     <activity>
       <statement>
@@ -545,7 +545,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="week4-concepts">
+  <subsection xml:id="subsection-week4-concepts">
     <title>Conceptual Review Questions</title>
     <p>
       <ul>

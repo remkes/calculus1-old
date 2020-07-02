@@ -1,6 +1,6 @@
-<section xml:id="week10-activity">
+<section xml:id="subsection-week10-activity">
   <title>Week 10 Activity</title>
-  <subsection xml:id="exponential-growth">
+  <subsection xml:id="subsection-activity-exponential-growth">
     <title>Exponential Growth</title>
     <activity>
       <statement>
@@ -129,7 +129,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="logistic-growth">
+  <subsection xml:id="subsection-activity-logistic-growth">
     <title>Logistic Growth</title>
     <activity>
       <statement>
@@ -346,7 +346,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="week10-concepts">
+  <subsection xml:id="subsection-week10-concepts">
     <title>Conceptual Review Questions</title>
     <p>
       <ul>

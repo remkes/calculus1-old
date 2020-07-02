@@ -1,6 +1,6 @@
-<section xml:id="week1-activity">
+<section xml:id="section-week1-activity">
   <title>Week 1 Activity</title>
-  <subsection xml:id="equations-of-lines">
+  <subsection xml:id="subsection-activity-equations-of-lines">
     <title>Equations of Lines</title>
     <activity>
       <statement>
@@ -166,7 +166,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="equations-of-conics">
+  <subsection xml:id="subsection-activity-equations-of-conics">
     <title>Equations of Conics</title>
     <activity>
       <statement>
@@ -238,7 +238,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="intersections">
+  <subsection xml:id="subsection-activity-intersections">
     <title>Intersection of Lines and Conics</title>
     <activity>
       <statement>
@@ -411,7 +411,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="week1-concepts">
+  <subsection xml:id="subsection-week1-concepts">
     <title>Conceptual Review Questions</title>
     <p>
       <ul>

@@ -1,6 +1,6 @@
-<section xml:id="week2-activity">
+<section xml:id="section-week2-activity">
   <title>Week 2 Activity</title>
-  <subsection xml:id="composing-functions">
+  <subsection xml:id="subsection-activity-composing-functions">
     <title>Composing Functions</title>
     <activity>
       <statement>
@@ -121,7 +121,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="recognizing-composition">
+  <subsection xml:id="subsection-activity-recognizing-composition">
     <title>Recognizing Composition</title>
     <activity>
       <statement>
@@ -184,7 +184,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="inverting-functions">
+  <subsection xml:id="subsection-activity-inverting-functions">
     <title>Inverting Functions</title>
     <activity>
       <statement>
@@ -260,7 +260,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="regression">
+  <subsection xml:id="subsection-activity-regression">
     <title>Regression</title>
     <activity>
       <statement>
@@ -270,7 +270,7 @@
           data. (You don't have give a specific function, just a
           general class: linear, quadratic, sinusoidal, exponential,
           etc). 
-          <table xml:id="data-set-1">
+          <table xml:id="table-data-set-1">
             <title>Data Set 1 for Regression</title>
             <tabular>
               <row bottom="medium">
@@ -313,7 +313,7 @@
           They drop initially, then rise again. A reasonable choice
           for this data set is a quadratic function.
         </p>
-        <figure xml:id="quadratic-regression">
+        <figure xml:id="figure-activity-quadratic-regression">
           <caption>A Quadratic Regression</caption>
           <image width="100%" source="images/figure67" />
         </figure>
@@ -327,7 +327,7 @@
           data. (You don't have give a specific function, just a
           general class: linear, quadratic, sinusoidal, exponential,
           etc). 
-          <table xml:id="data-set-2">
+          <table xml:id="table-data-set-2">
             <title>Data Set 2 for Regression</title>
             <tabular>
               <row bottom="medium">
@@ -371,7 +371,7 @@
           pattern. A sinusoidal function is a good choice for this
           data.
         </p>
-        <figure xml:id="sinusoidal-regression">
+        <figure xml:id="figure-activity-sinusoidal-regression">
           <caption>A Sinusoidal Regression</caption>
           <image width="100%" source="images/figure69" />
         </figure>
@@ -385,7 +385,7 @@
           data. (You don't have give a specific function, just a
           general class: linear, quadratic, sinusoidal, exponential,
           etc). 
-          <table xml:id="data-set-3">
+          <table xml:id="table-data-set-3">
             <title>3ata Set 3 for Regression</title>
             <tabular>
               <row bottom="medium">
@@ -429,7 +429,7 @@
           in directions is possible with a cubic, so that is a
           reasonable choise for this data. 
         </p>
-        <figure xml:id="cubic-regression">
+        <figure xml:id="figure-activity-cubic-regression">
           <caption>A cubic Regression</caption>
           <image width="100%" source="images/figure70" />
         </figure>
@@ -443,7 +443,7 @@
           data. (You don't have give a specific function, just a
           general class: linear, quadratic, sinusoidal, exponential,
           etc). 
-          <table xml:id="data-set-4">
+          <table xml:id="table-data-set-4">
             <title>Data Set 4 for Regression</title>
             <tabular>
               <row bottom="medium">
@@ -493,7 +493,7 @@
           option, and show two different lines for the two pieces of
           the data set.
         </p>
-        <figure xml:id="piecewise-regression">
+        <figure xml:id="figure-activity-piecewise-regression">
           <caption>A Piecewise Regression</caption>
           <image width="100%" source="images/figure71" />
         </figure>
@@ -507,7 +507,7 @@
           data. (You don't have give a specific function, just a
           general class: linear, quadratic, sinusoidal, exponential,
           etc). 
-          <table xml:id="data-set-5">
+          <table xml:id="table-data-set-5">
             <title>Data Set 5 for Regression</title>
             <tabular>
               <row bottom="medium">
@@ -553,14 +553,14 @@
           are the square root and the logarithm. I've chose to do with
           a square root function.
         </p>
-        <figure xml:id="square-root-regression">
+        <figure xml:id="figure-activity-square-root-regression">
           <caption>A Square Root Regression</caption>
           <image width="100%" source="images/figure72" />
         </figure>
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="interpreting-parameters">>
+  <subsection xml:id="subsection-activity-interpreting-parameters">>
     <title>Interpreting Parameter</title>
     <activity>
       <statement>
@@ -653,7 +653,7 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="week2-concepts">
+  <subsection xml:id="subsection-week2-concepts">
     <title>Conceptual Review Questions</title>
     <p>
       <ul>

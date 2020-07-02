@@ -1,6 +1,6 @@
-<section xml:id="shifts">
+<section xml:id="section-shifts">
   <title>Shifts</title>
-  <subsection xml:id="shifts-of-conics">
+  <subsection xml:id="subsection-shifts-of-conics">
     <title>Shifts of Conics</title>
     <figure xml:id="figure-shifts-circle">
       <caption>Shifts of a Circle</caption>

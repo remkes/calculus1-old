@@ -1,6 +1,7 @@
 <section xml:id="limits-concept">
   <title>The Concept of a Limit</title>
-  <introduction>
+  <subsection xml:id="limit-definition">>
+    <title>Limit Definitions</title>
     <p>
       In the prevous section, the two motivating problems of velocity
       and distance-travelled led us to approximation processes.
@@ -17,9 +18,6 @@
       leads. The limit is the key new tool that transcends algebra
       and creates calculus.
     </p>
-  </introduction>
-  <subsection xml:id="limit-definitions">
-    <title>Definitions</title>
     <p>
       Our definition of limits will be restricted to limits of
       functions. In a limit, we are comparing the input and output of
@@ -66,21 +64,21 @@
       number at all.
     </p>
   </subsection>
-  <subsection xml:id="vertical-asymptotes">
+  <subsection xml:id="subsection-vertical-asymptotes">
     <title>Vertical Asymptotes</title>
     <p>
       For limits which approach <m>\pm \infty</m>, we see that the
       graph of the function approaches a verticle line. These lines
       are called <em>vertical asymptotes</em> for the functions.
       Vertical asymptotes are shown as the dotted lines in the <xref
-      ref="figure-three-divergent-limits">Figure</xref>.
+      ref="figure-three-divergent-limits" />.
     </p>
     <figure xml:id="figure-three-divergent-limits">
       <caption>Three Divergent Limits</caption>
       <image width="85%" source="images/figure19"/>
     </figure>
   </subsection>
-  <subsection xml:id="one-sided">
+  <subsection xml:id="subsection-one-sided">
     <title>One-Sided Limits</title>
     <p>
       In the above definitions, we assume that <m>x \rightarrow a</m>
