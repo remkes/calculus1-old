@@ -92,15 +92,15 @@
     </p>
     <figure xml:id="figure-linear-regression">
       <caption>A Linear Regression</caption>
-      <image width="60%" source="images/figure37"/>
+      <image width="90%" source="images/figure37"/>
     </figure>
     <figure xml:id="figure-sinusoidal-regression">
       <caption>A Sinusoidal Regression</caption>
-      <image width="60%" source="images/figure38"/>
+      <image width="90%" source="images/figure38"/>
     </figure>
     <figure xml:id="figure-square-root-regression">
       <caption>A Square-Root Regression</caption>
-      <image width="60%" source="images/figure39"/>
+      <image width="90%" source="images/figure39"/>
     </figure>
   </subsection>
 </section>

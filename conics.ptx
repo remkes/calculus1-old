@@ -19,7 +19,7 @@
   <subsection xml:id="subsection-description-of-conics">
     <figure xml:id="figure-circle">
       <caption>The Circle</caption>
-      <image width="50%" source="images/figure03"/>
+      <image width="90%" source="images/figure03"/>
     </figure>
     <ul>
       <li>
@@ -47,7 +47,7 @@
     </ul>
     <figure xml:id="figure-ellipse">
       <caption>The Ellipse</caption>
-      <image width="60%" source="images/figure06"/>
+      <image width="90%" source="images/figure06"/>
     </figure>
     <ul>
       <li>
@@ -81,7 +81,7 @@
     </ul>
     <figure xml:id="figure-parabola">
       <caption>The Parabola</caption>
-      <image width="60%" source="images/figure05"/>
+      <image width="90%" source="images/figure05"/>
     </figure>
     <ul>
       <li>
@@ -112,7 +112,7 @@
     </ul>
     <figure xml:id="figure-hyperbola">
       <caption>The Hyperbola</caption>
-      <image width="60%" source="images/figure04"/>
+      <image width="90%" source="images/figure04"/>
     </figure>
     <ul>
       <li>

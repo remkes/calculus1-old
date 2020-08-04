@@ -1,30 +1,269 @@
 <section xml:id="section-lines">
   <title>Lines</title>
-  <subsection xml:id="subsection-equations-of-lines">
+  <subsection xml:id="subsection-equations-lines">
     <title>Equations of Lines</title>
-    <figure xml:id="figure-four-lines">
-      <caption>Four Lines</caption>
-      <image width="60%" source="images/figure02"/>
-    </figure>
     <p>
-      The simplest these loci are lines. Lines are given by equations
-      <m>ax + by + c = 0</m> for constants <m>a,b,c</m>. If <m>b \neq
-      0</m>, then this can be converted into the more familiar
-      slope-intercept form <m>y = mx + n</m> by solving for <m>y</m>.
-      Along with planes and other flat objects, lines are called the
-      <em>linear loci</em>. Linear loci can are loci whose equations
-      in <m>x</m> and <m>y</m> (or in more variables in higher
-      dimensional <m>\RR^n</m>) involve only degree one polynomials.
-      The subject of linear algebra is the study of such linear loci
-      and their many properties.
+      When we defined loci in <xref ref="section-analytic-geometry"
+      />, we mentioned that one of the first and most common type of
+      locus is a line. This section reviews some definitions and
+      calculations for lines. This should be familiar material from
+      your prerequisite mathematical background, but it is worth
+      reviewing. 
     </p>
     <p>
-      You will be expected to work with the equations of lines. In
-      particular, you will need to be able to derive the equation of
-      the line, both in standard form and slope-intercept form, given
-      two points or given a point and a slope. This will be
-      particularly important when we describe tangent lines to
-      graphs.
+      Any equation where the variables <m>x</m> and <m>y</m> show up
+      simply multiplied by a constant and then added or subtracted
+      from another constant produces a line. By <qt>simply</qt>, I
+      mean that no other operations (other than multiplication by a
+      constant) are performed on the variables: no exponents, no
+      roots, no functions, nothing else.  These equations, since they
+      produce lines, are called linear equations. Here are some
+      examples.
+      <md>
+        <mrow>
+          y \amp = 7x - 9 
+        </mrow>
+        <mrow>
+          5y + 4x - 10 \amp = 0
+        </mrow>
+        <mrow>
+          \frac{1}{5} y - \frac{2}{7} x - \frac{5}{17} \amp = 0 
+        </mrow>
+        <mrow>
+          \sqrt{7}y \amp = \pi x + \frac{1}{\sqrt{19}}
+        </mrow>
+      </md>
+      In all these equations, all we have done is multiplied each
+      varaible by come constant. Then we can add and subtract the
+      variables, possibly with another constant, but no other
+      operationrs are performed. 
+    </p>
+    <p>
+      If we wanted a general form, then let the symbols <m>a_1</m>,
+      <m>a_2</m> and<m>a_3</m> stand for constants. We could bring
+      everything over to one side of the equation and write the
+      general form of an equation of a line this way:
+      <me>
+        a_1 x + a_2 y + a_3 = 0 
+      </me>
+      This is a reasonable general form. All lines in the plane can be
+      described by these equations. However, this is not the most
+      intuitive form -- we get that form by considering slope.
     </p>
   </subsection>
+  <subsection xml:id="subsection-slope">
+    <title>Slope</title>
+    <p>
+      Let's review the concept of slope. The slope of a straight line
+      is a measure of its steepness. A large slope descrbes a steep
+      line -- one that is quickly increasing. A small slope describes
+      a shallow line -- one that is slowly increasing. A negative
+      slope describes a decreasing line. 
+    </p>
+    <p>
+      A line with a slope of zero is a horizontal line: it does not
+      increase or decrease at all. A vertical line has no slope at
+      all: we say that its slope is undefined. 
+    </p>
+    <p>
+      To calculate the slope, we take choose any two points on the
+      line.  We calculate the
+      difference in the <m>y</m> coordinates and call this the
+      <em>rise</em>: it measures how far up the line goes between the
+      two points. Then we calculate the difference in the <m>x</m>
+      coordinates and call this the <em>run</em>: it measures how far
+      we move horizontally between the two points. The slope is then
+      the rise divided by the run. 
+      <me>
+        \text{Slope} = \frac{\text{Rise}}{\text{Run}}
+      </me>
+      An example of a slope calculation is shown in <xref
+      ref="figure-slope" />.
+      <figure xml:id="figure-slope">
+        <caption>Slope of the Line <m>y = \frac{1}{2} x + 2</m></caption>
+        <image width="90%" source="images/figure81"/>
+      </figure>
+    </p>
+    <p>
+      This method of calculation shows us again why veritcal lines
+      have no slope. The <m>x</m> coordinates of any two points on a
+      vertical line are the same, to the run would be zero. To
+      calculate the slope would involve division by zero, which is not
+      defined. Therefore, vertical lines have no slope. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-slope-intercept">
+    <title>Slope Intercept Form</title>
+    <p>
+      Now that we have defined slope, we can review/introduce a
+      special way of writing the equations of lines. Go back to the
+      four example lines above; in each of these, I will re-arrange
+      the equation so that <m>y</m> is along on the left side. 
+      <md>
+        <mrow>
+          y \amp = 7x - 9 
+        </mrow>
+        <mrow>
+          y \amp = - \frac{4}{5} x + 2
+        </mrow>
+        <mrow>
+          y \amp = \frac{10}{7} x + \frac{25}{17} 
+        </mrow>
+        <mrow>
+          y \amp = \frac{\pi}{\sqrt{7}} x + \frac{1}{\sqrt{19}\sqrt{7}}
+        </mrow>
+      </md>
+      I can describe the general form we get by solving for <m>y</m>
+      on the left. Let <m>m</m> and <m>b</m> represent constant (the
+      choice of these letters if conventional and used in many
+      places). Then all of these equations have this form:
+      <me>
+        y = mx + b 
+      </me>
+      In this form, the number <m>m</m> will always be the slope of
+      the line. The number <m>b</m> will be the <m>y</m>-coordinate of
+      the point where the line crosses the <m>y</m> axis; this is
+      called the <m>y</m>-intercept. These two pieces of information
+      are enough to complete determine the line: if we know where it
+      crosses the <m>y</m>-axis and we know how quickly is grows from
+      that point (its slope), then we know everything we need to
+      determine the line. <xref ref="figure-slope-intercept" /> shows
+      an example to illustrate this slope-intercept form.
+      <figure xml:id="figure-slope-intercept">
+        <caption>Slope-Intercept Form </caption>
+        <image width="90%" source="images/figure82"/>
+      </figure>
+    </p>
+    <p>
+      Now let's consider two special cases. First, a horizontal line
+      has a slope of zero.  Therefore, in slope-intercept form, <m>m =
+      0</m>, so the equation of the line looks like
+      <me>
+        y = 0x + b = b 
+      </me>.
+      Horizontal lines have equations <m>y = b</m> for some constant.
+      All we need to specify if the <m>y</m> coordinate. <m>y = 4</m>
+      is the horizontal line where the <m>y</m>-coordinate is always
+      <m>4</m>, and the <m>x</m>-coordinate can be anything
+      whatsoever. <xref ref="figure-horizontal-lines" /> shows some
+      horizontal lines. 
+      <figure xml:id="figure-horizontal-lines">
+        <caption>Horizontal Lines</caption>
+        <image width="90%" source="images/figure83"/>
+      </figure>
+    </p>
+    <p>
+      We've said several times that a vertical line has no slope and
+      cannot be expressed in slope-intercept form. However, the
+      previous paragraph gives us a good idea of how to understand
+      vertical lines. If a horizontal line is simply determined by its
+      <m>y</m> coordinate, a vertical line is similarly determined by
+      its <m>x</m> coordinate. Any line of the form <m>x = b</m> is a
+      horizontal line. <m>x - -3</m> is the horizontal line of points
+      with <m>x</m>-coordinate <m>-3</m> and any <m>y</m> coordinate
+      whatsoever. <xref ref="figure-vertical-lines" /> shows some
+      horizontal lines. 
+      <figure xml:id="figure-vertical-lines">
+        <caption>Vertical Lines</caption>
+        <image width="90%" source="images/figure84"/>
+      </figure>
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-calculating-lines">
+    <title>Calcluating Equations of Lines</title>
+    <p>
+      We often need to calculate the equation of a line gives various
+      pieces of information about this line. 
+    </p>
+    <ul>
+      <li>
+        If we are give the slope and the <m>y</m>-intercept, we just
+        put those numbers directly into the slope-intercept form. For
+        example, if we wanted the line with slope <m>\frac{-2}{5}</m>
+        and <m>y</m>-intercept <m>3</m>, we would simply put those
+        numbers into the form and get the equation of the line
+        <me>
+          y = \frac{-2}{5} x + 3 
+        </me>
+      </li>
+      <li>
+        Sometimes we are given a point and a slope. For example, say
+        we wanted the equation of the line with slope <m>4</m> that
+        goes through the point <m>(2,2)</m>. We have the slope, so we
+        can put that in place of <m>m</m> in the slope intercept form.
+        <me>
+          y = 4x + b 
+        </me>
+        The <m>y</m>-intercept is still unknown. However, if we put in
+        the point, we can solve for <m>b</m>.
+        <md>
+          <mrow>
+            y \amp = 4x + b 
+          </mrow>
+          <mrow>
+            2 \amp = (4)(2) + b 
+          </mrow>
+          <mrow>
+            2 \amp = 8 + b 
+          </mrow>
+          <mrow>
+            -6 \amp = b 
+          </mrow>
+        </md>
+        That gives us a value for the <m>y</m>-intercept, hence the
+        equation of the line.
+        <me>
+          y = 4x - 6 
+        </me>
+        This process works for any line give a slope and a point: put
+        the slope into the slope-intercept form, put the point in for
+        the coordinates <m>x</m> and <m>y</m>, and solve for the
+        intercept. 
+      </li>
+      <li>
+        There is one last way of describing a line: by giving two
+        point. There is a unique line passing between any two points
+        -- but how do we get the equation of this line? We calculate
+        the slope. Recall that slope is defined as the fraction rise
+        over run. Rise is the different in the <m>y</m> coordinates
+        and run is the different in the <m>x</m> coordinates, so give
+        two points we can calculate the slope. I'll show this by
+        example: what is the line through the point <m>(3,-5)</m> and
+        <m>(1,1)</m>? First I'll calculate the slope
+        <me>
+          m = \frac{\text{Rise}}{\text{Run}} = \frac{-5 - 1}{3 - 1} =
+          \frac{-6}{2} = -3
+        </me>
+        The slope is <m>-3</m>, so the slope intercept looks like
+        <me>
+          y = -3x + b 
+        </me>.
+        Then the process is the same as the previous case: we have the
+        slope and we have a point (two, in fact). We put in a point
+        (either point will work) to calculate the intercept.
+        <md>
+          <mrow>
+            y \amp = -3x + b 
+          </mrow>
+          <mrow>
+            -5 \amp = (-3)(3) + b 
+          </mrow>
+          <mrow>
+            -5 \amp = -9 + b 
+          </mrow>
+          <mrow>
+            4 \amp = b 
+          </mrow>
+        </md>
+        With the intercept, we can write the equation of the line.
+        <me>
+          y = -3x + 4
+        </me>
+        I'll leave it up to you to check that if I had used the other
+        point, I would have calculated the same value for <m>b</m>. 
+      </li>
+    </ul>
+  </subsection>
 </section>
+
+

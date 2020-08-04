@@ -25,7 +25,7 @@
     </p>
     <figure xml:id="figure-cartesian-coordiantes">
       <caption>Cartesian Coordiantes in <m>\RR^2</m></caption>
-      <image width="60%" source="images/figure01"/>
+      <image width="90%" source="images/figure01"/>
     </figure>
     <p>
       The basic idea of cartesian coordinates should be familiar to
@@ -68,7 +68,7 @@
     <title>Loci</title>
     <figure xml:id="figure-circle-locus">
       <caption>The Circle: A Locus</caption>
-      <image width="40%" source="images/figure64"/>
+      <image width="90%" source="images/figure64"/>
     </figure>
     <p>
       Cartesian coordinate are useful for giving algebraic definitions
@@ -84,7 +84,7 @@
     <title>Other Loci</title>
     <figure xml:id="figure-several-other-loci">
       <caption>Several Other Loci</caption>
-      <image width="60%" source="images/figure07"/>
+      <image width="90%" source="images/figure07"/>
     </figure>
     <p>
       Lines and conics are just two of many classes and families of
@@ -132,7 +132,7 @@
     </p>
     <figure xml:id="figure-four-graphs">
       <caption>Four Graphs</caption>
-      <image width="60%" source="images/figure08"/>
+      <image width="90%" source="images/figure08"/>
     </figure>
     <p>
       Graphs of functions are also loci. If <m>f(x)</m> is a

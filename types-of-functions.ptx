@@ -4,7 +4,7 @@
     <title>Constant Functions</title>
     <figure xml:id="figure-constant-function">
       <caption>A Constant Function</caption>
-      <image width="60%" source="images/figure26"/>
+      <image width="90%" source="images/figure26"/>
     </figure>
     <p>
       The simpliest kind of function is a constant function. Its
@@ -18,7 +18,7 @@
     <title>Linear Functions</title>
     <figure xml:id="figure-linear-function">
       <caption>A Linear Function</caption>
-      <image width="60%" source="images/figure27"/>
+      <image width="90%" source="images/figure27"/>
     </figure>
     <p>
       Linear functions have the form <m>f(x) = ax + b</m> for real
@@ -40,7 +40,7 @@
     <title>Quadratic Functions</title>
     <figure xml:id="figure-quadratic-function">
       <caption>A Quadratic Function</caption>
-      <image width="60%" source="images/figure33"/>
+      <image width="90%" source="images/figure33"/>
     </figure>
     <p>
       Quadratic functions have the form <m>f(x) = ax^2 + bx + c</m>.
@@ -55,7 +55,7 @@
     <title>Polynomial Functions</title>
     <figure xml:id="figure-polynomial-function">
       <caption>A Polynomial Function</caption>
-      <image width="60%" source="images/figure28"/>
+      <image width="90%" source="images/figure28"/>
     </figure>
     <p>
       Polynomial functions have the following form, where the
@@ -83,7 +83,7 @@
     <title>Rational Functions</title>
     <figure xml:id="figure-rational-function">
       <caption>A Rational Function</caption>
-      <image width="60%" source="images/figure29"/>
+      <image width="90%" source="images/figure29"/>
     </figure>
     <p>
       Rational numbers are fractions involving integers, In the same
@@ -107,7 +107,7 @@
     <title>Algebraic Functions</title>
     <figure xml:id="figure-algebraic-function">
       <caption>An Algebraic Function</caption>
-      <image width="60%" source="images/figure30"/>
+      <image width="90%" source="images/figure30"/>
     </figure>
     <p>
       We are now moving into much broader categories of functions,
@@ -126,7 +126,7 @@
     <title>Trigonometric Functions</title>
     <figure xml:id="figure-trigonometric-function">
       <caption>A Trigonometric Function</caption>
-      <image width="60%" source="images/figure32"/>
+      <image width="90%" source="images/figure32"/>
     </figure>
     <p>
       The first type of non-algebraic functions are trigonometric
@@ -140,7 +140,7 @@
     </p>
     <figure xml:id="figure-trig-circle">
       <caption>Trigonometry and the Circle</caption>
-      <image width="50%" source="images/figure34"/>
+      <image width="90%" source="images/figure34"/>
     </figure>
     <p>
       Though the trigonometric functions are usually associated to
@@ -167,7 +167,7 @@
     <title>Exponential and Logarithmic Functions</title>
     <figure xml:id="figure-an-exponential-function">
       <caption>An Exponential Function</caption>
-      <image width="60%" source="images/figure31"/>
+      <image width="90%" source="images/figure31"/>
     </figure>
     <p>
       If <m>a</m> is a positive real number, then functions of the
@@ -190,6 +190,10 @@
       claim that <m>f(x) = e^x</m> is the most important function in
       calculus.
     </p>
+    <figure xml:id="figure-a-logarithmic-function">
+      <caption>A Logarithmic Function</caption>
+      <image width="90%" source="images/figure85"/>
+    </figure>
     <p>
       The inverse of the exponential function is the logarithm. If
       the exponential has base <m>a</m>, its logarithm is written
@@ -216,7 +220,7 @@
     <title>Elementary Functions</title>
     <figure xml:id="figure-universe-of-functions">
       <caption>The Universe of Functions</caption>
-      <image width="85%" source="images/figure35"/>
+      <image width="90%" source="images/figure35"/>
     </figure>
     <p>
       Everything we've defined so far comes together to form the large

@@ -5,7 +5,6 @@
   <xi:include href="types-of-functions.ptx" />
   <xi:include href="properties-of-functions.ptx" />
   <xi:include href="operations-on-functions.ptx" />
-  <xi:include href="composition-and-inversion.ptx" />
   <xi:include href="models.ptx" />
   <xi:include href="week2-activity.ptx" />
 </chapter>
