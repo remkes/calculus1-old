@@ -43,15 +43,15 @@
         </li>
         <li>
           <p>
-            A function is called <em>increasing</em> if <m>a\lt b</m>
-            implies <m>f(a) \lt f(b)</m>. Visually, the graph of the
+            A function is called <em>increasing</em> if <m>a \lt b</m>
+            implies <m>f(a) \leq f(b)</m>. Visually, the graph of the
             function is growing upwards as the input increases.
           </p>
         </li>
         <li>
           <p>
-            A function is called <em>decreasing</em> if <m>a\lt b</m>
-            implies <m>f(a) > f(b)</m>. Visually, the graph of the
+            A function is called <em>decreasing</em> if <m>a \lt b</m>
+            implies <m>f(a) \geq f(b)</m>. Visually, the graph of the
             function is declining downwards as the input increases.
           </p>
         </li>

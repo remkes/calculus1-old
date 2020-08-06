@@ -6,12 +6,14 @@
       <image width="90%" source="images/figure22"/>
     </figure>
     <p>
-      You will also be expected to find the intersections of lines.
-      In <xref ref="figure-intersection-of-lines" />, we have the
-      lines <m>y=x+1</m> and <m>y=3-3x</m>. Finding the intersetion
-      point is equivalent to finding two coordinates <m>x</m> and
-      <m>y</m> which satisfy both equations. Algebraically, that is
-      solving the system composed of both equation.
+      If two lines in the plane are not parallel or identitcal, there
+      will be exactly one point where they meet. This is called the
+      intersection point.  In <xref ref="figure-intersection-of-lines"
+      />, we have the lines <m>y=x+1</m> and <m>y=3-3x</m> and their
+      intersection point at <m>(2,3)</m>. This is the intersection
+      point because it is the only point where the coordinates satisfy
+      both equations. Algebraically, we can find this point by solving
+      the system composed of both equation.
       <md>
         <mrow>
           y \amp  = x+1
@@ -34,6 +36,17 @@
       </md>
       The intersection point is <m>(2,3)</m>.
     </p>
+    <p>
+      This examples show the general theory. A point is on the
+      intersection of two loci if its coordinates satisfy both
+      equations. Algebraically, we find this point by solving the
+      system of equations using the equations for both loci. There are
+      many techniques for solving systems: isolating one variable and
+      replacing it, adding equations together, solving for one
+      variable in both equations, etc. Feel free to rely on whatever
+      techniques you may have learned for solving systems in your
+      previous mathematical experience. 
+    </p>
   </subsection>
   <subsection xml:id="subsection-intersection-with-conics">
     <title>Intersection of Lines and Conics</title>
@@ -42,29 +55,22 @@
       <image width="90%" source="images/figure24"/>
     </figure>
     <p>
-      Intersection is a key idea in analytic geometry. Given two loci
-      in <m>\RR^n</m>, we often want to know if they intersect. In
-      <xref ref="figure-intersection-line-ellipse" />, the ellipse
+      In <xref ref="figure-intersection-line-ellipse" />, the ellipse
       <m>\frac{x^2}{4} + \frac{y^2}{1} = 1</m> and the line
       <m>y=-x</m> have two intersection points. We can solve for those
-      point by using the line to replace a variable. If we replace
-      <m>y</m> with <m>-x</m> in the equation of the ellipse, that
-      equation simplifies to 
+      point by using the equation of the line to replace a variable.
+      If we replace <m>y</m> with <m>-x</m> in the equation of the
+      ellipse, that equation simplifies to 
       <me>
         \frac{5x^2}{4} = 1 \implies x = \pm \frac{2}{\sqrt{5}} 
       </me>.
-      This gives the <m>x</m> values. The line equation <m>y = -x</m>
-      reminds us that the <m>y</m> values are just the negative of the
-      <m>x</m> values. That gives us the coordinates of the two
+      Now I know the <m>x</m> values of the intersection point. The
+      line equation <m>y = -x</m> reminds me that the <m>y</m> values
+      are just the negative of the <m>x</m> values. With that
+      reminder, I can write down the coordinates of the two
       intersection points: <m>p_1 =
       (\frac{-2}{\sqrt{5}},\frac{2}{\sqrt{5}})</m> and <m>p_2 =
       (\frac{2}{\sqrt{5}},\frac{-2}{\sqrt{5}})</m>.
-    </p>
-    <p>
-      As with intersection of lines, finding the intersection of loci
-      is the same as asking for common solutions of the equations.
-      Solving systems of equations is one of the most basic tasks in
-      mathematics. and intersection is the geometric interpretation.
     </p>
   </subsection>
 </section>

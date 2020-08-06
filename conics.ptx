@@ -3,9 +3,9 @@
   <subsection xml:id="subsection-idea-of-conics">
     <title>Slicing a Cone</title>
     <p>
-      The conics are the second important class of loci. Unlike the
-      linear loci, these are objects where we allow degree two
-      polynomials in the coordinate variables. Conics are a very old
+      The conics are the second important class of loci. Unlike lines,
+      in conics we allow squares of the variables.
+      Conics are a very old
       topic in mathematics; their names and definitions come from
       ancient Greece. They are called conics (short for conic
       sections) since they can be formed by taking slices of a hollow
@@ -13,7 +13,9 @@
       definitions for each conic: one instrinsically geometric
       definition, one as a the slice of a cone, and one by algebraic
       equations. For the algebraic equations, we will assume that the
-      conic is centred at the origin.
+      conic is centred at the origin. (More general conics can be
+      formed by shifting the conics centered at the origin. <xref
+      ref="section-shifts" /> describes these shifts). 
     </p>
   </subsection>
   <subsection xml:id="subsection-description-of-conics">
@@ -25,10 +27,10 @@
       <li>
         <title>Intrinsic Definition</title>
         <p>
-          Given a positive real number <m>r</m>, a circle is the set
-          of all points in the plane which are exactly <m>r</m> units
-          away from the origin. <m>r</m> is called the radius of the
-          cicle.
+          Given a positive real number <m>r</m>, a circle (centred at
+          the origin) is the set of all points in the plane which are
+          exactly <m>r</m> units away from the origin. <m>r</m> is
+          called the radius of the cicle.
         </p>
       </li>
       <li>
@@ -40,8 +42,8 @@
       <li>
         <title>Algebraic Definition</title>
         <p>
-          A circle is described by the equation <m>x^2 + y^2 =
-          r^2</m>.
+          A circle with radius <m>r</m> is described by the equation
+          <m>x^2 + y^2 = r^2</m>.
         </p>
       </li>
     </ul>
@@ -70,12 +72,14 @@
       <li>
         <title>Algebraic Definition</title>
         <p>
-          An ellipse is described by the equation <m>\frac{x^2}{a^2} +
-          \frac{y^2}{b^2} = 1</m>. Assuming that <m>a>b</m>, the foci
-          are at <m>(\sqrt{a^2-b^2},0)</m> and
-          <m>(-\sqrt{a^2-b^2},0)</m>. The length <m>a</m> is called
-          the semi-major axis and the length <m>b</m> is called the
-          semi-minor axis.
+          An ellipse (centred at the origin) is described by the
+          equation <m>\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1</m>.
+          Assuming that <m>a>b</m>, the foci are at
+          <m>(\sqrt{a^2-b^2},0)</m> and <m>(-\sqrt{a^2-b^2},0)</m>.
+          From the number <m>a</m> and <m>b</m>, which ever is larger
+          is called the semi-major axis which ever is smaller is
+          called semi-minor axis. These two numbers cannot be equal,
+          since that would give a circle.
         </p>
       </li>
     </ul>
@@ -104,8 +108,9 @@
       <li>
         <title>Algebraic Definition</title>
         <p>
-          A parabola is described by the equation <m>y = ax^2</m>.
-          The focus is <m>(0,\frac{a}{4})</m> and the directrix is
+          A parabola (centred at the origin) is described by the
+          equation <m>y = ax^2</m>.  The focus is
+          <m>(0,\frac{a}{4})</m> and the directrix is
           <m>y=\frac{-a}{4}</m>.
         </p>
       </li>
@@ -135,8 +140,8 @@
       <li>
         <title>Algebraic Definition</title>
         <p>
-          A hyperbola is described by the equation <m>\frac{x^2}{a^2}
-          - \frac{y^2}{b^2} = 1</m>
+          A hyperbola (centred at the origin) is described by the
+          equation <m>\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1</m>
         </p>
       </li>
     </ul>
@@ -146,7 +151,7 @@
       planets, moons, stars, comets and other celestial objects move
       and orbit around each other. The Greeks assumed, erroneously,
       that orbits ought to be perfect circles. Johannes Kepler, in
-      the 16th century, correctly observed that orbit take
+      the 16th century, correctly observed that orbits take
       non-circular shapes. He put forward a very convincing theory
       that orbits have shapes which are conics with the larger object
       fixed at one of the foci of the conic. This leads to ellipses

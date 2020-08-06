@@ -1,4 +1,4 @@
-size(10cm);
+size(10cm,6cm,IgnoreAspect);
 import graph;
 xlimits(-4,5);
 ylimits(-5,6);

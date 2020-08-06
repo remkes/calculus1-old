@@ -29,17 +29,18 @@
     </figure>
     <p>
       The basic idea of cartesian coordinates should be familiar to
-      you from high school level mathematics. In the plane, cartesian
-      coordinates are formed by choosing a center point, drawing two
-      perpendicular directions called axes (usually, but not
-      necessarily, labelled <m>x</m> and <m>y</m>), and describing
+      you from your previous mathematical experience. In the plane,
+      cartesian coordinates are formed by choosing a center point,
+      drawing two perpendicular directions called axes (usually, but
+      not necessarily, labelled <m>x</m> and <m>y</m>), and describing
       each point in the plane by two real numbers, written
       <m>(a,b)</m>, representing how far along each axis the point
-      falls.
+      falls. By convention, moving right and upward are considered
+      positive directions on the axes. 
     </p>
     <p>
-      We must point out that <m>a</m> and <m>b</m> are always real
-      numbers, at least by default. Though we frequently deal with
+      For our purposes, the coordinates <m>a</m> and <m>b</m> are
+      always real numbers. Though we frequently deal with
       integer or rational coordinates, the system allows for any real
       numbers to represent coordinates. Since there are two
       dimensions in the plane, we refer to the plane with cartesian
@@ -77,7 +78,9 @@
       points <m>(a,b)</m> in the plane which satisfy the equation when
       <m>x</m> is replaced by <m>a</m> and <m>y</m> is replaced by
       <m>b</m>. Such an collection of points is called <em>locus</em>
-      of the equation. The plural of locus is <em>loci</em>.
+      of the equation. The plural of locus is <em>loci</em>. In <xref
+      ref="figure-circle-locus" />, the familiar circle of radius
+      <m>1</m> is the locus of the equation <m>x^2 + y^2 = 1</m>. 
     </p>
   </subsection>
   <subsection xml:id="subsection-other-loci">
@@ -86,6 +89,14 @@
       <caption>Several Other Loci</caption>
       <image width="90%" source="images/figure07"/>
     </figure>
+    <p>
+      The first two kinds of loci we will understanrd are line (in
+      <xref ref="section-lines" />) and conics (in section <xref
+      ref="section-conics" />). Lines are first both because their
+      geometry is approachable and because they are loci of the most
+      basic kinds of equations. Conics follow as loci of the next more
+      approachable kind of equation. 
+    </p>
     <p>
       Lines and conics are just two of many classes and families of
       loci in <m>\RR^2</m>. Here are some others.
@@ -96,7 +107,7 @@
             conics, the term <sq>curve</sq> is a general term for
             curving paths. Many equations give rise to complicated
             curves, which can be very unpredicable. Future calculus
-            courses will study the calculus of cuves.
+            courses will study the calculus of curves.
           </p>
         </li>
         <li>
@@ -122,13 +133,15 @@
       These are far from the only examples. Curves and loci can be
       very complicated: they can double back and self intersect, they
       can be jagged and disconnected, and they can even be very
-      strange fractal-like space filling curves. Consider the locus
+      strange space filling fractals. Several strange situations
+      occur; consider the locus
       of the equation <m>x^2 + y^2 =0</m>. Though this is a
       reasonable equation in the coordinate variables <m>x</m> and
       <m>y</m>, this locus only has one point: <m>(0,0)</m>. Since
       <m>x^2</m> and <m>y^2</m> are always positive, no other values
       satisfy. Worse, consider <m>x^2 + y^2 = -1</m>. This locus has
-      no points at all.
+      no points at all, since the left side cannot be negative and the
+      right side certainly is. 
     </p>
     <figure xml:id="figure-four-graphs">
       <caption>Four Graphs</caption>

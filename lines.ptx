@@ -4,21 +4,20 @@
     <title>Equations of Lines</title>
     <p>
       When we defined loci in <xref ref="section-analytic-geometry"
-      />, we mentioned that one of the first and most common type of
+      />, we mentioned that the first and most common type of
       locus is a line. This section reviews some definitions and
       calculations for lines. This should be familiar material from
-      your prerequisite mathematical background, but it is worth
+      your previous mathematical experience, but it is worth
       reviewing. 
     </p>
     <p>
-      Any equation where the variables <m>x</m> and <m>y</m> show up
-      simply multiplied by a constant and then added or subtracted
-      from another constant produces a line. By <qt>simply</qt>, I
-      mean that no other operations (other than multiplication by a
-      constant) are performed on the variables: no exponents, no
-      roots, no functions, nothing else.  These equations, since they
-      produce lines, are called linear equations. Here are some
-      examples.
+      A line is the locus of any equation where the variables <m>x</m>
+      and <m>y</m> show up multiplied by constants and then
+      added to another constant.  Other than multiplication by a
+      constant, no other operations are performed on the variables: no
+      exponents, no roots, no functions, nothing else.  These
+      equations, since they produce lines, are called linear
+      equations. Here are some examples.
       <md>
         <mrow>
           y \amp = 7x - 9 
@@ -34,9 +33,10 @@
         </mrow>
       </md>
       In all these equations, all we have done is multiplied each
-      varaible by come constant. Then we can add and subtract the
-      variables, possibly with another constant, but no other
-      operationrs are performed. 
+      varaible by some constant and added an additional constant. By
+      adding and subtracting terms, we can put some of the variables
+      or the constant on the right or left side of the equation, as we
+      see fit. 
     </p>
     <p>
       If we wanted a general form, then let the symbols <m>a_1</m>,
@@ -45,9 +45,9 @@
       general form of an equation of a line this way:
       <me>
         a_1 x + a_2 y + a_3 = 0 
-      </me>
-      This is a reasonable general form. All lines in the plane can be
-      described by these equations. However, this is not the most
+      </me>.
+      This is a reasonable general form. All lines can be described by
+      an equation of this form. However, this is not the most
       intuitive form -- we get that form by considering slope.
     </p>
   </subsection>
@@ -56,24 +56,24 @@
     <p>
       Let's review the concept of slope. The slope of a straight line
       is a measure of its steepness. A large slope descrbes a steep
-      line -- one that is quickly increasing. A small slope describes
-      a shallow line -- one that is slowly increasing. A negative
-      slope describes a decreasing line. 
+      line <mdash /> one that is quickly increasing. A small slope
+      describes a shallow line <mdash /> one that is slowly
+      increasing. A negative slope describes a decreasing line.
     </p>
     <p>
       A line with a slope of zero is a horizontal line: it does not
       increase or decrease at all. A vertical line has no slope at
-      all: we say that its slope is undefined. 
+      all. (It does <em>not</em> have an infinite slope <mdash /> the
+      slope is simply undefined). 
     </p>
     <p>
       To calculate the slope, we take choose any two points on the
-      line.  We calculate the
-      difference in the <m>y</m> coordinates and call this the
-      <em>rise</em>: it measures how far up the line goes between the
-      two points. Then we calculate the difference in the <m>x</m>
-      coordinates and call this the <em>run</em>: it measures how far
-      we move horizontally between the two points. The slope is then
-      the rise divided by the run. 
+      line. We calculate the difference in the <m>y</m> coordinates
+      and call this the <em>rise</em>: it measures how far up the line
+      goes between the two points. Then we calculate the difference in
+      the <m>x</m> coordinates and call this the <em>run</em>: it
+      measures how far we move horizontally between the two points.
+      The slope is the rise divided by the run. 
       <me>
         \text{Slope} = \frac{\text{Rise}}{\text{Run}}
       </me>
@@ -95,8 +95,8 @@
   <subsection xml:id="subsection-slope-intercept">
     <title>Slope Intercept Form</title>
     <p>
-      Now that we have defined slope, we can review/introduce a
-      special way of writing the equations of lines. Go back to the
+      Now that we have defined slope, we can reviewi or introduce a
+      common way of writing the equations of lines. Go back to the
       four example lines above; in each of these, I will re-arrange
       the equation so that <m>y</m> is along on the left side. 
       <md>
@@ -114,8 +114,8 @@
         </mrow>
       </md>
       I can describe the general form we get by solving for <m>y</m>
-      on the left. Let <m>m</m> and <m>b</m> represent constant (the
-      choice of these letters if conventional and used in many
+      on the left. Let <m>m</m> and <m>b</m> be constants 
+      (the choice of these letters if conventional and used in many
       places). Then all of these equations have this form:
       <me>
         y = mx + b 
@@ -124,10 +124,10 @@
       the line. The number <m>b</m> will be the <m>y</m>-coordinate of
       the point where the line crosses the <m>y</m> axis; this is
       called the <m>y</m>-intercept. These two pieces of information
-      are enough to complete determine the line: if we know where it
-      crosses the <m>y</m>-axis and we know how quickly is grows from
-      that point (its slope), then we know everything we need to
-      determine the line. <xref ref="figure-slope-intercept" /> shows
+      are enough to completely determine the line. If we know where a
+      line crosses the <m>y</m>-axis and we know how quickly is grows from
+      that point (its slope), then we know everything about the line.
+      <xref ref="figure-slope-intercept" /> shows
       an example to illustrate this slope-intercept form.
       <figure xml:id="figure-slope-intercept">
         <caption>Slope-Intercept Form </caption>
@@ -135,9 +135,9 @@
       </figure>
     </p>
     <p>
-      Now let's consider two special cases. First, a horizontal line
-      has a slope of zero.  Therefore, in slope-intercept form, <m>m =
-      0</m>, so the equation of the line looks like
+      As we said above, a horizontal lines has a slope of zero. In
+      slope-intercept form this is<m>m = 0</m>, so the equation of the
+      line looks like
       <me>
         y = 0x + b = b 
       </me>.
@@ -172,7 +172,7 @@
   <subsection xml:id="subsection-calculating-lines">
     <title>Calcluating Equations of Lines</title>
     <p>
-      We often need to calculate the equation of a line gives various
+      We often need to calculate the equation of a line given various
       pieces of information about this line. 
     </p>
     <ul>
@@ -181,10 +181,10 @@
         put those numbers directly into the slope-intercept form. For
         example, if we wanted the line with slope <m>\frac{-2}{5}</m>
         and <m>y</m>-intercept <m>3</m>, we would simply put those
-        numbers into the form and get the equation of the line
+        numbers into the form and get the equation of the line:
         <me>
           y = \frac{-2}{5} x + 3 
-        </me>
+        </me>.
       </li>
       <li>
         Sometimes we are given a point and a slope. For example, say
@@ -222,14 +222,15 @@
       </li>
       <li>
         There is one last way of describing a line: by giving two
-        point. There is a unique line passing between any two points
-        -- but how do we get the equation of this line? We calculate
-        the slope. Recall that slope is defined as the fraction rise
-        over run. Rise is the different in the <m>y</m> coordinates
-        and run is the different in the <m>x</m> coordinates, so give
-        two points we can calculate the slope. I'll show this by
-        example: what is the line through the point <m>(3,-5)</m> and
-        <m>(1,1)</m>? First I'll calculate the slope
+        points. There is a unique line passing between any two points
+        <mdash /> but how do we get the equation of this line? We
+        calculate the slope. Recall that slope is defined as the
+        fraction rise over run. Rise is the difference in the <m>y</m>
+        coordinates and run is the difference in the <m>x</m>
+        coordinates, so given two points we can calculate the slope.
+        I'll show this by example: what is the line through the point
+        <m>(3,-5)</m> and <m>(1,1)</m>? First I'll calculate the
+        slope.
         <me>
           m = \frac{\text{Rise}}{\text{Run}} = \frac{-5 - 1}{3 - 1} =
           \frac{-6}{2} = -3
