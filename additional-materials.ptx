@@ -1,0 +1,9 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-additional-materials">
+  <title>Additional Materials</title>
+  <xi:include href="how-to-write-an-assignment.ptx" />
+  <xi:include href="academic-honesty.ptx" />
+  <xi:include href="notations.ptx" />
+  <xi:include href="reference.ptx" />
+  <xi:include href="library-of-functions.ptx" />
+</chapter>

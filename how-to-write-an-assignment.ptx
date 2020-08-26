@@ -1,0 +1,129 @@
+<section xml:id="section-how-to-write-an-assignment">
+  <title>How to Write a Math Assignment</title>
+  <subsection xml:id="subsection-academic-writing">
+    <title>Academing Writing in Mathematics</title>
+    <p>
+      Writing a math assignment at the university lebel is a very
+      different thing from your previous experience with mathematics
+      assignments. In this section, I want to give some clear
+      expectation on what I expect for academic writing in
+      mathematics.
+    </p>
+    <p>
+      Most of this sections follows from one basic idea.
+      <blockquote>
+        An assignment is a clear and professional presentation of
+        <em>your own</em> arguments and ideas about a set of
+        mathematical problems.
+      </blockquote>
+      In that context, these are my expectations for assignments
+    </p>
+    <ul>
+      <li>
+        Your assignments should be clean, legible and well organized.
+        Don't hand in work with crossed-out sections or questions out
+        of order. (This is part of what I mean by
+        <em>professional</em> in the definition above.)
+      </li>
+      <li>
+        Don't expect to hand in the paper that your start your work
+        on. First work out your solutions in rough; then organize your
+        solutions and write up a complete, clear and well-structure
+        good copy to hand in.
+      </li>
+      <li>
+        Annotate your calculations and explain your work. A string of
+        calculations without any explanation is usually not
+        sufficient. In the definition, I said that an assignment is
+        your <em>argument</em>; arguments require words and sentences,
+        not just mathematical symbols.
+      </li>
+      <li>
+        As a starting rule-of-thump, most first and second year math
+        assignments should be roughly 50% calculations and 50% words
+        and sentences. 
+      </li>
+      <li>
+        In the writing you do between your calculation, hold yourself
+        to the same standards you would for any academic writing. Use
+        complete sentences and strive for clear, concise and formal
+        writing. 
+      </li>
+      <li>
+        For the vast majority of your work, you can leave your answers
+        in exact values. (For example, write <m>\sqrt{5}</m> instead
+        of the approximate value <m>2.236</m>.) 
+      </li>
+      <li>
+        When you use a computer algebra system or other technical tool
+        for calculations, briefly indicate that you've done so. 
+      </li>
+      <li>
+        If you use any external sources, you must reference them. This
+        includes online courses, videos, and online discussion boards.
+        I am not particular on what reference formatting you use: use
+        any of the standard formats. (There will be more on this in
+        <href ref="section-academic-honesty" />). 
+      </li>
+      <li>
+        If you use a resource which introduces definitions or solution
+        techniques that are different from what we use in this course,
+        you need to explain those definitions or techniques and tell
+        me why they apply to the question that I assigned. 
+      </li>
+      <li>
+        Collaboration on assignments is strongly encouraged.
+        However, you must write up your own version of the assignment
+        after you have worked together to figure out a solution.
+        Assignemnts from different students which have word-for-word
+        identical sentences are not acceptable. (And recall that I
+        expect assignments to have many sentences). 
+      </li>
+      <li>
+        If you collaborated with other students in the course, please
+        record who you worked with somewhere on the assignment. 
+      </li>
+      <li>
+        Hand in your assignment when they are due. If a health or
+        emergency situation prevents you from finishing your
+        assignment, let me know (by email, preferably) as early as
+        possible. 
+      </li>
+      <li>
+        For assignments submitted online, submit a PDF scan of your
+        assignment. Almost all mobile devices (phone, tablets) have
+        easy ways to use their built-in cameras to scan documents. Try
+        to find scanning methods that give reasonable file sizes. 
+      </li>
+    </ul>
+  </subsection>
+  <subsection xml:id="subsection-assignment-examples">
+    <title>Examples</title>
+    <p>
+      To help make these expectation clear, I have a number of
+      examples of these expectations. In each of these examples,
+      Solution 1 is technically correct but very poorly presented. I
+      would not give full marks for this solutions. Solution 2
+      contains the same technical details, but it must more clearly
+      presented and includes references. Solution 2 would be give full
+      marks. 
+    </p>
+    <example>
+      <statement>
+        <p>
+          Solve this system of equations. 
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Here is a technically correct but very poor answer. 
+        </p>
+      </solution>
+      <solution>
+        <p>
+          Here is a annotated solution, which is much better.
+        </p>
+      </solution>
+    </example>
+  </subsection>
+</section>
