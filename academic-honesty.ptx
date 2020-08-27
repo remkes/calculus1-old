@@ -1,8 +1,201 @@
-<section xml:id="section-label">
-  <title>Title</title>
-  <subsection xml:id="subsection-label">
-    <title>Title</title>
+<section xml:id="section-adacemic-honesty">
+  <title>Academic Honesty in Mathematics Courses</title>
+  <subsection xml:id="subsection-general-policy">
+    <title>General Universty Policy</title>
     <p>
+      The rules of academic honesty for students are defined by
+      university policy, described in the Calendar and summarized in
+      all course syllabuses. The material here does not override or
+      change anything in those policies. You, as students, must be
+      familiar with the expectations for academic honesty. This is
+      part of your responsibility as a student. 
+    </p>
+    <p>
+      This document is specific to mathematics courses. It gives you
+      some specific guidelines for mathematic work, assignments and
+      exams. It tells you the expectation that I have for my students. 
+    </p>
+    <p>
+      The main point of this document is that mathematics is not
+      fundamentally different from english or psychology in it's
+      expectations of academic honesty: you still have to produce your
+      own work and credit your sources. This sometimes comes as a
+      shock, since the expectation, strangely, is that matheamtics is
+      somehow quite different. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-assignments">
+    <title>Math Assignments</title>
+    <p>
+      The principles here is simple: when you had in an assignment, it
+      must be your own work: your own thoughts, your own sentences,
+      your own calculations. This is the point of an assignment. We
+      don't set assignment because we need to mark something; we
+      set assignments to encourage you to do the active work of
+      solving mathematica problems, which is the entire point of
+      taking a mathematics course. We want each of you to actually do
+      your assignments, since that's where some of the most important
+      learning happens.
+    </p>
+    <p>
+      That said, working in groups on assignments is excellent and
+      highly encouraged. Mathematics works very well in groups, where
+      you can remind each other of ideas, correct each other's
+      mistake, help each through conceptual barriers. Groups are
+      great. However, at the end of your group work, you still have to
+      produce your own assignment. You should never be copying,
+      word-for-word or calculation-for-calculation, another students
+      assignments. Please work together: talk through the questions,
+      check each other work for errors, all these things. But please
+      produce your own work at the end. I have a list that summarized
+      the specifics of how this works. (This list repeats some of the
+      expectations in <xref ref="section-how-to-write-an-assignment" />,
+      but elaborates more on the academic honesty pieces.
+    </p>
+    <ul>
+      <li>
+        Obviously, you can't just copy another student's assignment.
+        That's cheating. Given that you are reading this, I'm assuming
+        that you are, in fact, trying to do your work honestly. 
+      </li>
+      <li>
+        If you work with a group, you still need to write your own
+        assignments. Often your calculations will be nearly identical
+        to your group, and that's to be expected (though you should
+        always do your own calculation and understand them, not just
+        copy someone else's calculation). Your sentences that
+        surround your calcualtions, however, should not be the same
+        sentences as any other student's. Write up your own work, use
+        your own words to explain calculations and answer conceptual
+        questions. 
+      </li>
+      <li>
+        If you work with students in the class, note the names of the
+        students you worked with at the end of your assignments. This
+        is quite simple: just write, "On this assignments, I worked
+        with NAME, NAME and NAME". 
+      </li>
+      <li>
+        It's fine if someone else (a friend, a family member, a tutor,
+        etc) helps you with an assignment. However, it is it not fine
+        if they do the questions for you. They should help you figure
+        out how do to the problem, and then you should do the problems
+        on your own and write up your solutions on your own. 
+      </li>
+      <li>
+        If you used another book, quote or reference that book just as
+        you would in an English course. You may use any citation
+        style. 
+      </li>
+      <li>
+        I'll talk about the use of internet resources in the next
+        section, since that topic deserved its own section. 
+      </li>
+    </ul>
+  </subsection>
+  <subsection xml:id="subsection-internet-resources">
+    <title>Internet Resources</title>
+    <p>
+      I know that many of you will do the majority of your mathematic
+      works with a browser open. That's fine, and the internet is full
+      of some amazing resources. But you have to be clear and careful
+      about how you use online resources. 
+    </p>
+    <ul>
+      <li>
+        First and foremost, you have to cite what you use. Any
+        websites, videos, calculation tools that you use for your
+        assignment should be cited at the end of the assignment. This
+        is the expectation that I find is the most suprising to many
+        students, but I'm serious. Internet resources are like any
+        resources, and for academic writing, we cite our resources. We
+        do this to give credit to all those people in the world who've
+        written these resources, thus helping us do our academic work. 
+      </li>
+      <li>
+        These citations should be specific as reasonable. Don't say
+        that you used Youtube or even Khan Academy; tell me
+        specifically which video you watched that helped you and give
+        me the URL. 
+      </li>
+      <li>
+        Online calculation tools (Wolfram Alpha, Demos, Symbolab, and
+        many others) are great. Please use them to do calculations, to
+        check your work. However, like all resources, you need to give
+        credit. For calculation tools like these (and any other
+        computer algebra systems), you can tell me at the start of the
+        assignment that you used a calculation tool and then very
+        briefly indicated the places that it was used in the
+        assignment. If you simply double checked your work with any of
+        these tools, just say so as part of your citations. 
+      </li>
+      <li>
+        Most of the above discussion of citation has in mind static
+        sources (online texts, encylopedias, video explanations). The
+        internet also have interactive sources: various places where
+        you can ask for math help and receive responses from people to
+        your specific questions. Some of these are free and some of
+        these are payed subscription sites. I want to be very clear
+        about my expectation for these kind of sites.
+      <blockquote>
+        Please do ask general questions on a math forum or help site.
+        Some like "I need help figuring out how to solve systems of
+        equations" is very reasonable. If you want specific examples,
+        use the activities in the course and ask people to help you
+        understand the activities. However, please DO NOT post any
+        assignment questions or take-home exam questions to any online
+        math forum or help site. I need to draw a clear line here, so
+        that it is easy for you to understand my expectations. Posting
+        assignment questions or exam questions online is not
+        acceptable. 
+      </blockquote>
+      </li>
+      <li>
+        Often when students look online for material from the course,
+        they will find similar material which differs in notations,
+        definitions, or solution methods. If you find another way of
+        doing things or use an alternative notation from what we did
+        in class, you need to explain to me what the alternative
+        notation means and/or why the alternative method works. You
+        can't assume that your reader (me or the marker) knows all the
+        possible variation of notation (of which there are many). You
+        have to be explicit about any new idea and how they relate to
+        the course material. 
+      </li>
+      <li>
+        As one final specific note, Wikipedia is not an authoratative
+        source for quotationes. It is an immensely useful source and a
+        great place to look for reminders and concepts. I frequently use it
+        informally to help remember various pieces of mathematics. But
+        you can't use it as an authority; you can't claim that
+        any definition, notation or method is correct because you read
+        if on Wikipedia. 
+      </li>
+    </ul>
+  </subsection>
+  <subsection xml:id="subsection-exams">
+    <title>Exams</title>
+    <p>
+      The term tests in this course are take-home exam, to be complete
+      over two or three exams. These are very much like assignments,
+      but they have different expectations. Unlike assignments, where
+      working together and getting help are encouraged, I expect you
+      to do the tests entirely on your own. Don't talk to your
+      classmates or anyone else about the questions: do what you can
+      with your own resources. 
+    </p>
+    <p>
+      This is easy is you simply don't talk about the exam until you
+      have submitted it. If you follow this clear instruction, you'll
+      be perfect. 
+    </p>
+    <p>
+      All the discussion about online sources still apply to the
+      take-home tests. You are welcome to use static courses, such as
+      videos and online text (with citations, of course), to help you
+      with the concepts and ideas of the course which relate to the
+      test. It is not at all acceptable to post test questions
+      anywhere online. 
     </p>
   </subsection>
 </section>

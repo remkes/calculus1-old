@@ -105,10 +105,14 @@
       Solution 1 is technically correct but very poorly presented. I
       would not give full marks for this solutions. Solution 2
       contains the same technical details, but it must more clearly
-      presented and includes references. Solution 2 would be give full
+      presented and includes references. Solution 2 would be given full
       marks. 
     </p>
     <example>
+      <p>
+        This example contrasts solution with and without annotation
+        and explanation.
+      </p>
       <statement>
         <p>
           Solve this system of equations. 
@@ -118,11 +122,255 @@
         <p>
           Here is a technically correct but very poor answer. 
         </p>
+        <md>
+          <mrow>
+            x + y \amp = 1 
+          </mrow>
+          <mrow>
+            x \amp 1 - y 
+          </mrow>
+          <mrow>
+            1 - y + z \amp = 0 
+          </mrow>
+          <mrow>
+            y \amp = 1 + z 
+          </mrow>
+          <mrow>
+            1 + z + z \amp = 2 
+          </mrow>
+          <mrow>
+            2z \amp = 1 
+          </mrow>
+          <mrow>
+            z \amp = \frac{1}{2} 
+          </mrow>
+          <mrow>
+            y \amp = \frac{3}{2}
+          </mrow>
+          <mrow>
+            x \amp = \frac{-1}{2} 
+          </mrow>
+        </md>
       </solution>
       <solution>
         <p>
           Here is a annotated solution, which is much better.
         </p>
+        <p>
+          First, I'll solve for <m>x</m> in the first equation.
+        </p>
+        <me>
+          x = 1 - y 
+        </me>
+        <p>
+          Then I put this expresion for <m>x</m> into the second
+          equation.
+        </p>
+        <me>
+          1 - y + z = 0 
+        </me>
+        <p>
+          Now I can solve for <m>y</m> in this second equation. 
+        </p>
+        <me>
+          y = 1 + z 
+        </me>
+        <p>
+          I can put this expression for <m>y</m> into the third
+          equation. 
+        </p>
+        <me>
+          1 + z + z = 2 
+        </me>
+        <p>
+          Now <m>z</m> is the only variable, so I can simply solve for
+          it. 
+        </p>
+        <me>
+          z = \frac{1}{2} 
+        </me>
+        <p>
+          I can use this value for <m>z</m> to determine <m>y</m>
+          using a previous expression. 
+        </p>
+        <me>
+          y = 1 + z = \frac{3}{2} 
+        </me>
+        <p>
+          Finally, I can use this value for <m>y</m> to determine
+          <m>x</m> using the first equation. 
+        </p>
+        <me>
+          x = 1 - y = \frac{-1}{2}
+        </me>
+        <p>
+          That gives me the full solution.
+        </p>
+        <md>
+          <mrow>
+            \amp x = \frac{-1}{2} \amp \amp y = \frac{3}{2} \amp \amp
+            z = \frac{1}{2} 
+          </mrow>
+        </md>
+      </solution>
+    </example>
+    <example>
+      <p>
+        This example contrasts solution with and without annotation
+        and explanation.
+      </p>
+      <statement>
+        How many <m>15cm</m>-wide planks do you need to fence in a
+        sqaure with area <m>9m^2</m>. 
+      </statement>
+      <solution>
+        <md>
+          <mrow>
+            9 \amp = 3^2 
+          </mrow>
+          <mrow>
+            3 \times 4 \amp = 12 
+          </mrow>
+          <mrow>
+            12 \amp \rightarrow 1200
+          </mrow>
+          <mrow>
+            \frac{1200}{15} \amp = 80 
+          </mrow>
+        </md>
+      </solution>
+      <solution>
+        <p>
+          I have been given the area, but I need to know the perimter.
+          This is a square, so the area is the square of the side
+          length. Since the area is <m>9m^2</m>, the side length must
+          be <m>3m</m>, since <m>3^3 = 9</m>. We have four sides, each
+          with length <m>3m</m>, so the total perimeter is <m>12m</m>.
+          The planks are in <m>cm</m>, so we need to write <m>12m</m>
+          as <m>1200cm</m>. Assume that the fence is built of planks
+          that touch without any gaps, we can just divide the
+          perimeter by the plank width.
+          <me>
+            \frac{1200}{15} = 80
+          </me>
+          We need 80 planks. It may not be necessary in the solution,
+          but we can notice, also, that this gives 20 planks
+          for each side, divided evenly, so we don't have to worry
+          about using part of a plank for one side and part for
+          another side. 
+        </p>
+      </solution>
+    </example>
+    <example>
+      <p>
+        This example points out the need for clarity on exact and
+        approximate values. The second solution shows 4 ways of
+        writing this, depending on which tool is used. 
+      </p>
+      <statement>
+        <p>
+          What are the roots of <m>4x^2 - 7x - 23 = 0 </m>?
+        </p>
+      </statement>
+      <solution>
+        <md>
+          <mrow>
+            x \amp = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} 
+          </mrow>
+          <mrow>
+            x \amp = \frac{-7 \pm \sqrt{7^2 - 4(4)(23)}}{2(4)} 
+          </mrow>
+          <mrow>
+            x \amp = \frac{7 \pm \sqrt{417}{8} 
+          </mrow>
+          <mrow>
+            x \amp = -1.68, 3.43
+          </mrow>
+        </md>
+      </solution>
+      <solution>
+        <md>
+          <mrow>
+            x \amp = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} 
+          </mrow>
+          <mrow>
+            x \amp = \frac{-7 \pm \sqrt{7^2 - 4(4)(23)}}{2(4)} 
+          </mrow>
+          <mrow>
+            x \amp = \frac{7 \pm \sqrt{417}}{8} 
+          </mrow>
+        </md>
+        <p>
+          These are the exact solutions. Approximate values, by
+          calculator, are <m>x = -1.68, 3.43</m>. 
+        </p>
+        <p>
+          OR
+        </p>
+        <p>
+          Approximate values using Wolfram Alpha: <m>x = 1.68,
+          3.43</m>. 
+        </p>
+        <p>
+          OR
+        </p>
+        <p>
+          Approximate values using Symbolab: <m>x = 01.68, 3.43</m>. 
+        </p>
+        <p>
+          OR
+        </p>
+        <p>
+          Approximate values using Desmo: <m>x = -1.68, 3.43</m>. 
+        </p>
+      </solution>
+    </example>
+    <example>
+      <p>
+        This example shows how to indicate the use of a online
+        computer algebra system through an assignment. 
+      </p>
+      <statement>
+        <p>
+          Find the approximate values of <m>\sin (5)</m>, <m>\ln
+          (23)</m>, <m>(\sqrt{41}</m>, and <m>\frac{75}{342}</m>. 
+        </p>
+      </statement>
+      <solution>
+        <md>
+          <mrow>
+            \sin (5) \amp = 0.087 
+          </mrow>
+          <mrow>
+            \ln (23) \amp = 3.135
+          </mrow>
+          <mrow>
+            \sqrt{41} \amp = 6.403 
+          </mrow>
+          <mrow>
+            \frac{75}{342} \amp = 0.219
+          </mrow>
+        </md>
+      </solution>
+      <solution>
+        <p>
+          Throuhgout this assignment, use of Wolfram Alpha for
+          calcaultions is indicated by (WA). 
+        </p>
+        <md>
+          <mrow>
+            \sin (5) \amp = 0.087 \amp \amp (WA)
+          </mrow>
+          <mrow>
+            \ln (23) \amp = 3.135 \amp \amp (WA)
+          </mrow>
+          <mrow>
+            \sqrt{41} \amp = 6.403 \amp \amp (WA)
+          </mrow>
+          <mrow>
+            \frac{75}{342} \amp = 0.219 \amp \amp (WA)
+          </mrow>
+        </md>
       </solution>
     </example>
   </subsection>
