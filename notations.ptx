@@ -20,7 +20,7 @@
       \amp \therefore \amp \amp \text{Therefore}
     </mrow>
     <mrow>
-      \amp a \neq b \amp \amp a \text{is not equal to} b
+      \amp a \neq b \amp \amp a \text{ is not equal to } b
     </mrow>
     <mrow>
       \amp \emptyset \amp \amp \text{The empty set}
@@ -37,7 +37,7 @@
     </mrow>
     <mrow>
       \amp \{ a \in A \big| a \text{ is something }\} \amp \amp
-      \text{All } a \in A \text{that satisfy a property}
+      \text{All } a \in A \text{ that satisfy a property}
     </mrow>
     <mrow>
       \amp A \cup B \amp \amp \text{The union of the sets } A \text{

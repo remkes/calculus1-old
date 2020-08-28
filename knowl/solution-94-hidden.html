@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2020-08-27T21:37:44-06:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body><div class="solution solution-like">
+<p>This is a triple product. We still need the product rule, but we have to be conscious of the group. There are several options, but I will choose \(f(x) = (x^2+1)\) and \(g(x)
+= (\sin x)(e^x)\text{.}\) Then I proceed with the product rule form.</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+\frac{d}{dx} (x^2+1)(\sin x)(e^x) = (x^2+1) \frac{d}{dx}
+\left( (\sin x)(e^x) \right) + (\sin x)(e^x) \frac{d}{dx}
+(x^2+1)
+\end{equation*}
+</div>
+<p data-braille="continuation">The second derivative is a reasonable polynomial, solved by linearity. The first derivative, however, is still a product. We need to do another product rule with this product.</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+= (x^2+1) \left( e^x \frac{d}{dx} \sin x + \sin x
+\frac{d}{dx} e^x \right) + (\sin x)(e^x) (2x+0)
+\end{equation*}
+</div>
+<p data-braille="continuation">Then I just need to use the two known derivatives of the sine function and the exponential function.</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+= (x^2+1) \left( e^x \cos x + \sin x e^x \right) 
++ (\sin x)(e^x) (2x)
+\end{equation*}
+</div>
+<p data-braille="continuation">I can simplify this slightly by factoring out the exponential and combining the polynomial terms.</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{align*}
+\amp = e^x \left( (x^2+1) \cos x + (x^2+1) \sin x 
++ (2x) (\sin x) \right) \\
+\amp = e^x \left( (x^2+1) \cos x + (x^2 + 2x + 1) \sin x
+\right) 
+\end{align*}
+</div>
+</div></body>
+</html>

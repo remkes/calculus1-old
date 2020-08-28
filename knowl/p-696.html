@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2020-08-27T21:37:48-06:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<h6 xmlns:svg="http://www.w3.org/2000/svg" class="heading"><span class="type">Paragraph</span></h6>
+<p>We have to check two things. First, we can check that the initial value is correct. This is simply evaluating \(p(0)\text{.}\)</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+p(0) = \frac{240000 e^0}{-500 + 800
+e^0} = \frac{240000}{-500+ 800} =
+\frac{240000}{300} = 800
+\end{equation*}
+</div>
+<p data-braille="continuation">This is the correct initial value. Now we need to differentiate \(p(t)\) using the quotient rule and check that it is the same as the left side of the differential equation. This calculation is a bit complicated with many pieces, but I'll simplify it step by step.</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{align*}
+\frac{dp}{dt} \amp = \frac{(-500 + 800e^{0.02t}) \left(
+\frac{d}{dt} 240000 e^{0.02t} \right) - 240000 e^{0.02t}
+\left( \frac{d}{dt} -500 + 800 e^{0.02t} \right)}{(-500 +
+800 e^{0.02t})^2}\\
+\amp = \frac{(-500 + 800e^{0.02t})(0.02)(240000)e^{0.02t} 
+- 240000 e^{0.02t}((0.02)(800)e^{0.02t})}{(-500 + 800
+e^{0.02t})^2}\\
+\amp = \frac{(-500 + 800e^{0.02t})(12000)e^{0.02t} 
+- 240000 e^{0.02t}((40)e^{0.02t})}{(-500 + 800
+e^{0.02t})^2}\\
+\amp = \frac{-6000000e^{0.02t} - 9600000e^{0.04t} 
++ 9600000 e^{0.04t}}{(-500 + 800
+e^{0.02t})^2}\\
+\amp = \frac{-6000000e^{0.02t}}{(-500 + 800
+e^{0.02t})^2}
+\end{align*}
+</div>
+<p data-braille="continuation">After all that simplification, we have this expression. This is the left side of the differential equation. We want to compare it to the right side of the differential equation. Let's try to calculate that right side and see if we can simplify it down to the same thing. From the third to the fourth line below, we go to common denominator for the term in brackets.</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{align*}
+\amp (0.02) p(t) \left( 1 - \frac{p(t)}{300} \right) \\
+\amp = (0.02) \frac{240000 e^{0.02t}}{-500 + 800 e^{0.02t}} 
+\left( 1 - \frac{ \frac{240000 e^{0.02t}}{-500 + 800
+e^{0.02t}}}{300} \right)\\
+\amp = \frac{12000 e^{0.02t}}{-500 + 800 e^{0.02t}} 
+\left( 1 - \frac{800 e^{0.02t}}{-500 + 800 e^{0.02t}}
+\right)\\
+\amp = \frac{12000 e^{0.02t}}{-500 + 800 e^{0.02t}} 
+\left( \frac{-500 + 800e^{0.02t} - 800 e^{0.02t}}{-500 +
+800 e^{0.02t}} \right)\\
+\amp = \frac{12000 e^{0.02t}}{-500 + 800 e^{0.02t}} 
+\left( \frac{-500}{-500 + 800 e^{0.02t}} \right)\\
+\amp = \frac{-2400000 e^{0.02t}}{(-500 + 800
+e^{0.02t})^2} 
+\end{align*}
+</div>
+<p data-braille="continuation">This produces exactly the same expression. Both the left and ride sides of the equation simplify to the same expression. Therefore, since these simplification have made any actual changes to the function (just to how it is expressed), the right side and left side of the differential equation are equal, and we have confirmed that the given function solves the differential equation.</p>
+<span class="incontext"><a href="subsection-week10-activity.html#p-696">in-context</a></span>
+</body>
+</html>

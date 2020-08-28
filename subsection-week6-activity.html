@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2020-08-27T21:37:31-06:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Week 6 Activity</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", "AMScd.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script xmlns:svg="http://www.w3.org/2000/svg">sagecellEvalName='Evaluate (Sage)';
+</script><link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link xmlns:svg="http://www.w3.org/2000/svg" href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div xmlns:svg="http://www.w3.org/2000/svg" class="hidden-content" style="display:none">\(\def\vs{{\it vs. }}
+\def\cf{{\it cf. }}
+\def\viz{{\it viz. }}
+\def\ie{{\it i.e. }}
+\def\etc{{\it etc. }}
+\def\eg{{\it e.g. }}
+\def\etal{{\it et al .}}
+\def\via{{\it via }}
+\def\adhoc{{\it ad hoc }}
+\def\apriori{{\it apriori }}
+\def\Afrak{\mathfrak{A}}
+\def\Bfrak{\mathfrak{B}}
+\def\Cfrak{\mathfrak{C}}
+\def\Dfrak{\mathfrak{D}}
+\def\Efrak{\mathfrak{E}}
+\def\Ffrak{\mathfrak{F}}
+\def\Gfrak{\mathfrak{G}}
+\def\Hfrak{\mathfrak{H}}
+\def\Ifrak{\mathfrak{I}}
+\def\Jfrak{\mathfrak{J}}
+\def\Kfrak{\mathfrak{K}}
+\def\Lfrak{\mathfrak{L}}
+\def\Mfrak{\mathfrak{M}}
+\def\Nfrak{\mathfrak{N}}
+\def\Ofrak{\mathfrak{O}}
+\def\Pfrak{\mathfrak{P}}
+\def\Qfrak{\mathfrak{Q}}
+\def\Rfrak{\mathfrak{R}}
+\def\Sfrak{\mathfrak{S}}
+\def\Tfrak{\mathfrak{T}}
+\def\Ufrak{\mathfrak{U}}
+\def\Vfrak{\mathfrak{V}}
+\def\Wfrak{\mathfrak{W}}
+\def\Xfrak{\mathfrak{X}}
+\def\Yfrak{\mathfrak{Y}}
+\def\Zfrak{\mathfrak{Z}}
+\def\afrak{\mathfrak{a}}
+\def\bfrak{\mathfrak{b}}
+\def\cfrak{\mathfrak{c}}
+\def\dfrak{\mathfrak{d}}
+\def\efrak{\mathfrak{e}}
+\def\ffrak{\mathfrak{f}}
+\def\gfrak{\mathfrak{g}}
+\def\hfrak{\mathfrak{h}}
+\def\ifrak{\mathfrak{i}}
+\def\jfrak{\mathfrak{j}}
+\def\kfrak{\mathfrak{k}}
+\def\lfrak{\mathfrak{l}}
+\def\mfrak{\mathfrak{m}}
+\def\nfrak{\mathfrak{n}}
+\def\ofrak{\mathfrak{o}}
+\def\pfrak{\mathfrak{p}}
+\def\qfrak{\mathfrak{q}}
+\def\rfrak{\mathfrak{r}}
+\def\sfrak{\mathfrak{s}}
+\def\tfrak{\mathfrak{t}}
+\def\ufrak{\mathfrak{u}}
+\def\vfrak{\mathfrak{v}}
+\def\wfrak{\mathfrak{w}}
+\def\xfrak{\mathfrak{x}}
+\def\yfrak{\mathfrak{y}}
+\def\zfrak{\mathfrak{z}}
+\def\AA{\mathbb{A}}
+\def\BB{\mathbb{B}}
+\def\CC{\mathbb{C}}
+\def\DD{\mathbb{D}}
+\def\EE{\mathbb{E}}
+\def\FF{\mathbb{F}}
+\def\GG{\mathbb{G}}
+\def\HH{\mathbb{H}}
+\def\II{\mathbb{I}}
+\def\JJ{\mathbb{J}}
+\def\KK{\mathbb{K}}
+\def\LL{\mathbb{L}}
+\def\MM{\mathbb{M}}
+\def\NN{\mathbb{N}}
+\def\OO{\mathbb{O}}
+\def\PP{\mathbb{P}}
+\def\QQ{\mathbb{Q}}
+\def\RR{\mathbb{R}}
+\def\SS{\mathbb{S}}
+\def\TT{\mathbb{T}}
+\def\UU{\mathbb{U}}
+\def\VV{\mathbb{V}}
+\def\WW{\mathbb{W}}
+\def\XX{\mathbb{X}}
+\def\YY{\mathbb{Y}}
+\def\ZZ{\mathbb{Z}}
+\def\calA{\mathcal{A}}
+\def\calB{\mathcal{B}}
+\def\calC{\mathcal{C}}
+\def\calD{\mathcal{D}}
+\def\calE{\mathcal{E}}
+\def\calF{\mathcal{F}}
+\def\calG{\mathcal{G}}
+\def\calH{\mathcal{H}}
+\def\calI{\mathcal{I}}
+\def\calJ{\mathcal{J}}
+\def\calK{\mathcal{K}}
+\def\calL{\mathcal{L}}
+\def\calM{\mathcal{M}}
+\def\calN{\mathcal{N}}
+\def\calO{\mathcal{O}}
+\def\calP{\mathcal{P}}
+\def\calQ{\mathcal{Q}}
+\def\calR{\mathcal{R}}
+\def\calS{\mathcal{S}}
+\def\calT{\mathcal{T}}
+\def\calU{\mathcal{U}}
+\def\calV{\mathcal{V}}
+\def\calW{\mathcal{W}}
+\def\calX{\mathcal{X}}
+\def\calY{\mathcal{Y}}
+\def\calZ{\mathcal{Z}}
+\def\Ap{A^\prime}
+\def\Bp{B^\prime}
+\def\Cp{C^\prime}
+\def\Dp{D^\prime}
+\def\Ep{E^\prime}
+\def\Fp{F^\prime}
+\def\Gp{G^\prime}
+\def\Hp{H^\prime}
+\def\Ip{I^\prime}
+\def\Jp{J^\prime}
+\def\Kp{K^\prime}
+\def\Lp{L^\prime}
+\def\Mp{M^\prime}
+\def\Mp{N^\prime}
+\def\Op{O^\prime}
+\def\Pp{P^\prime}
+\def\Qp{Q^\prime}
+\def\Rp{R^\prime}
+\def\Sp{S^\prime}
+\def\Tp{T^\prime}
+\def\Up{U^\prime}
+\def\Vp{V^\prime}
+\def\Wp{W^\prime}
+\def\Xp{X^\prime}
+\def\Yp{Y^\prime}
+\def\Zp{Z^\prime}
+\def\ap{a^\prime}
+\def\bp{b^\prime}
+\def\cp{c^\prime}
+\def\dprime{d^\prime}
+\def\ep{e^\prime}
+\def\fp{f^\prime}
+\def\gp{g^\prime}
+\def\hp{h^\prime}
+\def\ip{i^\prime}
+\def\jp{j^\prime}
+\def\kp{k^\prime}
+\def\lp{l^\prime}
+\def\mp{m^\prime}
+\def\np{n^\prime}
+\def\op{o^\prime}
+\def\pp{p^\prime}
+\def\qp{q^\prime}
+\def\rp{r^\prime}
+\def\sp{s^\prime}
+\def\tp{t^\prime}
+\def\up{u^\prime}
+\def\vp{v^\prime}
+\def\wp{w^\prime}
+\def\xp{x^\prime}
+\def\yp{y^\prime}
+\def\zp{z^\prime}
+\def\App{A^{\prime\prime}}
+\def\Bpp{B^{\prime\prime}}
+\def\Cpp{C^{\prime\prime}}
+\def\Dpp{D^{\prime\prime}}
+\def\Epp{E^{\prime\prime}}
+\def\Fpp{F^{\prime\prime}}
+\def\Gpp{G^{\prime\prime}}
+\def\Hpp{H^{\prime\prime}}
+\def\Ipp{I^{\prime\prime}}
+\def\Jpp{J^{\prime\prime}}
+\def\Kpp{K^{\prime\prime}}
+\def\Lpp{L^{\prime\prime}}
+\def\Mpp{M^{\prime\prime}}
+\def\Mpp{N^{\prime\prime}}
+\def\Opp{O^{\prime\prime}}
+\def\Ppp{P^{\prime\prime}}
+\def\Qpp{Q^{\prime\prime}}
+\def\Rpp{R^{\prime\prime}}
+\def\Spp{S^{\prime\prime}}
+\def\Tpp{T^{\prime\prime}}
+\def\Upp{U^{\prime\prime}}
+\def\Vpp{V^{\prime\prime}}
+\def\Wpp{W^{\prime\prime}}
+\def\Xpp{X^{\prime\prime}}
+\def\Ypp{Y^{\prime\prime}}
+\def\Zpp{Z^{\prime\prime}}
+\def\app{a^{\prime\prime}}
+\def\bpp{b^{\prime\prime}}
+\def\cpp{c^{\prime\prime}}
+\def\dpp{d^{\prime\prime}}
+\def\epp{e^{\prime\prime}}
+\def\fpp{f^{\prime\prime}}
+\def\gpp{g^{\prime\prime}}
+\def\hpp{h^{\prime\prime}}
+\def\ipp{i^{\prime\prime}}
+\def\jpp{j^{\prime\prime}}
+\def\kpp{k^{\prime\prime}}
+\def\lpp{l^{\prime\prime}}
+\def\mpp{m^{\prime\prime}}
+\def\npp{n^{\prime\prime}}
+\def\opp{o^{\prime\prime}}
+\def\ppp{p^{\prime\prime}}
+\def\qpp{q^{\prime\prime}}
+\def\rpp{r^{\prime\prime}}
+\def\spp{s^{\prime\prime}}
+\def\tpp{t^{\prime\prime}}
+\def\upp{u^{\prime\prime}}
+\def\vpp{v^{\prime\prime}}
+\def\wpp{w^{\prime\prime}}
+\def\xpp{x^{\prime\prime}}
+\def\ypp{y^{\prime\prime}}
+\def\zpp{z^{\prime\prime}}
+\def\abar{\overline{a}}
+\def\bbar{\overline{b}}
+\def\cbar{\overline{c}}
+\def\dbar{\overline{d}}
+\def\ebar{\overline{e}}
+\def\fbar{\overline{f}}
+\def\gbar{\overline{g}}
+\def\ibar{\overline{i}}
+\def\jbar{\overline{j}}
+\def\kbar{\overline{k}}
+\def\lbar{\overline{l}}
+\def\mbar{\overline{m}}
+\def\nbar{\overline{n}}
+\def\obar{\overline{o}}
+\def\pbar{\overline{p}}
+\def\qbar{\overline{q}}
+\def\rbar{\overline{r}}
+\def\sbar{\overline{s}}
+\def\tbar{\overline{t}}
+\def\ubar{\overline{u}}
+\def\vbar{\overline{v}}
+\def\wbar{\overline{w}}
+\def\xbar{\overline{x}}
+\def\ybar{\overline{y}}
+\def\zbar{\overline{z}}
+\def\Abar{\overline{A}}
+\def\Bbar{\overline{B}}
+\def\Cbar{\overline{C}}
+\def\Dbar{\overline{D}}
+\def\Ebar{\overline{E}}
+\def\Fbar{\overline{F}}
+\def\Gbar{\overline{G}}
+\def\Hbar{\overline{H}}
+\def\Ibar{\overline{I}}
+\def\Jbar{\overline{J}}
+\def\Kbar{\overline{K}}
+\def\Lbar{\overline{L}}
+\def\Mbar{\overline{M}}
+\def\Nbar{\overline{N}}
+\def\Obar{\overline{O}}
+\def\Pbar{\overline{P}}
+\def\Qbar{\overline{Q}}
+\def\Rbar{\overline{R}}
+\def\Sbar{\overline{S}}
+\def\Tbar{\overline{T}}
+\def\Ubar{\overline{U}}
+\def\Vbar{\overline{V}}
+\def\Wbar{\overline{W}}
+\def\Xbar{\overline{X}}
+\def\Ybar{\overline{Y}}
+\def\Zbar{\overline{Z}}
+\def\aunder{\underline{a}}
+\def\bunder{\underline{b}}
+\def\cunder{\underline{c}}
+\def\dunder{\underline{d}}
+\def\eunder{\underline{e}}
+\def\funder{\underline{f}}
+\def\gunder{\underline{g}}
+\def\hunder{\underline{h}}
+\def\iunder{\underline{i}}
+\def\junder{\underline{j}}
+\def\kunder{\underline{k}}
+\def\lunder{\underline{l}}
+\def\munder{\underline{m}}
+\def\nunder{\underline{n}}
+\def\ounder{\underline{o}}
+\def\punder{\underline{p}}
+\def\qunder{\underline{q}}
+\def\runder{\underline{r}}
+\def\sunder{\underline{s}}
+\def\tunder{\underline{t}}
+\def\uunder{\underline{u}}
+\def\vunder{\underline{v}}
+\def\wunder{\underline{w}}
+\def\xunder{\underline{x}}
+\def\yunder{\underline{y}}
+\def\zunder{\underline{z}}
+\def\Aunder{\underline{A}}
+\def\atilde{\widetilde{a}}
+\def\btilde{\widetilde{b}}
+\def\ctilde{\widetilde{c}}
+\def\dtilde{\widetilde{d}}
+\def\etilde{\widetilde{e}}
+\def\ftilde{\widetilde{f}}
+\def\gtilde{\widetilde{g}}
+\def\htilde{\widetilde{h}}
+\def\itilde{\widetilde{i}}
+\def\jtilde{\widetilde{j}}
+\def\ktilde{\widetilde{k}}
+\def\ltilde{\widetilde{l}}
+\def\mtilde{\widetilde{m}}
+\def\ntilde{\widetilde{n}}
+\def\otilde{\widetilde{o}}
+\def\ptilde{\widetilde{p}}
+\def\qtilde{\widetilde{q}}
+\def\rtilde{\widetilde{r}}
+\def\stilde{\widetilde{s}}
+\def\ttilde{\widetilde{t}}
+\def\utilde{\widetilde{u}}
+\def\vtilde{\widetilde{v}}
+\def\wtilde{\widetilde{w}}
+\def\xtilde{\widetilde{x}}
+\def\ytilde{\widetilde{y}}
+\def\ztilde{\widetilde{z}}
+\def\Atilde{\widetilde{A}}
+\def\Btilde{\widetilde{B}}
+\def\Ctilde{\widetilde{C}}
+\def\Dtilde{\widetilde{D}}
+\def\Etilde{\widetilde{E}}
+\def\Ftilde{\widetilde{F}}
+\def\Gtilde{\widetilde{G}}
+\def\Htilde{\widetilde{H}}
+\def\Itilde{\widetilde{I}}
+\def\Jtilde{\widetilde{J}}
+\def\Ktilde{\widetilde{K}}
+\def\Ltilde{\widetilde{L}}
+\def\Mtilde{\widetilde{M}}
+\def\Ntilde{\widetilde{N}}
+\def\Otilde{\widetilde{O}}
+\def\Ptilde{\widetilde{P}}
+\def\Qtilde{\widetilde{Q}}
+\def\Rtilde{\widetilde{R}}
+\def\Stilde{\widetilde{S}}
+\def\Ttilde{\widetilde{T}}
+\def\Utilde{\widetilde{U}}
+\def\Vtilde{\widetilde{V}}
+\def\Wtilde{\widetilde{W}}
+\def\Xtilde{\widetilde{X}}
+\def\Ytilde{\widetilde{Y}}
+\def\Ztilde{\widetilde{Z}}
+\def\Alphatilde{\widetilde{\Alpha}}
+\def\Betatilde{\widetilde{\Beta}}
+\def\Gammatilde{\widetilde{\Gamma}}
+\def\Deltatilde{\widetilde{\Delta}}
+\def\Epsilontilde{\widetilde{\Epsilon}}
+\def\Zetatilde{\widetilde{\Zeta}}
+\def\Etatilde{\widetilde{\Eta}}
+\def\Thetatilde{\widetilde{\Theta}}
+\def\Iotatilde{\widetilde{\Iota}}
+\def\Kappatilde{\widetilde{\Kappa}}
+\def\Lambdatilde{\widetilde{\Lamdba}}
+\def\Mutilde{\widetilde{\Mu}}
+\def\Nutilde{\widetilde{\Nu}}
+\def\Xitilde{\widetilde{\Xi}}
+\def\Omicrontilde{\widetilde{\Omicron}}
+\def\Pitilde{\widetilde{\Pi}}
+\def\Rhotilde{\widetilde{\Rho}}
+\def\Sigmatilde{\widetilde{\Sigma}}
+\def\Tautilde{\widetilde{\Tau}}
+\def\Upsilontilde{\widetilde{\Upsilon}}
+\def\Phitilde{\widetilde{\Phi}}
+\def\Chitilde{\widetilde{\Chi}}
+\def\Psitilde{\widetilde{\Psi}}
+\def\Omegatilde{\widetilde{\Omega}}
+\def\alphatilde{\widetilde{\alpha}}
+\def\betatilde{\widetilde{\beta}}
+\def\gammatilde{\widetilde{\gamma}}
+\def\deltatilde{\widetilde{\delta}}
+\def\epsilontilde{\widetilde{\epsilon}}
+\def\zetatilde{\widetilde{\zeta}}
+\def\etatilde{\widetilde{\eta}}
+\def\thetatilde{\widetilde{\theta}}
+\def\iotatilde{\widetilde{\iota}}
+\def\kappatilde{\widetilde{\kappa}}
+\def\lambdatilde{\widetilde{\lamdba}}
+\def\mutilde{\widetilde{\mu}}
+\def\nutilde{\widetilde{\nu}}
+\def\xitilde{\widetilde{\xi}}
+\def\omicrontilde{\widetilde{\omicron}}
+\def\pitilde{\widetilde{\pi}}
+\def\rhotilde{\widetilde{\rho}}
+\def\sigmatilde{\widetilde{\sigma}}
+\def\tautilde{\widetilde{\tau}}
+\def\upsilontilde{\widetilde{\upsilon}}
+\def\phitilde{\widetilde{\phi}}
+\def\chitilde{\widetilde{\chi}}
+\def\psitilde{\widetilde{\psi}}
+\def\omegatilde{\widetilde{\omega}}
+\def\Alphabar{\bar{\Alpha}}
+\def\Betabar{\bar{\Beta}}
+\def\Gammabar{\bar{\Gamma}}
+\def\Deltabar{\bar{\Delta}}
+\def\Epsilonbar{\bar{\Epsilon}}
+\def\Zetabar{\bar{\Zeta}}
+\def\Etabar{\bar{\Eta}}
+\def\Thetabar{\bar{\Theta}}
+\def\Iotabar{\bar{\Iota}}
+\def\Kappabar{\bar{\Kappa}}
+\def\Lambdabar{\bar{\Lamdba}}
+\def\Mubar{\bar{\Mu}}
+\def\Nubar{\bar{\Nu}}
+\def\Xibar{\bar{\Xi}}
+\def\Omicronbar{\bar{\Omicron}}
+\def\Pibar{\bar{\Pi}}
+\def\Rhobar{\bar{\Rho}}
+\def\Sigmabar{\bar{\Sigma}}
+\def\Taubar{\bar{\Tau}}
+\def\Upsilonbar{\bar{\Upsilon}}
+\def\Phibar{\bar{\Phi}}
+\def\Chibar{\bar{\Chi}}
+\def\Psibar{\bar{\Psi}}
+\def\Omegabar{\bar{\Omega}}
+\def\alphabar{\bar{\alpha}}
+\def\betabar{\bar{\beta}}
+\def\gammabar{\bar{\gamma}}
+\def\deltabar{\bar{\delta}}
+\def\epsilonbar{\bar{\epsilon}}
+\def\zetabar{\bar{\zeta}}
+\def\etabar{\bar{\eta}}
+\def\thetabar{\bar{\theta}}
+\def\iotabar{\bar{\iota}}
+\def\kappabar{\bar{\kappa}}
+\def\lambdabar{\bar{\lamdba}}
+\def\mubar{\bar{\mu}}
+\def\nubar{\bar{\nu}}
+\def\xibar{\bar{\xi}}
+\def\omicronbar{\bar{\omicron}}
+\def\pibar{\bar{\pi}}
+\def\rhobar{\bar{\rho}}
+\def\sigmabar{\bar{\sigma}}
+\def\taubar{\bar{\tau}}
+\def\upsilonbar{\bar{\upsilon}}
+\def\phibar{\bar{\phi}}
+\def\chibar{\bar{\chi}}
+\def\psibar{\bar{\psi}}
+\def\omegabar{\bar{\omega}}
+\def\del{\partial}
+\def\delbar{\overline{\partial}}
+\def\Cech{\check{C}}
+\def\half{\frac{1}{2}}
+\def\defeq{\mathrel{\mathop:}=}
+\def\alg{\mathrm{alg}}
+\def\Alt{\mathrm{Alt}}
+\def\Amp{\mathrm{Amp}}
+\def\Arg{\mathrm{Arg}}
+\def\an{\mathrm{an}}
+\def\anti{\mathrm{anti}}
+\def\Ap{\mathrm{Ap}}
+\def\arcsinh{\mathrm{arcsinh\hspace{0.07cm}}}
+\def\arccosh{\mathrm{arccosh\hspace{0.07cm}}}
+\def\arctanh{\mathrm{arctanh\hspace{0.07cm}}}
+\def\arccsch{\mathrm{arccsch\hspace{0.07cm}}}
+\def\arcsech{\mathrm{arcsech\hspace{0.07cm}}}
+\def\arccoth{\mathrm{arccoth\hspace{0.07cm}}}
+\def\arccsc{\mathrm{arccsc\hspace{0.07cm}}}
+\def\arcsec{\mathrm{arcsec\hspace{0.07cm}}}
+\def\arccot{\mathrm{arccot\hspace{0.07cm}}}
+\def\arg{\mathrm{arg}}
+\def\BC{\mathrm{BC}}
+\def\Bel{\mathrm{Bel}}
+\def\calCH{\mathcal{CH}}
+\def\csch{\mathrm{csch}\hspace{0.07cm}}
+\def\CH{\mathrm{CH}}
+\def\ch{\mathrm{ch}}
+\def\closed{\mathrm{closed}}
+\def\codim{\mathrm{codim}}
+\def\coth{\mathrm{coth}\hspace{0.07cm}}
+\def\Coh{\mathfrak{Coh}}
+\def\Coker{\mathrm{Coker}}
+\def\Cone{\mathrm{Cone}}
+\def\darg{d\mathrm{arg}}
+\def\Db{\mathrm{Db}}
+\def\dclosed{\mathrm{d-closed}}
+\def\deg{\mathrm{deg}}
+\def\dim{\mathrm{dim}}
+\def\divisor{\mathrm{div}}
+\def\dlog{d\mathrm{log}}
+\def\DNE{\mathrm{DNE}}
+\def\DR{\mathrm{DR}}
+\def\DST{\mathrm{DST}}
+\def\exp{\mathrm{exp}}
+\def\FLB{\mathrm{FLB}}
+\def\FLS{\mathrm{FLS}}
+\def\Gr{\mathrm{Gr}}
+\def\Hzar{H_{\mathrm{Zar}}}
+\def\Hol{\mathrm{Hol}}
+\def\Id{\mathrm{Id}}
+\def\Image{\mathrm{Im}}
+\def\Ka{\mathcal{K}_A}
+\def\Ker{\mathrm{Ker}}
+\def\kod{\mathrm{kod}}
+\def\Kx{\mathcal{K}_X}
+\def\Kz{\mathcal{K}_Z}
+\def\log{\mathrm{log}}
+\def\Log{\mathrm{Log}}
+\def\Li{\mathrm{Li}}
+\def\min{\mathrm{min}}
+\def\Mon{\mathrm{Mon}}
+\def\Nef{\mathrm{Nef}}
+\def\NS{\mathrm{NS}}
+\def\Oa{\mathcal{O}_A}
+\def\Ox{\mathcal{O}_X}
+\def\Oz{\mathcal{O}_Z}
+\def\Perp{\mathrm{Perp}}
+\def\Pic{\mathrm{Pic}}
+\def\Proj{\mathrm{Proj}}
+\def\rank{\mathrm{rank}}
+\def\Rat{\mathrm{Rat}}
+\def\Real{\mathrm{Re}}
+\def\reg{\mathrm{reg}}
+\def\Res{\mathrm{Res}}
+\def\res{\mathrm{res}}
+\def\Ric{\mathrm{Ric}}
+\def\sech{\mathrm{sech}\hspace{0.07cm}}
+\def\Span{\mathrm{Span}}
+\def\Spec{\mathrm{Spec}}
+\def\sing{\mathrm{sing}}
+\def\Singx{\mathrm{Sing}(X)}
+\def\sheafKer{\mathcal{\Ker}}
+\def\sheafIm{\mathcal{\Im}}
+\def\Span{\mathrm{Span}}
+\def\Spin{\mathrm{Spin}}
+\def\Str{\mathrm{Str}}
+\def\td{\mathrm{td}}
+\def\tr{\mathrm{tr}}
+\def\Todd{\mathrm{Todd}}
+\def\tor{\mathrm{tor}}
+\def\trdeg{\mathrm{trdeg}}
+\def\Zar{\mathrm{Zar}}
+\def\ZFLS{\mathrm{ZFLS}}
+
+  \usepackage{tikz}
+  \usepackage{tkz-graph}
+  \usepackage{tkz-euclide}
+  \usetikzlibrary{patterns}
+  \usetikzlibrary{positioning}
+  \usetikzlibrary{matrix,arrows}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{shapes}
+  \usetikzlibrary{through,intersections,decorations,shadows,fadings}
+  \usepackage{pgfplots}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">Course Notes for Calculus I</span></a></h1>
+<p class="byline">Remkes Kooistra</p>
+</div>
+</div></div>
+<nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="section-derivative-rules.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="chapter-week6.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="chapter-week7.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="section-derivative-rules.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="chapter-week6.html" title="Up">Up</a><a class="next-button button toolbar-item" href="chapter-week7.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="calculus1.html" data-scroll="calculus1"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon.html" data-scroll="colophon">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week1.html" data-scroll="chapter-week1"><span class="codenumber">1</span> <span class="title">Week 1</span></a><ul>
+<li><a href="section-analytic-geometry.html" data-scroll="section-analytic-geometry">Analytic Geometry</a></li>
+<li><a href="section-lines.html" data-scroll="section-lines">Lines</a></li>
+<li><a href="section-conics.html" data-scroll="section-conics">Conics</a></li>
+<li><a href="section-intersection.html" data-scroll="section-intersection">Intersection</a></li>
+<li><a href="section-shifts.html" data-scroll="section-shifts">Shifts</a></li>
+<li><a href="section-week1-activity.html" data-scroll="section-week1-activity">Week 1 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week2.html" data-scroll="chapter-week2"><span class="codenumber">2</span> <span class="title">Week 2</span></a><ul>
+<li><a href="section-functions.html" data-scroll="section-functions">Functions</a></li>
+<li><a href="section-types-of-functions.html" data-scroll="section-types-of-functions">Types of Functions</a></li>
+<li><a href="properties-of-functions.html" data-scroll="properties-of-functions">Properties of Functions</a></li>
+<li><a href="section-operations-on-functions.html" data-scroll="section-operations-on-functions">Operations on Functions</a></li>
+<li><a href="section-models.html" data-scroll="section-models">Models</a></li>
+<li><a href="section-week2-activity.html" data-scroll="section-week2-activity">Week 2 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week3.html" data-scroll="chapter-week3"><span class="codenumber">3</span> <span class="title">Week 3</span></a><ul>
+<li><a href="section-population-growth.html" data-scroll="section-population-growth">Population Growth</a></li>
+<li><a href="section-differential-equations.html" data-scroll="section-differential-equations">Differential Equations</a></li>
+<li><a href="section-phase-lines.html" data-scroll="section-phase-lines">Phase Lines</a></li>
+<li><a href="section-week3-activity.html" data-scroll="section-week3-activity">Week 3 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chatper-week4.html" data-scroll="chatper-week4"><span class="codenumber">4</span> <span class="title">Week 4</span></a><ul>
+<li><a href="limits-concept.html" data-scroll="limits-concept">The Concept of a Limit</a></li>
+<li><a href="section-limits-at-finite-values.html" data-scroll="section-limits-at-finite-values">Calcluating Limits at Finite Values</a></li>
+<li><a href="section-continuity.html" data-scroll="section-continuity">Continuity</a></li>
+<li><a href="section-edge-behaviour-of-models.html" data-scroll="section-edge-behaviour-of-models">Edge Behaviour of Models</a></li>
+<li><a href="subsection-week4-activity.html" data-scroll="subsection-week4-activity">Week 4 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week5.html" data-scroll="chapter-week5"><span class="codenumber">5</span> <span class="title">Week 5</span></a><ul>
+<li><a href="section-limits-at-infinity.html" data-scroll="section-limits-at-infinity">Limits at Infinity</a></li>
+<li><a href="section-asymptotic_analysis.html" data-scroll="section-asymptotic_analysis">Asymptotic Analysis</a></li>
+<li><a href="section-indeterminate-forms.html" data-scroll="section-indeterminate-forms">Indeterminate Forms</a></li>
+<li><a href="section-long-term-behaviour-of-models.html" data-scroll="section-long-term-behaviour-of-models">Extreme Values of Models</a></li>
+<li><a href="section-week5-activity.html" data-scroll="section-week5-activity">Week 5 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week6.html" data-scroll="chapter-week6"><span class="codenumber">6</span> <span class="title">Week 6</span></a><ul>
+<li><a href="section-two-motivating-problems.html" data-scroll="section-two-motivating-problems">Two Motivating Problems</a></li>
+<li><a href="section-derivative-definition.html" data-scroll="section-derivative-definition">Definition of the Derivative</a></li>
+<li><a href="section-derivative-rules.html" data-scroll="section-derivative-rules">Rules for Differentiation</a></li>
+<li><a href="subsection-week6-activity.html" data-scroll="subsection-week6-activity" class="active">Week 6 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week7.html" data-scroll="chapter-week7"><span class="codenumber">7</span> <span class="title">Week 7</span></a><ul>
+<li><a href="section-chain-rule.html" data-scroll="section-chain-rule">The Chain Rule</a></li>
+<li><a href="section-higher-derivatives.html" data-scroll="section-higher-derivatives">Higher Derivatives</a></li>
+<li><a href="section-h-rule.html" data-scroll="section-h-rule">L'Hôpital's Rule</a></li>
+<li><a href="section-week7-activity.html" data-scroll="section-week7-activity">Week 7 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week8.html" data-scroll="chapter-week8"><span class="codenumber">8</span> <span class="title">Week 8</span></a><ul>
+<li><a href="section-sigma-notation.html" data-scroll="section-sigma-notation">Sigma Notation</a></li>
+<li><a href="section-riemann-integral.html" data-scroll="section-riemann-integral">The Riemann Integral</a></li>
+<li><a href="section-fundamental-theorem.html" data-scroll="section-fundamental-theorem">The Fundamental Theorem</a></li>
+<li><a href="section-week8-activity.html" data-scroll="section-week8-activity">Week 8 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week9.html" data-scroll="chapter-week9"><span class="codenumber">9</span> <span class="title">Week 9</span></a><ul>
+<li><a href="section-substitution-rule.html" data-scroll="section-substitution-rule">The Substitution Rule</a></li>
+<li><a href="section-week9-activity.html" data-scroll="section-week9-activity">Week 9 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week10.html" data-scroll="chapter-week10"><span class="codenumber">10</span> <span class="title">Week 10</span></a><ul>
+<li><a href="section-des.html" data-scroll="section-des">Solving Differential Equations</a></li>
+<li><a href="section-population-de.html" data-scroll="section-population-de">The Population Differential Equation</a></li>
+<li><a href="section-logistic-de.html" data-scroll="section-logistic-de">The Logistic Differential Equation</a></li>
+<li><a href="subsection-week10-activity.html" data-scroll="subsection-week10-activity">Week 10 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week11.html" data-scroll="chapter-week11"><span class="codenumber">11</span> <span class="title">Week 11</span></a><ul>
+<li><a href="section-extrema.html" data-scroll="section-extrema">Extrema</a></li>
+<li><a href="section-optimization.html" data-scroll="section-optimization">Optimization</a></li>
+<li><a href="marginal-analysis.html" data-scroll="marginal-analysis">Marginal Analysis</a></li>
+<li><a href="section-week11-activity.html" data-scroll="section-week11-activity">Week 11 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week12.html" data-scroll="chapter-week12"><span class="codenumber">12</span> <span class="title">Week 12</span></a><ul>
+<li><a href="section-curve-sketching.html" data-scroll="section-curve-sketching">Curve Sketching</a></li>
+<li><a href="section-model-interpretation.html" data-scroll="section-model-interpretation">Model Interpretation</a></li>
+<li><a href="subsection-week12-activity.html" data-scroll="subsection-week12-activity">Week 12 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-additional-materials.html" data-scroll="chapter-additional-materials"><span class="codenumber">13</span> <span class="title">Additional Materials</span></a><ul>
+<li><a href="section-how-to-write-an-assignment.html" data-scroll="section-how-to-write-an-assignment">How to Write a Math Assignment</a></li>
+<li><a href="section-adacemic-honesty.html" data-scroll="section-adacemic-honesty">Academic Honesty in Mathematics Courses</a></li>
+<li><a href="section-notations.html" data-scroll="section-notations">Mathematical Notations</a></li>
+<li><a href="section-reference.html" data-scroll="section-reference">Reference</a></li>
+<li><a href="section-label.html" data-scroll="section-label">Title</a></li>
+</ul>
+</li>
+<li class="link backmatter"><a href="backmatter-1.html" data-scroll="backmatter-1"><span class="title">Back Matter</span></a></li>
+</ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="subsection-week6-activity"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">6.4</span> <span class="title">Week 6 Activity</span>
+</h2>
+<section class="subsection" id="subsection-activity-derivatives-by-definition"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.4.1</span> <span class="title">Derivatives By Definition</span>
+</h3>
+<article class="activity project-like" id="activity-82"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.1</span><span class="period">.</span>
+</h6>
+<p id="p-459">Calculate this derivative by definition.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} (x^2-4)
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-82" id="solution-82"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-82"><div class="solution solution-like">
+<p id="p-460">We use the limit definition of the derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} (x^2-4) = \lim_{h \rightarrow 0}
+\frac{(x+h)^2 - 4 - (x^2-4)}{h} 
+\end{equation*}
+</div>
+<p data-braille="continuation">Then we simplify this expression, trying to find a way to factor an \(h\) from the numerator so that we can cancel it with the \(h\) from the denominator.</p>
+<div class="displaymath">
+\begin{align*}
+\lim_{h \rightarrow 0} \frac{(x+h)^2 - 4 - (x^2-4)}{h}
+\amp = \lim_{h \rightarrow 0} \frac{x^2 + 4xh + h^2 - 4 -
+x^2 + 4}{h} \\
+\amp = \lim_{h \rightarrow 0} \frac{4xh + h^2}{h} \\
+\amp = \lim_{h \rightarrow 0} \frac{h(4x + h)}{h} \\
+\amp = \lim_{h \rightarrow 0} 4x + h  = 4+0 = 4x
+\end{align*}
+</div>
+<p data-braille="continuation">Therefore, the derivative is \(4x\text{.}\)</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-83"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.2</span><span class="period">.</span>
+</h6>
+<p id="p-461">Calculate this derivative by definition.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} \sqrt{5x}
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-83" id="solution-83"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-83"><div class="solution solution-like">
+<p id="p-462">We use the limit definition of the derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} \sqrt{5x} = \lim_{h \rightarrow 0}
+\frac{\sqrt{5(x+h)} - \sqrt{5h}}{h} 
+\end{equation*}
+</div>
+<p data-braille="continuation">Then we simplify this expression, trying to find a way to factor an \(h\) from the numerator so that we can cancel it with the \(h\) from the denominator. We use a trick here called multiplying by the conjugate. This trick will remove the square roots from the numerator (it also makes the denominator more complicated, but that's not a problem). This trick is based on the idea that if we multiply the top and bottom of a fraction by the same thing, then we haven't changed the value of the fraction at all.</p>
+<div class="displaymath">
+\begin{align*}
+\lim_{h \rightarrow 0} \frac{\sqrt{5(x+h)} - \sqrt{5}}{h}
+\amp = \lim_{h \rightarrow 0} \frac{(\sqrt{5(x+h)} -
+\sqrt{5x})(\sqrt{5(x+h)} + \sqrt{5x}}{h(\sqrt{5(x+h)} -
+\sqrt{5x})}\\
+\amp = \lim_{h \rightarrow 0} \frac{5(x+h) -
+5x}{h(\sqrt{5(x+h)} + \sqrt{5x})} \\
+\amp = \lim_{h \rightarrow 0} \frac{5x + 5h -
+5x}{h(\sqrt{5(x+h)} + \sqrt{5x})} \\
+\amp = \lim_{h \rightarrow 0} \frac{5h}{h(\sqrt{5(x+h)}
++ \sqrt{5x})} \\
+\amp = \lim_{h \rightarrow 0} \frac{5}{(\sqrt{5(x+h)}
++ \sqrt{5x})} 
+\end{align*}
+</div>
+<p data-braille="continuation">After multiplying by the conjugate, simplifying the numerator, and cancelling the \(h\) from numerator and denominator, we reach a point where we can simply evaluate the limit by replacing \(h\) with 0.</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{h \rightarrow 0} \frac{5}{(\sqrt{5(x+h)}
++ \sqrt{5x})} = \frac{5}{\sqrt{5x}+ \sqrt{5x}} =
+\frac{5}{2\sqrt{5x}} 
+\end{equation*}
+</div>
+<p data-braille="continuation">This is a reasonable expression for the derivative of the original function.</p>
+</div></div>
+</div></article></section><section class="subsection" id="subsection-activity-derivatives"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.4.2</span> <span class="title">Derivatives</span>
+</h3>
+<article class="activity project-like" id="activity-84"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.3</span><span class="period">.</span>
+</h6>
+<p id="p-463">Calculate this derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} 8x^3 - 4x^2 + 3x + 1
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-84" id="solution-84"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-84"><div class="solution solution-like">
+<p id="p-464">We can use linearity to split this up into four derivatives.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} 8x^3 - 4x^2 + 3x + 1 = \frac{d}{dx} 8x^3 -
+\frac{d}{dx} 4x^2 + \frac{d}{dx} 3x + \frac{d}{dx} 1 
+\end{equation*}
+</div>
+<p data-braille="continuation">We can use linearity again to take out the constant.</p>
+<div class="displaymath">
+\begin{equation*}
+= 8 \frac{d}{dx} x^3 - 4 \frac{d}{dx} x^2 + 3 \frac{d}{dx}
+x + \frac{d}{dx} 1 
+\end{equation*}
+</div>
+<p data-braille="continuation">Then we apply the product rule to the first two derivatives, and known deriavtive for the second pair.</p>
+<div class="displaymath">
+\begin{equation*}
+= 8 (3x^2) - 4 (2x) + 3 (1) + 0 = 24x^2 - 8x + 3
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-85"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.4</span><span class="period">.</span>
+</h6>
+<p id="p-465">Calculate this derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} 9x^4 - 2x^3 - x - 17
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-85" id="solution-85"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-85"><div class="solution solution-like">
+<p id="p-466">We can use linearity to split this up and pull out the constant. (In the previous question, I did this over two linearity steps. As we move on, we tend to show fewer steps and apply the rules more quickly and less explicitly.)</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} 9x^4 - 2x^3 - x - 17 = 9 \frac{d}{dx} x^4 - 2
+\frac{d}{dx} x^3 - \frac{d}{dx} x - \frac{d}{dx} 17
+\end{equation*}
+</div>
+<p data-braille="continuation">Then we use the power rule and known derivatives.</p>
+<div class="displaymath">
+\begin{equation*}
+= 9 (4x^3) - 2 (3x^2) - 1 - 0 = 36x^3 - 6x^2 - 1
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-86"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.5</span><span class="period">.</span>
+</h6>
+<p id="p-467">Calculate this derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} (x^2) \sin x
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-86" id="solution-86"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-86"><div class="solution solution-like">
+<p id="p-468">We use the product rule. I will label the pieces as \(f(x)
+= x^2\) and \(g(x) = \sin x\text{.}\) Here is the form of the product rule.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} f(x) g(x) = f(x) \frac{d}{dx} g(x) + g(x)
+\frac{d}{dx} f(x) 
+\end{equation*}
+</div>
+<p data-braille="continuation">We apply this form to the piece of this product.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} (x^2) \sin x = x^2 \frac{d}{dx} (\sin x) +
+(\sin x) \frac{d}{dx} x^2 
+\end{equation*}
+</div>
+<p data-braille="continuation">We apply the power rule for the polynomial derivative and the known derivative of the sine function from our tables.</p>
+<div class="displaymath">
+\begin{equation*}
+= x^2 (\cos x) + (\sin x) (2x)
+\end{equation*}
+</div>
+<p data-braille="continuation">This is a reasonable way to leave the answer. However, by pure convention, I like to write polynoials before trig function, so I'll write the answer slightly differently.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} (x^2) \sin x = x^2\cos x + 2x\sin x
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-87"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.6</span><span class="period">.</span>
+</h6>
+<p id="p-469">Calculate this derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} (x^2+3)(x^3 - 7x - 1)
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-87" id="solution-87"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-87"><div class="solution solution-like">
+<p id="p-470">We use the product rule. I will label the pieces as \(f(x)
+= (x^2 + 3) \) and \(g(x) = (x^3 - 7x - 1)\text{.}\) Here is the form of the product rule.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} f(x) g(x) = f(x) \frac{d}{dx} g(x) + g(x)
+\frac{d}{dx} f(x) 
+\end{equation*}
+</div>
+<p data-braille="continuation">We apply this form to the piece of this product.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} (x^2+3)(x^3 - 7x - 1) = (x^2 + 3)
+\frac{d}{dx} (x^3 - 7x - 1) + (x^3 - 7x - 1) \frac{d}{dx}
+(x^2+3)
+\end{equation*}
+</div>
+<p data-braille="continuation">Then, in each of the two derivatives, we use linearity to split the derivative up over the pieces.</p>
+<div class="displaymath">
+\begin{equation*}
+= (x^2+3) \left( \frac{d}{dx} x^3 - 7 \frac{d}{dx} x -
+\frac{d}{dx} 1 \right) + (x^3 - 7x - 1) \left( \frac{d}{dx}
+x^2 + \frac{d}{dx} 3 \right)
+\end{equation*}
+</div>
+<p data-braille="continuation">Then we use the power rule and known derivatives to evaluate all the individual derivatives.</p>
+<div class="displaymath">
+\begin{equation*}
+= (x^2+3) \left( 3x^2  - 7 - 0 \right) + (x^3 - 7x - 1)
+\left( 2x + 0 \right)
+\end{equation*}
+</div>
+<p data-braille="continuation">We could leave it in this form -- this is a valid answer. However, expanding and simplifying into a single polynomial is certainly a cleaner way to leave the answer.</p>
+<div class="displaymath">
+\begin{equation*}
+= 3x^4 + 9x^2 - 7x^2 - 21  + 2x^4 - 14x^2 - 2x = 5x^4 -
+12x^2 - 2x - 21
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-88"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.7</span><span class="period">.</span>
+</h6>
+<p id="p-471">Calculate this derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} \frac{x^2+3}{x-4}
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-88" id="solution-88"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-88"><div class="solution solution-like">
+<p id="p-472">We use the quotient rule. I will label the pieces as \(f(x)
+= x^2+3\) and \(g(x) = x-4\text{.}\) Here is the form of the product rule.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} f(x) g(x) = g(x) \frac{d}{dx} f(x) - f(x)
+\frac{d}{dx} g(x) 
+\end{equation*}
+</div>
+<p data-braille="continuation">We apply this form to the piece of this product.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{(x-4) \frac{d}{dx} (x^2+3) - (x^2+3) \frac{d}{dx}
+(x-4)}{(x-4))^2}
+\end{equation*}
+</div>
+<p data-braille="continuation">We use linearity to split up the derivatives in the numerator. Then we use the power rule and known derivatives for these derivatives.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{(x-4) \left( 2x + 0 \right) - (x^2+3)
+(1-0)}{(x-4))^2}
+\end{equation*}
+</div>
+<p data-braille="continuation">To put the answer in a more pleasant form, we distribute the multiplications in the numerator to write it as one polynomial.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{2x^2 - 8x - x^2 - 3}{(x-4))^2} = \frac{x^2 - 8x -
+3}{(x-4)^2} 
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-89"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.8</span><span class="period">.</span>
+</h6>
+<p id="p-473">Calculate this derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} \sqrt{x} + x^2
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-89" id="solution-89"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-89"><div class="solution solution-like">
+<p id="p-474">We use linearity to split up the derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} \sqrt{x} + x^2 = \frac{d}{dx} \sqrt{x} +
+\frac{d}{dx} x^2 
+\end{equation*}
+</div>
+<p data-braille="continuation">The second derivative is a power rule, which we are pretty familiar with by this point. The first is also a power rule, if we write the square root as a fractional exponent: \(\sqrt{x} = x^\frac{1}{2}\text{.}\)</p>
+<div class="displaymath">
+\begin{equation*}
+= \frac{d}{dx} x^{\frac{1}{2}} + \frac{d}{dx} x^2 =
+\frac{1}{2} x^{-\frac{1}{2}} + 2x 
+\end{equation*}
+</div>
+<p data-braille="continuation">To finish, I'll return the fractional exponent to a square root form, since that is the more conventional notation.</p>
+<div class="displaymath">
+\begin{equation*}
+= \frac{1}{2\sqrt{x}} + 2x 
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-90"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.9</span><span class="period">.</span>
+</h6>
+<p id="p-475">Calculate this derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} e^x \sqrt{x} 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-90" id="solution-90"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-90"><div class="solution solution-like">
+<p id="p-476">We use the product rule. I will label the pieces as \(f(x)
+= e^x\) and \(g(x) = \sqrt{x}\text{.}\) Here is the form of the product rule.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} f(x) g(x) = f(x) \frac{d}{dx} g(x) + g(x)
+\frac{d}{dx} f(x) 
+\end{equation*}
+</div>
+<p data-braille="continuation">We apply this form to the piece of this product.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} e^x \sqrt{x} = e^x \frac{d}{dx} \sqrt{x} +
+\sqrt{x} \frac{d}{dx} e^x
+\end{equation*}
+</div>
+<p data-braille="continuation">The derivative of the exponential function is itself, but we have to write the square root as a fracitonal exponent to use the power rule to differentiate it.</p>
+<div class="displaymath">
+\begin{equation*}
+= e^x \frac{d}{dx} x^\frac{1}{2} +
+\sqrt{x} \frac{d}{dx} e^x = e^x \frac{1}{2}
+x^{\frac{-1}{2}} + \sqrt{x} e^x 
+\end{equation*}
+</div>
+<p data-braille="continuation">I'll change the fractional exponent back to a conventional square root expression. I'll also factor out the exponential term which is common to both expressions.</p>
+<div class="displaymath">
+\begin{equation*}
+= e^x \left( \frac{1}{2\sqrt{x}} + \sqrt{x} \right)
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-91"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.10</span><span class="period">.</span>
+</h6>
+<p id="p-477">Calculate this derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} \frac{\sqrt{x}}{x^2+4} 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-91" id="solution-91"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-91"><div class="solution solution-like">
+<p id="p-478">We use the quotient rule. I will label the pieces as \(f(x)
+= \sqrt{x}\) and \(g(x) = x^2+4\text{.}\) Here is the form of the product rule.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} f(x) g(x) = g(x) \frac{d}{dx} f(x) - f(x)
+\frac{d}{dx} g(x) 
+\end{equation*}
+</div>
+<p data-braille="continuation">We apply this form to the piece of this product.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} \frac{\sqrt{x}}{x^2+4} = \frac{ (x^2+4)
+\frac{d}{dx} \sqrt{x} - \sqrt{x} \frac{d}{dx}
+(x^2+4)}{(x^2+4)^2} 
+\end{equation*}
+</div>
+<p data-braille="continuation">We need to evaluate both the derivative in the numerator. The second can be evaluated with linearity and the power rule, like all polynomials. The first is evaluated by writing the square root as a fractional exponent.</p>
+<div class="displaymath">
+\begin{align*}
+\amp = \frac{ (x^2+4) \frac{d}{dx} x^\frac{1}{x} - \sqrt{x}
+\left( \frac{d}{dx} x^2 + \frac{d}{dx} 4 \right)}{(x^2+4)^2} \\
+\amp = \frac{ (x^2+4) \frac{1}{2} x^{\frac{-1}{2}} - \sqrt{x}
+(2x+0)}{(x^2+4)^2} 
+\end{align*}
+</div>
+<p data-braille="continuation">This is an answers, but as usual, I'll make some simplifications to give a more pleasant and usable form of the answer.</p>
+<div class="displaymath">
+\begin{equation*}
+= \frac{\frac{x^2+4}{2\sqrt{x}} - 2x\sqrt{x}}{(x^2+4)^2}
+= \frac{x^2 + 4 + 4x^2}{2(x^2+4)\sqrt{x}} =
+\frac{5x^2+4}{2(x^2+4)\sqrt{x}}
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-92"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.11</span><span class="period">.</span>
+</h6>
+<p id="p-479">Calculate this derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} \frac{e^x}{x^2+1}
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-92" id="solution-92"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-92"><div class="solution solution-like">
+<p id="p-480">We use the quotient rule. I will label the pieces as \(f(x)
+= e^x\) and \(g(x) = x^2+1\text{.}\) Here is the form of the product rule.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} f(x) g(x) = g(x) \frac{d}{dx} f(x) - f(x)
+\frac{d}{dx} g(x) 
+\end{equation*}
+</div>
+<p data-braille="continuation">We apply this form to the piece of this product.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} \frac{e^x}{x^2+1} = \frac{ (x^2+1)
+\frac{d}{dx} e^x - e^x \frac{d}{dx} (x^2+1)}{(x^2+1)^2}
+\end{equation*}
+</div>
+<p data-braille="continuation">The first derivative is the known derivative of the exponential function. The second deriative, like all polynomial, is solved by linearity and the power rule.</p>
+<div class="displaymath">
+\begin{equation*}
+= \frac{d}{dx} \frac{e^x}{x^2+1} = \frac{ (x^2+1)
+e^x - e^x (2x+0)}{(x^2+1)^2}
+\end{equation*}
+</div>
+<p data-braille="continuation">As usual, I'll make some simplifications to the result of the derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} \frac{e^x}{x^2+1} = \frac{ e^x (-x^2+1)}
+{(x^2+1)^2}
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-93"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.12</span><span class="period">.</span>
+</h6>
+<p id="p-481">Calculate this derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} \frac{\cos x}{x} + \frac{\sin x}{x} 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-93" id="solution-93"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-93"><div class="solution solution-like">
+<p id="p-482">These are both quotient rule derivatives. I'll not write the general form and labelling here, but proceed with the specific calculation.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} \frac{\cos x}{x} + \frac{\sin x}{x} =
+\frac{x \frac{d}{dx} \cos x - \cos x \frac{d}{dx}
+x}{\cos^2 x} + \frac{x \frac{d}{dx} \sin x - \sin x
+\frac{d}{dx} x}{\sin^2 x} 
+\end{equation*}
+</div>
+<p data-braille="continuation">Then we need to all four of the specific derivatives, which are all known derivatives.</p>
+<div class="displaymath">
+\begin{equation*}
+= \frac{-x \sin x - \cos x}{\cos^2} + \frac{x \cos x -
+\sin x}{\sin^2 x}
+\end{equation*}
+</div>
+<p data-braille="continuation">Some change in expression could be made -- common denominator for both fractions, or splitting up numerators. None of them seems to me to create any substantially simpler expression, so I'm content to leave the answer in this form.</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-94"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.13</span><span class="period">.</span>
+</h6>
+<p id="p-483">Calculate this derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} (x^2+1)(\sin x)(e^x)
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-94" id="solution-94"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-94"><div class="solution solution-like">
+<p id="p-484">This is a triple product. We still need the product rule, but we have to be conscious of the group. There are several options, but I will choose \(f(x) = (x^2+1)\) and \(g(x)
+= (\sin x)(e^x)\text{.}\) Then I proceed with the product rule form.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{d}{dx} (x^2+1)(\sin x)(e^x) = (x^2+1) \frac{d}{dx}
+\left( (\sin x)(e^x) \right) + (\sin x)(e^x) \frac{d}{dx}
+(x^2+1)
+\end{equation*}
+</div>
+<p data-braille="continuation">The second derivative is a reasonable polynomial, solved by linearity. The first derivative, however, is still a product. We need to do another product rule with this product.</p>
+<div class="displaymath">
+\begin{equation*}
+= (x^2+1) \left( e^x \frac{d}{dx} \sin x + \sin x
+\frac{d}{dx} e^x \right) + (\sin x)(e^x) (2x+0)
+\end{equation*}
+</div>
+<p data-braille="continuation">Then I just need to use the two known derivatives of the sine function and the exponential function.</p>
+<div class="displaymath">
+\begin{equation*}
+= (x^2+1) \left( e^x \cos x + \sin x e^x \right) 
++ (\sin x)(e^x) (2x)
+\end{equation*}
+</div>
+<p data-braille="continuation">I can simplify this slightly by factoring out the exponential and combining the polynomial terms.</p>
+<div class="displaymath">
+\begin{align*}
+\amp = e^x \left( (x^2+1) \cos x + (x^2+1) \sin x 
++ (2x) (\sin x) \right) \\
+\amp = e^x \left( (x^2+1) \cos x + (x^2 + 2x + 1) \sin x
+\right) 
+\end{align*}
+</div>
+</div></div>
+</div></article></section><section class="subsection" id="subsection-week6-concepts"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.4.3</span> <span class="title">Conceptual Review Questions</span>
+</h3>
+<ul id="p-485" class="disc">
+<li id="li-107">What is a derivative? What does it do and what does it mean?</li>
+<li id="li-108">Why is a derivative calculated by a limit? Why do we need limits to define derivatives?</li>
+<li id="li-109">What is linearity? Why is the derivative linear?</li>
+<li id="li-110">What are the product and quotient rules? Why isn't the derivative of a product or quotient simply the product or quotient of the derivatives?</li>
+<li id="li-111">Why are square root and other roots the same as fractional exponents?</li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

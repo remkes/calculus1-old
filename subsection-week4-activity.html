@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2020-08-27T21:37:29-06:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Week 4 Activity</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", "AMScd.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script xmlns:svg="http://www.w3.org/2000/svg">sagecellEvalName='Evaluate (Sage)';
+</script><link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link xmlns:svg="http://www.w3.org/2000/svg" href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div xmlns:svg="http://www.w3.org/2000/svg" class="hidden-content" style="display:none">\(\def\vs{{\it vs. }}
+\def\cf{{\it cf. }}
+\def\viz{{\it viz. }}
+\def\ie{{\it i.e. }}
+\def\etc{{\it etc. }}
+\def\eg{{\it e.g. }}
+\def\etal{{\it et al .}}
+\def\via{{\it via }}
+\def\adhoc{{\it ad hoc }}
+\def\apriori{{\it apriori }}
+\def\Afrak{\mathfrak{A}}
+\def\Bfrak{\mathfrak{B}}
+\def\Cfrak{\mathfrak{C}}
+\def\Dfrak{\mathfrak{D}}
+\def\Efrak{\mathfrak{E}}
+\def\Ffrak{\mathfrak{F}}
+\def\Gfrak{\mathfrak{G}}
+\def\Hfrak{\mathfrak{H}}
+\def\Ifrak{\mathfrak{I}}
+\def\Jfrak{\mathfrak{J}}
+\def\Kfrak{\mathfrak{K}}
+\def\Lfrak{\mathfrak{L}}
+\def\Mfrak{\mathfrak{M}}
+\def\Nfrak{\mathfrak{N}}
+\def\Ofrak{\mathfrak{O}}
+\def\Pfrak{\mathfrak{P}}
+\def\Qfrak{\mathfrak{Q}}
+\def\Rfrak{\mathfrak{R}}
+\def\Sfrak{\mathfrak{S}}
+\def\Tfrak{\mathfrak{T}}
+\def\Ufrak{\mathfrak{U}}
+\def\Vfrak{\mathfrak{V}}
+\def\Wfrak{\mathfrak{W}}
+\def\Xfrak{\mathfrak{X}}
+\def\Yfrak{\mathfrak{Y}}
+\def\Zfrak{\mathfrak{Z}}
+\def\afrak{\mathfrak{a}}
+\def\bfrak{\mathfrak{b}}
+\def\cfrak{\mathfrak{c}}
+\def\dfrak{\mathfrak{d}}
+\def\efrak{\mathfrak{e}}
+\def\ffrak{\mathfrak{f}}
+\def\gfrak{\mathfrak{g}}
+\def\hfrak{\mathfrak{h}}
+\def\ifrak{\mathfrak{i}}
+\def\jfrak{\mathfrak{j}}
+\def\kfrak{\mathfrak{k}}
+\def\lfrak{\mathfrak{l}}
+\def\mfrak{\mathfrak{m}}
+\def\nfrak{\mathfrak{n}}
+\def\ofrak{\mathfrak{o}}
+\def\pfrak{\mathfrak{p}}
+\def\qfrak{\mathfrak{q}}
+\def\rfrak{\mathfrak{r}}
+\def\sfrak{\mathfrak{s}}
+\def\tfrak{\mathfrak{t}}
+\def\ufrak{\mathfrak{u}}
+\def\vfrak{\mathfrak{v}}
+\def\wfrak{\mathfrak{w}}
+\def\xfrak{\mathfrak{x}}
+\def\yfrak{\mathfrak{y}}
+\def\zfrak{\mathfrak{z}}
+\def\AA{\mathbb{A}}
+\def\BB{\mathbb{B}}
+\def\CC{\mathbb{C}}
+\def\DD{\mathbb{D}}
+\def\EE{\mathbb{E}}
+\def\FF{\mathbb{F}}
+\def\GG{\mathbb{G}}
+\def\HH{\mathbb{H}}
+\def\II{\mathbb{I}}
+\def\JJ{\mathbb{J}}
+\def\KK{\mathbb{K}}
+\def\LL{\mathbb{L}}
+\def\MM{\mathbb{M}}
+\def\NN{\mathbb{N}}
+\def\OO{\mathbb{O}}
+\def\PP{\mathbb{P}}
+\def\QQ{\mathbb{Q}}
+\def\RR{\mathbb{R}}
+\def\SS{\mathbb{S}}
+\def\TT{\mathbb{T}}
+\def\UU{\mathbb{U}}
+\def\VV{\mathbb{V}}
+\def\WW{\mathbb{W}}
+\def\XX{\mathbb{X}}
+\def\YY{\mathbb{Y}}
+\def\ZZ{\mathbb{Z}}
+\def\calA{\mathcal{A}}
+\def\calB{\mathcal{B}}
+\def\calC{\mathcal{C}}
+\def\calD{\mathcal{D}}
+\def\calE{\mathcal{E}}
+\def\calF{\mathcal{F}}
+\def\calG{\mathcal{G}}
+\def\calH{\mathcal{H}}
+\def\calI{\mathcal{I}}
+\def\calJ{\mathcal{J}}
+\def\calK{\mathcal{K}}
+\def\calL{\mathcal{L}}
+\def\calM{\mathcal{M}}
+\def\calN{\mathcal{N}}
+\def\calO{\mathcal{O}}
+\def\calP{\mathcal{P}}
+\def\calQ{\mathcal{Q}}
+\def\calR{\mathcal{R}}
+\def\calS{\mathcal{S}}
+\def\calT{\mathcal{T}}
+\def\calU{\mathcal{U}}
+\def\calV{\mathcal{V}}
+\def\calW{\mathcal{W}}
+\def\calX{\mathcal{X}}
+\def\calY{\mathcal{Y}}
+\def\calZ{\mathcal{Z}}
+\def\Ap{A^\prime}
+\def\Bp{B^\prime}
+\def\Cp{C^\prime}
+\def\Dp{D^\prime}
+\def\Ep{E^\prime}
+\def\Fp{F^\prime}
+\def\Gp{G^\prime}
+\def\Hp{H^\prime}
+\def\Ip{I^\prime}
+\def\Jp{J^\prime}
+\def\Kp{K^\prime}
+\def\Lp{L^\prime}
+\def\Mp{M^\prime}
+\def\Mp{N^\prime}
+\def\Op{O^\prime}
+\def\Pp{P^\prime}
+\def\Qp{Q^\prime}
+\def\Rp{R^\prime}
+\def\Sp{S^\prime}
+\def\Tp{T^\prime}
+\def\Up{U^\prime}
+\def\Vp{V^\prime}
+\def\Wp{W^\prime}
+\def\Xp{X^\prime}
+\def\Yp{Y^\prime}
+\def\Zp{Z^\prime}
+\def\ap{a^\prime}
+\def\bp{b^\prime}
+\def\cp{c^\prime}
+\def\dprime{d^\prime}
+\def\ep{e^\prime}
+\def\fp{f^\prime}
+\def\gp{g^\prime}
+\def\hp{h^\prime}
+\def\ip{i^\prime}
+\def\jp{j^\prime}
+\def\kp{k^\prime}
+\def\lp{l^\prime}
+\def\mp{m^\prime}
+\def\np{n^\prime}
+\def\op{o^\prime}
+\def\pp{p^\prime}
+\def\qp{q^\prime}
+\def\rp{r^\prime}
+\def\sp{s^\prime}
+\def\tp{t^\prime}
+\def\up{u^\prime}
+\def\vp{v^\prime}
+\def\wp{w^\prime}
+\def\xp{x^\prime}
+\def\yp{y^\prime}
+\def\zp{z^\prime}
+\def\App{A^{\prime\prime}}
+\def\Bpp{B^{\prime\prime}}
+\def\Cpp{C^{\prime\prime}}
+\def\Dpp{D^{\prime\prime}}
+\def\Epp{E^{\prime\prime}}
+\def\Fpp{F^{\prime\prime}}
+\def\Gpp{G^{\prime\prime}}
+\def\Hpp{H^{\prime\prime}}
+\def\Ipp{I^{\prime\prime}}
+\def\Jpp{J^{\prime\prime}}
+\def\Kpp{K^{\prime\prime}}
+\def\Lpp{L^{\prime\prime}}
+\def\Mpp{M^{\prime\prime}}
+\def\Mpp{N^{\prime\prime}}
+\def\Opp{O^{\prime\prime}}
+\def\Ppp{P^{\prime\prime}}
+\def\Qpp{Q^{\prime\prime}}
+\def\Rpp{R^{\prime\prime}}
+\def\Spp{S^{\prime\prime}}
+\def\Tpp{T^{\prime\prime}}
+\def\Upp{U^{\prime\prime}}
+\def\Vpp{V^{\prime\prime}}
+\def\Wpp{W^{\prime\prime}}
+\def\Xpp{X^{\prime\prime}}
+\def\Ypp{Y^{\prime\prime}}
+\def\Zpp{Z^{\prime\prime}}
+\def\app{a^{\prime\prime}}
+\def\bpp{b^{\prime\prime}}
+\def\cpp{c^{\prime\prime}}
+\def\dpp{d^{\prime\prime}}
+\def\epp{e^{\prime\prime}}
+\def\fpp{f^{\prime\prime}}
+\def\gpp{g^{\prime\prime}}
+\def\hpp{h^{\prime\prime}}
+\def\ipp{i^{\prime\prime}}
+\def\jpp{j^{\prime\prime}}
+\def\kpp{k^{\prime\prime}}
+\def\lpp{l^{\prime\prime}}
+\def\mpp{m^{\prime\prime}}
+\def\npp{n^{\prime\prime}}
+\def\opp{o^{\prime\prime}}
+\def\ppp{p^{\prime\prime}}
+\def\qpp{q^{\prime\prime}}
+\def\rpp{r^{\prime\prime}}
+\def\spp{s^{\prime\prime}}
+\def\tpp{t^{\prime\prime}}
+\def\upp{u^{\prime\prime}}
+\def\vpp{v^{\prime\prime}}
+\def\wpp{w^{\prime\prime}}
+\def\xpp{x^{\prime\prime}}
+\def\ypp{y^{\prime\prime}}
+\def\zpp{z^{\prime\prime}}
+\def\abar{\overline{a}}
+\def\bbar{\overline{b}}
+\def\cbar{\overline{c}}
+\def\dbar{\overline{d}}
+\def\ebar{\overline{e}}
+\def\fbar{\overline{f}}
+\def\gbar{\overline{g}}
+\def\ibar{\overline{i}}
+\def\jbar{\overline{j}}
+\def\kbar{\overline{k}}
+\def\lbar{\overline{l}}
+\def\mbar{\overline{m}}
+\def\nbar{\overline{n}}
+\def\obar{\overline{o}}
+\def\pbar{\overline{p}}
+\def\qbar{\overline{q}}
+\def\rbar{\overline{r}}
+\def\sbar{\overline{s}}
+\def\tbar{\overline{t}}
+\def\ubar{\overline{u}}
+\def\vbar{\overline{v}}
+\def\wbar{\overline{w}}
+\def\xbar{\overline{x}}
+\def\ybar{\overline{y}}
+\def\zbar{\overline{z}}
+\def\Abar{\overline{A}}
+\def\Bbar{\overline{B}}
+\def\Cbar{\overline{C}}
+\def\Dbar{\overline{D}}
+\def\Ebar{\overline{E}}
+\def\Fbar{\overline{F}}
+\def\Gbar{\overline{G}}
+\def\Hbar{\overline{H}}
+\def\Ibar{\overline{I}}
+\def\Jbar{\overline{J}}
+\def\Kbar{\overline{K}}
+\def\Lbar{\overline{L}}
+\def\Mbar{\overline{M}}
+\def\Nbar{\overline{N}}
+\def\Obar{\overline{O}}
+\def\Pbar{\overline{P}}
+\def\Qbar{\overline{Q}}
+\def\Rbar{\overline{R}}
+\def\Sbar{\overline{S}}
+\def\Tbar{\overline{T}}
+\def\Ubar{\overline{U}}
+\def\Vbar{\overline{V}}
+\def\Wbar{\overline{W}}
+\def\Xbar{\overline{X}}
+\def\Ybar{\overline{Y}}
+\def\Zbar{\overline{Z}}
+\def\aunder{\underline{a}}
+\def\bunder{\underline{b}}
+\def\cunder{\underline{c}}
+\def\dunder{\underline{d}}
+\def\eunder{\underline{e}}
+\def\funder{\underline{f}}
+\def\gunder{\underline{g}}
+\def\hunder{\underline{h}}
+\def\iunder{\underline{i}}
+\def\junder{\underline{j}}
+\def\kunder{\underline{k}}
+\def\lunder{\underline{l}}
+\def\munder{\underline{m}}
+\def\nunder{\underline{n}}
+\def\ounder{\underline{o}}
+\def\punder{\underline{p}}
+\def\qunder{\underline{q}}
+\def\runder{\underline{r}}
+\def\sunder{\underline{s}}
+\def\tunder{\underline{t}}
+\def\uunder{\underline{u}}
+\def\vunder{\underline{v}}
+\def\wunder{\underline{w}}
+\def\xunder{\underline{x}}
+\def\yunder{\underline{y}}
+\def\zunder{\underline{z}}
+\def\Aunder{\underline{A}}
+\def\atilde{\widetilde{a}}
+\def\btilde{\widetilde{b}}
+\def\ctilde{\widetilde{c}}
+\def\dtilde{\widetilde{d}}
+\def\etilde{\widetilde{e}}
+\def\ftilde{\widetilde{f}}
+\def\gtilde{\widetilde{g}}
+\def\htilde{\widetilde{h}}
+\def\itilde{\widetilde{i}}
+\def\jtilde{\widetilde{j}}
+\def\ktilde{\widetilde{k}}
+\def\ltilde{\widetilde{l}}
+\def\mtilde{\widetilde{m}}
+\def\ntilde{\widetilde{n}}
+\def\otilde{\widetilde{o}}
+\def\ptilde{\widetilde{p}}
+\def\qtilde{\widetilde{q}}
+\def\rtilde{\widetilde{r}}
+\def\stilde{\widetilde{s}}
+\def\ttilde{\widetilde{t}}
+\def\utilde{\widetilde{u}}
+\def\vtilde{\widetilde{v}}
+\def\wtilde{\widetilde{w}}
+\def\xtilde{\widetilde{x}}
+\def\ytilde{\widetilde{y}}
+\def\ztilde{\widetilde{z}}
+\def\Atilde{\widetilde{A}}
+\def\Btilde{\widetilde{B}}
+\def\Ctilde{\widetilde{C}}
+\def\Dtilde{\widetilde{D}}
+\def\Etilde{\widetilde{E}}
+\def\Ftilde{\widetilde{F}}
+\def\Gtilde{\widetilde{G}}
+\def\Htilde{\widetilde{H}}
+\def\Itilde{\widetilde{I}}
+\def\Jtilde{\widetilde{J}}
+\def\Ktilde{\widetilde{K}}
+\def\Ltilde{\widetilde{L}}
+\def\Mtilde{\widetilde{M}}
+\def\Ntilde{\widetilde{N}}
+\def\Otilde{\widetilde{O}}
+\def\Ptilde{\widetilde{P}}
+\def\Qtilde{\widetilde{Q}}
+\def\Rtilde{\widetilde{R}}
+\def\Stilde{\widetilde{S}}
+\def\Ttilde{\widetilde{T}}
+\def\Utilde{\widetilde{U}}
+\def\Vtilde{\widetilde{V}}
+\def\Wtilde{\widetilde{W}}
+\def\Xtilde{\widetilde{X}}
+\def\Ytilde{\widetilde{Y}}
+\def\Ztilde{\widetilde{Z}}
+\def\Alphatilde{\widetilde{\Alpha}}
+\def\Betatilde{\widetilde{\Beta}}
+\def\Gammatilde{\widetilde{\Gamma}}
+\def\Deltatilde{\widetilde{\Delta}}
+\def\Epsilontilde{\widetilde{\Epsilon}}
+\def\Zetatilde{\widetilde{\Zeta}}
+\def\Etatilde{\widetilde{\Eta}}
+\def\Thetatilde{\widetilde{\Theta}}
+\def\Iotatilde{\widetilde{\Iota}}
+\def\Kappatilde{\widetilde{\Kappa}}
+\def\Lambdatilde{\widetilde{\Lamdba}}
+\def\Mutilde{\widetilde{\Mu}}
+\def\Nutilde{\widetilde{\Nu}}
+\def\Xitilde{\widetilde{\Xi}}
+\def\Omicrontilde{\widetilde{\Omicron}}
+\def\Pitilde{\widetilde{\Pi}}
+\def\Rhotilde{\widetilde{\Rho}}
+\def\Sigmatilde{\widetilde{\Sigma}}
+\def\Tautilde{\widetilde{\Tau}}
+\def\Upsilontilde{\widetilde{\Upsilon}}
+\def\Phitilde{\widetilde{\Phi}}
+\def\Chitilde{\widetilde{\Chi}}
+\def\Psitilde{\widetilde{\Psi}}
+\def\Omegatilde{\widetilde{\Omega}}
+\def\alphatilde{\widetilde{\alpha}}
+\def\betatilde{\widetilde{\beta}}
+\def\gammatilde{\widetilde{\gamma}}
+\def\deltatilde{\widetilde{\delta}}
+\def\epsilontilde{\widetilde{\epsilon}}
+\def\zetatilde{\widetilde{\zeta}}
+\def\etatilde{\widetilde{\eta}}
+\def\thetatilde{\widetilde{\theta}}
+\def\iotatilde{\widetilde{\iota}}
+\def\kappatilde{\widetilde{\kappa}}
+\def\lambdatilde{\widetilde{\lamdba}}
+\def\mutilde{\widetilde{\mu}}
+\def\nutilde{\widetilde{\nu}}
+\def\xitilde{\widetilde{\xi}}
+\def\omicrontilde{\widetilde{\omicron}}
+\def\pitilde{\widetilde{\pi}}
+\def\rhotilde{\widetilde{\rho}}
+\def\sigmatilde{\widetilde{\sigma}}
+\def\tautilde{\widetilde{\tau}}
+\def\upsilontilde{\widetilde{\upsilon}}
+\def\phitilde{\widetilde{\phi}}
+\def\chitilde{\widetilde{\chi}}
+\def\psitilde{\widetilde{\psi}}
+\def\omegatilde{\widetilde{\omega}}
+\def\Alphabar{\bar{\Alpha}}
+\def\Betabar{\bar{\Beta}}
+\def\Gammabar{\bar{\Gamma}}
+\def\Deltabar{\bar{\Delta}}
+\def\Epsilonbar{\bar{\Epsilon}}
+\def\Zetabar{\bar{\Zeta}}
+\def\Etabar{\bar{\Eta}}
+\def\Thetabar{\bar{\Theta}}
+\def\Iotabar{\bar{\Iota}}
+\def\Kappabar{\bar{\Kappa}}
+\def\Lambdabar{\bar{\Lamdba}}
+\def\Mubar{\bar{\Mu}}
+\def\Nubar{\bar{\Nu}}
+\def\Xibar{\bar{\Xi}}
+\def\Omicronbar{\bar{\Omicron}}
+\def\Pibar{\bar{\Pi}}
+\def\Rhobar{\bar{\Rho}}
+\def\Sigmabar{\bar{\Sigma}}
+\def\Taubar{\bar{\Tau}}
+\def\Upsilonbar{\bar{\Upsilon}}
+\def\Phibar{\bar{\Phi}}
+\def\Chibar{\bar{\Chi}}
+\def\Psibar{\bar{\Psi}}
+\def\Omegabar{\bar{\Omega}}
+\def\alphabar{\bar{\alpha}}
+\def\betabar{\bar{\beta}}
+\def\gammabar{\bar{\gamma}}
+\def\deltabar{\bar{\delta}}
+\def\epsilonbar{\bar{\epsilon}}
+\def\zetabar{\bar{\zeta}}
+\def\etabar{\bar{\eta}}
+\def\thetabar{\bar{\theta}}
+\def\iotabar{\bar{\iota}}
+\def\kappabar{\bar{\kappa}}
+\def\lambdabar{\bar{\lamdba}}
+\def\mubar{\bar{\mu}}
+\def\nubar{\bar{\nu}}
+\def\xibar{\bar{\xi}}
+\def\omicronbar{\bar{\omicron}}
+\def\pibar{\bar{\pi}}
+\def\rhobar{\bar{\rho}}
+\def\sigmabar{\bar{\sigma}}
+\def\taubar{\bar{\tau}}
+\def\upsilonbar{\bar{\upsilon}}
+\def\phibar{\bar{\phi}}
+\def\chibar{\bar{\chi}}
+\def\psibar{\bar{\psi}}
+\def\omegabar{\bar{\omega}}
+\def\del{\partial}
+\def\delbar{\overline{\partial}}
+\def\Cech{\check{C}}
+\def\half{\frac{1}{2}}
+\def\defeq{\mathrel{\mathop:}=}
+\def\alg{\mathrm{alg}}
+\def\Alt{\mathrm{Alt}}
+\def\Amp{\mathrm{Amp}}
+\def\Arg{\mathrm{Arg}}
+\def\an{\mathrm{an}}
+\def\anti{\mathrm{anti}}
+\def\Ap{\mathrm{Ap}}
+\def\arcsinh{\mathrm{arcsinh\hspace{0.07cm}}}
+\def\arccosh{\mathrm{arccosh\hspace{0.07cm}}}
+\def\arctanh{\mathrm{arctanh\hspace{0.07cm}}}
+\def\arccsch{\mathrm{arccsch\hspace{0.07cm}}}
+\def\arcsech{\mathrm{arcsech\hspace{0.07cm}}}
+\def\arccoth{\mathrm{arccoth\hspace{0.07cm}}}
+\def\arccsc{\mathrm{arccsc\hspace{0.07cm}}}
+\def\arcsec{\mathrm{arcsec\hspace{0.07cm}}}
+\def\arccot{\mathrm{arccot\hspace{0.07cm}}}
+\def\arg{\mathrm{arg}}
+\def\BC{\mathrm{BC}}
+\def\Bel{\mathrm{Bel}}
+\def\calCH{\mathcal{CH}}
+\def\csch{\mathrm{csch}\hspace{0.07cm}}
+\def\CH{\mathrm{CH}}
+\def\ch{\mathrm{ch}}
+\def\closed{\mathrm{closed}}
+\def\codim{\mathrm{codim}}
+\def\coth{\mathrm{coth}\hspace{0.07cm}}
+\def\Coh{\mathfrak{Coh}}
+\def\Coker{\mathrm{Coker}}
+\def\Cone{\mathrm{Cone}}
+\def\darg{d\mathrm{arg}}
+\def\Db{\mathrm{Db}}
+\def\dclosed{\mathrm{d-closed}}
+\def\deg{\mathrm{deg}}
+\def\dim{\mathrm{dim}}
+\def\divisor{\mathrm{div}}
+\def\dlog{d\mathrm{log}}
+\def\DNE{\mathrm{DNE}}
+\def\DR{\mathrm{DR}}
+\def\DST{\mathrm{DST}}
+\def\exp{\mathrm{exp}}
+\def\FLB{\mathrm{FLB}}
+\def\FLS{\mathrm{FLS}}
+\def\Gr{\mathrm{Gr}}
+\def\Hzar{H_{\mathrm{Zar}}}
+\def\Hol{\mathrm{Hol}}
+\def\Id{\mathrm{Id}}
+\def\Image{\mathrm{Im}}
+\def\Ka{\mathcal{K}_A}
+\def\Ker{\mathrm{Ker}}
+\def\kod{\mathrm{kod}}
+\def\Kx{\mathcal{K}_X}
+\def\Kz{\mathcal{K}_Z}
+\def\log{\mathrm{log}}
+\def\Log{\mathrm{Log}}
+\def\Li{\mathrm{Li}}
+\def\min{\mathrm{min}}
+\def\Mon{\mathrm{Mon}}
+\def\Nef{\mathrm{Nef}}
+\def\NS{\mathrm{NS}}
+\def\Oa{\mathcal{O}_A}
+\def\Ox{\mathcal{O}_X}
+\def\Oz{\mathcal{O}_Z}
+\def\Perp{\mathrm{Perp}}
+\def\Pic{\mathrm{Pic}}
+\def\Proj{\mathrm{Proj}}
+\def\rank{\mathrm{rank}}
+\def\Rat{\mathrm{Rat}}
+\def\Real{\mathrm{Re}}
+\def\reg{\mathrm{reg}}
+\def\Res{\mathrm{Res}}
+\def\res{\mathrm{res}}
+\def\Ric{\mathrm{Ric}}
+\def\sech{\mathrm{sech}\hspace{0.07cm}}
+\def\Span{\mathrm{Span}}
+\def\Spec{\mathrm{Spec}}
+\def\sing{\mathrm{sing}}
+\def\Singx{\mathrm{Sing}(X)}
+\def\sheafKer{\mathcal{\Ker}}
+\def\sheafIm{\mathcal{\Im}}
+\def\Span{\mathrm{Span}}
+\def\Spin{\mathrm{Spin}}
+\def\Str{\mathrm{Str}}
+\def\td{\mathrm{td}}
+\def\tr{\mathrm{tr}}
+\def\Todd{\mathrm{Todd}}
+\def\tor{\mathrm{tor}}
+\def\trdeg{\mathrm{trdeg}}
+\def\Zar{\mathrm{Zar}}
+\def\ZFLS{\mathrm{ZFLS}}
+
+  \usepackage{tikz}
+  \usepackage{tkz-graph}
+  \usepackage{tkz-euclide}
+  \usetikzlibrary{patterns}
+  \usetikzlibrary{positioning}
+  \usetikzlibrary{matrix,arrows}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{shapes}
+  \usetikzlibrary{through,intersections,decorations,shadows,fadings}
+  \usepackage{pgfplots}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">Course Notes for Calculus I</span></a></h1>
+<p class="byline">Remkes Kooistra</p>
+</div>
+</div></div>
+<nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="section-edge-behaviour-of-models.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="chatper-week4.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="chapter-week5.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="section-edge-behaviour-of-models.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="chatper-week4.html" title="Up">Up</a><a class="next-button button toolbar-item" href="chapter-week5.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="calculus1.html" data-scroll="calculus1"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon.html" data-scroll="colophon">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week1.html" data-scroll="chapter-week1"><span class="codenumber">1</span> <span class="title">Week 1</span></a><ul>
+<li><a href="section-analytic-geometry.html" data-scroll="section-analytic-geometry">Analytic Geometry</a></li>
+<li><a href="section-lines.html" data-scroll="section-lines">Lines</a></li>
+<li><a href="section-conics.html" data-scroll="section-conics">Conics</a></li>
+<li><a href="section-intersection.html" data-scroll="section-intersection">Intersection</a></li>
+<li><a href="section-shifts.html" data-scroll="section-shifts">Shifts</a></li>
+<li><a href="section-week1-activity.html" data-scroll="section-week1-activity">Week 1 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week2.html" data-scroll="chapter-week2"><span class="codenumber">2</span> <span class="title">Week 2</span></a><ul>
+<li><a href="section-functions.html" data-scroll="section-functions">Functions</a></li>
+<li><a href="section-types-of-functions.html" data-scroll="section-types-of-functions">Types of Functions</a></li>
+<li><a href="properties-of-functions.html" data-scroll="properties-of-functions">Properties of Functions</a></li>
+<li><a href="section-operations-on-functions.html" data-scroll="section-operations-on-functions">Operations on Functions</a></li>
+<li><a href="section-models.html" data-scroll="section-models">Models</a></li>
+<li><a href="section-week2-activity.html" data-scroll="section-week2-activity">Week 2 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week3.html" data-scroll="chapter-week3"><span class="codenumber">3</span> <span class="title">Week 3</span></a><ul>
+<li><a href="section-population-growth.html" data-scroll="section-population-growth">Population Growth</a></li>
+<li><a href="section-differential-equations.html" data-scroll="section-differential-equations">Differential Equations</a></li>
+<li><a href="section-phase-lines.html" data-scroll="section-phase-lines">Phase Lines</a></li>
+<li><a href="section-week3-activity.html" data-scroll="section-week3-activity">Week 3 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chatper-week4.html" data-scroll="chatper-week4"><span class="codenumber">4</span> <span class="title">Week 4</span></a><ul>
+<li><a href="limits-concept.html" data-scroll="limits-concept">The Concept of a Limit</a></li>
+<li><a href="section-limits-at-finite-values.html" data-scroll="section-limits-at-finite-values">Calcluating Limits at Finite Values</a></li>
+<li><a href="section-continuity.html" data-scroll="section-continuity">Continuity</a></li>
+<li><a href="section-edge-behaviour-of-models.html" data-scroll="section-edge-behaviour-of-models">Edge Behaviour of Models</a></li>
+<li><a href="subsection-week4-activity.html" data-scroll="subsection-week4-activity" class="active">Week 4 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week5.html" data-scroll="chapter-week5"><span class="codenumber">5</span> <span class="title">Week 5</span></a><ul>
+<li><a href="section-limits-at-infinity.html" data-scroll="section-limits-at-infinity">Limits at Infinity</a></li>
+<li><a href="section-asymptotic_analysis.html" data-scroll="section-asymptotic_analysis">Asymptotic Analysis</a></li>
+<li><a href="section-indeterminate-forms.html" data-scroll="section-indeterminate-forms">Indeterminate Forms</a></li>
+<li><a href="section-long-term-behaviour-of-models.html" data-scroll="section-long-term-behaviour-of-models">Extreme Values of Models</a></li>
+<li><a href="section-week5-activity.html" data-scroll="section-week5-activity">Week 5 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week6.html" data-scroll="chapter-week6"><span class="codenumber">6</span> <span class="title">Week 6</span></a><ul>
+<li><a href="section-two-motivating-problems.html" data-scroll="section-two-motivating-problems">Two Motivating Problems</a></li>
+<li><a href="section-derivative-definition.html" data-scroll="section-derivative-definition">Definition of the Derivative</a></li>
+<li><a href="section-derivative-rules.html" data-scroll="section-derivative-rules">Rules for Differentiation</a></li>
+<li><a href="subsection-week6-activity.html" data-scroll="subsection-week6-activity">Week 6 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week7.html" data-scroll="chapter-week7"><span class="codenumber">7</span> <span class="title">Week 7</span></a><ul>
+<li><a href="section-chain-rule.html" data-scroll="section-chain-rule">The Chain Rule</a></li>
+<li><a href="section-higher-derivatives.html" data-scroll="section-higher-derivatives">Higher Derivatives</a></li>
+<li><a href="section-h-rule.html" data-scroll="section-h-rule">L'Hôpital's Rule</a></li>
+<li><a href="section-week7-activity.html" data-scroll="section-week7-activity">Week 7 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week8.html" data-scroll="chapter-week8"><span class="codenumber">8</span> <span class="title">Week 8</span></a><ul>
+<li><a href="section-sigma-notation.html" data-scroll="section-sigma-notation">Sigma Notation</a></li>
+<li><a href="section-riemann-integral.html" data-scroll="section-riemann-integral">The Riemann Integral</a></li>
+<li><a href="section-fundamental-theorem.html" data-scroll="section-fundamental-theorem">The Fundamental Theorem</a></li>
+<li><a href="section-week8-activity.html" data-scroll="section-week8-activity">Week 8 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week9.html" data-scroll="chapter-week9"><span class="codenumber">9</span> <span class="title">Week 9</span></a><ul>
+<li><a href="section-substitution-rule.html" data-scroll="section-substitution-rule">The Substitution Rule</a></li>
+<li><a href="section-week9-activity.html" data-scroll="section-week9-activity">Week 9 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week10.html" data-scroll="chapter-week10"><span class="codenumber">10</span> <span class="title">Week 10</span></a><ul>
+<li><a href="section-des.html" data-scroll="section-des">Solving Differential Equations</a></li>
+<li><a href="section-population-de.html" data-scroll="section-population-de">The Population Differential Equation</a></li>
+<li><a href="section-logistic-de.html" data-scroll="section-logistic-de">The Logistic Differential Equation</a></li>
+<li><a href="subsection-week10-activity.html" data-scroll="subsection-week10-activity">Week 10 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week11.html" data-scroll="chapter-week11"><span class="codenumber">11</span> <span class="title">Week 11</span></a><ul>
+<li><a href="section-extrema.html" data-scroll="section-extrema">Extrema</a></li>
+<li><a href="section-optimization.html" data-scroll="section-optimization">Optimization</a></li>
+<li><a href="marginal-analysis.html" data-scroll="marginal-analysis">Marginal Analysis</a></li>
+<li><a href="section-week11-activity.html" data-scroll="section-week11-activity">Week 11 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week12.html" data-scroll="chapter-week12"><span class="codenumber">12</span> <span class="title">Week 12</span></a><ul>
+<li><a href="section-curve-sketching.html" data-scroll="section-curve-sketching">Curve Sketching</a></li>
+<li><a href="section-model-interpretation.html" data-scroll="section-model-interpretation">Model Interpretation</a></li>
+<li><a href="subsection-week12-activity.html" data-scroll="subsection-week12-activity">Week 12 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-additional-materials.html" data-scroll="chapter-additional-materials"><span class="codenumber">13</span> <span class="title">Additional Materials</span></a><ul>
+<li><a href="section-how-to-write-an-assignment.html" data-scroll="section-how-to-write-an-assignment">How to Write a Math Assignment</a></li>
+<li><a href="section-adacemic-honesty.html" data-scroll="section-adacemic-honesty">Academic Honesty in Mathematics Courses</a></li>
+<li><a href="section-notations.html" data-scroll="section-notations">Mathematical Notations</a></li>
+<li><a href="section-reference.html" data-scroll="section-reference">Reference</a></li>
+<li><a href="section-label.html" data-scroll="section-label">Title</a></li>
+</ul>
+</li>
+<li class="link backmatter"><a href="backmatter-1.html" data-scroll="backmatter-1"><span class="title">Back Matter</span></a></li>
+</ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="subsection-week4-activity"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">4.5</span> <span class="title">Week 4 Activity</span>
+</h2>
+<section class="subsection" id="subsection-activity-limits-at-finite-values"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">4.5.1</span> <span class="title">Limits at Finite Values</span>
+</h3>
+<article class="activity project-like" id="activity-35"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.1</span><span class="period">.</span>
+</h6>
+<p id="p-266">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 3} 4x^2 -5 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-35" id="solution-35"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-35"><div class="solution solution-like">
+<p id="p-267">There are no domain restrictions here; this limit can be directly evaluated.</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 3} 4x^2 -5 = 4(3)^2 - 5 = 31
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-36"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.2</span><span class="period">.</span>
+</h6>
+<p id="p-268">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 3} \frac{1}{x-3}
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-36" id="solution-36"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-36"><div class="solution solution-like">
+<p id="p-269">We cannot directly evaluation, since that would lead to division by zero. However, we can logically analyze this limit. The numerator is fixed and the denominator is getting very small. Division by smaller and smaller numbers leads to larger and larger numbers. We conclude the limit must be infinite. The denominator can be negative or positive, so we write</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 3} \frac{1}{x-3} = \pm \infty
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-37"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.3</span><span class="period">.</span>
+</h6>
+<p id="p-270">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 2} \frac{x^2 - 5x + 6}{x^2 - 7x + 10} 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-37" id="solution-37"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-37"><div class="solution solution-like">
+<p id="p-271">The numerator and denominator both approach zero. This is an indeterminate form of type \(\frac{0}{0}\text{.}\) We need to do some manipulations to deal with it. Both terms are quadratic, so we will try to factor them to simplify the limit.</p>
+<div class="displaymath">
+\begin{align*}
+\lim_{x \rightarrow 2} \frac{x^2 - 5x + 6}{x^2 - 7x + 10} 
+\amp = \lim_{x \rightarrow 2} \frac{(x-2)(x-3)}{(x-2)(x-5)} \\
+\amp = \lim_{x \rightarrow 2} \frac{x-3}{x-5}
+\end{align*}
+</div>
+<p data-braille="continuation">After cancelling the \((x-2)\) term, this is now a limit that can be directly evaluated.</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 2} \frac{x-3}{x-5} = \frac{2-3}{2-5} =
+\frac{-1}{-3} = \frac{1}{3} 
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-38"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.4</span><span class="period">.</span>
+</h6>
+<p id="p-272">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow -3} \frac{x+3}{x^3+27} 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-38" id="solution-38"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-38"><div class="solution solution-like">
+<p id="p-273">Both the numerator and denominator approach zero, so this is an indeterminate form of type \(\frac{0}{0}\text{.}\) We can't do anything to the numerator, but we can factor the denominator to try to simplify the limit.</p>
+<div class="displaymath">
+\begin{align*}
+\lim_{x \rightarrow -3} \frac{x+3}{x^3+27} \amp 0
+\lim_{x \rightarrow -3} \frac{(x+3)}{(x+3)(x^2-3x+9} 
+\amp = \lim_{x \rightarrow -3} \frac{1}{x^2-3x+9} 
+\end{align*}
+</div>
+<p data-braille="continuation">This is a limit we can now evaluate.</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow -3} \frac{1}{x^2-3x+9} =
+\frac{1}{(-3)^2 - 3(-3) + 9} = \frac{1}{27} 
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-39"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.5</span><span class="period">.</span>
+</h6>
+<p id="p-274">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 0} \frac{x^4+3x^-8x^2}{x^4 + 6x^3 +
+10x^2} 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-39" id="solution-39"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-39"><div class="solution solution-like">
+<p id="p-275">Both numerator and denominator approach zero, so this is an indeterminate form of type \(\frac{0}{0}\text{.}\) We can factor \(x^2\) out of both numerator and denominator to simplify the limit. After that factoring, we can direclty evaluate.</p>
+<div class="displaymath">
+\begin{align*}
+\lim_{x \rightarrow 0} \frac{x^4+3x^-8x^2}{x^4 + 6x^3 +
+10x^2} \amp = \lim_{x \rightarrow 0}
+\frac{x^2(x^2+3x-8)}{x^2(x^2+6x+10} \\
+\amp = \lim_{x \rightarrow 0} \frac{x^2+3x-8}{x^2+6x+10}
+= \frac{-8}{10} = \frac{-4}{5} 
+\end{align*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-40"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.6</span><span class="period">.</span>
+</h6>
+<p id="p-276">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow \frac{1}{2}} \frac{4x^2 + 4x - 3}{8x^2 -
+2x -1}
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-40" id="solution-40"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-40"><div class="solution solution-like">
+<p id="p-277">Both numerator and denominator approach 0, so this is a limit of indeterminate form \(\frac{0}{0}\text{.}\) Both terms are quadratics, so we will try to factor the quadratic to simplify the limit.</p>
+<div class="displaymath">
+\begin{align*}
+\lim_{x \rightarrow \frac{1}{2}} \frac{4x^2 + 4x - 3}{8x^2 -
+2x -1} \amp = \lim_{x \rightarrow \frac{1}{2}}
+\frac{(2x-1)(2x+3)}{(2x-1)(4x+1)}\\
+\amp = \lim_{x \rightarrow \frac{1}{2}}
+\frac{2x+3}{4x+1}
+\end{align*}
+</div>
+<p data-braille="continuation">This is a limit we can now directly evaluate.</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow \frac{1}{2}} \frac{2x+3}{4x+1}
+= \frac{1+3}{2+1} = \frac{4}{3} 
+\end{equation*}
+</div>
+</div></div>
+</div></article><article class="activity project-like" id="activity-41"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.7</span><span class="period">.</span>
+</h6>
+<p id="p-278">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 0} \frac{\sin^2 x}{x} 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-41" id="solution-41"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-41"><div class="solution solution-like">
+<p id="p-279">We have a limit involving \(x\) and \(\sin x\text{.}\) We want to use the known limit for the ratio of these two functions. We manipulate this limit to isolate the known limit, using the rules for limits and multiplication.</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 0} \frac{\sin^2 x}{x} = \lim_{x
+\rightarrow 0} \frac{\sin x}{x} \lim_{x \rightarrow 0}
+\sin x
+\end{equation*}
+</div>
+<p data-braille="continuation">Then the first part of this is the known limit, which evaluates to 1. The second part can be directly evaluated to 0. The product of 1 and 0 is 0, so the limit is 0.</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-42"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.8</span><span class="period">.</span>
+</h6>
+<p id="p-280">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 0} x \cot x 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-42" id="solution-42"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-42"><div class="solution solution-like">
+<p id="p-281">This involves trigonometry and \(x\text{,}\) so we will try to isolate the ration of \(x\) and \(\sin x\text{.}\) To do that we have to write cotagents in terms of sine and cosine.</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 0} x \cot x = \lim_{x \rightarrow 0} x
+\frac{\cos x}{\sin x}
+\end{equation*}
+</div>
+<p data-braille="continuation">Then we manipulate the limit to isolate the known ratio of \(x\) amd \(sin x\text{.}\)</p>
+<div class="displaymath">
+\begin{equation*}
+= \lim_{x \rightarrow 0} \frac{x}{\sin x} \cos x = \lim_{x
+\rightarrow 0} \frac{x}{\sin x} \lim_{x \rightarrow 0}
+\cos x
+\end{equation*}
+</div>
+<p data-braille="continuation">Now there are two limits, each of which evaluate to 1, so the original limit is also 1.</p>
+</div></div>
+</div></article></section><section class="subsection" id="subsection-activity-vertical-asymptotes"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">4.5.2</span> <span class="title">Vertical Asymptotes</span>
+</h3>
+<article class="activity project-like" id="activity-43"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.9</span><span class="period">.</span>
+</h6>
+<p id="p-282">Find the vertical asymptotes of the the function</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = \frac{1}{x^2-4x+3} 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-43" id="solution-43"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-43"><div class="solution solution-like">
+<p id="p-283">To find vertical asymptotes of a rational function, we look for the points on the edge of the domain and take the limits approaching those points. Here, domain is all real number except \(x=3\) and \(x=1\text{.}\) Those two numbers are the roots of the denominator. To determine whether we have vertical asymptotes are the undefined points, we need to take the limits approaching them. We have two limits to consider.</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 1} \frac{1}{x^2-4x+3} \text{ and }
+\lim_{x \rightarrow 3} \frac{1}{x^2-4x+3} 
+\end{equation*}
+</div>
+<p data-braille="continuation">Both of these limits are limits where the numerator is fixed and the denominator approaches 0. In these cases, dividing by very small numbers produced very large numbers, so the limits are both \(\pm \infty\text{.}\) Since the limits are infinite, we conclucde that the lines \(x=1\) and \(x=3\) are both vertical asymptotes.</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-44"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.10</span><span class="period">.</span>
+</h6>
+<p id="p-284">Find the vertical asymptotes of the the function</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = \frac{x-3}{x^2 + x - 12} 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-44" id="solution-44"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-44"><div class="solution solution-like">
+<p id="p-285">To find vertical asymptotes of a rational function, we look for the points on the edge of the domain and take the limits approaching those points. Here, domain is all real number except \(x=3\) and \(x=-4\text{.}\) Those two numbers are the roots of the denominator. To determine whether we have vertical asymptotes are the undefined points, we need to take the limits approaching them. We have two limits to consider.</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 3} \frac{x-3}{(x-3)(x+4)} \text{ and }
+\lim_{x \rightarrow -4} \frac{x-3}{(x-3)(x+4)}
+\end{equation*}
+</div>
+<p data-braille="continuation">In the first limit, the \((x-3)\) terms cancel out and the limit can be directly evaluted to \(\frac{1}{7}\text{.}\) Since this limit if not infinite, this is not a vertical asymptote.  In the second limit, the numerator is fixed and the denominator approaches 0. In this case, dividing by very small numbers produced very large numbers, so the limit is \(\pm \infty\text{.}\) Since the limit is infinite, we conclucde that the line \(x=-4\) is is a vertical asymptote.</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-45"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.11</span><span class="period">.</span>
+</h6>
+<p id="p-286">Find the vertical asymptotes of the the function</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = \ln (x-4)
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-45" id="solution-45"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-45"><div class="solution solution-like"><p id="p-287">Unlike the previous questions, this is more about familiarity with common functions and shifts in the plane. We know that the logarithm has an asymptote at \(x=0\text{.}\) Replacing \(x\) by \((x-4)\) is a shift of 4 units in the positive direction, so this function has a vertical asymptote at \(x=4\text{.}\)</p></div></div>
+</div></article><article class="activity project-like" id="activity-46"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.12</span><span class="period">.</span>
+</h6>
+<p id="p-288">Find the vertical asymptotes of the the function</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = \tan (3x)
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-46" id="solution-46"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-46"><div class="solution solution-like"><p id="p-289">This is also about fammiliarity with known functions. We know the tangent function has asymptotes at every odd multiple of \(\frac{\pi}{2}\text{.}\) In this function, we multiply by 3 inside the tangent function. The effect of this is to move the asymptotes closer together. We now have asymptotes at every odd multiple of \(\frac{\pi}{6}\)</p></div></div>
+</div></article></section><section class="subsection" id="subsection-activity-continuity"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">4.5.3</span> <span class="title">Continuity</span>
+</h3>
+<article class="activity project-like" id="activity-47"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.13</span><span class="period">.</span>
+</h6>
+<p id="p-290">Find a value for \(a\) (if there is any) which makes this piecewise function continuous.</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = \left\{ \begin{matrix}
+x+3 \amp x &gt; 0 \\
+-2x + a \amp x \leq 0 
+\end {matrix} \right.
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-47" id="solution-47"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-47"><div class="solution solution-like">
+<p id="p-291">To determine continuity, we need to take the limit from the left and the limit from the right approaching the cross over point. Here are the two limits</p>
+<div class="displaymath">
+\begin{align*}
+\lim_{x \rightarrow 0^+} f(x) \amp = 
+\lim_{x \rightarrow 0^+} x+3 = 3 \\
+\lim_{x \rightarrow 0^-} f(x) \amp = 
+\lim_{x \rightarrow 0^-} -2x + a = a 
+\end{align*}
+</div>
+<p data-braille="continuation">Making these equation gives the equation</p>
+<div class="displaymath">
+\begin{equation*}
+3 = a 
+\end{equation*}
+</div>
+<p data-braille="continuation">This equation is (obviously) solved when \(a=3\text{.}\)</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-48"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.14</span><span class="period">.</span>
+</h6>
+<p id="p-292">Find a value for \(a\) (if there is any) which makes this piecewise function continuous.</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = \left\{ \begin{matrix}
+x^2 + 2x + 5 \amp x \lt -1 \\
+ax^2 \amp x \geq -1 
+\end {matrix} \right.
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-48" id="solution-48"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-48"><div class="solution solution-like">
+<p id="p-293">To determine continuity, we need to take the limit from the left and the limit from the right approaching the cross over point. Here are the two limits</p>
+<div class="displaymath">
+\begin{align*}
+\lim_{x \rightarrow -1^+} f(x) \amp = 
+\lim_{x \rightarrow -1^+} ax^2 = a\\
+\lim_{x \rightarrow -1^-} f(x) \amp = 
+\lim_{x \rightarrow -1^-} x^2 + 2x + 5 = 1 - 2 + 5 = 4
+\end{align*}
+</div>
+<p data-braille="continuation">Making these equation gives the equation</p>
+<div class="displaymath">
+\begin{equation*}
+a = 4 
+\end{equation*}
+</div>
+<p data-braille="continuation">This equation is (obviously) solved when \(a = 4\text{.}\)</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-49"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.15</span><span class="period">.</span>
+</h6>
+<p id="p-294">Find a value for \(a\) (if there is any) which makes this piecewise function continuous.</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = \left\{ \begin{matrix}
+\sin (\pi x)  \amp x &gt; \frac{5}{2} \\
+x^2 + ax + 2  \amp x \leq \frac{5}{2}
+\end {matrix} \right.
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-49" id="solution-49"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-49"><div class="solution solution-like">
+<p id="p-295">To determine continuity, we need to take the limit from the left and the limit from the right approaching the cross over point. Here are the two limits</p>
+<div class="displaymath">
+\begin{align*}
+\lim_{x \rightarrow \frac{5}{2}^+} f(x) \amp = 
+\lim_{x \rightarrow \frac{5}{2}^+} \sin (\pi x) = \sin
+\left( \frac{5\pi}{2} \right) = 1 \\
+\lim_{x \rightarrow \frac{5}{2}^-} f(x) \amp = 
+\lim_{x \rightarrow \frac{5}{2}^-} x^2 + ax + 2 =
+\frac{25}{4} + \frac{5a}{2} + 2  = \frac{33 + 10a}{4} 
+\end{align*}
+</div>
+<p data-braille="continuation">Making these equation gives the equation</p>
+<div class="displaymath">
+\begin{equation*}
+1 = \frac{33 + 10a}{4} 
+\end{equation*}
+</div>
+<p data-braille="continuation">This equation is solved when \(a = \frac{-29}{10}\text{.}\)</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-50"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.16</span><span class="period">.</span>
+</h6>
+<p id="p-296">Find a value for \(a\) (if there is any) which makes this piecewise function continuous.</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = \left\{ \begin{matrix}
+\frac{1}{x} \amp x &gt; 0 \\
+x^2 + ax + a \amp x \leq 0 
+\end {matrix} \right.
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-50" id="solution-50"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-50"><div class="solution solution-like">
+<p id="p-297">To determine continuity, we need to take the limit from the left and the limit from the right approaching the cross over point. Here are the two limits</p>
+<div class="displaymath">
+\begin{align*}
+\lim_{x \rightarrow 0^+} f(x) \amp = 
+\lim_{x \rightarrow 0^+} \frac{1}{x} = \infty \\
+\lim_{x \rightarrow 0^-} f(x) \amp = 
+\lim_{x \rightarrow 0^-} x^2 + ax + a = a
+\end{align*}
+</div>
+<p data-braille="continuation">We cannot equate these limits, since \(\infty\) is not a number. There is no value of \(a\) which makes this piecewise function continuous.</p>
+</div></div>
+</div></article></section><section class="subsection" id="subsection-activity-edge-behaviour-of-models"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">4.5.4</span> <span class="title">Edge Behaviour of Models</span>
+</h3>
+<article class="activity project-like" id="activity-51"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.17</span><span class="period">.</span>
+</h6>
+<p id="p-298">Consider a population model.</p>
+<div class="displaymath">
+\begin{equation*}
+f(t) = \left\{ \begin{matrix}
+\frac{1}{16}e^{\frac{1}{10}x} \amp t \in [0,10] \\
+\frac{39}{12}e^{\frac{1}{7}x} \amp t \in [10,20] 
+\end{matrix} \right.
+\end{equation*}
+</div>
+<p data-braille="continuation">Is this model continuous? If not, what happens at \(t =
+20\text{?}\)</p>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-51" id="solution-51"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-51"><div class="solution solution-like"><p id="p-299">We take the limits from the left and from the right to determine continuity. The limit from the left is \(\frac{e}{16}\) from the right is \(\frac{39}{12}e^{\frac{10}{7}}\text{.}\) The approximate values of these numbers is, respectively, \(0.1699\) and \(13.5614\text{.}\) These are not the same, so the function is continuous. At \(t=10\) the population has a sudden and significant jump; through some process, a large population has suddenly been added to the existing population.</p></div></div>
+</div></article><article class="activity project-like" id="activity-52"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.18</span><span class="period">.</span>
+</h6>
+<p id="p-300">Consider a model of temperature in a chemical reaction, as a function of time.</p>
+<div class="displaymath">
+\begin{equation*}
+T(t) = 24 + \frac{\sqrt{(t-5)^3}}{t-5}
+\end{equation*}
+</div>
+<p data-braille="continuation">The point \(t=5\) is the edge of the domain of this model. What happens to the temperature as we approach this edge point?</p>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-52" id="solution-52"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-52"><div class="solution solution-like">
+<p id="p-301">We take the limit approaching the edge point.</p>
+<div class="displaymath">
+\begin{equation*}
+lim_{t \rightarrow 5} 24 +
+\frac{\sqrt{(t-5)^3}}{t-5} = 24 \lim_{t \rightarrow 5} +
+\frac{(t-5)}{(t-5)} \sqrt{t-5} = 24 + 0 = 24 
+\end{equation*}
+</div>
+<p data-braille="continuation">Even though the function is undefined, the limit is reasonable and the temperature simply approaches 24.</p>
+</div></div>
+</div></article></section><section class="subsection" id="subsection-week4-concepts"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">4.5.5</span> <span class="title">Conceptual Review Questions</span>
+</h3>
+<ul id="p-302" class="disc">
+<li id="li-79">What is a limit?</li>
+<li id="li-80">Why are limits about values approaching a certain point, as opposed to values at a certain point?</li>
+<li id="li-81">Why don't we write division by zero when doing limits?</li>
+<li id="li-82">When do we stop writing \(\lim_{a \rightarrow a}\) in the process of a limit calculation and why?</li>
+<li id="li-83">What is a vertical asymptote? How does it relate to a limit?</li>
+<li id="li-84">What is the edge behaviour of a model?</li>
+<li id="li-85">How do we use limits at finite values to analysie models?</li>
+</ul></section><section class="subsection" id="week-4-extra-practice"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">4.5.6</span> <span class="title">Extra Practice</span>
+</h3>
+<article class="activity project-like" id="activity-53"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.19</span><span class="period">.</span>
+</h6>
+<p id="p-303">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 4} \sin (\pi x) - \frac{x}{3} 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-53" id="solution-53"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-53"><div class="solution solution-like"><p id="p-304"></p></div></div>
+</div></article><article class="activity project-like" id="activity-54"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.20</span><span class="period">.</span>
+</h6>
+<p id="p-305">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 4} \frac{1}{x^2 - 8x + 16} 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-54" id="solution-54"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-54"><div class="solution solution-like"><p id="p-306"></p></div></div>
+</div></article><article class="activity project-like" id="activity-55"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.21</span><span class="period">.</span>
+</h6>
+<p id="p-307">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 1^+} \sqrt{\frac{x-1}{x^2-1}}
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-55" id="solution-55"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-55"><div class="solution solution-like"><p id="p-308"></p></div></div>
+</div></article><article class="activity project-like" id="activity-56"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.22</span><span class="period">.</span>
+</h6>
+<p id="p-309">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 0} \frac{\frac{1}{x} - \frac{1}{x^2}}{x}
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-56" id="solution-56"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-56"><div class="solution solution-like"><p id="p-310"></p></div></div>
+</div></article><article class="activity project-like" id="activity-57"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.23</span><span class="period">.</span>
+</h6>
+<p id="p-311">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 0} \frac{\cos^2 x}{x^2}
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-57" id="solution-57"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-57"><div class="solution solution-like"><p id="p-312"></p></div></div>
+</div></article><article class="activity project-like" id="activity-58"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.24</span><span class="period">.</span>
+</h6>
+<p id="p-313">Calculate the limit</p>
+<div class="displaymath">
+\begin{equation*}
+\lim_{x \rightarrow 0} \frac{\tan^2 x}{x^2} 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-58" id="solution-58"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-58"><div class="solution solution-like"><p id="p-314"></p></div></div>
+</div></article></section></section></div></main>
+</div>
+</body>
+</html>

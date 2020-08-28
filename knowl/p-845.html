@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2020-08-27T21:37:52-06:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<h6 xmlns:svg="http://www.w3.org/2000/svg" class="heading"><span class="type">Paragraph</span></h6>
+<p>First Derivative: We take the derivative. For ease of working with is for the future steps, I'll factor out the exponential term and collect the polynomial terms after taking the derivative.</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{align*}
+\frac{d}{dx} (e^{-x} (x^2 + 3x -6)) \amp = \left(
+\frac{d}{dx} e^{-x} \right) (x^2 + 3x - 6) + (e^{-x})
+\left( \frac{d}{dx} x^2 + 3x - 6 \right) \\
+\amp = -e^{-x} (x^2 + 3x - 6) + (e^{-x}) (2x + 3) \\
+\amp = e^{-x} (-x^2 - 3x + 6 + 2x + 3) \\
+\amp = e^{-x} (-x^2 - x + 9) 
+\end{align*}
+</div>
+<p data-braille="continuation">We set the derivative equal to zero and solve for the critical points. Notes, again, that the exponential can never be zero, so we only need to look at the quadratic.</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{align*}
+e^{-x} (-x^2 - x + 9) \amp = 0 \\
+-x^2 - x + 9 \amp = 0 \\
+x^2 + x - 9 \amp = 0 \\
+x \amp = \frac{-1 \pm \sqrt{1 + 36}}{2} = \frac{-1 \pm
+\sqrt{37}}{2} 
+\end{align*}
+</div>
+<p data-braille="continuation">We have two critical points. Their approximate values ate \(x \doteq -3.541\) and \(x \doteq 2.251\text{.}\) We move on to the intervals determined by these critical points. The domain is all reals, so we have three intervals. Note also that the exponential term is always positive, so the sign of the derivative is entirely determined by the quadratic.</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{align*}
+\amp \left( -\infty, \frac{-1 - \sqrt{37}}{2} \right) \amp 
+\amp \left( \frac{-1 - \sqrt{37}}{2}, \frac{-1 +
+\sqrt{37}}{2} \right) \amp 
+\amp \left( \frac{-1 + \sqrt{37}}{2}, \infty \right)\\
+\amp f^\prime (-4) = e^4 (-16 + 4 + 9) \amp 
+\amp f^\prime (0) = e^0 (0-0+9) \amp 
+\amp f^\prime (3) = e^{-3} (-9-3+9) \\
+\amp f^\prime (-4) = e^4 (-3) \amp 
+\amp f^\prime (0) = 9 \amp 
+\amp f^\prime (3) = e^{-3} (-3) \\
+\amp \text{Negative} \amp
+\amp \text{Positive} \amp 
+\amp \text{Negative} \\
+\amp f \text{ is decreasing.} \amp
+\amp f \text{ is increasing.} \amp 
+\amp f \text{ is decreasing.} 
+\end{align*}
+</div>
+<p data-braille="continuation">This gives us a minimum at the first critical point and a maximum at the second. With the extrema and the intervals of increase and decrease, we are done with the first derivative.</p>
+<span class="incontext"><a href="subsection-week12-activity.html#p-845">in-context</a></span>
+</body>
+</html>

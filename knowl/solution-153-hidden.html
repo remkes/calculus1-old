@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2020-08-27T21:37:48-06:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body><div class="solution solution-like">
+<p xmlns:svg="http://www.w3.org/2000/svg"></p> We follow the process from the notes and the videos for solving the population equation. We start with dividing by \(p(t)\text{.}\)<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+\frac{1}{p(t)} \frac{dp}{dt} = -0.14  
+\end{equation*}
+</div>Then we integrate both sides of the equation (the independent variable here is \(t\text{.}\))<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+\int \frac{1}{p(t)} \frac{dp}{dt} dt = \int (-0.14) dt 
+\end{equation*}
+</div>The right side is just the integral of a constant. For the left side, we use a substitution \(u = p(t)\text{,}\) so that \(du = \frac{dp}{dt} dt \text{.}\) With that substitution, we can replace all the pieces on the right side.<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+\int \frac{1}{u} du = (-0.14t) + C 
+\end{equation*}
+</div>Then we solve the left side integral. I won't use absolute value bars in the integral, since \(u = p(t)\) means that \(u\) is always positive (since population is always positive).<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+\ln u = (-0.14t) + C 
+\end{equation*}
+</div>Then we can solve for u.<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+u = e^{(-0.14t) + C} = e^C e^{-0.14t} 
+\end{equation*}
+</div>Now we replace u.<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+p(t) = e^C e^{-0.14t} 
+\end{equation*}
+</div>Finally, we use the initial value p(0) = 150000<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+p(0) = e^C e^0 = e^C = 1500000
+\end{equation*}
+</div>This lets us write the final solution.<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+p(t) = 150000 e^{-0.14t} 
+\end{equation*}
+</div>This is exactly what we expect: population that starts at 150000 with a growth rate coefficient of \(-0.14\text{.}\)</div></body>
+</html>

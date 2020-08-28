@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2020-08-27T21:37:43-06:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<h6 xmlns:svg="http://www.w3.org/2000/svg" class="heading"><span class="type">Paragraph</span></h6>
+<p>We use the limit definition of the derivative.</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+\frac{d}{dx} \sqrt{5x} = \lim_{h \rightarrow 0}
+\frac{\sqrt{5(x+h)} - \sqrt{5h}}{h} 
+\end{equation*}
+</div>
+<p data-braille="continuation">Then we simplify this expression, trying to find a way to factor an \(h\) from the numerator so that we can cancel it with the \(h\) from the denominator. We use a trick here called multiplying by the conjugate. This trick will remove the square roots from the numerator (it also makes the denominator more complicated, but that's not a problem). This trick is based on the idea that if we multiply the top and bottom of a fraction by the same thing, then we haven't changed the value of the fraction at all.</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{align*}
+\lim_{h \rightarrow 0} \frac{\sqrt{5(x+h)} - \sqrt{5}}{h}
+\amp = \lim_{h \rightarrow 0} \frac{(\sqrt{5(x+h)} -
+\sqrt{5x})(\sqrt{5(x+h)} + \sqrt{5x}}{h(\sqrt{5(x+h)} -
+\sqrt{5x})}\\
+\amp = \lim_{h \rightarrow 0} \frac{5(x+h) -
+5x}{h(\sqrt{5(x+h)} + \sqrt{5x})} \\
+\amp = \lim_{h \rightarrow 0} \frac{5x + 5h -
+5x}{h(\sqrt{5(x+h)} + \sqrt{5x})} \\
+\amp = \lim_{h \rightarrow 0} \frac{5h}{h(\sqrt{5(x+h)}
++ \sqrt{5x})} \\
+\amp = \lim_{h \rightarrow 0} \frac{5}{(\sqrt{5(x+h)}
++ \sqrt{5x})} 
+\end{align*}
+</div>
+<p data-braille="continuation">After multiplying by the conjugate, simplifying the numerator, and cancelling the \(h\) from numerator and denominator, we reach a point where we can simply evaluate the limit by replacing \(h\) with 0.</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+\lim_{h \rightarrow 0} \frac{5}{(\sqrt{5(x+h)}
++ \sqrt{5x})} = \frac{5}{\sqrt{5x}+ \sqrt{5x}} =
+\frac{5}{2\sqrt{5x}} 
+\end{equation*}
+</div>
+<p data-braille="continuation">This is a reasonable expression for the derivative of the original function.</p>
+<span class="incontext"><a href="subsection-week6-activity.html#p-462">in-context</a></span>
+</body>
+</html>
