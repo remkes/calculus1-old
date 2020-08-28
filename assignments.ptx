@@ -1,0 +1,16 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-assignments">
+  <title>Assignments</title>
+  <xi:include href="assignment-week1.ptx" />
+  <xi:include href="assignment-week2.ptx" />
+  <xi:include href="assignment-week3.ptx" />
+  <xi:include href="assignment-week4.ptx" />
+  <xi:include href="assignment-week5.ptx" />
+  <xi:include href="assignment-week6.ptx" />
+  <xi:include href="assignment-week7.ptx" />
+  <xi:include href="assignment-week8.ptx" />
+  <xi:include href="assignment-week9.ptx" />
+  <xi:include href="assignment-week10.ptx" />
+  <xi:include href="assignment-week11.ptx" />
+  <xi:include href="assignment-week11.ptx" />
+</chapter>
