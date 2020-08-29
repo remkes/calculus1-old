@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2020-08-28T22:16:42-06:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Week 11 Activity</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", "AMScd.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script xmlns:svg="http://www.w3.org/2000/svg">sagecellEvalName='Evaluate (Sage)';
+</script><link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link xmlns:svg="http://www.w3.org/2000/svg" href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div xmlns:svg="http://www.w3.org/2000/svg" class="hidden-content" style="display:none">\(\def\vs{{\it vs. }}
+\def\cf{{\it cf. }}
+\def\viz{{\it viz. }}
+\def\ie{{\it i.e. }}
+\def\etc{{\it etc. }}
+\def\eg{{\it e.g. }}
+\def\etal{{\it et al .}}
+\def\via{{\it via }}
+\def\adhoc{{\it ad hoc }}
+\def\apriori{{\it apriori }}
+\def\Afrak{\mathfrak{A}}
+\def\Bfrak{\mathfrak{B}}
+\def\Cfrak{\mathfrak{C}}
+\def\Dfrak{\mathfrak{D}}
+\def\Efrak{\mathfrak{E}}
+\def\Ffrak{\mathfrak{F}}
+\def\Gfrak{\mathfrak{G}}
+\def\Hfrak{\mathfrak{H}}
+\def\Ifrak{\mathfrak{I}}
+\def\Jfrak{\mathfrak{J}}
+\def\Kfrak{\mathfrak{K}}
+\def\Lfrak{\mathfrak{L}}
+\def\Mfrak{\mathfrak{M}}
+\def\Nfrak{\mathfrak{N}}
+\def\Ofrak{\mathfrak{O}}
+\def\Pfrak{\mathfrak{P}}
+\def\Qfrak{\mathfrak{Q}}
+\def\Rfrak{\mathfrak{R}}
+\def\Sfrak{\mathfrak{S}}
+\def\Tfrak{\mathfrak{T}}
+\def\Ufrak{\mathfrak{U}}
+\def\Vfrak{\mathfrak{V}}
+\def\Wfrak{\mathfrak{W}}
+\def\Xfrak{\mathfrak{X}}
+\def\Yfrak{\mathfrak{Y}}
+\def\Zfrak{\mathfrak{Z}}
+\def\afrak{\mathfrak{a}}
+\def\bfrak{\mathfrak{b}}
+\def\cfrak{\mathfrak{c}}
+\def\dfrak{\mathfrak{d}}
+\def\efrak{\mathfrak{e}}
+\def\ffrak{\mathfrak{f}}
+\def\gfrak{\mathfrak{g}}
+\def\hfrak{\mathfrak{h}}
+\def\ifrak{\mathfrak{i}}
+\def\jfrak{\mathfrak{j}}
+\def\kfrak{\mathfrak{k}}
+\def\lfrak{\mathfrak{l}}
+\def\mfrak{\mathfrak{m}}
+\def\nfrak{\mathfrak{n}}
+\def\ofrak{\mathfrak{o}}
+\def\pfrak{\mathfrak{p}}
+\def\qfrak{\mathfrak{q}}
+\def\rfrak{\mathfrak{r}}
+\def\sfrak{\mathfrak{s}}
+\def\tfrak{\mathfrak{t}}
+\def\ufrak{\mathfrak{u}}
+\def\vfrak{\mathfrak{v}}
+\def\wfrak{\mathfrak{w}}
+\def\xfrak{\mathfrak{x}}
+\def\yfrak{\mathfrak{y}}
+\def\zfrak{\mathfrak{z}}
+\def\AA{\mathbb{A}}
+\def\BB{\mathbb{B}}
+\def\CC{\mathbb{C}}
+\def\DD{\mathbb{D}}
+\def\EE{\mathbb{E}}
+\def\FF{\mathbb{F}}
+\def\GG{\mathbb{G}}
+\def\HH{\mathbb{H}}
+\def\II{\mathbb{I}}
+\def\JJ{\mathbb{J}}
+\def\KK{\mathbb{K}}
+\def\LL{\mathbb{L}}
+\def\MM{\mathbb{M}}
+\def\NN{\mathbb{N}}
+\def\OO{\mathbb{O}}
+\def\PP{\mathbb{P}}
+\def\QQ{\mathbb{Q}}
+\def\RR{\mathbb{R}}
+\def\SS{\mathbb{S}}
+\def\TT{\mathbb{T}}
+\def\UU{\mathbb{U}}
+\def\VV{\mathbb{V}}
+\def\WW{\mathbb{W}}
+\def\XX{\mathbb{X}}
+\def\YY{\mathbb{Y}}
+\def\ZZ{\mathbb{Z}}
+\def\calA{\mathcal{A}}
+\def\calB{\mathcal{B}}
+\def\calC{\mathcal{C}}
+\def\calD{\mathcal{D}}
+\def\calE{\mathcal{E}}
+\def\calF{\mathcal{F}}
+\def\calG{\mathcal{G}}
+\def\calH{\mathcal{H}}
+\def\calI{\mathcal{I}}
+\def\calJ{\mathcal{J}}
+\def\calK{\mathcal{K}}
+\def\calL{\mathcal{L}}
+\def\calM{\mathcal{M}}
+\def\calN{\mathcal{N}}
+\def\calO{\mathcal{O}}
+\def\calP{\mathcal{P}}
+\def\calQ{\mathcal{Q}}
+\def\calR{\mathcal{R}}
+\def\calS{\mathcal{S}}
+\def\calT{\mathcal{T}}
+\def\calU{\mathcal{U}}
+\def\calV{\mathcal{V}}
+\def\calW{\mathcal{W}}
+\def\calX{\mathcal{X}}
+\def\calY{\mathcal{Y}}
+\def\calZ{\mathcal{Z}}
+\def\Ap{A^\prime}
+\def\Bp{B^\prime}
+\def\Cp{C^\prime}
+\def\Dp{D^\prime}
+\def\Ep{E^\prime}
+\def\Fp{F^\prime}
+\def\Gp{G^\prime}
+\def\Hp{H^\prime}
+\def\Ip{I^\prime}
+\def\Jp{J^\prime}
+\def\Kp{K^\prime}
+\def\Lp{L^\prime}
+\def\Mp{M^\prime}
+\def\Mp{N^\prime}
+\def\Op{O^\prime}
+\def\Pp{P^\prime}
+\def\Qp{Q^\prime}
+\def\Rp{R^\prime}
+\def\Sp{S^\prime}
+\def\Tp{T^\prime}
+\def\Up{U^\prime}
+\def\Vp{V^\prime}
+\def\Wp{W^\prime}
+\def\Xp{X^\prime}
+\def\Yp{Y^\prime}
+\def\Zp{Z^\prime}
+\def\ap{a^\prime}
+\def\bp{b^\prime}
+\def\cp{c^\prime}
+\def\dprime{d^\prime}
+\def\ep{e^\prime}
+\def\fp{f^\prime}
+\def\gp{g^\prime}
+\def\hp{h^\prime}
+\def\ip{i^\prime}
+\def\jp{j^\prime}
+\def\kp{k^\prime}
+\def\lp{l^\prime}
+\def\mp{m^\prime}
+\def\np{n^\prime}
+\def\op{o^\prime}
+\def\pp{p^\prime}
+\def\qp{q^\prime}
+\def\rp{r^\prime}
+\def\sp{s^\prime}
+\def\tp{t^\prime}
+\def\up{u^\prime}
+\def\vp{v^\prime}
+\def\wp{w^\prime}
+\def\xp{x^\prime}
+\def\yp{y^\prime}
+\def\zp{z^\prime}
+\def\App{A^{\prime\prime}}
+\def\Bpp{B^{\prime\prime}}
+\def\Cpp{C^{\prime\prime}}
+\def\Dpp{D^{\prime\prime}}
+\def\Epp{E^{\prime\prime}}
+\def\Fpp{F^{\prime\prime}}
+\def\Gpp{G^{\prime\prime}}
+\def\Hpp{H^{\prime\prime}}
+\def\Ipp{I^{\prime\prime}}
+\def\Jpp{J^{\prime\prime}}
+\def\Kpp{K^{\prime\prime}}
+\def\Lpp{L^{\prime\prime}}
+\def\Mpp{M^{\prime\prime}}
+\def\Mpp{N^{\prime\prime}}
+\def\Opp{O^{\prime\prime}}
+\def\Ppp{P^{\prime\prime}}
+\def\Qpp{Q^{\prime\prime}}
+\def\Rpp{R^{\prime\prime}}
+\def\Spp{S^{\prime\prime}}
+\def\Tpp{T^{\prime\prime}}
+\def\Upp{U^{\prime\prime}}
+\def\Vpp{V^{\prime\prime}}
+\def\Wpp{W^{\prime\prime}}
+\def\Xpp{X^{\prime\prime}}
+\def\Ypp{Y^{\prime\prime}}
+\def\Zpp{Z^{\prime\prime}}
+\def\app{a^{\prime\prime}}
+\def\bpp{b^{\prime\prime}}
+\def\cpp{c^{\prime\prime}}
+\def\dpp{d^{\prime\prime}}
+\def\epp{e^{\prime\prime}}
+\def\fpp{f^{\prime\prime}}
+\def\gpp{g^{\prime\prime}}
+\def\hpp{h^{\prime\prime}}
+\def\ipp{i^{\prime\prime}}
+\def\jpp{j^{\prime\prime}}
+\def\kpp{k^{\prime\prime}}
+\def\lpp{l^{\prime\prime}}
+\def\mpp{m^{\prime\prime}}
+\def\npp{n^{\prime\prime}}
+\def\opp{o^{\prime\prime}}
+\def\ppp{p^{\prime\prime}}
+\def\qpp{q^{\prime\prime}}
+\def\rpp{r^{\prime\prime}}
+\def\spp{s^{\prime\prime}}
+\def\tpp{t^{\prime\prime}}
+\def\upp{u^{\prime\prime}}
+\def\vpp{v^{\prime\prime}}
+\def\wpp{w^{\prime\prime}}
+\def\xpp{x^{\prime\prime}}
+\def\ypp{y^{\prime\prime}}
+\def\zpp{z^{\prime\prime}}
+\def\abar{\overline{a}}
+\def\bbar{\overline{b}}
+\def\cbar{\overline{c}}
+\def\dbar{\overline{d}}
+\def\ebar{\overline{e}}
+\def\fbar{\overline{f}}
+\def\gbar{\overline{g}}
+\def\ibar{\overline{i}}
+\def\jbar{\overline{j}}
+\def\kbar{\overline{k}}
+\def\lbar{\overline{l}}
+\def\mbar{\overline{m}}
+\def\nbar{\overline{n}}
+\def\obar{\overline{o}}
+\def\pbar{\overline{p}}
+\def\qbar{\overline{q}}
+\def\rbar{\overline{r}}
+\def\sbar{\overline{s}}
+\def\tbar{\overline{t}}
+\def\ubar{\overline{u}}
+\def\vbar{\overline{v}}
+\def\wbar{\overline{w}}
+\def\xbar{\overline{x}}
+\def\ybar{\overline{y}}
+\def\zbar{\overline{z}}
+\def\Abar{\overline{A}}
+\def\Bbar{\overline{B}}
+\def\Cbar{\overline{C}}
+\def\Dbar{\overline{D}}
+\def\Ebar{\overline{E}}
+\def\Fbar{\overline{F}}
+\def\Gbar{\overline{G}}
+\def\Hbar{\overline{H}}
+\def\Ibar{\overline{I}}
+\def\Jbar{\overline{J}}
+\def\Kbar{\overline{K}}
+\def\Lbar{\overline{L}}
+\def\Mbar{\overline{M}}
+\def\Nbar{\overline{N}}
+\def\Obar{\overline{O}}
+\def\Pbar{\overline{P}}
+\def\Qbar{\overline{Q}}
+\def\Rbar{\overline{R}}
+\def\Sbar{\overline{S}}
+\def\Tbar{\overline{T}}
+\def\Ubar{\overline{U}}
+\def\Vbar{\overline{V}}
+\def\Wbar{\overline{W}}
+\def\Xbar{\overline{X}}
+\def\Ybar{\overline{Y}}
+\def\Zbar{\overline{Z}}
+\def\aunder{\underline{a}}
+\def\bunder{\underline{b}}
+\def\cunder{\underline{c}}
+\def\dunder{\underline{d}}
+\def\eunder{\underline{e}}
+\def\funder{\underline{f}}
+\def\gunder{\underline{g}}
+\def\hunder{\underline{h}}
+\def\iunder{\underline{i}}
+\def\junder{\underline{j}}
+\def\kunder{\underline{k}}
+\def\lunder{\underline{l}}
+\def\munder{\underline{m}}
+\def\nunder{\underline{n}}
+\def\ounder{\underline{o}}
+\def\punder{\underline{p}}
+\def\qunder{\underline{q}}
+\def\runder{\underline{r}}
+\def\sunder{\underline{s}}
+\def\tunder{\underline{t}}
+\def\uunder{\underline{u}}
+\def\vunder{\underline{v}}
+\def\wunder{\underline{w}}
+\def\xunder{\underline{x}}
+\def\yunder{\underline{y}}
+\def\zunder{\underline{z}}
+\def\Aunder{\underline{A}}
+\def\atilde{\widetilde{a}}
+\def\btilde{\widetilde{b}}
+\def\ctilde{\widetilde{c}}
+\def\dtilde{\widetilde{d}}
+\def\etilde{\widetilde{e}}
+\def\ftilde{\widetilde{f}}
+\def\gtilde{\widetilde{g}}
+\def\htilde{\widetilde{h}}
+\def\itilde{\widetilde{i}}
+\def\jtilde{\widetilde{j}}
+\def\ktilde{\widetilde{k}}
+\def\ltilde{\widetilde{l}}
+\def\mtilde{\widetilde{m}}
+\def\ntilde{\widetilde{n}}
+\def\otilde{\widetilde{o}}
+\def\ptilde{\widetilde{p}}
+\def\qtilde{\widetilde{q}}
+\def\rtilde{\widetilde{r}}
+\def\stilde{\widetilde{s}}
+\def\ttilde{\widetilde{t}}
+\def\utilde{\widetilde{u}}
+\def\vtilde{\widetilde{v}}
+\def\wtilde{\widetilde{w}}
+\def\xtilde{\widetilde{x}}
+\def\ytilde{\widetilde{y}}
+\def\ztilde{\widetilde{z}}
+\def\Atilde{\widetilde{A}}
+\def\Btilde{\widetilde{B}}
+\def\Ctilde{\widetilde{C}}
+\def\Dtilde{\widetilde{D}}
+\def\Etilde{\widetilde{E}}
+\def\Ftilde{\widetilde{F}}
+\def\Gtilde{\widetilde{G}}
+\def\Htilde{\widetilde{H}}
+\def\Itilde{\widetilde{I}}
+\def\Jtilde{\widetilde{J}}
+\def\Ktilde{\widetilde{K}}
+\def\Ltilde{\widetilde{L}}
+\def\Mtilde{\widetilde{M}}
+\def\Ntilde{\widetilde{N}}
+\def\Otilde{\widetilde{O}}
+\def\Ptilde{\widetilde{P}}
+\def\Qtilde{\widetilde{Q}}
+\def\Rtilde{\widetilde{R}}
+\def\Stilde{\widetilde{S}}
+\def\Ttilde{\widetilde{T}}
+\def\Utilde{\widetilde{U}}
+\def\Vtilde{\widetilde{V}}
+\def\Wtilde{\widetilde{W}}
+\def\Xtilde{\widetilde{X}}
+\def\Ytilde{\widetilde{Y}}
+\def\Ztilde{\widetilde{Z}}
+\def\Alphatilde{\widetilde{\Alpha}}
+\def\Betatilde{\widetilde{\Beta}}
+\def\Gammatilde{\widetilde{\Gamma}}
+\def\Deltatilde{\widetilde{\Delta}}
+\def\Epsilontilde{\widetilde{\Epsilon}}
+\def\Zetatilde{\widetilde{\Zeta}}
+\def\Etatilde{\widetilde{\Eta}}
+\def\Thetatilde{\widetilde{\Theta}}
+\def\Iotatilde{\widetilde{\Iota}}
+\def\Kappatilde{\widetilde{\Kappa}}
+\def\Lambdatilde{\widetilde{\Lamdba}}
+\def\Mutilde{\widetilde{\Mu}}
+\def\Nutilde{\widetilde{\Nu}}
+\def\Xitilde{\widetilde{\Xi}}
+\def\Omicrontilde{\widetilde{\Omicron}}
+\def\Pitilde{\widetilde{\Pi}}
+\def\Rhotilde{\widetilde{\Rho}}
+\def\Sigmatilde{\widetilde{\Sigma}}
+\def\Tautilde{\widetilde{\Tau}}
+\def\Upsilontilde{\widetilde{\Upsilon}}
+\def\Phitilde{\widetilde{\Phi}}
+\def\Chitilde{\widetilde{\Chi}}
+\def\Psitilde{\widetilde{\Psi}}
+\def\Omegatilde{\widetilde{\Omega}}
+\def\alphatilde{\widetilde{\alpha}}
+\def\betatilde{\widetilde{\beta}}
+\def\gammatilde{\widetilde{\gamma}}
+\def\deltatilde{\widetilde{\delta}}
+\def\epsilontilde{\widetilde{\epsilon}}
+\def\zetatilde{\widetilde{\zeta}}
+\def\etatilde{\widetilde{\eta}}
+\def\thetatilde{\widetilde{\theta}}
+\def\iotatilde{\widetilde{\iota}}
+\def\kappatilde{\widetilde{\kappa}}
+\def\lambdatilde{\widetilde{\lamdba}}
+\def\mutilde{\widetilde{\mu}}
+\def\nutilde{\widetilde{\nu}}
+\def\xitilde{\widetilde{\xi}}
+\def\omicrontilde{\widetilde{\omicron}}
+\def\pitilde{\widetilde{\pi}}
+\def\rhotilde{\widetilde{\rho}}
+\def\sigmatilde{\widetilde{\sigma}}
+\def\tautilde{\widetilde{\tau}}
+\def\upsilontilde{\widetilde{\upsilon}}
+\def\phitilde{\widetilde{\phi}}
+\def\chitilde{\widetilde{\chi}}
+\def\psitilde{\widetilde{\psi}}
+\def\omegatilde{\widetilde{\omega}}
+\def\Alphabar{\bar{\Alpha}}
+\def\Betabar{\bar{\Beta}}
+\def\Gammabar{\bar{\Gamma}}
+\def\Deltabar{\bar{\Delta}}
+\def\Epsilonbar{\bar{\Epsilon}}
+\def\Zetabar{\bar{\Zeta}}
+\def\Etabar{\bar{\Eta}}
+\def\Thetabar{\bar{\Theta}}
+\def\Iotabar{\bar{\Iota}}
+\def\Kappabar{\bar{\Kappa}}
+\def\Lambdabar{\bar{\Lamdba}}
+\def\Mubar{\bar{\Mu}}
+\def\Nubar{\bar{\Nu}}
+\def\Xibar{\bar{\Xi}}
+\def\Omicronbar{\bar{\Omicron}}
+\def\Pibar{\bar{\Pi}}
+\def\Rhobar{\bar{\Rho}}
+\def\Sigmabar{\bar{\Sigma}}
+\def\Taubar{\bar{\Tau}}
+\def\Upsilonbar{\bar{\Upsilon}}
+\def\Phibar{\bar{\Phi}}
+\def\Chibar{\bar{\Chi}}
+\def\Psibar{\bar{\Psi}}
+\def\Omegabar{\bar{\Omega}}
+\def\alphabar{\bar{\alpha}}
+\def\betabar{\bar{\beta}}
+\def\gammabar{\bar{\gamma}}
+\def\deltabar{\bar{\delta}}
+\def\epsilonbar{\bar{\epsilon}}
+\def\zetabar{\bar{\zeta}}
+\def\etabar{\bar{\eta}}
+\def\thetabar{\bar{\theta}}
+\def\iotabar{\bar{\iota}}
+\def\kappabar{\bar{\kappa}}
+\def\lambdabar{\bar{\lamdba}}
+\def\mubar{\bar{\mu}}
+\def\nubar{\bar{\nu}}
+\def\xibar{\bar{\xi}}
+\def\omicronbar{\bar{\omicron}}
+\def\pibar{\bar{\pi}}
+\def\rhobar{\bar{\rho}}
+\def\sigmabar{\bar{\sigma}}
+\def\taubar{\bar{\tau}}
+\def\upsilonbar{\bar{\upsilon}}
+\def\phibar{\bar{\phi}}
+\def\chibar{\bar{\chi}}
+\def\psibar{\bar{\psi}}
+\def\omegabar{\bar{\omega}}
+\def\del{\partial}
+\def\delbar{\overline{\partial}}
+\def\Cech{\check{C}}
+\def\half{\frac{1}{2}}
+\def\defeq{\mathrel{\mathop:}=}
+\def\alg{\mathrm{alg}}
+\def\Alt{\mathrm{Alt}}
+\def\Amp{\mathrm{Amp}}
+\def\Arg{\mathrm{Arg}}
+\def\an{\mathrm{an}}
+\def\anti{\mathrm{anti}}
+\def\Ap{\mathrm{Ap}}
+\def\arcsinh{\mathrm{arcsinh\hspace{0.07cm}}}
+\def\arccosh{\mathrm{arccosh\hspace{0.07cm}}}
+\def\arctanh{\mathrm{arctanh\hspace{0.07cm}}}
+\def\arccsch{\mathrm{arccsch\hspace{0.07cm}}}
+\def\arcsech{\mathrm{arcsech\hspace{0.07cm}}}
+\def\arccoth{\mathrm{arccoth\hspace{0.07cm}}}
+\def\arccsc{\mathrm{arccsc\hspace{0.07cm}}}
+\def\arcsec{\mathrm{arcsec\hspace{0.07cm}}}
+\def\arccot{\mathrm{arccot\hspace{0.07cm}}}
+\def\arg{\mathrm{arg}}
+\def\BC{\mathrm{BC}}
+\def\Bel{\mathrm{Bel}}
+\def\calCH{\mathcal{CH}}
+\def\csch{\mathrm{csch}\hspace{0.07cm}}
+\def\CH{\mathrm{CH}}
+\def\ch{\mathrm{ch}}
+\def\closed{\mathrm{closed}}
+\def\codim{\mathrm{codim}}
+\def\coth{\mathrm{coth}\hspace{0.07cm}}
+\def\Coh{\mathfrak{Coh}}
+\def\Coker{\mathrm{Coker}}
+\def\Cone{\mathrm{Cone}}
+\def\darg{d\mathrm{arg}}
+\def\Db{\mathrm{Db}}
+\def\dclosed{\mathrm{d-closed}}
+\def\deg{\mathrm{deg}}
+\def\dim{\mathrm{dim}}
+\def\divisor{\mathrm{div}}
+\def\dlog{d\mathrm{log}}
+\def\DNE{\mathrm{DNE}}
+\def\DR{\mathrm{DR}}
+\def\DST{\mathrm{DST}}
+\def\exp{\mathrm{exp}}
+\def\FLB{\mathrm{FLB}}
+\def\FLS{\mathrm{FLS}}
+\def\Gr{\mathrm{Gr}}
+\def\Hzar{H_{\mathrm{Zar}}}
+\def\Hol{\mathrm{Hol}}
+\def\Id{\mathrm{Id}}
+\def\Image{\mathrm{Im}}
+\def\Ka{\mathcal{K}_A}
+\def\Ker{\mathrm{Ker}}
+\def\kod{\mathrm{kod}}
+\def\Kx{\mathcal{K}_X}
+\def\Kz{\mathcal{K}_Z}
+\def\log{\mathrm{log}}
+\def\Log{\mathrm{Log}}
+\def\Li{\mathrm{Li}}
+\def\min{\mathrm{min}}
+\def\Mon{\mathrm{Mon}}
+\def\Nef{\mathrm{Nef}}
+\def\NS{\mathrm{NS}}
+\def\Oa{\mathcal{O}_A}
+\def\Ox{\mathcal{O}_X}
+\def\Oz{\mathcal{O}_Z}
+\def\Perp{\mathrm{Perp}}
+\def\Pic{\mathrm{Pic}}
+\def\Proj{\mathrm{Proj}}
+\def\rank{\mathrm{rank}}
+\def\Rat{\mathrm{Rat}}
+\def\Real{\mathrm{Re}}
+\def\reg{\mathrm{reg}}
+\def\Res{\mathrm{Res}}
+\def\res{\mathrm{res}}
+\def\Ric{\mathrm{Ric}}
+\def\sech{\mathrm{sech}\hspace{0.07cm}}
+\def\Span{\mathrm{Span}}
+\def\Spec{\mathrm{Spec}}
+\def\sing{\mathrm{sing}}
+\def\Singx{\mathrm{Sing}(X)}
+\def\sheafKer{\mathcal{\Ker}}
+\def\sheafIm{\mathcal{\Im}}
+\def\Span{\mathrm{Span}}
+\def\Spin{\mathrm{Spin}}
+\def\Str{\mathrm{Str}}
+\def\td{\mathrm{td}}
+\def\tr{\mathrm{tr}}
+\def\Todd{\mathrm{Todd}}
+\def\tor{\mathrm{tor}}
+\def\trdeg{\mathrm{trdeg}}
+\def\Zar{\mathrm{Zar}}
+\def\ZFLS{\mathrm{ZFLS}}
+
+  \usepackage{tikz}
+  \usepackage{tkz-graph}
+  \usepackage{tkz-euclide}
+  \usetikzlibrary{patterns}
+  \usetikzlibrary{positioning}
+  \usetikzlibrary{matrix,arrows}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{shapes}
+  \usetikzlibrary{through,intersections,decorations,shadows,fadings}
+  \usepackage{pgfplots}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">Course Notes for Calculus I</span></a></h1>
+<p class="byline">Remkes Kooistra</p>
+</div>
+</div></div>
+<nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="marginal-analysis.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="chapter-week11.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="chapter-week12.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="marginal-analysis.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="chapter-week11.html" title="Up">Up</a><a class="next-button button toolbar-item" href="chapter-week12.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="calculus1.html" data-scroll="calculus1"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon.html" data-scroll="colophon">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week1.html" data-scroll="chapter-week1"><span class="codenumber">1</span> <span class="title">Week 1</span></a><ul>
+<li><a href="section-analytic-geometry.html" data-scroll="section-analytic-geometry">Analytic Geometry</a></li>
+<li><a href="section-lines.html" data-scroll="section-lines">Lines</a></li>
+<li><a href="section-conics.html" data-scroll="section-conics">Conics</a></li>
+<li><a href="section-intersection.html" data-scroll="section-intersection">Intersection</a></li>
+<li><a href="section-shifts.html" data-scroll="section-shifts">Shifts</a></li>
+<li><a href="section-week1-activity.html" data-scroll="section-week1-activity">Week 1 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week2.html" data-scroll="chapter-week2"><span class="codenumber">2</span> <span class="title">Week 2</span></a><ul>
+<li><a href="section-functions.html" data-scroll="section-functions">Functions</a></li>
+<li><a href="section-types-of-functions.html" data-scroll="section-types-of-functions">Types of Functions</a></li>
+<li><a href="properties-of-functions.html" data-scroll="properties-of-functions">Properties of Functions</a></li>
+<li><a href="section-operations-on-functions.html" data-scroll="section-operations-on-functions">Operations on Functions</a></li>
+<li><a href="section-models.html" data-scroll="section-models">Models</a></li>
+<li><a href="section-week2-activity.html" data-scroll="section-week2-activity">Week 2 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week3.html" data-scroll="chapter-week3"><span class="codenumber">3</span> <span class="title">Week 3</span></a><ul>
+<li><a href="section-population-growth.html" data-scroll="section-population-growth">Population Growth</a></li>
+<li><a href="section-differential-equations.html" data-scroll="section-differential-equations">Differential Equations</a></li>
+<li><a href="section-phase-lines.html" data-scroll="section-phase-lines">Phase Lines</a></li>
+<li><a href="section-week3-activity.html" data-scroll="section-week3-activity">Week 3 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chatper-week4.html" data-scroll="chatper-week4"><span class="codenumber">4</span> <span class="title">Week 4</span></a><ul>
+<li><a href="limits-concept.html" data-scroll="limits-concept">The Concept of a Limit</a></li>
+<li><a href="section-limits-at-finite-values.html" data-scroll="section-limits-at-finite-values">Calcluating Limits at Finite Values</a></li>
+<li><a href="section-continuity.html" data-scroll="section-continuity">Continuity</a></li>
+<li><a href="section-edge-behaviour-of-models.html" data-scroll="section-edge-behaviour-of-models">Edge Behaviour of Models</a></li>
+<li><a href="subsection-week4-activity.html" data-scroll="subsection-week4-activity">Week 4 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week5.html" data-scroll="chapter-week5"><span class="codenumber">5</span> <span class="title">Week 5</span></a><ul>
+<li><a href="section-limits-at-infinity.html" data-scroll="section-limits-at-infinity">Limits at Infinity</a></li>
+<li><a href="section-asymptotic_analysis.html" data-scroll="section-asymptotic_analysis">Asymptotic Analysis</a></li>
+<li><a href="section-indeterminate-forms.html" data-scroll="section-indeterminate-forms">Indeterminate Forms</a></li>
+<li><a href="section-long-term-behaviour-of-models.html" data-scroll="section-long-term-behaviour-of-models">Extreme Values of Models</a></li>
+<li><a href="section-week5-activity.html" data-scroll="section-week5-activity">Week 5 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week6.html" data-scroll="chapter-week6"><span class="codenumber">6</span> <span class="title">Week 6</span></a><ul>
+<li><a href="section-two-motivating-problems.html" data-scroll="section-two-motivating-problems">Two Motivating Problems</a></li>
+<li><a href="section-derivative-definition.html" data-scroll="section-derivative-definition">Definition of the Derivative</a></li>
+<li><a href="section-derivative-rules.html" data-scroll="section-derivative-rules">Rules for Differentiation</a></li>
+<li><a href="subsection-week6-activity.html" data-scroll="subsection-week6-activity">Week 6 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week7.html" data-scroll="chapter-week7"><span class="codenumber">7</span> <span class="title">Week 7</span></a><ul>
+<li><a href="section-chain-rule.html" data-scroll="section-chain-rule">The Chain Rule</a></li>
+<li><a href="section-higher-derivatives.html" data-scroll="section-higher-derivatives">Higher Derivatives</a></li>
+<li><a href="section-h-rule.html" data-scroll="section-h-rule">L'Hôpital's Rule</a></li>
+<li><a href="section-week7-activity.html" data-scroll="section-week7-activity">Week 7 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week8.html" data-scroll="chapter-week8"><span class="codenumber">8</span> <span class="title">Week 8</span></a><ul>
+<li><a href="section-sigma-notation.html" data-scroll="section-sigma-notation">Sigma Notation</a></li>
+<li><a href="section-riemann-integral.html" data-scroll="section-riemann-integral">The Riemann Integral</a></li>
+<li><a href="section-fundamental-theorem.html" data-scroll="section-fundamental-theorem">The Fundamental Theorem</a></li>
+<li><a href="section-week8-activity.html" data-scroll="section-week8-activity">Week 8 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week9.html" data-scroll="chapter-week9"><span class="codenumber">9</span> <span class="title">Week 9</span></a><ul>
+<li><a href="section-substitution-rule.html" data-scroll="section-substitution-rule">The Substitution Rule</a></li>
+<li><a href="section-week9-activity.html" data-scroll="section-week9-activity">Week 9 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week10.html" data-scroll="chapter-week10"><span class="codenumber">10</span> <span class="title">Week 10</span></a><ul>
+<li><a href="section-des.html" data-scroll="section-des">Solving Differential Equations</a></li>
+<li><a href="section-population-de.html" data-scroll="section-population-de">The Population Differential Equation</a></li>
+<li><a href="section-logistic-de.html" data-scroll="section-logistic-de">The Logistic Differential Equation</a></li>
+<li><a href="subsection-week10-activity.html" data-scroll="subsection-week10-activity">Week 10 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week11.html" data-scroll="chapter-week11"><span class="codenumber">11</span> <span class="title">Week 11</span></a><ul>
+<li><a href="section-extrema.html" data-scroll="section-extrema">Extrema</a></li>
+<li><a href="section-optimization.html" data-scroll="section-optimization">Optimization</a></li>
+<li><a href="marginal-analysis.html" data-scroll="marginal-analysis">Marginal Analysis</a></li>
+<li><a href="section-week11-activity.html" data-scroll="section-week11-activity" class="active">Week 11 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week12.html" data-scroll="chapter-week12"><span class="codenumber">12</span> <span class="title">Week 12</span></a><ul>
+<li><a href="section-curve-sketching.html" data-scroll="section-curve-sketching">Curve Sketching</a></li>
+<li><a href="section-model-interpretation.html" data-scroll="section-model-interpretation">Model Interpretation</a></li>
+<li><a href="subsection-week12-activity.html" data-scroll="subsection-week12-activity">Week 12 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-additional-materials.html" data-scroll="chapter-additional-materials"><span class="codenumber">13</span> <span class="title">Additional Materials</span></a><ul>
+<li><a href="section-how-to-write-an-assignment.html" data-scroll="section-how-to-write-an-assignment">How to Write a Math Assignment</a></li>
+<li><a href="section-adacemic-honesty.html" data-scroll="section-adacemic-honesty">Academic Honesty in Mathematics Courses</a></li>
+<li><a href="section-notations.html" data-scroll="section-notations">Mathematical Notations</a></li>
+<li><a href="section-reference.html" data-scroll="section-reference">Reference</a></li>
+<li><a href="section-label.html" data-scroll="section-label">Title</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-assignments.html" data-scroll="chapter-assignments"><span class="codenumber">14</span> <span class="title">Assignments</span></a><ul>
+<li><a href="section-assignment-week1.html" data-scroll="section-assignment-week1">Week 1 Assignment</a></li>
+<li><a href="section-assignment-week2.html" data-scroll="section-assignment-week2">Week 2 Assignment</a></li>
+<li><a href="section-assignment-week3.html" data-scroll="section-assignment-week3">Week 3 Assignment</a></li>
+<li><a href="section-assignment-week4.html" data-scroll="section-assignment-week4">Assignment for Week 4</a></li>
+<li><a href="section-assignment-week5.html" data-scroll="section-assignment-week5">Assignment for Week 5</a></li>
+<li><a href="section-assignment-week6.html" data-scroll="section-assignment-week6">Assignment for Week 6</a></li>
+<li><a href="section-assignment-week7.html" data-scroll="section-assignment-week7">Assignment for Week 7</a></li>
+<li><a href="section-assignment-week8.html" data-scroll="section-assignment-week8">Assignment for Week 8</a></li>
+<li><a href="section-assignment-week9.html" data-scroll="section-assignment-week9">Assignment for Week 9</a></li>
+<li><a href="section-assignment-week10.html" data-scroll="section-assignment-week10">Assignment for Week 10</a></li>
+<li><a href="section-assignment-week11.html" data-scroll="section-assignment-week11">Assignment for Week 11</a></li>
+<li><a href="section-assignment-week11.html" data-scroll="section-assignment-week11">Assignment for Week 11</a></li>
+</ul>
+</li>
+<li class="link backmatter"><a href="backmatter-1.html" data-scroll="backmatter-1"><span class="title">Back Matter</span></a></li>
+</ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="section-week11-activity"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">11.4</span> <span class="title">Week 11 Activity</span>
+</h2>
+<section class="subsection" id="subsection-activity-extrema"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">11.4.1</span> <span class="title">Extrema</span>
+</h3>
+<article class="activity project-like" id="activity-156"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.4.1</span><span class="period">.</span>
+</h6>
+<p id="p-743">Find the \(x\) values of the maxima and minima of this function.</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = 7x^2 - 2x - 4
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-156" id="solution-156"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-156"><div class="solution solution-like">
+<p id="p-744">First we take the derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{df}{dx} = 14x - 2
+\end{equation*}
+</div>
+<p data-braille="continuation">Next we set the derivative to zero and solve.</p>
+<div class="displaymath">
+\begin{align*}
+14x - 2 \amp = 0 \\
+x \amp = \frac{1}{7} 
+\end{align*}
+</div>
+<p data-braille="continuation">The domain of this function is all real numbers. We split up this domain using the critical point to get the intervals. On each interval, we test the sign of the derivative.</p>
+<div class="displaymath">
+\begin{align*}
+\amp\left(-\infty, \frac{1}{7} \right) \amp 
+\amp\left( \frac{1}{7}, \infty \right)\\
+\amp f^\prime (0) = -2  \amp 
+\amp f^\prime (1) = 12 \\
+\amp \text{Negative} \amp
+\amp \text{Positive} \\
+\amp f \text{ is decreasing.} \amp
+\amp f \text{ is increasing.} 
+\end{align*}
+</div>
+<p data-braille="continuation">Since the function changes from decreasing to increasing at the critical point, we must have a minimum at \(x =
+\frac{1}{7}\text{.}\)</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-157"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.4.2</span><span class="period">.</span>
+</h6>
+<p id="p-745">Find the \(x\) values of the maxima and minima of this function.</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = \frac{x-1}{x^2+7} 
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-157" id="solution-157"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-157"><div class="solution solution-like">
+<p id="p-746">First we take the derivative, using the quotient rule.</p>
+<div class="displaymath">
+\begin{align*}
+\frac{df}{dx} \amp = \frac{(x^2+7) \left( \frac{d}{dx} x-1
+\right) - (x-1) \left( \frac{d}{dx} x^2+7
+\right)}{(x^2+7)^2} \\
+\amp = \frac{(x^2+7) - (x-1) (2x)}{(x^2+7)^2} \\
+\amp = \frac{x^2+7 - 2x^2 + 2x}{(x^2+7)^2} \\
+\amp = \frac{-x^2 + 2x + 7}{(x^2+7)^2} 
+\end{align*}
+</div>
+<p data-braille="continuation">Next we set the derivative to zero and solve. We only need to set the numerator equal to zero.</p>
+<div class="displaymath">
+\begin{align*}
+-x^2 + 2x + 7 \amp = 0 \\
+x^2 - 2x - 7 \amp = 0 \\
+x \amp = \frac{2 \pm \sqrt{ 4 - (4)(1)(-7)}}{2}\\
+x \amp = \frac{2 \pm \sqrt{32}}{2} = \frac{ 2 \pm 4
+\sqrt{8}}{2} = 1 \pm \sqrt{8}
+\end{align*}
+</div>
+<p data-braille="continuation">The domain of this function is all real numbers. We split up this domain using the critical points to get the intervals. On each interval, we test the sign of the derivative.</p>
+<div class="displaymath">
+\begin{align*}
+\amp \left( -\infty, 1 - \sqrt{8} \right) \amp
+\amp \left( 1 - \sqrt{8}, 1 + \sqrt{8}, \right) \amp
+\amp \left( 1 + \sqrt{8}, \infty \right)\\
+\amp f^\prime (-2) = \frac{-1}{121} \amp 
+\amp f^\prime (0) = \frac{1}{7} \amp
+\amp f^\prime (4) = \frac{-1}{519} \\
+\amp \text{Negative} \amp
+\amp \text{Positive} \amp
+\amp \text{Negative} \\
+\amp f \text{ is decreasing.} \amp
+\amp f \text{ is increasing.} \amp
+\amp f \text{ is decreasing.} 
+\end{align*}
+</div>
+<p data-braille="continuation">At \(x = 1 - \sqrt{8}\text{,}\) the function changes from decreasing to inscreasing, so this point is a minimum. At \(x = 1 + \sqrt{8}\text{,}\) the function changes from increasing to decreasing, so this point is a maximum.</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-158"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.4.3</span><span class="period">.</span>
+</h6>
+<p id="p-747">Find the \(x\) values of the maxima and minima of this function.</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = e^{x^2-4}
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-158" id="solution-158"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-158"><div class="solution solution-like">
+<p id="p-748">First we take the derivative, using the chain rule (I haven't shown the steps here).</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{df}{dx} = (2x)e^{x^2-4} 
+\end{equation*}
+</div>
+<p data-braille="continuation">Next we set the derivative to zero and solve. Note that the exponential term can never be zero, so we are free to divide by it, leaving only the polynomial term remaining.</p>
+<div class="displaymath">
+\begin{align*}
+2xe^{x^2-4} \amp = 0 \implies 2x = 0 \\
+x \amp = 0 
+\end{align*}
+</div>
+<p data-braille="continuation">The domain of this function is all real numbers. We split up this domain using the critical point to get the intervals. On each interval, we test the sign of the derivative.</p>
+<div class="displaymath">
+\begin{align*}
+\amp \left(-\infty, 0 \right) \amp 
+\amp \left( 0 \infty \right)\\
+\amp f^\prime (-1) = -2e^{-3}  \amp 
+\amp f^\prime (1) = 2e^{-3}\\
+\amp \text{Negative} \amp
+\amp \text{Positive} \\
+\amp f \text{ is decreasing.} \amp
+\amp f \text{ is increasing.} 
+\end{align*}
+</div>
+<p data-braille="continuation">Since the function change from decreasing to increasing at the critical point, we must have a minimum at \(x = 0\text{.}\)</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-159"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.4.4</span><span class="period">.</span>
+</h6>
+<p id="p-749">Find the \(x\) values of the maxima and minima of this function.</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = \frac{1}{x^2 - 6x + 10}
+\end{equation*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-159" id="solution-159"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-159"><div class="solution solution-like">
+<p id="p-750">First we take the derivative. I used the chain rule (with \(u^{-1}\) as the outside function), but the quotient rule works just a well.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{df}{dx} = \frac{-(2x-6)}{(x^2-6x+10)^2} 
+\end{equation*}
+</div>
+<p data-braille="continuation">Next we set the derivative to zero and solve. Note we only need to set the numerator equal to zero.</p>
+<div class="displaymath">
+\begin{align*}
+2x-6 \amp = 0 \\
+x \amp = 3 
+\end{align*}
+</div>
+<p data-braille="continuation">This is not a root of the denominator, so this is a valid critical point.  The domain of this function is all real numbers (since the denominator has no roots). We split up this domain using the critical point to get the intervals. On each interval, we test the sign of the derivative.</p>
+<div class="displaymath">
+\begin{align*}
+\amp \left(-\infty, 3 \right) \amp 
+\amp \left( 3, \infty \right)\\
+\amp f^\prime (0) = \frac{6}{100} \amp 
+\amp f^\prime (4) = \frac{-2}{4} = \frac{-1}{2} \\
+\amp \text{Positive} \amp
+\amp \text{Negative} \\
+\amp f \text{ is increasing.} \amp
+\amp f \text{ is decreasing.} 
+\end{align*}
+</div>
+<p data-braille="continuation">Since the function change from increasing to decreasing at the critical point, we must have a minimum at \(x = 3\text{.}\)</p>
+</div></div>
+</div></article></section><section class="subsection" id="subsection-activity-optimization"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">11.4.2</span> <span class="title">Optimization</span>
+</h3>
+<article class="activity project-like" id="activity-160"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.4.5</span><span class="period">.</span>
+</h6>
+<p id="p-751">The function</p>
+<div class="displaymath">
+\begin{equation*}
+h(t) = - 3t^2 + 9 t + 7
+\end{equation*}
+</div>
+<p data-braille="continuation">measures height as a function of time. Find the maximum height.</p>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-160" id="solution-160"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-160"><div class="solution solution-like">
+<p id="p-752">First we take the derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{dh}{dt} = -6t + 9
+\end{equation*}
+</div>
+<p data-braille="continuation">Next we set the derivative to zero and solve.</p>
+<div class="displaymath">
+\begin{align*}
+-6t + 9 \amp = 0 \\
+t \amp = \frac{3}{2} 
+\end{align*}
+</div>
+<p data-braille="continuation">The domain of this function is all real numbers, but we can assume \(t \geq \) for the model. We split up this domain using the critical point to get the intervals. On each interval, we test the sign of the derivative.</p>
+<div class="displaymath">
+\begin{align*}
+\amp \left(0 \frac{3}{2} \right) \amp 
+\amp \left(\frac{3}{2}, \infty \right)\\
+\amp f^\prime (1) = 3  \amp 
+\amp f^\prime (2) = -3 \\
+\amp \text{Positive} \amp
+\amp \text{Negative} \\
+\amp h \text{ is increasing.} \amp
+\amp h \text{ is decreasing.} 
+\end{align*}
+</div>
+<p data-braille="continuation">Since the function change from increasing to decreasing at the critical point, we must have a maximum at \(t =
+\frac{3}{2}\text{.}\) The value at \(t = \frac{3}{2}\) is \(-3 \left( \frac{3}{2} \right)^2 + 9 \frac{3}{2} + 7 =
+\frac{-27}{4} + \frac{27}{2} + 7 = \frac{27}{4} +
+\frac{28}{4} = \frac{55}{4}\text{.}\) The maximum height is \(\frac{55}{4}\) meters.</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-161"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.4.6</span><span class="period">.</span>
+</h6>
+<p id="p-753">A chemical reaction is controlled by a catalyst. The function</p>
+<div class="displaymath">
+\begin{equation*}
+T(c) = 14\sqrt{7 - 4x + x^2}
+\end{equation*}
+</div>
+<p data-braille="continuation">measure a bounding temperature of the reaction depending on the concentration of the catalyst. Find the minimum temperature bound.</p>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-161" id="solution-161"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-161"><div class="solution solution-like">
+<p id="p-754">First we take the derivative, using the chain rule (I haven't shown the steps).</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{dT}{dc} = \frac{14 (2x-4)}{2\sqrt{7 - 4x + x^2}} =
+\frac{14x - 28}{\sqrt{7 - 4x + x^2}} 
+\end{equation*}
+</div>
+<p data-braille="continuation">Next we set the derivative to zero and solve. We only need to consider the numerator.</p>
+<div class="displaymath">
+\begin{align*}
+14x - 28 \amp = 0 \\
+x \amp = 2 
+\end{align*}
+</div>
+<p data-braille="continuation">The domain of this function is all real numbers, since the quadratic in the square root is always positive. However, concentration cannot be negative, so in the model we will assume a domain of positive numbers. We split up this domain using the critical point to get the intervals. On each interval, we test the sign of the derivative.</p>
+<div class="displaymath">
+\begin{align*}
+\amp \left(0, 2 \right) \amp 
+\amp \left( 2, \infty \right)\\
+\amp f^\prime (1) = \frac{14-28}{\sqrt{7 - 4 + 1}} =
+\frac{-14}{\sqrt{3}} \amp 
+\amp f^\prime (3) =  \frac{42 - 28}{\sqrt{7 - 12 + 9}} =
+\frac{14}{2} = 7 \\
+\amp \text{Negative} \amp
+\amp \text{Positive} \\
+\amp T \text{ is decreasing.} \amp
+\amp T \text{ is increasing.} 
+\end{align*}
+</div>
+<p data-braille="continuation">Since the function change from decreasing to increasing at the critical point, we must have a minimum at \(c = 2\text{.}\) The value of the function at \(c=2\) is \(T(2) = 14
+\sqrt{7 - 8 + 4} = 14 \sqrt{3} \doteq 24.25\text{.}\) The minimum bounding temperature if 24.25 degree celcius.</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-162"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.4.7</span><span class="period">.</span>
+</h6>
+<p id="p-755">The function</p>
+<div class="displaymath">
+\begin{equation*}
+T(m) = n(4m - 15\ln(m-25))
+\end{equation*}
+</div>
+<p data-braille="continuation">bounds the sort time of a sorting algorithm which runs on \(m\) parallel processors (for \(m\) at least 25). \(n\) is the length of the list. How many processors give the shortest sort time?</p>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-162" id="solution-162"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-162"><div class="solution solution-like">
+<p id="p-756">We replace \(n\) with 10000 in the function.</p>
+<div class="displaymath">
+\begin{equation*}
+T(m) = 10000(4m - 15 \ln (m-25)
+\end{equation*}
+</div>
+<p data-braille="continuation">Then we take the derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{dT}{dm} = 10000(4 - 15 \frac{1}{m-25}) 
+\end{equation*}
+</div>
+<p data-braille="continuation">Next we set the derivative to zero and solve.</p>
+<div class="displaymath">
+\begin{align*}
+4 - 15 \frac{1}{m-25} \amp = 0 \\
+m - 25 \amp = \frac{15}{4} \\
+m \amp = \frac{15}{4} + 25 = \frac{115}{4}
+\end{align*}
+</div>
+<p data-braille="continuation">The domain of this function is all numbers above 25. We split up this domain using the critical point to get the intervals.  On each interval, we test the sign of the derivative.</p>
+<div class="displaymath">
+\begin{align*}
+\amp \left(25, \frac{115}{4}  \right) \amp 
+\amp \left( \frac{115}{4}, \infty \right)\\
+\amp f^\prime (26) = 10000 (4 - 15 \frac{1}{1}) = -1100000
+\amp 
+\amp f^\prime (35) = 10000 (4 - 15 \frac{1}{10} = 25000\\
+\amp \text{Negative} \amp
+\amp \text{Positive} \\
+\amp f \text{ is decreasing.} \amp
+\amp f \text{ is increasing.} 
+\end{align*}
+</div>
+<p data-braille="continuation">Since the function change from decreasing to increasing at the critical point, we must have a minimum at \(m =
+\frac{115}{4} \text{.}\) The closest whole number to this is 29, so the ideal choice is 29 processors.</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-163"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.4.8</span><span class="period">.</span>
+</h6>
+<p id="p-757">The function</p>
+<div class="displaymath">
+\begin{equation*}
+E(h) = \frac{-5}{3000}h^3 + \frac{1}{25}h^2 + 5
+\end{equation*}
+</div>
+<p data-braille="continuation">measure the fuel efficiency of an aircraft at height \(h\) (in kilometers). Find the height with the maximum fuel efficiency.</p>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-163" id="solution-163"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-163"><div class="solution solution-like">
+<p id="p-758">First we take the derivative.</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{dE}{dh} = -\frac{1}{200}h^2 + \frac{2}{25}h 
+\end{equation*}
+</div>
+<p data-braille="continuation">Next we set the derivative to zero and solve.</p>
+<div class="displaymath">
+\begin{align*}
+\frac{-1}{200}h^2 + \frac{2}{25}h \amp = 0 \\
+h \amp = 0 \text{ or } h = 16
+\end{align*}
+</div>
+<p data-braille="continuation">The domain of this function is all real numbers, but the model only makes sense for positive numbers. We ignore the critical point at 0, since we interested in positive heights. We split up this domain using the critical point to get the intervals.  On each interval, we test the sign of the derivative.</p>
+<div class="displaymath">
+\begin{align*}
+\amp \left(0, 16 \right) \amp 
+\amp \left(16, \infty \right)\\
+\amp f^\prime (1) = \frac{-1}{200} + \frac{2}{25} =
+\frac{15}{200}  \amp 
+\amp f^\prime (20) = \frac{-400}{200} + \frac{40}{25} =
+-2 + \frac{8}{5} = \frac{-3}{5} \\
+\amp \text{Positive} \amp
+\amp \text{Negative} \\
+\amp f \text{ is increasing.} \amp
+\amp f \text{ is decreasing.} 
+\end{align*}
+</div>
+<p data-braille="continuation">Since the function change from increasing to decreasing at the critical point, we must have a maximum at \(h =
+16\text{.}\) Therefore, the best fuel efficiency happens at a height of 16 kilometers.</p>
+</div></div>
+</div></article></section><section class="subsection" id="subsection-activity-marginal-analysis"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">11.4.3</span> <span class="title">Marginal Analysis</span>
+</h3>
+<article class="activity project-like" id="activity-164"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.4.9</span><span class="period">.</span>
+</h6>
+<p id="p-759">Consider the following cost and benefit functions.</p>
+<div class="displaymath">
+\begin{align*}
+C(x) \amp = \frac{1}{4}x^2 \\
+B(x) \amp = 4 \sqrt{x} 
+\end{align*}
+</div>
+<p data-braille="continuation">Determine the greatest possible net benefit. Also find the break-even point with the highest gross benefit. Given an interpretation of the cost and benefit functions, with comment on their reasonability.</p>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-164" id="solution-164"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-164"><div class="solution solution-like">
+<p id="p-760">We have a possible maximum net benefit when the marginal cost and marginal benefit are equal. We calculate those two and set them equal to each other.</p>
+<div class="displaymath">
+\begin{align*}
+\frac{d}{dx} C(x) \amp = \frac{1}{2} x \\
+\frac{d}{dx} B(x) \amp = \frac{4}{2\sqrt{x}} =
+\frac{2}{\sqrt{x}}\\
+\frac{1}{2} x \amp = \frac{2}{\sqrt{x}}\\
+x^\frac{3}{2} \amp = 4\\
+x \amp = 4^\frac{2}{3} = \sqrt[3]{16} \doteq 2.52
+\end{align*}
+</div>
+<p data-braille="continuation">Then we look at intervals. Below this critical value, say at \(x=1\text{,}\) the marginal benefit is 2 and the marginal cost is \(\frac{1}{2}\text{.}\) Here the net benefit is increasing, since the marginal benefit exceeds the marginal cost. Above the critical value, say at \(x=4\text{,}\) the marginal cost is 2 and the marginal benefit is 1. The marginal cost exceeds the marginal benefit, so the net benefit is decreasing. We conclude that we have a maximum net benefit at approximatly \(x = 2.52\)2 and the marginal benefit is 1. The marginal cost exceeds the marginal benefit, so the net benefit is decreasing. We conclude that we have a maximum net benefit at approximatly \(x = 2.52\)</p>
+<p id="p-761">For the break even point, we set the two functions each to each other and solve.</p>
+<div class="displaymath">
+\begin{align*}
+C(x) \amp = B(x) \\
+\frac{1}{4} x^2 \amp = 4 \sqrt{x} \\
+x^\frac{3}{2} \amp = 16\\
+x \amp = \sqrt[3]{256} \doteq 6.34
+\end{align*}
+</div>
+<p data-braille="continuation">This is only one positive break even point, at approximately \(x = 6.34\text{,}\) so that is by default the largest. <a class="xref" data-knowl="./knowl/figure-marginal-1.html" title="Figure 11.4.1">Figure 11.4.1</a> shows the behaviour of this marginal analysis model. <figure class="figure figure-like" id="figure-marginal-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="images/figure76.svg" role="img" style="width: 100%; height: auto;" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">11.4.1<span class="period">.</span></span><span class="space"> </span>First Marginal Analysis Activity</figcaption></figure> These cost and benefit functions seems at least somewhat reasonable. The benefit function curves down, representing a decreasing benefit with growing production. That reasonable if the demand for a product eventually dries up. The cost function curves up, showing that producing more eventually ends up costing a great deal per unit. This might not be correct if economies of scale bring down the cost, but it might make sense if the skills or materials needed become more difficult to acquire.</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-165"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.4.10</span><span class="period">.</span>
+</h6>
+<p id="p-762">Consider the following cost and benefit functions.</p>
+<div class="displaymath">
+\begin{align*}
+C(x) \amp = 14 + \frac{1}{10}x \\
+B(x) \amp = 6 \sqrt[3]{x}
+\end{align*}
+</div>
+<p data-braille="continuation">Determine the greatest possible net benefit. Also find the break-even point with the highest gross benefit. Given an interpretation of the cost and benefit functions, with comment on their reasonability. (As a computer for the solution for the break even point, since this is not easily solvable using algebraic methods.)</p>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-165" id="solution-165"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-165"><div class="solution solution-like">
+<p id="p-763">We have a possile maximum net benefit when the marginal cost and marginal benefit are equal. We calculate those two and set them equal to each other.</p>
+<div class="displaymath">
+\begin{align*}
+\frac{d}{dx} C(x) \amp = \frac{1}{10}\\
+\frac{d}{dx} B(x) \amp = \frac{6}{3\sqrt[3]{x^2}} =
+\frac{2}{\sqrt[3]{x^2}} \\
+\frac{1}{10} \amp = \frac{2}{\sqrt[3]{x^2}}\\
+x^\frac{2}{3} \amp = 20 \\
+x \amp = \sqrt{20^3} \doteq 89.44
+\end{align*}
+</div>
+<p data-braille="continuation">Then we look at intervals. The marginal cost is always fixed, so we just need to look at the marginal benefit. When \(x \lt 89\text{,}\) say \(x = 27\text{,}\) the marginal benefit is \(\frac{2}{9}\text{,}\) which is larger than the marginal cost. When \(x \geq 90\text{,}\) say \(x = 125\text{,}\) then the marginal benefit is \(\frac{2}{25}\text{,}\) which is smaller than the marginal cost. Therefore, the net benefit is increasing before the critical point and decreasing after it, so we do have a maximum.</p>
+<p id="p-764">For the break even point, we set the two functions each to each other and solve</p>
+<div class="displaymath">
+\begin{align*}
+C(x) \amp = B(x) \\
+14 + \frac{1}{10}x \amp = 6 \sqrt[3]{x}\\
+x \amp \doteq 18.4 \text{ or } x \doteq 224.85
+\end{align*}
+</div>
+<p data-braille="continuation">A computer gives us the two approximate solution. Since the benefit function is increasing, the larger \(x\) value is the larger break even point. <a class="xref" data-knowl="./knowl/figure-marginal-2.html" title="Figure 11.4.2">Figure 11.4.2</a> shows the behaviour of this marginal analysis model. <figure class="figure figure-like" id="figure-marginal-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="images/figure77.svg" role="img" style="width: 100%; height: auto;" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">11.4.2<span class="period">.</span></span><span class="space"> </span>Second Marginal Analysis Activity</figcaption></figure> This cost function is linear, showing that producing more or less has no effect on the cost per unit. This is possible for some items or services. The benefit function curve down as in the previous activity, again likely representing that eventually the demand for the product or service becomes saturated.</p>
+</div></div>
+</div></article><article class="activity project-like" id="activity-166"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.4.11</span><span class="period">.</span>
+</h6>
+<p id="p-765">Consider the following cost and benefit functions.</p>
+<div class="displaymath">
+\begin{align*}
+C(x) \amp = \frac{1}{9} x^3\\
+B(x) \amp = \left\{ \begin{matrix} 4x \amp x \leq 2 \\ 8 \amp
+x &gt; 2 \end{matrix} \right. 
+\end{align*}
+</div>
+<div class="solutions">
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-166" id="solution-166"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-166"><div class="solution solution-like">
+<p id="p-766">We have a possile maximum net benefit when the marginal cost and marginal benefit are equal. We calculate those two and set them equal to each other. We need to work with two pieces, one for \(x \leq 2\) and another for \(x \gt
+2\text{.}\) We will start with \(x \leq 2\text{.}\)</p>
+<div class="displaymath">
+\begin{align*}
+\frac{d}{dx} C(x) \amp = \frac{x^2}{3} \\
+\frac{d}{dx} B(x) \amp = 4\\
+\frac{x^2}{3} \amp = 4 \\
+x^2 \amp = 12 \\
+x \amp \dot 3.46
+\end{align*}
+</div>
+<p data-braille="continuation">This solution is not in the range \(x \leq 2\text{,}\) so there are no critical points on this part of the domain. For all of this part of the domain, the marginal cost is bounded by \(\frac{4}{3}\text{,}\) which is always smaller than the marginal benefit, so the net benefit is always increasing. Now let's consider \(x \gt 2\text{.}\)</p>
+<div class="displaymath">
+\begin{align*}
+\frac{d}{dx} C(x) \amp = \frac{x^2}{3}\\
+\frac{d}{dx} B(x) \amp = 0
+\end{align*}
+</div>
+<p data-braille="continuation">These can never be equal and the marginal cost is always larger than the marginal benefit. We don't have a critical point and the net benefit is always decreasing.</p>
+<p id="p-767">Even though we don't have a critical point, we have an understandable situation. Before \(x=2\text{,}\) the net benefit is increasing and after \(x=2\text{,}\) the net benefit is decreasing. Therefore, we have the maximum net benefit at the cross-over point, when \(x=2\text{.}\)</p>
+<p id="p-768">For the break even point, we set the two functions each to each other and solve. Again, we work in two pieces, first taking \(x \leq 2\text{.}\)</p>
+<div class="displaymath">
+\begin{align*}
+C(x) \amp = B(x) \\
+\frac{1}{9}x^3 \amp = 4x \\
+x^2 \amp = 36 \\
+x \amp = 6
+\end{align*}
+</div>
+<p data-braille="continuation">This point isn't in this section of the domain, so it is not a break even point. We also have \(x=0\) that satisfies this equality, but that isn't an interesting break even point. Now let's take \(x \gt 2\text{.}\)</p>
+<div class="displaymath">
+\begin{align*}
+C(x) \amp = B(x) \\
+\frac{1}{9}x^3 \amp = 8\\
+x^3 \amp = 72\\
+x \amp = \sqrt[3]{72} \doteq 4.16
+\end{align*}
+</div>
+<p data-braille="continuation">We have a break even point. It is the only (non-zero) break even point and the benefit is always positive, so it must be the largest break even point.  <a class="xref" data-knowl="./knowl/figure-marginal-3.html" title="Figure 11.4.3">Figure 11.4.3</a> shows the behaviour of this marginal analysis model. <figure class="figure figure-like" id="figure-marginal-3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="images/figure78.svg" role="img" style="width: 100%; height: auto;" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">11.4.3<span class="period">.</span></span><span class="space"> </span>Third Marginal Analysis Activity</figcaption></figure> This cost function curve upwards, meaning that eventually the materials or skills needed become scare and it becomes more difficult to produce the item or service. The piecewise benefit function is more interesting. For the first while, benefit is linear, meaning that each unit produces the same benefit. However, the benefit suddenly becomes flat, showing that after a period of time, the demand is suddenly zero and no more benefit can be produces. In this case, the break-even analysis isn't very useful, since we are already at the highest benefit value much ealier.</p>
+</div></div>
+</div></article></section><section class="subsection" id="subsection-week11-concepts"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">11.4.4</span> <span class="title">Conceptual Review Questions</span>
+</h3>
+<ul id="p-769" class="disc">
+<li id="li-139">Why can we use derivatives to find maxima and minima of function?</li>
+<li id="li-140">Why do we use intervals to test the sign of the derivative on the intervals?</li>
+<li id="li-141">What is optimization and why is it part of calculus?</li>
+<li id="li-142">What are marginal cost and marginal benefit? Why are they measure by derivatives?</li>
+<li id="li-143">Why do we have critical points when marginal cost and marginal benefit are equal?</li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

@@ -49,7 +49,23 @@
     </p>
     <figure xml:id="figure-tangent-lines-at-extrema">
       <caption>Tangent Lines at Extrema</caption>
-      <image width="60%" source="images/figure54"/>
+      <image xml:id="figure54" width="60%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+          
+          draw((0,3){SE}..{E}(2,1.6){E}..{E}(4,4){E}..{SE}(6,3));
+
+          label("$f(x)$",(0.8,2.2),NE);
+
+          draw((0,1.6)--(4,1.6));
+          draw((2,4)--(6,4));
+        </asymptote>
+      </image>
     </figure>
     <p>
       The tangent lines are horizontal at maximum or minimum values. We
@@ -171,7 +187,23 @@
     </example>
     <figure xml:id="figure-cubic-extrema-example">
       <caption>Extrema of a Cubic</caption>
-      <image width="60%" source="images/figure55"/>
+      <image xml:id="figure55"  width="60%">
+        <asymptote>
+          size(10cm,5cm,IgnoreAspect);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f(real x) {return 2x^3+ 3x^2 - 36x + 4;}
+
+          draw(graph(f,-6,5));
+
+          dot("$(-3,85)$",(-3,85),N);
+          dot("$(2,-40)$",(2,-40),S);
+        </asymptote>
+      </image>
     </figure>
   </subsection>
 </section>

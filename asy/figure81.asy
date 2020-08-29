@@ -1,4 +1,5 @@
 size(12cm);
+
 import graph;
 
 xlimits(0,8);

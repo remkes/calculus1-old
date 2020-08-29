@@ -101,7 +101,24 @@
   <subsection xml:id="subsection-sketching-examples">
     <figure xml:id="figure-curve-sketching1">
       <caption><m>f(x) = x \ln x</m></caption>
-      <image width="60%" source="images/figure58"/>
+      <image xml:id="figure58" width="80%">
+        <asymptote>
+          size(10cm,7cm,IgnoreAspect);
+
+          import graph; 
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f(real x) {return x*log(x);}
+
+          draw(graph(f,0.1,6));
+
+          dot("$\frac{1}{e}$",(0.368,0),N);
+          dot("$1$",(1,0),N);
+          dot((0.368,-0.368));
+        </asymptote>
+      </image>
     </figure>
     <example>
       <statement>
@@ -190,7 +207,31 @@
     </example>
     <figure xml:id="figure-curve-sketching2">
       <caption><m>f(x) = xe^{-x^2}</m></caption>
-      <image width="60%" source="images/figure59"/>
+      <image xml:id="figure59" width="80%">
+        <asymptote>
+          size(10cm,7cm,IgnoreAspect);
+
+          import graph; 
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f(real x) {return x*exp(-x^2);}
+
+          draw(graph(f,-5,5));
+
+          dot("$-\sqrt{\frac{3}{2}}$",(-1.225,0),N);
+          dot("$\sqrt{\frac{3}{2}}$",(1.225,0),S);
+          dot("$-\frac{1}{\sqrt{2}}$",(-0.707,0),S);
+          dot("$\frac{1}{\sqrt{2}}$",(0.707,0),N);
+
+          dot((-0.707,-0.429));
+          dot((0.707,0.429));
+          dot((1.225,0.273));
+          dot((-1.225,-0.273));
+          dot("$0$",(0,0),SE);
+        </asymptote>
+      </image>
     </figure>
     <example>
       <statement>
@@ -301,7 +342,32 @@
     </example>
     <figure xml:id="figure-curve-sketching-example3">
       <caption><m>f(x) = x^4 + 8x^3 - 270x^2 + 10</m></caption>
-      <image width="60%" source="images/figure60"/>
+      <image xml:id="figure60" width="80%"> 
+        <asymptote>
+          size(10cm,7cm,IgnoreAspect);
+
+          import graph; 
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f(real x) {return (x^4+ 8x^3-270x^2+1);}
+
+          draw(graph(f,-24,19));
+
+          dot("$-21$",(-21,0),NE);
+          dot("$0$",(0,10),NE);
+          dot("$13$",(13,0),NW);
+          dot("$-9$",(-9,0),N);
+          dot("$5$",(5,0),N);
+          dot("$-15$",(-15,0),N);
+          dot("$9$",(9,0),N);
+          dot((-15,-37124));
+          dot((-9,-21131));
+          dot((5,-5115));
+          dot((9,-9476));
+        </asymptote>
+      </image>
     </figure>
     <example>
       <statement>

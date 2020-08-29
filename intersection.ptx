@@ -3,7 +3,29 @@
   <subsection xml:id="subsection-intersections-of-lines">
     <figure xml:id="figure-intersection-of-lines">
       <caption>Intersections of Lines</caption>
-      <image width="90%" source="images/figure22"/>
+      <image xml:id="figure22" width="80%">
+        <asymptote>
+          size(10cm,6cm,IgnoreAspect);
+
+          import graph;
+
+          xlimits(-4,5);
+          ylimits(-5,6);
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          draw((-3,-2)--(5,6));
+          draw((-1,-5)--(3,6));
+
+          label("$x-y+1=0$",(-0.5,0.5),NW);
+          label("$3x-y-3=0$",(-0.5,-3.5),NW);
+
+          dot((1.84,2.84));
+
+          label("$(2,3)$",(2,3),SE);
+        </asymptote>
+      </image>
     </figure>
     <p>
       If two lines in the plane are not parallel or identitcal, there
@@ -52,7 +74,33 @@
     <title>Intersection of Lines and Conics</title>
     <figure xml:id="figure-intersection-line-ellipse">
       <caption>Intersection of a Line and an Ellipse</caption>
-      <image width="90%" source="images/figure24"/>
+      <image xml:id="figure24" width="70%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f4(real x) {return -x;}
+          real f6(real x) {return -sqrt(1-x^2/4);}
+          real f7(real x) {return sqrt(1-x^2/4);}
+
+          draw(graph(f4,-2,2));
+          draw(graph(f6,-2,2));
+          draw(graph(f7,-2,2));
+
+          label("$y=-x$",(2,-2),E);
+          label("$\frac{x^2}{4} + \frac{y^2}{1} = 1$",(1.3,-0.7),SE);
+          
+          dot((.894,-.894));
+          dot((-.894,.894));
+
+          label("$P_1$",(-.8,1),N);
+          label("$P_2$",(.8,-1),S);
+        </asymptote>
+      </image>
     </figure>
     <p>
       In <xref ref="figure-intersection-line-ellipse" />, the ellipse

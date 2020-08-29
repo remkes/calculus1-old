@@ -1,5 +1,7 @@
 size(12cm,8cm,IgnoreAspect);
+
 import graph; 
+
 xaxis(Ticks);
 yaxis(Ticks);
 

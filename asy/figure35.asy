@@ -1,5 +1,7 @@
 size(16cm);
+
 import graph;
+
 draw(unitcircle);
 draw(scale(2)*unitcircle);
 draw(scale(3)*unitcircle);
@@ -7,6 +9,7 @@ draw(scale(4)*unitcircle);
 draw(scale(5)*unitcircle);
 draw(scale(6)*unitcircle);
 draw(scale(7)*unitcircle);
+
 label("Constant",(0,-.4),N);
 label("Linear",(0,1),N);
 label("Quadratic",(0,2),N);

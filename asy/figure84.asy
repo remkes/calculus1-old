@@ -1,4 +1,5 @@
 size(12cm);
+
 import graph;
 
 xlimits(-8,8);
@@ -6,7 +7,6 @@ ylimits(-8,8);
 
 xaxis("$x$",Ticks("%"));
 yaxis("$y$",Ticks("%"));
-
 
 draw((-7,-8)--(-7,8));
 draw((-3,-8)--(-3,8));

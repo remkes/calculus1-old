@@ -3,7 +3,23 @@
   <subsection xml:id="subsection-continuity-definition">
     <figure xml:id="figure-continuity">
       <caption>Continuity</caption>
-      <image width="60%" source="images/figure45"/>
+      <image xml:id="figure45" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          draw((0,4){NE}..{NE}(4,3));
+          draw((6,2){SE}..{E}(8,4));
+          draw((8,3){SE}..{NE}(10,1));
+
+          label("Continuous",(2,5),N);
+          label("Discontinuous",(8,5),N);
+        </asymptote>
+      </image>
     </figure>
     <p>
       A function is continuous at a point <m>a</m> in its domain if
@@ -47,14 +63,55 @@
     </p>
     <figure xml:id="figure-ivt">
       <caption>Intermediate Value Theorem</caption>
-      <image width="60%" source="images/figure46"/>
+      <image xml:id="figure46" width="80%">
+        <asymptote>
+          size(10cm,5cm,IgnoreAspect);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          draw((2,4){E}..{SE}(3,3){SE}..{E}(4,2));
+
+          dot("$f(a)$",(0,4),SE);
+          dot("$f(b)$",(0,2),SE);
+          dot("$\alpha$",(0,3),SE);
+
+          draw((0,3)--(3,3)--(3,0));
+          draw((0,4)--(2,4)--(2,0),dotted);
+          draw((0,2)--(4,2)--(4,0),dotted);
+
+          dot("c",(3,0),NW);
+          dot("a",(2,0),NW);
+          dot("b",(4,0),NW);
+        </asymptote>
+      </image>
     </figure>
   </subsection>
   <subsection xml:id="subsection-piecewise">
     <title>Piecewise Functions</title>
     <figure xml:id="figure-heaviside">
       <caption>The Heaviside Function</caption>
-      <image width="60%" source="images/figure21"/>
+      <image xml:id="figure21" width="80%"> 
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$",dotted);
+          yaxis("$y$",dotted);
+
+          draw((-4,0)--(0,0));
+
+          dot((0,1));
+
+          draw((0,1)--(4,1));
+
+          label("$h(x) = 0$ when $x \lt 0$", (-0.5,0.5),W);
+          label("$h(x) = 1$ when $x \geq 0$", (0.5,0.5),E);
+        </asymptote>
+      </image>
     </figure>
     <p>
       We know that all of our familiar elementary functions are
@@ -116,7 +173,33 @@
     </p>
     <figure xml:id="figure-discontinuous-piecewise">
       <caption>A Discontinuous Piecewise Function</caption>
-      <image width="85%" source="images/figure47"/>
+      <image xml:id="figure47" width="80%">
+        <asymptote>
+          size(10cm,5cm,IgnoreAspect);
+
+          import graph;
+
+          xaxis("$x$",dotted);
+          yaxis("$y$",dotted);
+
+          real f1(real x) {return x^2-1;}
+          real f2(real x) {return x^2+1;}
+          real f3(real x) {return 3x-5;}
+
+          draw(graph(f1,-5,0));
+          draw(graph(f2,0,3));
+          draw(graph(f3,3,7));
+
+          dot("$-5$",(-5,0),NW);
+          dot("$0$",(0,0),NW);
+          dot("$3$",(3,0),NW);
+          dot("$7$",(7,0),NW);
+
+          label("$x^2-1$",(-3,8),NE);
+          label("$x^2+1$",(2,5),NW);
+          label("$3x-5$",(5,10),NW);
+        </asymptote>
+      </image>
     </figure>
   </subsection>
   <subsection xml:id="subsection-piecewise-continuity">

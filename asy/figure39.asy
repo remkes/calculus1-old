@@ -1,7 +1,10 @@
 size(10cm,5cm,IgnoreAspect);
+
 import graph;
+
 yaxis("height",Ticks());
 xaxis("time",Ticks());
+
 dot((0.2,0.91));
 dot((0.3,1.11));
 dot((1,2.11));
@@ -13,5 +16,7 @@ dot((2.8,3.51));
 dot((3.3,3.59));
 dot((3.4,3.74));
 dot((3.8,3.82));
+
 real f(real x) {return sqrt(4x);}
+
 draw(graph(f,0,4));

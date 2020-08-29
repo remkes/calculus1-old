@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2020-08-28T22:16:33-06:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Lines</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", "AMScd.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script xmlns:svg="http://www.w3.org/2000/svg">sagecellEvalName='Evaluate (Sage)';
+</script><link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link xmlns:svg="http://www.w3.org/2000/svg" href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div xmlns:svg="http://www.w3.org/2000/svg" class="hidden-content" style="display:none">\(\def\vs{{\it vs. }}
+\def\cf{{\it cf. }}
+\def\viz{{\it viz. }}
+\def\ie{{\it i.e. }}
+\def\etc{{\it etc. }}
+\def\eg{{\it e.g. }}
+\def\etal{{\it et al .}}
+\def\via{{\it via }}
+\def\adhoc{{\it ad hoc }}
+\def\apriori{{\it apriori }}
+\def\Afrak{\mathfrak{A}}
+\def\Bfrak{\mathfrak{B}}
+\def\Cfrak{\mathfrak{C}}
+\def\Dfrak{\mathfrak{D}}
+\def\Efrak{\mathfrak{E}}
+\def\Ffrak{\mathfrak{F}}
+\def\Gfrak{\mathfrak{G}}
+\def\Hfrak{\mathfrak{H}}
+\def\Ifrak{\mathfrak{I}}
+\def\Jfrak{\mathfrak{J}}
+\def\Kfrak{\mathfrak{K}}
+\def\Lfrak{\mathfrak{L}}
+\def\Mfrak{\mathfrak{M}}
+\def\Nfrak{\mathfrak{N}}
+\def\Ofrak{\mathfrak{O}}
+\def\Pfrak{\mathfrak{P}}
+\def\Qfrak{\mathfrak{Q}}
+\def\Rfrak{\mathfrak{R}}
+\def\Sfrak{\mathfrak{S}}
+\def\Tfrak{\mathfrak{T}}
+\def\Ufrak{\mathfrak{U}}
+\def\Vfrak{\mathfrak{V}}
+\def\Wfrak{\mathfrak{W}}
+\def\Xfrak{\mathfrak{X}}
+\def\Yfrak{\mathfrak{Y}}
+\def\Zfrak{\mathfrak{Z}}
+\def\afrak{\mathfrak{a}}
+\def\bfrak{\mathfrak{b}}
+\def\cfrak{\mathfrak{c}}
+\def\dfrak{\mathfrak{d}}
+\def\efrak{\mathfrak{e}}
+\def\ffrak{\mathfrak{f}}
+\def\gfrak{\mathfrak{g}}
+\def\hfrak{\mathfrak{h}}
+\def\ifrak{\mathfrak{i}}
+\def\jfrak{\mathfrak{j}}
+\def\kfrak{\mathfrak{k}}
+\def\lfrak{\mathfrak{l}}
+\def\mfrak{\mathfrak{m}}
+\def\nfrak{\mathfrak{n}}
+\def\ofrak{\mathfrak{o}}
+\def\pfrak{\mathfrak{p}}
+\def\qfrak{\mathfrak{q}}
+\def\rfrak{\mathfrak{r}}
+\def\sfrak{\mathfrak{s}}
+\def\tfrak{\mathfrak{t}}
+\def\ufrak{\mathfrak{u}}
+\def\vfrak{\mathfrak{v}}
+\def\wfrak{\mathfrak{w}}
+\def\xfrak{\mathfrak{x}}
+\def\yfrak{\mathfrak{y}}
+\def\zfrak{\mathfrak{z}}
+\def\AA{\mathbb{A}}
+\def\BB{\mathbb{B}}
+\def\CC{\mathbb{C}}
+\def\DD{\mathbb{D}}
+\def\EE{\mathbb{E}}
+\def\FF{\mathbb{F}}
+\def\GG{\mathbb{G}}
+\def\HH{\mathbb{H}}
+\def\II{\mathbb{I}}
+\def\JJ{\mathbb{J}}
+\def\KK{\mathbb{K}}
+\def\LL{\mathbb{L}}
+\def\MM{\mathbb{M}}
+\def\NN{\mathbb{N}}
+\def\OO{\mathbb{O}}
+\def\PP{\mathbb{P}}
+\def\QQ{\mathbb{Q}}
+\def\RR{\mathbb{R}}
+\def\SS{\mathbb{S}}
+\def\TT{\mathbb{T}}
+\def\UU{\mathbb{U}}
+\def\VV{\mathbb{V}}
+\def\WW{\mathbb{W}}
+\def\XX{\mathbb{X}}
+\def\YY{\mathbb{Y}}
+\def\ZZ{\mathbb{Z}}
+\def\calA{\mathcal{A}}
+\def\calB{\mathcal{B}}
+\def\calC{\mathcal{C}}
+\def\calD{\mathcal{D}}
+\def\calE{\mathcal{E}}
+\def\calF{\mathcal{F}}
+\def\calG{\mathcal{G}}
+\def\calH{\mathcal{H}}
+\def\calI{\mathcal{I}}
+\def\calJ{\mathcal{J}}
+\def\calK{\mathcal{K}}
+\def\calL{\mathcal{L}}
+\def\calM{\mathcal{M}}
+\def\calN{\mathcal{N}}
+\def\calO{\mathcal{O}}
+\def\calP{\mathcal{P}}
+\def\calQ{\mathcal{Q}}
+\def\calR{\mathcal{R}}
+\def\calS{\mathcal{S}}
+\def\calT{\mathcal{T}}
+\def\calU{\mathcal{U}}
+\def\calV{\mathcal{V}}
+\def\calW{\mathcal{W}}
+\def\calX{\mathcal{X}}
+\def\calY{\mathcal{Y}}
+\def\calZ{\mathcal{Z}}
+\def\Ap{A^\prime}
+\def\Bp{B^\prime}
+\def\Cp{C^\prime}
+\def\Dp{D^\prime}
+\def\Ep{E^\prime}
+\def\Fp{F^\prime}
+\def\Gp{G^\prime}
+\def\Hp{H^\prime}
+\def\Ip{I^\prime}
+\def\Jp{J^\prime}
+\def\Kp{K^\prime}
+\def\Lp{L^\prime}
+\def\Mp{M^\prime}
+\def\Mp{N^\prime}
+\def\Op{O^\prime}
+\def\Pp{P^\prime}
+\def\Qp{Q^\prime}
+\def\Rp{R^\prime}
+\def\Sp{S^\prime}
+\def\Tp{T^\prime}
+\def\Up{U^\prime}
+\def\Vp{V^\prime}
+\def\Wp{W^\prime}
+\def\Xp{X^\prime}
+\def\Yp{Y^\prime}
+\def\Zp{Z^\prime}
+\def\ap{a^\prime}
+\def\bp{b^\prime}
+\def\cp{c^\prime}
+\def\dprime{d^\prime}
+\def\ep{e^\prime}
+\def\fp{f^\prime}
+\def\gp{g^\prime}
+\def\hp{h^\prime}
+\def\ip{i^\prime}
+\def\jp{j^\prime}
+\def\kp{k^\prime}
+\def\lp{l^\prime}
+\def\mp{m^\prime}
+\def\np{n^\prime}
+\def\op{o^\prime}
+\def\pp{p^\prime}
+\def\qp{q^\prime}
+\def\rp{r^\prime}
+\def\sp{s^\prime}
+\def\tp{t^\prime}
+\def\up{u^\prime}
+\def\vp{v^\prime}
+\def\wp{w^\prime}
+\def\xp{x^\prime}
+\def\yp{y^\prime}
+\def\zp{z^\prime}
+\def\App{A^{\prime\prime}}
+\def\Bpp{B^{\prime\prime}}
+\def\Cpp{C^{\prime\prime}}
+\def\Dpp{D^{\prime\prime}}
+\def\Epp{E^{\prime\prime}}
+\def\Fpp{F^{\prime\prime}}
+\def\Gpp{G^{\prime\prime}}
+\def\Hpp{H^{\prime\prime}}
+\def\Ipp{I^{\prime\prime}}
+\def\Jpp{J^{\prime\prime}}
+\def\Kpp{K^{\prime\prime}}
+\def\Lpp{L^{\prime\prime}}
+\def\Mpp{M^{\prime\prime}}
+\def\Mpp{N^{\prime\prime}}
+\def\Opp{O^{\prime\prime}}
+\def\Ppp{P^{\prime\prime}}
+\def\Qpp{Q^{\prime\prime}}
+\def\Rpp{R^{\prime\prime}}
+\def\Spp{S^{\prime\prime}}
+\def\Tpp{T^{\prime\prime}}
+\def\Upp{U^{\prime\prime}}
+\def\Vpp{V^{\prime\prime}}
+\def\Wpp{W^{\prime\prime}}
+\def\Xpp{X^{\prime\prime}}
+\def\Ypp{Y^{\prime\prime}}
+\def\Zpp{Z^{\prime\prime}}
+\def\app{a^{\prime\prime}}
+\def\bpp{b^{\prime\prime}}
+\def\cpp{c^{\prime\prime}}
+\def\dpp{d^{\prime\prime}}
+\def\epp{e^{\prime\prime}}
+\def\fpp{f^{\prime\prime}}
+\def\gpp{g^{\prime\prime}}
+\def\hpp{h^{\prime\prime}}
+\def\ipp{i^{\prime\prime}}
+\def\jpp{j^{\prime\prime}}
+\def\kpp{k^{\prime\prime}}
+\def\lpp{l^{\prime\prime}}
+\def\mpp{m^{\prime\prime}}
+\def\npp{n^{\prime\prime}}
+\def\opp{o^{\prime\prime}}
+\def\ppp{p^{\prime\prime}}
+\def\qpp{q^{\prime\prime}}
+\def\rpp{r^{\prime\prime}}
+\def\spp{s^{\prime\prime}}
+\def\tpp{t^{\prime\prime}}
+\def\upp{u^{\prime\prime}}
+\def\vpp{v^{\prime\prime}}
+\def\wpp{w^{\prime\prime}}
+\def\xpp{x^{\prime\prime}}
+\def\ypp{y^{\prime\prime}}
+\def\zpp{z^{\prime\prime}}
+\def\abar{\overline{a}}
+\def\bbar{\overline{b}}
+\def\cbar{\overline{c}}
+\def\dbar{\overline{d}}
+\def\ebar{\overline{e}}
+\def\fbar{\overline{f}}
+\def\gbar{\overline{g}}
+\def\ibar{\overline{i}}
+\def\jbar{\overline{j}}
+\def\kbar{\overline{k}}
+\def\lbar{\overline{l}}
+\def\mbar{\overline{m}}
+\def\nbar{\overline{n}}
+\def\obar{\overline{o}}
+\def\pbar{\overline{p}}
+\def\qbar{\overline{q}}
+\def\rbar{\overline{r}}
+\def\sbar{\overline{s}}
+\def\tbar{\overline{t}}
+\def\ubar{\overline{u}}
+\def\vbar{\overline{v}}
+\def\wbar{\overline{w}}
+\def\xbar{\overline{x}}
+\def\ybar{\overline{y}}
+\def\zbar{\overline{z}}
+\def\Abar{\overline{A}}
+\def\Bbar{\overline{B}}
+\def\Cbar{\overline{C}}
+\def\Dbar{\overline{D}}
+\def\Ebar{\overline{E}}
+\def\Fbar{\overline{F}}
+\def\Gbar{\overline{G}}
+\def\Hbar{\overline{H}}
+\def\Ibar{\overline{I}}
+\def\Jbar{\overline{J}}
+\def\Kbar{\overline{K}}
+\def\Lbar{\overline{L}}
+\def\Mbar{\overline{M}}
+\def\Nbar{\overline{N}}
+\def\Obar{\overline{O}}
+\def\Pbar{\overline{P}}
+\def\Qbar{\overline{Q}}
+\def\Rbar{\overline{R}}
+\def\Sbar{\overline{S}}
+\def\Tbar{\overline{T}}
+\def\Ubar{\overline{U}}
+\def\Vbar{\overline{V}}
+\def\Wbar{\overline{W}}
+\def\Xbar{\overline{X}}
+\def\Ybar{\overline{Y}}
+\def\Zbar{\overline{Z}}
+\def\aunder{\underline{a}}
+\def\bunder{\underline{b}}
+\def\cunder{\underline{c}}
+\def\dunder{\underline{d}}
+\def\eunder{\underline{e}}
+\def\funder{\underline{f}}
+\def\gunder{\underline{g}}
+\def\hunder{\underline{h}}
+\def\iunder{\underline{i}}
+\def\junder{\underline{j}}
+\def\kunder{\underline{k}}
+\def\lunder{\underline{l}}
+\def\munder{\underline{m}}
+\def\nunder{\underline{n}}
+\def\ounder{\underline{o}}
+\def\punder{\underline{p}}
+\def\qunder{\underline{q}}
+\def\runder{\underline{r}}
+\def\sunder{\underline{s}}
+\def\tunder{\underline{t}}
+\def\uunder{\underline{u}}
+\def\vunder{\underline{v}}
+\def\wunder{\underline{w}}
+\def\xunder{\underline{x}}
+\def\yunder{\underline{y}}
+\def\zunder{\underline{z}}
+\def\Aunder{\underline{A}}
+\def\atilde{\widetilde{a}}
+\def\btilde{\widetilde{b}}
+\def\ctilde{\widetilde{c}}
+\def\dtilde{\widetilde{d}}
+\def\etilde{\widetilde{e}}
+\def\ftilde{\widetilde{f}}
+\def\gtilde{\widetilde{g}}
+\def\htilde{\widetilde{h}}
+\def\itilde{\widetilde{i}}
+\def\jtilde{\widetilde{j}}
+\def\ktilde{\widetilde{k}}
+\def\ltilde{\widetilde{l}}
+\def\mtilde{\widetilde{m}}
+\def\ntilde{\widetilde{n}}
+\def\otilde{\widetilde{o}}
+\def\ptilde{\widetilde{p}}
+\def\qtilde{\widetilde{q}}
+\def\rtilde{\widetilde{r}}
+\def\stilde{\widetilde{s}}
+\def\ttilde{\widetilde{t}}
+\def\utilde{\widetilde{u}}
+\def\vtilde{\widetilde{v}}
+\def\wtilde{\widetilde{w}}
+\def\xtilde{\widetilde{x}}
+\def\ytilde{\widetilde{y}}
+\def\ztilde{\widetilde{z}}
+\def\Atilde{\widetilde{A}}
+\def\Btilde{\widetilde{B}}
+\def\Ctilde{\widetilde{C}}
+\def\Dtilde{\widetilde{D}}
+\def\Etilde{\widetilde{E}}
+\def\Ftilde{\widetilde{F}}
+\def\Gtilde{\widetilde{G}}
+\def\Htilde{\widetilde{H}}
+\def\Itilde{\widetilde{I}}
+\def\Jtilde{\widetilde{J}}
+\def\Ktilde{\widetilde{K}}
+\def\Ltilde{\widetilde{L}}
+\def\Mtilde{\widetilde{M}}
+\def\Ntilde{\widetilde{N}}
+\def\Otilde{\widetilde{O}}
+\def\Ptilde{\widetilde{P}}
+\def\Qtilde{\widetilde{Q}}
+\def\Rtilde{\widetilde{R}}
+\def\Stilde{\widetilde{S}}
+\def\Ttilde{\widetilde{T}}
+\def\Utilde{\widetilde{U}}
+\def\Vtilde{\widetilde{V}}
+\def\Wtilde{\widetilde{W}}
+\def\Xtilde{\widetilde{X}}
+\def\Ytilde{\widetilde{Y}}
+\def\Ztilde{\widetilde{Z}}
+\def\Alphatilde{\widetilde{\Alpha}}
+\def\Betatilde{\widetilde{\Beta}}
+\def\Gammatilde{\widetilde{\Gamma}}
+\def\Deltatilde{\widetilde{\Delta}}
+\def\Epsilontilde{\widetilde{\Epsilon}}
+\def\Zetatilde{\widetilde{\Zeta}}
+\def\Etatilde{\widetilde{\Eta}}
+\def\Thetatilde{\widetilde{\Theta}}
+\def\Iotatilde{\widetilde{\Iota}}
+\def\Kappatilde{\widetilde{\Kappa}}
+\def\Lambdatilde{\widetilde{\Lamdba}}
+\def\Mutilde{\widetilde{\Mu}}
+\def\Nutilde{\widetilde{\Nu}}
+\def\Xitilde{\widetilde{\Xi}}
+\def\Omicrontilde{\widetilde{\Omicron}}
+\def\Pitilde{\widetilde{\Pi}}
+\def\Rhotilde{\widetilde{\Rho}}
+\def\Sigmatilde{\widetilde{\Sigma}}
+\def\Tautilde{\widetilde{\Tau}}
+\def\Upsilontilde{\widetilde{\Upsilon}}
+\def\Phitilde{\widetilde{\Phi}}
+\def\Chitilde{\widetilde{\Chi}}
+\def\Psitilde{\widetilde{\Psi}}
+\def\Omegatilde{\widetilde{\Omega}}
+\def\alphatilde{\widetilde{\alpha}}
+\def\betatilde{\widetilde{\beta}}
+\def\gammatilde{\widetilde{\gamma}}
+\def\deltatilde{\widetilde{\delta}}
+\def\epsilontilde{\widetilde{\epsilon}}
+\def\zetatilde{\widetilde{\zeta}}
+\def\etatilde{\widetilde{\eta}}
+\def\thetatilde{\widetilde{\theta}}
+\def\iotatilde{\widetilde{\iota}}
+\def\kappatilde{\widetilde{\kappa}}
+\def\lambdatilde{\widetilde{\lamdba}}
+\def\mutilde{\widetilde{\mu}}
+\def\nutilde{\widetilde{\nu}}
+\def\xitilde{\widetilde{\xi}}
+\def\omicrontilde{\widetilde{\omicron}}
+\def\pitilde{\widetilde{\pi}}
+\def\rhotilde{\widetilde{\rho}}
+\def\sigmatilde{\widetilde{\sigma}}
+\def\tautilde{\widetilde{\tau}}
+\def\upsilontilde{\widetilde{\upsilon}}
+\def\phitilde{\widetilde{\phi}}
+\def\chitilde{\widetilde{\chi}}
+\def\psitilde{\widetilde{\psi}}
+\def\omegatilde{\widetilde{\omega}}
+\def\Alphabar{\bar{\Alpha}}
+\def\Betabar{\bar{\Beta}}
+\def\Gammabar{\bar{\Gamma}}
+\def\Deltabar{\bar{\Delta}}
+\def\Epsilonbar{\bar{\Epsilon}}
+\def\Zetabar{\bar{\Zeta}}
+\def\Etabar{\bar{\Eta}}
+\def\Thetabar{\bar{\Theta}}
+\def\Iotabar{\bar{\Iota}}
+\def\Kappabar{\bar{\Kappa}}
+\def\Lambdabar{\bar{\Lamdba}}
+\def\Mubar{\bar{\Mu}}
+\def\Nubar{\bar{\Nu}}
+\def\Xibar{\bar{\Xi}}
+\def\Omicronbar{\bar{\Omicron}}
+\def\Pibar{\bar{\Pi}}
+\def\Rhobar{\bar{\Rho}}
+\def\Sigmabar{\bar{\Sigma}}
+\def\Taubar{\bar{\Tau}}
+\def\Upsilonbar{\bar{\Upsilon}}
+\def\Phibar{\bar{\Phi}}
+\def\Chibar{\bar{\Chi}}
+\def\Psibar{\bar{\Psi}}
+\def\Omegabar{\bar{\Omega}}
+\def\alphabar{\bar{\alpha}}
+\def\betabar{\bar{\beta}}
+\def\gammabar{\bar{\gamma}}
+\def\deltabar{\bar{\delta}}
+\def\epsilonbar{\bar{\epsilon}}
+\def\zetabar{\bar{\zeta}}
+\def\etabar{\bar{\eta}}
+\def\thetabar{\bar{\theta}}
+\def\iotabar{\bar{\iota}}
+\def\kappabar{\bar{\kappa}}
+\def\lambdabar{\bar{\lamdba}}
+\def\mubar{\bar{\mu}}
+\def\nubar{\bar{\nu}}
+\def\xibar{\bar{\xi}}
+\def\omicronbar{\bar{\omicron}}
+\def\pibar{\bar{\pi}}
+\def\rhobar{\bar{\rho}}
+\def\sigmabar{\bar{\sigma}}
+\def\taubar{\bar{\tau}}
+\def\upsilonbar{\bar{\upsilon}}
+\def\phibar{\bar{\phi}}
+\def\chibar{\bar{\chi}}
+\def\psibar{\bar{\psi}}
+\def\omegabar{\bar{\omega}}
+\def\del{\partial}
+\def\delbar{\overline{\partial}}
+\def\Cech{\check{C}}
+\def\half{\frac{1}{2}}
+\def\defeq{\mathrel{\mathop:}=}
+\def\alg{\mathrm{alg}}
+\def\Alt{\mathrm{Alt}}
+\def\Amp{\mathrm{Amp}}
+\def\Arg{\mathrm{Arg}}
+\def\an{\mathrm{an}}
+\def\anti{\mathrm{anti}}
+\def\Ap{\mathrm{Ap}}
+\def\arcsinh{\mathrm{arcsinh\hspace{0.07cm}}}
+\def\arccosh{\mathrm{arccosh\hspace{0.07cm}}}
+\def\arctanh{\mathrm{arctanh\hspace{0.07cm}}}
+\def\arccsch{\mathrm{arccsch\hspace{0.07cm}}}
+\def\arcsech{\mathrm{arcsech\hspace{0.07cm}}}
+\def\arccoth{\mathrm{arccoth\hspace{0.07cm}}}
+\def\arccsc{\mathrm{arccsc\hspace{0.07cm}}}
+\def\arcsec{\mathrm{arcsec\hspace{0.07cm}}}
+\def\arccot{\mathrm{arccot\hspace{0.07cm}}}
+\def\arg{\mathrm{arg}}
+\def\BC{\mathrm{BC}}
+\def\Bel{\mathrm{Bel}}
+\def\calCH{\mathcal{CH}}
+\def\csch{\mathrm{csch}\hspace{0.07cm}}
+\def\CH{\mathrm{CH}}
+\def\ch{\mathrm{ch}}
+\def\closed{\mathrm{closed}}
+\def\codim{\mathrm{codim}}
+\def\coth{\mathrm{coth}\hspace{0.07cm}}
+\def\Coh{\mathfrak{Coh}}
+\def\Coker{\mathrm{Coker}}
+\def\Cone{\mathrm{Cone}}
+\def\darg{d\mathrm{arg}}
+\def\Db{\mathrm{Db}}
+\def\dclosed{\mathrm{d-closed}}
+\def\deg{\mathrm{deg}}
+\def\dim{\mathrm{dim}}
+\def\divisor{\mathrm{div}}
+\def\dlog{d\mathrm{log}}
+\def\DNE{\mathrm{DNE}}
+\def\DR{\mathrm{DR}}
+\def\DST{\mathrm{DST}}
+\def\exp{\mathrm{exp}}
+\def\FLB{\mathrm{FLB}}
+\def\FLS{\mathrm{FLS}}
+\def\Gr{\mathrm{Gr}}
+\def\Hzar{H_{\mathrm{Zar}}}
+\def\Hol{\mathrm{Hol}}
+\def\Id{\mathrm{Id}}
+\def\Image{\mathrm{Im}}
+\def\Ka{\mathcal{K}_A}
+\def\Ker{\mathrm{Ker}}
+\def\kod{\mathrm{kod}}
+\def\Kx{\mathcal{K}_X}
+\def\Kz{\mathcal{K}_Z}
+\def\log{\mathrm{log}}
+\def\Log{\mathrm{Log}}
+\def\Li{\mathrm{Li}}
+\def\min{\mathrm{min}}
+\def\Mon{\mathrm{Mon}}
+\def\Nef{\mathrm{Nef}}
+\def\NS{\mathrm{NS}}
+\def\Oa{\mathcal{O}_A}
+\def\Ox{\mathcal{O}_X}
+\def\Oz{\mathcal{O}_Z}
+\def\Perp{\mathrm{Perp}}
+\def\Pic{\mathrm{Pic}}
+\def\Proj{\mathrm{Proj}}
+\def\rank{\mathrm{rank}}
+\def\Rat{\mathrm{Rat}}
+\def\Real{\mathrm{Re}}
+\def\reg{\mathrm{reg}}
+\def\Res{\mathrm{Res}}
+\def\res{\mathrm{res}}
+\def\Ric{\mathrm{Ric}}
+\def\sech{\mathrm{sech}\hspace{0.07cm}}
+\def\Span{\mathrm{Span}}
+\def\Spec{\mathrm{Spec}}
+\def\sing{\mathrm{sing}}
+\def\Singx{\mathrm{Sing}(X)}
+\def\sheafKer{\mathcal{\Ker}}
+\def\sheafIm{\mathcal{\Im}}
+\def\Span{\mathrm{Span}}
+\def\Spin{\mathrm{Spin}}
+\def\Str{\mathrm{Str}}
+\def\td{\mathrm{td}}
+\def\tr{\mathrm{tr}}
+\def\Todd{\mathrm{Todd}}
+\def\tor{\mathrm{tor}}
+\def\trdeg{\mathrm{trdeg}}
+\def\Zar{\mathrm{Zar}}
+\def\ZFLS{\mathrm{ZFLS}}
+
+  \usepackage{tikz}
+  \usepackage{tkz-graph}
+  \usepackage{tkz-euclide}
+  \usetikzlibrary{patterns}
+  \usetikzlibrary{positioning}
+  \usetikzlibrary{matrix,arrows}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{shapes}
+  \usetikzlibrary{through,intersections,decorations,shadows,fadings}
+  \usepackage{pgfplots}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">Course Notes for Calculus I</span></a></h1>
+<p class="byline">Remkes Kooistra</p>
+</div>
+</div></div>
+<nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="section-analytic-geometry.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="chapter-week1.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="section-conics.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="section-analytic-geometry.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="chapter-week1.html" title="Up">Up</a><a class="next-button button toolbar-item" href="section-conics.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="calculus1.html" data-scroll="calculus1"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon.html" data-scroll="colophon">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week1.html" data-scroll="chapter-week1"><span class="codenumber">1</span> <span class="title">Week 1</span></a><ul>
+<li><a href="section-analytic-geometry.html" data-scroll="section-analytic-geometry">Analytic Geometry</a></li>
+<li><a href="section-lines.html" data-scroll="section-lines" class="active">Lines</a></li>
+<li><a href="section-conics.html" data-scroll="section-conics">Conics</a></li>
+<li><a href="section-intersection.html" data-scroll="section-intersection">Intersection</a></li>
+<li><a href="section-shifts.html" data-scroll="section-shifts">Shifts</a></li>
+<li><a href="section-week1-activity.html" data-scroll="section-week1-activity">Week 1 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week2.html" data-scroll="chapter-week2"><span class="codenumber">2</span> <span class="title">Week 2</span></a><ul>
+<li><a href="section-functions.html" data-scroll="section-functions">Functions</a></li>
+<li><a href="section-types-of-functions.html" data-scroll="section-types-of-functions">Types of Functions</a></li>
+<li><a href="properties-of-functions.html" data-scroll="properties-of-functions">Properties of Functions</a></li>
+<li><a href="section-operations-on-functions.html" data-scroll="section-operations-on-functions">Operations on Functions</a></li>
+<li><a href="section-models.html" data-scroll="section-models">Models</a></li>
+<li><a href="section-week2-activity.html" data-scroll="section-week2-activity">Week 2 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week3.html" data-scroll="chapter-week3"><span class="codenumber">3</span> <span class="title">Week 3</span></a><ul>
+<li><a href="section-population-growth.html" data-scroll="section-population-growth">Population Growth</a></li>
+<li><a href="section-differential-equations.html" data-scroll="section-differential-equations">Differential Equations</a></li>
+<li><a href="section-phase-lines.html" data-scroll="section-phase-lines">Phase Lines</a></li>
+<li><a href="section-week3-activity.html" data-scroll="section-week3-activity">Week 3 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chatper-week4.html" data-scroll="chatper-week4"><span class="codenumber">4</span> <span class="title">Week 4</span></a><ul>
+<li><a href="limits-concept.html" data-scroll="limits-concept">The Concept of a Limit</a></li>
+<li><a href="section-limits-at-finite-values.html" data-scroll="section-limits-at-finite-values">Calcluating Limits at Finite Values</a></li>
+<li><a href="section-continuity.html" data-scroll="section-continuity">Continuity</a></li>
+<li><a href="section-edge-behaviour-of-models.html" data-scroll="section-edge-behaviour-of-models">Edge Behaviour of Models</a></li>
+<li><a href="subsection-week4-activity.html" data-scroll="subsection-week4-activity">Week 4 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week5.html" data-scroll="chapter-week5"><span class="codenumber">5</span> <span class="title">Week 5</span></a><ul>
+<li><a href="section-limits-at-infinity.html" data-scroll="section-limits-at-infinity">Limits at Infinity</a></li>
+<li><a href="section-asymptotic_analysis.html" data-scroll="section-asymptotic_analysis">Asymptotic Analysis</a></li>
+<li><a href="section-indeterminate-forms.html" data-scroll="section-indeterminate-forms">Indeterminate Forms</a></li>
+<li><a href="section-long-term-behaviour-of-models.html" data-scroll="section-long-term-behaviour-of-models">Extreme Values of Models</a></li>
+<li><a href="section-week5-activity.html" data-scroll="section-week5-activity">Week 5 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week6.html" data-scroll="chapter-week6"><span class="codenumber">6</span> <span class="title">Week 6</span></a><ul>
+<li><a href="section-two-motivating-problems.html" data-scroll="section-two-motivating-problems">Two Motivating Problems</a></li>
+<li><a href="section-derivative-definition.html" data-scroll="section-derivative-definition">Definition of the Derivative</a></li>
+<li><a href="section-derivative-rules.html" data-scroll="section-derivative-rules">Rules for Differentiation</a></li>
+<li><a href="subsection-week6-activity.html" data-scroll="subsection-week6-activity">Week 6 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week7.html" data-scroll="chapter-week7"><span class="codenumber">7</span> <span class="title">Week 7</span></a><ul>
+<li><a href="section-chain-rule.html" data-scroll="section-chain-rule">The Chain Rule</a></li>
+<li><a href="section-higher-derivatives.html" data-scroll="section-higher-derivatives">Higher Derivatives</a></li>
+<li><a href="section-h-rule.html" data-scroll="section-h-rule">L'Hôpital's Rule</a></li>
+<li><a href="section-week7-activity.html" data-scroll="section-week7-activity">Week 7 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week8.html" data-scroll="chapter-week8"><span class="codenumber">8</span> <span class="title">Week 8</span></a><ul>
+<li><a href="section-sigma-notation.html" data-scroll="section-sigma-notation">Sigma Notation</a></li>
+<li><a href="section-riemann-integral.html" data-scroll="section-riemann-integral">The Riemann Integral</a></li>
+<li><a href="section-fundamental-theorem.html" data-scroll="section-fundamental-theorem">The Fundamental Theorem</a></li>
+<li><a href="section-week8-activity.html" data-scroll="section-week8-activity">Week 8 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week9.html" data-scroll="chapter-week9"><span class="codenumber">9</span> <span class="title">Week 9</span></a><ul>
+<li><a href="section-substitution-rule.html" data-scroll="section-substitution-rule">The Substitution Rule</a></li>
+<li><a href="section-week9-activity.html" data-scroll="section-week9-activity">Week 9 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week10.html" data-scroll="chapter-week10"><span class="codenumber">10</span> <span class="title">Week 10</span></a><ul>
+<li><a href="section-des.html" data-scroll="section-des">Solving Differential Equations</a></li>
+<li><a href="section-population-de.html" data-scroll="section-population-de">The Population Differential Equation</a></li>
+<li><a href="section-logistic-de.html" data-scroll="section-logistic-de">The Logistic Differential Equation</a></li>
+<li><a href="subsection-week10-activity.html" data-scroll="subsection-week10-activity">Week 10 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week11.html" data-scroll="chapter-week11"><span class="codenumber">11</span> <span class="title">Week 11</span></a><ul>
+<li><a href="section-extrema.html" data-scroll="section-extrema">Extrema</a></li>
+<li><a href="section-optimization.html" data-scroll="section-optimization">Optimization</a></li>
+<li><a href="marginal-analysis.html" data-scroll="marginal-analysis">Marginal Analysis</a></li>
+<li><a href="section-week11-activity.html" data-scroll="section-week11-activity">Week 11 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-week12.html" data-scroll="chapter-week12"><span class="codenumber">12</span> <span class="title">Week 12</span></a><ul>
+<li><a href="section-curve-sketching.html" data-scroll="section-curve-sketching">Curve Sketching</a></li>
+<li><a href="section-model-interpretation.html" data-scroll="section-model-interpretation">Model Interpretation</a></li>
+<li><a href="subsection-week12-activity.html" data-scroll="subsection-week12-activity">Week 12 Activity</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-additional-materials.html" data-scroll="chapter-additional-materials"><span class="codenumber">13</span> <span class="title">Additional Materials</span></a><ul>
+<li><a href="section-how-to-write-an-assignment.html" data-scroll="section-how-to-write-an-assignment">How to Write a Math Assignment</a></li>
+<li><a href="section-adacemic-honesty.html" data-scroll="section-adacemic-honesty">Academic Honesty in Mathematics Courses</a></li>
+<li><a href="section-notations.html" data-scroll="section-notations">Mathematical Notations</a></li>
+<li><a href="section-reference.html" data-scroll="section-reference">Reference</a></li>
+<li><a href="section-label.html" data-scroll="section-label">Title</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-assignments.html" data-scroll="chapter-assignments"><span class="codenumber">14</span> <span class="title">Assignments</span></a><ul>
+<li><a href="section-assignment-week1.html" data-scroll="section-assignment-week1">Week 1 Assignment</a></li>
+<li><a href="section-assignment-week2.html" data-scroll="section-assignment-week2">Week 2 Assignment</a></li>
+<li><a href="section-assignment-week3.html" data-scroll="section-assignment-week3">Week 3 Assignment</a></li>
+<li><a href="section-assignment-week4.html" data-scroll="section-assignment-week4">Assignment for Week 4</a></li>
+<li><a href="section-assignment-week5.html" data-scroll="section-assignment-week5">Assignment for Week 5</a></li>
+<li><a href="section-assignment-week6.html" data-scroll="section-assignment-week6">Assignment for Week 6</a></li>
+<li><a href="section-assignment-week7.html" data-scroll="section-assignment-week7">Assignment for Week 7</a></li>
+<li><a href="section-assignment-week8.html" data-scroll="section-assignment-week8">Assignment for Week 8</a></li>
+<li><a href="section-assignment-week9.html" data-scroll="section-assignment-week9">Assignment for Week 9</a></li>
+<li><a href="section-assignment-week10.html" data-scroll="section-assignment-week10">Assignment for Week 10</a></li>
+<li><a href="section-assignment-week11.html" data-scroll="section-assignment-week11">Assignment for Week 11</a></li>
+<li><a href="section-assignment-week11.html" data-scroll="section-assignment-week11">Assignment for Week 11</a></li>
+</ul>
+</li>
+<li class="link backmatter"><a href="backmatter-1.html" data-scroll="backmatter-1"><span class="title">Back Matter</span></a></li>
+</ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="section-lines"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.2</span> <span class="title">Lines</span>
+</h2>
+<section class="subsection" id="subsection-equations-lines"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.2.1</span> <span class="title">Equations of Lines</span>
+</h3>
+<p id="p-24">When we defined loci in <a href="section-analytic-geometry.html" class="internal" title="Section 1.1: Analytic Geometry">Section 1.1</a>, we mentioned that the first and most common type of locus is a line. This section reviews some definitions and calculations for lines. This should be familiar material from your previous mathematical experience, but it is worth reviewing.</p>
+<p id="p-25">A line is the locus of any equation where the variables \(x\) and \(y\) show up multiplied by constants and then added to another constant.  Other than multiplication by a constant, no other operations are performed on the variables: no exponents, no roots, no functions, nothing else.  These equations, since they produce lines, are called linear equations. Here are some examples.</p>
+<div class="displaymath">
+\begin{align*}
+y \amp = 7x - 9 \\
+5y + 4x - 10 \amp = 0\\
+\frac{1}{5} y - \frac{2}{7} x - \frac{5}{17} \amp = 0 \\
+\sqrt{7}y \amp = \pi x + \frac{1}{\sqrt{19}}
+\end{align*}
+</div>
+<p data-braille="continuation">In all these equations, all we have done is multiplied each varaible by some constant and added an additional constant. By adding and subtracting terms, we can put some of the variables or the constant on the right or left side of the equation, as we see fit.</p>
+<p id="p-26">If we wanted a general form, then let the symbols \(a_1\text{,}\) \(a_2\) and\(a_3\) stand for constants. We could bring everything over to one side of the equation and write the general form of an equation of a line this way:</p>
+<div class="displaymath">
+\begin{equation*}
+a_1 x + a_2 y + a_3 = 0 \text{.}
+\end{equation*}
+</div>
+<p data-braille="continuation">This is a reasonable general form. All lines can be described by an equation of this form. However, this is not the most intuitive form -- we get that form by considering slope.</p></section><section class="subsection" id="subsection-slope"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.2.2</span> <span class="title">Slope</span>
+</h3>
+<p id="p-27">Let's review the concept of slope. The slope of a straight line is a measure of its steepness. A large slope descrbes a steep line — one that is quickly increasing. A small slope describes a shallow line — one that is slowly increasing. A negative slope describes a decreasing line.</p>
+<p id="p-28">A line with a slope of zero is a horizontal line: it does not increase or decrease at all. A vertical line has no slope at all. (It does <em class="emphasis">not</em> have an infinite slope — the slope is simply undefined).</p>
+<p id="p-29">To calculate the slope, we take choose any two points on the line. We calculate the difference in the \(y\) coordinates and call this the <em class="emphasis">rise</em>: it measures how far up the line goes between the two points. Then we calculate the difference in the \(x\) coordinates and call this the <em class="emphasis">run</em>: it measures how far we move horizontally between the two points. The slope is the rise divided by the run.</p>
+<div class="displaymath">
+\begin{equation*}
+\text{Slope} = \frac{\text{Rise}}{\text{Run}}
+\end{equation*}
+</div>
+<p data-braille="continuation">An example of a slope calculation is shown in <a class="xref" data-knowl="./knowl/figure-slope.html" title="Figure 1.2.1">Figure 1.2.1</a>. <figure class="figure figure-like" id="figure-slope"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><div class="asymptote-box" style="padding-top: 74.4910594383309%"><iframe src="images/figure81.html" class="asymptote"></iframe></div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.1<span class="period">.</span></span><span class="space"> </span>Slope of the Line \(y = \frac{1}{2} x + 2\)</figcaption></figure></p>
+<p id="p-30">This method of calculation shows us again why veritcal lines have no slope. The \(x\) coordinates of any two points on a vertical line are the same, to the run would be zero. To calculate the slope would involve division by zero, which is not defined. Therefore, vertical lines have no slope.</p></section><section class="subsection" id="subsection-slope-intercept"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.2.3</span> <span class="title">Slope Intercept Form</span>
+</h3>
+<p id="p-31">Now that we have defined slope, we can reviewi or introduce a common way of writing the equations of lines. Go back to the four example lines above; in each of these, I will re-arrange the equation so that \(y\) is along on the left side.</p>
+<div class="displaymath">
+\begin{align*}
+y \amp = 7x - 9 \\
+y \amp = - \frac{4}{5} x + 2\\
+y \amp = \frac{10}{7} x + \frac{25}{17} \\
+y \amp = \frac{\pi}{\sqrt{7}} x + \frac{1}{\sqrt{19}\sqrt{7}}
+\end{align*}
+</div>
+<p data-braille="continuation">I can describe the general form we get by solving for \(y\) on the left. Let \(m\) and \(b\) be constants (the choice of these letters if conventional and used in many places). Then all of these equations have this form:</p>
+<div class="displaymath">
+\begin{equation*}
+y = mx + b 
+\end{equation*}
+</div>
+<p data-braille="continuation">In this form, the number \(m\) will always be the slope of the line. The number \(b\) will be the \(y\)-coordinate of the point where the line crosses the \(y\) axis; this is called the \(y\)-intercept. These two pieces of information are enough to completely determine the line. If we know where a line crosses the \(y\)-axis and we know how quickly is grows from that point (its slope), then we know everything about the line. <a class="xref" data-knowl="./knowl/figure-slope-intercept.html" title="Figure 1.2.2">Figure 1.2.2</a> shows an example to illustrate this slope-intercept form. <figure class="figure figure-like" id="figure-slope-intercept"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><div class="asymptote-box" style="padding-top: 59.07536813883%"><iframe src="images/figure82.html" class="asymptote"></iframe></div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.2<span class="period">.</span></span><span class="space"> </span>Slope-Intercept Form</figcaption></figure></p>
+<p id="p-32">As we said above, a horizontal lines has a slope of zero. In slope-intercept form this is\(m = 0\text{,}\) so the equation of the line looks like</p>
+<div class="displaymath">
+\begin{equation*}
+y = 0x + b = b \text{.}
+\end{equation*}
+</div>
+<p data-braille="continuation">Horizontal lines have equations \(y = b\) for some constant. All we need to specify if the \(y\) coordinate. \(y = 4\) is the horizontal line where the \(y\)-coordinate is always \(4\text{,}\) and the \(x\)-coordinate can be anything whatsoever. <a class="xref" data-knowl="./knowl/figure-horizontal-lines.html" title="Figure 1.2.3">Figure 1.2.3</a> shows some horizontal lines. <figure class="figure figure-like" id="figure-horizontal-lines"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><div class="asymptote-box" style="padding-top: 100.120383342948%"><iframe src="images/figure83.html" class="asymptote"></iframe></div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.3<span class="period">.</span></span><span class="space"> </span>Horizontal Lines</figcaption></figure></p>
+<p id="p-33">We've said several times that a vertical line has no slope and cannot be expressed in slope-intercept form. However, the previous paragraph gives us a good idea of how to understand vertical lines. If a horizontal line is simply determined by its \(y\) coordinate, a vertical line is similarly determined by its \(x\) coordinate. Any line of the form \(x = b\) is a horizontal line. \(x - -3\) is the horizontal line of points with \(x\)-coordinate \(-3\) and any \(y\) coordinate whatsoever. <a class="xref" data-knowl="./knowl/figure-vertical-lines.html" title="Figure 1.2.4">Figure 1.2.4</a> shows some horizontal lines. <figure class="figure figure-like" id="figure-vertical-lines"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><div class="asymptote-box" style="padding-top: 100.120383342948%"><iframe src="images/figure84.html" class="asymptote"></iframe></div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.4<span class="period">.</span></span><span class="space"> </span>Vertical Lines</figcaption></figure></p></section><section class="subsection" id="subsection-calculating-lines"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.2.4</span> <span class="title">Calcluating Equations of Lines</span>
+</h3>
+<p id="p-34">We often need to calculate the equation of a line given various pieces of information about this line.</p>
+<ul class="disc">
+<li id="li-9">If we are give the slope and the \(y\)-intercept, we just put those numbers directly into the slope-intercept form. For example, if we wanted the line with slope \(\frac{-2}{5}\) and \(y\)-intercept \(3\text{,}\) we would simply put those numbers into the form and get the equation of the line:<div class="displaymath">
+\begin{equation*}
+y = \frac{-2}{5} x + 3 \text{.}
+\end{equation*}
+</div>
+</li>
+<li id="li-10">Sometimes we are given a point and a slope. For example, say we wanted the equation of the line with slope \(4\) that goes through the point \((2,2)\text{.}\) We have the slope, so we can put that in place of \(m\) in the slope intercept form.<div class="displaymath">
+\begin{equation*}
+y = 4x + b 
+\end{equation*}
+</div>The \(y\)-intercept is still unknown. However, if we put in the point, we can solve for \(b\text{.}\)<div class="displaymath">
+\begin{align*}
+y \amp = 4x + b \\
+2 \amp = (4)(2) + b \\
+2 \amp = 8 + b \\
+-6 \amp = b 
+\end{align*}
+</div>That gives us a value for the \(y\)-intercept, hence the equation of the line.<div class="displaymath">
+\begin{equation*}
+y = 4x - 6 
+\end{equation*}
+</div>This process works for any line give a slope and a point: put the slope into the slope-intercept form, put the point in for the coordinates \(x\) and \(y\text{,}\) and solve for the intercept.</li>
+<li id="li-11">There is one last way of describing a line: by giving two points. There is a unique line passing between any two points — but how do we get the equation of this line? We calculate the slope. Recall that slope is defined as the fraction rise over run. Rise is the difference in the \(y\) coordinates and run is the difference in the \(x\) coordinates, so given two points we can calculate the slope. I'll show this by example: what is the line through the point \((3,-5)\) and \((1,1)\text{?}\) First I'll calculate the slope.<div class="displaymath">
+\begin{equation*}
+m = \frac{\text{Rise}}{\text{Run}} = \frac{-5 - 1}{3 - 1} =
+\frac{-6}{2} = -3
+\end{equation*}
+</div>The slope is \(-3\text{,}\) so the slope intercept looks like<div class="displaymath">
+\begin{equation*}
+y = -3x + b \text{.}
+\end{equation*}
+</div>Then the process is the same as the previous case: we have the slope and we have a point (two, in fact). We put in a point (either point will work) to calculate the intercept.<div class="displaymath">
+\begin{align*}
+y \amp = -3x + b \\
+-5 \amp = (-3)(3) + b \\
+-5 \amp = -9 + b \\
+4 \amp = b 
+\end{align*}
+</div>With the intercept, we can write the equation of the line.<div class="displaymath">
+\begin{equation*}
+y = -3x + 4
+\end{equation*}
+</div>I'll leave it up to you to check that if I had used the other point, I would have calculated the same value for \(b\text{.}\)</li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

@@ -147,7 +147,33 @@
     </example>
     <figure xml:id="figure-model-radioactivity">
       <caption>A Model of Radioactivity</caption>
-      <image width="60%" source="images/figure62"/>
+      <image xml:id="figure62" width="60%">
+        <asymptote>
+          size(10cm,7cm,IgnoreAspect);
+
+          import graph; 
+
+          xaxis("$t$");
+          yaxis("$r$");
+
+          real f1(real x) {return 3 + (5*x^2)/10000;}
+
+          draw(graph(f1,0,100));
+
+          real f2(real x) {return 2^((-1*x)/100 + 4);}
+
+          draw(graph(f2,100,300));
+
+          dot("$100$",(100,0),N);
+
+          draw((0,5)--(300,5));
+
+          label("5 grays",(250,5),N);
+
+          dot("$67.2$",(67.2,0),N);
+          dot("$167.8$",(167.8,0),N);
+        </asymptote>
+      </image>
     </figure>
     <example>
       <statement>
@@ -208,7 +234,23 @@
     </example>
     <figure xml:id="figure-population-model">
       <caption>A Population Model</caption>
-      <image width="60%" source="images/figure61"/>
+      <image xml:id="figure61" width="60%">
+        <asymptote>
+          size(10cm,7cm,IgnoreAspect);
+
+          import graph; 
+
+          xaxis("$t$");
+          yaxis("$p$");
+
+          real f1(real x) {return 1/100*(exp(-x/10) * (100 + 10 *
+            sin(2*pi*x)));}
+
+          draw(graph(f1,0,20));
+
+          dot("$(0,100)$",(0,1),W);
+        </asymptote>
+      </image>
     </figure>
     <example>
       <statement>
@@ -269,7 +311,23 @@
     </example>
     <figure xml:id="figure-temperature-model">
       <caption>A Temperature Model</caption>
-      <image width="60%" source="images/figure63"/>
+      <image xml:id="figure63" width="60%">
+        <asymptote>
+          size(10cm,7cm,IgnoreAspect);
+
+          import graph; 
+
+          xaxis("$t$");
+          yaxis("$f$");
+
+          real f1(real x) {return -3x^2 + 6x + 12;}
+
+          draw(graph(f1,0,6));
+
+          dot("$(0,12)$",(0,12),W);
+          dot("$(1,15)$",(1,15),N);
+        </asymptote>
+      </image>
     </figure>
     <p>
       The description of models is, in many ways, the culmulation of

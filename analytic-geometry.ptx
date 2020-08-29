@@ -25,7 +25,28 @@
     </p>
     <figure xml:id="figure-cartesian-coordiantes">
       <caption>Cartesian Coordiantes in <m>\RR^2</m></caption>
-      <image width="90%" source="images/figure01"/>
+      <image xml:id="figure01" width="70%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          draw((0,0)--(3,2),dotted);
+
+          dot((3,2));
+
+          label("$(a,b)$",(3,2),NE);
+
+          draw((0,0)--(0,-0.2)--(3,-0.2)--(3,0));
+          draw((0,0)--(-0.2,0)--(-0.2,2)--(0,2));
+
+          label("$a$",(1.5,-0.2),S);
+          label("$b$",(-0.2,1),W);
+        </asymptote>
+      </image>
     </figure>
     <p>
       The basic idea of cartesian coordinates should be familiar to
@@ -69,7 +90,21 @@
     <title>Loci</title>
     <figure xml:id="figure-circle-locus">
       <caption>The Circle: A Locus</caption>
-      <image width="90%" source="images/figure64"/>
+      <image xml:id="figure64" width="50%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xlimits(-1.3,1.3);
+          ylimits(-1.3,1.3);
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          draw(unitcircle);
+        </asymptote>
+      </image>
     </figure>
     <p>
       Cartesian coordinate are useful for giving algebraic definitions
@@ -87,7 +122,35 @@
     <title>Other Loci</title>
     <figure xml:id="figure-several-other-loci">
       <caption>Several Other Loci</caption>
-      <image width="90%" source="images/figure07"/>
+      <image xml:id="figure07" width="70%">
+        <asymptote>
+          size(10cm);
+          
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return sqrt(x);}
+          real f2(real x) {return -sqrt(x);}
+          real f3(real x) {return 1/x;}
+          real f4(real x) {return x;}
+
+          draw(graph(f1,0,4));
+          draw(graph(f2,0,4));
+          draw(graph(f3,-4,-0.25));
+          draw(graph(f3,0.25,4));
+          draw(graph(f4,-4,4));
+
+          label("$\frac{x}{y}=1$",(3.5,3.5),SE);
+          label("$xy=1$",(0.25,4),SE);
+          label("$y^2-x=0$",(3,-2),SE);
+          label("Octagon",(-2.1,2.1),SE);
+
+          draw((3,0)--(2.1,2.1)--(0,3)--(-2.1,2.1)--(-3,0)--(-2.1,
+            -2.1)--(0,-3)--(2.1,-2.1)--(3,0));
+        </asymptote>
+      </image>
     </figure>
     <p>
       The first two kinds of loci we will understanrd are line (in
@@ -145,7 +208,31 @@
     </p>
     <figure xml:id="figure-four-graphs">
       <caption>Four Graphs</caption>
-      <image width="90%" source="images/figure08"/>
+      <image xml:id="figure08" width="70%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return exp(x)/5 + 1/2;}
+          real f2(real x) {return x^3/7;}
+          real f3(real x) {return sin(x);}
+          real f4(real x) {return -x;}
+
+          draw(graph(f1,-3,3));
+          draw(graph(f2,-3,3));
+          draw(graph(f3,-3,3));
+          draw(graph(f4,-3,3));
+
+          label("$y=\frac{e^x}{5} + \frac{1}{2}$",(2.5,3),NW);
+          label("$y=\frac{x^3}{7}$",(-2.4,-2),E);
+          label("$y=\sin x$",(3,0.3),E);
+          label("$y=-x$",(2,-2),E);
+        </asymptote>
+      </image>
     </figure>
     <p>
       Graphs of functions are also loci. If <m>f(x)</m> is a
