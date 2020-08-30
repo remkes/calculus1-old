@@ -4,7 +4,18 @@
     <title>Constant Functions</title>
     <figure xml:id="figure-constant-function">
       <caption>A Constant Function</caption>
-      <image width="90%" source="images/figure26"/>
+      <image xml:id="figure26" width="75%">
+        <asymptote>
+          size(10cm,5cm,IgnoreAspect);
+
+          import graph;
+
+          xaxis("$x$",-2,4);
+          yaxis("$y$",-2,4);
+
+          draw((-2,1)--(4,1));
+        </asymptote>
+      </image>
     </figure>
     <p>
       The simpliest kind of function is a constant function. Its
@@ -18,7 +29,18 @@
     <title>Linear Functions</title>
     <figure xml:id="figure-linear-function">
       <caption>A Linear Function</caption>
-      <image width="90%" source="images/figure27"/>
+      <image xml:id="figure27" width="75%">
+        <asymptote>
+          size(10cm,5cm,IgnoreAspect);
+
+          import graph;
+
+          xaxis("$x$",-2,4);
+          yaxis("$y$",-2,4);
+
+          draw((-2,-1)--(4,2));
+        </asymptote>
+      </image>
     </figure>
     <p>
       Linear functions have the form <m>f(x) = ax + b</m> for real
@@ -40,7 +62,20 @@
     <title>Quadratic Functions</title>
     <figure xml:id="figure-quadratic-function">
       <caption>A Quadratic Function</caption>
-      <image width="90%" source="images/figure33"/>
+      <image xml:id="figure33" width="75%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f(real x) {return ((x-2)^2-3)/4;}
+
+          draw(graph(f,-1,5));
+        </asymptote>
+      </image>
     </figure>
     <p>
       Quadratic functions have the form <m>f(x) = ax^2 + bx + c</m>.
@@ -55,7 +90,20 @@
     <title>Polynomial Functions</title>
     <figure xml:id="figure-polynomial-function">
       <caption>A Polynomial Function</caption>
-      <image width="90%" source="images/figure28"/>
+      <image xml:id="figure28" width="75%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f(real x) {return (x^3 + 2x^2-x-3)/6;}
+
+          draw(graph(f,-3,1.5));
+        </asymptote>
+      </image>
     </figure>
     <p>
       Polynomial functions have the following form, where the
@@ -83,7 +131,21 @@
     <title>Rational Functions</title>
     <figure xml:id="figure-rational-function">
       <caption>A Rational Function</caption>
-      <image width="90%" source="images/figure29"/>
+      <image xml:id="figure29" width="75%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f(real x) {return (x^3 + 2x^2-x-3)/(3x^2-9x-12);}
+
+          draw(graph(f,-3,-1.02));
+          draw(graph(f,-0.96,3));
+        </asymptote>
+      </image>
     </figure>
     <p>
       Rational numbers are fractions involving integers, In the same
@@ -107,7 +169,20 @@
     <title>Algebraic Functions</title>
     <figure xml:id="figure-algebraic-function">
       <caption>An Algebraic Function</caption>
-      <image width="90%" source="images/figure30"/>
+      <image xml:id="figure30" width="75%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f(real x) {return sqrt(x^2+7)/(sqrt(x^2+1));}
+
+          draw(graph(f,-3,4));
+        </asymptote>
+      </image>
     </figure>
     <p>
       We are now moving into much broader categories of functions,
@@ -126,7 +201,20 @@
     <title>Trigonometric Functions</title>
     <figure xml:id="figure-trigonometric-function">
       <caption>A Trigonometric Function</caption>
-      <image width="90%" source="images/figure32"/>
+      <image xml:id="figure32" width="75%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f(real x) {return sin(pi*x);}
+
+          draw(graph(f,0,6));
+        </asymptote>
+      </image>
     </figure>
     <p>
       The first type of non-algebraic functions are trigonometric
@@ -140,7 +228,25 @@
     </p>
     <figure xml:id="figure-trig-circle">
       <caption>Trigonometry and the Circle</caption>
-      <image width="90%" source="images/figure34"/>
+      <image xml:id="figure34" width="75%"> 
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$",-1.4,1.4);
+          yaxis("$y$",-1.4,1.4);
+
+          draw(unitcircle);
+
+          draw((0,0)--(.5,.866));
+
+          dot((.5,.866));
+
+          label("$(x,y)$",(.5,.866),NE);
+          label("$\theta$",(0.1,0),NE);
+        </asymptote>
+      </image>
     </figure>
     <p>
       Though the trigonometric functions are usually associated to
@@ -167,7 +273,20 @@
     <title>Exponential and Logarithmic Functions</title>
     <figure xml:id="figure-an-exponential-function">
       <caption>An Exponential Function</caption>
-      <image width="90%" source="images/figure31"/>
+      <image xml:id="figure31" width="75%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f(real x) {return (2^(x))/3;}
+
+          draw(graph(f,-3,3));
+        </asymptote>
+      </image>
     </figure>
     <p>
       If <m>a</m> is a positive real number, then functions of the
@@ -192,7 +311,20 @@
     </p>
     <figure xml:id="figure-a-logarithmic-function">
       <caption>A Logarithmic Function</caption>
-      <image width="90%" source="images/figure85"/>
+      <image xml:id="figure85" width="75%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f(real x) {return (log(x))/3;}
+
+          draw(graph(f,0.05,6));
+        </asymptote>
+      </image>
     </figure>
     <p>
       The inverse of the exponential function is the logarithm. If
@@ -220,7 +352,31 @@
     <title>Elementary Functions</title>
     <figure xml:id="figure-universe-of-functions">
       <caption>The Universe of Functions</caption>
-      <image width="90%" source="images/figure35"/>
+      <image xml:id="figure35" width="90%">
+        <asymptote>
+          size(16cm);
+
+          import graph;
+
+          draw(unitcircle);
+          draw(scale(2)*unitcircle);
+          draw(scale(3)*unitcircle);
+          draw(scale(4)*unitcircle);
+          draw(scale(5)*unitcircle);
+          draw(scale(6)*unitcircle);
+          draw(scale(7)*unitcircle);
+
+          label("Constant",(0,-.4),N);
+          label("Linear",(0,1),N);
+          label("Quadratic",(0,2),N);
+          label("Polynomial",(0,3),N);
+          label("Rational",(0,4),N);
+          label("Algebraic",(0,5),N);
+          label("Transcendental",(0,6),N);
+          label("\Huge Elementary", (0,-3),S);
+          label("Non-Elementary?",(4.5,5.6),E);
+        </asymptote>
+      </image>
     </figure>
     <p>
       Everything we've defined so far comes together to form the large

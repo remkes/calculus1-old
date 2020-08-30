@@ -160,7 +160,27 @@
     <title>Restriction of Domain</title>
     <figure xml:id="figure-restriction">
       <caption>Restricting the Domain of <m>f(x) = x^2</m></caption>
-      <image width="90%" source="images/figure36"/>
+      <image xml:id="figure36" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$",-4,4);
+          yaxis("$y$",-1,5);
+          
+          real f(real x) {return x^2/4;} 
+          real g(real x) {return sqrt(4x);}
+
+          draw(graph(f,-4,4));
+          draw(graph(g,0,4));
+          draw((-1,-1)--(4,4),dashed);
+
+          label("$y=x$",(-0.5,-0.5),NW);
+          label("$f(x)=x^2$",(2,0.8),E);
+          label("$f^{-1}(x)=\sqrt{x}$",(0.2,3),E);
+        </asymptote>
+      </image>
     </figure>
     <p>
       Many functions are not monotonic, but we would like to invert

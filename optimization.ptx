@@ -24,7 +24,20 @@
         </p>
         <figure xml:id="figure-fixed-perimeter-rectangle">
           <caption>A Fixed-Perimeter Rectangle</caption>
-          <image width="60%" source="images/figure56"/>
+          <image xml:id="figure56" width="60%">
+            <asymptote>
+              size(10cm);
+
+              draw((0,0)--(5,0)--(5,3)--(0,3)--(0,0));
+
+              label("$a$",(0,1.5),E);
+              label("$b$",(2.5,0),S);
+              label("Area $A=ab$",(0.5,1),E);
+              label("Perimeter $P=2a+2b$",(0.5,2),E);
+              label("Constant",(3.5,2),E);
+              label("Unknown",(3.5,1),E);
+            </asymptote>
+          </image>
         </figure>
         <p>
           We want to maximize area, so we will eventually be
@@ -53,7 +66,23 @@
     <title>Optimized Distances</title>
     <figure xml:id="figure-distance-between-points">
       <caption>Distance Between Points</caption>
-      <image width="85%" source="images/figure65"/>
+      <image xml:id="figure65" width="85%">
+            <asymptote>
+              size(10cm);
+              
+              dot("$(a,b)$",(1,1),NW);
+              dot("$(c,d)$",(3,2),NE);
+
+              draw((1,1)--(3,2));
+              draw((1,1)--(3,1)--(3,2));
+
+              label("$h$",(2,1.5),NW);
+              label("$c-a$",(2,1),S);
+              label("$d-b$",(3,1.5),E);
+              label("$h = \sqrt{(c-a)^2 + (b-d)^2}$",(4.5,1.8),E);
+              label("$h^2 = (c-a)^2 + (b-d)^2$",(4.5,1.2),E);
+            </asymptote>
+          </image>
     </figure>
     <p>
       Many applications of optmization are found in geometry, both for
@@ -73,7 +102,29 @@
     </p>
     <figure xml:id="figure-distance-optimization">
       <caption>A Distance Optimization</caption>
-      <image width="60%" source="images/figure66"/>
+      <image xml:id="figure66" width="60%"> 
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          yaxis("$x$",Ticks());
+          xaxis("$y$",Ticks());
+
+          real f(real x) {return (x^2)/4;}
+
+          draw(graph(f,-4,5));
+
+          dot("$(4,2)$",(4,2),SE);
+
+          label("$f(x) = \frac{x^2}{4}$", (-3.8,3.61),NE);
+
+          dot("$\left( \sqrt[3]{32},\frac{(\sqrt[3]{32})^2}{4}
+            \right)$",(3.175,2.52),NW);
+
+          draw((3.175,2.52)--(4,2));
+        </asymptote>
+       </image>
     </figure>
     <example>
       <statement>
@@ -227,7 +278,34 @@
     </p>
     <figure xml:id="figure-marginal-analysis">
       <caption>Example of Marginal Analysis</caption>
-      <image width="60%" source="images/figure57"/>
+      <image xml:id="figure57" width="60%">
+        <asymptote>
+          size(10cm,7cm,IgnoreAspect);
+
+          import graph; 
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return x^3-x^2+x+1;}
+          real f2(real x) {return 3x;}
+
+          draw(graph(f1,0,2.2));
+          draw(graph(f2,0,3));
+
+          label("$B(x)$",(2.4,7.2),SE);
+          label("$C(x)$",(2,7),NW);
+
+          draw((1.22,2.53)--(1.22,3.65));
+
+          label("Maximum Net Benefit",(1.26,2.53),SE);
+
+          dot("$1.22$",(1.22,0),S);
+          dot("$0.43$",(0.43,0),S);
+          dot("$1.81$",(1.81,0),S);
+          dot("Maximal Break-Even Point",(1.81,5.43),NW);
+        </asymptote>
+      </image>
     </figure>
     <example>
       <statement>

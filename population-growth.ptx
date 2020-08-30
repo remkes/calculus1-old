@@ -36,15 +36,41 @@
     </p>
     <figure xml:id="figure-exponential-regression">
       <caption>An Exponential Regression</caption>
-      <image width="60%" source="images/figure40"/>
+      <image xml:id="figure40" width="60%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          yaxis("popluation (thousands)",0,9);
+          xaxis("time (years)",0,12,Ticks());
+
+          dot((0,1.032));
+          dot((1,1.214));
+          dot((2,1.372));
+          dot((3,1.629));
+          dot((4,2.143));
+          dot((5,2.520));
+          dot((6,2.940));
+          dot((7,3.292));
+          dot((8,3.813));
+          dot((9,4.757));
+          dot((10,5.632));
+          dot((11,6.842));
+          dot((12,8.010));
+
+          real f(real x) {return 2^(x/4);}
+
+          draw(graph(f,0,12));
+        </asymptote>
+      </image>
     </figure>
     <table>
       <tabular>
         <row>
           <cell>Year</cell>
           <cell>Population</cell>
-          <cell>Growth Rate
-            \vspace{.3cm}</cell>
+          <cell>Growth Rate</cell>
         </row>
         <row>
           <cell>0</cell>

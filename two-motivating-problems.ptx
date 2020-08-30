@@ -4,7 +4,27 @@
     <title>The Velocity Problem</title>
     <figure xml:id="figure-slope-linear">
       <caption>Slope of a Linear Function</caption>
-      <image width="60%" source="images/figure10"/>
+      <image xml:id="figure10" width="60%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$t$");
+          yaxis("$p$");
+
+          real f(real x) {return x/3;}
+
+          draw(graph(f,0,8));
+
+          draw((6,2)--(6,1)--(3,1));
+
+          label("$\Delta p$",(6,1.5),E);
+          label("$\Delta t$",(4.5,1),S);
+          label("$a = \frac{\Delta p}{\Delta t}$",(4.5,1.5),NW);
+          label("$p=at$", (8,8/3),E);
+        </asymptote>
+      </image>
     </figure>
     <p>
       Moving from biological examples to physics, the velocity problem
@@ -31,11 +51,41 @@
     </p>
     <figure xml:id="figure-tangent-line">
       <caption>A Tangent Line</caption>
-      <image width="60%" source="images/figure11"/>
+      <image xml:id="figure11" width="60%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return (x^3-x^2+x+1)/8;}
+          real f2(real x) {return 3/8*x - 11/76;}
+
+          draw(graph(f1,0,2.2));
+          draw(graph(f2,0,3));
+        </asymptote>
+      </image>
     </figure>
     <figure xml:id="figure-secant-line">
       <caption>A Secant Line</caption>
-      <image width="60%" source="images/figure12"/>
+      <image xml:id="figure12" width="60%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return (x^3-x^2+x+1)/8;}
+          real f2(real x) {return 3/8*x;}
+
+          draw(graph(f1,0,2.2));
+          draw(graph(f2,0,3));
+        </asymptote>
+      </image>
     </figure>
     <p>
       The slope of a graph is defined to be the slope of its tangent,
@@ -53,7 +103,42 @@
     </p>
     <figure xml:id="figure-secant-approximations1">
       <caption>Secant Approximations to the Tangent Line</caption>
-      <image width="85%" source="images/figure13"/>
+      <image xml:id="figure13" width="85%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+          
+          real f1(real x) {return x^2;}
+
+          draw(graph(f1,-1,2.1));
+
+          draw((0,-1)--(3,5));
+          draw((0,0)--(3,3));
+          draw((0,-.25)--(3,3.5));
+          draw((0,-.5)--(3,4));
+          draw((0,-.75)--(3,4.5));
+
+          label("5",(3,5),E);
+          label("4",(3,4.5),E);
+          label("3",(3,4),E);
+          label("2",(3,3.5),E);
+          label("1",(3,3),E);
+
+          label("Slope of Line  1 = $\frac{f(1) - f(0)}{1-0} =
+            1$",(4,1),E);
+          label("Slope of Line  2 = $\frac{f(1) -
+            f(1/4)}{1-\frac{1}{4}} = 5/4$",(4,2),E);
+          label("Slope of Line  3 = $\frac{f(1) -
+            f(1/2)}{1-\frac{1}{2}} = 3/2$",(4,3),E);
+          label("Slope of Line  4 = $\frac{f(1) -
+            f(3/4)}{1-\frac{3}{4}} = 7/4$",(4,4),E);
+          label("Line  5 is tangent line with slope 2.",(4,5),E);
+        </asymptote>
+      </image>
     </figure>
   </subsection>
   <subsection xml:id="subsection-distance-problem">
@@ -66,11 +151,48 @@
     </p>
     <figure xml:id="figure-constant-velocity">
       <caption>Constant Velocity</caption>
-      <image width="60%" source="images/figure14"/>
+      <image xml:id="figure14" width="60%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$t$");
+          yaxis("$y$");
+
+          draw((0,4)--(6,4)--(6,0));
+          
+          label("$v(t) = c$",(3,4),N);
+
+          dot("$t=0$",(0,0),NE);
+          dot("$t=t_0$",(6,0),NW);
+
+          label("Area$= ct_0$",(2,2),E);
+        </asymptote>
+      </image>
     </figure>
     <figure xml:id="figure-non-constant-velocity">
       <caption>Non-Constant Velocity</caption>
-      <image width="60%" source="images/figure15"/>
+      <image xml:id="figure15" width="60%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          draw((0,3){SE}..{E}(2,1.6){E}..{NE}(4,4){NE}..{SE}(6,3));
+          draw((6,3)--(6,0));
+
+          label("$v(t)$",(3,3),N);
+
+          dot("$t=0$",(0,0),NE);
+          dot("$t=t_0$",(6,0),NW);
+          
+          label("Area = Distance Travelled",(0.2,1),E);
+        </asymptote>
+      </image>
     </figure>
     <p>
       Again, algebra can only answer this question for very simple
@@ -78,9 +200,9 @@
       constant. In this case, if we have constant velocity of
       <m>c</m> unit distance for unit time and we have travelled for
       <m>t_0</m> units of time, the distance is just the product
-      <m>ct_0</m>. Graphically, the situation is summarized in <xref
-      ref="figure-constant-velocity" /> and <xref
-      ref="figure-non-constant-velocity" />. We can see that the
+      <m>ct_0</m>. Graphically, the situation is summarized in 
+      <xref ref="figure-constant-velocity" /> and 
+      <xref ref="figure-non-constant-velocity" />. We can see that the
       distance travelled under constant velocity is the area under the
       velocity graph. To solve the distance travelled problem, we
       have to find areas under curves. Like tangent lines, this is
@@ -90,11 +212,57 @@
     </p>
     <figure xml:id="figure-approximation-by-rectangles">
       <caption>Approximation of Area by Rectangles</caption>
-      <image width="60%" source="images/figure16"/>
+      <image xml:id="figure16" width="60%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$t$");
+          yaxis("$y$");
+
+          draw((0,3){SE}..{E}(2,1.6){E}..{NE}(4,4){NE}..{SE}(6,3));
+
+          label("$v(t)$",(2.9,3.3),N);
+
+          draw((0,2.6)--(1,2.6)--(1,0));
+          draw((1,1.8)--(2,1.8));
+          draw((2,0)--(2,1.9)--(3,1.9));
+          draw((3,0)--(3,3.1)--(4,3.1));
+          draw((4,0)--(4,4.2)--(5,4.2)--(5,0));
+          draw((5,3.6)--(6,3.6)--(6,0));
+        </asymptote>
+      </image>
     </figure>
     <figure xml:id="figure-improved-approximation-by-rectangles">
       <caption>Improved Approximation with More Rectangles</caption>
-      <image width="60%" source="images/figure17"/>
+      <image xml:id="figure17" width="60%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$t$");
+          yaxis("$y$");
+
+          draw((0,3){SE}..{E}(2,1.6){E}..{NE}(4,4){NE}..{SE}(6,3));
+
+          label("$v(t)$",(2.9,3.3),N);
+
+          draw((0,2.8)--(0.5,2.8)--(0.5,0));
+          draw((0.5,2.3)--(1,2.3)--(1,0));
+          draw((1,1.8)--(1.5,1.8)--(1.5,0));
+          draw((1.5,1.6)--(2,1.6));
+          draw((2,0)--(2,1.7)--(2.5,1.7));
+          draw((2.5,0)--(2.5,2.1)--(3,2.1));
+          draw((3,0)--(3,2.6)--(3.5,2.6));
+          draw((3.5,0)--(3.5,3.7)--(4,3.7));
+          draw((4,0)--(4,4.2)--(4.5,4.2)--(4.5,0));
+          draw((4.5,4.1)--(5,4.1)--(5,0));
+          draw((5,3.7)--(5.5,3.7)--(5.5,0));
+          draw((5.5,3.2)--(6,3.2)--(6,0));
+        </asymptote>
+      </image>
     </figure>
     <p>
       The sum of the areas of all the rectangles is reasonable
