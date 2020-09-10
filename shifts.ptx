@@ -4,7 +4,7 @@
     <title>Shifts of Conics</title>
     <figure xml:id="figure-shifts-circle">
       <caption>Shifts of a Circle</caption>
-      <image width="90%" source="images/figure25">
+      <image xml:id="figure25" width="90%">
         <asymptote>
           size(10cm);
 
