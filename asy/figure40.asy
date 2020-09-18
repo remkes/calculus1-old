@@ -22,3 +22,4 @@ dot((12,8.010));
 real f(real x) {return 2^(x/4);}
 
 draw(graph(f,0,12));
+draw(graph(f,-3,0),invisible);

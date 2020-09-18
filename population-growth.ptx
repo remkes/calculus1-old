@@ -32,40 +32,12 @@
     <p>
       To encode population growth as a function, we chose a function
       <m>p(t)</m> representing population (<m>p</m>) in terms of the
-      independant variable time (<m>t</m>).
+      independant variable time (<m>t</m>). Often we start with a data
+      set, representing the values of a certain population over a
+      period of time. <xref ref="table-population-data" /> gives some
+      example population data. 
     </p>
-    <figure xml:id="figure-exponential-regression">
-      <caption>An Exponential Regression</caption>
-      <image xml:id="figure40" width="60%">
-        <asymptote>
-          size(10cm);
-
-          import graph;
-
-          yaxis("popluation (thousands)",0,9);
-          xaxis("time (years)",0,12,Ticks());
-
-          dot((0,1.032));
-          dot((1,1.214));
-          dot((2,1.372));
-          dot((3,1.629));
-          dot((4,2.143));
-          dot((5,2.520));
-          dot((6,2.940));
-          dot((7,3.292));
-          dot((8,3.813));
-          dot((9,4.757));
-          dot((10,5.632));
-          dot((11,6.842));
-          dot((12,8.010));
-
-          real f(real x) {return 2^(x/4);}
-
-          draw(graph(f,0,12));
-        </asymptote>
-      </image>
-    </figure>
-    <table>
+    <table xml:id="table-population-data">
       <tabular>
         <row>
           <cell>Year</cell>
@@ -139,5 +111,55 @@
         </row>
       </tabular>
     </table>
+    <p>
+      We can try to match this data with a function, as we did with
+      other functions in <xref ref="subsection-regression" />. The
+      growth of this population is best matched by an exponential
+      function, show in <xref ref="figure-exponential-regression" />. 
+    </p>
+    <figure xml:id="figure-exponential-regression">
+      <caption>An Exponential Regression</caption>
+      <image xml:id="figure40" width="60%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          yaxis("popluation (thousands)",0,9);
+          xaxis("time (years)",0,12,Ticks());
+
+          dot((0,1.032));
+          dot((1,1.214));
+          dot((2,1.372));
+          dot((3,1.629));
+          dot((4,2.143));
+          dot((5,2.520));
+          dot((6,2.940));
+          dot((7,3.292));
+          dot((8,3.813));
+          dot((9,4.757));
+          dot((10,5.632));
+          dot((11,6.842));
+          dot((12,8.010));
+
+          real f(real x) {return 2^(x/4);}
+
+          draw(graph(f,0,12));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      In the data, I included the percentage growth for each year.
+      Though there is a lot of variability, there is also some
+      consistency here. The percentage growth varies above and below
+      20%, but remains somewhat nearby that value. So, why does
+      relatively consistent percentage growth require an exponential
+      regression? What's the connection between percentage growth and
+      exponential functions? I'd like to take this as a motivating
+      question for the course. Calculus can understand and describe
+      growth-rates, like percentage growth, and relate them to
+      functions. In the next section, we'll start to sketch out the
+      approach to this motivating question.
+    </p>
   </subsection>
 </section>
