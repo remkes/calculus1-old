@@ -6,6 +6,43 @@
   <p><ol>
     <li>
       <p>
+        Translate the following sentences into differential equations. 
+        <ol>
+          <li>
+            The rate of change of a function is proportional to the
+            square root of the function. 
+          </li>
+          <li>  
+            The rate of change of a function is proportional to the
+            reciprocal of the function plus a constant.
+          </li>
+          <li>
+            The rate of change of a function is proportional to the
+            difference between the function squares and the function
+            cubed.
+          </li>
+        </ol>
+      </p>
+    </li>
+    <li>
+      <p>
+        Draw phase lines and trajectories for these autonomous
+        differential equations. (Show the steps in your work: finding
+        the stead states, finding the trajectories, constructing the
+        phase line and labelling it. You may assume these are all
+        population models, so <m>p \geq 0</m>.) 
+        <ol>
+          <li>
+            <me>
+              \frac{dp}{dt} = p^2 - 12p + 35
+            </me>
+          </li>
+          <li>
+            <me>
+              \frac{dp}{dt} = (p-2)^2(p-4)^3(p-6)
+            </me>
+          </li>
+        </ol>
       </p>
     </li>
   </ol></p>
