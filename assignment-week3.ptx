@@ -18,7 +18,7 @@
           </li>
           <li>
             The rate of change of a function is proportional to the
-            difference between the function squares and the function
+            difference between the function squared and the function
             cubed.
           </li>
         </ol>
@@ -28,7 +28,7 @@
       <p>
         Draw phase lines and trajectories for these autonomous
         differential equations. (Show the steps in your work: finding
-        the stead states, finding the trajectories, constructing the
+        the steady states, finding the trajectories, constructing the
         phase line and labelling it. You may assume these are all
         population models, so <m>p \geq 0</m>.) 
         <ol>

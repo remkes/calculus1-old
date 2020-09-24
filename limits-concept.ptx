@@ -1,22 +1,23 @@
 <section xml:id="limits-concept">
   <title>The Concept of a Limit</title>
-  <subsection xml:id="limit-definition">>
+  <subsection xml:id="limit-definition">
     <title>Limit Definitions</title>
     <p>
-      In the prevous section, the two motivating problems of velocity
-      and distance-travelled led us to approximation processes.
-      Inside the field of algebra, we couldn't get exact answers to
-      these problems, only approximate answers. However, algebra
-      found a process for refining the approximation.
+      In <xref ref="section-differential-equations" />, I said that
+      algebra had a hard time with growth rates. Inside the tools of
+      algebra, we don't have the ability to calculate this thing we
+      called a derivative. We need a new tool. That new tool is
+      something called a limit. 
     </p>
     <p>
-      Calculus starts by asking if we can somehow calculate the end of
-      an approximation processs. Is there an exact answer at the end
-      of all the approximation? Calclulus uses a new tool, the limit,
-      to find such an exact answer. A limit is a way of understanding
-      an infinite process and asking where the process eventually
-      leads. The limit is the key new tool that transcends algebra
-      and creates calculus.
+      Algebra can give approximate answers of a variety of questions
+      like the question of growth rate. It can build an approximation
+      process.  Calculus starts by asking if we can somehow calculate
+      the end of the approximation processs. Is there an exact answer
+      at the end of all the approximation?  A limit is a way of
+      understanding an infinite process and asking where the process
+      eventually leads. The limit is the key new tool that transcends
+      algebra and creates calculus.
     </p>
     <p>
       Our definition of limits will be restricted to limits of

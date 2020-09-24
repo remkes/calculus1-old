@@ -489,7 +489,7 @@
     </activity>
   </subsection>
   <subsection xml:id="subsection-activity-edge-behaviour-of-models">
-    <title>Edge Behaviour of Models</title>
+    <title>Limits and  Models</title>
     <activity>
       <statement>
         <p>
@@ -528,19 +528,21 @@
           </me>
           The point <m>t=5</m> is the edge of the domain of this
           model. What happens to the temperature as we approach this
-          edge point?
+          value? 
         </p>
       </statement>
       <solution>
         <p>
-          We take the limit approaching the edge point.
+          We take the limit. 
           <me>
             lim_{t \rightarrow 5} 24 +
             \frac{\sqrt{(t-5)^3}}{t-5} = 24 \lim_{t \rightarrow 5} +
             \frac{(t-5)}{(t-5)} \sqrt{t-5} = 24 + 0 = 24 
           </me>
           Even though the function is undefined, the limit is
-          reasonable and the temperature simply approaches 24.
+          reasonable and the temperature simply approaches 24. This
+          tells us that even though the domain is undefined past this
+          point, the model has reasonable and predicatable behaviour. 
         </p>
       </solution>
     </activity>
@@ -565,12 +567,6 @@
         </li>
         <li>
           What is a vertical asymptote? How does it relate to a limit? 
-        </li>
-        <li>
-          What is the edge behaviour of a model?
-        </li>
-        <li>
-          How do we use limits at finite values to analysie models?
         </li>
       </ul>
     </p>

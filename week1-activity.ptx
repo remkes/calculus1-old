@@ -390,7 +390,7 @@
           Then we can use the previous <m>y = x+4</m> to get the
           matching <m>y</m> coordinates. 
           <me>
-            y = x + 4 \frac{4 \pm \sqrt{76}}{3} + 4 = \frac{16 \pm
+            y = x + 4 = \frac{4 \pm \sqrt{76}}{3} + 4 = \frac{16 \pm
             \sqrt{76}}{3} 
           </me>
           All together, we have two intersection points. 
@@ -399,9 +399,9 @@
             \amp \left( \frac{4 + \sqrt{76}}{3}, \frac{16 + \sqrt{76}}{3}
             \right) 
             </mrow>
+            <mrow>
             \amp \left( \frac{4 - \sqrt{76}}{3}, \frac{16 - \sqrt{76}}{3}
             \right) 
-            <mrow>
             </mrow>
           </md>
           We could write the decimal approximates of these values.

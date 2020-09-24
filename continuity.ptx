@@ -131,7 +131,7 @@
     <p>
       A very well-known example is the Heaviside function.
       <me>
-        f(x) = \begin{cases} 0 \amp  x \lt  0 \\ 1 \amp  x
+        h(x) = \begin{cases} 0 \amp  x \lt  0 \\ 1 \amp  x
         \geq 0 \end{cases} 
       </me>
     </p>

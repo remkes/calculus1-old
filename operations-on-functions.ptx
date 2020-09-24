@@ -196,7 +196,7 @@
     </p>
     <p>
       The example of <m>\sin x</m> we used above is desperately not
-      monotonic: it isolates up and down constantly. We have to make
+      monotonic: it oscillates up and down constantly. We have to make
       a severe restriction to invert it, by choosing a very small
       piece where it is monotonic. For <m>\sin x</m>, the
       conventional choice is the interval <m>\left[ \frac{-\pi}{2},

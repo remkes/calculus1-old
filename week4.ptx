@@ -4,6 +4,5 @@
   <xi:include href="limits-concept.ptx" />
   <xi:include href="limits-at-finite-values.ptx" />
   <xi:include href="continuity.ptx" />
-  <xi:include href="edge-behaviour-of-models.ptx" />
   <xi:include href="week4-activity.ptx" />
 </chapter>
