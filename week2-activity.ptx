@@ -83,7 +83,7 @@
           restrictions are also complicated here. The inside function
           <m>f</m> has no restrictions, so we only have to worry about
           the final form; unfortunately, that final form isn't easy to
-          pull apart. The square root is the only restrict, so the
+          pull apart. The square root is the only restriction, so the
           term inside the square root must be non-negative. Let's work
           with that inequality a bit. (We're going to apply a
           logarithm to get ride of the exponential; this respect the
