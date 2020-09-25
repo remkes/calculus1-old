@@ -157,7 +157,7 @@
     <activity>
       <statement>
         <p>
-          Express <m>f(x) = sin(e^{x^2+x+1})</m> as the composition of
+          Express <m>f(x) = \sin (e^{x^2+x+1})</m> as the composition of
           two functions.
         </p>
       </statement>
@@ -560,8 +560,8 @@
       </solution>
     </activity>
   </subsection>
-  <subsection xml:id="subsection-activity-interpreting-parameters">>
-    <title>Interpreting Parameter</title>
+  <subsection xml:id="subsection-activity-interpreting-parameters">
+    <title>Interpreting Parameters</title>
     <activity>
       <statement>
         <p>
