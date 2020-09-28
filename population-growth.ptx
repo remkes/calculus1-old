@@ -149,6 +149,41 @@
       </image>
     </figure>
     <p>
+      So how did I come up with this exponential function? One way to
+      do this regression is to look at doubling periods. By
+      observation, the data looks like it doubles roughly every four
+      years. (This isn't perfect, since over some five year patterns
+      is more than doubles and over other it fall short, but this
+      isn't a bad guess). For doubling, we can think of powers of
+      <m>2</m>, so an exponential function base <m>2</m>. If we double
+      every <m>d</m> unites of time, the appropriate exponential
+      function is
+      <me>
+        p(t) = a 2^{\frac{1}{d} t} 
+      </me>
+      where <m>a</m> is the starting value of the poluation. In this
+      case, I used the function 
+      <me>
+        p(t) = 1032 2^{\frac{t}{4}}
+      </me>
+      to do the regression, and it fits reasonably well. 
+    </p>
+    <p>
+      We conventionally use the base <m>e</m> in calculus. I can
+      change my previous exponential function using the fact that <m>2
+      = e^{\ln 2</m>. 
+      <me>
+        p(t) = a \left( (e^{\ln 2) \right)^{\frac{1}{d} t} 
+      </me>
+      Successive exponents are simplified by multiplying the
+      exponents.
+      <me>
+        p(t) = a e^{\ln 2\frac{1}{d} t} = ae^{\frac{t \ln 2}{d}}
+      </me>
+      This is a nice general way to write an exponential function with
+      starting value <m>a</m> and doubling period <m>d</m>.
+    </p>
+    <p>
       In the data, I included the percentage growth for each year.
       Though there is a lot of variability, there is also some
       consistency here. The percentage growth varies above and below
