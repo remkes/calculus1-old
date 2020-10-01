@@ -1,5 +1,48 @@
 <section xml:id="section-asymptotic_analysis">
   <title>Asymptotic Analysis</title>
+  <subsection xml:id="subsection-classifying-limits">
+    <title>Classifying Types of Limits</title>
+    <p>
+      It will be useful for this section to clarify the language we
+      introduced in <xref ref="section-limits-at-finite-values" />
+      concerning <em>indeterminate forms</em>. A limit is called an
+      indeterminate form  if
+      it cannot be evaluated or logically determined. We can classify
+      indeterminate forms by their type. For now, we look at three
+      types. The first two types involve quotient limits.
+      <me>
+        \lim_{x \rightarrow a} \frac{f(x)}{g(x)}
+      </me>
+    </p>
+    <p>
+      If <m>f(x)</m> and <m>g(x)</m> approach <m>\pm \infty</m>, the
+      limit is called an indeterminate form of type
+      <m>\frac{\infty}{\infty}</m>. If instead both <m>f(x)</m> and
+      <m>g(x)</m> approach <m>0</m>, then it is an indeterminate form
+      of type <m>\frac{0}{0}</m>. In both cases, we want to use
+      algebra to factor out and cancel off the pieces of the quotients
+      which tends to <m>\infty</m> or <m>0</m> to solve the limit.
+    </p>
+    <p>
+      The third type involves a difference limit.
+      <me>
+        \lim_{x \rightarrow a} f(x) - g(x)
+      </me>
+    </p>
+    <p>
+      If both <m>f(x)</m> and <m>g(x)</m> approach <m>\pm \infty</m>,
+      this limit is called an indeterminate form of type <m>\infty -
+      \infty</m>. For this type, we want to use common denominator,
+      conjugates or other algegraic tricks to reduce it to a limit of
+      type <m>\frac{\infty}{\infty}</m> or type <m>\frac{0}{0}</m>.
+    </p>
+    <p>
+      In all these definitions, we could replace <m>x \rightarrow
+      a</m> with the one-sided limit or <m>x \rightarrow \pm
+      \infty</m>; the indeterminate forms are classified the same way
+      for any type of limit. 
+    </p>
+  </subsection>
   <subsection xml:id="subsection-novel-technique">
     <title>A Novel Technique</title>
     <p>
@@ -7,7 +50,7 @@
       as finite limits except that the first step, evaluation, is
       impossible. We start at the second step and look for a simple
       logical explanation. If such an explanation is not forthcoming,
-      the limit is an indeterminate form and we use algegra and the
+      the limit is an indeterminate form and we use algebra and the
       limit rules. The limit rules apply to infinite limits as they
       did to finite limits.
     </p>
@@ -42,7 +85,7 @@
     <p>
       In asymptotic analysis, we start with a quotient limit.
       <me>
-        \lim_{x \rightarrow \pm \infty} \frac{f(x)}{g(x)}
+        \lim_{x \rightarrow \infty} \frac{f(x)}{g(x)}
       </me>
       <ul>
         <li>
@@ -143,7 +186,7 @@
     </p>
   </subsection>
   <subsection xml:id="subsection-determining-ranking">
-    <title>Determining Asymptotic Ranking</title>
+    <title>Asymptotic Ranking, Sums and Product</title>
     <p>
       In quotient limits, <m>f</m> and <m>g</m> may be more
       complicated than the simple functions in our asymptotic ranking.
@@ -157,29 +200,62 @@
             asymptotic order of <m>f</m> is the maximum of the
             asymptotic order of the <m>f_i</m>.  This means that in a
             sum or difference, we only need to consider the fastest
-            growing pieces.  We can simply ignore all the rest.
+            growing pieces. We can simply ignore all the rest.
           </p>
         </li>
         <li>
           <p>
-            If <m>f_1 \lt g_1</m> and either <m>f_2 \lt g_2</m> or
-            <m>f_2</m> and <m>g_2</m> have the same asymptotic order,
-            then <m>f_1 f_2 \lt g_1 g_2</m>.  Basically, this says that
-            relationships of asymptotic order are preserved in
-            products.
+            I don't have as precise a rule for product. Just know that
+            product of growing functions increase the asymptotic
+            order. <m>xe^x</m> has greater asymptotic order than
+            <m>e^x</m>. 
           </p>
         </li>
       </ul>
     </p>
   </subsection>
-  <subsection xml:id="subsection-asymoptotic-ratios">
-    <title>Asymptotic Analysis and Ratios of Functions</title>
+  <subsection xml:id="subsection-actually-calculating-limits">
+    <title>Actually Calculating Limits</title>
     <p>
-      In a quotient limit where <m>f</m> and <m>g</m> have the same
-      asymptotic order, we look at the <em>leading coefficients</em>.
-      The leading coefficients are the coefficients which sit in front
-      of the term with the highest asymptotic order.
+      To evaluate a limit of the form
+      <me>
+        \lim_{x \rightarrow \infty} \frac{f(x)}{g(x)} 
+      </me>
+      we look at the asymptotic order. If <m>f</m> has a greater
+      asymptotic order, the limit is <m>\infty</m> or <m>-\infty</m>
+      (depending on the sign of the fraction as <m>x</m> gets large.
+      If <m>g</m> has a greater asymptotic, the limit is zero.
     </p>
+    <p>
+      If <m>f</m> and <m>g</m> have the same
+      asymptotic order, the value of the limit is the ration of the
+      <em>leading coefficients</em>. The leading coefficients are the
+      coefficients which sit in front of the term with the highest
+      asymptotic order.
+    </p>
+    <p>
+      Note that none of the information associated to the pieces of
+      lower asymptotic order matters at all. No matter how large
+      the constants may be, only the asymptotic order tells us which
+      pieces are important.
+    </p>
+    <example>
+      <statement>
+        <me>
+          \lim_{x \rightarrow \infty} \frac{9x^4 - 12x + 4}{x^5 -
+          30x^3 + 4}
+        </me>
+        <p>
+          The order of the numerator is <m>x^4</m>. The order of the
+          denominator is <m>x^5</m>. The denominator has a higher
+          asymptotic order, so the limit is zero.
+        </p>
+        <me>
+          \lim_{x \rightarrow \infty} \frac{9x^4 - 12x + 4}{x^5 -
+          30x^3 + 4} = 0
+        </me>
+      </statement>
+    </example>
     <example>
       <statement>
         <me>
@@ -194,12 +270,6 @@
             \lim_{x \rightarrow \infty} \frac{8x^4 + 3x^2 + 4}{14x^4 -
             9x^3 - 50x^2 - 4x - 1} = \frac{8}{14} = \frac{4}{7}
           </me>
-        </p>
-        <p>
-          Note that none of the information associated to the pieces of
-          lower asymptotic order matters at all.  No matter how large
-          the constants may be, only the asymptotic order tells us which
-          pieces are important.
         </p>
       </statement>
     </example>

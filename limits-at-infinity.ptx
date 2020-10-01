@@ -59,11 +59,17 @@
     <p>
       If we have a function <m>f(x)</m> where the limit
       <me>
-        \lim_{x \rightarrow \pm \infty} f(x) = L
+        \lim_{x \rightarrow \infty} f(x) = L
       </me>
-      exists either at positive or negative infinity, that means that
+      exists, that means that
       the graph of the function approaches the line <m>y=L</m>. Such
-      lines are called <em>horizontal asymptotes</em>.
+      lines are called <em>horizontal asymptotes</em>. Similarly, if
+      the limit 
+      <me>
+        \lim_{x \rightarrow -\infty} f(x) = L
+      </me>
+      exists, then again the fuction approach the line <m>y=L</m> and
+      we call the line a horizontal asymptote. 
     </p>
   </subsection>
 </section>

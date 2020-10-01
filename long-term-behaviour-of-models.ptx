@@ -27,8 +27,9 @@
       near those limits.
     </p>
     <p>
-      If we consider popluation models, we have four categories of long
-      term (asymptotic) behaviour.
+      Considering popluation models, here are four categories of long
+      term asymptotic behaviour (though many other behaviours are
+      possible).
       <ul>
         <li>
           <p>
@@ -97,7 +98,7 @@
     </p>
     <p>
       The behaviour at extreme values depends on the particulars of the
-      models. A more complicated gas law is the Vander Waal's gaw law
+      models. A more complicated gas law is the Vander Waal's gas law
       (where <m>a</m> and <m>b</m> are new positive constants).
       <me>
         \left( P + \frac{n^2 a}{V^2} \right) \left( V - nb \right) =
