@@ -5,6 +5,55 @@
   <title>Week 5 Assignment</title>
   <ol>
     <li>
+      <p>
+        Calculate these limits. (Use asymptotic analysis where
+        appropriate and clearly state the asymptotic orders.
+        Otherwise, give reasons for your conclusions about the limits) (15) 
+        <ol>
+          <li><me>
+            \lim_{x \rightarrow \infty} \frac{x^2 + 3x + 4}{\sqrt{x^5 -
+            2x^2 -6}}
+          </me></li>
+          <li><me>
+            \lim_{x \rightarrow \infty} \frac{e^{2x} + 5x - 4}{x^{18}
+            + 4x^2 + 1}
+          </me></li>
+          <li><me>
+            \lim_{x \rightarrow \infty} \frac{e^{-x}}{\sqrt{x}} 
+          </me></li>
+          <li><me>
+            \lim_{x \rightarrow \infty} \frac{x^2 + 4x +6}{6 + \sin^2 x}
+          </me></li>
+          <li><me>
+            \lim_{x \rightarrow \infty} \frac{e^{x^2+4}}{e^{x^2+x}}
+          </me></li>
+       </ol>
+      </p>
+    </li>
+    <li>
+      <p>
+        Determine the long term behaviour of these populations models.
+        Identify which are exponential or logistic growth. (8) 
+        <ol>
+          <li><me>
+            p(t) = \frac{19 e^{\frac{t}{142}}}{242 + 38
+            e^{\frac{t}{142}}} 
+          </me></li>
+          <li><me>
+            p(t) = (t^2 + 3t + 1)e^{-4t}
+          </me></li>
+        </ol>
+      </p>
+    </li>
+    <li>
+      <p>
+        Assume <m>f</m> and <m>g</m> are functions defined on
+        <m>[0,\infty)</m>. Also assume that <m>g</m> is continuous,
+        <m>f(x) \gt g(x)</m>, and <m>\lim_{x \rightarrow \infty} g(x)
+        = \infty</m>. Can you conclude anything about the continuity of
+        <m>f</m>, or about its limit as <m>x \rightarrow \infty</m>?
+        (4) 
+      </p>
     </li>
   </ol>
 </section>
