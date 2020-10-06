@@ -48,10 +48,20 @@
       <solution>
         <p>
         It looks like this data doubles about every five years. The
-        starting values is 1. Putting that into our exponential form,
-        the function that fits this is
+        starting value is 1. From the notes, I can use the provided
+        structure for this exponential function: if <m>a</m> is the
+        starting value and <m>d</m> is the doubling period, the
+        function should be <m>a2^{\frac{t}{d}}</m>. Using the values from
+        this data, here is the exponential function.
         <me>
-          f(x) = 1 e^{(\frac{1}{5}\ln 2)x}
+          f(x) = 2^{\frac{t}{5}}
+        </me>
+        If I wanted, I could change base to write this as an
+        exponential function with base <m>e</m>. (This is useful to do
+        in many cases, since the base <m>e</m> is the most common and
+        most useful base for exponential functions in calculus.) 
+        <me>
+          f(x) =  e^{\frac{x \ln 2}{5}}
         </me>
         The following table shows the values of this function to
         compare with the data set. 
@@ -156,11 +166,21 @@
         <p>
         It looks like this data doubles is something a little less
         than two years. Let's guess a doubling period of
-        <m>\frac{9}{5}</m>. The
-        starting values is 3. Putting that into our exponential form,
-        the function that fits this is
+        <m>\frac{9}{5}</m>. The starting value is 3. 
+        From the notes, I can use the provided
+        structure for this exponential function: if <m>a</m> is the
+        starting value and <m>d</m> is the doubling period, the
+        function should be <m>a2^{\frac{t}{d}}</m>. Using the values from
+        this data, here is the exponential function.
         <me>
-          f(x) = 3 e^{(\frac{5}{9}\ln 2)x}
+          f(x) = (3) 2^{\frac{5t}{9}}
+        </me>
+        If I wanted, I could change base to write this as an
+        exponential function with base <m>e</m>. (This is useful to do
+        in many cases, since the base <m>e</m> is the most common and
+        most useful base for exponential functions in calculus.) 
+        <me>
+          f(x) =  (3)e^{(frac{x 5\ln 2}{9}}
         </me>
         The following table shows the values of this function to
         compare with the data set. 
@@ -266,10 +286,21 @@
         <p>
         It looks like this data doubles every year, perhaps a little
         bit more than a year in some cases. We could guess a doubling
-        period of <m>\frac{11}{10}</m>. With a starting value of 5,
-        that gives us an exponential function.
+        period of <m>\frac{11}{10}</m>. The starting value is 5.
+        From the notes, I can use the provided
+        structure for this exponential function: if <m>a</m> is the
+        starting value and <m>d</m> is the doubling period, the
+        function should be <m>a2^{\frac{t}{d}}</m>. Using the values from
+        this data, here is the exponential function.
         <me>
-          f(x) = 5 e^{(\frac{10}{11}\ln 2)x}
+          f(x) = (5) 2^{\frac{10t}{11}}
+        </me>
+        If I wanted, I could change base to write this as an
+        exponential function with base <m>e</m>. (This is useful to do
+        in many cases, since the base <m>e</m> is the most common and
+        most useful base for exponential functions in calculus.) 
+        <me>
+          f(x) = (5)e^{(frac{x 10\ln 2}{11}}
         </me>
         The following table shows the values of this function to
         compare with the data set. 
@@ -573,7 +604,8 @@
           What is a differential equation? What is a solution to one?
         </li>
         <li>
-          What is a stable point for a differential equation?
+          What is a stable point for an autonomous differential
+          equation?
         </li>
         <li>
           What does a phase line represent? How does it carry meaning

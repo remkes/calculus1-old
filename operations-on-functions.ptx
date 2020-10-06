@@ -86,15 +86,15 @@
       was doing.
       <md>
         <mrow>
-          f(x) \amp = \amp 3x \amp \implies f^{-1}(x) \amp = \amp
+          f(x) \amp = 3x \amp \implies f^{-1}(x) \amp = \amp
           \frac{x}{3} 
         </mrow>
         <mrow>
-          f(x) \amp = \amp \sqrt{x} \amp \implies f^{-1}(x) \amp =
+          f(x) \amp = \sqrt{x} \amp \implies f^{-1}(x) \amp =
           \amp x^2
         </mrow>
         <mrow>
-          f(x) \amp = \amp \frac{1}{x} \amp \implies f^{-1}(x) \amp =
+          f(x) \amp = \frac{1}{x} \amp \implies f^{-1}(x) \amp =
           \amp \frac{1}{x}
         </mrow>
       </md>

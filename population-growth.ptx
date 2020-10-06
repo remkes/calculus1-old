@@ -164,7 +164,7 @@
       where <m>a</m> is the starting value of the poluation. In this
       case, I used the function 
       <me>
-        p(t) = 1032 2^{\frac{t}{4}}
+        p(t) = (1032) 2^{\frac{t}{4}}
       </me>
       to do the regression, and it fits reasonably well. 
     </p>
@@ -173,7 +173,7 @@
       change my previous exponential function using the fact that <m>2
       = e^{\ln 2</m>. 
       <me>
-        p(t) = a \left( (e^{\ln 2) \right)^{\frac{1}{d} t} 
+        p(t) = a \left( (e^{\ln 2} \right)^{\frac{1}{d} t} 
       </me>
       Successive exponents are simplified by multiplying the
       exponents.

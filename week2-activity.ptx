@@ -430,7 +430,7 @@
           reasonable choise for this data. 
         </p>
         <figure xml:id="figure-activity-cubic-regression">
-          <caption>A cubic Regression</caption>
+          <caption>A Cubic Regression</caption>
           <image width="100%" source="images/figure70" />
         </figure>
       </solution>

@@ -562,7 +562,7 @@
           Why don't we write division by zero when doing limits?
         </li>
         <li>
-          When do we stop writing <m>\lim_{a \rightarrow a}</m> in the
+          When do we stop writing <m>\lim_{x \rightarrow a}</m> in the
           process of a limit calculation and why?
         </li>
         <li>
