@@ -172,7 +172,7 @@
           The right side factors as <m>p(p-2)(p-5)</m>, so it is zero
           then <m>p=0</m>, <m>p=2</m> or <m>p=5</m>. Those are the
           steady states. When <m>p \in (0,2)</m> the derivative is
-          positive, so the trajectory is increasing. When <m>f \in
+          positive, so the trajectory is increasing. When <m>p \in
           (2,5)</m>, the derivative is negative, so the trajectory is
           decreasing. When <m>p \in (5,\infty)</m>, the derivative is
           positive, so the trajectory is increasing. 
