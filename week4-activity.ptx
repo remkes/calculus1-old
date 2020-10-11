@@ -496,12 +496,12 @@
           Consider a population model.
           <me>
             f(t) = \left\{ \begin{matrix}
-            \frac{1}{16}e^{\frac{1}{10}x} \amp t \in [0,10] \\
-            \frac{39}{12}e^{\frac{1}{7}x} \amp t \in [10,20] 
+            \frac{1}{16}e^{\frac{1}{10}t} \amp t \in [0,10] \\
+            \frac{39}{12}e^{\frac{1}{7}t} \amp t \in [10,20] 
             \end{matrix} \right.
           </me>
           Is this model continuous? If not, what happens at <m>t =
-          20</m>?
+          10</m>?
         </p>
       </statement>
       <solution>

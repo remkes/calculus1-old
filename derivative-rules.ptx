@@ -18,11 +18,11 @@
       </me>
     </p>
     <p>
-      For the function <m>f(x) = ax + b</m>, the graph is a straight
-      line with slope <m>a</m>. Since the derivative measures the
-      slope, it should be constant <m>a</m>.
+      For the function <m>f(x) = mx + b</m>, the graph is a straight
+      line with slope <m>m</m>. Since the derivative measures the
+      slope, it should be constant <m>m</m>.
       <me>
-        \frac{d}{dx} ax + b = a
+        \frac{d}{dx} mx + b = m
       </me>
     </p>
     <p>
@@ -45,7 +45,7 @@
           a^h - a^x}{h}
         </mrow>
         <mrow>
-          \amp = \lim_{h \rightarrow 0} a^x \frac{a^h-1}{h} = = a^x
+          \amp = \lim_{h \rightarrow 0} a^x \frac{a^h-1}{h} = a^x
           \lim_{h \rightarrow 0} \frac{a^h-1}{h} = a^x \left( \left.
           \frac{d}{dx} a^x \right|_{x=0} \right)
         </mrow>
@@ -270,8 +270,8 @@
       differentiable function with <m>g(x) \neq 0</m>, then the
       quotient rule states:
       <me>
-        \frac{d}{dx} \frac{f(x)}{g(x)} = \frac{\frac{df}{dx} g(x) -
-        f(x) \frac{dg}{dx}}{(g(x))^2}
+        \frac{d}{dx} \frac{f}{g} = \frac{g \frac{df}{dx} - 
+        f \frac{dg}{dx}}{(g^2}
       </me>
     </p>
     <example>
@@ -279,7 +279,7 @@
         <md>
           <mrow>
             \frac{d}{dx} \tan x \amp = \frac{d}{dx} \frac{\sin
-            x}{\cos x} = \frac{\frac{d \sin x}{dx} \cos x - \sin x
+            x}{\cos x} = \frac{\cos x \frac{d \sin x}{dx} - \sin x
             \frac{d \cos x}{dx}}{\cos^2 x} = \frac{\cos^2 x + \sin^2
             x}{\cos^2 x} = \sec^2 x
           </mrow>
