@@ -224,7 +224,7 @@
           bounded -- it doesn't grow at all. Since the asymptotic
           orders are the same, we compare the leading coefficients.
           <me>
-            \lim_{x \rightarrow \infty} \frac{5 + \ln x}{\sqrt{1+ 7x}}
+            \lim_{x \rightarrow \infty} \frac{x + \sin x}{5x - 9}
             = \frac{1}{5}
           </me>
         </p>
@@ -511,7 +511,7 @@
           order of the denominator is higher and the long term
           behaviour is decay to 0. This looks very close to logistic
           growth, but it isn't: the exponential coefficients are not
-          the sam, and its doesn't level off to a non-zero carrying
+          the same, and its doesn't level off to a non-zero carrying
           capacity. 
         </p>
       </solution>
