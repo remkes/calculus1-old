@@ -90,7 +90,7 @@
           piece, not necessarily the first in the written order. 
           <me>
             \lim_{x \rightarrow \infty} \frac{93x^2 - 40x^3 + x + 5}{x
-            - x^2 + 82x^3} = \frac{40}{82} = \frac{20}{41} 
+            - x^2 + 82x^3} = \frac{-40}{82} = \frac{-20}{41} 
           </me>
         </p>
       </solution>
@@ -313,7 +313,7 @@
           The asymptotic order of both numerator and denominator is
           <m>\ln x</m>. Since they are the same, the limit as <m>x
           \rightarrow \infty</m> is the limit of the leading
-          coefficients: <m>\frac{8}{12} = \frac{2}{3}</m>. Therefore,
+          coefficients: <m>\frac{8}{-12} = \frac{-2}{3}</m>. Therefore,
           <m>y=\frac{2}{3}</m> is a horizontal asymptote in the
           positive direction. There cannot e any horizontal asymptote
           in the negative direction, since the domain of the function

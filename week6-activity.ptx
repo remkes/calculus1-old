@@ -24,17 +24,17 @@
           <md>
             <mrow>
               \lim_{h \rightarrow 0} \frac{(x+h)^2 - 4 - (x^2-4)}{h}
-              \amp = \lim_{h \rightarrow 0} \frac{x^2 + 4xh + h^2 - 4 -
+              \amp = \lim_{h \rightarrow 0} \frac{x^2 + 2xh + h^2 - 4 -
               x^2 + 4}{h} 
             </mrow>
             <mrow>
-              \amp = \lim_{h \rightarrow 0} \frac{4xh + h^2}{h} 
+              \amp = \lim_{h \rightarrow 0} \frac{2xh + h^2}{h} 
             </mrow>
             <mrow>
-              \amp = \lim_{h \rightarrow 0} \frac{h(4x + h)}{h} 
+              \amp = \lim_{h \rightarrow 0} \frac{h(2x + h)}{h} 
             </mrow>
             <mrow>
-              \amp = \lim_{h \rightarrow 0} 4x + h  = 4+0 = 4x
+              \amp = \lim_{h \rightarrow 0} 2x + h  = 2x+0 = 2x
             </mrow>
           </md>
           Therefore, the derivative is <m>4x</m>. 
@@ -401,8 +401,8 @@
           the answer. 
           <me>
             = \frac{\frac{x^2+4}{2\sqrt{x}} - 2x\sqrt{x}}{(x^2+4)^2}
-            = \frac{x^2 + 4 + 4x^2}{2(x^2+4)\sqrt{x}} =
-            \frac{5x^2+4}{2(x^2+4)\sqrt{x}}
+            = \frac{x^2 + 4 - 4x^2}{2(x^2+4)\sqrt{x}} =
+            \frac{-3x^2+4}{2(x^2+4)\sqrt{x}}
           </me>
         </p>
       </solution>
