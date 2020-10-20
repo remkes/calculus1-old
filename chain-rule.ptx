@@ -79,37 +79,16 @@
             \frac{d}{dx} e^{x^2+2} \amp = (2x) e^{x^2+2}
           </mrow>
           <mrow>
-            \frac{d}{dx} e^{e^x} \amp = e^x e^{e^x}
+            \frac{d}{dx} \ln (5x^3 + 7x + 1) \amp = \frac{15x^2 +
+            7}{5x^3 + 7x + 1}
           </mrow>
           <mrow>
-            \frac{d}{dx} \sin \left( \frac{x^2+1}{x^2-1} \right) \amp
-            = \cos \left( \frac{x^2+1}{x^2-1} \right) \frac{d}{dx}
-            \frac{x^2+1}{x^2-1}
+            \frac{d}{dx} \cos ( e^{12 x}) \amp = -\sin (e^{12 x})
+            \frac{d}{dx} e^{12 x} = -\sin (e^{12 x}) e^{12 x}
+            \frac{d}{dx} 12 x 
           </mrow>
           <mrow>
-            \amp = \cos \left( \frac{x^2+1}{x^2-1} \right)
-            \frac{(x^2-1) \frac{d}{dx} (x^2+1) - (x^2+1) \frac{d}{dx}
-            (x^2-1)}{(x^2-1)^2}
-          </mrow>
-          <mrow>
-            \amp = \cos \left( \frac{x^2+1}{x^2-1} \right)
-            \frac{(x^2-1) (2x) - (x^2+1) (2x)}{(x^2-1)^2}
-          </mrow>
-          <mrow>
-            \amp = \cos \left( \frac{x^2+1}{x^2-1} \right)
-            \frac{2x(x^2-1 - x^2 -1)}{(x^2-1)^2} 
-          </mrow>
-          <mrow>
-            \amp = - \cos \left(
-            \frac{x^2+1}{x^2-1} \right) \frac{4x}{(x^2-1)^2}
-          </mrow>
-          <mrow>
-            \frac{d}{dx} \cos ( e^{\sin x}) \amp = -\sin (e^{\sin x})
-            \frac{d}{dx} e^{\sin x} = -\sin (e^{\sin x}) e^{\sin x}
-            \frac{d}{dx} \sin x 
-          </mrow>
-          <mrow>
-            \amp = -\sin (e^{\sin x}) e^{\sin x} \cos
+            \amp = -\sin (e^{12 x}) e^{12 x} (12)
           </mrow>
         </md>
       </statement>
@@ -118,7 +97,9 @@
       <statement>
         <p>
           We can use the chain rule to differentiate arbitrary
-          exponential functions in more detail than before:
+          exponential functions. This produces a rule which I stated
+          in <xref ref="section-derivative-rules" />, but which I
+          didn't proof or justify at the time.
           <md>
             <mrow>
               \frac{d}{dx} a^x\amp = \frac{d}{dx} e^{x\ln a} = e^{x

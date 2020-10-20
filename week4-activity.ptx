@@ -114,7 +114,7 @@
         <p>
           Calculate the limit
           <me>
-            \lim_{x \rightarrow 0} \frac{x^4+3x^-8x^2}{x^4 + 6x^3 +
+            \lim_{x \rightarrow 0} \frac{x^4+3x^3-8x^2}{x^4 + 6x^3 +
             10x^2} 
           </me>
         </p>
@@ -127,7 +127,7 @@
           the limit. After that factoring, we can direclty evaluate. 
           <md>
             <mrow>
-              \lim_{x \rightarrow 0} \frac{x^4+3x^-8x^2}{x^4 + 6x^3 +
+              \lim_{x \rightarrow 0} \frac{x^4+3x^3-8x^2}{x^4 + 6x^3 +
               10x^2} \amp = \lim_{x \rightarrow 0}
               \frac{x^2(x^2+3x-8)}{x^2(x^2+6x+10} 
             </mrow>

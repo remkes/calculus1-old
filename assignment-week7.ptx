@@ -5,6 +5,55 @@
   <title>Week 7 Assignment</title>
   <ol>
     <li>
+      <p>
+        Calculate the following derivatives. Label the rules you
+        used. (12) 
+        <ol>
+          <li><me>
+            \frac{d}{dx} \frac{\sqrt{x^2+1}}{x} 
+          </me></li>
+          <li><me>
+            \frac{d}{dx} 3 + e^x + e^{x^2+1}
+          </me></li>
+          <li><me>
+            \frac{d}{dx} \ln (1 + \ln x)
+          </me></li>
+        </ol>
+      </p>
+    </li>
+    <li>
+      <p>
+        Calculate the following derivatives. (12)
+        <ol>
+          <li><me>
+            \frac{d^2}{dx^2} e^{x^2} 
+          </me></li>
+          <li><me>
+            \frac{d^5}{dx^5} x^5 - x^4 + x^3 - x^2 + x - 1 
+          </me></li>
+          <li><me>
+            \frac{d^4}{dx^4} \sin (3\pi x) 
+          </me></li>
+        </ol>
+      </p>
+    </li>
+    <li>
+      <p>
+        Use L'Hôpital's Rule to solve these limits. (Make sure you
+        explicitly check that these limit have the appropriate type
+        before using L'Hôpital's Rule.) (12) 
+        <ol>
+          <li><me>
+            \lim_{x \rightarrow 0} \frac{\cos x - 1}{x^4 + x^2} 
+          </me></li>
+          <li><me>
+            \lim_{x \rightarrow 4} \frac{x^2 - 7x + 12}{x^2 - 8x + 16} 
+          </me></li>
+          <li><me>
+            \lim_{x \rightarrow \infty} \frac{x \ln x}{x^2 + 1} 
+          </me></li>
+        </ol>
+      </p>
     </li>
   </ol>
 </section>
