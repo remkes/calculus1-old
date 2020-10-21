@@ -5,6 +5,26 @@
   <title>Week 8 Assignment</title>
   <ol>
     <li>
+      Calculate the following indefinite integrals by usling linearity
+      and the tables of anti-derivatives. (12) 
+      <ol>
+        <li><me>
+          \int (\sin x - \tan x \sec x) dx 
+        </me></li>
+        <li><me>
+          \int (ex + x^2 - \frac{1}{x} - \frac{1}{x^2} \right) dx 
+        </me></li>
+        <li><me>
+          \int (2x^2 + 2^x) dx 
+        </me></li>
+        <li><me>
+          \int \frac{1}{12x} dx 
+        </me></li>
+      </ol>
+    </li>
+    <li>
+    </li>
+    <li>
     </li>
   </ol>
 </section>
