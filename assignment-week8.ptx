@@ -5,14 +5,16 @@
   <title>Week 8 Assignment</title>
   <ol>
     <li>
-      Calculate the following indefinite integrals by usling linearity
-      and the tables of anti-derivatives. (12) 
+      <p>
+        Calculate the following indefinite integrals by usling linearity
+        and the tables of anti-derivatives. (12) 
+      </p>
       <ol>
         <li><me>
           \int (\sin x - \tan x \sec x) dx 
         </me></li>
         <li><me>
-          \int (ex + x^2 - \frac{1}{x} - \frac{1}{x^2} \right) dx 
+          \int \left( ex + x^2 - \frac{1}{x} - \frac{1}{x^2} \right) dx 
         </me></li>
         <li><me>
           \int (2x^2 + 2^x) dx 
@@ -23,8 +25,31 @@
       </ol>
     </li>
     <li>
+      <p>
+        Calculate the following definite integrals by usling linearity
+        and the tables of anti-derivatives. (12) 
+      </p>
+      <ol>
+        <li><me>
+          \int_0^2 (x^5 - x^2) dx 
+        </me></li>
+        <li><me>
+          \int_{-\pi}^{\pi} (\cos 2 + 2 \sin x ) dx 
+        </me></li>
+        <li><me>
+          \int_0^2 (2^x - 3^x) dx 
+        </me></li>
+        <li><me>
+          \int_{-3}^4 \frac{1}{x} dx 
+        </me></li>
+      </ol>
     </li>
     <li>
+      <p>
+        We did one integral by definition in class, but there are none
+        on this assignment nor will there be any on the exam. What makes
+        this process so difficult? (4) 
+      </p>
     </li>
   </ol>
 </section>
