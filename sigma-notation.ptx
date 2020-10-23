@@ -43,7 +43,8 @@
     <title>Manipulating Sums</title>
     <p>
       There are some important rules for manipulating sigma notation.
-      We can factor out constants from a sum.
+      First, sum are (unsurprisingly) linear, so we can split them up
+      over addition/subtraction and pull out constants. 
     </p>
     <example>
       <statement>
@@ -52,7 +53,8 @@
             \sum_{k=1}^n 6k \amp = 6 \sum_{k=1}^n k
           </mrow>
           <mrow>
-            \sum_{k=1}^n 3k^2 + 9k \amp = 3 \sum_{k=1}^n k^2 + 3k
+            \sum_{k=1}^n (3k^2 + 9k) \amp = 3 \sum_{k=1}^n k^2 + 9
+            \sum_{k=1}^n k 
           </mrow>
         </md>
       </statement>
@@ -93,7 +95,7 @@
           Here we shift the index by <m>+2</m>, so the expression is
           shifted by <m>-2</m>.
           <me>
-            \sum_{k=1}^{20} 4k = \sum_{k=3}^{22} 4(k-2)
+            \sum_{k=3}^{17} 4k = \sum_{k=1}^{15} 4(k+2)
           </me>
         </p>
       </statement>
@@ -111,6 +113,9 @@
         </p>
       </statement>
     </example>
+  </subsection>
+  <subsection xml:id="subsection-important-sums">
+    <title>Some Important Sums</title>
     <p>
       Finally, we have evaluation for some common sums. These
       expressions will be used, along with the previously stated rules,

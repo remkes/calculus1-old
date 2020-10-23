@@ -420,10 +420,10 @@
         <p>
           We use the quotient rule. I will label the pieces as <m>f(x)
           = e^x</m> and <m>g(x) = x^2+1</m>. Here is the form of the
-          product rule.
+          quotient rule.
           <me>
-            \frac{d}{dx} f(x) g(x) = g(x) \frac{d}{dx} f(x) - f(x)
-            \frac{d}{dx} g(x) 
+            \frac{d}{dx} f(x) g(x) = \frac{g(x) \frac{d}{dx} f(x) - f(x)
+            \frac{d}{dx} g(x)}{(g(x))^2}
           </me>
           We apply this form to the piece of this product. 
           <me>
@@ -440,7 +440,7 @@
           As usual, I'll make some simplifications to the result of
           the derivative. 
           <me>
-            \frac{d}{dx} \frac{e^x}{x^2+1} = \frac{ e^x (-x^2+1)}
+            \frac{d}{dx} \frac{e^x}{x^2+1} = \frac{ e^x (x^2 - 2x +1)}
             {(x^2+1)^2}
           </me>
         </p>
@@ -463,14 +463,14 @@
           <me>
             \frac{d}{dx} \frac{\cos x}{x} + \frac{\sin x}{x} =
             \frac{x \frac{d}{dx} \cos x - \cos x \frac{d}{dx}
-            x}{\cos^2 x} + \frac{x \frac{d}{dx} \sin x - \sin x
-            \frac{d}{dx} x}{\sin^2 x} 
+            x}{x^2} + \frac{x \frac{d}{dx} \sin x - \sin x
+            \frac{d}{dx} x}{x^2} 
           </me>
           Then we need to all four of the specific derivatives, which
           are all known derivatives. 
           <me>
-            = \frac{-x \sin x - \cos x}{\cos^2} + \frac{x \cos x -
-            \sin x}{\sin^2 x}
+            = \frac{-x \sin x - \cos x}{x^2} + \frac{x \cos x -
+            \sin x}{x^2}
           </me>
           Some change in expression could be made -- common
           denominator for both fractions, or splitting up numerators.

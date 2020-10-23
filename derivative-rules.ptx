@@ -271,7 +271,7 @@
       quotient rule states:
       <me>
         \frac{d}{dx} \frac{f}{g} = \frac{g \frac{df}{dx} - 
-        f \frac{dg}{dx}}{(g^2}
+        f \frac{dg}{dx}}{g^2}
       </me>
     </p>
     <example>

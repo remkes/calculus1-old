@@ -39,7 +39,7 @@
           </mrow>
           <mrow>
             \text{Logarithmic Integral} \amp \amp li(x) \amp \defeq
-            \int_0^x \frac{dt}{\ln t}
+            \int_0^x \frac{1}{\ln t} dt
           </mrow>
           <mrow>
             \text{Sine Integral} \amp \amp Si(x) \amp \defeq \int_0^x
@@ -209,11 +209,16 @@
     <p>
       We can use the fundamental theorem to calculate definite
       integrals as well. There is some special notation that is
-      useful here: when we write <m>\left. f(x) \right|_a^b</m> we
-      mean to evaluate <m>f</m> at <m>a</m> and <m>b</m> and
+      useful here: when we write <m>\left. F(x) \right|_a^b</m> we
+      mean to evaluate <m>F</m> at <m>a</m> and <m>b</m> and
       subtract.
       <me>
-        \left. f(x) \right|_a^b = f(b) - f(a)
+        F(x) \Big|_a^b = F(b) - F(a)
+      </me>
+      Then the integral is the antiderivative evaluated with this
+      notation.
+      <me>
+        \int_a^b f(x) dx = F(x) \Big|_a^b = F(b) - F(a) 
       </me>
     </p>
     <example>
