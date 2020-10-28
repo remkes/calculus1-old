@@ -174,7 +174,7 @@
               \amp = -\sin \left( e^{-4x} \right) e^v \Big|_{v = -4x} (-4) 
             </mrow>
             <mrow>
-              \amp = -\sin \left( e^{-4x} \right) e^{-4x} (-4) = -4 e^{-4x}
+              \amp = -\sin \left( e^{-4x} \right) e^{-4x} (-4) = 4 e^{-4x}
               \sin \left( e^{-4x} \right)
             </mrow>
           </md>

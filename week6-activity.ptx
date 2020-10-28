@@ -37,7 +37,7 @@
               \amp = \lim_{h \rightarrow 0} 2x + h  = 2x+0 = 2x
             </mrow>
           </md>
-          Therefore, the derivative is <m>4x</m>. 
+          Therefore, the derivative is <m>2x</m>. 
         </p>
       </solution>
     </activity>
