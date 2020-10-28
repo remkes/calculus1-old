@@ -16,7 +16,7 @@
       f^\prime(g(x)) g^\prime(x)</m>. Therefore, we can simply reverse
       the identity to get:
       <me>
-        \int f^\prime(g(x)) g^\prime(x) = f(g(x)) + c
+        \int f^\prime(g(x)) g^\prime(x) dx = f(g(x)) + c
       </me>
     </p>
     <p>
@@ -76,31 +76,94 @@
     </example>
     <example>
       <statement>
-        <md>
-          <mrow>
-            \int xe^{x^2} dx \amp u=x^2  du = 2xdx
-          </mrow>
-          <mrow>
-            \int e^u \frac{du}{2} \amp = \frac{e^u}{2} + c =
-            \frac{e^{x^2}}{2} + C
-          </mrow>
-          <mrow>
-            \int \frac{x}{x-2} dx \amp u = x-2  du = dx
-          </mrow>
-          <mrow>
-            \int \frac{u+2}{u} du \amp = \int 1 + \frac{2}{u} du
-          </mrow>
-          <mrow>
-            \amp = u + 2 \ln |u| + c = x - 2 + 2\ln|x-2| + c
-          </mrow>
-          <mrow>
-            \int \frac{1}{10x-3} dx \amp u = 10x-3  du = 10dx
-          </mrow>
-          <mrow>
-            \int \frac{1}{u} \frac{du}{10} \amp = \frac{\ln |u|}{10} + c
-            = \frac{ \ln| 10x -3 |}{10}
-          </mrow>
-        </md>
+        <me>
+          \int xe^{x^2} dx = \int (e^{x^2}) (xdx) 
+        </me>
+        <p>
+          I use the substitution <m>u = x^2</m>. The matching change
+          in the differential is <m>du = 2xdx</m>. I've grouped
+          <m>xdx</m> in the integral; I can replace this with <m>
+          \frac{1}{2} du </m>. 
+        </p>
+        <me>
+          \int e^{x^2} xdx = \int e^u \frac{1}{2} du  =
+          \frac{1}{2} \int e^u du 
+        </me>
+        <p>
+          After taking out the constant, I get the integral of
+          <m>e^u</m>, which is an integral I know. I can finish the
+          integral and then replace the substitution with the original
+          function. 
+        </p>
+        <me>
+          = \frac{e^u}{2} + c = \frac{e^{x^2}}{2} + c
+        </me>
+      </statement>
+    </example>
+    <example>
+      <statement>
+        <me>
+          \int \frac{x}{x-2} dx 
+        </me>
+        <p>
+          Here there isn't as obvious a substitution. However, I might
+          be able to simplify the denominator by using the
+          substitution <m>u = x=2</m>. The matching differential
+          substitution is simply <m>du = dx</m>. I also need to
+          substitute the numerator. I can do this by adding <m>2</m>
+          to each side of the substitution, giving <m>u + 2 = x</m>. 
+        </p>
+        <me>
+          \int \frac{x}{x-2} dx = \int \frac{u+2}{u} du 
+        </me>
+        <p>
+          Then I can split this into two pieces, since
+          <m>\frac{u+2}{u} = \frac{u}{u} + \frac{2}{u} = 1 +
+          \frac{2}{u}</m>. After that, I can use linear to split this
+          into two integrals. The integral of a constant is <m>u</m>
+          and the integral of <m>\frac{1}{u}</m>, from the tables, is
+          <m>\ln |u|</m>. Finally, at the end I reverse the
+          substitution. 
+        </p>
+        <me>
+          = \int 1 + \frac{2}{u} du = \int du + 2 \int
+          \frac{1}{u} du  = u + 2 \ln |u| + c = x - 2 + 2\ln|x-2| + c
+        </me>
+        <p>
+          The <m>-2</m> could be combined with the constnat <m>c</m>,
+          since the constant is unknown. This isn't necessary, but you
+          could write the solution with slightly fewer characters with
+          this change.
+        </p>
+        <me>
+          = x + 2\ln|x-2| + c
+        </me>
+      </statement>
+    </example>
+    <example>
+      <statement>
+        <me>
+          \int \frac{1}{10x-3} dx 
+        </me>
+        <p>
+          I use the substitution <m>u = 10x - 3</m>, again to simplify
+          the denominator. The associated change to the differential
+          is <m>du = 10dx</m>, which I can rearrange to
+          <m>\frac{1}{10} du = dx</m>. 
+        </p>
+        <me>
+          \int \frac{1}{10x - 3} = \int \frac{1}{u} \frac{1}{10} du
+        </me>
+        <p>
+          I can pull out the constant. Then the antiderivative of
+          <m>\frac{1}{u}</m> is known from the tables. After the
+          antiderivative, I can reverse the substitution to return to
+          the original variable. 
+        </p>
+        <me>
+          \frac{1}{10} \int \frac{1}{u} du = \frac{\ln |u|}{10} + c
+          = \frac{ \ln| 10x -3 |}{10} + c 
+        </me>
       </statement>
     </example>
     <p>
@@ -114,32 +177,89 @@
     </p>
     <example>
       <statement>
-        <md>
-          <mrow>
-            \int_0^2 \frac{2x}{(x^2+1)^2} dx \amp u x^2+1  du = 2xdx
-            u(0) = 1  u(2) = 5
-          </mrow>
-          <mrow>
-            \int_1^5 \frac{du}{u^2} \amp = \left. -\frac{1}{u}
-            \right|_2^5 = 1 - \frac{1}{5} = \frac{4}{5}
-          </mrow>
-          <mrow>
-            \int_{-1}^2 x^2 e^{x^3+1} dx \amp u = x^3+1  du = 3x^2dx
-            u(-1) = 0  u(2) = 9
-          </mrow>
-          <mrow>
-            \int_0^9 e^u \frac{du}{3} \amp = \left. \frac{e^u}{3}
-            \right|_0^9 = \frac{e^9}{3} - \frac{1}{3} = \frac{e^9-1}{3}
-          </mrow>
-          <mrow>
-            \int_0^{\pi/4} \frac{\sin x}{\cos^3 x} dx \amp u = \cos x
-            du = -\sin x dx  u(0) = 1  u(\pi/4) = \frac{\sqrt{2}}{2}
-          </mrow>
-          <mrow>
-            \int_1^{\frac{\sqrt{2}}{2}} \frac{-du}{u^3} \amp = \left.
-            \frac{2}{u^2} \right|_1^{\frac{\sqrt{2}}{2}} = 4-2 = 2
-          </mrow>
-        </md>
+        <me>
+          \int_0^2 \frac{2x}{(x^2+1)^2} dx 
+        </me>
+        <p>
+          I use the substitution <m>u = x^2 + 1</m>, with the matching
+          differential change <m>du = 2x dx</m>. Since there is a
+          <m>2x dx</m> in the integral, no more algebra is necessary.
+          I also need to change the bounds. When <m>x=0</m>, <m>u =
+          x^2 + 1 = 1</m>; when <m>x = 2</m>. <m>u = 2^2 + 1 = 5</m>.
+        </p>
+        <me>
+          \int_0^2 \frac{2x}{(x^2+1)^2} = \int_1^5 \frac{1}{u^2} du
+        </me>
+        <p>
+          Then I can write <m>\frac{1}{u^2}</m> as <m>u^{-2}</m> and
+          use the reverse power rule to find the antiderivative. After
+          finding the antiderivative, I evalute on the bounds (with
+          the change in the bounds, there is no need to reverse the
+          substitution).
+        </p>
+        <me>
+          = \left. -\frac{1}{u} \right|_1^5 = 1 - \frac{1}{5} =
+          \frac{4}{5}
+        </me>
+      </statement>
+    </example>
+    <example>
+      <statement>
+        <me>
+          \int_{-1}^2 x^2 e^{x^3+1} dx = \int_{-1}^2 e^{x^2 + 1} (x^2
+          dx) 
+        </me>
+        <p>
+          I use the substitution <m>u = x^3</m> with the matching
+          differential substitution <m>du = 3x^2 dx</m>. Since only
+          <m>x^2 dx </m> shows up in the integral, I divide by
+          <m>3</m> to get <m> \frac{1}{3} du = x^2 dx</m>. I also need
+          to change the bounds. When <m>x = -1</m>, <m>u = (-1)^3 + 1
+          = 0</m>. When <m> x = 2</m>, <m>u = (2)^3 + 1 = 9</m>. All
+          this information lets me perform the substitution.
+        </p>
+        <me>
+          \int_{-1}^2 e^{x^3+1} (x^2dx) = \int_0^9 e^u \frac{1}{3} du
+        </me>
+        <p>
+          then I can factor out the constant and use the fact that
+          <m>e^u</m> is its own antiderivatives. Finally, I evaluate
+          the antiderivatives on the new bounds. 
+        </p>
+        <me>
+          = \left. \frac{e^u}{3} \right|_0^9 = \frac{e^9}{3} -
+          \frac{1}{3} = \frac{e^9-1}{3}
+        </me>
+      </statement>
+    </example>
+    <example>
+      <statement>
+        <me>
+          \int_0^{\pi/4} \frac{\sin x}{\cos^3 x} dx 
+        </me>
+        <p>
+          I use the substituton <m>u = \cos x</m> with matching
+          differential substitution <m>du = -\sin x dx </m>. Since
+          there isn't a negative in the the integral, I can adjust
+          this by multiplying by <m>-1</m> to get <m> -du = \sin x dx
+          </m>. I also need to change the bounds. When <m>x = 0</m>,
+          <m>u = \cos 0 = 1</m>, and when <m>x = \frac{pi}{4}, u =
+          \cos \left( \frac{\pi}{4} \right) = \frac{1}{\sqrt{2}}</m>.
+          All this lets me perform the substitution.
+        </p>
+        <me>
+          \int_0^{\pi/4} \frac{\sin x}{\cos^3 x} dx 
+          \int_1^{\frac{1}{\sqrt{2}}} \frac{-1}{u^3} du 
+        </me>
+        <p>
+          Then I can take the negative out and write <m>u^{-3}</m> to
+          use the inverse power rule to find the antiderivative.
+          Finally, I evaluate the antiderivative on the new bounds. 
+        </p>
+        <me>
+          = \left.  \frac{2}{u^2} \right|_1^{\frac{1}{\sqrt{2}}} 
+          = \frac{2}{\frac{1}{2}} - \frac{2}{1} = 4-2 = 2
+        </me>
       </statement>
     </example>
   </subsection>
