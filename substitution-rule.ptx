@@ -198,7 +198,7 @@
           substitution).
         </p>
         <me>
-          = \left. -\frac{1}{u} \right|_1^5 = 1 - \frac{1}{5} =
+          = \left. -\frac{1}{u} \right|_1^5 = - \frac{1}{5} + 1 =
           \frac{4}{5}
         </me>
       </statement>
@@ -235,7 +235,7 @@
     <example>
       <statement>
         <me>
-          \int_0^{\pi/4} \frac{\sin x}{\cos^3 x} dx 
+          \int_0^{\frac{\pi}{4}} \frac{\sin x}{\cos^3 x} dx 
         </me>
         <p>
           I use the substituton <m>u = \cos x</m> with matching
@@ -243,12 +243,12 @@
           there isn't a negative in the the integral, I can adjust
           this by multiplying by <m>-1</m> to get <m> -du = \sin x dx
           </m>. I also need to change the bounds. When <m>x = 0</m>,
-          <m>u = \cos 0 = 1</m>, and when <m>x = \frac{pi}{4}, u =
+          <m>u = \cos 0 = 1</m>, and when <m>x = \frac{\pi}{4}, u =
           \cos \left( \frac{\pi}{4} \right) = \frac{1}{\sqrt{2}}</m>.
           All this lets me perform the substitution.
         </p>
         <me>
-          \int_0^{\pi/4} \frac{\sin x}{\cos^3 x} dx 
+          \int_0^{\frac{\pi}{4}} \frac{\sin x}{\cos^3 x} dx = 
           \int_1^{\frac{1}{\sqrt{2}}} \frac{-1}{u^3} du 
         </me>
         <p>

@@ -5,6 +5,39 @@
   <title>Week 9 Assignment</title>
   <ol>
     <li>
+      <p>
+      Calculate the following integrals. Clearly label your
+      substitutions. (For the third integral, use a trig identity 
+      to change <m>\cos^2 u</m> into a function which is easier to
+      integrate). (16)
+      </p>
+      <ol>
+        <li><me>
+          \int (12 x^2 + 6x)(e^{4x^3 + 3x^2} dx 
+        </me></li>
+        <li><me>
+          \int \frac{6x}{10x - 4} dx 
+        </me></li>
+        <li><me>
+          \int_0^{\frac{\pi}{4}} \frac{\cos^2 (\tan x)}{\cos^2 x} dx 
+        </me></li>
+        <li><me>
+          \int \frac{6x + 12}{x^2 +4x} dx 
+        </me></li>
+      </ol>
+    </li>
+    <li>
+      <p>
+        Consider this integral
+        <me>
+          \int \sqrt{ 1 - e^{-x}} dx 
+        </me>
+        The function is a composition, so I would use the chain rule.
+        I could choose an outisde function of <m>f(u) = \sqrt{u}</m>
+        (with <m>u = 1 - e^{-x}</m>) or <m>f(u) = \sqrt{1-u}</m>.
+        Which choice is better for calculating the integral? Which
+        choice would you make and why? (4)
+      </p>
     </li>
   </ol>
 </section>
