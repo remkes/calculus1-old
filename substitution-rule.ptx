@@ -257,8 +257,9 @@
           Finally, I evaluate the antiderivative on the new bounds. 
         </p>
         <me>
-          = \left.  \frac{2}{u^2} \right|_1^{\frac{1}{\sqrt{2}}} 
-          = \frac{2}{\frac{1}{2}} - \frac{2}{1} = 4-2 = 2
+          = \left.  \frac{1}{2u^2} \right|_1^{\frac{1}{\sqrt{2}}} 
+          = \frac{1}{2\frac{1}{2}} - \frac{1}{2} = \frac{1}{1} -
+          \frac{1}{2} = \frac{1}{2}
         </me>
       </statement>
     </example>

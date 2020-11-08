@@ -209,7 +209,7 @@
             (x^2+1)
           </me>
           We need to use the chain rule again for the second
-          derivative. The outside is <m>\sin u</m> and the inside is
+          derivative. The outside is <m>\sin v</m> and the inside is
           <m>(x^2 +1)</m>.
           <me>
             = \frac{1}{2} u^\frac{-1}{2} \Big|_{u = \sin (x^2 + 1)}

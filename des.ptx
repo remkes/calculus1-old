@@ -47,19 +47,19 @@
       <statement>
         <md>
           <mrow>
-            \frac{df}{dx} \amp = x^3   f(0) = 7
+            \frac{df}{dx} \amp = x^3 \amp \amp   f(0) = 7
           </mrow>
           <mrow>
-            \int \frac{df}{dx} \amp = \int x^3 dx
+            \int \frac{df}{dx} \amp = \int x^3 dx \amp \amp 
           </mrow>
           <mrow>
-            f \amp = \frac{x^4}{4} + c
+            f \amp = \frac{x^4}{4} + c \amp \amp 
           </mrow>
           <mrow>
-            7 \amp = \frac{0^4}{4} + c \implies c = 7
+            7 \amp = \frac{0^4}{4} + c \implies c = 7 \amp \amp 
           </mrow>
           <mrow>
-            f(x) \amp = \frac{x^4}{4} + 7
+            f(x) \amp = \frac{x^4}{4} + 7 \amp \amp 
           </mrow>
         </md>
       </statement>
@@ -68,17 +68,18 @@
       <statement>
         <md>
           <mrow>
-            \frac{df}{dx} \amp = 6 \sin 3t   f \left( \frac{\pi}{6}
-          \right) = 6
+            \frac{df}{dx} \amp = 6 \sin 3t \amp \amp f \left(
+            \frac{\pi}{6} \right) = 6
           </mrow>
           <mrow>
-            f(x) \amp = \int 6 \sin 3t dt = -2\cos 3x + c
+            f(x) \amp = \int 6 \sin 3t dt = -2\cos 3x + c \amp \amp 
           </mrow>
           <mrow>
             6 \amp = -2\cos \frac{\pi}{2} + c = 0 + c \implies c=6
+            \amp \amp 
           </mrow>
           <mrow>
-            f(x) \amp = -2 \cos 3x + 6
+            f(x) \amp = -2 \cos 3x + 6 \amp \amp
           </mrow>
         </md>
       </statement>
@@ -87,17 +88,17 @@
       <statement>
         <md>
           <mrow>
-            \frac{df}{dx} \amp = \frac{1}{x^2+1}   f(1) = \pi
+            \frac{df}{dx} \amp = \frac{1}{x^2+1} \amp \amp f(1) = \pi
           </mrow>
           <mrow>
-            f \amp = \int \frac{1}{x^2+1} dx = \arctan x + c
+            f \amp = \int \frac{1}{x^2+1} dx = \arctan x + c \amp \amp 
           </mrow>
           <mrow>
             \pi \amp = \arctan(1) + c = \frac{\pi}{4} + c \implies c
-            = \frac{3\pi}{4}.
+            = \frac{3\pi}{4} \amp \amp 
           </mrow>
           <mrow>
-            f(x) \amp = \arctan x + \frac{3\pi}{4}
+            f(x) \amp = \arctan x + \frac{3\pi}{4} \amp \amp
           </mrow>
         </md>
       </statement>
@@ -106,7 +107,7 @@
   <subsection xml:id="subsection-seperable">
     <title>Seperable Differential Equations</title>
     <p>
-      Solving DEs is a very difficult task is general; the previous
+      Solving DEs is a very difficult task in general; the previous
       examples were all artificially simple. For this course, we're
       going to restrict to a specific type of DE called a seperable
       equation. Let <m>f(x)</m> and <m>g(y)</m> be continuous
@@ -135,35 +136,24 @@
       </md>
     </p>
     <p>
-      With a substitution, we can change the left side of the integral
-      into an integral in <m>y</m>.
+      With a substitution <m>y = y(x)</m> (so that <m>dy =
+      \frac{dy}{dx} dx</m>), we can change the left side
+      of the integral into an integral in <m>y</m>. (This looks
+      strange, but it's really decided to treat <m>y</m> as a
+      variable, instead of as a function <m>y(x)</m>). 
       <me>
-        \int \frac{1}{g(y)} dy = \int f(x) dx
+        \int \frac{1}{g(y)} dy = \int f(x) dx + c 
       </me>
     </p>
     <p>
-      To remember this set up, often we abuse Leibniz notation and
-      pretend that <m>\frac{dy}{dx}</m> is a fraction of
-      infinitesimals. If we do this, all we need to do is isolate
-      <m>g(y)</m> with <m>y</m> on the left and <m>f(x)</m> with
-      <m>dx</m> on the right, then integrate.
-      <md>
-        <mrow>
-          \frac{dy}{dx} \amp = f(x) g(y)
-        </mrow>
-        <mrow>
-          \frac{1}{g(y)} dy \amp = f(x) dx
-        </mrow>
-        <mrow>
-          \int \frac{1}{g(y)} dy \amp = \int f(x) dx
-        </mrow>
-      </md>
-    </p>
-    <p>
-      Finally, after the integration is complete, we try to solve for
+      We have now seperated the problem into two integrals, hence
+      calling these seperable equation. Now we try to integrate both
+      sides. After the integration is complete, we try to solve for
       <m>y</m> as a function of <m>x</m>. If we can, that function is
       the solution. Often we can't, and we leave the result as an
-      implicit expression in <m>x</m> and <m>y</m>.
+      implicit expression in <m>x</m> and <m>y</m>. We do need a
+      constant of integration (which I wrote as <m>c</m>, but it is
+      sufficient to include it on just one side of the equation. 
     </p>
     <example>
       <statement>
@@ -181,7 +171,7 @@
             y \amp = \pm \sqrt{c - 2\cos x}
           </mrow>
           <mrow>
-            \text{ Initial condition: }  y(0) \amp = 1
+            y(0) \amp = 1 \text{ Initial condition} 
           </mrow>
           <mrow>
             1 \amp = \sqrt{c - 2 \cos (0)} = \sqrt{c-2}
@@ -214,7 +204,7 @@
             y^2 + x^2 \amp = c
           </mrow>
           <mrow>
-            \text{ Initial condition: }  y(4) \amp = 3
+            y(4) \amp = 3 \text{ Initial condition} 
           </mrow>
           <mrow>
             4^2 + 3^2 \amp = c
@@ -256,7 +246,7 @@
             y \amp = 2 \tanh (-2x + c)
           </mrow>
           <mrow>
-            \text{ Initial condition: }  y(0) \amp = 0
+            y(0) \amp = 0 \text{ Initial condition}
           </mrow>
           <mrow>
             0 \amp = 2 \tanh (0 + c)

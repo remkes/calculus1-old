@@ -1,0 +1,229 @@
+<section xml:id="section-population-des">
+  <title>Two Population Differential Equations</title>
+  <subsection xml:id="subsection-percentage-growth">
+    <title>Percentage Growth</title>
+    <p>
+      In <xref ref="section-population-growth" />, I talked about
+      percetage growth of population. Then, in <xref
+      ref="section-differential-equations" />, I argued that we could
+      translate percentage growth into a differential equation. If a
+      population <m>p(t)</m> had a growth rate of <m>c</m>
+      percent, that was equivalent to the equation
+      <me>
+        \frac{dp}{dt} = \frac{c}{100} p(t) 
+      </me>.
+      I don't need to state this as percentage. If <m>\alpha</m> is
+      the fraction of the population that is added or subtracted in
+      one unit of time, the equation is 
+      <me>
+        \frac{dp}{dt} = \alpha p(t) 
+      </me>.
+      In the history of population models, this is often called the
+      Malthusian model of population growth. It is one of the very
+      first pieces of mathematical biology. In Malthus' model, the
+      constant <m>\alpha</m> had two (or three pieces). There is a
+      positive birth rate <m>b</m>, a negative death rate <m>d</m>,
+      and possibly a migration rate <m>m</m> which could be positive
+      or negative. The total growth rate is 
+      <me>
+        \alpha = b - d + m 
+      </me>.
+    </p>
+    <p>
+      We argued, simply from regression, that the solution to the
+      Malthusian model should be exponential. Now I'd like to prove
+      that. The Mathusian model is a seperable equation, so we can
+      solve is using the techniques of the previous section.
+      <me>
+        \frac{dp}{dt} = \alpha p(t) 
+      </me>
+      In the notation of the previous section, <m>f(t) = \alpha</m> and
+      <m>g(p) = p</m>. After seperateion, the integral become
+      <me>
+        \int \frac{1}{p} dp = \int \alpha dt 
+      </me>
+      Then I can integrate each side. The integral of
+      <m>\frac{1}{p}</m> is <m>\ln |p|</m>. Howwever, since we can
+      assume the population function must be positive, we can drop the
+      absolute value for an integral of <m>\ln |p|</m>. The integral
+      of a constant on the right (in the variable <m>t</m> indicated
+      by the <m>dt</m>) is <m>\alpha t</m>. I need a constant of
+      integration, which I will call <m>c</m>. 
+      <me>
+       \ln p  = \alpha t + c 
+      </me>
+      Then I solve for <m>p</m>
+      <me>
+       p(t) = e^{\alpha t + c} = e^c e^{\alpha t} 
+      </me>
+      If <m>t = 0</m>, this is <m>p(0) = e^c e^0 = e^c</m>, so
+      <m>e^c</m> is the starting population. I'll write this just as
+      <m>e^c = p_0</m>. The solution to the percentege growth equation
+      (or the Malthusian model) is an exponential function.
+      <me>
+       p(t) = p_0 e^{\alpha t} 
+      </me>
+    </p>
+    <p>
+      Being able to actually solve the DE justifies the previous
+      connection we made between exponential functions and percentage
+      growth. This is the idea situation: we want to observe a growth
+      pattern, write it down in a differential equation, and actually
+      solve that differential equation to get a function that
+      describese the growth.
+    </p>
+    <p>
+      The Malthusian model is the starting point for population
+      dymanics. A population with ample resources, space to growth,
+      and no other limiting factors (such as predators, disease,
+      disasters, etc.) will show percentage growth (since natural
+      processes like birth and death rates are fractions of the
+      totals). However, this is just the starting point. Most
+      population don't have ample resources, space to growth, and
+      freedom from other limiting factors. In <xref
+      ref="section-long-term-behaviour-of-models" />, I already
+      introduced the first adjustment to population dynamics: logistic
+      growth. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-logistic-growth">
+    <title>Logistic Growth</title>
+    <p>
+      Logistic growth starts like exponential growth, but slows down
+      as the population approachs a certain value, <m>K</m>, called
+      the carrying capacity. This measure the effect of a population
+      running out of excess room or resources. Essentially, the
+      population fills its environment, or at least its niche in that
+      environemnt, and levels off to a steady and consistent value.
+    </p>
+    <p>
+      Instead of adjusting the function, I want to adjust the
+      Malthusian differential equation to model this carrying
+      capacity. The basic model is 
+      <me>
+        \frac{dp}{dt} = \alpha p
+      </me>.
+      Now I want the rate of change to start out like this, but
+      decrease as I get close to the carrying capacity. It we are
+      exactly at the carrying capacity, I want the growth rate to be
+      zero. I can accomplish this by multiplying the right side by
+      <m>\left( 1 - \frac{p}{K} \right)</m>. When the population
+      is small (at least compared to <m>K</m>), this is almost
+      <m>1</m>, so multiplication by this term has little effect. When
+      the population is close to <m>K</m>, the fraction
+      <m>\frac{p}{K}</m> is close to <m>1</m>, so the term becomes
+      close to <m>0</m>.  Multiplying by something close to zero makes
+      the growth rate shrink to a small value. This is precisely what
+      we want: as the population approaches <m>K</m>, the growth rate
+      gets smaller and smaller. Finally, if we start above <m>K</m>,
+      this term is negative and makes the population decrease back
+      down to this value, <m>K</m>. 
+    </p>
+    <p>
+      It we multiply by this term, we get the logistic equaiton.
+      <me>
+        \frac{dp}{dt} = \alpha p \left( 1 - \frac{p}{K} \right)
+      </me>
+      I can solve this as a seperable equation as well. I take <m>f(t)
+      = \alpha</m> and <m>g(p) = p \left( 1 - \frac{p}{K}
+      \right)</m> and use the seperable technique from the previous
+      section.
+      <me>
+        \int \frac{1}{p \left( 1 - \frac{p}{K} \right)} dp = \int
+        \alpha dt 
+      </me>
+      I can simplify the nested fraction on the left by multiplying by
+      <m>K</m>.
+      <me>
+        \int \frac{K}{p(K-p)} dp = \int \alpha dt 
+      </me>
+      Unfortunately, the left integral uses a technique that we won't
+      cover in this course (it is covered in Calculus II). Using a
+      technique called partial fracitons, the left side can be split
+      up this way.
+      <me>
+        \frac{K}{p(K-p)} = \frac{1}{p} + \frac{1}{K-p}
+      </me>
+      Using linearity, this turns the left side integral into two
+      integrals.
+      <me>
+        \int \frac{1}{p} dp + \int \frac{1}{K-p} dp  = \int \alpha dt 
+      </me>
+      Now we can do both of these integrals. The second integral on
+      the left uses a substitution <m>u = K-p</m>, for which I won't
+      show the steps here.
+      <me>
+       \ln p - \ln (K-p) = \alpha t + c 
+      </me>
+      Then I want to try to solve for <m>p</m>. I can first use a
+      property of the logarithm. 
+      <me>
+       \ln \frac{p}{K-p} = \alpha t + c 
+      </me>
+      Then I can apply the exponential to both sides.
+      <me>
+       \frac{p}{K-p} = e^{\alpha t + c} = e^c e^{\alpha t} 
+      </me>
+      I'll write <m>e^c = b</m>, simply to have an easier way to deal
+      with this constant. 
+      <me>
+       \frac{p}{K-p} = be^{\alpha t} 
+      </me>
+      I'll then take reciprocals of both sides.
+      <me>
+       \frac{K-p}{p} = \frac{1}{be^{\alpha t}}
+      </me>
+      This lets me simplify the left side.
+      <me>
+       \frac{K}{p} - 1 = \frac{1}{be^{\alpha t}}
+      </me>
+      Then there is only one <m>p</m> term, which I can isolate. 
+      <md>
+        <mrow>
+          \frac{K}{p} = \frac{1}{be^{\alpha t}} + 1 = \frac{be^{\alpha
+          t} + 1}{be^{\alpha t}}
+        </mrow>
+        <mrow>
+          \frac{p}{K} = \frac{b e^{\alpha t}}{be^{\alpha t} +1}
+        </mrow>
+        <mrow>
+          p = \frac{Kbe^{\alpha t}}{be^{\alpha t} +1}
+        </mrow>
+      </md>
+      This is the logistic growth function. However, this is not
+      precisely the form that I gave for it in <xref
+      ref="section-long-term-behaviour-of-models" />. The reason the
+      forms differ is that this constant <m>b</m> is not the starting
+      population. If I use an initial condition <m>p(0) = p_0</m> in
+      the solution, I get this expression.
+      <me>
+        p_0 = \frac{Kbe^{0}}{be^{0} +1} = \frac{Kb}{b+1} 
+      </me>
+      Skipping the algebra steps, I solve for <m>b</m>.
+      <me>
+        b = \frac{p_0}{K-p_0}
+      </me>
+      I can put this into the expression.
+      <me>
+        p(t) = \frac{K\left( \frac{p_0}{K-p_0} \right) e^{\alpha
+        t}}{ \left( \frac{p_0}{K - p_0} \right) e^{\alpha t} +1}
+      </me>
+      Finally, I simplity by multiplying numerator and denominator by
+      <m>(K-p_0)</m>
+      <me>
+        p(t) = \frac{Kp_0e^{\alpha t}}{ p_0e^{\alpha t} + K - p_0}
+        = \frac{Kp_0e^{\alpha t}}{ p_0(e^{\alpha t}- 1) + K}
+      </me>
+      This is now the form that I introdcued in the previous question.
+    </p>
+    <p>
+      In summary, I was able to turn the two most important
+      basic models of population into differential equations. Using
+      the method of seperable equations, I was able to actually solve
+      the DEs and produce the function which I claim were the solution
+      many weeks ago. I have justification for those functions, since
+      I have now produced them from the DE instead of pulling them out
+      of thin air. 
+    </p>
+  </subsection>
+</section>
