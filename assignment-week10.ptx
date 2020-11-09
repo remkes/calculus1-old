@@ -5,6 +5,56 @@
   <title>Week 10 Assignment</title>
   <ol>
     <li>
+      <p>
+        Solve the following initial value problems. (16) 
+      </p>
+      <ol>
+        <li><me>
+          \frac{d}{df} = x^2 - 6x + 6 
+        </me>
+        <p>
+          The initial condition is <m>f(0) = 1</m>.
+        </p></li>
+        <li><me>
+          \frac{df}{dx} = \sin x - \sec^2 x 
+        </me>
+        <p>
+          The initial condition is <m>f(\pi) = 0</m>.
+        </p></li>
+        <li><me>
+          \frac{df}{dx} = e^{4x} + 1 
+        </me>
+        <p>
+          The initial condition is <m>f(0) = 1 </m>.
+        </p></li>
+        <li><me>
+          \frac{df}{dx} = \frac{x-3}{x+3} 
+        </me>
+        <p>
+          The initial condition is <m>f(4) = 2</m>.
+        </p></li>
+      </ol>
+    </li>
+    <li>
+      <p>
+        Solve the following seperable differential equations. (There are
+        no initial conditions given for these DEs, so leave the constant
+        of integration as part of the solution.) (16)
+      </p>
+      <ol>
+        <li><me>
+          \frac{df}{dx} = x^2 f
+        </me></li>
+        <li><me>
+          \frac{df}{dx} = \frac{1}{x^4 f} 
+        </me></li>
+        <li><me>
+          \frac{df}{dx} = e^f \cos x 
+        </me></li>
+        <li><me>
+          \frac{df}{dx} = \frac{x^2 - 1}{(f-1)^2} 
+        </me></li>
+      </ol>
     </li>
   </ol>
 </section>

@@ -50,7 +50,7 @@
             \frac{df}{dx} \amp = x^3 \amp \amp   f(0) = 7
           </mrow>
           <mrow>
-            \int \frac{df}{dx} \amp = \int x^3 dx \amp \amp 
+            \int \frac{df}{dx} dx \amp = \int x^3 dx \amp \amp 
           </mrow>
           <mrow>
             f \amp = \frac{x^4}{4} + c \amp \amp 
@@ -68,18 +68,21 @@
       <statement>
         <md>
           <mrow>
-            \frac{df}{dx} \amp = 6 \sin 3t \amp \amp f \left(
+            \frac{df}{dt} \amp = 6 \sin 3t \amp \amp f \left(
             \frac{\pi}{6} \right) = 6
           </mrow>
           <mrow>
-            f(x) \amp = \int 6 \sin 3t dt = -2\cos 3x + c \amp \amp 
+            \int \frac{df}{dt} dt \amp = \int 6 \sin 3t dt \amp \amp 
+          </mrow>
+          <mrow>
+            f(x) \amp = \int 6 \sin 3t dt = -2\cos 3t + c \amp \amp 
           </mrow>
           <mrow>
             6 \amp = -2\cos \frac{\pi}{2} + c = 0 + c \implies c=6
             \amp \amp 
           </mrow>
           <mrow>
-            f(x) \amp = -2 \cos 3x + 6 \amp \amp
+            f(x) \amp = -2 \cos 3t + 6 \amp \amp
           </mrow>
         </md>
       </statement>
@@ -89,6 +92,10 @@
         <md>
           <mrow>
             \frac{df}{dx} \amp = \frac{1}{x^2+1} \amp \amp f(1) = \pi
+          </mrow>
+          <mrow>
+            \int \frac{df}{dx} dx \amp = \int \frac{1}{x^2+1} dx \amp
+            \amp 
           </mrow>
           <mrow>
             f \amp = \int \frac{1}{x^2+1} dx = \arctan x + c \amp \amp 
@@ -159,31 +166,24 @@
       <statement>
         <md>
           <mrow>
-            \frac{dy}{dx} \amp = \frac{\sin x}{y}
+            \frac{dy}{dx} \amp = \frac{\sin x}{y} \amp \amp y(0) = 1
           </mrow>
           <mrow>
-            y dy \amp = \sin x dx
+            \int y dy \amp = \int \sin x dx \amp \amp 
           </mrow>
           <mrow>
-            \frac{y^2}{2} \amp = - \cos x + c
+            \frac{y^2}{2} \amp = - \cos x + c \amp \amp 
           </mrow>
           <mrow>
-            y \amp = \pm \sqrt{c - 2\cos x}
+            \frac{1^2}{2} \amp = - \cos 0 + c \implies c =
+            \frac{3}{2} \amp \amp 
           </mrow>
           <mrow>
-            y(0) \amp = 1 \text{ Initial condition} 
+            \frac{y^2}{2} \amp = - \cos x + \frac{3}{2} \amp \amp 
           </mrow>
           <mrow>
-            1 \amp = \sqrt{c - 2 \cos (0)} = \sqrt{c-2}
-          </mrow>
-          <mrow>
-            1 \amp = c-2
-          </mrow>
-          <mrow>
-            c \amp = 3
-          </mrow>
-          <mrow>
-            y \amp = \sqrt{3 - 2 \cos x}
+            y \amp = \pm \sqrt{ 2 \left( \frac{3}{2} - \cos x \right)}
+            = \pm \sqrt{3 - 2 \cos x} 
           </mrow>
         </md>
       </statement>
@@ -192,70 +192,49 @@
       <statement>
         <md>
           <mrow>
-            \frac{dy}{dx} \amp = \frac{-x}{y}
+            \frac{dy}{dx} \amp = \frac{-x}{y} \amp \amp y(4) = 3 
           </mrow>
           <mrow>
-            \int y dy \amp = - \int x dx
+            \int y dy \amp = - \int x dx \amp \amp 
           </mrow>
           <mrow>
-            \frac{y^2}{2} \amp = \frac{-x^2}{2} + c
+            \frac{y^2}{2} \amp = \frac{-x^2}{2} + c \amp \amp 
           </mrow>
           <mrow>
-            y^2 + x^2 \amp = c
+            y^2 + x^2 \amp = c \amp \amp 
           </mrow>
           <mrow>
-            y(4) \amp = 3 \text{ Initial condition} 
+            4^2 + 3^2 \amp = c \implies c = 25 \amp \amp 
           </mrow>
           <mrow>
-            4^2 + 3^2 \amp = c
+            y^2 + x^2 \amp = 25 \amp \amp 
           </mrow>
           <mrow>
-            c \amp = 25
-          </mrow>
-          <mrow>
-            y^2 + x^2 \amp = 25
+            y \amp = \pm \sqrt{25 - x^2} 
           </mrow>
         </md>
-        <p>
-          There is no way to solve for <m>y</m> as a function of
-          <m>x</m>, so we leave this as an implicit expression in both
-          variables.
-        </p>
       </statement>
     </example>
     <example>
       <statement>
         <md>
           <mrow>
-            \frac{dy}{dx} \amp = y^2 - 4
+            \frac{dy}{dx} \amp = y^2 + 1 \amp \amp y(0) = 0 
           </mrow>
           <mrow>
-            \int \frac{1}{y^2-4} dy \amp = \int 1 dx
+            \int \frac{1}{y^2+1} dy \amp = \int 1 dx \amp \amp 
           </mrow>
           <mrow>
-            \frac{-1}{2} \arctanh \left( \frac{y}{2} \right) \amp = x
-            + c
+            \arctan y \amp = x + c \amp \amp
           </mrow>
           <mrow>
-            \arctanh \left( \frac{y}{2} \right) \amp = -2x + c
+            y \amp = \tan (x + c) \amp \amp 
           </mrow>
           <mrow>
-            \frac{y}{2} \amp = \tanh (-2x + c)
+            0 \amp = \tan (0 + c) \implies c = 0 \amp \amp 
           </mrow>
           <mrow>
-            y \amp = 2 \tanh (-2x + c)
-          </mrow>
-          <mrow>
-            y(0) \amp = 0 \text{ Initial condition}
-          </mrow>
-          <mrow>
-            0 \amp = 2 \tanh (0 + c)
-          </mrow>
-          <mrow>
-            c \amp = 0
-          </mrow>
-          <mrow>
-            y \amp = 2 \tanh (-2x)
+            y \amp = \tan (x) \amp \amp 
           </mrow>
         </md>
       </statement>

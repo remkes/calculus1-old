@@ -214,7 +214,9 @@
         p(t) = \frac{Kp_0e^{\alpha t}}{ p_0e^{\alpha t} + K - p_0}
         = \frac{Kp_0e^{\alpha t}}{ p_0(e^{\alpha t}- 1) + K}
       </me>
-      This is now the form that I introdcued in the previous question.
+      Now I have indeed reconstructed logistic growth as it was first
+      introduced in <xref ref="section-long-term-behaviour-of-models"
+      />. 
     </p>
     <p>
       In summary, I was able to turn the two most important
