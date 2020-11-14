@@ -34,7 +34,7 @@
           \int_0^2 (x^5 - x^2) dx 
         </me></li>
         <li><me>
-          \int_{-\pi}^{\pi} (\cos 2 + 2 \sin x ) dx 
+          \int_{-\pi}^{\pi} (\cos x + 2 \sin x ) dx 
         </me></li>
         <li><me>
           \int_0^2 (2^x - 3^x) dx 
