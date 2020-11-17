@@ -1,17 +1,17 @@
-<section xml:id="marginal-analysis">
+<section xml:id="section-marginal-analysis">
   <title>Marginal Analysis</title>
-  <subsection xml:id="TBDs">
-    <title>TBD</title>
+  <subsection xml:id="subsection-economic-model">
+    <title>An Economic Model</title>
     <p>
       A nice use of optimization happens in economic and finance
       through a technique called marginal analysis. Naively, marginal
       analysis is frequently presented as a sales and production
       question: <m>C(x)</m> is the cost of producing <m>x</m> units of
       a product and <m>B(x)</m> is the revenue from selling <m>x</m>
-      units of a product. We'll take a slightly more general
+      units of a product. I'll take a slightly more general
       interpretation, where we measure cost <m>C(x)</m> and benefit
       <m>B(x)</m> without specifying exactly what form those costs and
-      benefits can take.
+      benefits can take. 
     </p>
     <p>
       In this context, the derivative <m>C^\prime(x)</m> is called the
@@ -83,7 +83,7 @@
     </p>
     <figure xml:id="figure-marginal-analysis">
       <caption>Example of Marginal Analysis</caption>
-      <image xml:id="figure57" width="80%">
+      <image xml:id="figure57" width="90%">
         <asymptote>
           size(10cm,7cm,IgnoreAspect);
 

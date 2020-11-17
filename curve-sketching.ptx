@@ -185,8 +185,7 @@
                     \amp f^\prime(x) \lt 0 \amp \amp f^\prime(x) \gt 0 
                   </mrow>
                   <mrow>
-                    \amp f(x) \text{ is decreasing} \amp \amp f(x)
-                    \text{ is increasing}
+                    \amp \text{decreasing} \amp \amp \text{increasing}
                   </mrow>
                 </md>
                 The point <m>\left( \frac{1}{e}, \frac{-1}{e}
@@ -291,9 +290,8 @@
                     \amp \amp f^\prime(x) \lt  0 
                   </mrow>
                   <mrow>
-                    \amp f(x) \text{ is decreasing} \amp \amp f(x)
-                    \text{ is increasing} \amp \amp f(x) \text{ is
-                    decreasing}
+                    \amp \text{decreasing} \amp \amp \text{increasing}
+                    \amp \amp \text{decreasing}
                   </mrow>
                 </md>
                 The point <m>\left( \frac{1}{\sqrt{2}},
@@ -330,8 +328,8 @@
                     \prime}(x) \lt 0 \amp \amp f^{\prime \prime}(x) \gt 0 
                   </mrow>
                   <mrow>
-                    \amp f \text{ is concave up} \amp \amp f \text{ is
-                    concave down} \amp \amp f \text{ is concave up} 
+                    \amp \text{concave up} \amp \amp \text{concave down} 
+                    \amp \amp \text{concave up} 
                   </mrow>
                 </md>
               </p>
@@ -428,9 +426,9 @@
                     \gt 0 
                   </mrow>
                   <mrow>
-                    \amp f(x) \text{ is decreasing} \amp \amp f(x)
-                    \text{ is increasing} \amp \amp f(x) \text{is
-                    decreasing} \amp \amp f(x) \text{ is increasing} 
+                    \amp \text{decreasing} \amp \amp \text{increasing}
+                    \amp \amp \text{decreasing} \amp \amp
+                    \text{increasing}
                   </mrow>
                 </md>
                 <m>(0,1)</m> is the only maximum and the points <m>(-15,
@@ -459,9 +457,8 @@
                     (x) \gt 0 
                   </mrow>
                   <mrow>
-                    \amp f(x) \text{ is concave up} \amp \amp f(x)
-                    \text{ is concave down} \amp \amp f(x) \text{ is
-                    concave up}
+                    \amp \text{concave up} \amp \amp \text{concave down} 
+                    \amp \amp \text{concave up}
                   </mrow>
                 </md>
               </p>

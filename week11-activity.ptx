@@ -44,8 +44,8 @@
               \amp \text{Positive} 
             </mrow>
             <mrow>
-              \amp f \text{ is decreasing.} \amp
-              \amp f \text{ is increasing.} 
+              \amp \text{decreasing} \amp
+              \amp \text{increasing} 
             </mrow>
           </md>
           Since the function changes from decreasing to increasing at
@@ -120,9 +120,9 @@
               \amp \text{Negative} 
             </mrow>
             <mrow>
-              \amp f \text{ is decreasing.} \amp
-              \amp f \text{ is increasing.} \amp
-              \amp f \text{ is decreasing.} 
+              \amp \text{decreasing} \amp
+              \amp \text{increasing} \amp
+              \amp \text{decreasing} 
             </mrow>
           </md>
           At <m>x = 1 - \sqrt{8}</m>, the function changes from
@@ -177,8 +177,8 @@
               \amp \text{Positive} 
             </mrow>
             <mrow>
-              \amp f \text{ is decreasing.} \amp
-              \amp f \text{ is increasing.} 
+              \amp \text{decreasing} \amp
+              \amp \text{increasing} 
             </mrow>
           </md>
           Since the function change from decreasing to increasing at
@@ -233,8 +233,8 @@
               \amp \text{Negative} 
             </mrow>
             <mrow>
-              \amp f \text{ is increasing.} \amp
-              \amp f \text{ is decreasing.} 
+              \amp \text{increasing} \amp
+              \amp \text{decreasing} 
             </mrow>
           </md>
           Since the function change from increasing to decreasing at
@@ -289,8 +289,8 @@
               \amp \text{Negative} 
             </mrow>
             <mrow>
-              \amp h \text{ is increasing.} \amp
-              \amp h \text{ is decreasing.} 
+              \amp \text{increasing} \amp
+              \amp \text{decreasing} 
             </mrow>
           </md>
           Since the function change from increasing to decreasing at
@@ -356,8 +356,8 @@
               \amp \text{Positive} 
             </mrow>
             <mrow>
-              \amp T \text{ is decreasing.} \amp
-              \amp T \text{ is increasing.} 
+              \amp \text{decreasing} \amp
+              \amp \text{increasing} 
             </mrow>
           </md>
           Since the function change from decreasing to increasing at
@@ -385,11 +385,11 @@
         <p>
           We replace <m>n</m> with 10000 in the function.
           <me>
-            T(m) = 10000(4m - 15 \ln (m-25)
+            T(m) = 10000 \left(4m - 15 \ln (m-25) \right) 
           </me>
           Then we take the derivative.
           <me>
-            \frac{dT}{dm} = 10000(4 - 15 \frac{1}{m-25}) 
+            \frac{dT}{dm} = 10000 \left( 4 - 15 \frac{1}{m-25} \right)
           </me>
           Next we set the derivative to zero and solve.
           <md>
@@ -413,17 +413,18 @@
               \amp \left( \frac{115}{4}, \infty \right)
             </mrow>
             <mrow>
-              \amp f^\prime (26) = 10000 (4 - 15 \frac{1}{1}) = -1100000
-              \amp 
-              \amp f^\prime (35) = 10000 (4 - 15 \frac{1}{10} = 25000
+              \amp f^\prime (26) = 10000 \left(4 - 15 \frac{1}{1}
+              \right) = -1100000 \amp 
+              \amp f^\prime (35) = 10000 \left(4 - 15 \frac{1}{10}
+              \right) = 25000
             </mrow>
             <mrow>
               \amp \text{Negative} \amp
               \amp \text{Positive} 
             </mrow>
             <mrow>
-              \amp f \text{ is decreasing.} \amp
-              \amp f \text{ is increasing.} 
+              \amp \text{decreasing} \amp
+              \amp \text{increasing} 
             </mrow>
           </md>
           Since the function change from decreasing to increasing at
@@ -482,8 +483,8 @@
               \amp \text{Negative} 
             </mrow>
             <mrow>
-              \amp f \text{ is increasing.} \amp
-              \amp f \text{ is decreasing.} 
+              \amp \text{increasing} \amp
+              \amp \text{decreasing} 
             </mrow>
           </md>
           Since the function change from increasing to decreasing at
@@ -573,7 +574,30 @@
           of this marginal analysis model.
           <figure xml:id="figure-marginal-1">
             <caption>First Marginal Analysis Activity</caption>
-            <image width="100%" source="images/figure76"/>
+            <image xml:id="figure76" width="90%">
+              <asymptote>
+                size(12cm,8cm,IgnoreAspect);
+
+                import graph; 
+
+                xaxis(Ticks);
+                yaxis(Ticks);
+
+                real c(real x) {return x^2/4;}
+                real b(real x) {return 4*sqrt(x);}
+                
+                draw(graph(c,0,8));
+                draw(graph(b,0,8));
+
+                draw((2,1)--(2,5.66));
+                draw((2,10)--(2,5.66),Arrow);
+
+                dot((6.34,10.08));
+                
+                label("Maximum Net Benefit",(2,10),N);
+                label("Highest Break Even Point",(6.34,10.08),SE);
+              </asymptote>
+            </image>
           </figure>
           These cost and benefit functions seems at least somewhat
           reasonable. The benefit function curves down, representing a
@@ -661,7 +685,30 @@
           of this marginal analysis model.
           <figure xml:id="figure-marginal-2">
             <caption>Second Marginal Analysis Activity</caption>
-            <image width="100%" source="images/figure77"/>
+            <image xml:id="figure77" width="90%">
+              <asymptote>
+                size(12cm,8cm,IgnoreAspect);
+
+                import graph; 
+
+                xaxis(Ticks);
+                yaxis(Ticks);
+
+                real c(real x) {return 14 + x/(10);}
+                real b(real x) {return 6 * x^(1/3);}
+
+                draw(graph(c,0,250));
+                draw(graph(b,0,250));
+
+                draw((89.44,22.944)--(89.44,26.83));
+                draw((89.44,10)--(89.44,22.944),Arrow);
+
+                dot((224.85,36.49));
+
+                label("Maximum Net Benefit",(89.44,10),SE);
+                label("Highest Break Even Point",(224.85,36.49),SE);
+              </asymptote>
+            </image>
           </figure>
           This cost function is linear, showing that producing more or
           less has no effect on the cost per unit. This is possible
@@ -779,7 +826,31 @@
           marginal analysis model.
           <figure xml:id="figure-marginal-3">
             <caption>Third Marginal Analysis Activity</caption>
-            <image width="100%" source="images/figure78"/>
+            <image xml:id="figure78" width="90%">
+              <asymptote>
+                size(12cm,8cm,IgnoreAspect);
+
+                import graph; 
+
+                xaxis(Ticks);
+                yaxis(Ticks);
+
+                real c(real x) {return x^3/9;}
+                real b(real x) {return 4*x;}
+
+                draw(graph(c,0,5));
+                draw(graph(b,0,2));
+                draw((2,8)--(6,8));
+
+                draw((2,8)--(2,0.89));
+                draw((2,10)--(2,9),Arrow);
+
+                dot((4.16,8));
+
+                label("Maximum Net Benefit",(2,10),N);
+                label("Highest Break Even Point",(4.16,8),SE);
+              </asymptote>
+            </image>
           </figure>
           This cost function curves upwards, meaning that eventually
           the materials or skills needed become scare and it becomes

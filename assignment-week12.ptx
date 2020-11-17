@@ -5,6 +5,40 @@
   <title>Week 12 Assignment</title>
   <ol>
     <li>
+      <p>
+        Sketch the following function. (Make sure you complete all
+        eight steps of the process from the course notes). (12) 
+        <me>
+          f(x) = \frac{x^2 + 3x + 4}{x + 3}
+        </me>
+      </p>
+    </li>
+    <li>
+      <p>
+        Consider the following model of population growth, where
+        <m>p</m> is measured in millions and <m>t</m> is measured in
+        years. (12)
+        <me>
+          p(t) = \frac{156e^t(t^2+2)}{11 + e^{2t}} 
+        </me>
+      </p>
+      <ol>
+        <li><p>
+          What is the starting population?
+        </p></li>
+        <li><p>
+          What is the long term behaviour of the population?
+        </p></li>
+        <li><p>
+          Wheni s the population at its maximum value? (Feel free to
+          use a computer for the derivative and to solve for the
+          critical points. Approximate values are fine here. You may
+          assume that <m>t \in [0,\infty)</m>.)
+        </p></li>
+        <li><p>
+          Is this a reasonable population model? Why or why not?
+        </p></li>
+      </ol>
     </li>
   </ol>
 </section>

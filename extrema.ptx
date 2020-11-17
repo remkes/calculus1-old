@@ -75,10 +75,92 @@
       <m>x</m> where the derivative vanishes. Such points will be
       called the <em>critical points</em> of the function.
     </p>
+    <p>
+      When I solve <m>f^\prime(x) = 0</m> to find the critical
+      points, I don't know if these critical points are minima, maxima
+      or neither. However, I can look at the intervals between the
+      critical points. I usually do this in a table of interval,
+      demonstrated in <xref ref="example-extrema1" /> and <xref
+      ref="example-extrema2" />. I use the
+      critical points to split up the domain into intervel. It is
+      important that I split <em>the domain</em> into intervals: if
+      the domain already have intervals in it, these are further split
+      up by the critical points.
+    </p>
+    <p>
+      Once I have these intervals, I will test the derivative on each
+      interval. Between the critical points (and any division of the
+      domain), the derivative will either be entirely positive or
+      entirely negative. Therefore, I can test any point I wish in the
+      interval. If I find that the derivative is positive, I know the
+      function is increasing. If I find the derivative is negative,
+      then the function is decreasing. Determining this information is
+      called <term>finding the intervals of increase and
+      decrease</term> for the function, which is itself very useful
+      information for understanding the behaviour of the function.
+    </p>
+    <p>
+      The intervals tell me about the function at it critical points.
+      <ul>
+        <li>
+          If the interval on the left of a critical is increasing and
+          the interval on the right of a critical point is decreasing,
+          then the critical point is a maximum. (The function changes
+          from going up to the critical point to going down after it.) 
+        </li>
+        <li>
+          If the interval on the left of a critical is decreasing and
+          the interval on the right of a critical point is increasing,
+          then the critical point is a minimum. (The function changes
+          from going downto the critical point to going up after it.) 
+        </li>
+        <li>
+          If the function is increasing on both sides of the critical
+          point, or similar if it is decreasing on both sides of the
+          critical point, the critical is neither a minimum nor a
+          maxiumu. 
+        </li>
+      </ul>
+      A example of the last situation is the point <m>(0,0)</m> on the
+      graph of the cubic <m>f(x) = x^3</m>. There is a critical points
+      there and the tangent line is momentarily flat, but the function
+      is increasing on both sides and there isn't a minimum or a
+      maximum.
+    </p>
+    <p>
+      All of this gives us a nice algorithm for calculating extrema of
+      functions, as well as finding their intervals of increase and
+      decrease. Let me recap the algorithm for a differentiable
+      function <m>f(x)</m>.
+      <ul>
+        <li>
+          I calculate the derivative <m>f^\prime(x)</m>
+        </li>
+        <li>
+          I set the derivative equal to zero and solve for the
+          critical points.
+        </li>
+        <li>
+          I use the critical point to break up the domain into
+          intervals.
+        </li>
+        <li>
+          I test the derivative on each interval (using any point I
+          want in the interval) to determine if it is positive or
+          negative. Where is it positive, I label the interval as
+          increasing; where is it negative, I label the interval as
+          decreasing.
+        </li>
+        <li>
+          I use the intervals to determine which critical points are
+          maxima, which are minima, and which are neither. 
+        </li>
+      </ul>
+    </p>
   </subsection>
   <subsection xml:id="subsection-extrema-examples">
     <title>Examples</title>
-    <example>
+    <example xml:id="example-extrema1">
       <statement>
         <p>
           Consider the quadratic <m>f(x) = x^2 + 2</m>. The derivative
@@ -109,23 +191,31 @@
           In this example, the domain is <m>\RR</m> and the only
           critical point is <m>x=0</m>. Splitting the domain by that
           critical point gives us the intervals <m>(-\infty, 0)</m> and
-          <m>(0,\infty)</m>. On these intervals, the derivative will
-          either be positive or negative, so the function will either be
-          increasing or decreasing respectively. For this example,
-          <m>f^\prime(x) = 2x</m>, which is negative on
-          <m>(-\infty,0)</m> and positive on <m>(0, \infty)</m>;
-          therefore, the function is decreasing on <m>(-\infty,0)</m>
-          and increasing on <m>(0, \infty)</m>.
-        </p>
-        <p>
-          This lets us classify the critical point. At <m>x=0</m>, the
-          function switches from decreasing to increasing. This means
-          that <m>x</m> must be a minimum. We can conclude that
-          <m>(0,2)</m> is a local minimum of the function.
+          <m>(0,\infty)</m>. I set up a table to test the intervals.
+          <md>
+            <mrow>
+              \amp (-\infty, 0) \amp \amp (0, \infty) 
+            </mrow>
+            <mrow>
+              \amp f^\prime(-1) = 2(-1) = -2 \amp \amp f^\prime (1) =
+              2(1) = 2 
+            </mrow>
+            <mrow>
+              \amp f^\prime \lt 0 \amp \amp f^\prime \gt 0 
+            </mrow>
+            <mrow>
+              \amp \text{decreasing} \amp \amp \text{increasing}
+            </mrow>
+          </md>
+          This table lets us classify the critical point. At
+          <m>x=0</m>, the function switches from decreasing to
+          increasing. This means that <m>x</m> must be a minimum. We
+          can conclude that <m>(0,2)</m> is a local minimum of the
+          function.
         </p>
       </statement>
     </example>
-    <example>
+    <example xml:id="example-extrema2">
       <statement>
         <p>
           If <m>f(x) = 2x^3 + 3x^2 - 36x + 4</m> then <m>f^\prime(x) =
@@ -170,8 +260,8 @@
             f^\prime(3) \gt 0 
            </mrow>
            <mrow>
-            \amp f \text{ is increasing.} \amp \amp f \text{ is
-            decreasing.} \amp \amp f \text{ is increasing.}
+            \amp \text{increasing} \amp \amp \text{decreasing} \amp
+            \amp \text{increasing}
            </mrow>
           </md>
         </p>

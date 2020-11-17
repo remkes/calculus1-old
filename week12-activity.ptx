@@ -147,9 +147,9 @@
               \amp \text{Negative} 
             </mrow>
             <mrow>
-              \amp f \text{ is decreasing.} \amp
-              \amp f \text{ is increasing.} \amp 
-              \amp f \text{ is decreasing.} 
+              \amp \text{decreasing} \amp
+              \amp \text{increasing} \amp 
+              \amp \text{decreasing} 
             </mrow>
           </md>
           This gives us a minimum at the first critical point and a
@@ -225,16 +225,16 @@
               \amp \text{Positive} 
             </mrow>
             <mrow>
-              \amp f \text{ is concave up.} \amp
-              \amp f \text{ is concave down.} \amp 
-              \amp f \text{ is concave up.} 
+              \amp \text{concave up} \amp
+              \amp \text{concave down} \amp 
+              \amp \text{concave up} 
             </mrow>
           </md>
           This determines the concavity. 
         </p>
         <p>
           Range again: We know the function diverges to infinity as
-          <m>x \righarrow -\infty</m>, so there is no upper bound.
+          <m>x \rightarrow -\infty</m>, so there is no upper bound.
           However, the minimum is a lower bound, since the function
           has a horizontal asymptote in the positive direction. The
           minimum happens at <m>x = \frac{-1-\sqrt{37}}{2}</m>.
@@ -249,7 +249,28 @@
           function, matching out analysis above. 
           <figure xml:id="figure-sketching-1">
             <caption>First Curve Sketching Activity</caption>
-            <image width="100%" source="images/figure79"/>
+            <image xml:id="figure79" width="90%">
+              <asymptote>
+                size(12cm,7cm,IgnoreAspect);
+
+                import graph;
+
+                yaxis("x");
+                xaxis("y");
+
+                real f(real x) {return exp(-1*x)*(x^2+3x-6);}
+
+                draw(graph(f,-4.5,6));
+
+                dot("$\frac{-3+\sqrt{33}}{2}$",(1.37,0),N);
+                dot("$\frac{-3-\sqrt{33}}{2}$",(-4.37,0),N);
+                dot("$-6$",(0,-6),SE);
+                dot("$\frac{-1+\sqrt{37}}{2}$",(2.54,0),S);
+                dot("$\frac{-1-\sqrt{37}}{2}$",(-3.54,0),S);
+                dot("$\frac{1+\sqrt{41}}{2}$",(3.7,0),N);
+                dot("$\frac{1-\sqrt{41}}{2}$",(-2.7,0),N);
+              </asymptote>
+            </image>
           </figure>
         </p>
       </solution>
@@ -401,8 +422,8 @@
               \amp \text{Positive} 
             </mrow>
             <mrow>
-              \amp f \text{ is increasing.} \amp
-              \amp f \text{ is increasing.} 
+              \amp \text{increasing} \amp
+              \amp \text{increasing} 
             </mrow>
           </md>
           The function is increasing on both intervals. 
@@ -448,8 +469,8 @@
               \amp \text{Negative} 
             </mrow>
             <mrow>
-              \amp f \text{ is concave up.} \amp 
-              \amp f \text{ is concave down.} 
+              \amp \text{concave up} \amp 
+              \amp \text{concave down} 
             </mrow>
           </md>
           This determines the concavity. 
@@ -472,7 +493,27 @@
           function, matching out analysis above. 
           <figure xml:id="figure-sketching-2">
             <caption>Second Curve Sketching Activity</caption>
-            <image width="100%" source="images/figure80"/>
+            <image xml:id="figure80" width="90%">
+              <asymptote>
+                size(12cm,7cm,IgnoreAspect);
+
+                import graph;
+
+                yaxis("x");
+                xaxis("y");
+
+                real f(real x) {return (x-9)/(4*x-5);}
+
+                draw(graph(f,-5,1));
+                draw(graph(f,1.4,5));
+
+                dot("$\frac{5}{4}$",(1.2,0),NE);
+                dot("$\frac{9}{5}$",(0,1.8),NW);
+
+                draw((-5,0.25)--(5,0.25),dotted);
+                draw((1.2,-12.5)--(1.2,8),dotted);
+              </asymptote>
+            </image>
           </figure>
         </p>
       </solution>
