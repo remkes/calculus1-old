@@ -13,7 +13,7 @@
       </p>
       <ol>
         <li><me>
-          \int (12 x^2 + 6x)(e^{4x^3 + 3x^2} dx 
+          \int (12 x^2 + 6x)(e^{4x^3 + 3x^2}) dx 
         </me></li>
         <li><me>
           \int \frac{6x}{10x - 4} dx 
@@ -32,11 +32,11 @@
         <me>
           \int \sqrt{ 1 - e^{-x}} dx 
         </me>
-        The function is a composition, so I would use the chain rule.
-        I could choose an outisde function of <m>f(u) = \sqrt{u}</m>
-        (with <m>u = 1 - e^{-x}</m>) or <m>f(u) = \sqrt{1-u}</m>.
-        Which choice is better for calculating the integral? Which
-        choice would you make and why? (4)
+        The function is a composition, so I would use the substitution
+        rule.  I could choose an outisde function of <m>f(u) =
+        \sqrt{u}</m> (with <m>u = 1 - e^{-x}</m>) or <m>f(u) =
+        \sqrt{1-u}</m>.  Which choice is better for calculating the
+        integral? Which choice would you make and why? (4)
       </p>
     </li>
   </ol>

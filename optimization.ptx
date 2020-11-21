@@ -42,21 +42,21 @@
         <p>
           We want to maximize area, so we will eventually be
           differentiating an area function. However, the area
-          function is <m>A = hl</m>, which has two variables. We need
+          function is <m>A = ab</m>, which has two variables. We need
           to use the perimeter restriction to eliminate one of the
-          variables. We know <m>P = 2h + 2l</m> so <m>h = \frac{P}{2}
-          - l</m>. If we substitute for <m>h</m> in the area
-          function, we get a single variable area function <m>A(l)</m>.
+          variables. We know <m>P = 2a + 2b</m> so <m>a = \frac{P}{2}
+          - b</m>. If we substitute for <m>a</m> in the area
+          function, we get a single variable area function <m>A(b)</m>.
           <me>
-            A(l) = l \left( \frac{P}{2} - l \right)
+            A(b) = b \left( \frac{P}{2} - b \right)
           </me>
         </p>
         <p>
-          Then we can optimize. The derivative is <m>A^\prime(l) =
-          \frac{P}{2} - 2l</m>. This vanishes when <m>l =
+          Then we can optimize. The derivative is <m>A^\prime(b) =
+          \frac{P}{2} - 2b</m>. This vanishes when <m>b =
           \frac{P}{4}</m>. We can test that the critical point is a
           maximum. Unsurprisingly, the result shows that a square
-          (where both <m>l</m> and <m>h</m> are exactly one quarter of
+          (where both <m>b</m> and <m>a</m> are exactly one quarter of
           the perimeter) maximizes area.
         </p>
       </statement>
@@ -207,7 +207,7 @@
               \amp d^\prime(x) \lt 0 \amp \amp d^\prime(x) \gt 0 
             </mrow>
             <mrow>
-              \amp d \text{decreasing} \amp \amp d \text{increasing} 
+              \amp \text{decreasing} \amp \amp \text{increasing} 
             </mrow>
           </md>
         </p>

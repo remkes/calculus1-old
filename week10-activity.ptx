@@ -24,7 +24,7 @@
           Then I integrate both sides, add the constant of integration
           on the right.
           <me>
-            \frac{-1}{y} = \frac{x^3}{3} + c= \frac{x^3+c}{3} 
+            \frac{-1}{y} = \frac{x^3}{3} + c= \frac{x^3+3c}{3} 
           </me>
           Then I solve for <m>y</m>.
           <me>
@@ -464,7 +464,7 @@
     <activity>
       <statement>
         <p>
-          Check that the logistic growth function given solve the
+          Check that the logistic growth function given solves the
           initial value problem. <m>p(t)</m> is population in terms of
           time. (First check the initial value. Then calculate the
           right side and left side of the differential equation and
@@ -512,15 +512,15 @@
               e^{0.05t})^2}
             </mrow>
             <mrow>
-              \amp = \frac{(600 + 400e^{0.05t})20000 e^{0.05} - 
+              \amp = \frac{(600 + 400e^{0.05t})20000 e^{0.05t} - 
               400000 e^{0.05t} 20 e^{0.05t}}{(600 + 400 e^{0.05t})^2}
             </mrow>
             <mrow>
-              \amp = \frac{12000000e^{0.05} + 8000000e^{0.1t} - 
+              \amp = \frac{12000000e^{0.05t} + 8000000e^{0.1t} - 
               8000000 e^{0.1t}}{(600 + 400 e^{0.05t})^2}
             </mrow>
             <mrow>
-              \amp = \frac{12000000e^{0.05}}{(600 + 400 e^{0.05t})^2}
+              \amp = \frac{12000000e^{0.05t}}{(600 + 400 e^{0.05t})^2}
             </mrow>
           </md>
           After all that simplification, we have this expression. This
@@ -570,7 +570,7 @@
     <activity>
       <statement>
         <p>
-          Check that the logistic growth function given solve the
+          Check that the logistic growth function given solves the
           initial value problem. <m>p(t)</m> is population in terms of
           time.
           <md>

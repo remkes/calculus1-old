@@ -108,7 +108,7 @@
         <p>
           Here there isn't as obvious a substitution. However, I might
           be able to simplify the denominator by using the
-          substitution <m>u = x=2</m>. The matching differential
+          substitution <m>u = x - 2</m>. The matching differential
           substitution is simply <m>du = dx</m>. I also need to
           substitute the numerator. I can do this by adding <m>2</m>
           to each side of the substitution, giving <m>u + 2 = x</m>. 

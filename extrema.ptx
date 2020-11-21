@@ -8,13 +8,13 @@
         <li>
           <p>
             A point <m>(c,f(c))</m> is called a <em>local maximum</em>
-            for <m>f</m> if <m>f(c) \lt f(x)</m> for all <m>x</m> close
+            for <m>f</m> if <m>f(c) \geq f(x)</m> for all <m>x</m> close
             to <m>c</m>.
           </p>
         </li>
         <li>
           <p>
-            A point is a <em>local minimum</em> if <m>f(c) \lt f(x)</m>
+            A point is a <em>local minimum</em> if <m>f(c) \leq f(x)</m>
             for all <m>x</m> close to <m>c</m>.
           </p>
         </li>
