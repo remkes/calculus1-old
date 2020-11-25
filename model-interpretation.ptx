@@ -181,7 +181,7 @@
           Conisder a population model, where <m>p</m> is population in
           thousands and <m>t</m> is time in years.
           <me>
-            p(t) = e^{-t/10} (100 + 10 \sin (2\pi t))
+            p(t) = e^{-\frac{t}{10}} (100 + 10 \sin (2\pi t))
           </me>
           <ul>
             <li>

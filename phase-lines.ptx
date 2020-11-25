@@ -11,8 +11,8 @@
         <statement>
           A differential equation where the left-side is just
           <m>\frac{dp}{dt}</m> and the right-side is some algebraic
-          expression in <m>p</m> is called an \emph{autonomous differential
-          equation}.
+          expression in <m>p</m> is called an <em>autonomous differential
+          equation</em>.
         </statement>
       </definition>
       Many natural models are described by autonomous equations,

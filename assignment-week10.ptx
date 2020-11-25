@@ -10,7 +10,7 @@
       </p>
       <ol>
         <li><me>
-          \frac{d}{df} = x^2 - 6x + 6 
+          \frac{df}{dx} = x^2 - 6x + 6 
         </me>
         <p>
           The initial condition is <m>f(0) = 1</m>.
