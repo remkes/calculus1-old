@@ -96,7 +96,7 @@
               x \amp = \frac{2 \pm \sqrt{ 4 - (4)(1)(-7)}}{2}
             </mrow>
             <mrow>
-              x \amp = \frac{2 \pm \sqrt{32}}{2} = \frac{ 2 \pm 4
+              x \amp = \frac{2 \pm \sqrt{32}}{2} = \frac{ 2 \pm 2
               \sqrt{8}}{2} = 1 \pm \sqrt{8}
             </mrow>
           </md>
@@ -309,7 +309,7 @@
           A chemical reaction is controlled by a catalyst. The
           function
           <me>
-            T(c) = 14\sqrt{7 - 4x + x^2}
+            T(c) = 14\sqrt{7 - 4c + c^2}
           </me>
           measure a bounding temperature of the reaction depending on
           the concentration of the catalyst. Find the minimum
@@ -321,17 +321,17 @@
           First we take the derivative, using the chain rule (I
           haven't shown the steps). 
           <me>
-            \frac{dT}{dc} = \frac{14 (2x-4)}{2\sqrt{7 - 4x + x^2}} =
-            \frac{14x - 28}{\sqrt{7 - 4x + x^2}} 
+            \frac{dT}{dc} = \frac{14 (2c-4)}{2\sqrt{7 - 4c + c^2}} =
+            \frac{14c - 28}{\sqrt{7 - 4c + c^2}} 
           </me>
           Next we set the derivative to zero and solve. We only need
           to consider the numerator. 
           <md>
             <mrow>
-              14x - 28 \amp = 0 
+              14c - 28 \amp = 0 
             </mrow>
             <mrow>
-              x \amp = 2 
+              c \amp = 2 
             </mrow>
           </md>
           The domain of this function is all real numbers, since the
@@ -546,12 +546,9 @@
           2 and the marginal benefit is 1. The marginal cost exceeds
           the marginal benefit, so the net benefit is decreasing. We
           conclude that we have a maximum net benefit at approximatly
-          <m>x = 2.52</m>2 and the marginal benefit is 1. The marginal
-          cost exceeds the marginal benefit, so the net benefit is
-          decreasing. We conclude that we have a maximum net benefit
-          at approximatly <m>x = 2.52</m> 
-          </p>
-          <p>
+          <m>x = 2.52</m>.
+        </p>
+        <p>
           For the break even point, we set the two functions each to
           each other and solve.
           <md>

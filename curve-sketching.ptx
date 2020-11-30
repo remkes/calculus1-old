@@ -285,9 +285,10 @@
                 \frac{1}{\sqrt{2}}</m>.
                 <md>
                   <mrow>
-                    \amp (-\infty, \frac{1}{-\sqrt{2}}) \amp \amp
-                    (-\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2})} \amp
-                    \amp (\frac{1}{\sqrt{2}}, \infty) 
+                    \amp \left( -\infty, \frac{1}{-\sqrt{2}} \right)
+                    \amp \amp \left(-\frac{1}{\sqrt{2}},
+                    \frac{1}{\sqrt{2}} \right) \amp
+                    \amp \left( \frac{1}{\sqrt{2}}, \infty \right)
                   </mrow>
                   <mrow>
                     \amp f^\prime (-2) = -7e^{-4} \amp \amp f^\prime(0)
@@ -303,9 +304,9 @@
                   </mrow>
                 </md>
                 The point <m>\left( \frac{1}{\sqrt{2}},
-                \frac{1}{\sqrt{2e}} \right)</m> is a local minimum and
+                \frac{1}{\sqrt{2e}} \right)</m> is a local maximum and
                 the point <m>\left( \frac{-1}{\sqrt{2}},
-                \frac{-1}{\sqrt{2e}} \right)</m> is a local maximum.
+                \frac{-1}{\sqrt{2e}} \right)</m> is a local minimum.
                 This calculation also gives the range, since these
                 extrema are also global extrema. The range is <m>\left[
                 -\frac{1}{\sqrt{2e}}, \frac{1}{\sqrt{2e}} \right]</m>.
