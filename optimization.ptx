@@ -157,7 +157,7 @@
     <example>
       <statement>
         <p>
-          Let mn ask which point on the parabola <m>y =
+          Let me ask which point on the parabola <m>y =
           \frac{x^2}{4}</m> is closest to the point <m>(4,2)</m>. The
           distance squared from a point <m>(x,y)</m> on the parabola
           to <m>(4,2)</m> is given the distance squared function.

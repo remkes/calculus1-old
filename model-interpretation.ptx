@@ -262,7 +262,7 @@
           world, we can observe a differential equation instead of
           directly observing the function.
           <me>
-            \frac{dT}{dt} = 6-3t
+            \frac{dT}{dt} = 6-6t
           </me>
         </p>
         <p>
