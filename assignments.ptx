@@ -1,6 +1,7 @@
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
   xml:id="chapter-assignments">
   <title>Assignments</title>
+  <!--
   <xi:include href="week1-assignment.ptx" />
   <xi:include href="week2-assignment.ptx" />
   <xi:include href="week3-assignment.ptx" />
@@ -13,4 +14,5 @@
   <xi:include href="week10-assignment.ptx" />
   <xi:include href="week11-assignment.ptx" />
   <xi:include href="week12-assignment.ptx" />
+  -->
 </chapter>
