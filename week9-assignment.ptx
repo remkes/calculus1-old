@@ -1,5 +1,5 @@
 <!--
-  This assignment was used for the Fall 2020 term.
+  This assignment was used for the Winter 2021 term.
 -->
 <section xml:id="section-assignment-week9">
   <title>Week 9 Assignment</title>
@@ -7,22 +7,20 @@
     <li>
       <p>
       Calculate the following integrals. Clearly label your
-      substitutions. (For the third integral, use a trig identity 
-      to change <m>\cos^2 u</m> into a function which is easier to
-      integrate). (16)
+      substitutions. (16)
       </p>
       <ol>
         <li><me>
-          \int (12 x^2 + 6x)(e^{4x^3 + 3x^2}) dx 
+          \int \sin (3x - 7x^3) (3-14x) dx
         </me></li>
         <li><me>
-          \int \frac{6x}{10x - 4} dx 
+          \int \frac{7x}{9x + 5} dx 
         </me></li>
         <li><me>
-          \int_0^{\frac{\pi}{4}} \frac{\cos^2 (\tan x)}{\cos^2 x} dx 
+          \int \ln (x^3 + 7) 17 x^2 dx 
         </me></li>
         <li><me>
-          \int \frac{6x + 12}{x^2 +4x} dx 
+          \int_0^{\frac{\pi}{24}} \sin (24 x) + \cos (12 x) dx 
         </me></li>
       </ol>
     </li>
@@ -30,13 +28,10 @@
       <p>
         Consider this integral
         <me>
-          \int \sqrt{ 1 - e^{-x}} dx 
+          \int e^{-x^2} dx 
         </me>
-        The function is a composition, so I would use the substitution
-        rule.  I could choose an outisde function of <m>f(u) =
-        \sqrt{u}</m> (with <m>u = 1 - e^{-x}</m>) or <m>f(u) =
-        \sqrt{1-u}</m>.  Which choice is better for calculating the
-        integral? Which choice would you make and why? (4)
+        Explain why the substitution <m>u = -x^2</m> doesn't actually
+        help to solve this integral (4). 
       </p>
     </li>
   </ol>

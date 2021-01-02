@@ -1,5 +1,5 @@
 <!--
-  This assignment was used for the Fall 2020 term.
+  This assignment was used for the Winter 2021 term.
 -->
 <section xml:id="section-assignment-week7">
   <title>Week 7 Assignment</title>
@@ -10,29 +10,34 @@
         used. (12) 
         <ol>
           <li><me>
-            \frac{d}{dx} \frac{\sqrt{x^2+1}}{x} 
+            \frac{d}{dx} \ln (\cos x)
           </me></li>
           <li><me>
-            \frac{d}{dx} 3 + e^x + e^{x^2+1}
+            \frac{d}{dx} \sin t  + \cos^2 t 
           </me></li>
           <li><me>
-            \frac{d}{dx} \ln (1 + \ln x)
+            \frac{d}{dx} \sqrt[3]{13x^2 + 4}
           </me></li>
         </ol>
       </p>
     </li>
     <li>
       <p>
-        Calculate the following derivatives. (12)
+        Calculate the following derivatives. Annotate your work and
+        show sufficient steps to make the process of consecutive
+        differentiation clear. (12)
         <ol>
           <li><me>
-            \frac{d^2}{dx^2} e^{x^2} 
+            \frac{d^2}{dx^2} \frac{x^2+1}{x+1}
           </me></li>
           <li><me>
-            \frac{d^5}{dx^5} x^5 - x^4 + x^3 - x^2 + x - 1 
+            \frac{d^4}{dx^4} e^{9x}
           </me></li>
           <li><me>
-            \frac{d^4}{dx^4} \sin (3\pi x) 
+            \frac{d^6}{dx^6} \cos x - \sin x 
+          </me></li>
+          <li><me>
+            \frac{d^{100}}{dx^{100}} 2^x
           </me></li>
         </ol>
       </p>
@@ -40,19 +45,28 @@
     <li>
       <p>
         Use L'Hôpital's Rule to solve these limits. (Make sure you
-        explicitly check that these limit have the appropriate type
+        explicitly check that these limits have the appropriate type
         before using L'Hôpital's Rule.) (12) 
         <ol>
           <li><me>
-            \lim_{x \rightarrow 0} \frac{\cos x - 1}{x^4 + x^2} 
+            \lim_{x \rightarrow 4} \frac{x^3 - 6x^2 + 9x - 4}{x^3 -
+            11x^2 + 13x - 48} 
           </me></li>
           <li><me>
-            \lim_{x \rightarrow 4} \frac{x^2 - 7x + 12}{x^2 - 8x + 16} 
-          </me></li>
-          <li><me>
-            \lim_{x \rightarrow \infty} \frac{x \ln x}{x^2 + 1} 
+            \lim_{x \rightarrow \infty} \frac{x^2 \ln x}{x^2 + 6}
           </me></li>
         </ol>
+      </p>
+    </li>
+    <li>
+      <p>
+        Consider this trig identity.
+        <me>
+          \sin (2x) = 2 \sin x \cos x 
+        </me>
+        Since both sides are the same, they should have the same
+        derivative. Take the derivative of both sides using
+        appropriate rules and show that the result is the same (6). 
       </p>
     </li>
   </ol>

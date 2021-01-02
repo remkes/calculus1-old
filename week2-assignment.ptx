@@ -1,58 +1,68 @@
 <!--
-  This assignment was used for the Fall 2020 term.
+  This assignment was used for the Winter 2021 term.
 -->
 <section xml:id="section-assignment-week2">
   <title>Week 2 Assignment</title>
   <ol>
     <li>
       <p>
-        Calculate these limits. (Use asymptotic analysis where
-        appropriate and clearly state the asymptotic orders.
-        Otherwise, give reasons for your conclusions about the limits) (15) 
+        For each of the following situations, what kind of function
+        might you choose to encode the dependence? Give reasons for
+        your choices (6) 
         <ol>
-          <li><me>
-            \lim_{x \rightarrow \infty} \frac{x^2 + 3x + 4}{\sqrt{x^5 -
-            2x^2 -6}}
-          </me></li>
-          <li><me>
-            \lim_{x \rightarrow \infty} \frac{e^{2x} + 5x - 4}{x^{18}
-            + 4x^2 + 1}
-          </me></li>
-          <li><me>
-            \lim_{x \rightarrow \infty} \frac{e^{-x}}{\sqrt{x}} 
-          </me></li>
-          <li><me>
-            \lim_{x \rightarrow \infty} \frac{x^2 + 4x +6}{6 + \sin^2 x}
-          </me></li>
-          <li><me>
-            \lim_{x \rightarrow \infty} \frac{e^{x^2+4}}{e^{x^2+x}}
-          </me></li>
+          <li>
+            Grade in a math class (in percentage) as a function of
+            amount of time studied.   
+          </li>
+          <li>
+            Happiness as a function of time spent in math lectures. 
+          </li>
+          <li>
+            Fear as a function fo time remaining until a math final
+            exam. 
+          </li>
        </ol>
       </p>
     </li>
     <li>
       <p>
-        Determine the long term behaviour of these populations models.
-        Identify which are exponential or logistic growth. (8) 
+        For the following pairs of functions <m>f</m> and <m>g</m>,
+        calculate <m>f \circ g</m> and <m>g \circ f</m>. Simplify the
+        expressions for the composition as much as you can. Then state
+        the domains of <m>f</m>, <m>g</m>. <m>f \circ  g</m> and <m>g
+        \circ f</m>. (18) 
         <ol>
-          <li><me>
-            p(t) = \frac{19 e^{\frac{t}{142}}}{242 + 38
-            e^{\frac{t}{142}}} 
-          </me></li>
-          <li><me>
-            p(t) = (t^2 + 3t + 1)e^{-4t}
-          </me></li>
+          <li>
+            <m>f(x) = x^2 + 7x</m> and <m>g(x) = \sin (x^2)</m>. 
+          </li>
+          <li>
+            <m>f(x) = \ln \left( \frac{1}{1+x} \right)</m> and <m>g(x)
+            = \frac{1}{x}</m>. 
+          </li>
+          <li>
+            <m>f(x) = e^{-3x}</m> and <m>g(x) = \ln x</m>. 
+          </li>
         </ol>
       </p>
     </li>
     <li>
       <p>
-        Assume <m>f</m> and <m>g</m> are functions defined on
-        <m>[0,\infty)</m>. Also assume that <m>g</m> is continuous,
-        <m>f(x) \gt g(x)</m>, and <m>\lim_{x \rightarrow \infty} g(x)
-        = \infty</m>. Can you conclude anything about the continuity of
-        <m>f</m>, or about its limit as <m>x \rightarrow \infty</m>?
-        (4) 
+        Invert the following functions on the given domain. (You may
+        assume the function is monotonic on the given domain). State
+        the domain of the inverse. (15) 
+        <ol>
+          <li>
+            <m>f(x) = x^4 + 7</m> on the domain <m>[0,\infty)</m>. 
+          </li>
+          <li>
+            <m>f(x) = \sin \left( \frac{\pi}{2+x} \right)</m> on the
+            domain <m>[0,\infty)</m>. 
+          </li>
+          <li>
+            <m>f(x) = \ln (x^2 - 2)</m> on the domain
+            <m>(\sqrt{2},\infty)</m>. 
+          </li>
+        </ol>
       </p>
     </li>
   </ol>

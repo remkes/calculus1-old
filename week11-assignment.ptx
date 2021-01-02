@@ -1,23 +1,21 @@
 <!--
-  This assignment was used for the Fall 2020 term.
+  This assignment was used for the Winter 2021 term.
 -->
 <section xml:id="section-assignment-week11">
   <title>Week 11 Assignment</title>
   <ol>
     <li>
       <p>
-        Find the maxima and the minima of this function. (For the
-        polynomial, you can guess and factor off some small integer
-        solutions. You can also ask a computer for the roots.) (6) 
+        Find the maxima and the minima of this function. (6)
         <me>
-          f(x) = \frac{x^3 - 2}{x^2 + 1}
+          f(x) = \frac{x^3 + 7}{x^2 - 3}
         </me>
       </p>
     </li>
     <li>
       <p>
-        Which point(s) on the parabola <m>(y-4) = (x-2)^2</m> are
-        closest to the the point <m>(2,10)</m>? (6) 
+        Which point(s) on the parabola <m>y = (x-4)^2 + 3</m> are
+        closest to the the point <m>(4,6)</m>? (6) 
       </p>
     </li>
     <li>
@@ -25,10 +23,10 @@
         Consider the following cost and benefit functions. (8)
         <md>
           <mrow>
-            C(x) \amp = 15x^3 - 105x^2 + 225x 
+            C(x) \amp = 10x^3 - 10x^2 + 30x 
           </mrow>
           <mrow>
-            B(x) \amp = 75 x 
+            B(x) \amp = 80x 
           </mrow>
         </md>
       </p>
@@ -38,9 +36,7 @@
         </p></li>
         <li><p>
           At what production level is there maximum gross benefit while
-          still having cost not exceed benefit? (You can guess small
-          integer roots of the cubic or have a computer find the roots
-          for you). 
+          still having cost not exceed benefit? 
         </p></li>
       </ol>
     </li>

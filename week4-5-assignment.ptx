@@ -1,0 +1,89 @@
+<!--
+  This assignment was used for the Winter 2021 term.
+-->
+<section xml:id="section-assignment-week4-5">
+  <title>Weeks 4 and 5 Assignment</title>
+  <ol>
+    <li>
+      <p>
+        Calculate the following limits. (15) 
+        <ol>
+          <li><me>
+           \lim_{x \rightarrow 1} \frac{x^2 + x - 2}{x^2 - 3x + 2}
+         </me></li>
+         <li><me>
+           \lim_{x \rightarrow 1} \frac{x^2 + x - 6}{x^2 + 2x - 8}
+         </me></li>
+         <li><me>
+           \lim_{x \rightarrow 1} \frac{\frac{1}{x^2} - 1}{x-1}
+         </me></li>
+         <li><me>
+           \lim_{x \rightarrow 2} \frac{x^2 - 5x + 7}{x^2 - 4x + 4}
+         </me></li>
+         <li><me>
+           \lim_{x \rightarrow 0} \frac{\sin^2 x}{x^2 - 1}
+         </me></li>
+       </ol>
+      </p>
+    </li>
+    <li>
+      <p>
+        For each of the following functions, find a value of <m>a</m>
+        that makes the function continuous or demonstrate that no
+        value of <m>a</m> is possible. (12) 
+        <ol>
+          <li><me>
+            f(x) = \left\{ \begin{matrix}
+              x^2 - 3 \amp x \lt 1 \\
+              \frac{a}{x} \amp x \geq 1 
+            \end{matrix} \right.
+          </me></li>
+          <li><me>
+            f(x) = \left\{ \begin{matrix}
+              \sin (ax) \amp x \lt 0 
+              x^2 + 4 \amp x \geq 0
+            \end{matrix} \right.
+          </me></li>
+          <li><me>
+            (x) = \left\{ \begin{matrix}
+              \ln x \amp x \gt e \\
+              x + a \amp x \leq e
+            \end{matrix} \right.
+          </me></li>
+        </ol>
+      </p>
+    </li>
+    <li>
+      <p>
+        Calculate the following limits.
+        <ol>
+          <li><me>
+            \lim_{x \rightarrow \infty} \frac{e^x}{x^9} 
+          </me></li>
+          <li><me>
+            \lim_{x \rightarrow \infty} \frac{\sqrt{x^7 -
+            3}}{\sqrt[3]{x^12} - 4}
+          </me></li>
+          <li><me>
+            \lim_{x \rightarrow \infty} \frac{x
+            62 \ln x + x^3}{x^4} 
+          </me></li>
+          <li><me>
+            \lim_{x \rightarrow \infty} \frac{\sin x + x^4}{\cos x +
+            x^2} 
+          </me></li>
+        </ol>
+      </p>
+    </li>
+    <li>
+      <p>
+        Consider the following limit, where <m>a</m>, <m>b</m>,
+        <m>c</m>, and <m>d</m> are non-zero real numbers. (4) 
+        <me>
+          \lim_{x \rightarrow \infty} \frac{ax^2 + b}{cx^2 + 100000d} 
+        </me>
+        Discuss how the four constants affect the value of the limit.
+      </p>
+    </li>
+  </ol>
+</section>

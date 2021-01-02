@@ -1,5 +1,5 @@
 <!--
-  This assignment was used for the Fall 2020 term.
+  This assignment was used for the Winter 2021 term.
 -->
 <section xml:id="section-assignment-week6">
   <title>Week 6 Assignment</title>
@@ -10,7 +10,7 @@
         derivative. (6)
       </p>
       <me>
-        \frac{d}{dx} x^3 + 7x 
+        \frac{d}{dx} x^3 + 1 
       </me>
     </li>
     <li>
@@ -20,26 +20,15 @@
       </p>
       <ol>
         <li><me>
-          \frac{d}{dx} 8x^3 - 10x^2 + 4
+          \frac{d}{dx} \frac{1}{x^2+7} 
         </me></li>
         <li><me>
-          \frac{d}{dt} \cos t - \frac{t^2+1}{t-4}
+          \frac{d}{dt} \frac{t^2-2t}{3t+1} 
         </me></li>
         <li><me>
-          \frac{d}{dt} (\sin t)(t^4+ 6)(\ln t)
+          \frac{d}{dt} (t^2+1)e^t
         </me></li>
       </ol>
     </li>
-    <li>
-      <p>
-        In the videos and the notes, I've talked about limits,
-        approximation process and derivatives. How do these three
-        ideas fit together? In what way do we need to understand
-        limits and approximation processes to make sense of
-        derivatives? (4)
-      </p>
-    </li>
   </ol>
 </section>
-
-

@@ -1,5 +1,5 @@
 <!--
-  This assignment was used for the Fall 2020 term.
+  This assignment was used for the Winter 2021 term.
 -->
 <section xml:id="section-assignment-week1">
   <title>Week 1 Assignment</title>
@@ -12,32 +12,23 @@
         demical approximations.) (12)
       <ol>
         <li>
-          The parabola <m>y = x^2</m> and the line <m>x + y = -6</m>.
+          The ellipse <m>\frac{x^2}{9} + \frac{y^2}{4} = 1 </m> and the
+          hyperbola <m>\frac{x^2}{9} - \frac{y^2}{4} = 1</m>.
         </li>
         <li>
-          The circle <m>x^2 + y^2 = 9</m> and the hyperbola <m>x^2
-          -y^2 = 1</m>. 
+          The parbola <m>y = 4x^2</m> and the line  <m>y = 3x - 1</m>.
         </li>
         <li>
-          The parabola <m>y=\frac{x^2}{2}</m> and the line through
-          <m>(1,1)</m> with slope <m>4</m>.
+          The circle <m>x^2 + y^2 = 9</m> and the parabola <m>y =
+          x^2</m>.
         </li>
       </ol></p>
     </li>
     <li>
       <p>
-      Consider the ellipse <m>\frac{x^2}{4} + y^2 = 1</m>.  A line in
-      <m>\RR^2</m> can intersect this ellipse in one of three ways:
-      not at all, at one point tangent to the ellipse, and at two
-      points.  For each of the three cases, find a line which is an
-      example of that case. (Write the equations of the lines and show
-      your calculation to verity the intersection behaviour of each
-      line.) (6)
+        What are all the ways that two parabolae (not necessarily
+        centred at the origin) can intersect? (6)  
       </p>
     </li>
   </ol></p>
 </section>
-
-
-
-

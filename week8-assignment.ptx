@@ -1,5 +1,5 @@
 <!--
-  This assignment was used for the Fall 2020 term.
+  This assignment was used for the Winter 2021 term.
 -->
 <section xml:id="section-assignment-week8">
   <title>Week 8 Assignment</title>
@@ -11,16 +11,16 @@
       </p>
       <ol>
         <li><me>
-          \int (\sin x - \tan x \sec x) dx 
+          \int \frac{1}{x^3} - \frac{1}{x} dx 
         </me></li>
         <li><me>
-          \int \left( ex + x^2 - \frac{1}{x} - \frac{1}{x^2} \right) dx 
+          \int 3x^2 + \sec^2 x dx 
         </me></li>
         <li><me>
-          \int (2x^2 + 2^x) dx 
+          \int x^{49} dx 
         </me></li>
         <li><me>
-          \int \frac{1}{12x} dx 
+          \int 3^x - 2^x dx 
         </me></li>
       </ol>
     </li>
@@ -31,24 +31,26 @@
       </p>
       <ol>
         <li><me>
-          \int_0^2 (x^5 - x^2) dx 
+          \int_{-1}^0 x^3 - x^2 dx 
         </me></li>
         <li><me>
-          \int_{-\pi}^{\pi} (\cos x + 2 \sin x ) dx 
+          \int_{-\frac{\pi}{4}}^{\frac{\pi}{4}} \tan s \sec x - \cos x
+          dx 
         </me></li>
         <li><me>
-          \int_0^2 (2^x - 3^x) dx 
+          \int_{\ln 2}^{\ln 4} \frac{e^x}{4} dx 
         </me></li>
         <li><me>
-          \int_{-3}^4 \frac{1}{x} dx 
+          \int_{-3}^2 \frac{1}{x+2} dx 
         </me></li>
       </ol>
     </li>
     <li>
       <p>
-        We did one integral by definition in class, but there are none
-        on this assignment nor will there be any on the exam. What makes
-        this process so difficult? (4) 
+        The derivative was just the derivative, but the integral comes
+        in two forms: the definite and the indefinite. Why the
+        difference? Why should there be two different kinds of
+        integral but only one kind of derivative? (4) 
       </p>
     </li>
   </ol>

@@ -1,5 +1,5 @@
 <!--
-  This assignment was used for the Fall 2020 term.
+  This assignment was used for the Winter 2021 term.
 -->
 <section xml:id="section-assignment-week12">
   <title>Week 12 Assignment</title>
@@ -9,7 +9,7 @@
         Sketch the following function. (Make sure you complete all
         eight steps of the process from the course notes). (12) 
         <me>
-          f(x) = \frac{x^2 + 3x + 4}{x + 3}
+          f(x) = \frac{x^2 - 3x + 1}{x+7}
         </me>
       </p>
     </li>
@@ -19,7 +19,7 @@
         <m>p</m> is measured in millions and <m>t</m> is measured in
         years. (12)
         <me>
-          p(t) = \frac{156e^t(t^2+2)}{11 + e^{2t}} 
+          p(t) = 39 + \frac{1}{15} t + 2^{-\frac{1}{14}t} 
         </me>
       </p>
       <ol>
