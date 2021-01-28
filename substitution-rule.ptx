@@ -3,75 +3,105 @@
   <subsection xml:id="subsection-differentiating-composition">
     <title>Differentiating Composition</title>
     <p>
-      Since doing integrals is doing derivatives backwards, we might try
-      to start reversing all the differentiation rules. Linearity works
-      exactly the same in reverse. We inverted the power rule in the
-      previous list of examples. Inverting the product rule starts to
-      become strange; we postpone that to integration techniques covered
+      Since doing integrals is doing derivatives backwards, it might
+      be reasonable to try to 
+      reversing all the differentiation rules. Linearity works
+      exactly the same in reverse. The inverted power rule works very
+      similarly to the original power rule. 
+      However, inverting the product rule starts to
+      become strange; I postpone that to integration techniques covered
       in Calculus II. Arguably the most important differentiation rule
-      is the chain rule. We will try to reverse it here.
+      is the chain rule. I will try to reverse it here.
     </p>
     <p>
-      If we have <m>f(g(x))</m>, then <m>\frac{d}{dx} f(g(x)) =
-      f^\prime(g(x)) g^\prime(x)</m>. Therefore, we can simply reverse
-      the identity to get:
-      <me>
-        \int f^\prime(g(x)) g^\prime(x) dx = f(g(x)) + c
-      </me>
+      For a composition of function<m>f(g(x))</m>, the derivative is
+      <m>\frac{d}{dx} f(g(x)) = f^\prime(g(x)) g^\prime(x)</m>.
+      The simplest reversal of the chain rule is to integrate the
+      right side to produce the left. 
+    </p>
+    <me>
+      \int f^\prime(g(x)) g^\prime(x) dx = f(g(x)) + c
+    </me>
+    <p>
+      When I covered the chain rule, I recommended labelling the inside
+      function with a new variable <m>u = g(x)</m>. This labelling
+      becomes essential now. To implement the inverse of the chain
+      rule, I'm essentially going to change the integral from the old
+      variable <m>x</m> to a new variable <m>u</m> using this
+      labelling <m>u = g(x)</m>.
     </p>
     <p>
-      When we covered the chain rule, I recommended labelling the inside
-      function with a new variable <m>u = g(x)</m>. That becomes even
-      more important here. It's easiest to explain the process by
-      example.
+      This gives me a process, which is called the substitution rule.
+      For a integral that looks something like the output of a chain
+      rule, I'll try to choose an inside function and label if <m>u =
+      g(x)</m>. Then I'll differentiate and write the following
+      equation.
+    </p>
+    <me>
+      du = g^\prime(x) dx 
+    </me>
+    <p>
+      The <m>dx</m> in the integral is not just a piece of notation
+      that indicates the variable. It's actually part of the integral
+      itself, even though it disappears in the anti-derivative
+      process. When I do the substitution rule, I need to replace this
+      <m>dx</m> with <m>du</m>. However, I can't just replace it
+      directy. The previous equation gives me the appropriate
+      replacement: I need to replace <m>g^\prime(x) dx</m> with
+      <m>du</m>. Lastly, if there are any other piece of the original
+      integral which aren't accounted for in the replacements I've
+      done so far, I need to figure a way to replace those pieces as
+      well, usually going some algebra with the new variable <m>u</m>.
+      The key idea is that all of the original pieces of the original
+      variable -- all of the <m>x</m>'s, must be replace with
+      <m>u</m>. The old integral is entirely in <m>x</m>; the new
+      integral is entirely in <m>u</m>. Once I've done the
+      substitution, I get a new integral in <m>u</m> which is hopefuly
+      easier to calculate than the original. 
+    </p>
+    <p>
+      This is difficult to understand from the general description, so
+      I'll go direclty into a bunch of examples which show the
+      technique. 
     </p>
   </subsection>
-  <subsection xml:id="subsection-chain-rule-examples">
+  <subsection xml:id="subsection-substitution-examples-indef">
+    <title>Substitution Examples - Indefinite Integrals</title>
     <example>
      <statement>
         <me>
          \int 2x (x^2+1)^4 dx
         </me>
         <p>
-          This integral involves a composition. Label the inside
-          function <m>u = x^2 + 1</m>. Then we change the entire
-          integral from the variable <m>x</m> to the varaibles <m>u</m>.
-          This is a substitution, hence the rule is called the
-          substitution rule. We also need to change the differential
-          term <m>dx</m>. This term is strange and confusing, and we
-          really don't have the room and energy to go into all the
-          historical subtleties of differentials. If <m>u = u(x)</m> is
-          the relationthip between <m>u</m> and <m>x</m>, then <m>du =
-          u^\prime(x) dx</m> is the relationship between <m>dx</m> and
-          <m>du</m>. Here <m>u = x^2 +1</m>, so <m>du = (2x) dx</m>.
-          Let's rewrite the original integral.
-          <me>
-            \int (x^2+1)^4 (2x)dx
-          </me>
+          This looks like a composition, with an inside function 
+          <m>x^2 + 1</m>. I'll try a substitution <m>u = x^2 +1</m> to
+          see if it makes the integral more reasonable.  I need to
+          change the differential term; here, <m>u = x^2 +1</m>, so
+          <m>du = (2x) dx</m>. If I regroup the terms in the original
+          integral, I can replace <m>2x dx</m> with <m>du</m>. This
+          lets me replace all of the <m>x</m> variables. 
         </p>
+        <me>
+          \int (x^2+1)^4 (2x)dx \mapsto \int u^4 du
+        </me>
         <p>
-          We can see that substitution works well here: we can replace
-          <m>x^2 +1</m> with <m>u</m> and <m>(2x) dx</m> with
-          <m>du</m>.
-          <me>
-            \int u^4 du
-          </me>
-        </p>
-        <p>
-          We can find the anti-derivative easily by reversing the power
+          Then can find the anti-derivative easily by reversing the power
           rule.
-          <me>
-            \int u^4 du = \frac{u^5}{5} + c
-          </me>
         </p>
+        <me>
+          \int u^4 du = \frac{u^5}{5} + c
+        </me>
         <p>
-          Then we undo the substitution, by replacing <m>u</m> with
-          <m>x^2+4</m>.
-          <me>
-            \int 2x (x^2+1)^4 dx = \int u^4 du = \frac{u^5}{5} + c =
-            \frac{(x^2+1)^5}{5} + c
-          </me>
+          AFter I find an antiderivative in the new variabl e
+          <m>u</m>, I need to return to the original variable by
+          undoing the substitution. I simply replace <m>u</m> with
+          <m>x^2+4</m>. This gives me an antiderivative for the
+          original function in the original variable. 
         </p>
+        <me>
+          \int 2x (x^2+1)^4 dx = \int u^4 du = \frac{u^5}{5} + c =
+          \frac{(x^2+1)^5}{5} + c
+        </me>
       </statement>
     </example>
     <example>
@@ -166,14 +196,17 @@
         </me>
       </statement>
     </example>
+  </subsection>
+  <subsection xml:id="subsection-substitution-examples-def">
+    <title>Substitution Examples 0 Definite Integrals</title>
     <p>
-      When we do substitution with definite integrals, we also need to
+      When I do substitution with definite integrals, I also need to
       change the bounds. If <m>a</m> and <m>b</m> are the bounds in
-      <m>x</m> and <m>u = u(x)</m> is the relationship between <m>u</m>
-      and <m>x</m>, then <m>u(a)</m> and <m>u(b)</m> will be the bounds
-      in <m>u</m>. One nice thing about definite integrals is that we
-      can use these new bounds to evaluate the integral. We don't have
-      to substitute back after we finish.
+      <m>x</m> and <m>u = g(x)</m> is the relationship between <m>u</m>
+      and <m>x</m>, then <m>g(a)</m> and <m>g(b)</m> will be the bounds
+      in <m>u</m>. One nice thing about definite integrals is that I
+      can use these new bounds to evaluate the integral. I don't have
+      to substitute back after I finish.
     </p>
     <example>
       <statement>
