@@ -65,8 +65,8 @@
             3}}{\sqrt[3]{x^12} - 4}
           </me></li>
           <li><me>
-            \lim_{x \rightarrow \infty} \frac{x
-            62 \ln x + x^3}{x^4} 
+            \lim_{x \rightarrow \infty} \frac{x^2
+            \ln x + x^3}{x^4} 
           </me></li>
           <li><me>
             \lim_{x \rightarrow \infty} \frac{\sin x + x^4}{\cos x +

@@ -506,13 +506,13 @@
       </statement>
       <solution>
         <p>
-          The exponential coefficient in the denominator is larger than
+          The exponential coefficient in the denominator is smaller than
           the exponential coefficient the numerator, so the asymptotic
-          order of the denominator is higher and the long term
-          behaviour is decay to 0. This looks very close to logistic
-          growth, but it isn't: the exponential coefficients are not
-          the same, and its doesn't level off to a non-zero carrying
-          capacity. 
+          order of the denominator is lower and the long term
+          behaviour is growth to infinity. This looks very close to
+          logistic growth, but it isn't: the exponential coefficients
+          are not the same, and its doesn't level off to a non-zero
+          carrying capacity.
         </p>
       </solution>
     </activity>
