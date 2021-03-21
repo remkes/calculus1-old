@@ -55,7 +55,7 @@
           We use the limit definition of the derivative.
           <me>
             \frac{d}{dx} \sqrt{5x} = \lim_{h \rightarrow 0}
-            \frac{\sqrt{5(x+h)} - \sqrt{5h}}{h} 
+            \frac{\sqrt{5(x+h)} - \sqrt{5x}}{h} 
           </me>
           Then we simplify this expression, trying to find a way to
           factor an <m>h</m> from the numerator so that we can cancel
@@ -68,9 +68,9 @@
           changed the value of the fraction at all. 
           <md>
             <mrow>
-              \lim_{h \rightarrow 0} \frac{\sqrt{5(x+h)} - \sqrt{5}}{h}
+              \lim_{h \rightarrow 0} \frac{\sqrt{5(x+h)} - \sqrt{5x}}{h}
               \amp = \lim_{h \rightarrow 0} \frac{(\sqrt{5(x+h)} -
-              \sqrt{5x})(\sqrt{5(x+h)} + \sqrt{5x}}{h(\sqrt{5(x+h)} -
+              \sqrt{5x})(\sqrt{5(x+h)} + \sqrt{5x})}{h(\sqrt{5(x+h)} +
               \sqrt{5x})}
             </mrow>
             <mrow>
@@ -257,24 +257,24 @@
       </statement>
       <solution>
         <p>
-          We use the quotient rule. I will label the pieces as <m>f(x)
+          I use the quotient rule. I will label the pieces as <m>f(x)
           = x^2+3</m> and <m>g(x) = x-4</m>. Here is the form of the
-          product rule.
+          quotient rule.
           <me>
-            \frac{d}{dx} f(x) g(x) = g(x) \frac{d}{dx} f(x) - f(x)
-            \frac{d}{dx} g(x) 
+            \frac{d}{dx} f(x) g(x) = \frac{g(x) \frac{d}{dx} f(x) - f(x)
+            \frac{d}{dx} g(x)}{(g(x))^2} 
           </me>
-          We apply this form to the piece of this product. 
+          I apply this form to the piece of this product. 
           <me>
             \frac{(x-4) \frac{d}{dx} (x^2+3) - (x^2+3) \frac{d}{dx}
-            (x-4)}{(x-4))^2}
+            (x-4)}{(x-4)^2}
           </me>
-          We use linearity to split up the derivatives in the
+          I use linearity to split up the derivatives in the
           numerator. Then we use the power rule and known derivatives
           for these derivatives. 
           <me>
             \frac{(x-4) \left( 2x + 0 \right) - (x^2+3)
-            (1-0)}{(x-4))^2}
+            (1-0)}{(x-4)^2}
           </me>
           To put the answer in a more pleasant form, we distribute the
           multiplications in the numerator to write it as one

@@ -13,7 +13,7 @@
             \frac{d}{dx} \ln (\cos x)
           </me></li>
           <li><me>
-            \frac{d}{dx} \sin t  + \cos^2 t 
+            \frac{d}{dt} \sin t  + \cos^2 t 
           </me></li>
           <li><me>
             \frac{d}{dx} \sqrt[3]{13x^2 + 4}
@@ -50,7 +50,7 @@
         <ol>
           <li><me>
             \lim_{x \rightarrow 4} \frac{x^3 - 6x^2 + 9x - 4}{x^3 -
-            11x^2 + 13x - 48} 
+            11x^2 + 13x - 60} 
           </me></li>
           <li><me>
             \lim_{x \rightarrow \infty} \frac{x^2 \ln x}{x^2 + 6}

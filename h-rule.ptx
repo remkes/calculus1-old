@@ -29,15 +29,21 @@
         <p>
           Consider the claim that <m>\ln x</m> is asymptotically
           slower than <m>\sqrt{x}</m>.
-          We use L'Hôpital's rule to prove the claim.
-          <me>
-            \lim_{x \rightarrow \infty} \frac{\ln x}{\sqrt{x}} =
-            \lim_{x \rightarrow \infty}
-            \frac{\frac{1}{x}}{\frac{1}{2\sqrt{x}}} = \lim_{x
-            \rightarrow \infty} \frac{2 \sqrt{x}}{x} = \lim_{x
-            \rightarrow \infty} \frac{2}{\sqrt{x}} = 0
-          </me>
+          I will  use L'Hôpital's rule to prove the claim. Both the
+          numerator and the denominator here approach <m>\infty</m>,
+          so the rule applies. I go ahead to differentiate both
+          numerator and denominator, then simplify the nested
+          fraction. The result is a limit I know how to do, where the
+          numerator is constant and the denominator becomes very
+          large. 
         </p>
+        <me>
+          \lim_{x \rightarrow \infty} \frac{\ln x}{\sqrt{x}} =
+          \lim_{x \rightarrow \infty}
+          \frac{\frac{1}{x}}{\frac{1}{2\sqrt{x}}} = \lim_{x
+          \rightarrow \infty} \frac{2 \sqrt{x}}{x} = \lim_{x
+          \rightarrow \infty} \frac{2}{\sqrt{x}} = 0
+        </me>
         <p>
           A limit of <m>0</m> means that the numerator has lower
           asymptotic order than the denominator; we were justified in
