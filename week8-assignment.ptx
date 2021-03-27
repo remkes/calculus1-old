@@ -34,7 +34,7 @@
           \int_{-1}^0 x^3 - x^2 dx 
         </me></li>
         <li><me>
-          \int_{-\frac{\pi}{4}}^{\frac{\pi}{4}} \tan s \sec x - \cos x
+          \int_{-\frac{\pi}{4}}^{\frac{\pi}{4}} \tan x \sec x - \cos x
           dx 
         </me></li>
         <li><me>

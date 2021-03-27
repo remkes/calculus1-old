@@ -11,7 +11,7 @@
       </p>
       <ol>
         <li><me>
-          \int \sin (3x - 7x^3) (3-14x) dx
+          \int \sin (3x - 7x^2) (3-14x) dx
         </me></li>
         <li><me>
           \int \frac{7x}{9x + 5} dx 
