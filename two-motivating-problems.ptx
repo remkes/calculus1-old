@@ -96,12 +96,12 @@
       lines which approximate a tangent line. We adjust the
       approximation by letting the two points of the secant line come
       closer and closer together, as in the <xref
-      ref="figure-secant-approximations1" />. In this way,
+      ref="figure-secant-approximations" />. In this way,
       we build an approximation process which can get better an
       better. However, algebra an never finish the process <mdash />
       it can just supply improved approximations.
     </p>
-    <figure xml:id="figure-secant-approximations1">
+    <figure xml:id="figure-secant-approximations">
       <caption>Secant Approximations to the Tangent Line</caption>
       <image xml:id="figure13" width="85%">
         <asymptote>

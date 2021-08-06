@@ -3,8 +3,8 @@
   <subsection xml:id="subsection-equations-lines">
     <title>Equations of Lines</title>
     <p>
-      When we defined loci in <xref ref="section-analytic-geometry"
-      />, we mentioned that the first and most common type of
+      When I defined loci in <xref ref="section-analytic-geometry"
+      />, I mentioned that the first and most common type of
       locus is a line. This section reviews some definitions and
       calculations for lines. This should be familiar material from
       your previous mathematical experience, but it is worth
@@ -32,15 +32,15 @@
           \sqrt{7}y \amp = \pi x + \frac{1}{\sqrt{19}}
         </mrow>
       </md>
-      In all these equations, all we have done is multiplied each
+      In all these equations, all I have done is multiplied each
       varaible by some constant and added an additional constant. By
-      adding and subtracting terms, we can put some of the variables
-      or the constant on the right or left side of the equation, as we
+      adding and subtracting terms, I can put some of the variables
+      or the constant on the right or left side of the equation, as I
       see fit. 
     </p>
     <p>
-      If we wanted a general form, then let the symbols <m>a_1</m>,
-      <m>a_2</m> and<m>a_3</m> stand for constants. We could bring
+      If I wanted a general form, then I let the symbols <m>a_1</m>,
+      <m>a_2</m> and<m>a_3</m> stand for constants. I could bring
       everything over to one side of the equation and write the
       general form of an equation of a line this way:
       <me>
@@ -48,7 +48,7 @@
       </me>.
       This is a reasonable general form. All lines can be described by
       an equation of this form. However, this is not the most
-      intuitive form -- we get that form by considering slope.
+      intuitive form -- I get that form by considering slope.
     </p>
   </subsection>
   <subsection xml:id="subsection-slope">
@@ -67,49 +67,49 @@
       slope is simply undefined). 
     </p>
     <p>
-      To calculate the slope, we take choose any two points on the
-      line. We calculate the difference in the <m>y</m> coordinates
-      and call this the <em>rise</em>: it measures how far up the line
-      goes between the two points. Then we calculate the difference in
-      the <m>x</m> coordinates and call this the <em>run</em>: it
-      measures how far we move horizontally between the two points.
-      The slope is the rise divided by the run. 
+      To calculate the slope, I can choose any two points on the
+      line. I calculate the difference in the <m>y</m> coordinates
+      and call this the <em>rise</em>: it measures the vertical
+      distance between the two points. Then I calculate the difference
+      in the <m>x</m> coordinates and call this the <em>run</em>: it
+      measures the horizontally distance between the two points.  The
+      slope is the rise divided by the run.
       <me>
         \text{Slope} = \frac{\text{Rise}}{\text{Run}}
       </me>
       An example of a slope calculation is shown in <xref
       ref="figure-slope" />.
-      <figure xml:id="figure-slope">
-        <caption>Slope of the Line <m>y = \frac{1}{2} x + 2</m></caption>
-        <image xml:id="figure81" width="80%">
-          <asymptote>
-            size(12cm);
-
-            import graph;
-
-            xlimits(0,8);
-            ylimits(0,6);
-
-            xaxis("$x$",Ticks("%"));
-            yaxis("$y$",Ticks("%"));
-
-            dot((2,3));
-            dot((6,5));
-            label("$(2,3)$",(2,3),NW);
-            label("$(6,5)$",(6,5),NW);
-
-            draw((0,2)--(8,6));
-
-            draw((2,3)--(6,3)--(6,5));
-
-            label("Run $= 6 - 2 = 4$",(4,3),S);
-            label("Rise $= 5 - 3 = 2$",(6,4),E);
-
-            label("Slope $= \frac{2}{4} = \frac{1}{2}$", (3,1),E);
-          </asymptote>
-        </image>
-      </figure>
     </p>
+    <figure xml:id="figure-slope">
+      <caption>Slope of the Line <m>y = \frac{1}{2} x + 2</m></caption>
+      <image xml:id="figure81" width="80%">
+        <asymptote>
+          size(12cm);
+
+          import graph;
+
+          xlimits(0,8);
+          ylimits(0,6);
+
+          xaxis("$x$",Ticks("%"));
+          yaxis("$y$",Ticks("%"));
+
+          dot((2,3));
+          dot((6,5));
+          label("$(2,3)$",(2,3),NW);
+          label("$(6,5)$",(6,5),NW);
+
+          draw((0,2)--(8,6));
+
+          draw((2,3)--(6,3)--(6,5));
+
+          label("Run $= 6 - 2 = 4$",(4,3),S);
+          label("Rise $= 5 - 3 = 2$",(6,4),E);
+
+          label("Slope $= \frac{2}{4} = \frac{1}{2}$", (3,1),E);
+        </asymptote>
+      </image>
+    </figure>
     <p>
       This method of calculation shows us again why veritcal lines
       have no slope. The <m>x</m> coordinates of any two points on a
@@ -121,7 +121,7 @@
   <subsection xml:id="subsection-slope-intercept">
     <title>Slope Intercept Form</title>
     <p>
-      Now that we have defined slope, we can reviewi or introduce a
+      Now that I have defined slope, I can review or introduce a
       common way of writing the equations of lines. Go back to the
       four example lines above; in each of these, I will re-arrange
       the equation so that <m>y</m> is along on the left side. 
@@ -139,10 +139,10 @@
           y \amp = \frac{\pi}{\sqrt{7}} x + \frac{1}{\sqrt{19}\sqrt{7}}
         </mrow>
       </md>
-      I can describe the general form we get by solving for <m>y</m>
-      on the left. Let <m>m</m> and <m>b</m> be constants 
-      (the choice of these letters if conventional and used in many
-      places). Then all of these equations have this form:
+      To get the general form, I solving for <m>y</m> on the left. Let
+      <m>m</m> and <m>b</m> be constants (the choice of these letters
+      if conventional and used in many places). This process produces
+      the well-known slope-intercept form of the equation of a line.
       <me>
         y = mx + b 
       </me>
@@ -150,83 +150,83 @@
       the line. The number <m>b</m> will be the <m>y</m>-coordinate of
       the point where the line crosses the <m>y</m> axis; this is
       called the <m>y</m>-intercept. These two pieces of information
-      are enough to completely determine the line. If we know where a
-      line crosses the <m>y</m>-axis and we know how quickly is grows from
-      that point (its slope), then we know everything about the line.
-      <xref ref="figure-slope-intercept" /> shows
-      an example to illustrate this slope-intercept form.
-      <figure xml:id="figure-slope-intercept">
-        <caption>Slope-Intercept Form </caption>
-        <image xml:id="figure82" width="80%">
-          <asymptote>
-            size(12cm);
-
-            import graph;
-
-            xlimits(-4,8);
-            ylimits(-4,3);
-
-            xaxis("$x$",Ticks("%"));
-            yaxis("$y$",Ticks("%"));
-
-            draw((-4,-4)--(8,2));
-
-            draw((2,-1)--(6,-1)--(6,1));
-
-            draw((-2,1)--(0,-2),Arrow);
-
-            label("$y$-intercept $b$",(-2,1),N);
-            label("Slope $m$", (4,-1),S);
-
-            label("$y = mx + b$", (3,-3),E);
-          </asymptote>
-        </image>
-      </figure>
+      are enough to completely determine the line. If I know where a
+      line crosses the <m>y</m>-axis and I know how quickly is grows from
+      that point (its slope), then I know everything about the line.
+      <xref ref="figure-slope-intercept" /> shows an example to
+      illustrate this slope-intercept form.
     </p>
+    <figure xml:id="figure-slope-intercept">
+      <caption>Slope-Intercept Form </caption>
+      <image xml:id="figure82" width="80%">
+        <asymptote>
+          size(12cm);
+
+          import graph;
+
+          xlimits(-4,8);
+          ylimits(-4,3);
+
+          xaxis("$x$",Ticks("%"));
+          yaxis("$y$",Ticks("%"));
+
+          draw((-4,-4)--(8,2));
+
+          draw((2,-1)--(6,-1)--(6,1));
+
+          draw((-2,1)--(0,-2),Arrow);
+
+          label("$y$-intercept $b$",(-2,1),N);
+          label("Slope $m$", (4,-1),S);
+
+          label("$y = mx + b$", (3,-3),E);
+        </asymptote>
+      </image>
+    </figure>
     <p>
-      As we said above, a horizontal lines has a slope of zero. In
+      As I said above, a horizontal lines has a slope of zero. In
       slope-intercept form this is<m>m = 0</m>, so the equation of the
       line looks like
       <me>
         y = 0x + b = b 
       </me>.
       Horizontal lines have equations <m>y = b</m> for some constant.
-      All we need to specify if the <m>y</m> coordinate. <m>y = 4</m>
+      All I need to specify is the <m>y</m> coordinate. <m>y = 4</m>
       is the horizontal line where the <m>y</m>-coordinate is always
       <m>4</m>, and the <m>x</m>-coordinate can be anything
       whatsoever. <xref ref="figure-horizontal-lines" /> shows some
       horizontal lines. 
-      <figure xml:id="figure-horizontal-lines">
-        <caption>Horizontal Lines</caption>
-        <image xml:id="figure83" width="80%">
-          <asymptote>
-            size(12cm);
-
-            import graph;
-
-            xlimits(-8,8);
-            ylimits(-8,8);
-
-            xaxis("$x$",Ticks("%"));
-            yaxis("$y$",Ticks("%"));
-
-            draw((-8,-7)--(8,-7));
-            draw((-8,-3)--(8,-3));
-            draw((-8,-1)--(8,-1));
-            draw((-8,4)--(8,4));
-            draw((-8,6)--(8,6));
-
-            label("$y = -7$",(-4,-7),N);
-            label("$y = -3$",(-4,-3),N);
-            label("$y = -1$",(-4,-1),N);
-            label("$y = 4$",(-4,4),N);
-            label("$y = 6$",(-4,6),N);
-          </asymptote>
-        </image>
-      </figure>
     </p>
+    <figure xml:id="figure-horizontal-lines">
+      <caption>Horizontal Lines</caption>
+      <image xml:id="figure83" width="80%">
+        <asymptote>
+          size(12cm);
+
+          import graph;
+
+          xlimits(-8,8);
+          ylimits(-8,8);
+
+          xaxis("$x$",Ticks("%"));
+          yaxis("$y$",Ticks("%"));
+
+          draw((-8,-7)--(8,-7));
+          draw((-8,-3)--(8,-3));
+          draw((-8,-1)--(8,-1));
+          draw((-8,4)--(8,4));
+          draw((-8,6)--(8,6));
+
+          label("$y = -7$",(-4,-7),N);
+          label("$y = -3$",(-4,-3),N);
+          label("$y = -1$",(-4,-1),N);
+          label("$y = 4$",(-4,4),N);
+          label("$y = 6$",(-4,6),N);
+        </asymptote>
+      </image>
+    </figure>
     <p>
-      We've said several times that a vertical line has no slope and
+      I've said several times that a vertical line has no slope and
       cannot be expressed in slope-intercept form. However, the
       previous paragraph gives us a good idea of how to understand
       vertical lines. If a horizontal line is simply determined by its
@@ -235,62 +235,63 @@
       horizontal line. <m>x - -3</m> is the horizontal line of points
       with <m>x</m>-coordinate <m>-3</m> and any <m>y</m> coordinate
       whatsoever. <xref ref="figure-vertical-lines" /> shows some
-      horizontal lines. 
-      <figure xml:id="figure-vertical-lines">
-        <caption>Vertical Lines</caption>
-        <image xml:id="figure84" width="80%">
-          <asymptote>
-            size(12cm);
-
-            import graph;
-
-            xlimits(-8,8);
-            ylimits(-8,8);
-
-            xaxis("$x$",Ticks("%"));
-            yaxis("$y$",Ticks("%"));
-
-            draw((-7,-8)--(-7,8));
-            draw((-3,-8)--(-3,8));
-            draw((3,-8)--(3,8));
-            draw((5,-8)--(5,8));
-
-            label("$x = -7$",(-7,6),E);
-            label("$x = -3$",(-3,4),W);
-            label("$x = 3$",(3,-2),W);
-            label("$x = 5$",(5,-4),E);
-          </asymptote>
-        </image>
-      </figure>
+      horizontal lines.
     </p>
+    <figure xml:id="figure-vertical-lines">
+      <caption>Vertical Lines</caption>
+      <image xml:id="figure84" width="80%">
+        <asymptote>
+          size(12cm);
+
+          import graph;
+
+          xlimits(-8,8);
+          ylimits(-8,8);
+
+          xaxis("$x$",Ticks("%"));
+          yaxis("$y$",Ticks("%"));
+
+          draw((-7,-8)--(-7,8));
+          draw((-3,-8)--(-3,8));
+          draw((3,-8)--(3,8));
+          draw((5,-8)--(5,8));
+
+          label("$x = -7$",(-7,6),E);
+          label("$x = -3$",(-3,4),W);
+          label("$x = 3$",(3,-2),W);
+          label("$x = 5$",(5,-4),E);
+        </asymptote>
+      </image>
+    </figure>
   </subsection>
   <subsection xml:id="subsection-calculating-lines">
     <title>Calcluating Equations of Lines</title>
     <p>
-      We often need to calculate the equation of a line given various
-      pieces of information about this line. 
+      It is use to know how to calculate the equation of a line given
+      various pieces of information about this line.
     </p>
-    <ul>
+    <p><ul>
       <li>
-        If we are give the slope and the <m>y</m>-intercept, we just
+        If I am given the slope and the <m>y</m>-intercept, I just
         put those numbers directly into the slope-intercept form. For
-        example, if we wanted the line with slope <m>\frac{-2}{5}</m>
-        and <m>y</m>-intercept <m>3</m>, we would simply put those
-        numbers into the form and get the equation of the line:
+        example, if I was asked for the line with slope
+        <m>\frac{-2}{5}</m> and <m>y</m>-intercept <m>3</m>, I would
+        simply put those numbers into the form and get the equation of
+        the line:
         <me>
           y = \frac{-2}{5} x + 3 
         </me>.
       </li>
       <li>
-        Sometimes we are given a point and a slope. For example, say
-        we wanted the equation of the line with slope <m>4</m> that
-        goes through the point <m>(2,2)</m>. We have the slope, so we
-        can put that in place of <m>m</m> in the slope intercept form.
+        Sometimes I am given a point and a slope. For example, say
+        I was asked for the equation of the line with slope <m>4</m>
+        that goes through the point <m>(2,2)</m>. I have the slope, so
+        I can put that in place of <m>m</m> in the slope intercept form.
         <me>
           y = 4x + b 
         </me>
-        The <m>y</m>-intercept is still unknown. However, if we put in
-        the point, we can solve for <m>b</m>.
+        The <m>y</m>-intercept is still unknown. However, if I
+        substitute the point, I can solve for <m>b</m>.
         <md>
           <mrow>
             y \amp = 4x + b 
@@ -318,11 +319,11 @@
       <li>
         There is one last way of describing a line: by giving two
         points. There is a unique line passing between any two points
-        <mdash /> but how do we get the equation of this line? We
+        <mdash /> but how do I get the equation of this line? I
         calculate the slope. Recall that slope is defined as the
         fraction rise over run. Rise is the difference in the <m>y</m>
         coordinates and run is the difference in the <m>x</m>
-        coordinates, so given two points we can calculate the slope.
+        coordinates, so given two points I can calculate the slope.
         I'll show this by example: what is the line through the point
         <m>(3,-5)</m> and <m>(1,1)</m>? First I'll calculate the
         slope.
@@ -334,8 +335,8 @@
         <me>
           y = -3x + b 
         </me>.
-        Then the process is the same as the previous case: we have the
-        slope and we have a point (two, in fact). We put in a point
+        Then the process is the same as the previous case: I have the
+        slope and I have a point (two, in fact). I can substitue a point
         (either point will work) to calculate the intercept.
         <md>
           <mrow>
@@ -351,15 +352,13 @@
             4 \amp = b 
           </mrow>
         </md>
-        With the intercept, we can write the equation of the line.
+        With the intercept, I can write the equation of the line.
         <me>
           y = -3x + 4
         </me>
         I'll leave it up to you to check that if I had used the other
         point, I would have calculated the same value for <m>b</m>. 
       </li>
-    </ul>
+    </ul></p>
   </subsection>
 </section>
-
-

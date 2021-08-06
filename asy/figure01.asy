@@ -1,4 +1,4 @@
-size(10cm);
+size(10cm,0);
 
 import graph;
 

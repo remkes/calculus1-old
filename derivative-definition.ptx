@@ -2,53 +2,15 @@
   <title>Definition of the Derivative</title>
   <subsection xml:id="subsection-secant-lines">
     <title>Limits of Secant Lines</title>
-    <figure xml:id="figure-secant-approximations2">
-      <caption>Secant Approximations to the Tangent Line</caption>
-      <image xml:id="figure13" width="85%">
-        <asymptote>
-          size(10cm);
-
-          import graph;
-
-          xaxis("$x$");
-          yaxis("$y$");
-
-          real f1(real x) {return x^2;}
-
-          draw(graph(f1,-1,2.1));
-
-          draw((0,-1)--(3,5));
-          draw((0,0)--(3,3));
-          draw((0,-.25)--(3,3.5));
-          draw((0,-.5)--(3,4));
-          draw((0,-.75)--(3,4.5));
-
-          label("5",(3,5),E);
-          label("4",(3,4.5),E);
-          label("3",(3,4),E);
-          label("2",(3,3.5),E);
-          label("1",(3,3),E);
-
-          label("Slope of Line  1 = $\frac{f(1) - f(0)}{1-0} =
-            1$",(4,1),E);
-          label("Slope of Line  2 = $\frac{f(1) -
-            f(1/4)}{1-\frac{1}{4}} = 5/4$",(4,2),E);
-          label("Slope of Line  3 = $\frac{f(1) -
-            f(1/2)}{1-\frac{1}{2}} = 3/2$",(4,3),E);
-          label("Slope of Line  4 = $\frac{f(1) -
-            f(3/4)}{1-\frac{3}{4}} = 7/4$",(4,4),E);
-          label("Line  5 is tangent line with slope 2.",(4,5),E);
-        </asymptote>
-      </image>
-    </figure>
     <p>
       In <xref ref="section-population-growth" />, we defined the
       derivative as the rate of change of a function. In <xref
       ref="section-two-motivating-problems" />, we connected that
       definition to the geometry of slopes of tangent lines and
       constructed a process by which algebra can approximate a tangent
-      line by using secant lines. Now that we have limits, we can ask
-      for the limit of that approximation process.
+      line by using secant lines, shown in <xref
+      ref="figure-secant-approximations" />. Now that we have limits,
+      we can ask for the limit of that approximation process.
     </p>
     <p>
       Let's say we want the slope of the tangent line at a point

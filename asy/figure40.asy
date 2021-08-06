@@ -2,8 +2,8 @@ size(10cm);
 
 import graph;
 
-yaxis("popluation (thousands)",0,9);
-xaxis("time (years)",0,12,Ticks());
+yaxis("popluation",0,9);
+xaxis("time",0,12,Ticks());
 
 dot((0,1.032));
 dot((1,1.214));

@@ -4,7 +4,7 @@
     <title>A Motivating Problem</title>
     <p>
       A very natural motivating problem is population growth. Here are
-      some reasonable mathematical questions we might ask about
+      some reasonable mathematical questions one might ask about
       population.
       <ul>
         <li>
@@ -112,7 +112,7 @@
       </tabular>
     </table>
     <p>
-      We can try to match this data with a function, as we did with
+      I can try to match this data with a function, as I did with
       other functions in <xref ref="subsection-regression" />. The
       growth of this population is best matched by an exponential
       function, show in <xref ref="figure-exponential-regression" />. 
@@ -154,8 +154,8 @@
       observation, the data looks like it doubles roughly every four
       years. (This isn't perfect, since over some five year patterns
       is more than doubles and over other it fall short, but this
-      isn't a bad guess). For doubling, we can think of powers of
-      <m>2</m>, so an exponential function base <m>2</m>. If we double
+      isn't a bad guess). For doubling, I can think of powers of
+      <m>2</m>, so an exponential function base <m>2</m>. If I double
       every <m>d</m> unites of time, the appropriate exponential
       function is
       <me>
@@ -169,9 +169,9 @@
       to do the regression, and it fits reasonably well. 
     </p>
     <p>
-      We conventionally use the base <m>e</m> in calculus. I can
+      It is conventional to use the base <m>e</m> in calculus. I can
       change my previous exponential function using the fact that <m>2
-      = e^{\ln 2</m>. 
+      = e^{\ln 2}</m>. 
       <me>
         p(t) = a \left( (e^{\ln 2} \right)^{\frac{1}{d} t} 
       </me>

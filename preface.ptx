@@ -1,36 +1,37 @@
 <preface xml:id="preface">
-  <section xml:id="section-organization">
-  <title>Organization</title>
-  <p>
-    This document containt content and activities for a blended or
-    online Calculus 1 course. The course is organized into 12 weeks
-    following a typical 3 month Canadian academic term.  Each chapter
-    (week) of the notes includes several sections of content as well
-    as activities and an assignment.
-  </p>
-  <p>
-    This document is not meant to stand alone; instead, it is
-    designed to be the written reference material for a set of videos
-    or lectures. The main purpose of the document is to be a
-    record of the course content which is easier to use for reference
-    than the videos. There are some examples in the main body, but
-    most examples are presented as activities for the student to
-    first attempt and then compare with the posted solution.
-  </p>
-  <p>
-    For each week of the course, you are expected to watch the videos
-    for the week and do the activities and assignmnets presented in
-    this notes. In the activities, material labeled ``Extra
-    Practice'' or ``Challenge Problems' is optional material. 
-  </p>
-  </section>
-  <section xml:id="section-resources">
-  <title>Other Resources</title>
-  <p>
-    In addition to the notes associated to each lecture, there are a
-    number of other resources which are distributed via the course
-    Moodle site. These resources have been developed to assist you,
-    so please make use of them.
+  <paragraphs>
+    <title>Organization</title>
+    <p>
+      This document containt content and activities for a blended or
+      online Calculus 1 course. The course is organized into 12 weeks
+      following a typical 3 month Canadian academic term.  Each chapter
+      (week) of the notes includes several sections of content as well
+      as activities and an assignment.
+    </p>
+    <p>
+      This document is not meant to stand alone; instead, it is
+      designed to be the written reference material for a set of videos
+      or lectures. The main purpose of the document is to be a
+      record of the course content which is easier to use for reference
+      than the videos. There are some examples in the main body, but
+      most examples are presented as activities for the student to
+      first attempt and then compare with the posted solution.
+    </p>
+    <p>
+      For each week of the course, you are expected to watch the videos
+      for the week and do the activities and assignmnets presented in
+      this notes. In the activities, material labeled ``Extra
+      Practice'' or ``Challenge Problems' is optional material. 
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Other Resources</title>
+    <p>
+      In addition to the notes associated to each lecture, there are a
+      number of other resources which are distributed via the course
+      Moodle site. These resources have been developed to assist you,
+      so please make use of them.
+    </p>
     <ul>
       <li>
         <p>
@@ -80,15 +81,14 @@
         </p>
       </li>
     </ul>
-  </p>
-  </section>
-  <section xml:id="section-philosophy">
-  <title>Perspectives and Philosophy</title>
-  <p>
-    In addition to the strictly mathematical material of the course, I
-    will try to share some ideas about the philosophy of mathematics,
-    the aesthetics of mathematics, and how our own worldview and
-    assumptions influence mathematical thought. 
-  </p>
-  </section>
+  </paragraphs>
+  <paragraphs>
+    <title>Perspectives and Philosophy</title>
+    <p>
+      In addition to the strictly mathematical material of the course, I
+      will try to share some ideas about the philosophy of mathematics,
+      the aesthetics of mathematics, and how our own worldview and
+      assumptions influence mathematical thought. 
+    </p>
+  </paragraphs>
 </preface>
