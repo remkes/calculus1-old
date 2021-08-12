@@ -156,7 +156,7 @@
       is more than doubles and over other it fall short, but this
       isn't a bad guess). For doubling, I can think of powers of
       <m>2</m>, so an exponential function base <m>2</m>. If I double
-      every <m>d</m> unites of time, the appropriate exponential
+      every <m>d</m> units of time, the appropriate exponential
       function is
       <me>
         p(t) = a 2^{\frac{1}{d} t} 
