@@ -9,7 +9,7 @@
       made to give algebraic descriptions to geometric objects
       (including some primitive versions of cartesian coordinates long
       before Descartes), but none of these ideas and systems had
-      managed to give a systematic and thorough connection. In the
+      managed to produce a systematic and thorough connection. In the
       17th century, Descartes proposed the coordinate system which now
       bears his name: the cartesian coordinates. Assigning numerical
       values to points in the plane (2 dimensional) or space (3
@@ -17,11 +17,9 @@
       algebraically, and vice-versa. Moreover, this connection was
       complete and systematic: in theory, any geometry in the plane or
       space could be described by Descartes' coordinates. This
-      breakthrough was fundamental to the use of mathematics in the
+      breakthrough is fundamental to the use of mathematics in the
       sciences, starting in the early modern age and continuing into
-      the present. Cartesian coordinates must be numbered among a
-      very short list of the most important mathematical advances in
-      history.
+      the present. 
     </p>
     <figure xml:id="figure-cartesian-coordiantes">
       <caption>Cartesian Coordiantes in <m>\RR^2</m></caption>
@@ -57,32 +55,32 @@
       each point in the plane by two real numbers, written
       <m>(a,b)</m>, representing how far along each axis the point
       falls. By convention, moving right and upward are considered
-      positive directions on the axes. 
+      positive directions on the axes.
     </p>
     <p>
-      For our purposes, the coordinates <m>a</m> and <m>b</m> are
-      always real numbers. Though common uses frequently deals with
-      integer or rational coordinates, the system allows for any real
-      numbers to represent coordinates. Since there are two
+      In the definition I've given, the coordinates <m>a</m> and
+      <m>b</m> are real numbers. Though sometimes only integer or
+      rational coordinates are required, the system allows for any
+      real numbers to represent coordinates. Since there are two
       dimensions in the plane, I can refer to the plane with cartesian
-      coordinates as <m>\RR^2</m>. Similarly, the space with
-      cartesian coordinates <m>(a,b,c)</m>, is written <m>\RR^3</m>.
-      The axes in <m>\RR^3</m> are typically called <m>x</m>, <m>y</m>
-      and <m>z</m>.
+      coordinates as <m>\RR^2</m>. Similarly, the space with cartesian
+      coordinates <m>(a,b,c)</m>, is written <m>\RR^3</m>.  The axes
+      in <m>\RR^3</m> are typically called <m>x</m>, <m>y</m> and
+      <m>z</m>.
     </p>
     <p>
       Though I won't deal with higher dimensions in this course, the
-      cartesian coordinate system generalizes easily to any number of
+      cartesian coordinate system generalizes to any number of
       dimensions. I can no longer visualize or draw the geometry in
       higher dimensions, but I can still work with the algebraic
-      representation according to the same principles. For example,
-      in <m>\RR^5</m>, there are five axes, all perpendicular to each
+      representation according to the same principles. For example, in
+      <m>\RR^5</m>, there are five axes, all perpendicular to each
       other, and points are represented by five real numbers
       <m>(a,b,c,d,e)</m>, showing the distance along each of the axes.
-      I can write <m>\RR^n</m> for a cartesian system in general <m>n</m>
-      dimensions. This is one of the most powerful aspects of
-      cartesian coordinates <mdash /> I can now do geometry in many
-      dimensions and transcend the limitations of our
+      I can write <m>\RR^n</m> for a cartesian system in general
+      <m>n</m> dimensions. This is one of the most powerful aspects of
+      cartesian coordinates <mdash /> I can now do geometry in as many
+      dimensions as I wish, transcending the limitations of
       three-dimensional vision and perception.
     </p>
   </subsection>
@@ -106,7 +104,7 @@
       </image>
     </figure>
     <p>
-      Cartesian coordinate are useful for giving algebraic definitions
+      Cartesian coordinates are useful for giving algebraic definitions
       for various geometric shapes and objects. For an equation in
       <m>x</m> and <m>y</m>, the coresponding shape consists of all
       points <m>(a,b)</m> in the plane which satisfy the equation when
@@ -117,11 +115,11 @@
       <m>1</m> is the locus of the equation <m>x^2 + y^2 = 1</m>. 
     </p>
     <p>
-      The two most important classes of loci are line (see 
+      The two most important classes of loci are lines (see 
       <xref ref="section-lines" />) and conics (see <xref
       ref="section-conics" />). Lines are first both because their
       geometry is approachable and because they are loci of the most
-      basic kinds of equations. Conics follow as loci of the next most
+      basic kind of equations. Conics follow as loci of the next most
       approachable kind of equation. 
     </p>
     <p>
@@ -129,7 +127,7 @@
       loci in <m>\RR^2</m>.  The term <sq>curve</sq> is a general term
       for loci of equations in <m>\RR^2</m>. Many equations give rise
       to complicated and unpredicable curves. Future calculus courses
-      will study the calculus of curves. Three curves are shown
+      will study the calculus of curves. For now, three curves are shown
       in <xref ref="figure-three-curves"/>. 
     </p>
     <figure xml:id="figure-three-curves">
@@ -162,7 +160,7 @@
     </figure>
     <p>
       Curves and loci can be very complicated: they can double back, 
-      self intersect, or have multiple disconnected component. In
+      self intersect, or have multiple disconnected components. In
       addition, several other strange situations can occur; consider
       the locus of the equation <m>x^2 + y^2 =0</m>. Though this is a
       reasonable equation in the coordinate variables <m>x</m> and

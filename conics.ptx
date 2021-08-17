@@ -4,18 +4,17 @@
     <title>Slicing a Cone</title>
     <p>
       The conics are the second important class of loci. Unlike lines,
-      in conics we allow squares of the variables.
-      Conics are a very old
-      topic in mathematics; their names and definitions come from
-      ancient Greece. They are called conics (short for conic
-      sections) since they can be formed by taking slices of a hollow
-      cone at various angles. We will give three equivalent
+      conic equations involve the squares of the variables.  Conics
+      are a very old topic in mathematics; their names and definitions
+      come from ancient Greece. They are called conics (short for
+      conic sections) since they can be formed by taking slices of a
+      hollow cone at various angles. I will give three equivalent
       definitions for each conic: one instrinsically geometric
       definition, one as a the slice of a cone, and one by algebraic
-      equations. For the algebraic equations, we will assume that the
+      equation. For the algebraic equations, I will assume that the
       conic is centred at the origin. (More general conics can be
       formed by shifting the conics centered at the origin. <xref
-      ref="section-shifts" /> describes these shifts). 
+      ref="section-shifts" /> describes these shifts.)
     </p>
   </subsection>
   <subsection xml:id="subsection-description-of-conics">
@@ -40,14 +39,14 @@
         </asymptote>
       </image>
     </figure>
-    <ul>
+    <p><ul>
       <li>
         <title>Intrinsic Definition</title>
         <p>
-          Given a positive real number <m>r</m>, a circle (centred at
-          the origin) is the set of all points in the plane which are
-          exactly <m>r</m> units away from the origin. <m>r</m> is
-          called the radius of the cicle.
+          Given a positive real number <m>r</m>, a circle is the set
+          of all points in the plane which are exactly <m>r</m> units
+          away from a fixed centre point. <m>r</m> is called the
+          radius of the cicle.
         </p>
       </li>
       <li>
@@ -59,11 +58,11 @@
       <li>
         <title>Algebraic Definition</title>
         <p>
-          A circle with radius <m>r</m> is described by the equation
-          <m>x^2 + y^2 = r^2</m>.
+          A circle with radius <m>r</m> (centred at the origin) is
+          described by the equation <m>x^2 + y^2 = r^2</m>.
         </p>
       </li>
-    </ul>
+    </ul></p>
     <figure xml:id="figure-ellipse">
       <caption>The Ellipse</caption>
       <image xml:id="figure06" width="90%">
@@ -85,15 +84,15 @@
         </asymptote>
       </image>
     </figure>
-    <ul>
+    <p><ul>
       <li>
         <title>Intrinsic Definition</title>
         <p>
           Given two points <m>p</m> and <m>q</m> and a positive real
           number <m>r</m>, the ellipse is the set of all points in the
-          plane where the sum of the distances to <m>p</m> and
-          <m>q</m> is exactly <m>r</m>. The points are called the
-          foci (singular focus).
+          plane where the sum of the distances from a fixed center
+          point to both <m>p</m> and <m>q</m> is exactly <m>r</m>. The
+          points are called the foci (singular focus).
         </p>
       </li>
       <li>
@@ -108,15 +107,15 @@
         <p>
           An ellipse (centred at the origin) is described by the
           equation <m>\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1</m>.
-          Assuming that <m>a>b</m>, the foci are at
+          Assuming that <m>a>b</m>, the foci are at coordinates 
           <m>(\sqrt{a^2-b^2},0)</m> and <m>(-\sqrt{a^2-b^2},0)</m>.
           From the number <m>a</m> and <m>b</m>, which ever is larger
           is called the semi-major axis which ever is smaller is
           called semi-minor axis. These two numbers cannot be equal,
-          since that would give a circle.
+          since that would produce a circle.
         </p>
       </li>
-    </ul>
+    </ul></p>
     <figure xml:id="figure-parabola">
       <caption>The Parabola</caption>
       <image xml:id="figure05" width="90%">
@@ -136,7 +135,7 @@
         </asymptote>
       </image>
     </figure>
-    <ul>
+    <p><ul>
       <li>
         <title>Intrinsic Definition</title>
         <p>
@@ -158,12 +157,28 @@
         <title>Algebraic Definition</title>
         <p>
           A parabola (centred at the origin) is described by the
-          equation <m>y = ax^2</m>.  The focus is
-          <m>(0,\frac{a}{4})</m> and the directrix is
-          <m>y=\frac{-a}{4}</m>.
+          equation <m>y = ax^2</m>.  The focus is the point
+          <m>(0,\frac{a}{4})</m> and the directrix is the horizontal
+          line <m>y=\frac{-a}{4}</m>.
         </p>
       </li>
-    </ul>
+      <li>
+        <title>Another Algebraic Definition</title>
+        <p>
+          From your previous mathematical experience, you may be aware
+          of another way of writing vertically-aligned parabolas. A
+          common way to describe a parabola is by giving a vertex and
+          a leading coefficient. The vertex is the peak of the
+          parabola and the leading coefficient will describe how wide
+          or narrow the parabola is. If the leading coefficient is
+          positive, the parabola will open upwards; if negative, the
+          parabola will open downwards. 
+          A parabola with vertext <m>(a,b)</m> and leading coefficient
+          <m>c</m> is described by the equation
+           <m>y = c(x - a) + b</m>.
+        </p>
+      </li>
+    </ul></p>
     <figure xml:id="figure-hyperbola">
       <caption>The Hyperbola</caption>
       <image xml:id="figure04" width="90%"> 
@@ -187,15 +202,15 @@
         </asymptote>
       </image>
     </figure>
-    <ul>
+    <p><ul>
       <li>
         <title>Intrinsic Definition</title>
         <p>
           Given two points <m>p</m> and <m>q</m> and a positive real
           number <m>r</m>, the hyperbola is the set of all points in
-          the plane where the difference of the distances to <m>p</m>
-          and <m>q</m> is exactly <m>r</m>. The points are called the
-          foci (singular focus).
+          the plane where the difference of the distances from a fixed
+          centre point to <m>p</m> and <m>q</m> is exactly <m>r</m>.
+          The points are called the foci (singular focus).
         </p>
       </li>
       <li>
@@ -209,10 +224,10 @@
         <title>Algebraic Definition</title>
         <p>
           A hyperbola (centred at the origin) is described by the
-          equation <m>\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1</m>
+          equation <m>\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1</m>.
         </p>
       </li>
-    </ul>
+    </ul></p>
     <p>
       One of the major motivating problems for conics and analytic
       geometry is the problem of celestial motion <mdash /> how

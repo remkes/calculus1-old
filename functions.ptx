@@ -2,7 +2,24 @@
   <title>Functions</title>
   <subsection xml:id="subsection-functions-three-definitions">
     <p>
-      In order to define functions, we need to define sets. A
+      Calculus is a branch of mathematics concerned with the behaviour
+      of functions. In this introductory/review section, I want to
+      make sure to present a solid conceptual foundation of functions. 
+    </p>
+    <p>
+      There are three major definitions or interpretations of
+      functions. 
+    </p>
+    <p>
+      Second, a function is a machine which acts on things
+      (usually, but not necessarily, numbers). The function <m>f(x) =
+      x^2</m> from <m>\RR \rightarrow \RR</m> is a rule which assignes
+      to each number its square. However, it's often more natural to
+      think of <m>f</m> as the thing that squares numbers. Functions
+      are agents which perform actions.
+    </p>
+    <p>
+      In order to define functions, I first need to define sets. A
       <em>set</em> is any collection of things; the things in a set
       are called its <em>elements</em> While most of our sets will be
       sets of numbers, apriori a set can have any kind of elements.
@@ -19,25 +36,17 @@
       consisting of all outputs of the function.
     </p>
     <p>
-      There are three major interpretations of functions. First, we
-      can think of a function as a machine which acts on things. The
-      function <m>f(x) = x^2</m> from <m>\RR \rightarrow \RR</m> is a
-      rule which assignes to each number its square. However, it's
-      often more natural to think of <m>f</m> as the thing that
-      squares numbers. Functions are agents which perform actions.
-    </p>
-    <p>
-      Second, we think of functions as relationships and dependencies.
-      When we have a function <m>f: A \rightarrow B</m>, we can thing
+      Second, functions encode relationships and dependencies.
+      For a function <m>f: A \rightarrow B</m>, I can thing
       of the elements of <m>B</m> depending on the elements of
-      <m>A</m>. If we say that population growth is a function of
-      food supply, we mean that there is a function which goes from
+      <m>A</m>. If I say that population growth is a function of
+      food supply, I mean that there is a function which goes from
       numbers representing food suply to numbers representing growth
       rates. That function encodes the dependance of growth on food
       supply.
     </p>
     <p>
-      Lastly, we often visualize a function by its graph. (There is a
+      Lastly, function are visualized by graphs. (There is a
       library of functions in the common materials which shows the
       graphs of many frequently used functions.)
       Visualizing the action of a function by its graph is
@@ -48,7 +57,7 @@
   <subsection xml:id="subsection-real-functions">
     <title>Functions on <m>\RR</m></title>
     <p>
-      For the purposes of calculus, we will deal with functions
+      For the purposes of calculus, I will present functions
       defined on <m>\RR</m> and its subsets. For most functions, we
       will not explicitly stipulate a domain; the domain of the
       function will implicitly be the largest subset of real numbers
@@ -62,17 +71,17 @@
       <ul>
         <li>
           <p>
-            We cannot divide by zero.
+            I cannot divide by zero.
           </p>
         </li>
         <li>
           <p>
-            We cannot take even roots of negative numbers.
+            I cannot take even roots of negative numbers.
           </p>
         </li>
         <li>
           <p>
-            We cannot take logarithms of negative numbers or zero.
+            I cannot take logarithms of negative numbers or zero.
           </p>
         </li>
       </ul>
@@ -80,14 +89,14 @@
     <p>
       There are special domain restrictions for certain functions,
       such as inverse trig functions, but the main three cover the
-      vast majority of functions we will be dealing with. Determining
+      vast majority of functions I will be presenting. Determining
       the domain of a function <m>f</m> means excluding real numbers
       which would lead to one of the three problems.
     </p>
     <p>
-      In addition, should we wish to, we can put additional domain
+      In addition, should I wish to, I can put additional domain
       restrictions on a function. Functions of time cannot extend
-      infinitely back in time, so we usually stipulate a starting
+      infinitely back in time, so I usually stipulate a starting
       time; the domain of the function will be after that starting
       time. Restricting domains is also useful to make a function
       invertible.

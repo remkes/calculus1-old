@@ -5,8 +5,8 @@
     <activity>
       <statement>
         <p>
-          Find the equation of the line through the point
-          <m>(3,2)</m> with slope 5.  
+          Find the equation of the line through the point <m>(3,2)</m>
+          with slope 5.
         </p>
       </statement>
       <solution>
@@ -14,7 +14,7 @@
           Since the slope of the line is 5, using the slope intercept
           form, the equation of the line must be <m>y = 5x + b</m>.
           The only remaining unknown in this expression is the
-          intercept <m>b</m>. We can solve for this <m>b</m> by
+          intercept <m>b</m>. I can solve for this <m>b</m> by
           inserting the point into the equation.
           <me>
             y = 5x + b \implies 2 = 5(3) + b \implies b = 2 - 15 = -13
@@ -27,15 +27,15 @@
       <statement>
         <p>
           Find the equation of the line through the point
-          <m>(-2,-5)</m> with slope <m>\frac{1}{3}</m>.  
+          <m>(-2,-5)</m> with slope <m>\frac{1}{3}</m>.
         </p>
       </statement>
       <solution>
         <p>
-          Since the slope of the line is <m>\frac{1}{3}</m>,  using
+          Since the slope of the line is <m>\frac{1}{3}</m>, using
           the slope intercept form, the equation of the line must be
-          <m>y = \frac{1}{3}x + b</m>.  The only remaining unknown in
-          this expression is the intercept <m>b</m>. We can solve for
+          <m>y = \frac{1}{3}x + b</m>. The only remaining unknown in
+          this expression is the intercept <m>b</m>. I can solve for
           this <m>b</m> by inserting the point into the equation.
           <me>
             -5 = \frac{1}{3}(-2) + b \implies -5 = \frac{-2}{3} + b
@@ -50,23 +50,23 @@
       <statement>
         <p>
           Find the equation of the line through the point
-          <m>(\pi,1)</m> with slope <m>\frac{-1}{2}</m>.  
+          <m>(\pi,1)</m> with slope <m>\frac{-1}{2}</m>.
         </p>
       </statement>
       <solution>
         <p>
           Since the slope of the line is <m>\frac{-1}{2}</m>, using
           the slope intercept form, the equation of the line must be
-          <m>y = \frac{-1}{2}x + b</m>.  The only remaining unknown in
-          this expression is the intercept <m>b</m>. We can solve for
+          <m>y = \frac{-1}{2}x + b</m>. The only remaining unknown in
+          this expression is the intercept <m>b</m>. I can solve for
           this <m>b</m> by inserting the point into the equation.
           <me>
             y = \frac{-1}{2} x + b \implies 1 = \frac{-1}{2} \pi + b
             \implies b = 1 + \frac{\pi}{2} 
           </me>
           Therefore, the equation of the line is <m>y = \frac{-1}{2}x
-          + 1 + \frac{\pi}{2}</m>. You might ask if there is an easier
-          way to write this <m>b</m> value. We could express it as a
+          + 1 + \frac{\pi}{2}</m>. I might wonder if there is an easier
+          way to write this <m>b</m> value. I could express it as a
           decimal: it is approximately 2.57. However, that's less
           precise than simply writing <m>1 + \frac{\pi}{2}</m>, so I
           prefer to write it this way. 
@@ -77,23 +77,22 @@
       <statement>
         <p>
           Find the equation of the line through the points
-          <m>(0,4))</m> and <m>(2,2)</m>. 
+          <m>(0,4))</m> and <m>(2,2)</m>.
         </p>
       </statement>
       <solution>
         <p>
-          We need to calculate the slope first: this is calculate as
+          I need to calculate the slope first: this is calculated as
           the difference in the <m>y</m> coordinates divided by the
-          difference in the <m>x</m> coordinates, often referred to as
-          rise over run. 
+          difference in the <m>x</m> coordinates (rise over run). 
           <me>
             m = \frac{4-2}{0-2} = \frac{2}{-2} = -1 
           </me>
-          When we have the slope, we can use the slope intercept form,
+          When I have the slope, I can use the slope intercept form,
           so the equation of the line will be <m>y = (-1)x + b</m>.
-          Then we can use either of the points in this equation to
+          Then I can use either of the points in this equation to
           solve for <m>b</m>. (Either point should give the same
-          intercept; if they don't, we've made an error somewhere). 
+          intercept; if they don't, I've made an error somewhere). 
           <me>
             y = -x + b \implies 4 = -0 + b \implies b = 4 
           </me>
@@ -110,18 +109,17 @@
       </statement>
       <solution>
         <p>
-          We need to calculate the slope first: this is calculate as
+          I need to calculate the slope first: this is calculated as
           the difference in the <m>y</m> coordinates divided by the
-          difference in the <m>x</m> coordinates, often referred to as
-          rise over run. 
+          difference in the <m>x</m> coordinates (rise over run).
           <me>
             m = \frac{6-2}{(-2)-3} = \frac{4}{-5} = \frac{-4}{5} 
           </me>
-          When we have the slope, we can use the slope intercept form,
+          When I have the slope, I can use the slope intercept form,
           so the equation of the line will be <m>y = \frac{-4}{5}x +
-          b</m>.  Then we can use either of the points in this
+          b</m>. Then I can use either of the points in this
           equation to solve for <m>b</m>. (Either point should give
-          the same intercept; if they don't, we've made an error
+          the same intercept; if they don't, I've made an error
           somewhere).
           <me>
             y = \frac{-4}{5}x + b \implies 2 = \frac{-4}{5} (3) + b
@@ -142,19 +140,18 @@
       </statement>
       <solution>
         <p>
-          We need to calculate the slope first: this is calculate as
+          I need to calculate the slope first: this is calculated as
           the difference in the <m>y</m> coordinates divided by the
-          difference in the <m>x</m> coordinates, often referred to as
-          rise over run. 
+          difference in the <m>x</m> coordinates (rise over run).
           <me>
             m = \frac{4-3}{2\sqrt{2} - \sqrt{2}} = \frac{1}{\sqrt{2}}
           </me>
-          When we have the slope, we can use the slope intercept form,
+          When I have the slope, I can use the slope intercept form,
           so the equation of the line will be <m>y =
           \frac{1}{\sqrt{2}} x + b</m>.
-          Then we can use either of the points in this equation to
+          Then I can use either of the points in this equation to
           solve for <m>b</m>. (Either point should give the same
-          intercept; if they don't, we've made an error somewhere). 
+          intercept; if they don't, I've made an error somewhere). 
           <me>
             y = \frac{1}{\sqrt{2}} x + b \implies 3 =
             \frac{1}{\sqrt{2}} (\sqrt{2}) + b \implies 3 = 1 + b
@@ -180,11 +177,11 @@
           The standard form of the equation of an ellipse centred at
           the origin is <m> \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1</m>
           where <m>a</m> and <m>b</m> are the semi-axes in the
-          <m>x</m> and <m>y</m> directions, respectively. We've been
+          <m>x</m> and <m>y</m> directions, respectively. I've been
           told in the equation that the semi-major axis is 4 and the
           semi-minor axis is 2; but the question didn't specify which
           was the horizontal and which was the vertical directly.
-          Therefore, we can just choose: setting <m>a=2</m> and
+          Therefore, I can just choose: setting <m>a=2</m> and
           <m>b=4</m> or vice-versa. 
           <me>
             \frac{x^2}{4} + \frac{y^2}{16} = 1 \text{ or }
@@ -202,10 +199,10 @@
       </statement>
       <solution>
         <p>
-          The standard form of the equation of an ellipse centred at
-          the origin is <m>x^2 + y^2 = r^2</m>. We are given the
-          radius of <m>\sqrt{15}</m>, so we just square that value in
-          insert it in the equation.
+          The standard form of the equation of an circle centred at
+          the origin is <m>x^2 + y^2 = r^2</m>. I am given the
+          radius of <m>\sqrt{15}</m>, so I just square that value in
+          insert it into the equation.
           <me>
             x^2 + y^2 = 15
           </me>
@@ -221,15 +218,15 @@
       </statement>
       <solution>
         <p>
-          The standard form of the equation of an parabola with vertex
-          <m>(c,d)</m> and leading coefficient <m>a</m> is <m>y = a (x
-          - c)^2 + d </m>. We can just replace the three unknown with
-          what we are given in the problem.
+          The standard form of the equation of a parabola with vertex
+          <m>(a,b)</m> and leading coefficient <m>c</m> is <m>y = c (x
+          - a)^2 + b </m>. I can just replace the three unknown with
+          what I am given in the problem.
           <me>
             y = \frac{1}{4} (x-3)^2 - 2 
           </me>
-          If we want a more conventional equation for this parabola,
-          we can expand.
+          If I want a more conventional equation for this parabola,
+          I can expand.
           <me>
             y = \frac{1}{4} (x^2 - 6x + 9) - 2 = \frac{1}{4} x^2 -
             \frac{3}{2} x + \frac{1}{4} 
@@ -251,7 +248,7 @@
         <p>
           Solving for intesection is algebraically the same as solving
           the system of two equations. In these two equations, the
-          <m>y</m> terms are already isolated, so we can simply equate
+          <m>y</m> terms are already isolated, so I can simply equate
           these two terms and solve for <m>x</m>. 
           <md>
             <mrow>
@@ -264,15 +261,15 @@
             -11x \amp = 6 \implies x = \frac{-6}{11}
             </mrow>
           </md>
-          Then we can insert this <m>x</m> value into either equation
+          Then I can insert this <m>x</m> value into either equation
           to get the <m>y</m> value of the intersection point. (Either
           equation will give the same <m>y</m> value; if they don't,
-          we've made an error somewhere). 
+          I've made an error somewhere). 
           <me>
             y = 9x + 1 = 9 \frac{-6}{11} + 1 = \frac{-54}{11} +
             \frac{11}{11} = \frac{-43}{11}
           </me>
-          We conclude that the intersection point is <m> \left(
+          I conclude that the intersection point is <m> \left(
           \frac{-6}{11}, \frac{-43}{11} \right)</m>
         </p>
       </solution>
@@ -288,7 +285,7 @@
         <p>
           Solving for intesection is algebraically the same as solving
           the system of two equations. In the second equation,
-          <m>y</m> is already isolated, so we can replace <m>y</m> in
+          <m>y</m> is already isolated, so I can replace <m>y</m> in
           the first equation. 
           <md>
             <mrow>
@@ -301,8 +298,8 @@
             3x - 4 \amp = 0 \implies x = \frac{4}{3}
             </mrow>
           </md>
-          We already know that <m>y</m> value must be 4, so this gives
-          us the intersection point: <m>\left( \frac{4}{3}, 4
+          I already know that <m>y</m> value must be 4, so this gives
+          me the intersection point: <m>\left( \frac{4}{3}, 4
           \right)</m>.
         </p>
       </solution>
@@ -317,8 +314,8 @@
       <solution>
         <p>
           Solving for intesection is algebraically the same as solving
-          the system of two equations. If we isolate <m>x</m> in the
-          first equation, we get <m>x = 3y - 5</m>. We can use this to
+          the system of two equations. If I isolate <m>x</m> in the
+          first equation, I get <m>x = 3y - 5</m>. I can use this to
           replace <m>x</m> in the second equation and expand to get a
           quadratic equation.
           <md>
@@ -336,10 +333,10 @@
             </mrow>
           </md>
           The roots of the quadratic are 0 and 3, so those are the
-          <m>y</m> values of the intersection points. We can use
-          either equation to calculate the matching <m>x</m> values,
-          but if we use the islated version of the first equation,
-          that is most efficient.
+          <m>y</m> values of the intersection points. I can use
+          either equation to calculate the matching <m>x</m> values;
+          I choose to use the isolated version of the first equation,
+          since it is the most efficient.
           <md>
             <mrow>
             y \amp = 0 \implies x = 3y - 5 = 3(0) - 5 = -5 
@@ -348,7 +345,7 @@
             y \amp = 3 \implies x = 3y - 5 = 3(3) - 5 = 4
             </mrow>
           </md>
-          Therefore, the two intersection point are <m>(-5, 0)</m> and
+          Therefore, the two intersection points are <m>(-5, 0)</m> and
           <m>(4,3)</m>. 
         </p>
       </solution>
@@ -364,7 +361,7 @@
         <p>
           Solving for intesection is algebraically the same as solving
           the system of two equations. In the first equation,
-          we can isolate <m>y</m> to get <m>y = x+4</m>. We can
+          I can isolate <m>y</m> to get <m>y = x+4</m>. I can
           use this to replace <m>y</m> in the equation of the
           hyperbola.
           <md>
@@ -381,19 +378,19 @@
             3x^2  - 8x - 20 \amp = 0 
             </mrow>
           </md>
-          This is a quadratic; the quadratic equation tells us the
+          This is a quadratic; the quadratic equation tells me the
           roots.
           <me>
             x = \frac{8 \pm \sqrt{64 + 240}}{6} = \frac{8 \pm
             2\sqrt{76}}{6} = \frac{4 \pm \sqrt{76}}{3}
           </me>
-          Then we can use the previous <m>y = x+4</m> to get the
+          Then I can use the previous equation <m>y = x+4</m> to get the
           matching <m>y</m> coordinates. 
           <me>
             y = x + 4 = \frac{4 \pm \sqrt{76}}{3} + 4 = \frac{16 \pm
             \sqrt{76}}{3} 
           </me>
-          All together, we have two intersection points. 
+          All together, I have two intersection points. 
           <md>
             <mrow>
             \amp \left( \frac{4 + \sqrt{76}}{3}, \frac{16 + \sqrt{76}}{3}
@@ -404,34 +401,32 @@
             \right) 
             </mrow>
           </md>
-          We could write the decimal approximates of these values.
-          That might help us know where to draw them, but the above
-          expressions are preferable as exact values.  
+          I could write the decimal approximates of these values.
+          That might help me know where to draw them, but the above
+          expressions are preferable as exact values.
         </p>
       </solution>
     </activity>
   </subsection>
   <subsection xml:id="subsection-week1-concepts">
     <title>Conceptual Review Questions</title>
-    <p>
-      <ul>
-        <li>
-          What data determine a line? What is the minimum information
-          we need?
-        </li>
-        <li>
-          What does slope mean and how is it measured?
-        </li>
-        <li>
-          What is a conic? Why are the four shapes (circle, parabola,
-          ellipse and hyperbola) considered four members of the same
-          family. 
-        </li>
-        <li>
-          In geometry, intersection is where two geometric shapes
-          meet. What does intersection mean algebraically?
-        </li>
-      </ul>
-    </p>
+    <p><ul>
+      <li>
+        What data determines a line? What is the minimum information
+        needed?
+      </li>
+      <li>
+        What does slope mean and how is it measured?
+      </li>
+      <li>
+        What is a conic? Why are the four shapes (circle, parabola,
+        ellipse and hyperbola) considered four members of the same
+        family? 
+      </li>
+      <li>
+        In geometry, intersection is where two geometric shapes
+        meet. What does intersection mean algebraically?
+      </li>
+    </ul></p>
   </subsection>
 </section>

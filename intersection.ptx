@@ -28,14 +28,14 @@
       </image>
     </figure>
     <p>
-      If two lines in the plane are not parallel or identitcal, there
+      If two lines in the plane are not parallel, there
       will be exactly one point where they meet. This is called the
-      intersection point.  In <xref ref="figure-intersection-of-lines"
-      />, we have the lines <m>y=x+1</m> and <m>y=3-3x</m> and their
-      intersection point at <m>(2,3)</m>. This is the intersection
-      point because it is the only point where the coordinates satisfy
-      both equations. Algebraically, we can find this point by solving
-      the system composed of both equation.
+      intersection point.  <xref ref="figure-intersection-of-lines"
+      /> shows the lines <m>y=x+1</m> and <m>y=3-3x</m> and their
+      intersection point at <m>(2,3)</m>. At this intersection
+      point, the coordinates <m>(x,y)</m> satisfy both equations.
+      Algebraically, we can find this point by solving the system
+      composed of both equation. I'll do the calculation.
       <md>
         <mrow>
           y \amp  = x+1
@@ -105,13 +105,13 @@
     <p>
       In <xref ref="figure-intersection-line-ellipse" />, the ellipse
       <m>\frac{x^2}{4} + \frac{y^2}{1} = 1</m> and the line
-      <m>y=-x</m> have two intersection points. We can solve for those
+      <m>y=-x</m> have two intersection points. I can solve for those
       point by using the equation of the line to replace a variable.
-      If we replace <m>y</m> with <m>-x</m> in the equation of the
-      ellipse, that equation simplifies to 
+      If I replace <m>y</m> with <m>-x</m> in the equation of the
+      ellipse, that equation simplifies as follows.
       <me>
         \frac{5x^2}{4} = 1 \implies x = \pm \frac{2}{\sqrt{5}} 
-      </me>.
+      </me>
       Now I know the <m>x</m> values of the intersection point. The
       line equation <m>y = -x</m> reminds me that the <m>y</m> values
       are just the negative of the <m>x</m> values. With that
