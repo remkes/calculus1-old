@@ -6,34 +6,26 @@
       A very natural motivating problem is population growth. Here are
       some reasonable mathematical questions one might ask about
       population.
-      <ul>
-        <li>
-          <p>
-            How do we encode population growth as a function?
-          </p>
-        </li>
-        <li>
-          <p>
-            What factors affect the growth of population?
-          </p>
-        </li>
-        <li>
-          <p>
-            What is the long-term behaviour of a population?
-          </p>
-        </li>
-        <li>
-          <p>
-            What is the growth rate of a population?
-          </p>
-        </li>
-      </ul>
     </p>
+    <p><ul>
+      <li>
+        How do we encode population growth as a function?
+      </li>
+      <li>
+        What factors affect the growth of population?
+      </li>
+      <li>
+        What is the long-term behaviour of a population?
+      </li>
+      <li>
+        What is the growth rate of a population?
+      </li>
+    </ul> </p>
     <p>
-      To encode population growth as a function, we chose a function
+      To encode population growth as a function, I chose a function
       <m>p(t)</m> representing population (<m>p</m>) in terms of the
-      independant variable time (<m>t</m>). Often we start with a data
-      set, representing the values of a certain population over a
+      independant variable time (<m>t</m>). Let's say I am given a
+      data set, representing the values of a certain population over a
       period of time. <xref ref="table-population-data" /> gives some
       example population data. 
     </p>
@@ -193,7 +185,7 @@
       exponential functions? I'd like to take this as a motivating
       question for the course. Calculus can understand and describe
       growth-rates, like percentage growth, and relate them to
-      functions. In the next section, we'll start to sketch out the
+      functions. In the next section, I'll start to sketch out the
       approach to this motivating question.
     </p>
   </subsection>

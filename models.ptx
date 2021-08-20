@@ -3,7 +3,7 @@
   <subsection xml:id="subsection-what-is-model">
     <title>The Concept of a Model</title>
     <p>
-      In this course, we use the term <sq>model</sq> in the broadest
+      In this course, I use the term <sq>model</sq> in the broadest
       possible mathematical sense: a model is any application of a
       mathematical concept to an external situation.  Since calculus
       is the study of functions, our models will be functions chosen
@@ -12,83 +12,77 @@
       mathematics.
     </p>
     <p>
-      Models are the mathematical versions of the scientific method.
-      If we observe a relationship between two quantities, choosing a
-      function to describe that relationship is a scientific
-      hypothesis.  We can then work with the mathematics to understand
-      the function.  The behaviour of the function can be then tested
-      against data, either the original data or new data.  We can
-      re-evaluate to see if the model fits the data to an acceptable
-      precision.
+      Models are the mathematical versions of a scientific hypothesis.
+      If I observe a relationship between two quantities, choosing a
+      function to describe that relationship is making a testable
+      claim. I can work with the mathematics to understand
+      the function. The behaviour of the function can be then tested
+      against data, either the original data or new data. Finally, I
+      can re-evaluate to see if the model fits the data to an
+      acceptable precision. 
     </p>
     <p>
-      Our analysis of functions helps us understand models.  We can
+      The analysis of functions helps me to understand models. I can
       ask questions about functions inspired by their applied context.
-      We'll start with three important questions.
-      <ul>
-        <li>
-          <p>
-            Do we restrict the domain to make it reasonable?  A
-            mathematical model where the independant variable is human
-            population would reasonably impose restriction that the
-            population must be positive and bounded above by some
-            maximum population.  These restrictions of the model exist
-            in addition to whatever natural mathematical restrictions
-            we already have on domain.  
-          </p>
-        </li>
-        <li>
-          <p>
-            We can ask abour starting values.  If our model depends on
-            time, we can set a starting time (often but not
-            necessarily <m>t=0</m>) and specify a value for the
-            function at the starting time.  Even though there is a
-            mathematical description of what happens before the
-            starting time, we can ignore it since it doesn't apply to
-            the situation we are modelling.
-          </p>
-        </li>
-        <li>
-          <p>
-            We can ask about the constants in our model.  Functions
-            often involve constants apart from the variables, such at
-            the coefficients of a polynomial.  In a model, the
-            constants should have reasonable meaning and
-            interpretation.
-          </p>
-        </li>
-      </ul>
+      I'll start with three important questions.
     </p>
+    <p><ul>
+      <li>
+        Do I need to restrict the domain to make the model reasonable?
+        A mathematical model where the independant variable is human
+        population would reasonably have a restriction that the
+        population must be positive and bounded above by some maximum
+        population. These restrictions of the model exist in addition
+        to whatever natural mathematical restrictions we already have
+        on domain.
+      </li>
+      <li>
+        I can ask about starting values. If a model depends on time, I
+        can set a starting time (often but not necessarily <m>t=0</m>)
+        and specify a value for the function at the starting time.
+        Even though there is a mathematical description of what
+        happens before the starting time, I can ignore it since it
+        doesn't apply to the situation I am modelling.
+      </li>
+      <li>
+        I can ask about the constants in the model. Functions often
+        involve constants apart from the variables, such at the
+        coefficients of a polynomial. In a model, the constants should
+        have reasonable meaning and interpretation.
+      </li>
+    </ul></p>
     <p>
-      The analysis of models thus consists of everything we used to
+      The analysis of models thus consists of everything I used to
       analyze functions in <xref ref="section-functions" /> and <xref
       ref="section-operations-on-functions" /> as well as these new
-      questions. Often we will want a qualitative analysis of the
+      questions. Often, I will also want a qualitative analysis of the
       model. Understanding the general shape and behaviour of the
       functions involved is invaluable to this qualitative analysis.
       A major goal for this course is to develop tools and
       competencies to allow students to analyze functions and models
       both quantitatively and qualitatively. The qualitative analysis
       can often be expressed in a narrative: what story is the
-      function telling about the relationship? If the independant
-      variable is time, as it often is, what is the story of the
-      dependant variable over a time span?  What happens to it?
+      function telling about the relationship it represents? If the
+      independant variable is time, as it often is, what is the story
+      of the dependant variable over a time span?  What happens to
+      it?
     </p>
   </subsection>
   <subsection xml:id="subsection-regression">
     <title>Regression</title>
     <p>
       One of the greatest challenges of applied mathematics is
-      choosing appropriate models.  If the real world provides us with
-      a set of data points, how do we choose a function?  Often we can
+      choosing appropriate models. If the real world provides me with
+      a set of data points, how do I choose a function? Often I can
       intuit what kind of function (linear, polynomial, exponential,
-      etc) we think might fit the data.  However, it is very difficult
-      to be more specific just through intuition.  Once we've chosen a
-      type of function for our model, <em>regression</em> is a set of
+      etc) I think might fit the data. However, it is very difficult
+      to be more specific just through intuition. Once I've chosen a
+      type of function for the model, <em>regression</em> is a set of
       techniques that help to find the best specific function for the
-      data.  In this course, we will only be looking at regressions
-      graphically.  The hard work of calculating functions in a
-      regression is left for future courses.
+      data. In this course, I will only be looking at regressions
+      graphically. The hard work of calculating functions in a
+      regression is left for future courses; regression is itself a
+      major area of study in statistics. 
     </p>
     <figure xml:id="figure-linear-regression">
       <caption>A Linear Regression</caption>

@@ -11,16 +11,20 @@
       functions. 
     </p>
     <p>
-      Second, a function is a machine which acts on things
-      (usually, but not necessarily, numbers). The function <m>f(x) =
-      x^2</m> from <m>\RR \rightarrow \RR</m> is a rule which assignes
-      to each number its square. However, it's often more natural to
-      think of <m>f</m> as the thing that squares numbers. Functions
-      are agents which perform actions.
+      First, a function is like a machine which acts on things
+      (usually, but not necessarily, numbers). Functions are agents
+      which perform certain action. The function <m>f(x) =
+      x^2</m> from <m>\RR \rightarrow \RR</m> is a process which takes
+      a number and produces the square of that number
+      think of <m>f</m> as the thing that squares numbers. 
     </p>
     <p>
-      In order to define functions, I first need to define sets. A
-      <em>set</em> is any collection of things; the things in a set
+      Second, a more abstract understanding of a function is as a rule
+      that assigns something in one set to something in another. In
+      order to explain this understanding, I first need to review sets. 
+    </p>
+    <p>
+      A <em>set</em> is any collection of things; the things in a set
       are called its <em>elements</em> While most of our sets will be
       sets of numbers, apriori a set can have any kind of elements.
       Particularly useful sets for this course are the standard number
@@ -29,14 +33,15 @@
       open inverals <m>(a,b)</m> and closed interval <m>[a,b]</m>.
     </p>
     <p>
-      Let <m>A</m> and <m>B</m> be sets. A <em>function</em> <m>f: A
+      Now I'll return to the second understanding of functions. Let
+      <m>A</m> and <m>B</m> be sets. A <em>function</em> <m>f: A
       \rightarrow B</m> is a rule that assigns an element of <m>B</m>
       to each element of <m>A</m>. The set <m>A</m> is called the
       domain. The range of the function is the subset of <m>B</m>
       consisting of all outputs of the function.
     </p>
     <p>
-      Second, functions encode relationships and dependencies.
+      Finally, functions encode relationships and dependencies.
       For a function <m>f: A \rightarrow B</m>, I can thing
       of the elements of <m>B</m> depending on the elements of
       <m>A</m>. If I say that population growth is a function of
@@ -46,10 +51,10 @@
       supply.
     </p>
     <p>
-      Lastly, function are visualized by graphs. (There is a
-      library of functions in the common materials which shows the
-      graphs of many frequently used functions.)
-      Visualizing the action of a function by its graph is
+      In addition to the three concepts, function are also visualized
+      by graphs. (There is a library of functions in the common
+      materials which shows the graphs of many frequently used
+      functions.) Visualizing the action of a function by its graph is
       a very convenient way to remember the function and its
       properties.
     </p>
@@ -57,38 +62,32 @@
   <subsection xml:id="subsection-real-functions">
     <title>Functions on <m>\RR</m></title>
     <p>
-      For the purposes of calculus, I will present functions
-      defined on <m>\RR</m> and its subsets. For most functions, we
-      will not explicitly stipulate a domain; the domain of the
+      For the purposes of this course, I will present functions
+      defined on <m>\RR</m> and its subsets. For most functions, I
+      will not explicitly describe a domain; the domain of the
       function will implicitly be the largest subset of real numbers
-      where the function applies. Likewise the range will be the
-      subset of all possible outputs of the function.
+      where the function applies. Likewise the range will implicitly
+      be the subset of all possible outputs of the function.
     </p>
     <p>
       Determining the domain of a function on <m>\RR</m> means
       avoiding illegal mathematical actions. There are three common
-      restrictions.
-      <ul>
-        <li>
-          <p>
-            I cannot divide by zero.
-          </p>
-        </li>
-        <li>
-          <p>
-            I cannot take even roots of negative numbers.
-          </p>
-        </li>
-        <li>
-          <p>
-            I cannot take logarithms of negative numbers or zero.
-          </p>
-        </li>
-      </ul>
+      restrictions
     </p>
+    <p><ul>
+      <li>
+        I cannot divide by zero.
+      </li>
+      <li>
+        I cannot take even roots of negative numbers.
+      </li>
+      <li>
+        I cannot take logarithms of negative numbers or zero.
+      </li>
+    </ul></p>
     <p>
       There are special domain restrictions for certain functions,
-      such as inverse trig functions, but the main three cover the
+      such as inverse trig functions, but these three cover the
       vast majority of functions I will be presenting. Determining
       the domain of a function <m>f</m> means excluding real numbers
       which would lead to one of the three problems.
@@ -96,7 +95,7 @@
     <p>
       In addition, should I wish to, I can put additional domain
       restrictions on a function. Functions of time cannot extend
-      infinitely back in time, so I usually stipulate a starting
+      infinitely back in time, so I will usually stipulate a starting
       time; the domain of the function will be after that starting
       time. Restricting domains is also useful to make a function
       invertible.

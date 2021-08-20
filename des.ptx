@@ -1,243 +1,200 @@
-<section xml:id="section-des">
-  <title>Solving Differential Equations</title>
-  <subsection xml:id="subsection-direct-integration">
-    <title>Solving By Direct Integration</title>
+<section xml:id="section-differential-equations">
+  <title>Differential Equations</title>
+  <subsection xml:id="subsection-population-models">
+    <title>Interpreting the Population Regression</title>
     <p>
-      Early in the course, we talked about differential equations in
-      order to understand derivatives as rates of changes. We looked
-      at autonomous differential equations, particularly for
-      populations models, and we used the qualitative technique of
-      phase-line analysis to understand them.
-    </p>
-    <p>
-      Now that we can calculate derivatives and integrals in some
-      detail, we can return to differential equations. With these
-      techniques, we'll actually try to solve the DEs, instead of
-      using a qualitative approach. In the easiest case, the right
-      side of a DE only involves the independant variable.
-      <me>
-        \frac{df}{dx} = g(x)
-      </me>
-    </p>
-    <p>
-      Since only the independant variable <m>x</m> appears on the
-      right side, we can simply integrate both sides in <m>x</m>.
-      <me>
-        \int \frac{df}{dx} dx = \int g(x) dx
-      </me>
-    </p>
-    <p>
-      On the left, the integral of the derivative is the original
-      funciton <m>f</m>.
-      <me>
-        f(x) = \int g(x) dx
-      </me>
-    </p>
-  </subsection>
-  <subsection xml:id="subsection-ivps">
-    <title>Initial Value Problems</title>
-    <p>
-      When we integrate to solve a DE, we will get a constant of
-      integration. In order to determine that constant, we are often
-      given an initial condition, such as <m>f(0) = 0</m>.
-      Differential equations problems with initial conditions are
-      often called <em>initial value problems</em> (IVPs).
-    </p>
-    <example>
-      <statement>
-        <md>
-          <mrow>
-            \frac{df}{dx} \amp = x^3 \amp \amp   f(0) = 7
-          </mrow>
-          <mrow>
-            \int \frac{df}{dx} dx \amp = \int x^3 dx \amp \amp 
-          </mrow>
-          <mrow>
-            f \amp = \frac{x^4}{4} + c \amp \amp 
-          </mrow>
-          <mrow>
-            7 \amp = \frac{0^4}{4} + c \implies c = 7 \amp \amp 
-          </mrow>
-          <mrow>
-            f(x) \amp = \frac{x^4}{4} + 7 \amp \amp 
-          </mrow>
-        </md>
-      </statement>
-    </example>
-    <example>
-      <statement>
-        <md>
-          <mrow>
-            \frac{df}{dt} \amp = 6 \sin 3t \amp \amp f \left(
-            \frac{\pi}{6} \right) = 6
-          </mrow>
-          <mrow>
-            \int \frac{df}{dt} dt \amp = \int 6 \sin 3t dt \amp \amp 
-          </mrow>
-          <mrow>
-            f(x) \amp = \int 6 \sin 3t dt = -2\cos 3t + c \amp \amp 
-          </mrow>
-          <mrow>
-            6 \amp = -2\cos \frac{\pi}{2} + c = 0 + c \implies c=6
-            \amp \amp 
-          </mrow>
-          <mrow>
-            f(x) \amp = -2 \cos 3t + 6 \amp \amp
-          </mrow>
-        </md>
-      </statement>
-    </example>
-    <example>
-      <statement>
-        <md>
-          <mrow>
-            \frac{df}{dx} \amp = \frac{1}{x^2+1} \amp \amp f(1) = \pi
-          </mrow>
-          <mrow>
-            \int \frac{df}{dx} dx \amp = \int \frac{1}{x^2+1} dx \amp
-            \amp 
-          </mrow>
-          <mrow>
-            f \amp = \int \frac{1}{x^2+1} dx = \arctan x + c \amp \amp 
-          </mrow>
-          <mrow>
-            \pi \amp = \arctan(1) + c = \frac{\pi}{4} + c \implies c
-            = \frac{3\pi}{4} \amp \amp 
-          </mrow>
-          <mrow>
-            f(x) \amp = \arctan x + \frac{3\pi}{4} \amp \amp
-          </mrow>
-        </md>
-      </statement>
-    </example>
-  </subsection>
-  <subsection xml:id="subsection-seperable">
-    <title>Seperable Differential Equations</title>
-    <p>
-      Solving DEs is a very difficult task in general; the previous
-      examples were all artificially simple. For this course, we're
-      going to restrict to a specific type of DE called a seperable
-      equation. Let <m>f(x)</m> and <m>g(y)</m> be continuous
-      functions in <m>x</m> and <m>y</m>, respectively. Seperable
-      differential equations are DEs where the dependent and
-      independent variable can be seperated.
-      <me>
-        \frac{dy}{dx} = f(x) g(y)
-      </me>
-    </p>
-    <p>
-      In particular, this includes the autonomous equations we
-      previously studied; if we set <m>f=1</m> then we get an
-      autonomous equation.
-    </p>
-    <p>
-      To solve these equations, take <m>g(y)</m> to the left side of
-      the equation and then integrate in <m>x</m>. 
+      In <xref ref="section-population-growth" />, I wondered about
+      the connection between percentage growth to exponential
+      functions. The difficulty is having a clear understanding of
+      what a growth rate is. Algebraic techniques have a hard time
+      understanding growth rates, or rates of change in general. 
+      Calculus includes a tool called the <em>derivative</em>
+      of a function which will measure its rate of change. For now, I
+      am going to avoid the technical definition but work with the
+      idea. 
+      <blockquote>
+        A derivative of a function is a measure of its <em>rate of
+        change</em> or it <em>growth rate</em>.
+      </blockquote>
+      We need some notation. For a function <m>p(t)</m>, there are two
+      common ways of writing the derivative.
       <md>
-        <mrow>
-          \frac{1}{g(y)} \frac{dy}{dx} \amp = f(x)
-        </mrow>
-        <mrow>
-          \int \frac{1}{g(y)} \frac{dy}{dx} dx \amp = f(x) dx
+        <mrow> 
+          \amp p^\prime(t) \amp \amp \frac{dp}{dt}
         </mrow>
       </md>
     </p>
     <p>
-      With a substitution <m>y = y(x)</m> (so that <m>dy =
-      \frac{dy}{dx} dx</m>), we can change the left side
-      of the integral into an integral in <m>y</m>. (This looks
-      strange, but it's really decided to treat <m>y</m> as a
-      variable, instead of as a function <m>y(x)</m>). 
+      The first notation is called Newton's notation, and the second is
+      called Leibniz's notation. I will use both in this course but I
+      will rely on Leibniz's notation most of the time. Leibniz's
+      notation has the advantage of including the independent variable
+      (here <m>t</m>) in the notation; this is often very convenient,
+      even though the notation is less succinct. 
+    </p>
+    <p>
+      The derivative is the rate of change of the function, so for a
+      population model, <m>\frac{dp}{dt}</m> is the growth rate of the
+      population. Let me remind you of that data used in the
+      previous section.
+    </p>
+    <table xml:id="table-population-data-repeated">
+      <tabular>
+        <row>
+          <cell>Year</cell>
+          <cell>Population</cell>
+          <cell>Growth Rate</cell>
+        </row>
+        <row>
+          <cell>0</cell>
+          <cell>1032</cell>
+          <cell>Not Applicable</cell>
+        </row>
+        <row>
+          <cell>1</cell>
+          <cell>1214</cell>
+          <cell>17.6 %</cell>
+        </row>
+        <row>
+          <cell>2</cell>
+          <cell>1372</cell>
+          <cell>13.0 %</cell>
+        </row>
+        <row>
+          <cell>3</cell>
+          <cell>1629</cell>
+          <cell>18.7 %</cell>
+        </row>
+        <row>
+          <cell>4</cell>
+          <cell>2143</cell>
+          <cell>31.6 %</cell>
+        </row>
+        <row>
+          <cell>5</cell>
+          <cell>2520</cell>
+          <cell>17.6 %</cell>
+        </row>
+        <row>
+          <cell>6</cell>
+          <cell>2940</cell>
+          <cell>16.7 %</cell>
+        </row>
+        <row>
+          <cell>7</cell>
+          <cell>3292</cell>
+          <cell>12.0 %</cell>
+        </row>
+        <row>
+          <cell>8</cell>
+          <cell>3813</cell>
+          <cell>15.8 %</cell>
+        </row>
+        <row>
+          <cell>9</cell>
+          <cell>4757</cell>
+          <cell>24.8 %</cell>
+        </row>
+        <row>
+          <cell>10</cell>
+          <cell>5632</cell>
+          <cell>18.4 %</cell>
+        </row>
+        <row>
+          <cell>11</cell>
+          <cell>6842</cell>
+          <cell>21.5 %</cell>
+        </row>
+        <row>
+          <cell>12</cell>
+          <cell>8010</cell>
+          <cell>17.1 %</cell>
+        </row>
+      </tabular>
+    </table>
+    <p>
+      The average annual increase in the data is somewhere near
+      <m>20</m>% growth. That means that the growth rate (the amount
+      of population added in a year) is <m>\frac{20}{100}</m> (or
+      <m>\frac{1}{5}</m>) times the current population. I can express
+      this as an equation.
       <me>
-        \int \frac{1}{g(y)} dy = \int f(x) dx + c 
+        \frac{dp}{dt} = \frac{1}{5} p(t)
       </me>
     </p>
     <p>
-      We have now seperated the problem into two integrals, hence
-      calling these seperable equation. Now we try to integrate both
-      sides. After the integration is complete, we try to solve for
-      <m>y</m> as a function of <m>x</m>. If we can, that function is
-      the solution. Often we can't, and we leave the result as an
-      implicit expression in <m>x</m> and <m>y</m>. We do need a
-      constant of integration (which I wrote as <m>c</m>, but it is
-      sufficient to include it on just one side of the equation. 
+      This is a mathematical translation of the understanding of
+      percentage growth. An equation of this form, involving a function
+      and its derivative, is called a <em>differential equation</em>
+      (a DE, in short). Very often in applied mathematics, it is easier
+      to observe the rate of change of a function than the function
+      itself. This leads to models expressed as differential equations.
+      Many of the most important mathematical models are expressed as
+      differential equations.
     </p>
-    <example>
-      <statement>
-        <md>
-          <mrow>
-            \frac{dy}{dx} \amp = \frac{\sin x}{y} \amp \amp y(0) = 1
-          </mrow>
-          <mrow>
-            \int y dy \amp = \int \sin x dx \amp \amp 
-          </mrow>
-          <mrow>
-            \frac{y^2}{2} \amp = - \cos x + c \amp \amp 
-          </mrow>
-          <mrow>
-            \frac{1^2}{2} \amp = - \cos 0 + c \implies c =
-            \frac{3}{2} \amp \amp 
-          </mrow>
-          <mrow>
-            \frac{y^2}{2} \amp = - \cos x + \frac{3}{2} \amp \amp 
-          </mrow>
-          <mrow>
-            y \amp = \pm \sqrt{ 2 \left( \frac{3}{2} - \cos x \right)}
-            = \pm \sqrt{3 - 2 \cos x} 
-          </mrow>
-        </md>
-      </statement>
-    </example>
-    <example>
-      <statement>
-        <md>
-          <mrow>
-            \frac{dy}{dx} \amp = \frac{-x}{y} \amp \amp y(4) = 3 
-          </mrow>
-          <mrow>
-            \int y dy \amp = - \int x dx \amp \amp 
-          </mrow>
-          <mrow>
-            \frac{y^2}{2} \amp = \frac{-x^2}{2} + c \amp \amp 
-          </mrow>
-          <mrow>
-            y^2 + x^2 \amp = c \amp \amp 
-          </mrow>
-          <mrow>
-            4^2 + 3^2 \amp = c \implies c = 25 \amp \amp 
-          </mrow>
-          <mrow>
-            y^2 + x^2 \amp = 25 \amp \amp 
-          </mrow>
-          <mrow>
-            y \amp = \pm \sqrt{25 - x^2} 
-          </mrow>
-        </md>
-      </statement>
-    </example>
-    <example>
-      <statement>
-        <md>
-          <mrow>
-            \frac{dy}{dx} \amp = y^2 + 1 \amp \amp y(0) = 0 
-          </mrow>
-          <mrow>
-            \int \frac{1}{y^2+1} dy \amp = \int 1 dx \amp \amp 
-          </mrow>
-          <mrow>
-            \arctan y \amp = x + c \amp \amp
-          </mrow>
-          <mrow>
-            y \amp = \tan (x + c) \amp \amp 
-          </mrow>
-          <mrow>
-            0 \amp = \tan (0 + c) \implies c = 0 \amp \amp 
-          </mrow>
-          <mrow>
-            y \amp = \tan (x) \amp \amp 
-          </mrow>
-        </md>
-      </statement>
-    </example>
+    <p>
+      The regression provided the function <m>p(t) =
+      2^{\frac{t}{4}}</m>. I will show, later in the course, that the
+      solution to this differential equation is a very similar
+      function.
+      <me>
+        p(t) = e^{\frac{1}{5} t}
+      </me>
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-des-concept">
+    <title>The Concept of a Differential Equation</title>
+    <p>
+      Solving differential equations is one of the major goals of
+      calculus. The solution described above leads to the profound
+      connection between percentage growth rate and exponential growth:
+      if I observe a percentage growth rate, then the quantities I 
+      observe should be described by an exponential function. This is
+      how I know that many populations grow exponentially, as do
+      functions involving resource use, radioactive decay, heat
+      dissipation, debt repayment and investment interest. The
+      importance of the exponential function lies in its use as a
+      solution to a differential equation that covers this wide
+      variety of real world situations.
+    </p>
+    <p>
+      DEs provide a different approach to fiting a function to data.
+      Instead of just using intuition to choose a class of functions and
+      regression to get the specific function, I can look at the growth
+      rates of the function in the data. If I can make a consistent
+      observation about the growth rates, such as the observation that
+      they grow by a consistent percentage, I can write that
+      observation as a differential equation. I can then (hopefully)
+      solve the differential equation to find the appropriate function.
+    </p>
+    <p>
+      Before worring about solving DEs, I simply want to understand
+      what they say. The goal is essentially translation: a
+      differential equation is a mathematical translation of a statement
+      about the growth rate of a quantity. I want to be able to pass
+      both ways between the equation and the associated statement. The
+      example in this section already shows percentage growth with
+      percentage <m>c</m>% translates into an equation.
+      <me>
+        \frac{dp}{dt} = \frac{c}{100} p
+      </me>
+    </p>
+    <p>
+      I can use this example to translate similar sentences as well.
+      In general, percentage decay says that a quantity looses a
+      percentage <m>c</m>% of the current value  per unit time. This
+      translate into a DE with a negative growth rate.
+      <me>
+        \frac{dp}{dt} = -\frac{c}{100} p
+      </me>
+    </p>
+    <p>
+      Not all differential equations are percentage growth. Perhaps the
+      rate of change is proportional to the square of the current
+      value. That could likewise be translated into a DE. 
+      <me>
+        \frac{dp}{dt} = c(p(t))^2
+      </me>
+    </p>
   </subsection>
 </section>
