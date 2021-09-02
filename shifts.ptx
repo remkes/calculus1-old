@@ -28,47 +28,42 @@
       </image>
     </figure>
     <p>
-      For conics, I noted that all of the conic equations were
-      centered at the origin. By understanding shifts of loci, we
-      learn how to write conics centered at any point. Shifts are a
+      In <xref ref="section-conics" />, the equations I gave for
+      conics were all 
+      centered at the origin. By understanding shifts of loci, I
+      can write conics centered at any point. Shifts are a
       process of changing the equation of a locus to move the locus
-      around the plane. There are a great examples of the connection
-      between algebra and geometry: we make an algebraic change to the
+      around the plane. Shifts are a great examples of the connection
+      between algebra and geometry: I make an algebraic change to the
       equation and give a geometric interpretation of that chage. 
     </p>
     <p>
       I'll describe these algebraic changes and their geometric
       implications. Let <m>a</m> be a positive real number.
-      <ul>
-        <li>
-          <p>
-            If we replace all instance of <m>x</m> by <m>x-a</m> in
-            the equation of a locus, we move the locus <m>a</m> units
-            in the positive <m>x</m> direction.
-          </p>
-        </li>
-        <li>
-          <p>
-            If we replace all instance of <m>x</m> by <m>x+a</m> in
-            the equation of a locus, we move the locus <m>a</m> units
-            in the negative <m>x</m> direction.
-          </p>
-        </li>
-        <li>
-          <p>
-            If we replace all instance of <m>y</m> by <m>y-a</m> in
-            the equation of a locus, we move the locus <m>a</m> units
-            in the positive <m>y</m> direction.
-          </p>
-        </li>
-        <li>
-          <p>
-            If we replace all instance of <m>y</m> by <m>y+a</m> in
-            the equation of a locus, we move the locus <m>a</m> units
-            in the negative <m>y</m> direction.
-          </p>
-        </li>
-      </ul>
+    </p>
+    <p><ul>
+      <li>
+        If I replace all instance of <m>x</m> by <m>x-a</m> in
+        the equation of a locus, I move the locus <m>a</m> units
+        in the positive <m>x</m> direction.
+      </li>
+      <li>
+        If I replace all instance of <m>x</m> by <m>x+a</m> in
+        the equation of a locus, I move the locus <m>a</m> units
+        in the negative <m>x</m> direction.
+      </li>
+      <li>
+        If I replace all instance of <m>y</m> by <m>y-a</m> in
+        the equation of a locus, I move the locus <m>a</m> units
+        in the positive <m>y</m> direction.
+      </li>
+      <li>
+        If I replace all instance of <m>y</m> by <m>y+a</m> in
+        the equation of a locus, I move the locus <m>a</m> units
+        in the negative <m>y</m> direction.
+      </li>
+    </ul></p>
+    <p>
       Notice that all these shifts are counter-intuitive. Replacing
       with a negative produces a positive shift, and vice-versa. 
     </p>
@@ -76,34 +71,26 @@
       Recall the cirlce of radius one is the locus of the equation
       <m>x^2 + y^2 = 1</m>.  <xref
       ref="figure-shifts-circle">Figure</xref> shows four different
-      shifts of the unit circle. You can see the counter-intuitive
-      shifts in the new centre points of the circles. 
-      <ul>
-        <li>
-          <p>
-            The locus <m>(x-1)^2 + (y-2)^2 = 1</m> is a circle of
-            radius 1 centered at <m>(1,2)</m>.
-          </p>
-        </li>
-        <li>
-          <p>
-            The locus <m>(x+3)^2 + (y-3)^2 = 1</m> is a circle of
-            radius 1 centered at <m>(-3,3)</m>.
-          </p>
-        </li>
-        <li>
-          <p>
-            The locus <m>(x+4)^2 + (y+6)^2 = 1</m> is a circle of
-            radius 1 centered at <m>(-4,-6)</m>.
-          </p>
-        </li>
-        <li>
-          <p>
-            The locus <m>(x-5)^2 + (y+2)^2 = 1</m> is a circle of
-            radius 1 centered at <m>(5,-2)</m>.
-          </p>
-        </li>
-      </ul>
+      shifts of the unit circle. The new centre points clearly shoud
+      the counter-intuitive effects of the change in the algebra.
     </p>
+    <p><ul>
+      <li>
+        The locus <m>(x-1)^2 + (y-2)^2 = 1</m> is a circle of
+        radius 1 centered at <m>(1,2)</m>.
+      </li>
+      <li>
+        The locus <m>(x+3)^2 + (y-3)^2 = 1</m> is a circle of
+        radius 1 centered at <m>(-3,3)</m>.
+      </li>
+      <li>
+        The locus <m>(x+4)^2 + (y+6)^2 = 1</m> is a circle of
+        radius 1 centered at <m>(-4,-6)</m>.
+      </li>
+      <li>
+        The locus <m>(x-5)^2 + (y+2)^2 = 1</m> is a circle of
+        radius 1 centered at <m>(5,-2)</m>.
+      </li>
+    </ul></p>
   </subsection>
 </section>

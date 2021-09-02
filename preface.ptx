@@ -2,9 +2,9 @@
   <paragraphs>
     <title>Organization</title>
     <p>
-      This document containt content and activities for a blended or
+      These notes contains content and activities for a blended or
       online Calculus 1 course. The course is organized into 12 weeks
-      following a typical 4 month Canadian academic term.  Each chapter
+      following a typical 3 month Canadian academic term. Each chapter
       (week) of the notes includes several sections of content as well
       as activities and an assignment.
     </p>
@@ -12,16 +12,16 @@
       This document is not meant to stand alone; instead, it is
       designed to be the written reference material for a set of videos
       or lectures. The main purpose of the document is to be a
-      record of the course content which is easier to use for reference
-      than the videos. There are some examples in the main body, but
+      record of the course content to use for reference after watching
+      the videos. There are some examples in the main body, but
       most examples are presented as activities for the student to
-      first attempt and then compare with the posted solution.
+      first attempt and then compare with the solution.
     </p>
     <p>
       For each week of the course, you are expected to watch the videos
       for the week and do the activities and assignmnets presented in
-      this notes. In the activities, material labeled ``Extra
-      Practice'' or ``Challenge Problems' is optional material. 
+      this notes. In the activities, material labeled <dq>Extra
+      Practice</dq> or <dq>Challenge Problems</dq> is optional material.
     </p>
   </paragraphs>
   <paragraphs>
@@ -35,8 +35,8 @@
     <ul>
       <li>
         <p>
-          A set of pre-calculus notes and learning modules (current
-          unfinished).  If you struggled with the self-assessment or
+          A set of pre-calculus notes and learning modules (currently
+          unfinished). If you struggled with the self-assessment or
           are otherwise worried about your background mathematical
           knowledge and skills, these resources are here to help you
           learn or practice skills which are prerequisite to this
@@ -53,10 +53,10 @@
       </li>
       <li>
         <p>
-          A library of functions. This reference gives archetypical
-          examples of all of the elementary functions that we use in
-          calculus. There are also small example graphs, so that you
-          can develop a visual intuition for common functions.
+          A library of functions. This reference gives descriptions of
+          all of the elementary functions that we use in calculus.
+          There are also small example graphs, so that you can develop
+          a visual intuition for common functions.
         </p>
       </li>
       <li>
@@ -72,7 +72,7 @@
           A course outcomes sheet. This was originally developed as a
           study aid for students. It summarizes the main definitions
           and concepts of the course, as well as the types of
-          questions your will encounter on assignments and exams.  In
+          questions your will encounter on assignments and exams. In
           particular, it gives a guide to the material on the exam.
           If you want to know whether a definition, topic or type of
           problem might show up on the exam, consult this sheet.

@@ -12,12 +12,11 @@
     </p>
     <p>
       A line is the locus of any equation where the variables <m>x</m>
-      and <m>y</m> show up multiplied by constants and then
-      added to another constant.  Other than multiplication by a
-      constant, no other operations are performed on the variables: no
-      exponents, no roots, no functions, nothing else.  These
-      equations, since they produce lines, are called linear
-      equations. Here are some examples.
+      and <m>y</m> show up multiplied by constants and added together.
+      Other than multiplication by a constant, no other operations are
+      performed on the variables: no exponents, no roots, no
+      functions, nothing else.  These equations, since they produce
+      lines, are called linear equations. Here are some examples.
       <md>
         <mrow>
           y \amp = 7x - 9 
@@ -33,19 +32,19 @@
         </mrow>
       </md>
       In all these equations, all I have done is multiplied each
-      varaible by some constant and added an additional constant. By
-      adding and subtracting terms, I can put some of the variables
-      or the constant on the right or left side of the equation, as I
-      see fit. 
+      variable by some constant and added the results together, making
+      them equal to some other constant.  By adding and subtracting
+      terms, I can put some of the variables or the constant on the
+      right or left side of the equation, as I see fit. 
     </p>
     <p>
       If I wanted a general form, then I let the symbols <m>a_1</m>,
       <m>a_2</m> and<m>a_3</m> stand for constants. I could bring
       everything over to one side of the equation and write the
-      general form of an equation of a line this way:
+      general form of an equation of a line as follows. 
       <me>
         a_1 x + a_2 y + a_3 = 0 
-      </me>.
+      </me>
       This is a reasonable general form. All lines can be described by
       an equation of this form. However, this is not the most
       intuitive form -- I get that form by considering slope.
@@ -54,11 +53,11 @@
   <subsection xml:id="subsection-slope">
     <title>Slope</title>
     <p>
-      Let's review the concept of slope. The slope of a straight line
-      is a measure of its steepness. A large slope descrbes a steep
-      line <mdash /> one that is quickly increasing. A small slope
-      describes a shallow line <mdash /> one that is slowly
-      increasing. A negative slope describes a decreasing line.
+      The slope of a straight line is a measure of its steepness. A
+      large positive slope descrbes a steep line <mdash /> one that is
+      quickly increasing. A small positive slope describes a shallow
+      line <mdash /> one that is slowly increasing. A negative slope
+      describes a decreasing line.
     </p>
     <p>
       A line with a slope of zero is a horizontal line: it does not
@@ -72,7 +71,7 @@
       and call this the <em>rise</em>: it measures the vertical
       distance between the two points. Then I calculate the difference
       in the <m>x</m> coordinates and call this the <em>run</em>: it
-      measures the horizontally distance between the two points.  The
+      measures the horizontal distance between the two points.  The
       slope is the rise divided by the run.
       <me>
         \text{Slope} = \frac{\text{Rise}}{\text{Run}}
@@ -111,20 +110,22 @@
       </image>
     </figure>
     <p>
-      This method of calculation shows us again why veritcal lines
-      have no slope. The <m>x</m> coordinates of any two points on a
-      vertical line are the same, to the run would be zero. To
-      calculate the slope would involve division by zero, which is not
-      defined. Therefore, vertical lines have no slope. 
+      The calculation of slope as rise over run shows again why
+      veritcal lines have no slope. The <m>x</m> coordinates of any
+      two points on a vertical line are the same, to the run would be
+      zero. To calculate the slope would involve division by zero,
+      which is not defined. Therefore, vertical lines have no slope.
+      (Dividing by zero is undefined <emdash /> not infinity.) 
     </p>
   </subsection>
   <subsection xml:id="subsection-slope-intercept">
     <title>Slope Intercept Form</title>
     <p>
       Now that I have defined slope, I can review or introduce a
-      common way of writing the equations of lines. Go back to the
-      four example lines above; in each of these, I will re-arrange
-      the equation so that <m>y</m> is along on the left side. 
+      common way of writing the equations of lines. I can return to
+      the four example lines I use above; in each of these, I will
+      re-arrange the equation so that <m>y</m> is along on the left
+      side.
       <md>
         <mrow>
           y \amp = 7x - 9 
@@ -139,9 +140,9 @@
           y \amp = \frac{\pi}{\sqrt{7}} x + \frac{1}{\sqrt{19}\sqrt{7}}
         </mrow>
       </md>
-      To get the general form, I solving for <m>y</m> on the left. Let
+      To get the general form, I solve for <m>y</m> on the left. Let
       <m>m</m> and <m>b</m> be constants (the choice of these letters
-      if conventional and used in many places). This process produces
+      is conventional and used in many places). This process produces
       the well-known slope-intercept form of the equation of a line.
       <me>
         y = mx + b 
@@ -226,7 +227,8 @@
       </image>
     </figure>
     <p>
-      I've said several times that a vertical line has no slope and
+      I've said several times that a vertical line has no slope;
+      therefore, it
       cannot be expressed in slope-intercept form. However, the
       previous paragraph gives us a good idea of how to understand
       vertical lines. If a horizontal line is simply determined by its
@@ -306,12 +308,12 @@
             -6 \amp = b 
           </mrow>
         </md>
-        That gives us a value for the <m>y</m>-intercept, hence the
+        That gives me a value for the <m>y</m>-intercept, hence the
         equation of the line.
         <me>
           y = 4x - 6 
         </me>
-        This process works for any line give a slope and a point: put
+        This process works for any line given a slope and a point: put
         the slope into the slope-intercept form, put the point in for
         the coordinates <m>x</m> and <m>y</m>, and solve for the
         intercept. 
@@ -321,7 +323,7 @@
         points. There is a unique line passing between any two points
         <mdash /> but how do I get the equation of this line? I
         calculate the slope. Recall that slope is defined as the
-        fraction rise over run. Rise is the difference in the <m>y</m>
+        quotient of rise over run. Rise is the difference in the <m>y</m>
         coordinates and run is the difference in the <m>x</m>
         coordinates, so given two points I can calculate the slope.
         I'll show this by example: what is the line through the point
@@ -331,10 +333,11 @@
           m = \frac{\text{Rise}}{\text{Run}} = \frac{-5 - 1}{3 - 1} =
           \frac{-6}{2} = -3
         </me>
-        The slope is <m>-3</m>, so the slope intercept looks like
+        The slope is <m>-3</m>. I can write the slope-intercept form
+        without a still-unkown intercept.
         <me>
           y = -3x + b 
-        </me>.
+        </me>
         Then the process is the same as the previous case: I have the
         slope and I have a point (two, in fact). I can substitue a point
         (either point will work) to calculate the intercept.
@@ -356,7 +359,7 @@
         <me>
           y = -3x + 4
         </me>
-        I'll leave it up to you to check that if I had used the other
+        I'll leave it up to you to check if I had used the other
         point, I would have calculated the same value for <m>b</m>. 
       </li>
     </ul></p>

@@ -5,35 +5,35 @@
     <activity>
       <statement>
         <p>
-          Compose the functions <m>f(x) = \frac{1}{x+4}</m> and <m>g(x)
-          = x^2 - 4</m> in both orders. Determine the domain of both
-          compositions. 
+          Compose the functions <m>f(x) = \frac{1}{x+4}</m> and
+          <m>g(x) = x^2 - 4</m> in both orders. Determine the domain
+          of both compositions.
         </p>
       </statement>
       <solution>
         <p>
           For the composition <m>f \circ g</m>, <m>f</m> is the
-          outside function and <m>g</m> is the inside function. We use
+          outside function and <m>g</m> is the inside function. I use
           the function <m>g</m> to replace the variable in the
           function <m>f</m>.
           <me>
             f \circ g(x) = \frac{1}{(x^2-4) + 4} = \frac{1}{x^2} 
           </me>
-          In the resulting function, we need to exclude <m>x = 0</m>
+          In the resulting function, I need to exclude <m>x = 0</m>
           to avoid division by zero. The inside function <m>g</m> has
-          no restriction, so there are no other domain concerns and
+          no restrictions, so there are no other domain concerns and
           the domain is all real numbers except 0.
         </p>
         <p>
           For the composition <m>g \circ f</m>, <m>g</m> is the
-          outside function and <m>f</m> is the inside function. We use
+          outside function and <m>f</m> is the inside function. I use
           the function <m>f</m> to replace the variable in the
           function <m>g</m>.
           <me>
             g \circ f(x) = \left( \frac{1}{x+4} \right)^2 - 4 =
             \frac{1}{(x+4)^2} - 4 
           </me>
-          In the resulting function, we need to exclude <m>x = -4</m>
+          In the resulting function, I need to exclude <m>x = -4</m>
           to avoid division by zero. The inside function <m>f</m> has
           the same restriction, <m>x \neq -4</m>, so there are no
           other domain concerns and the domain is all real numbers
@@ -44,49 +44,49 @@
     <activity>
       <statement>
         <p>
-          Compose the functions <m>f(x) = e^{x^2-1}</m> and <m>g(x)
-          = \sqrt{x^3-5}</m> in both orders. Determine the domain of both
-          compositions. 
+          Compose the functions <m>f(x) = e^{x^2-1}</m> and <m>g(x) =
+          \sqrt{x^3-5}</m> in both orders. Determine the domain of
+          both compositions.
         </p>
       </statement>
       <solution>
         <p>
           For the composition <m>f \circ g</m>, <m>f</m> is the
-          outside function and <m>g</m> is the inside function. We use
+          outside function and <m>g</m> is the inside function. I use
           the function <m>g</m> to replace the variable in the
           function <m>f</m>.
           <me>
             f \circ g(x) = e^{(\sqrt{x^3-5})^2-1} = e^{x^3-5-1} =
             e^{x^3-6}
           </me>
-          The resulting function have no obvious domain restrictons.
-          However, since we have to do the inside function <m>g</m>
-          first, we need to respect the domain restrictions of
+          The resulting function has no obvious domain restrictons.
+          However, since I have to do the inside function <m>g</m>
+          first, I need to respect the domain restrictions of
           <m>g</m>. The argument in the square root needs to be
-          positive, we we need <m>x^3-5 \geq 0</m>. This inequality
+          positive, I need <m>x^3-5 \geq 0</m>. This inequality
           simplifies into <m>x^3 \geq 5</m> and further to <m> x \geq
           \sqrt[3]{5}</m>. Therefore, the domain of the composition is
-          all real number <m>x \geq \sqrt[3]{5}</m>.
+          all real numbers <m>x \geq \sqrt[3]{5}</m>.
         </p>
         <p>
           For the composition <m>g \circ f</m>, <m>g</m> is the
-          outside function and <m>f</m> is the inside function. We use
+          outside function and <m>f</m> is the inside function. I use
           the function <m>f</m> to replace the variable in the
           function <m>g</m>.
           <me>
             g \circ f(x) = \sqrt{(e^{x^2-1})^3 - 5} =
             \sqrt{e^{3(x^2-1)} - 5}
           </me>
-          We've simplified this one step using the laws of exponents.
+          I've simplified this one step using the laws of exponents.
           Even though this is still a complicated expression, there
-          aren't any more reasonable simplification. The domain
+          aren't any more reasonable simplifications. The domain
           restrictions are also complicated here. The inside function
-          <m>f</m> has no restrictions, so we only have to worry about
+          <m>f</m> has no restrictions, so I only have to worry about
           the final form; unfortunately, that final form isn't easy to
           pull apart. The square root is the only restriction, so the
-          term inside the square root must be non-negative. Let's work
-          with that inequality a bit. (We're going to apply a
-          logarithm to get ride of the exponential; this respect the
+          term inside the square root must be non-negative. I will
+          work with that inequality a bit. (I'm going to apply a
+          logarithm to get ride of the exponential; this respects the
           inequality, since the logarithm is an increasing function.
           Any increasing function preserves inequalities and an
           decreasing function reverses them.)
@@ -113,10 +113,10 @@
              x \amp \geq \sqrt{\frac{1}{3} \ln 5 + 1}
             </mrow>
           </md>
-          After the manipulation of this inequality, we do get an
+          After the manipulation of this inequality, I get an
           understandable domain restriction. This composition is
-          define for all real numbers <m>x \geq \sqrt{\frac{1}{3} \ln
-          5 + 1}</m>. 
+          defined for all real numbers <m>x \geq \sqrt{\frac{1}{3} \ln
+          5 + 1}</m>.
         </p>
       </solution>
     </activity>
@@ -132,10 +132,10 @@
       </statement>
       <solution>
         <p>
-          We want to write <m>f = g \circ h</m> for some functions
-          <m>g</m> and <m>h</m>. We need to break this into successive
+          I want to write <m>f = g \circ h</m> for some functions
+          <m>g</m> and <m>h</m>. I need to break this into successive
           processes. The first observation is that the fourth root
-          is the last operations of the function: first we square the
+          is the last operations of the function: first I square the
           variable, then subtract 4, then apply the fourth root.
           Therefore, the fourth root is a reasonable choice of the
           outside function, with everything inside the root as the
@@ -148,8 +148,8 @@
           are many ways to break apart a function as the composition
           of two (or more) pieces. Here is another possibility.
           <me>
-            f = g \circ h \text{ where } g(x) = \sqrt[4]{x-4} \text{ and
-            } h(x) = x^2
+            f = g \circ h \text{ where } g(x) = \sqrt[4]{x-4} \text{
+            and } h(x) = x^2
           </me>
         </p>
       </solution>
@@ -163,19 +163,19 @@
       </statement>
       <solution>
         <p>
-          We want to write <m>f = g \circ h</m> for some functions
-          <m>g</m> and <m>h</m>. We need to break this into successive
-          processes. If we want the simplest outside function, we can
+          I want to write <m>f = g \circ h</m> for some functions
+          <m>g</m> and <m>h</m>. I need to break this into successive
+          processes. If I want the simplest outside function, I can
           observe that the sine function is the last step, applied to
-          everything else in the function. We could choose the sine
+          everything else in the function. I could choose the sine
           function as the outside function, leaving everything else as
           the inside. 
           <me>
             f = g \circ h \text{ where } g(x) = \sin (x) \text{ and
             } h(x) = e^{x^2+x+1}
           </me>
-          There are other possible solution. Here is one where we'd
-          like the inside function to be slightly simpler. 
+          There are other possible solutions. Here is one where I
+          would like the inside function to be slightly simpler.
           <me>
             f = g \circ h \text{ where } g(x) = \sin (e^x) \text{ and
             } h(x) = x^2+x+1
@@ -197,10 +197,10 @@
         <p>
           The function is increasing on this domain (since it is the
           composition of two increasing functions), so it is
-          invertible. We follow the steps of the process: set <m>y =
+          invertible. I follow the steps of the process: set <m>y =
           f(x)</m>, solve for <m>y</m>, then switch variables to write
-          the inverse as a function of our conventional independent
-          variables <m>x</m>.
+          the inverse as a function of the conventional independent
+          variable <m>x</m>.
           <md>
             <mrow>
               y \amp = \ln (\sqrt{x}) 
@@ -215,7 +215,7 @@
               f^{-1}(x) \amp = e^{2x}
             </mrow>
           </md>
-          Note that we use the exponential to remove the logarith:
+          Note that I use the exponential to remove the logarithm:
           these are inverse operations, so one removes the other. 
         </p>
       </solution>
@@ -229,12 +229,12 @@
       </statement>
       <solution>
         <p>
-          When <m>x > 2 </m>, the logarithm <m>\ln (x-1)</m> is positive
-          and growing, so its reciprocal is positive and decreasing.
-          The function is invertible on this domain.  We follow the
-          steps of the process: set <m>y = f(x)</m>, solve for
-          <m>y</m>, then switch variables to write the inverse as a
-          function of our conventional independent variables
+          When <m>x > 2 </m>, the logarithm <m>\ln (x-1)</m> is
+          positive and growing, so its reciprocal is positive and
+          decreasing.  The function is invertible on this domain. I
+          follow the steps of the process: set <m>y = f(x)</m>, solve
+          for <m>y</m>, then switch variables to write the inverse as
+          a function of the conventional independent variables
           <m>x</m>. (In the step from the first to the second line, we
           simply take the reciprocal of each side of the equation;
           when the numerators are not zero, this is a valid
@@ -309,7 +309,7 @@
       </statement>
       <solution>
         <p>
-          We plots the points of the data set in the cartesian plane.
+          I plot the points of the data set in the cartesian plane.
           They drop initially, then rise again. A reasonable choice
           for this data set is a quadratic function.
         </p>
@@ -366,7 +366,7 @@
       </statement>
       <solution>
         <p>
-          We plots the points of the data set in the cartesian plane.
+          I plot the points of the data set in the cartesian plane.
           The data rises and falls in what looks like a regular
           pattern. A sinusoidal function is a good choice for this
           data.
@@ -424,7 +424,7 @@
       </statement>
       <solution>
         <p>
-          We plots the points of the data set in the cartesian plane.
+          I plot the points of the data set in the cartesian plane.
           The data rises, fall, and then rises rapidly. Three changes
           in directions is possible with a cubic, so that is a
           reasonable choise for this data. 
@@ -482,9 +482,9 @@
       </statement>
       <solution>
         <p>
-          We plots the points of the data set in the cartesian plane.
+          I plot the points of the data set in the cartesian plane.
           The data here points to a increasing function and looks
-          mostly linear. We could simply guess a linear function.
+          mostly linear. I could simply guess a linear function.
           However, there seems to be a jump between 6 and 7, which
           makes a single line a bit problematic. It could be a more
           complicated kind of function which connects the two pieces.
@@ -546,9 +546,9 @@
       </statement>
       <solution>
         <p>
-          We plots the points of the data set in the cartesian plane.
-          The data is increasing, but more and more slowly as we go
-          along. We want some kind of function which increases but
+          I plot the points of the data set in the cartesian plane.
+          The data is increasing, but more and more slowly as I go
+          along. I want some kind of function which increases but
           bends downward. Two comnon functions with this behaviours
           are the square root and the logarithm. I've chose to do with
           a square root function.
@@ -573,15 +573,15 @@
       </statement>
       <solution>
         <p>
-        This is the same form as our exponential form for population
-        growth, but with a negative exponent. We can use our
+        This is the same form as the exponential form for population
+        growth, but with a negative exponent. I can use our
         undersatnding of the parameters in population growth to
-        interpret these parameters. When <m>t=0</m>, we have <m>C(0) =
+        interpret these parameters. When <m>t=0</m>, I have <m>C(0) =
         a</m>, so <m>a</m> the starting value. The coefficient in the
         exponential was the rate of exponential growth for population.
-        We can likewise conclude that <m>b</m> is control the rate of
-        decay of concentration here. We say this is decay because this
-        is a negative exponential. 
+        I can likewise conclude that <m>b</m> is control the rate of
+        decay of concentration here. This is decay because there is a 
+        negative exponential. 
         </p>
       </solution>
     </activity>
@@ -596,12 +596,13 @@
       </statement>
       <solution>
         <p>
-        When the depth is zero, we have <m>p(0) = a</m>. We can
+        When the depth is zero, I have <m>p(0) = a</m>. I can
         conclude that <m>a</m> is the pressure at the surface of the
         body of water. Since the parameters are positive, this
         pressure increases linearly as the depth increases. The
         parameter <m>b</m> is the slope of this increas, so it measure
-        that rate of which we gain pressure as we descend.
+        that rate of which the water gains pressure as depth
+        increases.
         </p>
       </solution>
     </activity>
@@ -617,13 +618,13 @@
       </statement>
       <solution>
         <p>
-        When the time is 0, we have <m>p(0) = a</m>. Therefore, we can
+        When the time is 0, I have <m>p(0) = a</m>. Therefore, I can
         call <m>a</m> the starting height. The other pieces of the
         function are sinusoidal oscillation linear decline. The
         parameter <m>b</m> is the amplitude of the sinusoidal piece
         and the parameter <m>c</m> is the negative slope of the linear
         decline. The behaviour of the model comes from adding these
-        two behaviours together: so we get some oscillations while
+        two behaviours together: so I get some oscillations while
         generally having a linear decline. 
         </p>
       </solution>
@@ -639,11 +640,11 @@
       </statement>
       <solution>
         <p>
-        When time is 0, we have <m>p(0) = c</m>, so <m>c</m> is the
+        When time is 0, I have <m>p(0) = c</m>, so <m>c</m> is the
         starting value of the population. The population is linear,
         with slope <m>a-b</m>. This will be positive or negative
         depending on which parameter is larger. Since the parater
-        <m>a</m> is positive but we subtract the parameter <m>b</m>,
+        <m>a</m> is positive but I subtract the parameter <m>b</m>,
         <m>a</m> must have a positive effect on the population and
         <m>b</m> must have a negative effect. The simpliest way to
         interpret this is to assume that <m>a</m> is a birth rate and
@@ -658,8 +659,8 @@
     <p>
       <ul>
         <li>
-          What do we mean by the behaviour of a function? What tools
-          do we have to describe how functions behave?
+          What does <sq>the behaviour of a function</sq> mean? What
+          tools exist to describe how functions behave?
         </li>
         <li>
           What is domain and how it is determined?

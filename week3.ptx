@@ -2,7 +2,7 @@
   xml:id="chapter-week3">
   <title>Week 3</title>
   <xi:include href="population-growth.ptx" />
-  <xi:include href="differential-equations.ptx" />
+  <xi:include href="des.ptx" />
   <xi:include href="phase-lines.ptx" />
   <xi:include href="week3-activity.ptx" />
 </chapter>
