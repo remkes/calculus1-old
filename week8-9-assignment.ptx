@@ -1,6 +1,15 @@
 <!--
-  This assignment was used for the Winter 2021 term.
+  This assignment was used for the Fall 2021 term.
 -->
+<section xml:id="section-assignment-week8-9">
+  <title>Week 8-9 Assignment</title>
+  <p><ol>
+    <li>
+    </li>
+  </ol></p>
+</section>
+
+<!-- Previous Assignment
 <section xml:id="section-assignment-week8">
   <title>Week 8 Assignment</title>
   <ol>
@@ -55,3 +64,40 @@
     </li>
   </ol>
 </section>
+
+<section xml:id="section-assignment-week9">
+  <title>Week 9 Assignment</title>
+  <ol>
+    <li>
+      <p>
+      Calculate the following integrals. Clearly label your
+      substitutions. (16)
+      </p>
+      <ol>
+        <li><me>
+          \int \sin (3x - 7x^2) (3-14x) dx
+        </me></li>
+        <li><me>
+          \int \frac{7x}{9x + 5} dx 
+        </me></li>
+        <li><me>
+          \int \ln (x^3 + 7) 17 x^2 dx 
+        </me></li>
+        <li><me>
+          \int_0^{\frac{\pi}{24}} \sin (24 x) + \cos (12 x) dx 
+        </me></li>
+      </ol>
+    </li>
+    <li>
+      <p>
+        Consider this integral
+        <me>
+          \int e^{-x^2} dx 
+        </me>
+        Explain why the substitution <m>u = -x^2</m> doesn't actually
+        help to solve this integral (4). 
+      </p>
+    </li>
+  </ol>
+</section>
+-->
