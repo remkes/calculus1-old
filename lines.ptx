@@ -15,7 +15,7 @@
       and <m>y</m> show up multiplied by constants and added together.
       Other than multiplication by a constant, no other operations are
       performed on the variables: no exponents, no roots, no
-      functions, nothing else.  These equations, since they produce
+      functions, nothing else. These equations, since they produce
       lines, are called linear equations. Here are some examples.
       <md>
         <mrow>
@@ -33,7 +33,7 @@
       </md>
       In all these equations, all I have done is multiplied each
       variable by some constant and added the results together, making
-      them equal to some other constant.  By adding and subtracting
+      them equal to some other constant. By adding and subtracting
       terms, I can put some of the variables or the constant on the
       right or left side of the equation, as I see fit. 
     </p>
@@ -47,7 +47,7 @@
       </me>
       This is a reasonable general form. All lines can be described by
       an equation of this form. However, this is not the most
-      intuitive form -- I get that form by considering slope.
+      intuitive form <mdash /> I get that form by considering slope.
     </p>
   </subsection>
   <subsection xml:id="subsection-slope">
@@ -68,10 +68,10 @@
     <p>
       To calculate the slope, I can choose any two points on the
       line. I calculate the difference in the <m>y</m> coordinates
-      and call this the <em>rise</em>: it measures the vertical
+      and call this the <term>rise</term>: it measures the vertical
       distance between the two points. Then I calculate the difference
-      in the <m>x</m> coordinates and call this the <em>run</em>: it
-      measures the horizontal distance between the two points.  The
+      in the <m>x</m> coordinates and call this the <term>run</term>:
+      it measures the horizontal distance between the two points. The
       slope is the rise divided by the run.
       <me>
         \text{Slope} = \frac{\text{Rise}}{\text{Run}}
@@ -115,7 +115,7 @@
       two points on a vertical line are the same, to the run would be
       zero. To calculate the slope would involve division by zero,
       which is not defined. Therefore, vertical lines have no slope.
-      (Dividing by zero is undefined <emdash /> not infinity.) 
+      (Dividing by zero is undefined <mdash /> not infinity.) 
     </p>
   </subsection>
   <subsection xml:id="subsection-slope-intercept">
@@ -124,7 +124,7 @@
       Now that I have defined slope, I can review or introduce a
       common way of writing the equations of lines. I can return to
       the four example lines I use above; in each of these, I will
-      re-arrange the equation so that <m>y</m> is along on the left
+      re-arrange the equation so that <m>y</m> is alone on the left
       side.
       <md>
         <mrow>
@@ -150,12 +150,12 @@
       In this form, the number <m>m</m> will always be the slope of
       the line. The number <m>b</m> will be the <m>y</m>-coordinate of
       the point where the line crosses the <m>y</m> axis; this is
-      called the <m>y</m>-intercept. These two pieces of information
-      are enough to completely determine the line. If I know where a
-      line crosses the <m>y</m>-axis and I know how quickly is grows from
-      that point (its slope), then I know everything about the line.
-      <xref ref="figure-slope-intercept" /> shows an example to
-      illustrate this slope-intercept form.
+      called the <term><m>y</m>-intercept</term>. These two pieces of
+      information are enough to completely determine the line. If I
+      know where a line crosses the <m>y</m>-axis and I know how
+      quickly is grows from that point (its slope), then I know
+      everything about the line.  <xref ref="figure-slope-intercept"
+      /> shows an example to illustrate this slope-intercept form.
     </p>
     <figure xml:id="figure-slope-intercept">
       <caption>Slope-Intercept Form </caption>
@@ -185,8 +185,8 @@
       </image>
     </figure>
     <p>
-      As I said above, a horizontal lines has a slope of zero. In
-      slope-intercept form this is<m>m = 0</m>, so the equation of the
+      As I said above, a horizontal line has a slope of zero. In
+      slope-intercept form this is <m>m = 0</m>, so the equation of the
       line looks like
       <me>
         y = 0x + b = b 
@@ -228,16 +228,15 @@
     </figure>
     <p>
       I've said several times that a vertical line has no slope;
-      therefore, it
-      cannot be expressed in slope-intercept form. However, the
-      previous paragraph gives us a good idea of how to understand
-      vertical lines. If a horizontal line is simply determined by its
-      <m>y</m> coordinate, a vertical line is similarly determined by
-      its <m>x</m> coordinate. Any line of the form <m>x = b</m> is a
-      horizontal line. <m>x - -3</m> is the horizontal line of points
-      with <m>x</m>-coordinate <m>-3</m> and any <m>y</m> coordinate
-      whatsoever. <xref ref="figure-vertical-lines" /> shows some
-      horizontal lines.
+      therefore, it cannot be expressed in slope-intercept form.
+      However, the previous paragraph gives me a good idea of how to
+      understand vertical lines. If a horizontal line is simply
+      determined by its <m>y</m> coordinate, a vertical line is
+      similarly determined by its <m>x</m> coordinate. Any line of the
+      form <m>x = b</m> is a vertical line. <m>x = -3</m> is the
+      vertical line of points with <m>x</m>-coordinate <m>-3</m> and
+      any <m>y</m> coordinate whatsoever. <xref
+      ref="figure-vertical-lines" /> shows some vertical lines.
     </p>
     <figure xml:id="figure-vertical-lines">
       <caption>Vertical Lines</caption>
@@ -279,7 +278,7 @@
         example, if I was asked for the line with slope
         <m>\frac{-2}{5}</m> and <m>y</m>-intercept <m>3</m>, I would
         simply put those numbers into the form and get the equation of
-        the line:
+        the line.
         <me>
           y = \frac{-2}{5} x + 3 
         </me>.

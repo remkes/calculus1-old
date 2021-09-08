@@ -10,46 +10,52 @@
       There are three major definitions or interpretations of
       functions. 
     </p>
-    <p>
-      First, a function is like a machine which acts on things
-      (usually, but not necessarily, numbers). Functions are agents
-      which perform certain action. The function <m>f(x) =
-      x^2</m> from <m>\RR \rightarrow \RR</m> is a process which takes
-      a number and produces the square of that number
-      think of <m>f</m> as the thing that squares numbers. 
-    </p>
-    <p>
-      Second, a more abstract understanding of a function is as a rule
-      that assigns something in one set to something in another. In
-      order to explain this understanding, I first need to review sets. 
-    </p>
-    <p>
-      A <em>set</em> is any collection of things; the things in a set
-      are called its <em>elements</em> While most of our sets will be
-      sets of numbers, apriori a set can have any kind of elements.
-      Particularly useful sets for this course are the standard number
-      sets (<m>\NN</m>, the natural numbers; <m>\ZZ</m>, the integers;
-      <m>\QQ</m>, the rational number, <m>\RR</m>, the real numbers),
-      open inverals <m>(a,b)</m> and closed interval <m>[a,b]</m>.
-    </p>
-    <p>
-      Now I'll return to the second understanding of functions. Let
-      <m>A</m> and <m>B</m> be sets. A <em>function</em> <m>f: A
-      \rightarrow B</m> is a rule that assigns an element of <m>B</m>
-      to each element of <m>A</m>. The set <m>A</m> is called the
-      domain. The range of the function is the subset of <m>B</m>
-      consisting of all outputs of the function.
-    </p>
-    <p>
-      Finally, functions encode relationships and dependencies.
-      For a function <m>f: A \rightarrow B</m>, I can thing
-      of the elements of <m>B</m> depending on the elements of
-      <m>A</m>. If I say that population growth is a function of
-      food supply, I mean that there is a function which goes from
-      numbers representing food suply to numbers representing growth
-      rates. That function encodes the dependance of growth on food
-      supply.
-    </p>
+    <p><ol>
+      <li>
+        First, a function is like a machine which acts on things
+        (usually, but not necessarily, numbers). Functions are agents
+        which perform certain actions. The function <m>f(x) = x^2</m>
+        from <m>\RR \rightarrow \RR</m> is a process which takes a
+        number and produces the square of that number. I can think of
+        this <m>f</m> as the machine that squares numbers. 
+      </li>
+      <li>
+        <p>
+          Second, a more abstract understanding of a function is as a
+          rule that assigns something in one set to something in
+          another. In order to explain this understanding, I first
+          need to review sets. 
+        </p>
+        <p>
+          A <em>set</em> is any collection of things; the things in a
+          set are called its <em>elements</em> While most of our sets
+          will be sets of numbers, a set can have any kind of things
+          as elements.  Particularly useful sets for this course are
+          the standard number sets (<m>\NN</m>, the natural numbers;
+          <m>\ZZ</m>, the integers; <m>\QQ</m>, the rational number,
+          <m>\RR</m>, the real numbers), open inverals <m>(a,b)</m>
+          and closed interval <m>[a,b]</m>.
+        </p>
+        <p>
+          Now I'll return to the second understanding of functions.
+          Let <m>A</m> and <m>B</m> be sets. A <em>function</em> <m>f:
+          A \rightarrow B</m> is a rule that assigns an element of
+          <m>B</m> to each element of <m>A</m>. The set <m>A</m> is
+          called the domain. The range of the function is the subset
+          of <m>B</m> consisting of all outputs of the function.
+        </p>
+      </li>
+      <li>
+        Finally, functions encode relationships and dependencies.  For
+        a function <m>f: A \rightarrow B</m>, I can thing of the
+        elements of <m>B</m> depending on the elements of <m>A</m>. If
+        I say that population growth is a function of food supply, I
+        mean that there is a function which goes from numbers
+        representing food supply to numbers representing growth rates.
+        That function encodes the dependance of growth on food
+        supply.
+      </li>
+    </ol></p>
     <p>
       In addition to the three concepts, function are also visualized
       by graphs. (There is a library of functions in the common
@@ -71,8 +77,8 @@
     </p>
     <p>
       Determining the domain of a function on <m>\RR</m> means
-      avoiding illegal mathematical actions. There are three common
-      restrictions
+      avoiding undefined mathematical actions. There are three common
+      restrictions.
     </p>
     <p><ul>
       <li>

@@ -6,33 +6,23 @@
   <title>Week 2 Assignment</title>
   <p><ol>
     <li>
-    </li>
-  </ol></p>
-</section>
-
-<!-- Previous Assignment
-<section xml:id="section-assignment-week2">
-  <title>Week 2 Assignment</title>
-  <ol>
-    <li>
       <p>
         For each of the following situations, what kind of function
         might you choose to encode the dependence? Give reasons for
-        your choices (6) 
-        <ol>
-          <li>
-            Grade in a math class (in percentage) as a function of
-            amount of time studied.   
-          </li>
-          <li>
-            Happiness as a function of time spent in math lectures. 
-          </li>
-          <li>
-            Fear as a function fo time remaining until a math final
-            exam. 
-          </li>
-       </ol>
+        your answer, but feel free to be honest, satirical or ironic
+        as you see fit. (6) 
       </p>
+      <p><ol>
+        <li>
+          Happiness as a function of chocolate consumed.  
+        </li>
+        <li>
+          Fear as a function of diving board height when diving. 
+        </li>
+        <li>
+          Stress as a function of hours of sleep per night. 
+        </li>
+      </ol></p>
     </li>
     <li>
       <p>
@@ -41,40 +31,38 @@
         expressions for the composition as much as you can. Then state
         the domains of <m>f</m>, <m>g</m>. <m>f \circ  g</m> and <m>g
         \circ f</m>. (18) 
-        <ol>
-          <li>
-            <m>f(x) = x^2 + 7x</m> and <m>g(x) = \sin (x^2)</m>. 
-          </li>
-          <li>
-            <m>f(x) = \ln \left( \frac{1}{1+x} \right)</m> and <m>g(x)
-            = \frac{1}{x}</m>. 
-          </li>
-          <li>
-            <m>f(x) = e^{-3x}</m> and <m>g(x) = \ln x</m>. 
-          </li>
-        </ol>
       </p>
+      <p><ol>
+        <li>
+          <m>f(x) = \frac{1}{x^2-1}</m> and <m>g(x) = x^2-3</m>. 
+        </li>
+        <li>
+          <m>f(x) = e^{\frac{1}{1+x}}</m> and <m>g(x) = 1-x</m>. 
+        </li>
+        <li>
+          <m>f(x) = \sin (x^2)</m> and <m>g(x) = 3 - e^x</m>. 
+        </li>
+      </ol></p>
     </li>
     <li>
       <p>
         Invert the following functions on the given domain. (You may
         assume the function is monotonic on the given domain). State
         the domain of the inverse. (15) 
-        <ol>
-          <li>
-            <m>f(x) = x^4 + 7</m> on the domain <m>[0,\infty)</m>. 
-          </li>
-          <li>
-            <m>f(x) = \sin \left( \frac{\pi}{2+x} \right)</m> on the
-            domain <m>[0,\infty)</m>. 
-          </li>
-          <li>
-            <m>f(x) = \ln (x^2 - 2)</m> on the domain
-            <m>(\sqrt{2},\infty)</m>. 
-          </li>
-        </ol>
       </p>
+      <p><ol>
+        <li>
+          <m>f(x) = \frac{2+x}{3-x}</m> on the domain
+          <m>(3,\infty)</m>. 
+        </li>
+        <li>
+          <m>f(x) = \tan \left( \frac{1}{x} \right)</m> on the
+          domain <m>\left[ \frac{2}{\pi} ,\infty \right)</m>. 
+        </li>
+        <li>
+          <m>f(x) = e^{x^2+1}</m> on the domain <m>[0,\infty)</m>. 
+        </li>
+      </ol></p>
     </li>
-  </ol>
+  </ol></p>
 </section>
--->

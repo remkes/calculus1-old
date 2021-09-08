@@ -35,7 +35,12 @@
       intersection point at <m>(2,3)</m>. At this intersection
       point, the coordinates <m>(x,y)</m> satisfy both equations.
       Algebraically, we can find this point by solving the system
-      composed of both equation. I'll do the calculation.
+      composed of both equation. I'll do the calculation. Since the
+      <m>y</m> must be the same in both equations to find the
+      interesction, I can make both of the <m>x</m> expressions equal
+      as well. Then I can solve for the <m>x</m> coordinates. Finally,
+      I can use that <m>x</m> coordinate to solve for the <m>y</m>
+      coordinate using either line equation. 
       <md>
         <mrow>
           y \amp  = x+1
@@ -59,9 +64,9 @@
       The intersection point is <m>(2,3)</m>.
     </p>
     <p>
-      This examples show the general theory. A point is on the
+      This example show the general idea. A point is on the
       intersection of two loci if its coordinates satisfy both
-      equations. Algebraically, we find this point by solving the
+      equations. Algebraically, I find this point by solving the
       system of equations using the equations for both loci. There are
       many techniques for solving systems: isolating one variable and
       replacing it, adding equations together, solving for one
@@ -72,53 +77,70 @@
   </subsection>
   <subsection xml:id="subsection-intersection-with-conics">
     <title>Intersection of Lines and Conics</title>
-    <figure xml:id="figure-intersection-line-ellipse">
-      <caption>Intersection of a Line and an Ellipse</caption>
-      <image xml:id="figure24" width="70%">
-        <asymptote>
-          size(10cm);
-
-          import graph;
-
-          xaxis("$x$");
-          yaxis("$y$");
-
-          real f4(real x) {return -x;}
-          real f6(real x) {return -sqrt(1-x^2/4);}
-          real f7(real x) {return sqrt(1-x^2/4);}
-
-          draw(graph(f4,-2,2));
-          draw(graph(f6,-2,2));
-          draw(graph(f7,-2,2));
-
-          label("$y=-x$",(2,-2),E);
-          label("$\frac{x^2}{4} + \frac{y^2}{1} = 1$",(1.3,-0.7),SE);
-          
-          dot((.894,-.894));
-          dot((-.894,.894));
-
-          label("$P_1$",(-.8,1),N);
-          label("$P_2$",(.8,-1),S);
-        </asymptote>
-      </image>
-    </figure>
     <p>
-      In <xref ref="figure-intersection-line-ellipse" />, the ellipse
-      <m>\frac{x^2}{4} + \frac{y^2}{1} = 1</m> and the line
-      <m>y=-x</m> have two intersection points. I can solve for those
-      point by using the equation of the line to replace a variable.
-      If I replace <m>y</m> with <m>-x</m> in the equation of the
-      ellipse, that equation simplifies as follows.
-      <me>
-        \frac{5x^2}{4} = 1 \implies x = \pm \frac{2}{\sqrt{5}} 
-      </me>
-      Now I know the <m>x</m> values of the intersection point. The
-      line equation <m>y = -x</m> reminds me that the <m>y</m> values
-      are just the negative of the <m>x</m> values. With that
-      reminder, I can write down the coordinates of the two
-      intersection points: <m>p_1 =
-      (\frac{-2}{\sqrt{5}},\frac{2}{\sqrt{5}})</m> and <m>p_2 =
-      (\frac{2}{\sqrt{5}},\frac{-2}{\sqrt{5}})</m>.
+      With any two loci, there is the possibility of intersection; I
+      would simply have to find some point <m>(x,y)</m> that satisfied
+      both equations. The algebraic approach to finding intersection
+      is also the same as above for line. Finding an intersection
+      point is accomplished by solving the system of equations.
+      However, once the equations are no longer linear, solving that
+      system can get much more difficult and complication. There many
+      be no solutions or many solutions. It may be impossible to find
+      the solution by exact value, meaning that approximation is the
+      only technique. I'm not going to go do deeply into the theory of
+      intersections in this course, but I'll I do want to cover
+      intersection involving both lines and conics. I'll do this by
+      example. 
     </p>
+    <example>
+      <figure xml:id="figure-intersection-line-ellipse">
+        <caption>Intersection of a Line and an Ellipse</caption>
+        <image xml:id="figure24" width="70%">
+          <asymptote>
+            size(10cm);
+  
+            import graph;
+  
+            xaxis("$x$");
+            yaxis("$y$");
+  
+            real f4(real x) {return -x;}
+            real f6(real x) {return -sqrt(1-x^2/4);}
+            real f7(real x) {return sqrt(1-x^2/4);}
+  
+            draw(graph(f4,-2,2));
+            draw(graph(f6,-2,2));
+            draw(graph(f7,-2,2));
+  
+            label("$y=-x$",(2,-2),E);
+            label("$\frac{x^2}{4} + \frac{y^2}{1} = 1$",(1.3,-0.7),SE);
+            
+            dot((.894,-.894));
+            dot((-.894,.894));
+  
+            label("$P_1$",(-.8,1),N);
+            label("$P_2$",(.8,-1),S);
+          </asymptote>
+        </image>
+      </figure>
+      <p>
+        In <xref ref="figure-intersection-line-ellipse" />, the ellipse
+        <m>\frac{x^2}{4} + \frac{y^2}{1} = 1</m> and the line
+        <m>y=-x</m> have two intersection points. I can solve for those
+        point by using the equation of the line to replace a variable.
+        If I replace <m>y</m> with <m>-x</m> in the equation of the
+        ellipse, that equation simplifies as follows.
+        <me>
+          \frac{5x^2}{4} = 1 \implies x = \pm \frac{2}{\sqrt{5}} 
+        </me>
+        Now I know the <m>x</m> values of the intersection point. The
+        line equation <m>y = -x</m> reminds me that the <m>y</m> values
+        are just the negative of the <m>x</m> values. With that
+        reminder, I can write down the coordinates of the two
+        intersection points: <m>p_1 =
+        (\frac{-2}{\sqrt{5}},\frac{2}{\sqrt{5}})</m> and <m>p_2 =
+        (\frac{2}{\sqrt{5}},\frac{-2}{\sqrt{5}})</m>.
+      </p>
+    </example>
   </subsection>
 </section>

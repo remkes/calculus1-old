@@ -90,9 +90,9 @@
         <p>
           Given two points <m>p</m> and <m>q</m> and a positive real
           number <m>r</m>, the ellipse is the set of all points in the
-          plane where the sum of the distances from a fixed center
-          point to both <m>p</m> and <m>q</m> is exactly <m>r</m>. The
-          points are called the foci (singular focus).
+          plane where the sum of the distances to both <m>p</m> and
+          <m>q</m> is exactly <m>r</m>. The points are called the foci
+          (singular focus).
         </p>
       </li>
       <li>
@@ -109,7 +109,7 @@
           equation <m>\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1</m>.
           Assuming that <m>a>b</m>, the foci are at coordinates 
           <m>(\sqrt{a^2-b^2},0)</m> and <m>(-\sqrt{a^2-b^2},0)</m>.
-          From the number <m>a</m> and <m>b</m>, which ever is larger
+          For the numbers <m>a</m> and <m>b</m>, which ever is larger
           is called the semi-major axis which ever is smaller is
           called semi-minor axis. These two numbers cannot be equal,
           since that would produce a circle.
@@ -172,10 +172,9 @@
           parabola and the leading coefficient will describe how wide
           or narrow the parabola is. If the leading coefficient is
           positive, the parabola will open upwards; if negative, the
-          parabola will open downwards. 
-          A parabola with vertext <m>(a,b)</m> and leading coefficient
-          <m>c</m> is described by the equation
-           <m>y = c(x - a) + b</m>.
+          parabola will open downwards.  A parabola with vertex
+          <m>(a,b)</m> and leading coefficient <m>c</m> is described
+          by the equation <m>y = c(x - a) + b</m>.
         </p>
       </li>
     </ul></p>
@@ -208,9 +207,9 @@
         <p>
           Given two points <m>p</m> and <m>q</m> and a positive real
           number <m>r</m>, the hyperbola is the set of all points in
-          the plane where the difference of the distances from a fixed
-          centre point to <m>p</m> and <m>q</m> is exactly <m>r</m>.
-          The points are called the foci (singular focus).
+          the plane where the difference of the distances to <m>p</m>
+          and <m>q</m> is exactly <m>r</m>. The points are called the
+          foci (singular focus).
         </p>
       </li>
       <li>

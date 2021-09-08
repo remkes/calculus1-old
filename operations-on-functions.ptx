@@ -10,29 +10,29 @@
       g</m>, <m>\frac{f}{g}</m> and <m>f^g</m> are all functions. They
       may have additional domain restrictions, such as avoiding the
       roots of <m>g</m> in <m>\frac{f}{g}</m>. These combinations are
-      called <em>pointwise operations</em> on function; the name comes
-      from the fact that, in each operations, I can evaluate the
-      two functions at any given <em>point</em> and then do the
+      called <term>pointwise operations</term> on functions; the name
+      comes from the fact that, in each operations, I can evaluate the
+      two functions at any given <term>point</term> and then do the
       required arithmetic afterwards. 
     </p>
   </subsection>
   <subsection xml:id="subsection-composition">
     <title>Composition</title>
     <p>
-      A more novel way to combine function is <em>composition</em>.
-      In pointwise operations, both the functions act seperately on
-      the input and then I combine the result. In composition, I
-      let one function act first and then let the second act on the
-      output of the first. If <m>f</m> and <m>g</m> are functions, I
-      write <m>f \circ g</m> or <m>f(g(x))</m> for their composition.
-      In this notation, somewhat counterintuitively, the function on
-      the right acts first. <m>f \circ g</m> means: let the
-      function <m>g</m> act first and then let the function <m>f</m>
-      act second. Additional domain restrictions may result from
-      composition, since the output of <m>g</m> must be acceptable
-      input for the function <m>f</m>. In <m>f \circ g</m>, I call
-      <m>g</m> the <em>inside function</em> and <m>f</m> the
-      <em>outside function</em>.
+      A more novel way to combine function is
+      <term>composition</term>.  In pointwise operations, both the
+      functions act seperately on the input and then I combine the
+      result. In composition, I let one function act first and then
+      let the second act on the output of the first. If <m>f</m> and
+      <m>g</m> are functions, I write <m>f \circ g</m> or
+      <m>f(g(x))</m> for their composition.  In this notation,
+      somewhat counterintuitively, the function on the right acts
+      first. <m>f \circ g</m> means: let the function <m>g</m> act
+      first and then let the function <m>f</m> act second. Additional
+      domain restrictions may result from composition, since the
+      output of <m>g</m> must be acceptable input for the function
+      <m>f</m>. In <m>f \circ g</m>, I call <m>g</m> the <term>inside
+      function</term> and <m>f</m> the <term>outside function</term>.
     </p>
     <example>
       <statement>
@@ -78,8 +78,8 @@
       In order for a function to be invertible, each output needs to
       go back to a unique input. This restriction implies that no
       two inputs can be sent to the same output. This property is
-      called <em>injectivity</em>, but for our purposes, it is enough
-      that a function is <em>monotonic</em>. A function which always
+      called <term>injectivity</term>, but for our purposes, it is enough
+      that a function is <term>monotonic</term>. A function which always
       increases or decreases can only have one input sent to any
       particular output; therefore, it is invertible. When I want to
       invert a function, I must first make sure that it is monotonic.

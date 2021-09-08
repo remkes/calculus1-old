@@ -21,7 +21,7 @@
       The simpliest kind of function is a constant function. Its
       output is the same regardless of input. The function <m>f(x) =
       5</m> is constant at 5: it will give the value 5 no matter what
-      value of <m>x</m> we specify  Constant functions have no domain
+      value of <m>x</m> we specify. Constant functions have no domain
       restrictions.
     </p>
   </subsection>
@@ -53,7 +53,7 @@
     </p>
     <p>
       A particularly important linear function is the function <m>f(x)
-      = x</m>, which is called the <em>Identity Function</em>. It is
+      = x</m>, which is called the <term>Identity Function</term>. It is
       the unique function which takes any input and gives that input
       back without any action.
     </p>
@@ -121,7 +121,7 @@
       two. We have names for the next few degress as well: cubics
       have degree three, quartics have degree four and quintics have
       degree five. Polynomial functions have a familiar standard
-      shape involving a graph that curves up a down some number of
+      shape involving a graph that curves up and down some number of
       times. The maximum number of times the graph of polynomial can
       change directions is one less than the degree. Polynomials of
       degree <m>n</m> can have at most <m>n</m> roots, though they may
@@ -159,12 +159,12 @@
     </p>
     <p>
       Rational functions may have domain restrictions. In order to
-      avoid dividing by zero, I must avoid any <m>x</m> where <m>q(x) =
-      0</m>. Rational functions may have <em>vertical asymptotes</em>
-      near their underfined points. A vertical asymptote is a vertical
-      line which the graph of the function approaches near an
-      undefined point; they will be discussed in more detail in <xref
-      ref="subsection-vertical-asymptotes" />.
+      avoid dividing by zero, I must avoid any <m>x</m> where <m>q(x)
+      = 0</m>. Rational functions may have <term>vertical
+      asymptotes</term> near their undefined points. A vertical
+      asymptote is a vertical line which the graph of the function
+      approaches near an undefined point; they will be discussed in
+      more detail in <xref ref="subsection-vertical-asymptotes" />.
     </p>
   </subsection>
   <subsection xml:id="subsection-algebraic-functions">

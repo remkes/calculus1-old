@@ -6,7 +6,7 @@
       In this course, I use the term <sq>model</sq> in the broadest
       possible mathematical sense: a model is any application of a
       mathematical concept to an external situation.  Since calculus
-      is the study of functions, our models will be functions chosen
+      is the study of functions, models will be functions chosen
       to describe an observed connection between two quantities.  The
       branch of mathematics that deals with models is called applied
       mathematics.
@@ -29,7 +29,7 @@
     <p><ul>
       <li>
         Do I need to restrict the domain to make the model reasonable?
-        A mathematical model where the independant variable is human
+        A mathematical model where the independent variable is human
         population would reasonably have a restriction that the
         population must be positive and bounded above by some maximum
         population. These restrictions of the model exist in addition
@@ -63,7 +63,7 @@
       both quantitatively and qualitatively. The qualitative analysis
       can often be expressed in a narrative: what story is the
       function telling about the relationship it represents? If the
-      independant variable is time, as it often is, what is the story
+      independent variable is time, as it often is, what is the story
       of the dependant variable over a time span?  What happens to
       it?
     </p>

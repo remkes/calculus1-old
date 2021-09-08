@@ -77,7 +77,7 @@
       <statement>
         <p>
           Find the equation of the line through the points
-          <m>(0,4))</m> and <m>(2,2)</m>.
+          <m>(0,4)</m> and <m>(2,2)</m>.
         </p>
       </statement>
       <solution>
@@ -104,7 +104,7 @@
       <statement>
         <p>
           Find the equation of the line through the points
-          <m>(-2,6))</m> and <m>(3,2)</m>. 
+          <m>(-2,6)</m> and <m>(3,2)</m>. 
         </p>
       </statement>
       <solution>
@@ -135,7 +135,7 @@
       <statement>
         <p>
           Find the equation of the line through the points
-          <m>(\sqrt{2},3))</m> and <m>(2\sqrt{2},4)</m>. 
+          <m>(\sqrt{2},3)</m> and <m>(2\sqrt{2},4)</m>. 
         </p>
       </statement>
       <solution>
@@ -185,7 +185,7 @@
           <m>b=4</m> or vice-versa. 
           <me>
             \frac{x^2}{4} + \frac{y^2}{16} = 1 \text{ or }
-            \frac{x^2}{16} + \frac{y^2}{4} = 1 \text{ or }
+            \frac{x^2}{16} + \frac{y^2}{4} = 1 
           </me>
         </p>
       </solution>

@@ -5,40 +5,31 @@
   <title>Week 1 Assignment</title>
   <p><ol>
     <li>
-    </li>
-  </ol></p>
-</section>
-
-<!-- Previous Assignment
-<section xml:id="section-assignment-week1">
-  <title>Week 1 Assignment</title>
-  <p><ol>
-    <li>
       <p>
-        Find the intersection points of the following pairs of curves. (
-        Where you have square roots, you can leave your answers in
+        Find the intersection points of the following pairs of curves.
+        (Where you have square roots, you can leave your answers in
         square root form <mdash /> you don't need to evaluate to
         demical approximations.) (12)
-      <ol>
+      </p>
+      <p><ol>
         <li>
-          The ellipse <m>\frac{x^2}{9} + \frac{y^2}{4} = 1 </m> and the
-          hyperbola <m>\frac{x^2}{9} - \frac{y^2}{4} = 1</m>.
+          The line <m>y=x-5</m> and the hyperbola <m>y^2 - x^2 =
+          5</m>.
         </li>
         <li>
-          The parbola <m>y = 4x^2</m> and the line  <m>y = 3x - 1</m>.
+          The ellipse <m>\frac{x^2}{4} + \frac{y^2}{16} = 1</m> and
+          the parabola <m>y = \frac{x^2}{4}</m>. 
         </li>
         <li>
-          The circle <m>x^2 + y^2 = 9</m> and the parabola <m>y =
-          x^2</m>.
+          The hyperbola <m>\frac{-x^2}{6} + \frac{y^2}{27} = 1</m> and
+          the parabola <m>y = \frac{-3x^2}{4}</m>.
         </li>
       </ol></p>
     </li>
     <li>
-      <p>
-        What are all the ways that two parabolae (not necessarily
-        centred at the origin) can intersect? (6)  
-      </p>
+      What are all the ways two circles can intersect. Give
+      examples, either by drawing or by expressing in intersections
+      algebraically. (4)
     </li>
   </ol></p>
 </section>
--->
