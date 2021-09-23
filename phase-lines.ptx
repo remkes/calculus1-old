@@ -13,17 +13,17 @@
         <p>
           A differential equation where the left-side is just
           <m>\frac{dp}{dt}</m> and the right-side is some algebraic
-          expression in <m>p</m> is called an <em>autonomous differential
-          equation</em>. (The independent variable <m>t</m> cannot
-          appear in this expression on fhte left-side.) 
+          expression in <m>p</m> is called an <term>autonomous
+          differential equation</term>. (The independent variable
+          <m>t</m> cannot appear in this expression on the left-side.)
         </p>
       </statement>
     </definition>
     <p>
       Many natural models are described by autonomous equations,
       including  population growth. There is a lovely piece of
-      analysis for autonomous equations called the <em>phase line
-      analysis</em>. It leads to a solid understanding of the
+      analysis for autonomous equations called the <term>phase line
+      analysis</term>. It leads to a solid understanding of the
       behaviour of the model without actually having to solve the DE
       at all.
     </p>
@@ -38,7 +38,7 @@
       well.  The left side is the growth rate, so that means the
       growth rate is (momentarily) zero. Therefore, these values of
       <m>p</m> are values of the population where there is no growth.
-      We call these values <em>steady states</em> of the population.
+      We call these values <term>steady states</term> of the population.
       If the population is exactly at its steady state, it will not
       change; steady states are constant popluations which do no grow
       or decline.
@@ -51,11 +51,11 @@
       growth rate and will increase.  When it is negative, the left
       side is also negative, so the population has a negative growth
       rate and will decrease.  This direction of growth, negative or
-      positive, is called the <em>trajectory</em> of the popluation
+      positive, is called the <term>trajectory</term> of the popluation
       between the steady states.
     </p>
     <p>
-      Amazingly, this gives us an impressively complete understanding
+      Amazingly, this gives me an impressively complete understanding
       of the population.
       <ol>
         <li>
@@ -75,13 +75,19 @@
           approaching either the closest smaller steady state or zero.
         </li>
       </ol>
-      A <em>phase line diagram</em> is a visual summary of this
+      A <term>phase line diagram</term> is a visual summary of this
       information. It consists of a real number line, representing the
       function. (For populations, of course, negative values are
       excluded). Dots are placed on the phase line to indicate the
       steady states.  In between the steady states, arrows are drawn
       to show the trajectories. Its best to see the phase line
       diagrams through examples.
+    </p>
+    <p>
+      Note that the behaviour depends on the current population, not
+      the time. I need to know the value of the population to
+      determine the behaviour. All the points on the phase line are
+      values of population, not values of time.
     </p>
     <example>
       <statement>
@@ -127,7 +133,7 @@
           When <m>p \in (4, \infty)</m>, the right-side is negative,
           so the trajectory is decreasing. 
           <figure xml:id="figure-phase-line2" width="80%"> 
-          <caption>The Phase Line Diagram for <m>\frac{dp}{dt} - 4p -
+          <caption>The Phase Line Diagram for <m>\frac{dp}{dt} = 4p -
             p^2</m></caption>
             <image xml:id="figure86">
               <asymptote>

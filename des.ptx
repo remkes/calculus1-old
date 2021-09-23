@@ -5,18 +5,19 @@
     <p>
       In <xref ref="section-population-growth" />, I wondered about
       the connection between percentage growth to exponential
-      functions. The difficulty is having a clear understanding of
-      what a growth rate is. Algebraic techniques have a hard time
+      functions. Percentage growth is a growth rate, but that's not
+      something I have a good mathematical understanding of <mdash />
+      at least not yet.  Algebraic techniques have a hard time
       understanding growth rates, or rates of change in general. 
-      Calculus includes a tool called the <em>derivative</em>
-      of a function which will measure its rate of change. For now, I
+      Calculus includes a tool called the <term>derivative</term>
+      of a function which measures its rate of change. For now, I
       am going to avoid the technical definition but work with the
       idea. 
       <blockquote>
         A derivative of a function is a measure of its <em>rate of
         change</em> or it <em>growth rate</em>.
       </blockquote>
-      We need some notation. For a function <m>p(t)</m>, there are two
+      I need some notation. For a function <m>p(t)</m>, there are two
       common ways of writing the derivative.
       <md>
         <mrow> 
@@ -36,7 +37,7 @@
       The derivative is the rate of change of the function, so for a
       population model, <m>\frac{dp}{dt}</m> is the growth rate of the
       population. Let me remind you of that data used in the
-      previous section.
+      <xref ref="section-population-growth" />.
     </p>
     <table xml:id="table-population-data-repeated">
       <tabular>
@@ -125,12 +126,12 @@
     <p>
       This is a mathematical translation of the understanding of
       percentage growth. An equation of this form, involving a function
-      and its derivative, is called a <em>differential equation</em>
-      (a DE, in short). Very often in applied mathematics, it is easier
-      to observe the rate of change of a function than the function
-      itself. This leads to models expressed as differential equations.
-      Many of the most important mathematical models are expressed as
-      differential equations.
+      and its derivative, is called a <term>differential
+      equation</term> (a DE, in short). Very often in applied
+      mathematics, it is easier to observe the rate of change of a
+      function than the function itself. This leads to models
+      expressed as differential equations.  Many of the most important
+      mathematical models are expressed as differential equations.
     </p>
     <p>
       The regression provided the function <m>p(t) =
@@ -181,17 +182,17 @@
     </p>
     <p>
       I can use this example to translate similar sentences as well.
-      In general, percentage decay says that a quantity looses a
+      Percentage decay says that a quantity looses a
       percentage <m>c</m>% of the current value  per unit time. This
-      translate into a DE with a negative growth rate.
+      translates into a DE with a negative growth rate.
       <me>
         \frac{dp}{dt} = -\frac{c}{100} p
       </me>
     </p>
     <p>
       Not all differential equations are percentage growth. Perhaps the
-      rate of change is proportional to the square of the current
-      value. That could likewise be translated into a DE. 
+      rate of change of some quantity is proportional to the square of
+      the current value. That could likewise be translated into a DE.
       <me>
         \frac{dp}{dt} = c(p(t))^2
       </me>

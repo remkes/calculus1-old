@@ -14,7 +14,7 @@
             <title>Data Set 1 for Exponential Growth</title>
             <tabular>
               <row bottom="medium">
-                <cell right="medium">x</cell>
+                <cell right="medium">t</cell>
                 <cell>0</cell>
                 <cell>1</cell>
                 <cell>2</cell>
@@ -28,7 +28,7 @@
                 <cell>10</cell>
               </row>
               <row>
-                <cell right="medium">y</cell>
+                <cell right="medium">p</cell>
                 <cell>1.0</cell>
                 <cell>1.1</cell>
                 <cell>1.2</cell>
@@ -54,14 +54,14 @@
         function should be <m>a2^{\frac{t}{d}}</m>. Using the values from
         this data, here is the exponential function.
         <me>
-          f(x) = 2^{\frac{t}{5}}
+          p(t) = 2^{\frac{t}{5}}
         </me>
         If I wanted, I could change base to write this as an
         exponential function with base <m>e</m>. (This is useful to do
         in many cases, since the base <m>e</m> is the most common and
         most useful base for exponential functions in calculus.) 
         <me>
-          f(x) =  e^{\frac{x \ln 2}{5}}
+          p(t) =  e^{\frac{t \ln 2}{5}}
         </me>
         The following table shows the values of this function to
         compare with the data set. 
@@ -70,7 +70,7 @@
             <title>Data Set 1 for Exponential Growth - Values</title>
             <tabular>
               <row bottom="medium">
-                <cell right="medium">x</cell>
+                <cell right="medium">t</cell>
                 <cell>0</cell>
                 <cell>1</cell>
                 <cell>2</cell>
@@ -84,7 +84,7 @@
                 <cell>10</cell>
               </row>
               <row>
-                <cell right="medium">y</cell>
+                <cell right="medium">p</cell>
                 <cell>1.0</cell>
                 <cell>1.1</cell>
                 <cell>1.2</cell>
@@ -98,7 +98,7 @@
                 <cell>4.1</cell>
               </row>
               <row>
-                <cell right="medium">f(x)</cell>
+                <cell right="medium"><m>2^\frac{t}{5}</m></cell>
                 <cell>1.00</cell>
                 <cell>1.14</cell>
                 <cell>1.32</cell>
@@ -130,7 +130,7 @@
             <title>Data Set 2 for Exponential Growth</title>
             <tabular>
               <row bottom="medium">
-                <cell right="medium">x</cell>
+                <cell right="medium">t</cell>
                 <cell>0</cell>
                 <cell>1</cell>
                 <cell>2</cell>
@@ -144,7 +144,7 @@
                 <cell>10</cell>
               </row>
               <row>
-                <cell right="medium">y</cell>
+                <cell right="medium">p</cell>
                 <cell>3.0</cell>
                 <cell>4.2</cell>
                 <cell>6.3</cell>
@@ -172,14 +172,14 @@
         <m>a2^{\frac{t}{d}}</m>. Using the values from this data, here
         is the exponential function.
         <me>
-          f(x) = (3) 2^{\frac{5t}{9}}
+          p(t) = (3) 2^{\frac{5t}{9}}
         </me>
         If I wanted, I could change base to write this as an
         exponential function with base <m>e</m>. (This is useful to do
         in many cases, since the base <m>e</m> is the most common and
         most useful base for exponential functions in calculus.) 
         <me>
-          f(x) =  (3)e^{(frac{x 5\ln 2}{9}}
+          p(t) =  (3)e^{\frac{t 5\ln 2}{9}}
         </me>
         The following table shows the values of this function to
         compare with the data set. 
@@ -188,7 +188,7 @@
             <title>Data Set 2 for Exponential Growth - Values</title>
             <tabular>
               <row bottom="medium">
-                <cell right="medium">x</cell>
+                <cell right="medium">t</cell>
                 <cell>0</cell>
                 <cell>1</cell>
                 <cell>2</cell>
@@ -202,7 +202,7 @@
                 <cell>10</cell>
               </row>
               <row>
-                <cell right="medium">y</cell>
+                <cell right="medium">p</cell>
                 <cell>3.0</cell>
                 <cell>4.2</cell>
                 <cell>6.3</cell>
@@ -216,7 +216,7 @@
                 <cell>144.6</cell>
               </row>
               <row>
-                <cell right="medium">f(x)</cell>
+                <cell right="medium"><m>(3)2^{\frac{5t}{9}}</m></cell>
                 <cell>3.00</cell>
                 <cell>4.40</cell>
                 <cell>6.48</cell>
@@ -233,7 +233,7 @@
           </table>
           <p>
             The function produces numbers which are reasonably close
-            to the original, so I can conclude that our guess was a
+            to the original, so I can conclude that the guess was a
             decent one.
           </p>
       </solution>
@@ -250,7 +250,7 @@
             <title>Data Set 3 for Exponential Growth</title>
             <tabular>
               <row bottom="medium">
-                <cell right="medium">x</cell>
+                <cell right="medium">t</cell>
                 <cell>0</cell>
                 <cell>1</cell>
                 <cell>2</cell>
@@ -264,7 +264,7 @@
                 <cell>10</cell>
               </row>
               <row>
-                <cell right="medium">y</cell>
+                <cell right="medium">p</cell>
                 <cell>5</cell>
                 <cell>10</cell>
                 <cell>17</cell>
@@ -292,14 +292,14 @@
         <m>a2^{\frac{t}{d}}</m>. Using the values from this data, here
         is the exponential function.
         <me>
-          f(x) = (5) 2^{\frac{10t}{11}}
+          p(t) = (5) 2^{\frac{10t}{11}}
         </me>
         If I wanted, I could change base to write this as an
         exponential function with base <m>e</m>. (This is useful to do
         in many cases, since the base <m>e</m> is the most common and
         most useful base for exponential functions in calculus.) 
         <me>
-          f(x) = (5)e^{(frac{x 10\ln 2}{11}}
+          p(t) = (5)e^{(frac{t 10\ln 2}{11}}
         </me>
         The following table shows the values of this function to
         compare with the data set. 
@@ -308,7 +308,7 @@
             <title>Data Set 3 for Exponential Growth - Values</title>
             <tabular>
               <row bottom="medium">
-                <cell right="medium">x</cell>
+                <cell right="medium">t</cell>
                 <cell>0</cell>
                 <cell>1</cell>
                 <cell>2</cell>
@@ -322,7 +322,7 @@
                 <cell>10</cell>
               </row>
               <row>
-                <cell right="medium">y</cell>
+                <cell right="medium">p</cell>
                 <cell>5</cell>
                 <cell>10</cell>
                 <cell>17</cell>
@@ -336,7 +336,8 @@
                 <cell>2362</cell>
               </row>
               <row>
-                <cell right="medium">f(x)</cell>
+                <cell right="medium"><m>p(t) = (5)e^{(frac{t 10\ln
+                  2}{11}}</m></cell>
                 <cell>5</cell>
                 <cell>9</cell>
                 <cell>18</cell>

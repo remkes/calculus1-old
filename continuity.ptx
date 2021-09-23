@@ -25,13 +25,13 @@
       A function is continuous at a point <m>a</m> in its domain if
       <me>
         f(a) = \lim_{x \rightarrow a} f(x)
-      </me>
+      </me>.
     </p>
     <p>
-      We have already encounted these kinds of limit: in the
-      calculation of limits, the first step was to try to evaluate the
-      function at the limit point. We were implicitly relying on the
-      continuity of our standard functions. Happily, we were
+      I have already mentions these kinds of limit: in the calculation
+      of limits, the first step was to try to evaluate the function at
+      the limit point. In this step, I am implicitly relying on the
+      continuity of the standard functions. Happily, I was
       justified in doing so: all the standard elementary functions
       (polynomials, rational function, algebraic functions, trig,
       exponentials) are continuous on their domains. The phrase
@@ -51,7 +51,7 @@
       function on an interval <m>[a,b]</m> and <m>\alpha</m> is a real
       number with <m>f(a) \lt \alpha \lt f(b)</m> or <m>f(a) > \alpha
       > f(b)</m>, then there exists a number <m>c \in (a,b)</m> such
-      > that <m>f(c) = \alpha</m>.
+      that <m>f(c) = \alpha</m>.
     </p>
     <p>
       Rephrased, the theorem says that a continuous function cannot
@@ -59,7 +59,10 @@
       the function must output all values between <m>0</m> and
       <m>1</m> as the input goes from <m>a</m> to <m>b</m>.
       Continuity means the graph is connected; it can't jump over any
-      intermediate values.
+      intermediate values. While this seems like a very obvious
+      result, it is quite useful to have it formally stated. Many
+      other mathematical proofs make use of the Intermediate Value
+      Theroem for continuous functions. 
     </p>
     <figure xml:id="figure-ivt">
       <caption>Intermediate Value Theorem</caption>
@@ -114,19 +117,24 @@
       </image>
     </figure>
     <p>
-      We know that all of our familiar elementary functions are
-      continuous on their domains. One might ask why we are worried
+      All of the familiar elementary functions are
+      continuous on their domains. One might ask: why worry
       about continuity at all? A common place where continuity
       becomes an issue is in piecewise functions. These are functions
       which have different expressions or definitions over different
-      pieces of their domain. There is a particular notation for
-      piecewise functions. Say we have a function on <m>\RR</m> which
-      has two definitions, one for <m>x\lt a</m> and another <m>x \geq
-      a</m>. Then the function is written
+      pieces of their domain. 
+    </p>
+    <p>
+      Piecewise functions have special notation for their definitions. 
+      Consider a function on <m>\RR</m> which has two definitions, one
+      for <m>x \lt a</m> and another <m>x \geq a</m>. Then the
+      function is written
       <me>
         f(x) = \begin{cases} g(x) \amp  x \lt  a \\ h(x) \amp
         x \geq a \end{cases} 
-      </me>
+      </me>.
+      With this notation, I can easily indicate how the function
+      behaviours on various pieces of its domain.
     </p>
     <p>
       A very well-known example is the Heaviside function.
@@ -164,12 +172,12 @@
         f(x) = \begin{cases} 1 \amp  x \in \QQ \\ 0 \amp  x
         \notin \QQ \end{cases} 
       </me>
-    </p>
-    <p>
       This function depends on whether its input is rational or
       irrational, returning one and zero respectively. It is a
       horendously discontinuous functions, with ones and zeros
-      everywhere and no intermediate values.
+      everywhere and no intermediate values whatsoever. However, it is
+      still a useful function, in that it, somehow, picks our all the
+      rational numbers by assign to them the value <m>1</m>. 
     </p>
     <figure xml:id="figure-discontinuous-piecewise">
       <caption>A Discontinuous Piecewise Function</caption>
@@ -206,7 +214,7 @@
     <title>Continuity of Piecewise Functions</title>
     <p>
       It is important to be able to check if a piecewise function is
-      continuous at its crossover point. Say we have a piecewise
+      continuous at its crossover point. Consider a piecewise
       function with a break at <m>x=a</m>.
       <me>
         f(x) = \begin{cases} g(x) \amp  x \lt  a \\ h(x) \amp
@@ -215,7 +223,7 @@
     </p>
     <p>
       It is natural to ask if <m>f</m> is continuous at <m>x=a</m>.
-      In order to investigate this, we need to look at the function
+      In order to investigate this, I need to look at the function
       value and the limits from both sides. The function is
       continuous if all three are the same.
       <me>

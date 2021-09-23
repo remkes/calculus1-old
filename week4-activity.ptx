@@ -5,7 +5,7 @@
     <activity>
       <statement>
         <p>
-          Calculate the limit
+          Calculate the limit. 
           <me>
             \lim_{x \rightarrow 3} 4x^2 -5 
           </me>
@@ -24,7 +24,7 @@
     <activity>
       <statement>
         <p>
-          Calculate the limit
+          Calculate the limit. 
           <me>
             \lim_{x \rightarrow 3} \frac{1}{x-3}
           </me>
@@ -32,23 +32,23 @@
       </statement>
       <solution>
         <p>
-          We cannot directly evaluation, since that would lead to
-          division by zero. However, we can logically analyze this
+          I cannot directly evaluate, since that would lead to
+          division by zero. However, I can logically analyze this
           limit. The numerator is fixed and the denominator is getting
           very small. Division by smaller and smaller numbers leads to
-          larger and larger numbers. We conclude the limit must be
-          infinite. The denominator can be negative or positive, so we
+          larger and larger numbers. I conclude the limit must be
+          infinite.The denominator can be negative or positive, so we
           write 
          <me>
             \lim_{x \rightarrow 3} \frac{1}{x-3} = \pm \infty
-          </me>
+          </me>.
         </p>
       </solution>
     </activity>
     <activity>
       <statement>
         <p>
-          Calculate the limit
+          Calculate the limit. 
           <me>
             \lim_{x \rightarrow 2} \frac{x^2 - 5x + 6}{x^2 - 7x + 10} 
           </me>
@@ -57,9 +57,9 @@
       <solution>
         <p>
           The numerator and denominator both approach zero. This is an
-          indeterminate form of type <m>\frac{0}{0}</m>. We need to do
+          indeterminate form of type <m>\frac{0}{0}</m>. I need to do
           some manipulations to deal with it. Both terms are
-          quadratic, so we will try to factor them to simplify the
+          quadratic, so I will try to factor them to simplify the
           limit. 
           <md>
             <mrow>
@@ -82,7 +82,7 @@
     <activity>
       <statement>
         <p>
-         Calculate the limit
+         Calculate the limit. 
           <me>
             \lim_{x \rightarrow -3} \frac{x+3}{x^3+27} 
           </me>
@@ -91,17 +91,18 @@
       <solution>
         <p>
           Both the numerator and denominator approach zero, so this is
-          an indeterminate form of type <m>\frac{0}{0}</m>. We can't
-          do anything to the numerator, but we can factor the
-          denominator to try to simplify the limit.
+          an indeterminate form of type <m>\frac{0}{0}</m>. I can't
+          do anything to the numerator, but I can factor the
+          denominator to try to simplify the limit. The denominator
+          factors using the special pattern for sums of cubes. 
           <md>
             <mrow>
             \lim_{x \rightarrow -3} \frac{x+3}{x^3+27} \amp 0
-            \lim_{x \rightarrow -3} \frac{(x+3)}{(x+3)(x^2-3x+9} 
+            \lim_{x \rightarrow -3} \frac{(x+3)}{(x+3)(x^2-3x+9)} 
             \amp = \lim_{x \rightarrow -3} \frac{1}{x^2-3x+9} 
             </mrow>
           </md>
-          This is a limit we can now evaluate.
+          This is a limit I can now directly evaluate.
           <me>
             \lim_{x \rightarrow -3} \frac{1}{x^2-3x+9} =
             \frac{1}{(-3)^2 - 3(-3) + 9} = \frac{1}{27} 
@@ -112,7 +113,7 @@
     <activity>
       <statement>
         <p>
-          Calculate the limit
+          Calculate the limit. 
           <me>
             \lim_{x \rightarrow 0} \frac{x^4+3x^3-8x^2}{x^4 + 6x^3 +
             10x^2} 
@@ -122,9 +123,9 @@
       <solution>
         <p>
           Both numerator and denominator approach zero, so this is an
-          indeterminate form of type <m>\frac{0}{0}</m>. We can factor
+          indeterminate form of type <m>\frac{0}{0}</m>. I can factor
           <m>x^2</m> out of both numerator and denominator to simplify
-          the limit. After that factoring, we can direclty evaluate. 
+          the limit. After that factoring, I can direclty evaluate. 
           <md>
             <mrow>
               \lim_{x \rightarrow 0} \frac{x^4+3x^3-8x^2}{x^4 + 6x^3 +
@@ -142,7 +143,7 @@
     <activity>
       <statement>
         <p>
-          Calculate the limit
+          Calculate the limit. 
           <me>
             \lim_{x \rightarrow \frac{1}{2}} \frac{4x^2 + 4x - 3}{8x^2 -
             2x -1}
@@ -153,7 +154,7 @@
         <p>
           Both numerator and denominator approach 0, so this is a
           limit of indeterminate form <m>\frac{0}{0}</m>. Both terms
-          are quadratics, so we will try to factor the quadratic to
+          are quadratics, so I will try to factor the quadratic to
           simplify the limit. 
           <md>
             <mrow>
@@ -166,7 +167,7 @@
               \frac{2x+3}{4x+1}
             </mrow>
           </md>
-          This is a limit we can now directly evaluate. 
+          This is a limit I can now directly evaluate. 
           <me>
             \lim_{x \rightarrow \frac{1}{2}} \frac{2x+3}{4x+1}
             = \frac{1+3}{2+1} = \frac{4}{3} 
@@ -177,7 +178,7 @@
     <activity>
       <statement>
         <p>
-          Calculate the limit
+          Calculate the limit. 
           <me>
             \lim_{x \rightarrow 0} \frac{\sin^2 x}{x} 
           </me>
@@ -185,9 +186,9 @@
       </statement>
       <solution>
         <p>
-          We have a limit involving <m>x</m> and <m>\sin x</m>. We
-          want to use the known limit for the ratio of these two
-          functions. We manipulate this limit to isolate the known
+          This limit includes <m>x</m> and <m>\sin x</m>. I will 
+          use the known limit for the ratio of these two
+          functions. I need to manipulate this limit to isolate the known
           limit, using the rules for limits and multiplication.
           <me>
             \lim_{x \rightarrow 0} \frac{\sin^2 x}{x} = \lim_{x
@@ -203,7 +204,7 @@
     <activity>
       <statement>
         <p>
-          Calculate the limit
+          Calculate the limit. 
           <me>
             \lim_{x \rightarrow 0} x \cot x 
           </me>
@@ -211,14 +212,14 @@
       </statement>
       <solution>
         <p>
-          This involves trigonometry and <m>x</m>, so we will try to
+          This involves trigonometry and <m>x</m>, so I will try to
           isolate the ration of <m>x</m> and <m>\sin x</m>. To do that
-          we have to write cotagents in terms of sine and cosine. 
+          I have to write cotagents in terms of sine and cosine. 
           <me>
             \lim_{x \rightarrow 0} x \cot x = \lim_{x \rightarrow 0} x
             \frac{\cos x}{\sin x}
           </me>
-          Then we manipulate the limit to isolate the known ratio of
+          Then I manipulate the limit to isolate the known ratio of
           <m>x</m> amd <m>sin x</m>.
           <me>
             = \lim_{x \rightarrow 0} \frac{x}{\sin x} \cos x = \lim_{x
@@ -239,18 +240,18 @@
           Find the vertical asymptotes of the the function
           <me>
             f(x) = \frac{1}{x^2-4x+3} 
-          </me>
+          </me>.
         </p>
       </statement>
       <solution>
         <p>
-          To find vertical asymptotes of a rational function, we look
+          To find vertical asymptotes of a rational function, I look
           for the points on the edge of the domain and take the limits
           approaching those points. Here, domain is all real number
           except <m>x=3</m> and <m>x=1</m>. Those two numbers are the
-          roots of the denominator. To determine whether we have
-          vertical asymptotes are the undefined points, we need to
-          take the limits approaching them. We have two limits to
+          roots of the denominator. To determine whether there are
+          vertical asymptotes at the undefined points, I need to
+          take the limits approaching them. I have two limits to
           consider.
           <me>
             \lim_{x \rightarrow 1} \frac{1}{x^2-4x+3} \text{ and }
@@ -260,7 +261,7 @@
           and the denominator approaches 0. In these cases, dividing by
           very small numbers produced very large numbers, so the
           limits are both <m>\pm \infty</m>. Since the limits are
-          infinite, we conclucde that the lines <m>x=1</m> and
+          infinite, I conclucde that the lines <m>x=1</m> and
           <m>x=3</m> are both vertical asymptotes. 
         </p>
       </solution>
@@ -271,18 +272,18 @@
           Find the vertical asymptotes of the the function
           <me>
             f(x) = \frac{x-3}{x^2 + x - 12} 
-          </me>
+          </me>.
         </p>
       </statement>
       <solution>
         <p>
-          To find vertical asymptotes of a rational function, we look
+          To find vertical asymptotes of a rational function, I look
           for the points on the edge of the domain and take the limits
           approaching those points. Here, domain is all real number
           except <m>x=3</m> and <m>x=-4</m>. Those two numbers are the
-          roots of the denominator. To determine whether we have
-          vertical asymptotes are the undefined points, we need to
-          take the limits approaching them. We have two limits to
+          roots of the denominator. To determine whether there are
+          vertical asymptotes at the undefined points, I need to
+          take the limits approaching them. I have two limits to
           consider.
           <me>
             \lim_{x \rightarrow 3} \frac{x-3}{(x-3)(x+4)} \text{ and }
@@ -295,7 +296,7 @@
           and the denominator approaches 0. In this case, dividing by
           very small numbers produced very large numbers, so the
           limit is <m>\pm \infty</m>. Since the limit is 
-          infinite, we conclucde that the line <m>x=-4</m> is
+          infinite, I conclucde that the line <m>x=-4</m> is
           is a vertical asymptote. 
         </p>
       </solution>
@@ -313,7 +314,7 @@
         <p>
           Unlike the previous questions, this is more about
           familiarity with common functions and shifts in the plane.
-          We know that the logarithm has an asymptote at <m>x=0</m>.
+          I know that the logarithm has an asymptote at <m>x=0</m>.
           Replacing <m>x</m> by <m>(x-4)</m> is a shift of 4 units in
           the positive direction, so this function has a vertical
           asymptote at <m>x=4</m>.
@@ -331,12 +332,13 @@
       </statement>
       <solution>
         <p>
-          This is also about familiarity with known functions. We
+          This is also about familiarity with known functions. I
           know the tangent function has asymptotes at every odd
-          multiple of <m>\frac{\pi}{2}</m>. In this function, we
-          multiply by 3 inside the tangent function. The effect of
-          this is to move the asymptotes closer together. We now have
-          asymptotes at every odd multiple of <m> \frac{\pi}{6}</m>
+          multiple of <m>\frac{\pi}{2}</m>. In this function, I
+          multiply by 3 inside the tangent function. This
+          multiplication moves the asymptotes closer together. There
+          are now asymptotes at every odd multiple of <m>
+          \frac{\pi}{6}</m>.
         </p>
       </solution>
     </activity>
@@ -358,9 +360,10 @@
       </statement>
       <solution>
         <p>
-          To determine continuity, we need to take the limit from the
+          To determine continuity, I need to take the limit from the
           left and the limit from the right approaching the cross over
-          point. Here are the two limits
+          point. Here are the two limits, both of which can be
+          evaluated directly. 
           <md>
             <mrow>
               \lim_{x \rightarrow 0^+} f(x) \amp = 
@@ -371,10 +374,10 @@
               \lim_{x \rightarrow 0^-} -2x + a = a 
             </mrow>
           </md>
-          Making these equation gives the equation
+          Making these equal gives the equation
           <me>
             3 = a 
-          </me>
+          </me>.
           This equation is (obviously) solved when <m>a=3</m>.
         </p>
       </solution>
@@ -394,9 +397,10 @@
       </statement>
       <solution>
         <p>
-          To determine continuity, we need to take the limit from the
+          To determine continuity, I need to take the limit from the
           left and the limit from the right approaching the cross over
-          point. Here are the two limits
+          point. Here are the two limits, both of which can be
+          evaluated directly. 
           <md>
             <mrow>
               \lim_{x \rightarrow -1^+} f(x) \amp = 
@@ -407,10 +411,10 @@
               \lim_{x \rightarrow -1^-} x^2 + 2x + 5 = 1 - 2 + 5 = 4
             </mrow>
           </md>
-          Making these equation gives the equation
+          Making these equal gives the equation
           <me>
             a = 4 
-          </me>
+          </me>.
           This equation is (obviously) solved when <m>a = 4</m>.
         </p>
       </solution>
@@ -430,9 +434,10 @@
       </statement>
       <solution>
         <p>
-          To determine continuity, we need to take the limit from the
+          To determine continuity, I need to take the limit from the
           left and the limit from the right approaching the cross over
-          point. Here are the two limits
+          point. Here are the two limits, both of which can be
+          evaluated directly. 
           <md>
             <mrow>
               \lim_{x \rightarrow \frac{5}{2}^+} f(x) \amp = 
@@ -445,7 +450,7 @@
               \frac{25}{4} + \frac{5a}{2} + 2  = \frac{33 + 10a}{4} 
             </mrow>
           </md>
-          Making these equation gives the equation
+          Making these equal gives the equation
           <me>
             1 = \frac{33 + 10a}{4} 
           </me>
@@ -468,9 +473,11 @@
       </statement>
       <solution>
         <p>
-          To determine continuity, we need to take the limit from the
+          To determine continuity, I need to take the limit from the
           left and the limit from the right approaching the cross over
-          point. Here are the two limits
+          point. Here are the two limits. The second can be evaluated
+          directly, and the first diverges by logical analysis of the
+          pieces. 
           <md>
             <mrow>
               \lim_{x \rightarrow 0^+} f(x) \amp = 
@@ -481,7 +488,7 @@
               \lim_{x \rightarrow 0^-} x^2 + ax + a = a
             </mrow>
           </md>
-          We cannot equate these limits, since <m>\infty</m> is not a
+          I cannot equate these limits, since <m>\infty</m> is not a
           number. There is no value of <m>a</m> which makes this
           piecewise function continuous. 
         </p>
@@ -506,15 +513,16 @@
       </statement>
       <solution>
         <p>
-          We take the limits from the left and from the right to
-          determine continuity. The limit from the left is
-          <m>\frac{e}{16}</m> from the right is
-          <m>\frac{39}{12}e^{\frac{10}{7}}</m>. The approximate values
-          of these numbers is, respectively, <m>0.1699</m> and
-          <m>13.5614</m>. These are not the same, so the function is
-          continuous. At <m>t=10</m> the population has a sudden and
-          significant jump; through some process, a large population
-          has suddenly been added to the existing population.
+          I take the limits from the left and from the right to
+          determine continuity. Both limits can be evaluated directly:
+          the limit from the left is <m>\frac{e}{16}</m> from the
+          right is <m>\frac{39}{12}e^{\frac{10}{7}}</m>. The
+          approximate values of these numbers is, respectively,
+          <m>0.1699</m> and <m>13.5614</m>. These are not the same, so
+          the function is continuous. At <m>t=10</m> the population
+          has a sudden and significant jump; through some process, a
+          large population has suddenly been added to the existing
+          population.
         </p>
       </solution>
     </activity>
@@ -522,18 +530,18 @@
       <statement>
         <p>
           Consider a model of temperature in a chemical reaction, as a
-          function of time. 
+          function of time.
           <me>
             T(t) = 24 + \frac{\sqrt{(t-5)^3}}{t-5}
           </me>
           The point <m>t=5</m> is the edge of the domain of this
-          model. What happens to the temperature as we approach this
-          value? 
+          model. What happens to the temperature approaching <m>t =
+          5</m>?
         </p>
       </statement>
       <solution>
         <p>
-          We take the limit. 
+          I take the limit. 
           <me>
             lim_{t \rightarrow 5} 24 +
             \frac{\sqrt{(t-5)^3}}{t-5} = 24 \lim_{t \rightarrow 5} +
@@ -541,7 +549,7 @@
           </me>
           Even though the function is undefined, the limit is
           reasonable and the temperature simply approaches 24. This
-          tells us that even though the domain is undefined past this
+          tells me that even though the domain is undefined past this
           point, the model has reasonable and predicatable behaviour. 
         </p>
       </solution>
@@ -555,14 +563,10 @@
           What is a limit?
         </li>
         <li>
-          Why are limits about values approaching a certain point, as
-          opposed to values at a certain point?
+          Why don't I write division by zero when doing limits?
         </li>
         <li>
-          Why don't we write division by zero when doing limits?
-        </li>
-        <li>
-          When do we stop writing <m>\lim_{x \rightarrow a}</m> in the
+          When do I stop writing <m>\lim_{x \rightarrow a}</m> in the
           process of a limit calculation and why?
         </li>
         <li>
@@ -576,7 +580,7 @@
     <activity>
       <statement>
         <p>
-          Calculate the limit
+          Calculate the limit. 
           <me>
             \lim_{x \rightarrow 4} \sin (\pi x) - \frac{x}{3} 
           </me>
@@ -584,13 +588,18 @@
       </statement>
       <solution>
         <p>
+          This limit can be directly evaluated. 
+          <me>
+            \lim_{x \rightarrow 4} \sin (\pi x) - \frac{x}{3} = \sin
+            (\pi 4) - \frac{4}{3} = \frac{-4}{3} 
+          </me>
         </p>
       </solution>
     </activity>
     <activity>
       <statement>
         <p>
-          Calculate the limit
+          Calculate the limit. 
           <me>
             \lim_{x \rightarrow 4} \frac{1}{x^2 - 8x + 16} 
           </me>
@@ -598,13 +607,22 @@
       </statement>
       <solution>
         <p>
+          The numerator is fixed and the denominator approaches zero.
+          A fixed number divided by a smaller and smaller number
+          produces a larger and larger number, so this limit diverges
+          to infinity. The denominator factors as <m>(x-4)^2</m>; it
+          is a square, so it is always positive. Therefore, the limit
+          diverges specifically to positive infinity. 
+          <me>
+            \lim_{x \rightarrow 4} \frac{1}{x^2 - 8x + 16} = \infty 
+          </me>
         </p>
       </solution>
     </activity>
     <activity>
       <statement>
         <p>
-          Calculate the limit
+          Calculate the limit. 
           <me>
             \lim_{x \rightarrow 1^+} \sqrt{\frac{x-1}{x^2-1}}
           </me>
@@ -612,27 +630,71 @@
       </statement>
       <solution>
         <p>
+          First, I can take the limit inside the square root. (This is
+          an application of the limit laws with exponents, since the
+          square root is the same as the exponent <m>\frac{1}{2}</m>.)
+          <me>
+            \sqrt{ \lim_{x \rightarrow 1^+} \frac{x-1}{x^2-1}}
+          </me>
+          Both numerator and denominator approach zero, so this is an
+          indeterminate form of type <m>\frac{0}{0}</m>. I can factor
+          the denominator and cancel off a term to simplify. Then I
+          can directly evaluate. 
+          <md>
+            <mrow>
+              \sqrt{ \lim_{x \rightarrow 1^+} \frac{x-1}{x^2-1}} \amp 
+              = \sqrt{ \lim_{x \rightarrow 1^+}
+              \frac{(x-1)}{(x-1)(x+1)}}
+            </mrow>
+            <mrow> 
+              \amp = \sqrt{ \lim_{x \rightarrow 1^+}
+              \frac{1}{x+1} = \sqrt{\frac{1}{2}} = \frac{1}{\sqrt{2}} 
+            </mrow>
+          </md>
         </p>
       </solution>
     </activity>
     <activity>
       <statement>
         <p>
-          Calculate the limit
+          Calculate the limit. 
           <me>
-            \lim_{x \rightarrow 0} \frac{\frac{1}{x} - \frac{1}{x^2}}{x}
+            \lim_{x \rightarrow 0} \frac{\frac{1}{x} -
+            \frac{1}{x^2}}{x}
           </me>
         </p>
       </statement>
       <solution>
         <p>
+          I can't even evaluate the pieces here, since there is
+          division by zero in both of the fractions in the numerator.
+          However, I can try to use common denominator and
+          simplification of the nested fraction to put this is a more
+          reasonable form. 
+          <me>
+            \lim_{x \rightarrow 0} \frac{\frac{1}{x} -
+            \frac{1}{x^2}}{x} = \lim_{x \rightarrow 0}
+            \frac{\frac{x-1}{x^2}}{x} = \lim_{x \rightarrow 0}
+            \frac{x-1}{x^3} 
+          </me>
+          Then I can analyze the pieces. The numerator approaches
+          <m>-1</m>. The denominator approach <m>0</m>. Something
+          close to <m>-1</m> divided by smaller and smaller numbers
+          produces larger and larger numbers. Therefore, I conclude
+          that the limit diverges to infintiy. It could be positive or
+          negative, since the denominator involves both very small
+          positive and negative values approaching zero. 
+          <me>
+            \lim_{x \rightarrow 0} \frac{\frac{1}{x} -
+            \frac{1}{x^2}}{x} = \pm \infty 
+          </me>
         </p>
       </solution>
     </activity>
     <activity>
       <statement>
         <p>
-          Calculate the limit
+          Calculate the limit. 
           <me>
             \lim_{x \rightarrow 0} \frac{\cos^2 x}{x^2}
           </me>
@@ -640,13 +702,22 @@
       </statement>
       <solution>
         <p>
+          The numerator approaches <m>1</m> and the denominator
+          approach <m>0</m>. Dividing by smaller and smaller numbers
+          produces larger and larger numbers, so this limit must
+          diverge to inifnity. The numerator is postiive and the
+          denominator, since it is a square, is also positive, so I
+          know, specifically, that this diverges to positive infinity. 
+          <me>
+            \lim_{x \rightarrow 0} \frac{\cos^2 x}{x^2} = \infty 
+          </me>
         </p>
       </solution>
     </activity>
     <activity>
       <statement>
         <p>
-          Calculate the limit
+          Calculate the limit. 
           <me>
             \lim_{x \rightarrow 0} \frac{\tan^2 x}{x^2} 
           </me>
@@ -654,6 +725,33 @@
       </statement>
       <solution>
         <p>
+          This involves trigonometry and <m>x</m>, so I will try to
+          use the know limit that relates <m>x</m> and <m>\sin x</m>.
+          To do that, I'll write tangents as the ration of sine over
+          cosine. 
+          <me>
+            \lim_{x \rightarrow 0} \frac{\tan^2 x}{x^2} = 
+            \lim_{x \rightarrow 0} \frac{\sin^2 x}{(\cos^2 x) x^2} = 
+          </me>
+          Now I can use the limit laws to break this up into pieces,
+          to try to isolate the known limit. 
+          <me>
+            \lim_{x \rightarrow 0} \frac{\sin^2 x}{(\cos^2 x) x^2} = 
+            \left( \lim_{x \rightarrow 0} \frac{1}{\cos^2 x} \right) 
+            \left( \lim_{x \rightarrow 0} \frac{\sin x}{x} \right) 
+            \left( \lim_{x \rightarrow 0} \frac{\sin x}{x} \right) 
+          </me>
+          Now I have isolated three limits that I know how to
+          calculate. The limit with the cosine can be directly
+          evaluated. The other two are both the known limit that
+          evalutes to <m>1</m>.
+          <me>
+            \lim_{x \rightarrow 0} \frac{\sin^2 x}{(\cos^2 x) x^2} = 
+            \left( \lim_{x \rightarrow 0} \frac{1}{\cos^2 x} \right) 
+            \left( \lim_{x \rightarrow 0} \frac{\sin x}{x} \right) 
+            \left( \lim_{x \rightarrow 0} \frac{\sin x}{x} \right) = 1
+            \cdot 1 \cdot 1 = 1 
+          </me>
         </p>
       </solution>
     </activity>

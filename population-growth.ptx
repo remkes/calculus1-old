@@ -9,7 +9,7 @@
     </p>
     <p><ul>
       <li>
-        How do we encode population growth as a function?
+        How do I encode population growth as a function?
       </li>
       <li>
         What factors affect the growth of population?
@@ -147,9 +147,9 @@
       years. (This isn't perfect, since over some five year patterns
       is more than doubles and over other it fall short, but this
       isn't a bad guess). For doubling, I can think of powers of
-      <m>2</m>, so an exponential function base <m>2</m>. If I double
-      every <m>d</m> units of time, the appropriate exponential
-      function is
+      <m>2</m>, so an exponential function with base <m>2</m> is
+      appropriate. If I double every <m>d</m> units of time, the
+      exponential function is
       <me>
         p(t) = a 2^{\frac{1}{d} t} 
       </me>
@@ -179,14 +179,19 @@
       In the data, I included the percentage growth for each year.
       Though there is a lot of variability, there is also some
       consistency here. The percentage growth varies above and below
-      20%, but remains somewhat nearby that value. So, why does
-      relatively consistent percentage growth require an exponential
-      regression? What's the connection between percentage growth and
-      exponential functions? I'd like to take this as a motivating
-      question for the course. Calculus can understand and describe
-      growth-rates, like percentage growth, and relate them to
-      functions. In the next section, I'll start to sketch out the
-      approach to this motivating question.
+      20%, but remains somewhat nearby that value. This is an
+      important observation: a consistent precentage growth matches
+      with an exponential behaviour.
+    </p>
+    <p>
+      But why? Why does relatively consistent percentage growth
+      require an exponential regression? What's the connection between
+      percentage growth and exponential functions? I'd like to take
+      this as a motivating question for the course. Calculus can
+      understand and describe growth-rates, like percentage growth,
+      and relate them to functions. In the next section, I'll start to
+      sketch out the strategy to try to answer this motivating
+      question.
     </p>
   </subsection>
 </section>

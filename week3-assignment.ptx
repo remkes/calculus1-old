@@ -5,6 +5,52 @@
   <title>Week 3 Assignment</title>
   <p><ol>
     <li>
+      <p>
+      Translate the following sentences into differential equations.
+      (6) 
+      </p>
+      <p><ol>
+        <li>
+          The rate of change of a function is proportional to the
+          square root of the function.
+        </li>
+        <li>
+          The rate of change of a function is proportional to 
+          a constant plus the function squared. 
+        </li>
+        <li>
+          The rate of change of a function is a negative constant. 
+        </li>
+      </ol></p>
+    </li>
+    <li>
+      Draw a phase line for this differential equation and label the
+      trajectories. You may assume this is a population model and <m>
+      p \geq 0</m>. (5) 
+      <me>
+        \frac{dp}{dt} = (4-p)(9-p)
+      </me>
+    </li>
+    <li>
+      Draw a phase line for this differential equation and label the
+      trajectories. You may assume this is a population model and <m>
+      p \geq 0</m>. (5) 
+      <me>
+        \frac{dp}{dt} = (2-p)(3-p)(4-p)^2
+      </me>
+    </li>
+    <li>
+      Draw a phase line for this differential equation and label the
+      trajectories. You may assume this is a population model and <m>
+      p \geq 0</m>. (5) 
+      <me>
+        \frac{dp}{dt} = (1-p)^2(3-p)^3
+      </me>
+    </li>
+    <li>
+      When modelling a population, why is it often easier to start
+      with a differential equation than directly imposing a function?
+      (4)
     </li>
   </ol></p>
 </section>
