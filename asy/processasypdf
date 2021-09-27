@@ -45,6 +45,7 @@ asy -f pdf figure41.asy
 asy -f pdf figure42.asy
 asy -f pdf figure43.asy
 asy -f pdf figure44.asy
+asy -f pdf figure45.asy
 asy -f pdf figure46.asy
 asy -f pdf figure47.asy
 asy -f pdf figure48.asy
@@ -67,7 +68,6 @@ asy -f pdf figure64.asy
 asy -f pdf figure65.asy
 asy -f pdf figure66.asy
 asy -f pdf figure67.asy
-asy -f pdf figure68.asy
 asy -f pdf figure69.asy
 asy -f pdf figure70.asy
 asy -f pdf figure71.asy
@@ -87,7 +87,6 @@ asy -f pdf figure84.asy
 asy -f pdf figure85.asy
 asy -f pdf figure86.asy
 asy -f pdf figure87.asy
-asy -f pdf figure88.asy
 asy -f pdf figure89.asy
 asy -f pdf figure90.asy
 
