@@ -5,33 +5,25 @@
   <title>Weeks 4-5 Assignment</title>
   <p><ol>
     <li>
-    </li>
-  </ol></p>
-</section>
-
-<!--
-Previous Assignment
-<section xml:id="section-assignment-week4">
-  <title>Weeks 4 Assignment</title>
-  <ol>
-    <li>
       <p>
-        Calculate the following limits. (15) 
-        <ol>
+        Calculate the following limits. (15)
+      </p>
+      <p><ol>
           <li><me>
-           \lim_{x \rightarrow 1} \frac{x^2 + x - 2}{x^2 - 3x + 2}
+           \lim_{x \rightarrow 1} \frac{x^2 - x - 2}{x^2 + x - 2}
          </me></li>
          <li><me>
-           \lim_{x \rightarrow 1} \frac{x^2 + x - 6}{x^2 + 2x - 8}
+           \lim_{x \rightarrow 1} \frac{x^2 + 7x + 12}{x^2 - 4x + 4}
          </me></li>
          <li><me>
-           \lim_{x \rightarrow 1} \frac{\frac{1}{x^2} - 1}{x-1}
+           \lim_{x \rightarrow 1} \frac{x^2 - 5x + 6}{x^2 - 4x + 4} 
          </me></li>
          <li><me>
-           \lim_{x \rightarrow 2} \frac{x^2 - 5x + 7}{x^2 - 4x + 4}
+           \lim_{x \rightarrow 0} \frac{x^2 (x-1)^2}{\sin x}
          </me></li>
          <li><me>
-           \lim_{x \rightarrow 0} \frac{\sin^2 x}{x^2 - 1}
+           \lim_{x \rightarrow 2} \tan x \left( x - \frac{1}{x}
+           \right)
          </me></li>
        </ol>
       </p>
@@ -44,13 +36,13 @@ Previous Assignment
         <ol>
           <li><me>
             f(x) = \left\{ \begin{matrix}
-              x^2 - 3 \amp x \lt 1 \\
-              \frac{a}{x} \amp x \geq 1 
+              \sqrt{x^2 + 4} \amp x \geq 0 \\
+              (x+a)^3 \amp x \lt 0 
             \end{matrix} \right.
           </me></li>
           <li><me>
             f(x) = \left\{ \begin{matrix}
-              \sin (ax) \amp x \lt 0 \\
+              \sin \left( \frac{a}{x} \right) \amp x \geq 0 \\
               x^2 + 4 \amp x \geq 0
             \end{matrix} \right.
           </me></li>

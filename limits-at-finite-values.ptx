@@ -26,7 +26,7 @@
         <li>
           <p>
             If both methods fail, the limit is called an
-            <em>indeterminate form</em>. In this case, I need to
+            <term>indeterminate form</term>. In this case, I need to
             use various algebraic tricks (factoring, expanding,
             multiplying by conjugates, trig identities) and rules for
             manipulating limits to change the limit into a more

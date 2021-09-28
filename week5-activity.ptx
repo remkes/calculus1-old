@@ -13,7 +13,7 @@
       </statement>
       <solution>
         <p> 
-          We use asymptotic analysis for limits a <m>x \rightarrow
+          I use asymptotic analysis for limits as <m>x \rightarrow
           \infty</m>. The asymptotic order of the numerator is
           <m>x^2</m>.  The asymptotic order of the denominator is
           <m>x^4</m>. The denominator has a higher asymptotic order,
@@ -33,11 +33,11 @@
       </statement>
       <solution>
         <p>
-          We use asymptotic analysis for limits a <m>x \rightarrow
+          I use asymptotic analysis for limits as <m>x \rightarrow
           \infty</m>. The asymptotic order of the numerator is
           <m>x^5</m>.  The asymptotic order of the denominator is
           <m>x^3</m>. The numerator has a higher asymptotic order and
-          the leading coefficients are both positive, the limit
+          the leading coefficients are both positive, so the limit
           diverges to <m>\infty</m>. 
         </p>
       </solution>
@@ -54,7 +54,7 @@
       </statement>
       <solution>
         <p>
-          We use asymptotic analysis for limits a <m>x \rightarrow
+          I use asymptotic analysis for limits as <m>x \rightarrow
           \infty</m>. The asymptotic order of the numerator is
           <m>x^4</m>.  The asymptotic order of the denominator is
           <m>x^4</m>. These are the same, so the limit must be the
@@ -79,11 +79,11 @@
       </statement>
       <solution>
         <p>
-          We use asymptotic analysis for limits a <m>x \rightarrow
+          I use asymptotic analysis for limits as <m>x \rightarrow
           \infty</m>. The asymptotic order of the numerator is
           <m>x^3</m>.  The asymptotic order of the denominator is
           <m>x^3</m>. The fact that the term are ordered differently
-          doesn't change the fact that we only need the term with the
+          doesn't change the fact that I only need the term with the
           highest order. Since the asymptotic orders are the same, we
           look at the ratio of the leading coefficients. Those
           coefficients are the coefficients of the highest order
@@ -107,11 +107,11 @@
       </statement>
       <solution>
         <p>
-          We use asymptotic analysis for limits a <m>x \rightarrow
+          I use asymptotic analysis for limits as <m>x \rightarrow
           \infty</m>. The asymptotic order of the numerator is
           <m>x^4</m>. The asymptotic order of the denominator is
           <m>x^4</m>. The fact that the constants here are large
-          number is irrelevant in the limit. Since the asymptotic
+          numbers is irrelevant in the limit. Since the asymptotic
           orders are the same, the limit is the ratio of the leading
           coefficients. 
           <me>
@@ -132,7 +132,7 @@
       </statement>
       <solution>
         <p>
-          We use asymptotic analysis for limits a <m>x \rightarrow
+          I use asymptotic analysis for limits as <m>x \rightarrow
           \infty</m>. The asymptotic order of the numerator is
           determined by ignoring the 1. That leaves <m>\sqrt{x^5} =
           x^\frac{5}{2}</m>.  The asymptotic order of the denominator
@@ -154,7 +154,7 @@
       </statement>
       <solution>
         <p>
-          We use asymptotic analysis for limits a <m>x \rightarrow
+          I use asymptotic analysis for limits as <m>x \rightarrow
           \infty</m>. The asymptotic order of the numerator is
           <m>x</m>.  The asymptotic order of the denominator is found
           by ignoring the 1, giving <m>\sqrt[3]{x^5} =
@@ -175,14 +175,14 @@
       </statement>
       <solution>
         <p>
-          We use asymptotic analysis for limits a <m>x \rightarrow
+          I use asymptotic analysis for limits as <m>x \rightarrow
           \infty</m>. The asymptotic order of the numerator is
           <m>x^2e^x</m>. The asymptotic order of the denominator is
           <m>e^{2x}</m>. By the laws of exponents, <m>e^{2x} = (e^x)^2
-          = e^x e^x </m>. If we compare the two asymptotic orders and
+          = e^x e^x </m>. If I compare the two asymptotic orders and
           remove <m>e^x</m> form each, what is left in the numerator
           is <m>x^2</m> amd what is left in the denominator is
-          <m>e^x</m>. In this way, we see that the denominator has
+          <m>e^x</m>. In this way, I see that the denominator has
           higher asymptotic order, and the limit converges to 0. 
         </p>
       </solution>
@@ -198,9 +198,9 @@
       </statement>
       <solution>
         <p>
-          We use asymptotic analysis for limits a <m>x \rightarrow
+          I use asymptotic analysis for limits as <m>x \rightarrow
           \infty</m>. The asymptotic order of the numerator is <m>\ln
-          x></m>.  The asymptotic order of the denominator is
+          x</m>.  The asymptotic order of the denominator is
           <m>\sqrt{x}</m>. The denominator has higher asymptotic
           order, so the limit converges to 0. 
         </p>
@@ -217,12 +217,12 @@
       </statement>
       <solution>
         <p>
-          We use asymptotic analysis for limits a <m>x \rightarrow
+          I use asymptotic analysis for limits as <m>x \rightarrow
           \infty</m>. The asymptotic order of the numerator is
           <m>x</m>. The asymptotic order of the denominator is
           <m>x</m>. The sine function isn't in our list, because it is
           bounded -- it doesn't grow at all. Since the asymptotic
-          orders are the same, we compare the leading coefficients.
+          orders are the same, I compare the leading coefficients.
           <me>
             \lim_{x \rightarrow \infty} \frac{x + \sin x}{5x - 9}
             = \frac{1}{5}
@@ -242,13 +242,14 @@
       </statement>
       <solution>
         <p>
-          We use asymptotic analysis for limits a <m>x \rightarrow
+          I use asymptotic analysis for limits as <m>x \rightarrow
           \infty</m>. The asymptotic order of the numerator
-          is<m>e^{7x}</m>.  The asymptotic order of the denominator is
-          <m>e^{8x}</m>. We know for exponential functions (always
-          base e, of course) that a higher exponential coefficient
-          means a higher asymptotic order. Therefore, the denominator
-          has higher asymptotic order and the limit converges to 0. 
+          is <m>e^{7x}</m>.  The asymptotic order of the denominator is
+          <m>e^{8x}</m>. By laws of exponents, I can write <m>e^{7x} =
+          (e^x)^7</m> and <m>e^{8x} = (e^x)^8 = (e^x)^7(e^x)</m>. In
+          this way I see that the denominator has a higher asymptotic
+          order, since I multiply by <m>e^x</m> an additional time. 
+          Therefore, the limit converges to 0. 
         </p>
       </solution>
     </activity>
@@ -258,7 +259,7 @@
     <activity>
       <statement>
         <p>
-          Find the horizontal asymptotes (if any) of the function
+          Find the horizontal asymptotes (if any) of this function.
           <me>
             f(x) = \frac{7x + 4}{x^2 - 9x + 7}.
           </me>
@@ -278,7 +279,7 @@
     <activity>
       <statement>
         <p>
-          Find the horizontal asymptotes (if any) of the function
+          Find the horizontal asymptotes (if any) of this function.
           <me>
             f(x) = \frac{8x^3 - 7x + 1}{17x^3 - 5x^2 + 12}
           </me>
@@ -293,7 +294,7 @@
           horizontal asymptote in the positive direction. In the
           negative direction, the behaviour is the same. Both of the
           <m>x^3</m> terms will be negative, but the negatives will
-          cancel and the limits will still be <m>\frac{8}{17}</m>,
+          cancel and the limit will still be <m>\frac{8}{17}</m>,
           making <m>y=\frac{8}{17}</m> a horizontal asymptote in both
           directions.
         </p>
@@ -302,7 +303,7 @@
     <activity>
       <statement>
         <p>
-          Find the horizontal asymptotes (if any) of the function
+          Find the horizontal asymptotes (if any) of this function.
           <me>
             f(x) = \frac{8 \ln x - 5}{6 - 12 \ln x} 
           </me>
@@ -315,7 +316,7 @@
           \rightarrow \infty</m> is the limit of the leading
           coefficients: <m>\frac{8}{-12} = \frac{-2}{3}</m>. Therefore,
           <m>y=\frac{2}{3}</m> is a horizontal asymptote in the
-          positive direction. There cannot e any horizontal asymptote
+          positive direction. There cannot be any horizontal asymptote
           in the negative direction, since the domain of the function
           is restricted to positive number by the logarithm terms. 
         </p>
@@ -324,7 +325,7 @@
     <activity>
       <statement>
         <p>
-          Find the horizontal asymptotes (if any) of the function
+          Find the horizontal asymptotes (if any) of this function.
           <me>
             f(x) = \frac{1}{6 - \frac{4}{3-x}} 
           </me>
@@ -337,10 +338,10 @@
           Since the numerator is fixed, the fraction itself approach
           0. That leaves the limit as <m>\frac{1}{6-0} =
           \frac{1}{6}</m>. Therefore, <m>y = \frac{1}{6}</m> is a
-          horizontal asymptote int he positive direction. The same
+          horizontal asymptote in the positive direction. The same
           logic works for <m>x \rightarrow -\infty</m>; the only
           difference is that the denominator of the fraction is
-          positive, but the conclusions are the same. Therefore, <m>y
+          positive, but the conclusion is the same. Therefore, <m>y
           = \frac{1}{6}</m> is a horizontal asymptote in both
           directions. 
         </p>
@@ -349,7 +350,7 @@
     <activity>
       <statement>
         <p>
-          Find the horizontal asymptotes (if any) of the function
+          Find the horizontal asymptotes (if any) of this function.
           <me>
             f(x) = 8 \arctan x - 4 
           </me>
@@ -362,10 +363,10 @@
           function. By itself, arctangent has a horizontal asymptote
           of <m>y = \frac{\pi}{2}</m> in the positive direction and
           <m> y = \frac{-\pi}{2}</m> in the negative direction.
-          Multiplying by 8 means that we have a horizontal asymptote 
+          Multiplying by 8 means that there is a horizontal asymptote 
           of <m>y = 4\pi</m> in the positive direction and
           <m> y = -4\pi</m> in the negative direction. Adding 4 means
-          that we have a horizontal asymptote of <m>y = 4\pi + 4 </m>
+          that there is a horizontal asymptote of <m>y = 4\pi + 4 </m>
           in the positive direction and <m> y = -4\pi + 4 </m> in the
           negative direction. 
         </p>
@@ -374,7 +375,7 @@
     <activity>
       <statement>
         <p>
-          Find the horizontal asymptotes (if any) of the function
+          Find the horizontal asymptotes (if any) of this function.
           <me>
             f(x) = e^{-4x^2} 
           </me>
@@ -382,7 +383,7 @@
       </statement>
       <solution>
         <p>
-          Since we have <m>x^2</m> in the function (and no other
+          Since there is <m>x^2</m> in the function (and no other
           appearances of the independent variable), the behaviour in
           the positive and negative directions will be the same. In
           either direction, as <m> x \rightarrow \infty</m>, this is
@@ -398,7 +399,7 @@
       <statement>
         <p>
           Determine the long term behaviour of a population given by
-          the function
+          this function.
           <me>
             p(t) = 140e^{\frac{1}{40}t}
           </me>
@@ -410,7 +411,7 @@
         <p>
           This is an unbounded exponential function, so the limit is
           <m>\infty</m>. This is exponential growth, with a starting
-          value of 140 and a growth rate coefficnet of
+          value of 140 and a growth rate coefficient of
           <m>\frac{1}{40}</m>. 
         </p>
       </solution>
@@ -419,7 +420,7 @@
       <statement>
         <p>
           Determine the long term behaviour of a population given by
-          the function
+          this function.
           <me>
             p(t) = \frac{75e^{\frac{1}{37}t}}{34 +
             420e^{\frac{1}{37}t}} 
@@ -431,10 +432,10 @@
       <solution>
         <p>
           Both numerator and denominator have the same asymptotic
-          order, <m>e^{\frac{1}{37} t}</m>, so we look at the leading
+          order, <m>e^{\frac{1}{37} t}</m>, so I look at the leading
           coefficients for the limit: <m> \frac{75}{420} =
           \frac{5}{28}</m>. The long term behaviour of this is
-          stabilitzation to at the value <m>\frac{5}{28}</m>. This is
+          stabilitzation at the value <m>\frac{5}{28}</m>. This is
           logistic growth, since it fits the specialized logistic
           growth form with the same exponential functions in the
           numerator and denominator. 
@@ -445,7 +446,7 @@
       <statement>
         <p>
           Determine the long term behaviour of a population given by
-          the function
+          this function.
           <me>
             p(t) = \frac{3t^2 - 6t + 1}{t^2 + 4}
           </me>
@@ -469,7 +470,7 @@
       <statement>
         <p>
           Determine the long term behaviour of a population given by
-          the function
+          this function.
           <me>
             p(t) = 400 + \frac{t^2-1}{9t^2+4} \sin (\pi t) 
           </me>
@@ -484,7 +485,7 @@
           the same asymptotic order in the numerator and denominator,
           to its limit is <m>\frac{1}{9}</m>, the ratio of its leading
           coefficient. The long term behaviour of this function is
-          osscilation around the equilibrium value of 400 with an
+          oscillation around the equilibrium value of 400 with an
           amplitude of <m>\frac{1}{9}</m>. All these values are close
           to 400, but the function never approaches any one value;
           instead, the oscillations continue for ever. This is neither
@@ -496,7 +497,7 @@
       <statement>
         <p>
           Determine the long term behaviour of a population given by
-          the function
+          this function.
           <me>
             p(t) = \frac{7e^{\frac{2}{17}t}}{1 + 12e^{\frac{3}{27}t}} 
           </me>
@@ -520,7 +521,7 @@
       <statement>
         <p>
           Determine the long term behaviour of a population given by
-          the function
+          this function.
           <me>
             p(t) = 300e^{-\frac{1}{5}t}
           </me>

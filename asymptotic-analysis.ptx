@@ -3,13 +3,13 @@
   <subsection xml:id="subsection-classifying-limits">
     <title>Classifying Types of Limits</title>
     <p>
-      It will be useful for this section to clarify the language we
-      introduced in <xref ref="section-limits-at-finite-values" />
-      concerning <em>indeterminate forms</em>. A limit is called an
-      indeterminate form  if
-      it cannot be evaluated or logically determined. We can classify
-      indeterminate forms by their type. For now, we look at three
-      types. The first two types involve quotient limits.
+      It will be useful for this section to elaborate on the term
+      <term>indeterminate form</term> introduced in <xref
+      ref="section-limits-at-finite-values" />. Recall that a limit is
+      called an indeterminate form  if it cannot be directly evaluated
+      or deterined by a simple logical analysis. I can classify
+      indeterminate forms by their type. For now, I will look at three
+      types. The first two types are quotient limits.
       <me>
         \lim_{x \rightarrow a} \frac{f(x)}{g(x)}
       </me>
@@ -19,12 +19,16 @@
       limit is called an indeterminate form of type
       <m>\frac{\infty}{\infty}</m>. If instead both <m>f(x)</m> and
       <m>g(x)</m> approach <m>0</m>, then it is an indeterminate form
-      of type <m>\frac{0}{0}</m>. In both cases, we want to use
+      of type <m>\frac{0}{0}</m>. In both cases, I want to use
       algebra to factor out and cancel off the pieces of the quotients
-      which tends to <m>\infty</m> or <m>0</m> to solve the limit.
+      which tends to <m>\infty</m> or <m>0</m> to solve the limit. (I
+      previously cautioned about using <m>\infty</m> in arithmetic or
+      dividing by zero. Both of those cautions stand. The expression
+      <m>\frac{\infty}{\infty}</m> and <m>\frac{0}{0}</m> used for
+      indeterminate forms are <em>labels</em>, not calculations.)
     </p>
     <p>
-      The third type involves a difference limit.
+      The third type of indeterminate form is a difference limit.
       <me>
         \lim_{x \rightarrow a} f(x) - g(x)
       </me>
@@ -32,12 +36,12 @@
     <p>
       If both <m>f(x)</m> and <m>g(x)</m> approach <m>\pm \infty</m>,
       this limit is called an indeterminate form of type <m>\infty -
-      \infty</m>. For this type, we want to use common denominator,
+      \infty</m>. For this type, I want to use common denominator,
       conjugates or other algegraic tricks to reduce it to a limit of
       type <m>\frac{\infty}{\infty}</m> or type <m>\frac{0}{0}</m>.
     </p>
     <p>
-      In all these definitions, we could replace <m>x \rightarrow
+      In all these definitions, I could replace <m>x \rightarrow
       a</m> with the one-sided limit or <m>x \rightarrow \pm
       \infty</m>; the indeterminate forms are classified the same way
       for any type of limit. 
@@ -48,10 +52,10 @@
     <p>
       The calculation of infinite limits is similar to the same steps
       as finite limits except that the first step, evaluation, is
-      impossible. We start at the second step and look for a simple
-      logical explanation. If such an explanation is not forthcoming,
-      the limit is an indeterminate form and we use algebra and the
-      limit rules. The limit rules apply to infinite limits as they
+      impossible. I start at the second step and look for a simple
+      logical analysis. If such an analysis is not forthcoming,
+      the limit is an indeterminate form and I need to use algebra and
+      the limit rules. The limit rules apply to infinite limits as they
       did to finite limits.
     </p>
     <p>
@@ -61,8 +65,8 @@
       to infinite limits.
     </p>
     <p>
-      Asymptotic analysis interprets limit at infinity as a
-      measurement of the growth of functions. The functions <m>f_1(x)
+      Asymptotic analysis interprets limits at infinity as a
+      measurements of the growth of functions. The functions <m>f_1(x)
       = x</m>, <m>f_2(x) = x^2</m> and <m>f_3(x) = e^x</m> all get
       very large as <m>x</m> gets very large; they all grow.
       Asymptotic analysis asks which of these functions grows faster.
@@ -70,52 +74,54 @@
     <p>
       The limit of a ratio of function <m>\frac{f(x)}{g(x)}</m> is
       asking essentially the same question. By looking at the ratio
-      of two functions as <m>x \rightarrow \infty</m>, we ar
+      of two functions as <m>x \rightarrow \infty</m>, I am
       implicitly asking which grows faster. If <m>g</m> grows faster,
       then the denominator should outpace the numerator, and the limit
       should tend to <m>0</m>. If <m>f</m> grows faster, then the
       numerator should outpace the denominator and the limit should
-      tend to <m>\infty</m>. If <m>f</m> and <m>g</m> has roughly the
+      tend to <m>\infty</m>. If <m>f</m> and <m>g</m> have roughly the
       same growth, then the limit should settle to some finite value
-      larger than <m>0</m>. This leads to the notion of asymptotic order.
+      larger than <m>0</m>. This leads to the notion of asymptotic
+      order.
     </p>
   </subsection>
   <subsection xml:id="subsection-asymptotic-order">
     <title>Asymptotic Order</title>
     <p>
-      In asymptotic analysis, we start with a quotient limit.
+      In asymptotic analysis, I start with a quotient limit.
       <me>
         \lim_{x \rightarrow \infty} \frac{f(x)}{g(x)}
       </me>
       <ul>
         <li>
           <p>
-            If this limit is <m>0</m>, then we say that <m>g</m> has
-            greater asymptotic order than <m>f</m>. Alternatively, we
-            say that <m>g</m> grows faster than or <m>g</m> dominates
-            <m>f</m> as <m>x \rightarrow \infty</m>.
+            If this limit is <m>0</m>, then <m>g</m> has
+            <term>greater asymptotic order</term> than <m>f</m>.
+            Alternatively, I can say that <m>g</m> grows faster than
+            <m>f</m>or <m>g</m> dominates <m>f</m> as <m>x \rightarrow
+            \infty</m>.
           </p>
         </li>
         <li>
           <p>
-            If this limit is <m>\infty</m>, then we say that <m>f</m>
+            If this limit is <m>\infty</m>, then <m>f</m>
             has greater asymptotic order than <m>g</m>.
-            Alternatively, we say that <m>f</m> grows faster than or
-            <m>f</m> dominates <m>g</m>.
+            Alternatively, I cqn say that <m>f</m> grows faster than
+            <m>g</m>or <m>f</m> dominates <m>g</m>.
           </p>
         </li>
         <li>
           <p>
-            If this limit is finite but non-zero, we say that <m>f</m>
+            If this limit is finite but non-zero, then <m>f</m>
             and <m>g</m> have the same asymptotic order.
-            Alternatively, .we say that <m>f</m> and <m>g</m> grow at
+            Alternatively, I can say that <m>f</m> and <m>g</m> grow at
             the same asymptotic rate and neither dominates. 
           </p>
         </li>
       </ul>
     </p>
     <p>
-      With this definition, we can evaluate many limits by just
+      With this definition, wI can evaluate many limits by just
       knowing which functions have greater or lesser asymptotic
       order.
     </p>
@@ -123,9 +129,11 @@
   <subsection xml:id="subsection-asymptotic-ranking">
     <title>An Asymptotic Ranking of Functions</title>
     <p>
-      Here are several rules for asymptotic order of functions. Many
-      of these are obvious, but some require more work to establish.
-      The proofs of these statements are not included in this course.
+      Since I need to know the relative asymptotic order of functions,
+      I want to make a ranking. There are several principles that go
+      into such a ranking. Many of these are obvious, but some require
+      more work to establish. The proofs of these statements are not
+      included in this course.
       <ul>
         <li>
           <p>
@@ -159,38 +167,32 @@
             than <m>g(x) = x^r</m> for any <m>r</m>.
           </p>
         </li>
-        <li>
-          <p>
-            The function <m>f(x) = x^x</m> grows faster than <m>g(x) =
-            e^x</m>.
-          </p>
-        </li>
       </ul>
     </p>
     <p>
-      These are the most common types of functions we will consider.
-      We can summarize this in a list of asymptotic orders: in the
+      This covers most of the common types of growing funtions. 
+      I can summarize this in a list of asymptotic orders: in the
       following list <sq><m>f\lt g</m></sq> means that <m>f</m> grows
       slower than <m>g</m>.
       <me>
         c \lt  \ln x \lt  \ldots \lt  x^{\frac{1}{3}} \lt
         x^{\frac{1}{2}} \lt  x \lt  x^2 \lt  x^3 \lt  \ldots \lt  e^x
-        \lt  x^x \lt  \ldots
+        \lt   \ldots
       </me>
     </p>
     <p>
-      This is the basic list and is something you will either memorize
-      or frequently reference for many limits in this course. There
-      are other functions at the top of this list which grow faster
-      than <m>x^x</m>, but they are not frequently used.
+      You will frequently need to reference this list for many limits
+      in the course. There are other functions at the top of this list
+      which grow faster than <m>e^x</m>, but they are not frequently
+      used.
     </p>
   </subsection>
   <subsection xml:id="subsection-determining-ranking">
     <title>Asymptotic Ranking, Sums and Product</title>
     <p>
-      In quotient limits, <m>f</m> and <m>g</m> may be more
-      complicated than the simple functions in our asymptotic ranking.
-      We have a two useful rules to help us work with <m>f</m> and
+      In quotient limits, the numerator or denominator may be more 
+      complicated than the simple functions in the asymptotic ranking.
+      There are two useful rules to help us work with <m>f</m> and
       <m>g</m> which are combinations of pieces of various asymptotic
       order.
       <ul>
@@ -199,16 +201,17 @@
             If <m>f = f_1 + f_2 + f_3 + \ldots + f_n</m> then the
             asymptotic order of <m>f</m> is the maximum of the
             asymptotic order of the <m>f_i</m>.  This means that in a
-            sum or difference, we only need to consider the fastest
-            growing pieces. We can simply ignore all the rest.
+            sum or difference, I only need to consider the fastest
+            growing pieces. I can simply ignore all the rest.
           </p>
         </li>
         <li>
           <p>
-            I don't have as precise a rule for product. Just know that
-            product of growing functions increase the asymptotic
-            order. <m>xe^x</m> has greater asymptotic order than
-            <m>e^x</m>. 
+            I don't have as precise a rule for products. However, I
+            can say that the product of two growing functions has a
+            higher asymptotic order than either piece. For example, 
+            <m>xe^x</m> has greater asymptotic order than either
+            <m>e^x</m> or <m>x</m>.
           </p>
         </li>
       </ul>
@@ -221,23 +224,17 @@
       <me>
         \lim_{x \rightarrow \infty} \frac{f(x)}{g(x)} 
       </me>
-      we look at the asymptotic order. If <m>f</m> has a greater
+      I look at the asymptotic order. If <m>f</m> has a greater
       asymptotic order, the limit is <m>\infty</m> or <m>-\infty</m>
-      (depending on the sign of the fraction as <m>x</m> gets large.
+      (depending on the sign of the fraction as <m>x</m> gets large).
       If <m>g</m> has a greater asymptotic, the limit is zero.
     </p>
     <p>
-      If <m>f</m> and <m>g</m> have the same
-      asymptotic order, the value of the limit is the ration of the
-      <em>leading coefficients</em>. The leading coefficients are the
+      If <m>f</m> and <m>g</m> have the same asymptotic order, the
+      value of the limit is the ratio of the <term>leading
+      coefficients</term>. The leading coefficients are the
       coefficients which sit in front of the term with the highest
-      asymptotic order.
-    </p>
-    <p>
-      Note that none of the information associated to the pieces of
-      lower asymptotic order matters at all. No matter how large
-      the constants may be, only the asymptotic order tells us which
-      pieces are important.
+      asymptotic order in the numerator or denominator.
     </p>
     <example>
       <statement>
@@ -263,9 +260,12 @@
           9x^3 - 50x^2 - 4x - 1}
         </me>
         <p>
-          The leading coefficient in the numerator if <m>8</m>, and in
-          the denominator is <m>14</m>.  Only these terms matter, which
-          radically simplifies the limit
+          The asymptotic order the numerator is <m>x^4</m> and the
+          denominator has the same asymptotic order. Therefore, I look
+          at the leading coefficients. 
+          The leading coefficient in the numerator is <m>8</m>; in
+          the denominator, it is <m>14</m>.  Only these terms matter, which
+          radically simplifies the limit. 
           <me>
             \lim_{x \rightarrow \infty} \frac{8x^4 + 3x^2 + 4}{14x^4 -
             9x^3 - 50x^2 - 4x - 1} = \frac{8}{14} = \frac{4}{7}

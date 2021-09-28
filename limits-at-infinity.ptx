@@ -4,9 +4,9 @@
     <title>Definitions</title>
     <p>
       In addition to asking what happens to a function as the input
-      approaches paticular finite values, we can also ask what happens
-      as the input approaches infinity, that is, at the input gets
-      larger and larger.
+      approaches paticular finite values, I can also ask what happens
+      as the input <sq>approaches infinityi</sq>, that is, as the
+      input gets larger and larger.
     </p>
     <p>
       The statement
@@ -30,8 +30,16 @@
     </p>
     <p>
       These statements are defined the same way for <m>x \rightarrow
-      -\infty</m> when <m>x</m> becomes a larger and larger negative
-      number without bound.
+      -\infty</m> when the input <m>x</m> becomes a larger and larger
+      negative number without bound.
+    </p>
+    <p>
+      In all of these definitions, the symbol <m>\infty</m> means
+      <sq>getting larger and larger without bound</sq>. It is never a
+      number, never a quantity. It is a convenient shorthand for the
+      idea of unbounded growth. Please keep this in mind, particularly
+      for your algebra and arithmetic. Inifnity is not a number and
+      doing algebra or arithmetic with it doesn't make sense. 
     </p>
     <figure xml:id="figure-horizontal-Asymptotes">
       <caption>Horizontal Asymptotes</caption>
@@ -57,19 +65,30 @@
   <subsection xml:id="subsection-horizontal-asymptotes">
     <title>Horizontal Asymptotes</title>
     <p>
-      If we have a function <m>f(x)</m> where the limit
+      When a function <m>f(x)</m> has a finite limit as the input
+      growths with out bound:
       <me>
         \lim_{x \rightarrow \infty} f(x) = L
-      </me>
-      exists, that means that
-      the graph of the function approaches the line <m>y=L</m>. Such
+      </me>,
+      then the graph of the function approaches the line <m>y=L</m>.
+      Such
       lines are called <em>horizontal asymptotes</em>. Similarly, if
-      the limit 
+      the limit is
       <me>
         \lim_{x \rightarrow -\infty} f(x) = L
-      </me>
-      exists, then again the fuction approach the line <m>y=L</m> and
-      we call the line a horizontal asymptote. 
+      </me>,
+      then again the fuction approach the line <m>y=L</m> and
+      such a line is also called a horizontal asymptote. 
+    </p>
+    <p>
+      To search for horizontal asymptotes, I consider limits of a
+      function as <m>x \rightarrow \pm \infty</m>. If such a limit
+      produces a finite result (the number <m>L</m> above), then the
+      line <m>y=L</m> is a horizontal asymptote. Note that there are
+      two possibilities for horizontal asymptotes: in the positive and
+      in the negative directions. It is possible for a function to
+      have a horizontal asymptote in only one direction, or in both
+      directions but at different values. 
     </p>
   </subsection>
 </section>
