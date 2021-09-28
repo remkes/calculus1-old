@@ -6,87 +6,79 @@
   <p><ol>
     <li>
       <p>
-        Calculate the following limits. (15)
+        Calculate the following limits. (12)
       </p>
       <p><ol>
-          <li><me>
-           \lim_{x \rightarrow 1} \frac{x^2 - x - 2}{x^2 + x - 2}
-         </me></li>
-         <li><me>
-           \lim_{x \rightarrow 1} \frac{x^2 + 7x + 12}{x^2 - 4x + 4}
-         </me></li>
-         <li><me>
-           \lim_{x \rightarrow 1} \frac{x^2 - 5x + 6}{x^2 - 4x + 4} 
-         </me></li>
-         <li><me>
-           \lim_{x \rightarrow 0} \frac{x^2 (x-1)^2}{\sin x}
-         </me></li>
-         <li><me>
-           \lim_{x \rightarrow 2} \tan x \left( x - \frac{1}{x}
-           \right)
-         </me></li>
-       </ol>
-      </p>
+        <li><me>
+          \lim_{x \rightarrow 1} \frac{x^2 - x - 2}{x^2 + x - 2}
+        </me></li>
+        <li><me>
+          \lim_{x \rightarrow 1} \frac{x^2 + 7x + 12}{x^2 - 4x + 4}
+        </me></li>
+        <li><me>
+          \lim_{x \rightarrow 0} \frac{x^2 (x-1)^2}{\sin x}
+        </me></li>
+        <li><me>
+          \lim_{x \rightarrow 2} \tan x \left( x - \frac{1}{x}
+          \right)
+        </me></li>
+      </ol></p>
     </li>
     <li>
       <p>
         For each of the following functions, find a value of <m>a</m>
         that makes the function continuous or demonstrate that no
-        value of <m>a</m> is possible. (12) 
-        <ol>
-          <li><me>
-            f(x) = \left\{ \begin{matrix}
-              \sqrt{x^2 + 4} \amp x \geq 0 \\
-              (x+a)^3 \amp x \lt 0 
-            \end{matrix} \right.
-          </me></li>
-          <li><me>
-            f(x) = \left\{ \begin{matrix}
-              \sin \left( \frac{a}{x} \right) \amp x \geq 0 \\
-              x^2 + 4 \amp x \geq 0
-            \end{matrix} \right.
-          </me></li>
-          <li><me>
-            (x) = \left\{ \begin{matrix}
-              \ln x \amp x \gt e \\
-              x + a \amp x \leq e
-            \end{matrix} \right.
-          </me></li>
-        </ol>
+        value of <m>a</m> is possible. (8) 
       </p>
+      <p><ol>
+        <li><me>
+          f(x) = \left\{ \begin{matrix}
+            \sqrt{x^2 + 4} \amp x \geq 0 \\
+            (x+a)^3 \amp x \lt 0 
+          \end{matrix} \right.
+        </me></li>
+        <li><me>
+          f(x) = \left\{ \begin{matrix}
+            \sin \left( \frac{a}{x} \right) \amp x \gt 0 \\
+            x^2 \amp x \leq 0
+          \end{matrix} \right.
+        </me></li>
+      </ol></p>
     </li>
     <li>
       <p>
-        Calculate the following limits.
-        <ol>
-          <li><me>
-            \lim_{x \rightarrow \infty} \frac{e^x}{x^9} 
-          </me></li>
-          <li><me>
-            \lim_{x \rightarrow \infty} \frac{\sqrt{x^7 -
-            3}}{\sqrt[3]{x^{12}} - 4}
-          </me></li>
-          <li><me>
-            \lim_{x \rightarrow \infty} \frac{x^2
-            \ln x + x^3}{x^4} 
-          </me></li>
-          <li><me>
-            \lim_{x \rightarrow \infty} \frac{\sin x + x^4}{\cos x +
-            x^2} 
-          </me></li>
-        </ol>
+        Calculate the following limits. (12)
       </p>
+      <p><ol>
+        <li><me>
+          \lim_{x \rightarrow \infty} \frac{x^{\frac{5}{3}}}{x -
+          x^3} 
+        </me></li>
+        <li><me>
+          \lim_{x \rightarrow \infty} \frac{x^2 + x^4 + e^x}{x^3 -
+          x^5 + e^x}
+        </me></li>
+        <li><me>
+          \lim_{x \rightarrow \infty} \frac{\sqrt[3]{x^2 +
+          x^7}}{\sqrt[4]{x^3 + x^6}} 
+        </me></li>
+        <li><me>
+          \lim_{x \rightarrow \infty} \frac{\ln \left( \sqrt{x}
+          \right)}{ \sqrt{\ln x}} 
+        </me></li>
+      </ol></p>
     </li>
     <li>
-      <p>
-        Consider the following limit, where <m>a</m>, <m>b</m>,
-        <m>c</m>, and <m>d</m> are non-zero real numbers. (4) 
-        <me>
-          \lim_{x \rightarrow \infty} \frac{ax^2 + b}{cx^2 + 100000d} 
-        </me>
-        Discuss how the four constants affect the value of the limit.
-      </p>
+      Suppose that <m>f(x)</m> is a function with domain
+      <m>(0,1)</m> and the following properties. (4)
+      <md>
+        <mrow>
+          \amp \lim_{x \rightarrow 0^+} f(x) = -\infty 
+          \amp \amp \lim_{x \rightarrow 1^-} f(x) = \infty 
+        </mrow>
+      </md>
+      What conclusion can you make (if any) about the contintuity of
+      <m>f(x)</m> based on these limits and why?
     </li>
-  </ol>
+  </ol></p>
 </section>
--->
