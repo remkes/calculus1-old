@@ -13,7 +13,7 @@
           \lim_{x \rightarrow 1} \frac{x^2 - x - 2}{x^2 + x - 2}
         </me></li>
         <li><me>
-          \lim_{x \rightarrow 1} \frac{x^2 + 7x + 12}{x^2 - 4x + 4}
+          \lim_{x \rightarrow 2} \frac{x^2 + 7x + 12}{x^2 - 4x + 4}
         </me></li>
         <li><me>
           \lim_{x \rightarrow 0} \frac{x^2 (x-1)^2}{\sin x}
@@ -70,7 +70,7 @@
     </li>
     <li>
       Suppose that <m>f(x)</m> is a function with domain
-      <m>(0,1)</m> and the following properties. (4)
+      <m>(0,1)</m> which has the following properties. (4)
       <md>
         <mrow>
           \amp \lim_{x \rightarrow 0^+} f(x) = -\infty 
