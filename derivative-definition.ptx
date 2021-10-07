@@ -3,18 +3,19 @@
   <subsection xml:id="subsection-secant-lines">
     <title>Limits of Secant Lines</title>
     <p>
-      In <xref ref="section-population-growth" />, we defined the
+      In <xref ref="section-population-growth" />, I defined the
       derivative as the rate of change of a function. In <xref
-      ref="section-two-motivating-problems" />, we connected that
+      ref="section-two-motivating-problems" />, I connected that
       definition to the geometry of slopes of tangent lines and
       constructed a process by which algebra can approximate a tangent
       line by using secant lines, shown in <xref
-      ref="figure-secant-approximations" />. Now that we have limits,
-      we can ask for the limit of that approximation process.
+      ref="figure-secant-approximations" />. Finally, since I have
+      defined limits in <xref ref="section-limits-concept" />, I can
+      ask for the limit of that approximation process of secant lines.
     </p>
     <p>
-      Let's say we want the slope of the tangent line at a point
-      <m>(a,f(a))</m> on the graph of a function. We can take
+      I want to calculate the slope of the tangent line at a point
+      <m>(a,f(a))</m> on the graph of a function. I can take
       <m>a</m> as one point to define a secant line and let <m>x</m>
       be the other point (with <m>x \neq a</m>). Then the slope of
       the secant line is the difference in output (<m>f(x) - f(a)</m>)
@@ -22,36 +23,30 @@
       <me>
         \frac{f(x) - f(a)}{x-a}
       </me>
-    </p>
-    <p>
-      We said that we should get better and better approximations to
-      the tangent line as <m>x</m> gets closer to <m>a</m>. Now we
+      I said that the approximation should get closer and closer to 
+      the tangent line as <m>x</m> gets closer to <m>a</m>. Now I
       can ask for the limit as <m>x \rightarrow a</m>.
       <me>
         \lim_{x \rightarrow a} \frac{f(x) - f(a)}{x-a}
       </me>
-    </p>
-    <p>
       This limit, if it exists, will be the slope of the tangent line.
-      It is called the derivative and is the rate of change of the
-      function at <m>x=a</m>. <me> f^\prime(a) = \frac{df}{dx} (a) =
-      \lim_{x \rightarrow a} \frac{f(x) - f(a)}{x-a}.
+      It is called the derivative and it calculates the rate of change
+      of the function at <m>x=a</m>. 
+      <me> 
+        f^\prime(a) = \frac{df}{dx} (a) = \lim_{x \rightarrow a}
+        \frac{f(x) - f(a)}{x-a}
       </me>
-    </p>
-    <p>
-      There is a slight alteration of the definition, which is useful
-      for some calculations. If we let <m>h = x-a</m>, then we can
-      write the limit as:
+      There is a slight variation of this definition, which is useful
+      for some calculations. If I define <m>h = x-a</m>, then I can
+      write the limit in terms of <m>h</m> instead of <m>x</m>.
       <me>
         f^\prime(a) = \frac{df}{dx} (a) = \lim_{h \rightarrow 0}
         \frac{f(a+h) - f(a)}{h}
       </me>
-    </p>
-    <p>
-      This second definition allows us to see that the derivative is
+      This second definition me us to see that the derivative is
       an entirely new function. At each point <m>x</m> in the domain
-      of <m>f</m>, we can ask for the slope of the tangent line. That
-      gives a new function:
+      of <m>f</m>, I can ask for the slope of the tangent line. That
+      gives a new function which measure the slope of the original. 
       <me>
         f^\prime(x) = \frac{df}{dx} = \lim_{h \rightarrow 0}
         \frac{f(x+h) - f(x)}{h}
@@ -61,21 +56,21 @@
   <subsection xml:id="subsection-operators">
     <title>Differential Operators</title>
     <p>
-      We think of the derivative as an operation on functions: it
-      takes a function and gives us a new function which measures the
+      I can think of the derivative as an operation on functions: it
+      takes a function and gives a new function which measures the
       rate of change of the previous function. This solves the
       velocity problem: if <m>x(t)</m> is a position function, then
       its derivative <m>x^\prime(t)</m> is the velocity function.
     </p>
     <p>
       Leibniz notation is useful for thinking of derivatives as
-      operators. If we seperate the notation slightly, we can write
+      operators. If I seperate the notation slightly, I can write
       <me>
         \frac{df}{dx} = \frac{d}{dx} f
       </me>
     </p>
     <p>
-      With this notation, we think of <m>\frac{d}{dx}</m> as the
+      With this notation, I think of <m>\frac{d}{dx}</m> as the
       operator: the thing that takes derivatives. Having notation for
       such an operator is extremely convenient.
     </p>
@@ -84,10 +79,10 @@
     <title>Differentiability</title>
     <p>
       The limit defining the derivative may not always exist. If it
-      does exist at a point <m>a</m> in the domain, we say that
-      <m>f</m> is <em>differentiable</em> at the point <m>a</m>. If
-      it exists for all points in the domain of <m>f</m>, we say that
-      <m>f</m> is a differentiable function. Differentiability
+      does exist at a point <m>a</m> in the domain, then <m>f</m> is
+      said to be <em>differentiable</em> at the point <m>a</m>. If
+      it exists for all points in the domain of <m>f</m>, then 
+      <m>f</m> is called a differentiable function. Differentiability
       requires continuity: if a function makes a sudden jump, it
       doesn't make sense to talk about a rate of change and a tangent
       line cannot be defined. Differentiability also requires a
@@ -125,24 +120,20 @@
   <subsection xml:id="subsection-derivative-interpretation">
     <title>Interpretation</title>
     <p>
-      Now that we have a definition of the derivative and
-      differentiability, let's review what this all means. The
+      Now that I have formally defined the derivative and
+      differentiability, I'll try to review what this all means. The
       derivative has two major interpretation, one geometric and one
       applied.
-      <ul>
-        <li>
-          <p>
-            The derivative measures the slope of a tangent line to a
-            function.
-          </p>
-        </li>
-        <li>
-          <p>
-            The derivative measures the rate of change of a function.
-          </p>
-        </li>
-      </ul>
     </p>
+    <p><ul>
+        <li>
+          The derivative measures the slope of a tangent line to a
+          function.
+        </li>
+        <li>
+          The derivative measures the rate of change of a function.
+        </li>
+    </ul></p>
     <p>
       If a function is differentiable on its domain, that means its
       derivative exists at all points in the domain. In the geometric
