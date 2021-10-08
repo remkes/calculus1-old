@@ -83,9 +83,9 @@
       <statement>
         <p>
          Calculate the limit. 
-          <me>
-            \lim_{x \rightarrow -3} \frac{x+3}{x^3+27} 
-          </me>
+         <me>
+           \lim_{x \rightarrow -3} \frac{x+3}{x^3+27} 
+         </me>
         </p>
       </statement>
       <solution>
@@ -519,7 +519,7 @@
           right is <m>\frac{39}{12}e^{\frac{10}{7}}</m>. The
           approximate values of these numbers is, respectively,
           <m>0.1699</m> and <m>13.5614</m>. These are not the same, so
-          the function is continuous. At <m>t=10</m> the population
+          the function is not continuous. At <m>t=10</m> the population
           has a sudden and significant jump; through some process, a
           large population has suddenly been added to the existing
           population.
@@ -543,8 +543,8 @@
         <p>
           I take the limit. 
           <me>
-            lim_{t \rightarrow 5} 24 +
-            \frac{\sqrt{(t-5)^3}}{t-5} = 24 \lim_{t \rightarrow 5} +
+            \lim_{t \rightarrow 5} 24 +
+            \frac{\sqrt{(t-5)^3}}{t-5} = 24 + \lim_{t \rightarrow 5}
             \frac{(t-5)}{(t-5)} \sqrt{t-5} = 24 + 0 = 24 
           </me>
           Even though the function is undefined, the limit is
@@ -648,7 +648,7 @@
             </mrow>
             <mrow> 
               \amp = \sqrt{ \lim_{x \rightarrow 1^+}
-              \frac{1}{x+1} = \sqrt{\frac{1}{2}} = \frac{1}{\sqrt{2}} 
+              \frac{1}{x+1} } = \sqrt{\frac{1}{2}} = \frac{1}{\sqrt{2}} 
             </mrow>
           </md>
         </p>
