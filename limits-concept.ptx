@@ -1,6 +1,6 @@
-<section xml:id="limits-concept">
+<section xml:id="section-limits-concept">
   <title>The Concept of a Limit</title>
-  <subsection xml:id="limit-definition">
+  <subsection xml:id="subsection-limit-definition">
     <title>Limit Definitions</title>
     <p>
       In <xref ref="section-differential-equations" />, I said that
