@@ -13,23 +13,23 @@
       </statement>
       <solution>
         <p>
-          This is a composition, so we use the chain rule. I'll label
-          the pieces: we'll call the outside function <m>f(u) = \sin
+          This is a composition, so I use the chain rule. I'll label
+          the pieces: I'll call the outside function <m>f(u) = \sin
           u</m>, using the temporary variable <m>u</m>. The inside
-          function is <m>g(x) = x^2 +1</m>. Then we proceed with the
+          function is <m>g(x) = x^2 +1</m>. Then I proceed with the
           chain rule.
           <me>
             \frac{d}{dx} \sin (x^2 + 1) = \frac{d}{du} \sin u
-            \Big|_{u=x^2+1} \frac{d}{dx} (x^2+1)
+            \Bigg|_{u=x^2+1} \frac{d}{dx} (x^2+1)
           </me>
           The derivative of sine is a known derivative, and linearity
           and the power rule give the derivative of the polynomial
           term. 
           <me>
-            = \cos u \Big|_{u=x^2+1} (2x+0)
+            = \cos u \Bigg|_{u=x^2+1} (2x+0)
           </me>
-          After we've done the derivative, we replace <m>u</m> as the
-          evaluation bar reminds us to do. I'll also change the order
+          After I've done the derivative, I replace <m>u</m> as the
+          evaluation bar reminds me to do. I'll also change the order
           of the terms, since convention is to usually write the
           polynomial term before the trigonometric term. 
           <me>
@@ -49,18 +49,18 @@
       </statement>
       <solution>
         <p>
-          This is a composition, so we use the chain rule. I'll label
-          the pieces: we'll call the outside function <m>f(u) = \ln u
+          This is a composition, so I use the chain rule. I'll label
+          the pieces: I'll call the outside function <m>f(u) = \ln u
           </m>, using the temporary variable <m>u</m>. The inside
-          function is <m>g(x) = \ln x</m>. Then we proceed with the
+          function is <m>g(x) = \ln x</m>. Then I proceed with the
           chain rule.
           <me>
-            \frac{d}{dx} \ln (\ln x) = \frac{d}{du} \ln u \Big|_{u =
+            \frac{d}{dx} \ln (\ln x) = \frac{d}{du} \ln u \Bigg|_{u =
             \ln x} \frac{d}{dx} \ln x 
           </me>
           The deriavtive of the logarithm is a known derivative. 
           <me>
-            = \frac{1}{u} \Big|_{u = \ln x} \frac{1}{x} = \frac{1}{x
+            = \frac{1}{u} \Bigg|_{u = \ln x} \frac{1}{x} = \frac{1}{x
             \ln x} 
           </me>
         </p>
@@ -77,22 +77,22 @@
       </statement>
       <solution>
         <p>
-          This is a composition, so we use the chain rule. I'll label
-          the pieces: we'll call the outside function <m>f(u) =
+          This is a composition, so I use the chain rule. I'll label
+          the pieces: I'll call the outside function <m>f(u) =
           \frac{1}{u} = u^{-1}</m>, using the temporary variable
           <m>u</m>. The inside function is <m>g(x) = 1 + e^x </m>.
-          Then we proceed with the chain rule.
+          Then I proceed with the chain rule.
           <me>
-            \frac{d}{dx} \frac{1}{1+e^x} = \frac{d}{du} u^{-1} \Big|_{u
+            \frac{d}{dx} \frac{1}{1+e^x} = \frac{d}{du} u^{-1} \Bigg|_{u
             = 1 + e^x} \frac{d}{dx} (1+e^x) 
           </me>
           The first derivative is a power rule derivative. Linearity
-          and the known derivative of the exponential function give us
+          and the known derivative of the exponential function give me
           the second derivative. 
           <me>
-            = -u^{-2} \Big|_{u = 1 + e^x} (e^x) 
+            = -u^{-2} \Bigg|_{u = 1 + e^x} (e^x) 
           </me>
-          Then we replace <m>u</m>. 
+          Then I replace <m>u</m>. 
           <me>
             = \frac{-1}{(1+e^x)^2} (e^x)  = \frac{-e^x}{(1+e^x)^2}
           </me>
@@ -110,25 +110,25 @@
       </statement>
       <solution>
         <p>
-          This is a composition, so we use the chain rule. I'll label
-          the pieces: we'll call the outside function <m>f(u) =
+          This is a composition, so I use the chain rule. I'll label
+          the pieces: I'll call the outside function <m>f(u) =
           \sqrt[4]{u} = u^\frac{1}{4} </m>, using the temporary
           variable <m>u</m>. The inside function is <m>g(x) = x^2 + 4x
-          + 2</m>. Then we proceed with the chain rule.
+          + 2</m>. Then I proceed with the chain rule.
           <me>
             \frac{d}{dx} \sqrt[4]{x^2+4x+2} = \frac{d}{du}
-            u^\frac{1}{4} \Big|_{u = x^2 + 4x + 2} \frac{d}{dx} (x^2 +
+            u^\frac{1}{4} \Bigg|_{u = x^2 + 4x + 2} \frac{d}{dx} (x^2 +
             4x + 2)
           </me>
-          We use power rule for the first derivative (which is why we
+          I use power rule for the first derivative (which is why I
           wrote the fourth root as a fractional exponent). The
           polynomial derivative is solved by linearity and the power
           rule. 
           <me>
-            = \frac{1}{4} u^\frac{-3}{4} \Big|_{u = x^2 + 4x + 2} (2x +
+            = \frac{1}{4} u^\frac{-3}{4} \Bigg|_{u = x^2 + 4x + 2} (2x +
             4)
           </me>
-          Then we just have to do the replacement. I'll also write the
+          Then I just have to do the replacement. I'll also write the
           fractional exponent as a root again. 
           <me>
             = \frac{1}{4\sqrt[4]{u^3}} (2x + 4) = \frac{2x+4}{4
@@ -148,39 +148,39 @@
       </statement>
       <solution>
         <p>
-          This is a composition, so we use the chain rule. I'll label
-          the pieces: we'll call the outside function <m>f(u) = \cos
+          This is a composition, so I use the chain rule. I'll label
+          the pieces: I'll call the outside function <m>f(u) = \cos
           (u) </m>, using the temporary variable <m>u</m>. The inside
-          function is <m>g(x) = e^{-4x} </m>. Then we proceed with the
+          function is <m>g(x) = e^{-4x} </m>. Then I proceed with the
           chain rule.
           <me>
             \frac{d}{dx} \cos \left( e^{-4x} \right) = \frac{d}{du}
-            \cos u \Big|_{u = e^{-4x}} \frac{d}{dx} e^{-4x}
+            \cos u \Bigg|_{u = e^{-4x}} \frac{d}{dx} e^{-4x}
           </me>
           The derivative of cosine is known. However, this second
-          derivative is still a composition, so we need to use chain
+          derivative is still a composition, so I need to use chain
           rule again. To avoid confusion of variables, I'll use a new
           temporary variable <m>v</m>. The outside is <m>f(v) =
-          e^v</m> and the inside is <m> g(x) = -4x </m>. We apply the
+          e^v</m> and the inside is <m> g(x) = -4x </m>. I apply the
           chain rule again using this decomposition. 
           <me>
-            = -\sin u \Big|_{u = e^{-4x}} \frac{d}{dv} e^v \Big|_{v =
+            = -\sin u \Bigg|_{u = e^{-4x}} \frac{d}{dv} e^v \Bigg|_{v =
             -4x} \frac{d}{dx} (-4x)
           </me>
-          Then we proceed with the known derivatives, replacing
-          <m>u</m> and <m>v</m> when we have finished the derivatives.
+          Then I proceed with the known derivatives, replacing
+          <m>u</m> and <m>v</m> when I have finished the derivatives.
           <md>
             <mrow>
-              \amp = -\sin \left( e^{-4x} \right) e^v \Big|_{v = -4x} (-4) 
+              \amp = -\sin \left( e^{-4x} \right) e^v \Bigg|_{v = -4x} (-4) 
             </mrow>
             <mrow>
               \amp = -\sin \left( e^{-4x} \right) e^{-4x} (-4) = 4 e^{-4x}
               \sin \left( e^{-4x} \right)
             </mrow>
           </md>
-          Note that we could have chosen a different decomposition. I
+          Note that I could have chosen a different decomposition. I
           made the choice I made to make the outside function as
-          simple as possible. When you have a complication composition
+          simple as possible. When you have a complicated composition
           of several functions, work from the outside in. Make the
           outside function easily differentiable, and apply more rules
           to the inside function if necessary. 
@@ -198,29 +198,29 @@
       </statement>
       <solution>
         <p>
-          This is a composition, so we use the chain rule. I'll label
-          the pieces: we'll call the outside function <m>f(u) =
+          This is a composition, so I use the chain rule. I'll label
+          the pieces: I'll call the outside function <m>f(u) =
           \sqrt{u} = u^\frac{1}{2}</m>, using the temporary variable
           <m>u</m>. The inside function is <m>g(x) = \sin (x^2+1)</m>.
-          Then we proceed with the chain rule.
+          Then I proceed with the chain rule.
           <me>
             \frac{d}{dx} \sqrt{\sin(x^2+1)} = \frac{d}{du}
-            u^\frac{1}{2} \Big|_{u = \sin (x^2 + 1)} \frac{d}{dx} \sin
+            u^\frac{1}{2} \Bigg|_{u = \sin (x^2 + 1)} \frac{d}{dx} \sin
             (x^2+1)
           </me>
-          We need to use the chain rule again for the second
+          I need to use the chain rule again for the second
           derivative. The outside is <m>\sin v</m> and the inside is
           <m>(x^2 +1)</m>.
           <me>
-            = \frac{1}{2} u^\frac{-1}{2} \Big|_{u = \sin (x^2 + 1)}
-            \frac{d}{dv} \sin v \Big|_{v = x^2 +1} \frac{d}{dx} x^2+1
+            = \frac{1}{2} u^\frac{-1}{2} \Bigg|_{u = \sin (x^2 + 1)}
+            \frac{d}{dv} \sin v \Bigg|_{v = x^2 +1} \frac{d}{dx} x^2+1
           </me>
-          Now we just need to finish the individual derivative and
+          Now I just need to finish the individual derivative and
           re-arrange the answer into a reasonable form. 
           <md>
             <mrow>
-             \amp  = \frac{1}{2\sqrt{u}} \Big|_{u = \sin (x^2 + 1)}
-              \cos v \Big|_{v = x^2 +1} (2x)
+             \amp  = \frac{1}{2\sqrt{u}} \Bigg|_{u = \sin (x^2 + 1)}
+              \cos v \Bigg|_{v = x^2 +1} (2x)
             </mrow>
             <mrow>
               \amp = \frac{1}{2\sqrt{\sin(x^2+1))}} \cos (x^2+1) (2x)
@@ -246,8 +246,8 @@
       </statement>
       <solution>
         <p>
-          We need to take the derivative twice. Both times we are
-          taking polynomial derivatives, so we are using linearity and
+          I need to take the derivative twice. Both times I am
+          taking polynomial derivatives, so I am using linearity and
           the power rule for the derivatives. 
           <md>
             <mrow>
@@ -275,37 +275,37 @@
       </statement>
       <solution>
         <p>
-          We need to take the derivative three times. Each time, this
+          I need to take the derivative three times. Each time, this
           is a chain rule derivative, with outside function <m>e^u</m>
           and inside function <m>4x</m>. Each time the derivative of
-          the inside produces a constant 4, which we can factor out of
+          the inside produces a constant 4, which I can factor out of
           the remaining steps due to linearity. 
           <md>
             <mrow>
               \frac{d^3}{dx^3} e^{4x} \amp = \frac{d}{dx} \frac{d}{dx}
-              \frac{d}{du} e^u \Big|_{u = 4x} \frac{d}{dx} 4x
+              \frac{d}{du} e^u \Bigg|_{u = 4x} \frac{d}{dx} 4x
             </mrow>
             <mrow>
-              \amp = \frac{d}{dx} \frac{d}{dx} e^u \Big|_{u = 4x} 4
+              \amp = \frac{d}{dx} \frac{d}{dx} e^u \Bigg|_{u = 4x} 4
             </mrow>
             <mrow>
               \amp = 4 \frac{d}{dx} \frac{d}{dx} e^{4x} 
             </mrow>
             <mrow>
-              \amp = 4 \frac{d}{dx} \frac{d}{du} e^{u} \Big|_{u=4x}
+              \amp = 4 \frac{d}{dx} \frac{d}{du} e^{u} \Bigg|_{u=4x}
               \frac{d}{dx} 4x 
             </mrow>
             <mrow>
-              \amp = 4 \frac{d}{dx} e^{u} \Big|_{u=4x} 4 
+              \amp = 4 \frac{d}{dx} e^{u} \Bigg|_{u=4x} 4 
             </mrow>
             <mrow>
               \amp = 16 \frac{d}{dx} e^{4x}
             </mrow>
             <mrow>
-              \amp = 16 \frac{d}{du} e^{u} \Big|_{u=4x} \frac{d}{dx} 4x 
+              \amp = 16 \frac{d}{du} e^{u} \Bigg|_{u=4x} \frac{d}{dx} 4x 
             </mrow>
             <mrow>
-              \amp = 16 e^{u} \Big|_{u=4x} 4 = 64 e^{4x} 
+              \amp = 16 e^{u} \Bigg|_{u=4x} 4 = 64 e^{4x} 
             </mrow>
           </md>
         </p>
@@ -322,7 +322,7 @@
       </statement>
       <solution>
         <p>
-          We have four derivatives to take. In each step, we use
+          I have four derivatives to take. In each step, I use
           linearity and the known derivatives of sine and cosine.
           <md>
             <mrow>
@@ -345,9 +345,12 @@
               \amp = \sin x - \cos x 
             </mrow>
           </md>
-          Notice that we return to the original expression. That is as
+          Notice that I return to the original expression. That is as
           expected, since the fourth derivative of both sine and
-          cosine is the same as whichever we started with. 
+          cosine is the same as whichever I started with. This
+          subtraction of one from the other also has the property of
+          being preserved under four derivatives, since the derivative
+          respects subtraction. 
         </p>
       </solution>
     </activity>
@@ -357,7 +360,7 @@
     <activity>
       <statement>
         <p>
-          Check that this limit is an indeterminate forms of type
+          Check that this limit is an indeterminate form of type
           <m>\frac{0}{0}</m> or type <m>\frac{\infty}{\infty}</m>. Use
           L'Hôpital's Rule to calculate the limit. 
           <me>
@@ -369,7 +372,9 @@
         <p>
           Since <m>\cos 0 = 1</m>, the numerator approaches 0. The
           denominator also approaches 0, so this is a indeterminate
-          form of type <m>\frac{0}{0}</m>. We apply L'Hôpital's rule. 
+          form of type <m>\frac{0}{0}</m>. I apply L'Hôpital's rule.
+          After applying the rule the resulting limit can be directly
+          evaluted.
           <md>
             <mrow>
               \lim_{x \rightarrow 0} \frac{\cos x - 1}{x} \amp = \lim_{x
@@ -387,7 +392,7 @@
     <activity>
       <statement>
         <p>
-          Check that this limit is an indeterminate forms of type
+          Check that this limit is an indeterminate form of type
           <m>\frac{0}{0}</m> or type <m>\frac{\infty}{\infty}</m>. Use
           L'Hôpital's Rule to calculate the limit. (Don't solve the
           limit by factoring.) 
@@ -401,8 +406,9 @@
           The limit of the numerator as <m>x \rightarrow 4</m> is
           <m>16 - 28 + 12 = 0</m>. The limit of the denominator as
           <m>x \rightarrow 4</m> is <m>16 + 4 - 20 = 0</m>. This is an
-          indeterminate form of type <m>\frac{0}{0}</m> and we can
-          apply L'Hôpital's rule.
+          indeterminate form of type <m>\frac{0}{0}</m> and I can
+          apply L'Hôpital's rule. After applying the rule, the
+          resulting limit can be directly evaluated. 
           <md>
             <mrow>
               \lim_{x \rightarrow 4} \frac{x^2 - 7x + 12}{x^2 + x -
@@ -420,7 +426,7 @@
     <activity>
       <statement>
         <p>
-          Check that this limit is an indeterminate forms of type
+          Check that this limit is an indeterminate form of type
           <m>\frac{0}{0}</m> or type <m>\frac{\infty}{\infty}</m>. Use
           L'Hôpital's Rule to calculate the limit. 
           <me>
@@ -430,9 +436,9 @@
       </statement>
       <solution>
         <p>
-          Both the functions have asymptotes as we approach
-          <m>0^+</m>, so this is an indeterminate form fo type
-          <m>\frac{\infty}{\infty}</m>. We can apply L'Hôpital's rule.
+          Both the functions have asymptotes as I approach
+          <m>0^+</m>, so this is an indeterminate form of type
+          <m>\frac{\infty}{\infty}</m>. I can apply L'Hôpital's rule.
           <md>
             <mrow>
               \lim_{x \rightarrow 0^+} \frac{\ln x}{\frac{1}{x}} \amp =
@@ -444,13 +450,14 @@
               \frac{\frac{1}{x}}{\frac{-1}{x^2}}
             </mrow>
           </md>
-          Now we have to simplify the nested fraction. I'll remind you
+          Now I have to simplify the nested fraction. I'll remind you
           of the general rule for simplifying nested tractions.
           <me>
             \frac{\frac{a}{b}}{\frac{c}{d}} = \frac{ad}{bc}
           </me>
-          We apply this rule to the previous expression to finish the
-          limit. 
+          I apply this rule to the previous expression to finish the
+          limit. After canceling <m>x</m> from numerator and
+          denominator, the resulting limit can be directly evaluated. 
           <me>
             \lim_{x \rightarrow 0^+}
             \frac{\frac{1}{x}}{\frac{-1}{x^2}} = \lim_{x \rightarrow
@@ -462,7 +469,7 @@
     <activity>
       <statement>
         <p>
-          Check that this limit is an indeterminate forms of type
+          Check that this limit is an indeterminate form of type
           <m>\frac{0}{0}</m> or type <m>\frac{\infty}{\infty}</m>. Use
           L'Hôpital's Rule to calculate the limit. (Don't use
           asymptotic analysis.)
@@ -475,7 +482,7 @@
         <p>
           Both numerator and denominator are growing functions without
           bound, so this is an indeterminate form of type
-          <m>\frac{\infty}{\infty}</m>. We can apply L'Hôpital's rule.
+          <m>\frac{\infty}{\infty}</m>. I can apply L'Hôpital's rule.
           <md>
             <mrow>
               \lim_{x \rightarrow \infty} \frac{x^2\ln x}{x^3+7} \amp =
@@ -496,8 +503,9 @@
               \amp = \lim_{x \rightarrow \infty} \frac{2\ln x + 1}{3x}
             </mrow>
           </md>
-          Here we can use L'Hôpital's rule again. Both functions are
-          still growing to <m>\infty</m>, so the rule still applies. 
+          This cannot be directly evaluated. However, I can use
+          L'Hôpital's rule again. Both functions are still growing to
+          <m>\infty</m>, so the rule still applies. 
           <md>
             <mrow>
               \amp = \lim_{x \rightarrow \infty} \frac{\frac{d}{dx} 2\ln x
@@ -552,6 +560,25 @@
       </statement>
       <solution>
         <p>
+          This is a composition, so I use the chain rule. I'll label
+          the pieces: I'll call the outside function <m>f(u) = \ln 
+          u</m>, using the temporary variable <m>u</m>. The inside
+          function is <m>g(x) = 1 + x</m>. Then I proceed with the
+          chain rule.
+          <me>
+            \frac{d}{dx} \ln (1+x) = \frac{d}{du} \ln u
+            \Bigg|_{u=1+x} \frac{d}{dx} (1+x)
+          </me>
+          The derivative of the logarithm is a known derivative, and
+          linearity determines the derivaitve of the inside.
+          <me>
+            = \frac{1}{u} \Bigg|_{u=1+x} (1)
+          </me>
+          After I've done the derivative, I replace <m>u</m> as the
+          evaluation bar reminds me to do. 
+          <me>
+            = \frac{1}{1+x}
+          </me>
         </p>
       </solution>
     </activity>
@@ -566,6 +593,25 @@
       </statement>
       <solution>
         <p>
+          This is a composition, so I use the chain rule. I'll label
+          the pieces: I'll call the outside function <m>f(u) = e^u
+          </m>, using the temporary variable <m>u</m>. The inside
+          function is <m>g(x) = x^2 + 1</m>. Then I proceed with the
+          chain rule.
+          <me>
+            \frac{d}{dx} e^{x^2+1} = \frac{d}{du} e^u
+            \Bigg|_{u=x^2 + 1} \frac{d}{dx} (x^2 + 1)
+          </me>
+          The derivative of the exponential is a known derivative, and
+          linearity determines the derivaitve of the inside.
+          <me>
+            = e^u \Bigg|_{u=x^2+1} (2x)
+          </me>
+          After I've done the derivative, I replace <m>u</m> as the
+          evaluation bar reminds me to do. 
+          <me>
+            = 2x e^{x^2+1}
+          </me>
         </p>
       </solution>
     </activity>
@@ -580,6 +626,25 @@
       </statement>
       <solution>
         <p>
+          This is a composition, so I use the chain rule. I'll label
+          the pieces: I'll call the outside function <m>f(u) = \arctan
+          u</m>, using the temporary variable <m>u</m>. The inside
+          function is <m>g(x) = x^2 - 1</m>. Then I proceed with the
+          chain rule.
+          <me>
+            \frac{d}{dx} \arctan (x^2 - 1) = \frac{d}{du} \arctan u 
+            \Bigg|_{u=x^2 - 1} \frac{d}{dx} (x^2 - 1)
+          </me>
+          The derivative of the arctangent is a known derivative, and
+          linearity determines the derivaitve of the inside.
+          <me>
+            = \frac{1}{1 + u^2} \Bigg|_{u=x^2 - 1} (2x) 
+          </me>
+          After I've done the derivative, I replace <m>u</m> as the
+          evaluation bar reminds me to do. 
+          <me>
+            = \frac{2x}{1 + (x^2 - 1)^2}
+          </me>
         </p>
       </solution>
     </activity>
@@ -594,6 +659,39 @@
       </statement>
       <solution>
         <p>
+          This is a double composition, so I use the chain rule twice. 
+          For the first chain rule,  I'll label
+          the pieces: I'll call the outside function <m>f(u) = \ln 
+          u</m>, using the temporary variable <m>u</m>. The inside
+          function is <m>g(x) = \arctan \sqrt{x} </m>. Then I
+          proceed with the chain rule.
+          <me>
+            \frac{d}{dx} \ln (\arctan \sqrt{x}) = \frac{d}{du} \ln u
+            \Bigg|_{u = \arctan \sqrt{x}} \frac{d}{dx} \arctan \sqrt{x} 
+          </me>
+          The derivative of the logarithm is a known derivative. I
+          need a second chain rule for the derivative of the inside. 
+          I'll call the outside function <m>g(v) = \arctan v </m>,
+          using the temporary variable <m>v</m>. The inside
+          function is <m>g(x) = \sqrt{x} </m>. Then I
+          proceed with the chain rule.
+          <me>
+            = \frac{1}{u} \Bigg|_{u = \arctan \sqrt{x}} \frac{d}{dv}
+            \arctan v \Bigg|_{v = \sqrt{x}} \frac{d}{dx} \sqrt{x}
+          </me>
+          The derivative of arctangent is known. The derivtive of the
+          square can be done with the power rule, as I've done several
+          times already in these notes. 
+          <me>
+            = \frac{1}{u} \Bigg|_{u = \arctan \sqrt{x}} \frac{1}{1+v^2}
+            \Bigg|_{v = \sqrt{x}} \frac{1}{2\sqrt{x}}
+          </me>
+          After I've done the derivatives, I replace <m>u</m> and
+          <m>v</m> as the evaluation bar reminds me to do. 
+          <me>
+            = \frac{1}{(\arctan \sqrt{x})(1+\sqrt{x}^2)(2 \sqrt{x}} =
+            \frac{1}{2(1+x)(\sqrt{x})(\arctan \sqrt{x})} 
+          </me>
         </p>
       </solution>
     </activity>
@@ -608,27 +706,39 @@
       </statement>
       <solution>
         <p>
-        </p>
-      </solution>
-    </activity>
-    <activity>
-      <statement>
-        <p>
-          Calculate this derivative.
+          First I need linearity. 
           <me>
-            \frac{d}{dx} \frac{x+x^2}{\sin(x^2)}
+            = \frac{d}{dx} (\sin x)^2 + 3 (\sin x) = \frac{d}{dx} (\sin
+            x)^2 + 3 \frac{d}{dx} \sin x
+          </me>
+          The derivative of the second term is the know derivative of
+          sine. For the first term, I need the chain rule. I'll label
+          the pieces: I'll call the outside function <m>f(u) =
+          u^2</m>, using the temporary variable <m>u</m>. The inside
+          function is <m>g(x) = \sin x </m>. Then I proceed with the
+          chain rule (I'll keep the second term in the linearity step
+          around, of course.) 
+          <me>
+            = \frac{d}{du} u^2 \Bigg|_{u = \sin x} \frac{d}{dx} \sin x +
+            3 \cos x
+          </me>
+          The derivative of outside is the power rule and the
+          derivative of the inside is the known derivative of sine.
+          <me>
+            = 2u \Bigg|_{u = \sin x} (cos x) + 3 \cos x 
+          </me>
+          After I've done the derivative, I replace <m>u</m> as the
+          evaluation bar reminds me to do. 
+          <me>
+            = 2 \sin x \cos x + 3 \cos x
           </me>
         </p>
-      </statement>
-      <solution>
-        <p>
-        </p>
       </solution>
     </activity>
     <activity>
       <statement>
         <p>
-          Check that this limit is an indeterminate forms of type
+          Check that this limit is an indeterminate form of type
           <m>\frac{0}{0}</m> or type <m>\frac{\infty}{\infty}</m>. Use
           L'Hôpital's Rule to calculate the limit. (Don't use
           asymptotic analysis.)
@@ -639,13 +749,35 @@
       </statement>
       <solution>
         <p>
+          Both numerator and denominator are fucntions that grow
+          without bound, so this is a indeterminate form of type
+          <m>\frac{\infty}{\infty0}</m>. I apply L'Hôpital's rule.
+          After applying the rule, the powers of <m>x</m> in the
+          nested fraction can be simplified down (using the rules of
+          exponents) into a limit that can be directly evaluated. 
+          <md>
+            <mrow>
+              \lim_{x \rightarrow \infty} \frac{\ln x}{\sqrt[9]{x}}
+              \amp - \lim_{x \rightarrow \infty} \frac{ \frac{d}{dx}
+              \ln x}{ \frac{d}{dx} \sqrt[9]{x} }
+            </mrow>
+            <mrow>
+              \amp = \lim_{x \rightarrow \infty} \frac{ \frac{1}{x}}{
+              \frac{1}{9\sqrt[9]{x^8}} = 
+              \lim_{x \rightarrow \infty} \frac{x^{\frac{8}{9}}}{x} = 
+              \lim_{x \rightarrow \infty} \frac{1}{x^{\frac{1}{9}}} =
+              0 
+            </mrow>
+          </md>
+          In the final limit, only the denominator is growing, to the
+          limit must converge to zero. 
         </p>
       </solution>
     </activity>
     <activity>
       <statement>
         <p>
-          Check that this limit is an indeterminate forms of type
+          Check that this limit is an indeterminate form of type
           <m>\frac{0}{0}</m> or type <m>\frac{\infty}{\infty}</m>. Use
           L'Hôpital's Rule to calculate the limit. 
           <me>
@@ -655,41 +787,22 @@
       </statement>
       <solution>
         <p>
-        </p>
-      </solution>
-    </activity>
-    <activity>
-      <statement>
-        <p>
-          Check that this limit is an indeterminate forms of type
-          <m>\frac{0}{0}</m> or type <m>\frac{\infty}{\infty}</m>. Use
-          L'Hôpital's Rule to calculate the limit. 
-          <me>
-            \lim_{x \rightarrow \infty} \frac{\frac{1}{x} -
-            \frac{1}{x^2}}{\ln \left( \frac{1}{x} \right)}
-          </me>
-        </p>
-      </statement>
-      <solution>
-        <p>
-        </p>
-      </solution>
-    </activity>
-    <activity>
-      <statement>
-        <p>
-          Check that this limit is an indeterminate forms of type
-          <m>\frac{0}{0}</m> or type <m>\frac{\infty}{\infty}</m>. Use
-          L'Hôpital's Rule to calculate the limit. (Don't use
-          asymptotic analysis).
-          <me>
-            \lim_{x \rightarrow \infty}
-            \frac{\frac{1}{x^2-1}}{\frac{1}{1-x^3}} 
-          </me>
-        </p>
-      </statement>
-      <solution>
-        <p>
+          Since <m>\sin 0 = 0</m>, the numerator approaches 0. The
+          denominator also approaches <m>0^3 - 0 = 0</m>, so this is a
+          indeterminate form of type <m>\frac{0}{0}</m>. I apply
+          L'Hôpital's rule.  After applying the rule the resulting
+          limit can be directly evaluted.
+          <md>
+            <mrow>
+              \lim_{x \rightarrow 0} \frac{\sin x}{x^3 - x} \amp =
+              \lim_{x \rightarrow 0} \frac{ \frac{d}{dx} \sin
+              x}{\frac{d}{dx} (x^3 -x)}}
+            </mrow>
+            <mrow>
+              \amp = \lim_{x \rightarrow 0} \frac{\cos x}{3x^2 - 1} =
+              \frac{1}{0-1} = -1
+            </mrow>
+          </md>
         </p>
       </solution>
     </activity>

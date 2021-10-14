@@ -4,22 +4,23 @@
     <title>Derivatives in Limits</title>
     <p>
       The first application of derivatives is a strange reversal:
-      after using limits to define derivatives, we are going to use
-      derivatives to calculate limits. L'Hôpital's rule is a
-      method that applies to limits of type
-      <m>\frac{\infty}{\infty}</m> or type <m>\frac{0}{0}</m>. In
-      this case, if <m>f</m> and <m>g</m> are differentiable
-      functions, L'Hôpital's rule states that the limit is
-      preserved if we differentiate both numerator and denominator.
+      after using limits to define derivatives, I am going to use
+      derivatives to calculate limits. L'Hôpital's rule is a method
+      that applies to indeterminante form limits of type
+      <m>\frac{\infty}{\infty}</m> or type <m>\frac{0}{0}</m>. (I
+      defined these types of limits in <xref
+      ref="section-asymptotic-analysis" />.) In this case, if <m>f</m>
+      and <m>g</m> are differentiable functions, L'Hôpital's rule
+      states that the limit is preserved if I differentiate both
+      numerator and denominator.
       <me>
         \lim_{x \rightarrow a} \frac{f(x)}{g(x)} = \lim_{x \rightarrow
         a} \frac{f^\prime(x)}{g^\prime(x)}
       </me>
-    </p>
-    <p>
       This is particular useful in asymptotic analysis, where many
       limits (as <m>x \rightarrow \infty</m>) have type
-      <m>\frac{\infty}{\infty}</m>.
+      <m>\frac{\infty}{\infty}</m>. Indeed, L'Hôpital's rule can be
+      used to prove many of the ideas in asymptotic analysis. 
     </p>
   </subsection>
   <subsection xml:id="subsection-h-rule-examples">
@@ -31,7 +32,7 @@
           slower than <m>\sqrt{x}</m>.
           I will  use L'Hôpital's rule to prove the claim. Both the
           numerator and the denominator here approach <m>\infty</m>,
-          so the rule applies. I go ahead to differentiate both
+          so the rule applies. I differentiate both
           numerator and denominator, then simplify the nested
           fraction. The result is a limit I know how to do, where the
           numerator is constant and the denominator becomes very
@@ -46,8 +47,9 @@
         </me>
         <p>
           A limit of <m>0</m> means that the numerator has lower
-          asymptotic order than the denominator; we were justified in
-          saying that the logarithm <m>\ln x</m> is asymptotically
+          asymptotic order than the denominator; I were justified in
+          <xref ref="subsection-asymptotic-ranking" /> when I 
+          said that the logarithm <m>\ln x</m> is asymptotically
           slower that <m>\sqrt{x}</m>.
         </p>
       </statement>

@@ -3,43 +3,51 @@
   <subsection xml:id="subsection-derivatives-composition">
     <title>Derivatives of Compositions</title>
     <p>
-      The rules we have so far give us the tools to calculate many
-      derivatives. However, they don't address composition. How do
-      we differentiate <m>\sin x^2</m>?  The rule that addresses
-      derivatives of composed functions is called the chain rule. The
-      chain rule has two notations. Let <m>f</m> and <m>g</m> be
-      differentiable functions and consider the composition
-      <m>f(g(x))</m>. It is often useful to label <m>g(x)</m> by a
-      new, temporary variable <m>u = g(x)</m>. The vertical line mean
-      evaluate by replaing <m>u</m> with <m>g(x)</m>. 
+      The rules so far givethe tools to calculate many derivatives.
+      However, they don't address composition. How do I differentiate
+      <m>\sin x^2</m>?  The rule that addresses derivatives of
+      composed functions is called the chain rule. The chain rule has
+      two notations. Let <m>f</m> and <m>g</m> be differentiable
+      functions and consider the composition <m>f(g(x))</m>. It is
+      often useful to label <m>g(x)</m> by a new, temporary variable
+      <m>u = g(x)</m>. In the following notation, the vertical line
+      means replace <m>u</m> with <m>g(x)</m> after any other
+      calculations are finished.
       <me>
         \frac{d}{dx} f(g(x)) = f^\prime(g(x)) g^\prime(x) = \left.
         \frac{df(u)}{du} \right|_{u=g(x)} \frac{dg}{dx} 
       </me>
     </p>
     <p>
-      The variety of notations is somewhat due to the difficult nature
-      of the rule<mdash />it's hard to clearly describe. The key idea
-      is to think of composition in terms of inside and outside
-      functions. The derivative of the composition is the derivative
-      of the outside (<m>f^\prime</m>) evaluted at the inside
-      (<m>f^\prime(g(x))</m>), then multiplied by the derivative of
-      the inside (<m>g^\prime</m>). There is one other way of
-      expressing the chain rule.
+      The variety of notations is somewhat a result of the difficult
+      nature of the rule<mdash />it's hard to clearly describe. The
+      key idea is to think of composition in terms of inside and
+      outside functions. The derivative of the composition is the
+      derivative of the outside (<m>f^\prime</m>) evaluted at the
+      inside (<m>f^\prime(g(x))</m>), then multiplied by the
+      derivative of the inside (<m>g^\prime</m>). There is one other
+      way of expressing the chain rule.
       <me>
         \frac{df}{dx} = \frac{df}{dg} \frac{dg}{dx}
       </me>
     </p>
     <p>
-      In this last version of the chain rule, we can think of the
-      infinitesimals <m>df</m>, <m>dg</m> and <m>dx</m> as something
-      like fractions in Leibniz notation (<m>\frac{df}{dx}</m>).
-      These terms are not fractions, but they act a bit like fractions.
+      In this last version of the chain rule, I treat <m>df</m>,
+      <m>dg</m> and <m>dx</m> as something like pieces of fractions in
+      Leibniz notation (<m>\frac{df}{dx}</m>).  These terms are not
+      fractions, but they act a bit like fractions. (These
+      calculations and notations come from a different historical
+      treatment of calculus, where the rules were constructed with an
+      arithmetic of <sq>infinitesimals</sq> <mdash /> infinitely small
+      but non-zero numbers.  <m>df</m>, <m>dg</m> and <m>dx</m> were
+      all infinitesimals in that alternative construction. This way of
+      studying calculus fell out of favour in the 20th century, but
+      some of the notation lingers.)
     </p>
     <p>
-      The proof of the chain rule is tricky, but the following
-      argument gives the idea. The argument is a little imprecise in
-      the fourth step, where we replace <m>g(x)</m> with the temporary
+      The proof of the chain rule is tricky, but the following chain
+      of steps gives the idea. The argument is a little imprecise in
+      the fourth step, where I replace <m>g(x)</m> with the temporary
       variable <m>u</m>, since we haven't established that such an
       operation is valid. In the proof, let <m>F = f \circ g</m>.
       <md>
@@ -68,76 +76,80 @@
     </p>
     <example>
       <statement>
-        <md>
-          <mrow>
-            \frac{d}{dx} e^{ax} \amp = ae^{ax}
-          </mrow>
-          <mrow>
-            \frac{d}{dx} \sin 3x \amp = 3 \cos 3x
-          </mrow>
-          <mrow>
-            \frac{d}{dx} e^{x^2+2} \amp = (2x) e^{x^2+2}
-          </mrow>
-          <mrow>
-            \frac{d}{dx} \ln (5x^3 + 7x + 1) \amp = \frac{15x^2 +
-            7}{5x^3 + 7x + 1}
-          </mrow>
-          <mrow>
-            \frac{d}{dx} \cos ( e^{12 x}) \amp = -\sin (e^{12 x})
-            \frac{d}{dx} e^{12 x} = -\sin (e^{12 x}) e^{12 x}
-            \frac{d}{dx} 12 x 
-          </mrow>
-          <mrow>
-            \amp = -\sin (e^{12 x}) e^{12 x} (12)
-          </mrow>
-        </md>
+        <p>
+          Here are some chain rule examples. In these examples, I'll
+          already use the rule <m> \frac{d}{dx} \ln x =
+          \frac{1}{x}</m>, even though the rule will be proved later
+          in this section. In the first example, the outside function
+          is <m>e^u</m> and the inside function is <m>ax</m>. 
+          <me>
+            \frac{d}{dx} e^{ax} = \frac{d}{du} e^u \Bigg|_{u = ax}
+            \frac{d}{dx} (ax) =  ae^{ax}
+          </me>
+          In the next, the outside function is <m>\sin u</m> and the
+          inside functon is <m>3x</m>. 
+          <me>
+            \frac{d}{dx} \sin 3x \amp = \frac{d}{du} \sin u \Bigg|_{u =
+            3x} \frac{d}{dx} (3x) = 3 \cos 3x
+          </me>
+          In the next, the outside function is <m>e^u</m> and the
+          inside function is <m>x^2 + 2</m>. 
+          <me>
+            \frac{d}{dx} e^{x^2+2} \amp = \frac{d}{du} e^u \Bigg|_{u =
+            x^2 + 2} \frac{d}{dx} (x^2 + 2) = (2x) e^{x^2+2}
+          </me>
+          In the next, the outside function is <m>\ln u</m> and the
+          inside function is <m>5x^3 + 7x + 1</m>. 
+          <me>
+            \frac{d}{dx} \ln (5x^3 + 7x + 1) \amp = \frac{d}{du} \ln u
+            \Bigg|_{u = 5x^3 + 7x + 1} \frac{d}{dx} (5x^3 + 7x + 1} =
+            \frac{15x^2 + 7}{5x^3 + 7x + 1}
+          </me>
+          In the last example, this is a tripel compsition. I use the
+          chain rule twice, making the outside function as easy as
+          possible in each step. The first outside function is <m>\cos
+          u</m> and the second outside function is <m>e^u</m>. 
+          <md>
+            <mrow>
+              \frac{d}{dx} \cos ( e^{12 x}) \amp = -\sin (e^{12 x})
+              \frac{d}{dx} e^{12 x} = -\sin (e^{12 x}) e^{12 x}
+              \frac{d}{dx} 12 x 
+            </mrow>
+            <mrow>
+              \amp = -\sin (e^{12 x}) e^{12 x} (12)
+            </mrow>
+          </md>
+        </p>
       </statement>
     </example>
     <example>
       <statement>
         <p>
-          We can use the chain rule to differentiate arbitrary
+          I can use the chain rule to differentiate arbitrary
           exponential functions. This produces a rule which I stated
           in <xref ref="section-derivative-rules" />, but which I
           didn't proof or justify at the time.
-          <md>
-            <mrow>
-              \frac{d}{dx} a^x\amp = \frac{d}{dx} e^{x\ln a} = e^{x
-              \ln a} \ln a = a^x \ln a
-            </mrow>
-          </md>
+          <me>
+            \frac{d}{dx} a^x = \frac{d}{dx} e^{x\ln a} =
+            \frac{d}{du} e^u \Bigg|_{u = x \ln a} \frac{d}{dx} (x
+            \ln a} = e^{x \ln a} \ln a = a^x \ln a
+          </me>
         </p>
       </statement>
     </example>
     <example>
       <statement>
         <p>
-          We can also use the chain rule with a neat little
-          exponential trick to differentiate <m>f(x) = x^x</m>. (In
-          this calculation, we use <m>\frac{d}{dx} \ln x =
-          \frac{1}{x}</m>, which we will prove in the next section.)
-          <md>
-            <mrow>
-              \frac{d}{dx} x^x \amp = \frac{d}{dx} e^{x\ln x} =
-              e^{x\ln x} \frac{d}{dx} x\ln x = x^x (\ln x \frac{d}{dx}
-              x + x \frac{d}{dx} \ln x) = x^x(\ln x + 1)
-            </mrow>
-          </md>
-        </p>
-      </statement>
-    </example>
-    <example>
-      <statement>
-        <p>
-          We can use the chain rule to prove the quotient rule.
-          <md>
-            <mrow>
-              \frac{d}{dx} \frac{f}{g} \amp = \frac{d}{dx} f g^{-1} =
-              f \frac{d}{dx} g^{-1} + g^{-1} \frac{d}{dx} = -f g^{-2}
-              \frac{dg}{dx} + g^{-1} \frac{df}{dx} = \frac{gf^\prime -
-              fg^\prime}{g^2}
-            </mrow>
-          </md>
+          I can also use the chain rule with a neat little
+          exponential trick to differentiate <m>f(x) = x^x</m> by
+          writing <m>x^x = e^{\ln x^x} = e^{x \ln x}</m>. After
+          the chain rule step, the derivative of the inside function
+          (which is <m>x \ln x</m>) required the product rule. 
+          <me>
+            \frac{d}{dx} x^x = \frac{d}{dx} e^{x\ln x} =
+            e^{x\ln x} \frac{d}{dx} x\ln x = x^x (\ln x \frac{d}{dx}
+            x + x \frac{d}{dx} \ln x) = x^x(\ln x + 1)
+          </me>
         </p>
       </statement>
     </example>
@@ -145,11 +157,11 @@
   <subsection xml:id="subsection-derivatives-inverse-functions">
     <title>Derivatives of Inverse Functions</title>
     <p>
-      We just used the rule <m>\frac{d}{dx} \ln x = \frac{1}{x}</m>
+      In the previous examples, I used the rule <m>\frac{d}{dx} \ln x = \frac{1}{x}</m>
       without justification. What is this justification?  The
-      logarithm is the inverse of the exponential, which leads us to
+      logarithm is the inverse of the exponential, which leads to
       thinking about the derivatives of inverse functions. There is a
-      rule for such derivatives. Let's write <m>x = f \circ
+      rule for such derivatives. I will write <m>x = f \circ
       f^{-1}(x)</m>, differentiate both sides using the chain rule,
       and rearrange to get an expression for <m>\frac{d}{dx}
       f^{-1}(x)</m>.
@@ -163,17 +175,16 @@
           \frac{1}{f^\prime(f^{-1}(x))}
         </mrow>
       </md>
-    </p>
-    <p>
-      Then we can prove the derivative formula we just used for <m>\ln
-      x</m>.
+      This is now a reliable method for differentiating inverse
+      functions as long as I know the derivative of the original. I
+      will now use this to differentiate <m>\ln x</m>.
       <me>
         \frac{d}{dx} \ln x = \frac{1}{e^{\ln x}} = \frac{1}{x}
       </me>
     </p>
     <p>
-      We can also prove derivative rules for the inverse trig
-      functions.
+      I can also prove derivative rules for the inverse trig
+      functions using this inverse derivative rule. 
       <md>
         <mrow>
           \frac{d}{dx} \arccos x \amp = \frac{1}{-\sin(\arccos x)} =
@@ -193,26 +204,43 @@
     </p>
     <example>
       <statement>
-        <md>
-          <mrow>
-            \frac{d}{dx} \ln(x^2+1) \amp = \frac{1}{x^2+1}
-            \frac{d}{dx} x^2+1 = \frac{2x}{x^2+1}
-          </mrow>
-          <mrow>
-            \frac{d}{dx} \ln (x + 3x \arcsin x) \amp =
-            \frac{1}{x+3\arcsin x} \left( 1 + 3\arcsin x +
-            \frac{3x}{\sqrt{1-x^2}} \right)
-         </mrow>
-        </md>
+        <p>
+          Here are two calculations of chain rule derivative that make
+          use of some of the inverse derivatives I just calculated. In
+          the first inside function, I need linearity as well. In the
+          second inside function, I need both linearity and the
+          product rule to differentiate <m>x  + 3x \arcsin x</m>. 
+          <md>
+            <mrow>
+              \frac{d}{dx} \ln(x^2+1) \amp = \frac{1}{x^2+1}
+              \frac{d}{dx} x^2+1 = \frac{2x}{x^2+1}
+            </mrow>
+            <mrow>
+              \frac{d}{dx} \ln (x + 3x \arcsin x) \amp =
+              \frac{1}{x+3\arcsin x} \left( 1 + 3\arcsin x +
+              \frac{3x}{\sqrt{1-x^2}} \right)
+           </mrow>
+          </md>
+        </p>
       </statement>
     </example>
     <example>
       <statement>
         <p>
-          Usually, when we differentiate, we get complicated
+          Usually, when I differentiate, I get complicated
           expressions which we can't simplify into nice forms. Every
-          now and then, we have an example that allows a very nice
-          simplifcation.
+          now and then, there is an example that allows a very nice
+          simplifcation. Consider this difficult derivative. I haven't
+          annotated all the algebra here, but what I am doing is the
+          first step is differentiating using linearity on the two
+          pieces, then the product rule and the chainr rule of the
+          first piece of the sum, and finally the chain rule followed
+          by linearity followed by the chain rule again on the second
+          piece of the sum. I've gone just to the derivative result
+          and then done a bunch of algebraic manipulations to
+          simplify, showing that the complicated result in this
+          special case will condense down to something relativey
+          elegant.
           <md>
             <mrow>
               \amp \frac{d}{dx} \left( \frac{x}{2} \sqrt{x^2-9} -

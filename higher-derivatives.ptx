@@ -3,17 +3,17 @@
   <subsection xml:id="subsection-derivatives-iterating">
     <title>Iterating Differentiation</title>
     <p>
-      Starting with a differentiable function <m>f(x)</m>, we used
-      derivatives to get a whole new function <m>f^\prime(x)</m> which
+      Starting with a differentiable function <m>f(x)</m>, I used the
+      derivative to get a whole new function <m>f^\prime(x)</m> which
       measured the slope of the previous function. This solves the
-      velocity problem: if <m>p(t)</m> was position of an object, then
-      <m>p^\prime(t)</m> was the velocity of the object.
+      velocity problem: if <m>p(t)</m> is position of an object, then
+      <m>p^\prime(t)</m> is the velocity of the object.
     </p>
     <p>
-      We can continue this process. If <m>f^\prime(x)</m> is still a
-      differentiable function itself, we can take another derivative to
-      get <m>f^{\prime \prime}(x)</m>. This is called the second
-      derivative. The process is exactly the same: we use the same
+      I can continue this process. If <m>f^\prime(x)</m> is still a
+      differentiable function itself, I can take another derivative to
+      get <m>f^{\prime \prime}(x)</m>. This is called the <term>second
+      derivative</term>. The process is exactly the same: I use the same
       limit definition and the same differentiation rules to find this
       second derivative. <m>f^{\prime \prime}(t)</m> is Newton's
       notation for the second derivative; the Leibniz notation is
@@ -27,24 +27,24 @@
       This has important implications for physics. Newton's first law
       of motion, <m>F = ma</m>, says that force equals mass times
       acceleration. If force depends on position (as it often does),
-      then we can write Newton's first law as a differential equation.
+      then I can write Newton's first law as a differential equation.
       <me>
         F(p) = m \frac{d^2 p}{dt^2}
       </me>
     </p>
     <p>
-      As with most of the fundanmental equations of physics, Newtonian
+      As with most of the fundamentals of physics, Newtonian
       motion is determined by the solution of a differential equation.
-      Let's take a more specific example. On the surface of the earth,
+      I can also give a more specific example. On the surface of the earth,
       it is assumed that the acceleration due to gravity is constant at
-      rougly <m>9.8 m/s^2</m>. We can observe that the flight of
+      roughly <m>9.8 m/s^2</m>. I can observe that the flight of
       projectiles is roughly parabolic, that is, height is described by
-      a parabola <m>h(t) = at^2 + bt + c</m>. If we differentiate once,
-      vertical velocity is <m>h^\prime(t) = 2at + b</m>. If we
+      a parabola <m>h(t) = at^2 + bt + c</m>. If I differentiate once,
+      vertical velocity is <m>h^\prime(t) = 2at + b</m>. If I
       differentiate twice, vertical acceleration is <m>h^{\prime
       \prime}(t) = 2a</m>, which is constant. So parabolic paths fit
       with the notion of a constant acceleration due to gravity. Even
-      more, we know that the leading coefficient of those quadratics
+      more, I know that the leading coefficient of those quadratics
       should be roughly <m>a = 4.9</m> to get the constant acceleration
       <m>2a = 9.8m/s^2</m>.
     </p>
@@ -52,18 +52,16 @@
       Another specific example is Hooke's law. This law describes the
       force caused by a spring; the law states that the force is
       (negatively) proportional to the distance from equalibrium. If
-      equalibrium is at <m>p=0</m>, then <m>F = -kp</m>. That gives
-      this differential equation:
+      equalibrium is at <m>p=0</m>, then <m>F = -kp</m>. Using
+      Newton's first law with this force produces a differential equation.
       <me>
         -kp = m \frac{d^2 p}{dt^2}
       </me>
-    </p>
-    <p>
       The behaviour of an object on a (perfect, frictionless) spring is
       determined by this differential equation. What is that behaviour?
-      We simply have to figure out which function <m>p(t)</m> matches
+      I simply have to figure out which function <m>p(t)</m> matches
       this differential equation. In this case, there are two
-      solutions:
+      solutions.
       <md>
         <mrow>
         p(t) \amp = \sin \left( \sqrt{\frac{m}{k}} t \right) \amp
@@ -71,11 +69,9 @@
         t \right)
         </mrow>
       </md>
-    </p>
-    <p>
-      Since the sinusoidal functions solve the differential equation, we
-      can conclude that an object on a spring should act with a
-      sinusoidal behaviour.
+      Since the sinusoidal functions solve the differential equation,
+      I can conclude that an object on a spring should act with a
+      sinusoidal behaviour. 
     </p>
   </subsection>
   <subsection xml:id="subsection-higher-derivatives-examples">
@@ -104,7 +100,7 @@
           </md>
         </p>
         <p>
-          If we take four derivatives, we get back to the original
+          If I take four derivatives, I get back to the original
           function. The same is true for <m>\cos x</m>, but those two
           functions are unique among functions for this property.
         </p>
@@ -113,7 +109,8 @@
     <example>
       <statement>
         <p>
-          Let's see what happens with higher derivatives of a polynomial.
+          Let's see what happens with higher derivatives of a
+          polynomial.
           <md>
             <mrow>
               f(x) \amp = x^5
@@ -137,11 +134,10 @@
               \frac{d^6f}{dx^6} \amp = 0
             </mrow>
           </md>
-        </p>
-        <p>
           Each differentiation reduces the degree of the polynomial by
-          one, until we eventually get to zero. If we take enough
-          derivatives of any polynomial, we will eventually reach zero.
+          one, until I eventually get to zero. If I take enough
+          derivatives of any polynomial, I will eventually reach zero.
+          Again, only polynomials have this property. 
         </p>
       </statement>
     </example>
