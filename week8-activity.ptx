@@ -689,7 +689,7 @@
           Then we use the power rule backwards for the first integral.
           In the second, the antiderivative of a constant is just the
           variable itself. 
-          <me>
+          <md>
             <mrow>
               \int_1^5 2x dx - \int_1^5 7 dx \amp = \frac{2x^2}{2}
               \Big|_1^5 - 7x \Big|_1^5 
@@ -697,7 +697,7 @@
             <mrow>
               \amp = 5^2 - 1^2 - (7(5) - 7) = 25 - 1 - 35 + 7 = -4 
             </mrow>
-          </me>
+          </md>
         </p>
       </solution>
     </activity>

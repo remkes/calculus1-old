@@ -299,7 +299,7 @@
         in many cases, since the base <m>e</m> is the most common and
         most useful base for exponential functions in calculus.) 
         <me>
-          p(t) = (5)e^{(frac{t 10\ln 2}{11}}
+          p(t) = (5)e^{\frac{t 10\ln 2}{11}}
         </me>
         The following table shows the values of this function to
         compare with the data set. 
@@ -336,7 +336,7 @@
                 <cell>2362</cell>
               </row>
               <row>
-                <cell right="medium"><m>p(t) = (5)e^{(frac{t 10\ln
+                <cell right="medium"><m>p(t) = (5)e^{\frac{t 10\ln
                   2}{11}}</m></cell>
                 <cell>5</cell>
                 <cell>9</cell>
