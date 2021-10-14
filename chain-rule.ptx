@@ -89,20 +89,20 @@
           In the next, the outside function is <m>\sin u</m> and the
           inside functon is <m>3x</m>. 
           <me>
-            \frac{d}{dx} \sin 3x \amp = \frac{d}{du} \sin u \Bigg|_{u =
+            \frac{d}{dx} \sin 3x = \frac{d}{du} \sin u \Bigg|_{u =
             3x} \frac{d}{dx} (3x) = 3 \cos 3x
           </me>
           In the next, the outside function is <m>e^u</m> and the
           inside function is <m>x^2 + 2</m>. 
           <me>
-            \frac{d}{dx} e^{x^2+2} \amp = \frac{d}{du} e^u \Bigg|_{u =
+            \frac{d}{dx} e^{x^2+2} = \frac{d}{du} e^u \Bigg|_{u =
             x^2 + 2} \frac{d}{dx} (x^2 + 2) = (2x) e^{x^2+2}
           </me>
           In the next, the outside function is <m>\ln u</m> and the
           inside function is <m>5x^3 + 7x + 1</m>. 
           <me>
-            \frac{d}{dx} \ln (5x^3 + 7x + 1) \amp = \frac{d}{du} \ln u
-            \Bigg|_{u = 5x^3 + 7x + 1} \frac{d}{dx} (5x^3 + 7x + 1} =
+            \frac{d}{dx} \ln (5x^3 + 7x + 1) = \frac{d}{du} \ln u
+            \Bigg|_{u = 5x^3 + 7x + 1} \frac{d}{dx} (5x^3 + 7x + 1) =
             \frac{15x^2 + 7}{5x^3 + 7x + 1}
           </me>
           In the last example, this is a tripel compsition. I use the
@@ -132,7 +132,7 @@
           <me>
             \frac{d}{dx} a^x = \frac{d}{dx} e^{x\ln a} =
             \frac{d}{du} e^u \Bigg|_{u = x \ln a} \frac{d}{dx} (x
-            \ln a} = e^{x \ln a} \ln a = a^x \ln a
+            \ln a) = e^{x \ln a} \ln a = a^x \ln a
           </me>
         </p>
       </statement>

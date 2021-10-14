@@ -763,7 +763,7 @@
             </mrow>
             <mrow>
               \amp = \lim_{x \rightarrow \infty} \frac{ \frac{1}{x}}{
-              \frac{1}{9\sqrt[9]{x^8}} = 
+              \frac{1}{9\sqrt[9]{x^8}}} = 
               \lim_{x \rightarrow \infty} \frac{x^{\frac{8}{9}}}{x} = 
               \lim_{x \rightarrow \infty} \frac{1}{x^{\frac{1}{9}}} =
               0 
@@ -796,7 +796,7 @@
             <mrow>
               \lim_{x \rightarrow 0} \frac{\sin x}{x^3 - x} \amp =
               \lim_{x \rightarrow 0} \frac{ \frac{d}{dx} \sin
-              x}{\frac{d}{dx} (x^3 -x)}}
+              x}{\frac{d}{dx} (x^3 -x)}
             </mrow>
             <mrow>
               \amp = \lim_{x \rightarrow 0} \frac{\cos x}{3x^2 - 1} =
