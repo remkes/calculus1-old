@@ -3,81 +3,90 @@
 -->
 <section xml:id="section-assignment-week7">
   <title>Week 7 Assignment</title>
-  <p><ol>
-    <li>
-    </li>
-  </ol></p>
-</section>
-
-<!-- Previous Assignment
-<section xml:id="section-assignment-week7">
-  <title>Week 7 Assignment</title>
   <ol>
     <li>
       <p>
-        Calculate the following derivatives. Label the rules you
-        used. (12) 
-        <ol>
-          <li><me>
-            \frac{d}{dx} \ln (\cos x)
-          </me></li>
-          <li><me>
-            \frac{d}{dt} \sin t  + \cos^2 t 
-          </me></li>
-          <li><me>
-            \frac{d}{dx} \sqrt[3]{13x^2 + 4}
-          </me></li>
-        </ol>
-      </p>
-    </li>
-    <li>
-      <p>
-        Calculate the following derivatives. Annotate your work and
-        show sufficient steps to make the process of consecutive
-        differentiation clear. (12)
-        <ol>
-          <li><me>
-            \frac{d^2}{dx^2} \frac{x^2+1}{x+1}
-          </me></li>
-          <li><me>
-            \frac{d^4}{dx^4} e^{9x}
-          </me></li>
-          <li><me>
-            \frac{d^6}{dx^6} \cos x - \sin x 
-          </me></li>
-          <li><me>
-            \frac{d^{100}}{dx^{100}} 2^x
-          </me></li>
-        </ol>
-      </p>
-    </li>
-    <li>
-      <p>
-        Use L'Hôpital's Rule to solve these limits. (Make sure you
-        explicitly check that these limits have the appropriate type
-        before using L'Hôpital's Rule.) (12) 
-        <ol>
-          <li><me>
-            \lim_{x \rightarrow 4} \frac{x^3 - 6x^2 + 9x - 4}{x^3 -
-            11x^2 + 13x - 60} 
-          </me></li>
-          <li><me>
-            \lim_{x \rightarrow \infty} \frac{x^2 \ln x}{x^2 + 6}
-          </me></li>
-        </ol>
-      </p>
-    </li>
-    <li>
-      <p>
-        Consider this trig identity.
+        Calculate this derivative. Label the rules that you
+        used in your calculation. (4) 
         <me>
-          \sin (2x) = 2 \sin x \cos x 
+          \frac{d}{dx} e^{x^2 + 1}
         </me>
-        Since both sides are the same, they should have the same
-        derivative. Take the derivative of both sides using
-        appropriate rules and show that the result is the same (6). 
+      </p>
+    </li>
+    <li>
+      <p>
+        Calculate this derivative. Label the rules that you
+        used in your calculation. (4) 
+        <me>
+          \frac{d}{dx} \sqrt[4]{\ln x (x+4)} 
+        </me>
+      </p>
+    </li>
+    <li>
+      <p>
+        Calculate this derivative. Label the rules that you
+        used in your calculation. (4) 
+        <me>
+          \frac{d}{dx} \sqrt{\tan x - \cot x}
+        </me>
+      </p>
+    </li>
+    <li>
+      <p>
+        Calculate this derivative. Show sufficient steps to make the
+        process of consecutive differentiation clear. (4)
+        <me>
+          \frac{d^4}{dx^4} \cos (3x) 
+        </me>
+      </p>
+    </li>
+    <li>
+      <p>
+        Calculate this derivative. Show sufficient steps to make the
+        process of consecutive differentiation clear. (4)
+        <me>
+          \frac{d^2}{dx^2} \ln (x^2) 
+        </me>
+      </p>
+    </li>
+    <li>
+      <p>
+        Calculate this derivative. Show sufficient steps to make the
+        process of consecutive differentiation clear. (4)
+        <me>
+          \frac{d^2}{dx^2} x^2 e^{x^2}
+        </me>
+      </p>
+    </li>
+    <li>
+      <p>
+        Calculate this derivative. Show sufficient steps to make the
+        process of consecutive differentiation clear. (4)
+        <me>
+          \frac{d^2}{dx^2} e^{7x}
+        </me>
+      </p>
+    </li>
+    <li>
+      <p>
+        Use L'Hôpital's Rule to solve this limit. (Make sure you
+        explicitly check that this limit has the appropriate type
+        before using L'Hôpital's Rule.) (6) 
+        <me>
+          \lim_{x \rightarrow 4} \frac{x^3 - x^2 - 7x - 15}{x^3 -
+          4x^2 - 3x + 20} 
+        </me>
+      </p>
+    </li>
+    <li>
+      <p>
+        Use L'Hôpital's Rule to solve this limit. (Make sure you
+        explicitly check that this limit has the appropriate type
+        before using L'Hôpital's Rule.) (6) 
+        <me>
+          \lim_{x \rightarrow \infty} \frac{(\ln x)^2}{x + \ln x}
+        </me>
       </p>
     </li>
   </ol>
 </section>
--->

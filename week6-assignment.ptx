@@ -3,15 +3,6 @@
 -->
 <section xml:id="section-assignment-week6">
   <title>Week 6 Assignment</title>
-  <p><ol>
-    <li>
-    </li>
-  </ol></p>
-</section>
-
-<!-- Previous Assignment
-<section xml:id="section-assignment-week6">
-  <title>Week 6 Assignment</title>
   <ol>
     <li>
       <p>
@@ -19,26 +10,35 @@
         derivative. (6)
       </p>
       <me>
-        \frac{d}{dx} x^3 + 1 
+        \frac{d}{dx} \sqrt{x+1}
       </me>
     </li>
     <li>
       <p>
-        Calculate the following derivatives. Label the rules you used.
-        (12)
+        Calculate this derivatives. Label the rules that you used in
+        your calculations. (4)
+        <me>
+          \frac{d}{dx} \frac{x^2}{x^2+1}
+        </me>
       </p>
-      <ol>
-        <li><me>
-          \frac{d}{dx} \frac{1}{x^2+7} 
-        </me></li>
-        <li><me>
-          \frac{d}{dt} \frac{t^2-2t}{3t+1} 
-        </me></li>
-        <li><me>
-          \frac{d}{dt} (t^2+1)e^t
-        </me></li>
-      </ol>
+    </li>
+    <li>
+      <p>
+        Calculate this derivatives. Label the rules that you used in
+        your calculations. (4)
+        <me>
+          \frac{d}{dx} \sin x \tan x 
+        </me>
+      </p>
+    </li>
+    <li>
+      <p>
+        Calculate this derivatives. Label the rules that you used in
+        your calculations. (4)
+        <me>
+          \frac{d}{dx} \frac{x^2 - 4x + 1}{\sin x}
+        </me>
+      </p>
     </li>
   </ol>
 </section>
--->
