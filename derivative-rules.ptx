@@ -5,7 +5,7 @@
       I have introduced the idea of a derivative in <xref
       ref="section-population-growth" /> and a formal limit definition
       in <xref ref="section-derivative-definition" />. However, I
-      don't yet have good tools to actually calculate derivative. This
+      don't yet have good tools to actually calculate derivatives. This
       section introduces tools for calculating derivatives. 
     </p>
   </introduction>
@@ -97,7 +97,7 @@
     </figure>
     <p>
       The slope at <m>(0,1)</m> determines the derivative. As seen in
-      the <xref ref="figure-four-exponential-functions" />,
+      <xref ref="figure-four-exponential-functions" />,
       for different choices of the base, there are different slopes of
       the graph when it passes
       through the point <m>(0,1)</m>. There is one special base which
@@ -123,11 +123,11 @@
     <p>
       So far, I've looked at specific derivatives and used the
       definition to work them out. This approach quickly becomes
-      unreasonable due to complications in the limit calculation.
+      unreasonable due to complications in the limit calculations.
       Therefore, I'll present some general rules that allow me to
       calculate derivatives without using the definition. The first
       rule is called the <term>power rule</term>. Let <m>n \in \RR</m>
-      with <m>n=0</m>.
+      with <m>n \neq 0</m>.
       <me>
         \frac{d}{dx} x^n = nx^{n-1}
       </me>
@@ -174,9 +174,10 @@
       <term>linearity</term>.  Linearity shows that derivatives work
       nicely with addition, subtraction and multiplication by
       constants. In general, any operation in mathematics that
-      cooperates with those these actions is called a linear property.
-      If <m>f</m> and <m>g</m> are differentiable functions and
-      <m>c</m> is a real constant, then these three rules hold.
+      cooperates with those these actions is called a linear
+      operation.  If <m>f</m> and <m>g</m> are differentiable
+      functions and <m>c</m> is a real constant, then these three
+      rules hold.
       <md>
         <mrow>
           \frac{d}{dx} f + g \amp = \frac{df}{dx} + \frac{dg}{dx}
@@ -233,60 +234,70 @@
       disappointed. There are rules for multiplication and division,
       but they are more complicated than the rules for limits. The
       rule for products is called the <term>product rule</term> or the
-      <term>Leibniz rule</term>. Let <m>f</m> and <m>g</m> be
-      differentiable functions.
-      <me>
-        \frac{d}{dx} fg = g \frac{df}{dx} + f \frac{dg}{dx}
-      </me>
+      <term>Leibniz rule</term>.
     </p>
+    <proposition>
+      <statement>
+        <p>
+          Let <m>f</m> and <m>g</m> be differentiable functions.
+          <me>
+            \frac{d}{dx} fg = g \frac{df}{dx} + f \frac{dg}{dx}
+          </me>
+        </p>
+      </statement>
+      <proof>
+        <p>
+          The following calculation is a proof for the Leibniz rule. I
+          start with the limit definition of the derivative, using the
+          version with <m>h \rightarrow 0</m>.
+          <me>
+            \frac{d}{dx} fg = \lim_{h \rightarrow 0}
+            \frac{f(x+h)g(x+h) - f(x)g(x)}{h}
+          </me>
+          Then I'm going to use a strange but surprisingly common
+          algebraic trick. I want to do some particular kind of
+          factoring in the numerator. To make that work, I add and
+          subtract the same term from the numerator. Adding and
+          subtracting the same thing doesn't change the expression, so
+          equality is preserved. 
+          <me>
+            = \lim_{h \rightarrow 0} \frac{f(x+h)g(x+h) - f(x+h)
+            g(x) + f(x+h) g(x) - f(x)g(x)}{h}
+          </me>
+          Then I'm going to write the first two terms as one limit and
+          the next two terms as another limit. In the first two terms,
+          <m>f(x+h)</m> is a common factor, so I can pull it out of
+          the fraction. In the second two terms, <m>g(x)</m> is a
+          common factor, so I can likewise pull it out of the
+          fraction.
+          <me>
+            = \lim_{h \rightarrow 0} f(x+h)\frac{g(x+h) - g(x)}{h} +
+            \lim_{h \rightarrow 0} g(x) \frac{f(x+h) - f(x)}{h}
+          </me>
+          I can use the limit rules for the first limit. The limit of
+          <m>f(x+h)</m> as <m>h \rightarrow 0</m> is just <m>f(x)</m>,
+          so I'll evaluate that piece of the product and leave the
+          remaining limit. In the second limit, <m>g(x)</m> doesn't
+          involve the variable <m>h</m> at all, so it can simply be
+          pulled out of the limitl.
+          <me>
+            = f(x) \lim_{h \rightarrow 0} \frac{g(x+h) - g(x)}{h} +
+            g(x) \lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h}
+          </me>
+          Finally, I can simplify identify these two limits as the
+          definitions of the derivatives of <m>g(x)</m> and
+          <m>f(x)</m>, respectively. 
+          <me>
+            = f(x) \frac{dg}{dx} + f(x) \frac{df}{dx}
+          </me>
+        </p>
+      </proof>
+    </proposition>
     <p>
       The Leibniz rule is, in many ways, the archetypical rule that
       identifies differentiation. There are many derivative-like
       operations in mathematics and they all conform to some version
       of the Leibniz rule.
-    </p>
-    <p>
-      The following calculation is a proof for the Leibniz rule. I
-      start with the limit definition of the derivative, using the
-      version with <m>h \rightarrow 0</m>.
-      <me>
-        \frac{d}{dx} fg = \lim_{h \rightarrow 0}
-        \frac{f(x+h)g(x+h) - f(x)g(x)}{h}
-      </me>
-      Then I'm going to use a strange but surprsinly common algebraic
-      trick. I want to do some particular kind of factoring in the
-      numerator. To make that work, I add and subtract the same term
-      from the numerator. Adding and subtracting the same thing
-      doesn't change the expression, so equality is preserved. 
-      <me>
-        = \lim_{h \rightarrow 0} \frac{f(x+h)g(x+h) - f(x+h)
-        g(x) + f(x+h) g(x) - f(x)g(x)}{h}
-      </me>
-      Then I'm going to write the first two terms as one limit and the
-      next two terms as another limig. In the first two terms,
-      <m>f(x+h)</m> is a common factor, so I can pull it out of the
-      fraction. In the second two terms, <m>g(x)</m> is a common
-      factor, so I can likewise pull it out of the fraction.
-      <me>
-        = \lim_{h \rightarrow 0} f(x+h)\frac{g(x+h) - g(x)}{h}
-        + \lim_{h \rightarrow 0} g(x) \frac{f(x+h) - f(x)}{h}
-      </me>
-      I can use the limit rules for the first limit. The limit of
-      <m>f(x+h)</m> as <m>h \rightarrow 0</m> is just <m>f(x)</m>, so
-      I'll evaluate that piece of the product and leave the remaining
-      limit. In the second limit, <m>g(x)</m> doesn't involve the
-      variable <m>h</m> at all, so it can simply be pulled out of the
-      limitl.
-      <me>
-        = f(x) \lim_{h \rightarrow 0} \frac{g(x+h) - g(x)}{h}
-        + g(x) \lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h}
-      </me>
-      Finally, I can simplify identify these two limits as the
-      definitions of the derivatives of <m>g(x)</m> and <m>f(x)</m>,
-      respectively. 
-      <me>
-        = f(x) \frac{dg}{dx} + f(x) \frac{df}{dx}
-      </me>
     </p>
     <example>
       <statement>
@@ -313,10 +324,11 @@
   <subsection xml:id="subsection-quotient-rule">
     <title>Quotient Rule</title>
     <p>
-      Like the Leibniz rule for product, there is a complicated rule
-      for derivative of quotients, simply called the <term>quotient
+      Like the Leibniz rule for products, there is a complicated rule
+      for derivatives of quotients, called the <term>quotient
       rule</term>.  Let <m>f</m> be a differentiable function and
-      <m>g</m> be a differentiable function with <m>g(x) \neq 0</m>.
+      <m>g</m> be a differentiable function (with <m>g(x) \neq 0</m>
+      on its domain). 
       <me>
         \frac{d}{dx} \frac{f}{g} = \frac{g \frac{df}{dx} - 
         f \frac{dg}{dx}}{g^2}

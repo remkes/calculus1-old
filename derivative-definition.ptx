@@ -43,7 +43,7 @@
         f^\prime(a) = \frac{df}{dx} (a) = \lim_{h \rightarrow 0}
         \frac{f(a+h) - f(a)}{h}
       </me>
-      This second definition me us to see that the derivative is
+      This second definition show that the derivative is
       an entirely new function. At each point <m>x</m> in the domain
       of <m>f</m>, I can ask for the slope of the tangent line. That
       gives a new function which measure the slope of the original. 
@@ -80,11 +80,11 @@
     <p>
       The limit defining the derivative may not always exist. If it
       does exist at a point <m>a</m> in the domain, then <m>f</m> is
-      said to be <em>differentiable</em> at the point <m>a</m>. If
+      said to be <term>differentiable</term> at the point <m>a</m>. If
       it exists for all points in the domain of <m>f</m>, then 
       <m>f</m> is called a differentiable function. Differentiability
       requires continuity: if a function makes a sudden jump, it
-      doesn't make sense to talk about a rate of change and a tangent
+      doesn't make sense to talk about a rate of change. A tangent
       line cannot be defined. Differentiability also requires a
       <sq>smoothness</sq> condition. A function whose graph has sharp
       corners is not differentiable at the sharp corners, because it

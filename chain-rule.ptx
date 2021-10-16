@@ -3,21 +3,63 @@
   <subsection xml:id="subsection-derivatives-composition">
     <title>Derivatives of Compositions</title>
     <p>
-      The rules so far givethe tools to calculate many derivatives.
+      The rules so far give the tools to calculate many derivatives.
       However, they don't address composition. How do I differentiate
       <m>\sin x^2</m>?  The rule that addresses derivatives of
       composed functions is called the chain rule. The chain rule has
-      two notations. Let <m>f</m> and <m>g</m> be differentiable
-      functions and consider the composition <m>f(g(x))</m>. It is
-      often useful to label <m>g(x)</m> by a new, temporary variable
-      <m>u = g(x)</m>. In the following notation, the vertical line
-      means replace <m>u</m> with <m>g(x)</m> after any other
-      calculations are finished.
-      <me>
-        \frac{d}{dx} f(g(x)) = f^\prime(g(x)) g^\prime(x) = \left.
-        \frac{df(u)}{du} \right|_{u=g(x)} \frac{dg}{dx} 
-      </me>
-    </p>
+      two notations, which I'll present in a proposition.
+    </p> 
+    <proposition>
+      <statement>
+        <p>
+          Let <m>f</m> and <m>g</m> be differentiable functions and
+          consider the composition <m>f(g(x))</m>. It is often useful
+          to label <m>g(x)</m> by a new, temporary variable <m>u =
+          g(x)</m>. In the following notation, the vertical line means
+          replace <m>u</m> with <m>g(x)</m> after any other
+          calculations are finished.
+          <me>
+            \frac{d}{dx} f(g(x)) = f^\prime(g(x)) g^\prime(x) = \left.
+            \frac{df(u)}{du} \right|_{u=g(x)} \frac{dg}{dx} 
+          </me>
+        </p>
+      </statement>
+      <proof>
+        <p>
+          The proof of the chain rule is tricky, but the following
+          steps give the idea. The argument is a little imprecise in
+          the fourth step, where I replace <m>g(x)</m> with the
+          temporary variable <m>u</m>, since I haven't established
+          that such an operation is valid. In the proof, let <m>F = f
+          \circ g</m>.
+          <md>
+            <mrow>
+              \frac{dF}{dx}(a) \amp = \lim_{x \rightarrow a} \frac{f
+              \circ g (x) - f \circ g(a)}{x-a} = \lim_{x \rightarrow
+              a} \frac{f(g(x)) - f(g(a))}{x-a}
+            </mrow>
+            <mrow>
+              \amp = \lim_{x \rightarrow a} \frac{f(g(x)) -
+              f(g(a))}{g(x) - g(a)} \frac{g(x) - g(a)}{x-a}
+            </mrow>
+            <mrow>
+              \amp = \lim_{x \rightarrow a} \frac{f(g(x)) -
+              f(g(a))}{g(x) - g(a)} \lim_{x \rightarrow a} \frac{g(x)
+              - g(a)}{x-a}
+            </mrow>
+            <mrow>
+              \amp = \lim_{u \rightarrow g(a)} \frac{f(u) - f(g(a))}{u
+              - g(a)} \lim_{x \rightarrow a} \frac{g(x) - g(a)}{x-a}
+            </mrow>
+            <mrow>
+              \amp = \left. \frac{df}{du} \right|_{u=g(a)} \left.
+              \frac{dg}{dx} \right|_{x=a} = f^\prime(g(a))
+              g^\prime(a)
+            </mrow>
+          </md>
+        </p>
+      </proof>
+    </proposition>
     <p>
       The variety of notations is somewhat a result of the difficult
       nature of the rule<mdash />it's hard to clearly describe. The
@@ -26,7 +68,7 @@
       derivative of the outside (<m>f^\prime</m>) evaluted at the
       inside (<m>f^\prime(g(x))</m>), then multiplied by the
       derivative of the inside (<m>g^\prime</m>). There is one other
-      way of expressing the chain rule.
+      way of expressing the chain rule, which looks the most elegant. 
       <me>
         \frac{df}{dx} = \frac{df}{dg} \frac{dg}{dx}
       </me>
@@ -36,43 +78,13 @@
       <m>dg</m> and <m>dx</m> as something like pieces of fractions in
       Leibniz notation (<m>\frac{df}{dx}</m>).  These terms are not
       fractions, but they act a bit like fractions. (These
-      calculations and notations come from a different historical
-      treatment of calculus, where the rules were constructed with an
-      arithmetic of <sq>infinitesimals</sq> <mdash /> infinitely small
-      but non-zero numbers.  <m>df</m>, <m>dg</m> and <m>dx</m> were
-      all infinitesimals in that alternative construction. This way of
+      notations come from a different historical treatment of
+      calculus, where the rules were constructed with an arithmetic of
+      <sq>infinitesimals</sq> <mdash /> infinitely small but non-zero
+      numbers.  <m>df</m>, <m>dg</m> and <m>dx</m> were all
+      infinitesimals in that alternative construction. This way of
       studying calculus fell out of favour in the 20th century, but
       some of the notation lingers.)
-    </p>
-    <p>
-      The proof of the chain rule is tricky, but the following chain
-      of steps gives the idea. The argument is a little imprecise in
-      the fourth step, where I replace <m>g(x)</m> with the temporary
-      variable <m>u</m>, since we haven't established that such an
-      operation is valid. In the proof, let <m>F = f \circ g</m>.
-      <md>
-        <mrow>
-          \frac{dF}{dx}(a) \amp = \lim_{x \rightarrow a} \frac{f
-          \circ g (x) - f \circ g(a)}{x-a} = \lim_{x \rightarrow a}
-          \frac{f(g(x)) - f(g(a))}{x-a}
-        </mrow>
-        <mrow>
-          \amp = \lim_{x \rightarrow a} \frac{f(g(x)) - f(g(a))}{g(x)
-          - g(a)} \frac{g(x) - g(a)}{x-a}
-        </mrow>
-        <mrow>
-          \amp = \lim_{x \rightarrow a} \frac{f(g(x)) - f(g(a))}{g(x)
-          - g(a)} \lim_{x \rightarrow a} \frac{g(x) - g(a)}{x-a}
-        </mrow>
-        <mrow>
-          \amp = \lim_{u \rightarrow g(a)} \frac{f(u) - f(g(a))}{u -
-          g(a)} \lim_{x \rightarrow a} \frac{g(x) - g(a)}{x-a}
-        </mrow>
-        <mrow>
-          \amp = \left. \frac{df}{du} \right|_{u=g(a)} \left.
-          \frac{dg}{dx} \right|_{x=a} = f^\prime(g(a)) g^\prime(a)
-        </mrow>
-      </md>
     </p>
     <example>
       <statement>

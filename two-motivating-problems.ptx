@@ -30,11 +30,11 @@
       So far, in <xref ref="section-population-growth" /> and
       elsewhere in the course, I've relied heavily on biological
       examples. In this section, I'm going to instead rely on physics.
-      In physics, the velocity problem is one of the basic motivating
-      problems of calculus. Assume there is an object moving in one
-      dimension. I can describe its position as a function <m>p(t)</m>
-      where <m>p</m> is position in terms of time <m>t</m>. I want to
-      know its velocity.
+      Coming from physics, the velocity problem is one of the basic
+      motivating problems of calculus. Assume there is an object
+      moving in one dimension. I can describe its position as a
+      function <m>p(t)</m> where <m>p</m> is position in terms of time
+      <m>t</m>. I want to know its velocity.
     </p>
     <p>
       If <m>p(t) = at + b</m> is a linear function, then algebra can
@@ -42,7 +42,7 @@
       of time the object travels <m>a</m> units of distance. The value
       <m>a</m> is the velocity. Geometrically, the velocity is
       measured by the slope of the straight line graph of <m>p(t)</m>.
-      The slope is measured by the ratio of the change in <m>p</m>,
+      The slope is calculated by the ratio of the change in <m>p</m>,
       <m>\Delta p</m>, to the change in <m>t</m>, <m>\Delta t</m>.
     </p>
     <p>
@@ -95,7 +95,7 @@
       line, should such a line exist. The velocity problem is reduced
       to the problem of finding the tangent line (or, more
       particularly, its slope). How do I calculate a tangent line?
-      Again, algebra has trouble with this. The best that algebra can
+      Algebra has trouble with this. The best that algebra can
       do is find secant lines which approximate a tangent line. I can
       adjust the approximation by letting the two points of the secant
       line come closer and closer together, as in the <xref
@@ -148,8 +148,8 @@
     <title>The Distance Travelled Problem</title>
     <p>
       Now I will consider the opposite problem. Consider a function
-      <m>v(t)</m> which tells us the velocity of an object at any
-      point of time. Can I determine the distance the object has
+      <m>v(t)</m> which tells me the velocity of an object at any
+      point of time. How can I determine the distance the object has
       covered over a period of time?
     </p>
     <figure xml:id="figure-constant-velocity">
@@ -200,20 +200,20 @@
     <p>
       Again, algebra can only answer this question for very simple
       situations. Assume that the velocity <m>v(t) = c</m> is
-      constant. In this case, if the constant velocity is
-      <m>c</m> units of distance for each unit of time and the object
-      has travelled for <m>t_0</m> units of time, the distance is just
-      the product <m>ct_0</m>. Graphically, the situation is
-      summarized in <xref ref="figure-constant-velocity" /> and 
-      <xref ref="figure-non-constant-velocity" />. The distance
-      travelled under constant velocity is the area under the
-      velocity graph. I can extend this idea to non-constant velocity:
-      the distance should be the area under the velocity graph.
-      Therefore, to solve the distance travelled problem, I
-      need to find areas under curves. Like tangent lines, this is
-      not a problem that algebra can easily tackle. However, it can
-      approximate areas. Algebra is good at areas of rectangles, so
-      I can use rectanges to approximate areas.
+      constant. In this case, if the constant velocity is <m>c</m>
+      units of distance for each unit of time and the object has
+      travelled for <m>t_0</m> units of time, the distance is just the
+      product <m>ct_0</m>. Graphically, the situation is summarized in
+      <xref ref="figure-constant-velocity" />.  The distance travelled
+      under constant velocity is the area under the velocity graph, as
+      in <xref ref="figure-non-constant-velocity" />.  I can extend
+      this idea to non-constant velocity: the distance should be the
+      area under the velocity graph.  Therefore, to solve the distance
+      travelled problem, I need to find areas under curves. Like
+      tangent lines, this is not a problem that algebra can easily
+      tackle. However, it can approximate areas. Algebra is good at
+      areas of rectangles, so I can use rectanges to approximate
+      areas.
     </p>
     <figure xml:id="figure-approximation-by-rectangles">
       <caption>Approximation of Area by Rectangles</caption>
