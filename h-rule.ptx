@@ -17,7 +17,7 @@
         \lim_{x \rightarrow a} \frac{f(x)}{g(x)} = \lim_{x \rightarrow
         a} \frac{f^\prime(x)}{g^\prime(x)}
       </me>
-      This is particular useful in asymptotic analysis, where many
+      This is particularly useful in asymptotic analysis, where many
       limits (as <m>x \rightarrow \infty</m>) have type
       <m>\frac{\infty}{\infty}</m>. Indeed, L'Hôpital's rule can be
       used to prove many of the ideas in asymptotic analysis. 
@@ -47,7 +47,7 @@
         </me>
         <p>
           A limit of <m>0</m> means that the numerator has lower
-          asymptotic order than the denominator; I were justified in
+          asymptotic order than the denominator; I was justified in
           <xref ref="subsection-asymptotic-ranking" /> when I 
           said that the logarithm <m>\ln x</m> is asymptotically
           slower that <m>\sqrt{x}</m>.

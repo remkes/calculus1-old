@@ -79,8 +79,7 @@
     <example>
       <statement>
         <p>
-          There are other interesting properties of the higher
-          derivatvies of trigonometric function.
+          Consider the higher derivatvies of the sine function.
           <md>
             <mrow>
               f(x) \amp = \sin x
@@ -109,7 +108,7 @@
     <example>
       <statement>
         <p>
-          Let's see what happens with higher derivatives of a
+          Now I'll show what happens with higher derivatives of a
           polynomial.
           <md>
             <mrow>

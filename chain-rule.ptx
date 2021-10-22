@@ -99,7 +99,11 @@
             \frac{d}{dx} (ax) =  ae^{ax}
           </me>
           In the next, the outside function is <m>\sin u</m> and the
-          inside functon is <m>3x</m>. 
+          inside functon is <m>3x</m>. After the derivatives, I'll
+          move the constant to the front of the function. This isn't
+          necessary, but fits the general conventions of writing
+          constants and polynomials to the left of trigonometric or
+          exponential functions. 
           <me>
             \frac{d}{dx} \sin 3x = \frac{d}{du} \sin u \Bigg|_{u =
             3x} \frac{d}{dx} (3x) = 3 \cos 3x
@@ -117,18 +121,23 @@
             \Bigg|_{u = 5x^3 + 7x + 1} \frac{d}{dx} (5x^3 + 7x + 1) =
             \frac{15x^2 + 7}{5x^3 + 7x + 1}
           </me>
-          In the last example, this is a tripel compsition. I use the
+          In the last example, this is a triple compsition. I use the
           chain rule twice, making the outside function as easy as
           possible in each step. The first outside function is <m>\cos
-          u</m> and the second outside function is <m>e^u</m>. 
+          u</m> and the second outside function is <m>e^v</m>. 
           <md>
             <mrow>
-              \frac{d}{dx} \cos ( e^{12 x}) \amp = -\sin (e^{12 x})
-              \frac{d}{dx} e^{12 x} = -\sin (e^{12 x}) e^{12 x}
-              \frac{d}{dx} 12 x 
+              \frac{d}{dx} \cos ( e^{12 x}) \amp = \frac{d}{du} \cos
+              y} \Bigg|_{u=e^{12 x}} \frac{d}{dx} e^{12 x} = -\sin u
+              \Bigg|_{u=e^{12x}} 
             </mrow>
             <mrow>
-              \amp = -\sin (e^{12 x}) e^{12 x} (12)
+              \amp = -\sin (e^{12 x}) \frac{d}{dv} e^v \Bigg|_{v = 12
+              x} \frac{d}{dv} 12 x = -\sin (e^{12 x}) e^v \Bigg|_{v =
+              12x} (12) 
+            </mrow>
+            <mrow>
+              \amp = -12 \sin (e^{12 x}) e^{12 x}
             </mrow>
           </md>
         </p>
@@ -138,9 +147,15 @@
       <statement>
         <p>
           I can use the chain rule to differentiate arbitrary
-          exponential functions. This produces a rule which I stated
-          in <xref ref="section-derivative-rules" />, but which I
-          didn't proof or justify at the time.
+          exponential functions. I gave an argument for this rule 
+          in <xref ref="section-derivative-rules" /> using the limit
+          definition, but the argument using the chain rule is more
+          direct (one the derivative of <m>e^x</m> is known, at
+          least). This derivative uses a common exponential trick,
+          where I write <m>a^x</m> as <m>e^{\ln a^x} = e^{a \ln x}</m>.
+          Since I applied the exponential and the logarithm, this
+          doesn't change the function, but this forms allows the use
+          of the chain rule and then the product rule.
           <me>
             \frac{d}{dx} a^x = \frac{d}{dx} e^{x\ln a} =
             \frac{d}{du} e^u \Bigg|_{u = x \ln a} \frac{d}{dx} (x
@@ -152,11 +167,10 @@
     <example>
       <statement>
         <p>
-          I can also use the chain rule with a neat little
-          exponential trick to differentiate <m>f(x) = x^x</m> by
-          writing <m>x^x = e^{\ln x^x} = e^{x \ln x}</m>. After
-          the chain rule step, the derivative of the inside function
-          (which is <m>x \ln x</m>) required the product rule. 
+          This derivative also makes use of the same exponential trick
+          as the previous examples. In the chain rule step, the
+          derivative of the inside function (which is <m>x \ln x</m>)
+          requires the product rule.
           <me>
             \frac{d}{dx} x^x = \frac{d}{dx} e^{x\ln x} =
             e^{x\ln x} \frac{d}{dx} x\ln x = x^x (\ln x \frac{d}{dx}
@@ -217,7 +231,7 @@
     <example>
       <statement>
         <p>
-          Here are two calculations of chain rule derivative that make
+          Here are two calculations of chain rule derivatives that make
           use of some of the inverse derivatives I just calculated. In
           the first inside function, I need linearity as well. In the
           second inside function, I need both linearity and the
@@ -240,7 +254,7 @@
       <statement>
         <p>
           Usually, when I differentiate, I get complicated
-          expressions which we can't simplify into nice forms. Every
+          expressions which I can't simplify into nice forms. Every
           now and then, there is an example that allows a very nice
           simplifcation. Consider this difficult derivative. I haven't
           annotated all the algebra here, but what I am doing is the
@@ -251,7 +265,7 @@
           piece of the sum. I've gone just to the derivative result
           and then done a bunch of algebraic manipulations to
           simplify, showing that the complicated result in this
-          special case will condense down to something relativey
+          special case will condense down to something relatively
           elegant.
           <md>
             <mrow>
