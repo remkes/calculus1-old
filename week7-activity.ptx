@@ -413,11 +413,11 @@
             <mrow>
               \lim_{x \rightarrow 4} \frac{x^2 - 7x + 12}{x^2 + x -
               20} \amp = \lim_{x \rightarrow 4} \frac{\frac{d}{dx} (x^2 - 7x
-              + 12)}{\frac{d}{dx} (x^2 + x + 20}
+              + 12)}{\frac{d}{dx} (x^2 + x + 20)}
             </mrow>
             <mrow>
               \amp = \lim_{x \rightarrow 4} \frac{2x-7}{2x+1} =
-              \frac{8-7}{8+1} = \frac{-1}{9} 
+              \frac{8-7}{8+1} = \frac{1}{9} 
             </mrow>
           </md>
         </p>
