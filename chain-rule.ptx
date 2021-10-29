@@ -128,7 +128,7 @@
           <md>
             <mrow>
               \frac{d}{dx} \cos ( e^{12 x}) \amp = \frac{d}{du} \cos
-              y} \Bigg|_{u=e^{12 x}} \frac{d}{dx} e^{12 x} = -\sin u
+              y \Bigg|_{u=e^{12 x}} \frac{d}{dx} e^{12 x} = -\sin u
               \Bigg|_{u=e^{12x}} 
             </mrow>
             <mrow>
