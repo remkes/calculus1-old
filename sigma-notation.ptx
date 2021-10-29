@@ -4,14 +4,14 @@
   <title>Writing Complicated Sums</title>
     <p>
       Sigma notation is a convenient way to write large and complicated
-      sums. The name comes from the fact that is uses the upper case
+      sums. The name comes from the fact that it uses the upper case
       greek letter sigma: <m>\Sigma</m>. Sigma notation relies on an
       index and expresses the terms of the sum as expression of the
       index. In the following, <m>k</m> is the index. The term below
-      the sigma tells us where the index starts and the term above the
-      sigma tells us where the index ends. The term following the sigma
+      the sigma tells where the index starts and the term above the
+      sigma tells where the index ends. The term following the sigma
       is the expression of the sum: for each index from the start to the
-      end (in integer steps) we evaluate the expression.
+      end (in integer steps) I evaluate the expression.
       <md>
         <mrow>
           \sum_{k=1}^5 5k \amp = 5(1) + 5(2) + 5(3) + 5(4) + 5(5) =
@@ -43,7 +43,7 @@
     <title>Manipulating Sums</title>
     <p>
       There are some important rules for manipulating sigma notation.
-      First, sum are (unsurprisingly) linear, so we can split them up
+      First, sums are (unsurprisingly) linear, so I can split them up
       over addition/subtraction and pull out constants. 
     </p>
     <example>
@@ -60,7 +60,7 @@
       </statement>
     </example>
     <p>
-      We can combine sums if the indices match.
+      I can combine sums if the indices match.
     </p>
     <example>
       <statement>
@@ -71,7 +71,7 @@
       </statement>
     </example>
     <p>
-      If we want to combine sums when the indices don't match, we have
+      If I want to combine sums when the indices don't match, I have
       to adjust the sums. There are two main methods of adjusting the
       sum. First, we can take out terms.
     </p>
@@ -85,14 +85,14 @@
       </statement>
     </example>
     <p>
-      We can also shift the indices. This might seem tricky, but it's
-      easy to remember if you think of balance: whatever we do to the
-      index, we have to do the opposite to the expression.
+      I can also shift the indices. This might seem tricky, but it's
+      easy to remember if you think of balance: whatever I do to the
+      index, I have to do the opposite to the expression.
     </p>
     <example>
       <statement>
         <p>
-          Here we shift the index by <m>+2</m>, so the expression is
+          Here I shift the index by <m>+2</m>, so the expression is
           shifted by <m>-2</m>.
           <me>
             \sum_{k=3}^{17} 4k = \sum_{k=1}^{15} 4(k+2)
@@ -103,7 +103,7 @@
     <example>
       <statement>
         <p>
-          We can use these two manipulations to combine sums if the
+          I can use these two manipulations to combine sums if the
           indices don't initially line up.
           <me>
             \sum_{k=1}^{15} k^2 + \sum_{k=3}^{17} 4k = \sum_{k=1}^{15}
@@ -117,9 +117,9 @@
   <subsection xml:id="subsection-important-sums">
     <title>Some Important Sums</title>
     <p>
-      Finally, we have evaluation for some common sums. These
-      expressions will be used, along with the previously stated rules,
-      to calculate integrals in the next section.
+      Finally, here are the values for some common sums. These
+      expressions will be used, along with the previously stated
+      rules, to calculate integrals in the next section.
       <md>
         <mrow>
           \sum_{k=1}^n 1 \amp = n

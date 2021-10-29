@@ -3,15 +3,15 @@
   <subsection xml:id="subsection-integral-definition">
     <title>Definition</title>
     <p>
-      Recall the distance travelled problem, where we tried to
-      understand the distance travelled by an object when we knew its
+      Recall the distance travelled problem described in <xref
+      ref="subsection-distance-problem" />, where I tried to
+      understand the distance travelled by an object when I knew its
       velocity function <m>v(t)</m>. Geometrically, this was
       equivalent to finding the area under the graph of the function.
     </p>
     <p>
-      We set up a process to solve this problem, at least
-      approximately in <xref ref="subsection-distance-problem" />. i
-      That process involved making rectangles under
+      I set up a process to solve this problem, at least
+      approximately.  That process involved making rectangles under
       the curve and adding up the area of the rectangles, as in
       <xref ref="figure-improved-approximation-by-rectangles" />. 
       Integration will be the limit of this approximation process,
@@ -19,11 +19,11 @@
       process of secant lines approaching the tangent line.
     </p>
     <p>
-      Sigma notation gives us a concice notation for the approximation
-      of areas by rectangles. Let's say we are trying to calculate
+      Sigma notation is a concice notation for the approximation
+      of areas by rectangles. I am trying to calculate
       the area under the curve of <m>f(x)</m>, a positive function,
-      defined on an interval <m>[a,b]</m>. We are dividing the area
-      into <m>n</m> rectangles; if we divide equally, the width of
+      defined on an interval <m>[a,b]</m>. I divide the area
+      into <m>n</m> rectangles; if I divide equally, the width of
       each rectangle will be <m>\frac{b-a}{n}</m>. The height of the
       rectangle will be the function value <m>f(x^*)</m> where
       <m>x^*</m> is some particular <m>x</m> in the subinterval.
@@ -31,21 +31,21 @@
     <p>
       With these notations, the area of a rectangle is width times
       height, that is <m>\frac{b-a}{n} f(x^*)</m>. To be more
-      specific, is we use <m>k</m> as an index to refer to various
-      rectganles and <m>x_k^*</m> is in the kth interval, the are of
-      the kth rectangle is <m>\frac{b-a}{n} f(x_k^*)</m>. To get the
-      complete approximation, we add up all these rectangles with
-      sigma notation.
+      specific, is I use <m>k</m> as an index to refer to various
+      rectangles and <m>x_k^*</m> is in the kth interval, the area of
+      the <m>k</m>th rectangle is <m>\frac{b-a}{n} f(x_k^*)</m>. To
+      get the complete approximation, I add up all these rectangles
+      with sigma notation.
       <me>
         A \cong \sum_{k=1}^n \frac{b-a}{n} f(x_k^*)
       </me>
     </p>
     <p>
       This sum is called a Riemann Sum approximation for area. If the
-      function is well behaved (for us, continuous), then we can keep
-      taking finer and finer partitions for better and better
+      function is well behaved (continuous guaranteees this), then I
+      can keep taking finer and finer partitions for better and better
       approximations. This process can be extended into some kind of
-      limit process. In the limit, we expect a perfect calculation of
+      limit process. In the limit, I hope for a perfect calculation of
       area.
       <me>
         A = \lim_{n \rightarrow \infty} \sum_{k=1}^n f(x_k^*)
@@ -55,7 +55,7 @@
     <p>
       This limit, if it exists, is called a <em>definite integal</em>.
       The area under the curve is calculated by a definite integral.
-      Since this definition uses Riemann sums, we call this the
+      Since this definition uses Riemann sums, this is called the
       Riemann definiton of the integral, or simply the Riemann
       integral. It has a new notation.
       <me>
@@ -64,7 +64,7 @@
       </me>
     </p>
     <p>
-      We can explain the notation. The sigma of sigma notation gets
+      I can explain the notation. The sigma of sigma notation gets
       replaced with <m>\int</m>, which is the integral sign. The
       bounds <m>k=1</m> and <m>n</m> get replaced with the endpoint of
       the interval, <m>a</m> and <m>b</m> respectively. The
