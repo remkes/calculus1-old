@@ -14,7 +14,7 @@
       <solution>
         <p>
           The second part of this integrand looks like a composition:
-          we have <m>(x^3 - 4)^5</m> is an inside function, with an
+          <m>(x^3 - 4)^5</m> is an inside function, with an
           outside function <m>u^5</m>. Moreover, the remaining piece
           of the integral looks like it might be the derivative of the
           inside, which is idea for the substitution rule. Here is the
@@ -37,7 +37,7 @@
               \amp = \int u^5 du = \frac{u^6}{6} + C
             </mrow>
           </md>
-          At the end, we undo the substitution to return to the
+          At the end, I undo the substitution to return to the
           original variable. 
           <me>
             \frac{u^6}{6} + C = \frac{(x^3-4)^6}{6} + C 
@@ -72,17 +72,17 @@
           </md>
           I had to move the 17 to the left, since the original
           integral doesn't have a term which looks like <m>17 dx</m>.
-          In this form, however, we can replace all the piece of the
+          In this form, however, I can replace all the piece of the
           original integral with the new variable. 
           <me>
             \int \cos (17 x) dx = \int \cos u \frac{1}{17} du 
           </me>
-          Then we can use linearity and known antideriatives to do the
+          Then I can use linearity and known antideriatives to do the
           integral. 
           <me>
             = \frac{1}{17} \sin (u) + C 
           </me>
-          Finally, we reverse the substitution.
+          Finally, I reverse the substitution.
           <me>
             = \frac{1}{17} \sin (17 x) + C 
           </me>
@@ -101,7 +101,7 @@
       <solution>
         <p>
           This doesn't look like a composition. However, substitution
-          is sometime still useful even when we don't obviously have a
+          is sometime still useful even when I don't obviously have a
           composition. Here, I'm going to take the denominator as the
           substitution, to try to produce an easier integral. 
           <md>
@@ -126,20 +126,20 @@
             = \int \frac{u}{u} + \frac{1}{u} du = \int 1 du + \int
             \frac{1}{u} du 
           </me>
-          Then we use known antiderivatives. 
+          Then I use known antiderivatives. 
           <me>
             = u + \ln |u| + C 
           </me>
-          Finally, we reverse the substitution.
+          Finally, I reverse the substitution.
           <me>
             = (x-5) + \ln |x-5| + C 
           </me>
-          As a final note, we could group the <m>(-5)</m> with the
+          As a final note, I could group the <m>(-5)</m> with the
           constant, like this:
           <me>
             = x + \ln |x-5| + (C - 5)
           </me>
-          If we did that, since the constant can be set to any real
+          If I did that, since the constant can be set to any real
           number, subtracting 5 doesn't make a difference. Therefore,
           an alternative form of the answer gets ride of this
           <m>(-5)</m>.
@@ -167,7 +167,7 @@
           <m>(x^2+4)</m> and outside function <m>u^3</m>. The rest of
           the integrand looks like it might be close to the derivative
           of the inside function, which is promising. We proceed with
-          the substitution rule. Now we will also change the bounds. 
+          the substitution rule. Now I will also change the bounds. 
           <md>
             <mrow>
               u \amp = x^2 + 4
@@ -182,18 +182,18 @@
               x \amp = 1 \implies u = (1)^2 + 4 = 5 
             </mrow>
           </md>
-          We can rearrange the integral so that we can substitute all
+          We can rearrange the integral so that I can substitute all
           the pieces clearly. 
           <me>
             \int_0^1 2x(x^2 + 4)^3 dx = \int_0^1 (x^2+4)^3 (2x dx)
           </me>
-          Then we replace all the pieces, including changing the
+          Then I replace all the pieces, including changing the
           bounds. 
           <me>
             = \int_4^5 u^3 du 
           </me>
-          Then we can proceed to finish the integral. Since this is a
-          definite integral and we have changed the bounds as well, we
+          Then I can proceed to finish the integral. Since this is a
+          definite integral and I have changed the bounds as well, I
           do not need to reverse the substitution. 
           <me>
             = \frac{u^4}{4} \Big|_4^5 = \frac{5^4}{4} - \frac{4^4}{4}
@@ -235,13 +235,13 @@
               u \amp = x + 3 \implies x = u - 3 
             </mrow>
           </md>
-          Now we have all the pieces and we can change to the new
+          Now I have all the pieces and I can change to the new
           variable, including changing the bounds. 
           <me>
             \int_0^4 \frac{x}{x+3} dx = \int_3^7 \frac{u-3}{u} du 
           </me>
-          Then we can split up the integral using linearity into two
-          integrals that we can solve with known antiderivatives. 
+          Then I can split up the integral using linearity into two
+          integrals that I can solve with known antiderivatives. 
           <md>
             <mrow>
               \amp = \int_3^7 \frac{u}{u} du - 3 \int_3^7 \frac{1}{u} du 
@@ -273,11 +273,11 @@
           follow that process and get an answer, but that answer would
           not be valid. The problem, here, is that this is a definite
           integral, which calculates an area under the curve. Given
-          these bounds, we are looking for the area between 0 and 4.
+          these bounds, I am looking for the area between 0 and 4.
           However, this function is undefined at <m>x=3</m>, where it
           has a vertical asymptote. Therefore, the notion of area
           under this curve is meaningless. There is no connected curve
-          under which we can define an area. This integral has no
+          under which I can define an area. This integral has no
           answer. 
         </p>
       </solution>
@@ -297,6 +297,7 @@
       </ul>
     </p>
   </subsection>
+  <!--
   <subsection xml:id="subsection-week9-extra-practice">
     <title>Extra Practice</title>
     <activity>
@@ -356,4 +357,5 @@
       </solution>
     </activity>
   </subsection>
+  -->
 </section>

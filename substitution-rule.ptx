@@ -4,14 +4,13 @@
     <title>Differentiating Composition</title>
     <p>
       Since doing integrals is doing derivatives backwards, it might
-      be reasonable to try to 
-      reversing all the differentiation rules. Linearity works
-      exactly the same in reverse. The inverted power rule works very
-      similarly to the original power rule. 
-      However, inverting the product rule starts to
-      become strange; I postpone that to integration techniques covered
-      in Calculus II. Arguably the most important differentiation rule
-      is the chain rule. I will try to reverse it here.
+      be reasonable to try to reversing all the differentiation rules.
+      Linearity works exactly the same in reverse. The inverted power
+      rule works very similarly to the original power rule.  However,
+      inverting the product rule starts to become strange; I postpone
+      that to integration techniques covered in Calculus II. Arguably
+      the most important differentiation rule is the chain rule. I
+      will try to reverse it here.
     </p>
     <p>
       For a composition of function<m>f(g(x))</m>, the derivative is
@@ -33,7 +32,7 @@
     <p>
       This gives me a process, which is called the substitution rule.
       For a integral that looks something like the output of a chain
-      rule, I'll try to choose an inside function and label if <m>u =
+      rule, I'll try to choose an inside function and label it <m>u =
       g(x)</m>. Then I'll differentiate and write the following
       equation.
     </p>
@@ -85,18 +84,18 @@
           \int (x^2+1)^4 (2x)dx \mapsto \int u^4 du
         </me>
         <p>
-          Then can find the anti-derivative easily by reversing the power
-          rule.
+          Then can find the anti-derivative easily by reversing the
+          power rule.
         </p>
         <me>
           \int u^4 du = \frac{u^5}{5} + c
         </me>
         <p>
-          AFter I find an antiderivative in the new variabl e
-          <m>u</m>, I need to return to the original variable by
-          undoing the substitution. I simply replace <m>u</m> with
-          <m>x^2+4</m>. This gives me an antiderivative for the
-          original function in the original variable. 
+          AFter I find an antiderivative in the new variable <m>u</m>,
+          I need to return to the original variable by undoing the
+          substitution. I simply replace <m>u</m> with <m>x^2+4</m>.
+          This gives me an antiderivative for the original function in
+          the original variable.
         </p>
         <me>
           \int 2x (x^2+1)^4 dx = \int u^4 du = \frac{u^5}{5} + c =
@@ -113,7 +112,7 @@
           I use the substitution <m>u = x^2</m>. The matching change
           in the differential is <m>du = 2xdx</m>. I've grouped
           <m>xdx</m> in the integral; I can replace this with <m>
-          \frac{1}{2} du </m>. 
+          \frac{1}{2} du</m>. 
         </p>
         <me>
           \int e^{x^2} xdx = \int e^u \frac{1}{2} du  =
@@ -123,7 +122,7 @@
           After taking out the constant, I get the integral of
           <m>e^u</m>, which is an integral I know. I can finish the
           integral and then replace the substitution with the original
-          function. 
+          function.
         </p>
         <me>
           = \frac{e^u}{2} + c = \frac{e^{x^2}}{2} + c
@@ -141,7 +140,7 @@
           substitution <m>u = x - 2</m>. The matching differential
           substitution is simply <m>du = dx</m>. I also need to
           substitute the numerator. I can do this by adding <m>2</m>
-          to each side of the substitution, giving <m>u + 2 = x</m>. 
+          to each side of the substitution, giving <m>u + 2 = x</m>.
         </p>
         <me>
           \int \frac{x}{x-2} dx = \int \frac{u+2}{u} du 
@@ -153,20 +152,20 @@
           into two integrals. The integral of a constant is <m>u</m>
           and the integral of <m>\frac{1}{u}</m>, from the tables, is
           <m>\ln |u|</m>. Finally, at the end I reverse the
-          substitution. 
+          substitution.
         </p>
         <me>
           = \int 1 + \frac{2}{u} du = \int du + 2 \int
           \frac{1}{u} du  = u + 2 \ln |u| + c = x - 2 + 2\ln|x-2| + c
         </me>
         <p>
-          The <m>-2</m> could be combined with the constnat <m>c</m>,
+          The <m>-2</m> could be combined with the constant <m>c</m>,
           since the constant is unknown. This isn't necessary, but you
           could write the solution with slightly fewer characters with
           this change.
         </p>
         <me>
-          = x + 2\ln|x-2| + c
+          = x + 2 \ln|x-2| + c
         </me>
       </statement>
     </example>
@@ -179,7 +178,7 @@
           I use the substitution <m>u = 10x - 3</m>, again to simplify
           the denominator. The associated change to the differential
           is <m>du = 10dx</m>, which I can rearrange to
-          <m>\frac{1}{10} du = dx</m>. 
+          <m>\frac{1}{10} du = dx</m>.
         </p>
         <me>
           \int \frac{1}{10x - 3} = \int \frac{1}{u} \frac{1}{10} du
@@ -188,7 +187,7 @@
           I can pull out the constant. Then the antiderivative of
           <m>\frac{1}{u}</m> is known from the tables. After the
           antiderivative, I can reverse the substitution to return to
-          the original variable. 
+          the original variable.
         </p>
         <me>
           \frac{1}{10} \int \frac{1}{u} du = \frac{\ln |u|}{10} + c
@@ -198,7 +197,7 @@
     </example>
   </subsection>
   <subsection xml:id="subsection-substitution-examples-def">
-    <title>Substitution Examples 0 Definite Integrals</title>
+    <title>Substitution Examples - Definite Integrals</title>
     <p>
       When I do substitution with definite integrals, I also need to
       change the bounds. If <m>a</m> and <m>b</m> are the bounds in
@@ -255,7 +254,7 @@
           \int_{-1}^2 e^{x^3+1} (x^2dx) = \int_0^9 e^u \frac{1}{3} du
         </me>
         <p>
-          then I can factor out the constant and use the fact that
+          Then I can factor out the constant and use the fact that
           <m>e^u</m> is its own antiderivatives. Finally, I evaluate
           the antiderivatives on the new bounds. 
         </p>

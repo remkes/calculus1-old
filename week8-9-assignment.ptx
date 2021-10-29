@@ -5,99 +5,58 @@
   <title>Week 8-9 Assignment</title>
   <p><ol>
     <li>
-    </li>
-  </ol></p>
-</section>
-
-<!-- Previous Assignment
-<section xml:id="section-assignment-week8">
-  <title>Week 8 Assignment</title>
-  <ol>
-    <li>
       <p>
-        Calculate the following indefinite integrals by usling linearity
-        and the tables of anti-derivatives. (12) 
+        Calculate the following indefinite integrals by using linearity
+        and the tables of anti-derivatives. (9) 
       </p>
-      <ol>
+      <p><ol>
         <li><me>
-          \int \frac{1}{x^3} - \frac{1}{x} dx 
+          \int x^4 - x^3 + x^2 dx
         </me></li>
         <li><me>
-          \int 3x^2 + \sec^2 x dx 
+          \int \tan x \sec x + \sqrt{x} dx 
         </me></li>
         <li><me>
-          \int x^{49} dx 
+          \int 3^x - \frac{1}{x} dx 
         </me></li>
-        <li><me>
-          \int 3^x - 2^x dx 
-        </me></li>
-      </ol>
+      </ol></p>
     </li>
     <li>
       <p>
-        Calculate the following definite integrals by usling linearity
-        and the tables of anti-derivatives. (12) 
+        Calculate the following definite integrals by using linearity
+        and the tables of anti-derivatives. (9) 
       </p>
-      <ol>
+      <p><ol>
         <li><me>
-          \int_{-1}^0 x^3 - x^2 dx 
+          \int_{0}^{\pi} \cos dx dx 
         </me></li>
         <li><me>
-          \int_{-\frac{\pi}{4}}^{\frac{\pi}{4}} \tan x \sec x - \cos x
-          dx 
+          \int_{-2}^2 x^3 + 3 x dx 
         </me></li>
         <li><me>
-          \int_{\ln 2}^{\ln 4} \frac{e^x}{4} dx 
+          \int_1^e \frac{4}{x} dx 
         </me></li>
-        <li><me>
-          \int_{-3}^2 \frac{1}{x+2} dx 
-        </me></li>
-      </ol>
+      </ol></p>
     </li>
-    <li>
-      <p>
-        The derivative was just the derivative, but the integral comes
-        in two forms: the definite and the indefinite. Why the
-        difference? Why should there be two different kinds of
-        integral but only one kind of derivative? (4) 
-      </p>
-    </li>
-  </ol>
-</section>
-
-<section xml:id="section-assignment-week9">
-  <title>Week 9 Assignment</title>
-  <ol>
     <li>
       <p>
       Calculate the following integrals. Clearly label your
       substitutions. (16)
       </p>
-      <ol>
+      <p><ol>
         <li><me>
-          \int \sin (3x - 7x^2) (3-14x) dx
+          \int \sqrt{4x^3 - x^2} (12x^2 - 2x) dx
         </me></li>
         <li><me>
-          \int \frac{7x}{9x + 5} dx 
+          \int \frac{3x+1}{3x+2} dx 
         </me></li>
         <li><me>
-          \int \ln (x^3 + 7) 17 x^2 dx 
+          \int \frac{x \sin (x^2 + 4)}{9} dx 
         </me></li>
         <li><me>
-          \int_0^{\frac{\pi}{24}} \sin (24 x) + \cos (12 x) dx 
+          \int_0^3 \frac{x}{x^2 + 1} dx 
         </me></li>
-      </ol>
+      </ol></p>
     </li>
-    <li>
-      <p>
-        Consider this integral
-        <me>
-          \int e^{-x^2} dx 
-        </me>
-        Explain why the substitution <m>u = -x^2</m> doesn't actually
-        help to solve this integral (4). 
-      </p>
-    </li>
-  </ol>
+  </ol></p>
 </section>
--->

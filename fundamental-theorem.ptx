@@ -3,14 +3,15 @@
   <subsection xml:id="subsection-integrals-as-functions">
     <title>Integrals as Functions</title>
     <p>
-      As mentioned above, we need a way to avoid using the definition.
-      With derivative, we just developed a series of rules for various
+      As mentioned in <xref ref="section-riemann-integral" />, I never
+      actually want to use the definition to calculate integrals. 
+      With derivatives, I developed a series of rules for various
       types and combinations of functions. That doesn't work as easily
       or cleanly for integrals. However, there is a very powerful
-      theorem that gives us an approach to solving integrals.
+      theorem that gives an approach to solving integrals.
     </p>
     <p>
-      To state the theorem, we need to consider a strange new function.
+      To state the theorem, I need to consider a strange new function.
       For <m>g(t)</m> continuous on <m>[a,b]</m> and <m>x \in [a,b)</m>,
       define a new function <m>f</m>.
       <me>
@@ -18,7 +19,7 @@
       </me>
     </p>
     <p>
-      Let's give some interpretation: <m>f(x)</m> is the area under the
+      Let me give some interpretation: <m>f(x)</m> is the area under the
       function <m>g(t)</m> along the <m>t</m> axis between a fixed point
       <m>t=a</m> and a varying endpoint <m>x</m>. Be careful to keep
       the variables straight!  The variable <m>t</m> is only inside the
@@ -28,14 +29,15 @@
     </p>
     <p>
       Though very strange, this definition is a rich source of new and
-      interesting functions in mathematics.
+      interesting functions in mathematics. Here are some examples of
+      functions that are defined as integrals of other functions. 
     </p>
     <example>
       <statement>
         <md>
           <mrow>
-            \text{Fresnel} \amp \amp S(x) \amp \defeq \int_0^x \sin
-            \left(\frac{\pi t^2}{2} \right) dt
+            \text{Fresnel Function} \amp \amp S(x) \amp \defeq
+            \int_0^x \sin \left(\frac{\pi t^2}{2} \right) dt
           </mrow>
           <mrow>
             \text{Logarithmic Integral} \amp \amp li(x) \amp \defeq
@@ -52,9 +54,9 @@
   <subsection xml:id="subsection-fundamental-theorem">
     <title>The Fundamental Theorem</title>
       <p>
-        Now that we have this function <m>f(x)</m>, we can look at its
-        derivative. <xref ref="figure-area-function" /> gives
-        a useful visualization. In the figure, we've labelled a point
+        Now that I've defined the function <m>f(x)</m>, I can look at
+        its derivative. <xref ref="figure-area-function" /> gives a
+        useful visualization. In the figure, I've labelled a point
         <m>x</m> and a small increase <m>x+h</m>.
       </p>
       <figure xml:id="figure-area-function">
@@ -86,23 +88,21 @@
         </image>
       </figure>
       <p>
-        We use the limit definition of the derivative.
+        I use the limit definition of the derivative to calculate this
+        derivative.
         <me>
           \frac{d}{dx} f(x) = \lim_{h \rightarrow 0} \frac{f(x+h) -
           f(x)}{h}
         </me>
-      </p>
-      <p>
-        Since <m>f</m> measures area, the difference <m>f(x+h) - f(x)</m>
-        is just the area of the very thin rectangle in <xref
-        ref="figure-area-function" />. When <m>h</m> is small,
-        this area is roughly the height <m>g(x)</m> times the width
-        <m>h</m>.
+        Since <m>f</m> measures area under <m>g(t)</m>, the difference
+        <m>f(x+h) - f(x)</m> is just the area of the very thin
+        rectangle in <xref ref="figure-area-function" />. When
+        <m>h</m> is small, this area is roughly the height <m>g(x)</m>
+        times the width <m>h</m>.
         <me>
-          \frac{d}{dx} f(x) = \lim_{h \rightarrow 0} \frac{g(x) h}{h} = g(x)
+          \frac{d}{dx} f(x) = \lim_{h \rightarrow 0} \frac{g(x) h}{h}
+          = g(x)
         </me>
-      </p>
-      <p>
         All this work can be summarized in the following statement, which
         is called the <em>Fundamental Theorem of Calculus</em>.
         <me>
@@ -112,8 +112,8 @@
     <p>
       The important implication of the fundamental theorem is this:
       integral and derivatives are opposite operations. In the previous
-      statement, we start with a function <m>g</m>, take and integral to
-      get <m>f</m> and then take a derivative to get back to <m>g</m>.
+      statement, I started with a function <m>g</m>, took an integral to
+      get <m>f</m> and then took a derivative to get back to <m>g</m>.
       Derivatives and integrals are reverse processes.
     </p>
     <p>
@@ -123,12 +123,10 @@
       <me>
         \int_a^b f^\prime(t) dt = f(b) - f(a)
       </me>
-    </p>
-    <p>
-      This version of the fundamental theorem gives us a wonderful way
+      This version of the fundamental theorem gives a wonderful way
       to calculate definite integrals. Let <m>F</m> be any function
       such that <m>F^\prime(x) = f(x)</m>. Such a function <m>F</m> is
-      called an <em>antiderivative</em> for <m>f</m>. We use
+      called an <em>antiderivative</em> for <m>f</m>. I use
       antiderivatives to evaluated integrals.
       <me>
         \int_a^b f(t) dt = F(b) - F(a)
@@ -137,21 +135,19 @@
   </subsection>
   <subsection xml:id="subsection-indefinite-integral">
     <p>
-      To calculate antiderivatives, we need to do deriavitves backwards.
+      To calculate antiderivatives, I need to do deriavitves backwards.
       Fortunately, this is much easier than using the definition of the
-      integral; it will become our main strategy for integrals.
-      Unfortunately, it is still reasonably difficult.
+      integral; it is the main strategy for integrals.  Unfortunately,
+      it is still quite difficult for many functions.
     </p>
     <p>
       It's useful to have a notation for antiderivatives. Since
       integrals are, in some way, the inverse operation, it seems
       natural to use an integral symbol to indicate an antiderivative.
-      We drop the bounds that we used for definition integrals.
+      I drop the bounds that I used for definition integrals.
       <me>
         \text{ Any antiderivative of f is written }  \int f(x) dx
       </me>
-    </p>
-    <p>
       This is called an indefinite integral. Note that the notation
       means <em>all</em> anti-derivatives, since there may be more than
       one.
@@ -161,12 +157,12 @@
         <p>
           In these examples, I'm using what I know about derivatives to
           do the operation backwards. The sixth example is just the
-          power rules done backwards. The proofs of all of these are
-          easy: just differentiate the right side of the equation.
-          Since they are anti-derivatives, the derivative of the right
+          power rule done backwards. To check any of these is not
+          difficult: just differentiate the right side of the equation.
+          Since they are anti-derivatives, the derivatives of the right
           side should give the original function on the left (inside the
-          integral sign). The <m>+C</m> is an arbitrary constant which
-          we must add. It shows up because it would disappear in
+          integral sign). The <m>+ c</m> is an arbitrary constant which
+          must be added. It shows up because it would disappear in
           differentiation.
           <md>
             <mrow>
@@ -207,11 +203,11 @@
   <subsection xml:id="subsection-calcluating-definite-integrals">
   <title>Calculating Definite Integrals</title>
     <p>
-      We can use the fundamental theorem to calculate definite
+      I can use the fundamental theorem to calculate definite
       integrals as well. There is some special notation that is
-      useful here: when we write <m>\left. F(x) \right|_a^b</m> we
-      mean to evaluate <m>F</m> at <m>a</m> and <m>b</m> and
-      subtract.
+      useful here: when I write <m>\left. F(x) \right|_a^b</m>, I
+      mean to evaluate  the function<m>F</m> at <m>a</m> and <m>b</m>
+      and subtract the two evaluations. 
       <me>
         F(x) \Big|_a^b = F(b) - F(a)
       </me>
@@ -225,6 +221,8 @@
       <statement>
         <p>
           The antiderivative of <m>x^2</m> is <m>\frac{x^3}{3}</m>.
+          This antiderivative lets me calculate the following
+          integral. 
           <me>
             \int_2^4 x^2 dx = \left. \frac{x^3}{3} \right|_2^4 =
             \frac{4^3}{3} - \frac{2^3}{3} = \frac{64 - 8}{3} =
