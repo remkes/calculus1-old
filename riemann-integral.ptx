@@ -31,7 +31,7 @@
     <p>
       With these notations, the area of a rectangle is width times
       height, that is <m>\frac{b-a}{n} f(x^*)</m>. To be more
-      specific, is I use <m>k</m> as an index to refer to various
+      specific, if I use <m>k</m> as an index to refer to various
       rectangles and <m>x_k^*</m> is in the kth interval, the area of
       the <m>k</m>th rectangle is <m>\frac{b-a}{n} f(x_k^*)</m>. To
       get the complete approximation, I add up all these rectangles
@@ -41,23 +41,23 @@
       </me>
     </p>
     <p>
-      This sum is called a Riemann Sum approximation for area. If the
-      function is well behaved (continuous guaranteees this), then I
-      can keep taking finer and finer partitions for better and better
-      approximations. This process can be extended into some kind of
-      limit process. In the limit, I hope for a perfect calculation of
-      area.
+      This sum is called a <term>Riemann sum</term> approximation for
+      area. If the function is well behaved (continuous guaranteees
+      this), then I can keep taking finer and finer partitions for
+      better and better approximations. This process can be extended
+      into some kind of limit process. In the limit, I hope for a
+      perfect calculation of area.
       <me>
         A = \lim_{n \rightarrow \infty} \sum_{k=1}^n f(x_k^*)
         \frac{b-a}{n}
       </me>
     </p>
     <p>
-      This limit, if it exists, is called a <em>definite integal</em>.
-      The area under the curve is calculated by a definite integral.
-      Since this definition uses Riemann sums, this is called the
-      Riemann definiton of the integral, or simply the Riemann
-      integral. It has a new notation.
+      This limit, if it exists, is called a <term>definite
+      integal</term>.  The area under the curve is calculated by a
+      definite integral.  Since this definition uses Riemann sums,
+      this is called the Riemann definiton of the integral, or simply
+      the Riemann integral. It has a new notation.
       <me>
         \int_a^b f(x) dx := \lim_{n \rightarrow \infty} \sum_{k=1}^n
         f(x_k^*) \frac{b-a}{n}
@@ -69,32 +69,32 @@
       bounds <m>k=1</m> and <m>n</m> get replaced with the endpoints
       of the interval, <m>a</m> and <m>b</m> respectively. The
       <m>f(x^*_k)</m> just becomes the function <m>f(x)</m>. Finally,
-      the term <m>\frac{b-a}{n}</m> gets infinitesimally small as <m>n
+      the width <m>\frac{b-a}{n}</m> gets infinitesimally small as <m>n
       \rightarrow \infty</m>, so it becomes the infinitesimal term
       <m>dx</m>. Like Leibniz notation, this <m>dx</m> is a relic
-      from a different historical presentation of calculus. It's main
-      purpose in the modrn notation is to indicate what symbol is the
-      variable. However, as will be seen in <Xref
+      from a different historical presentation of calculus. Its main
+      purpose in the modern notation is to indicate what symbol is the
+      variable. However, as will be seen in <xref
       ref="section-substitution-rule" />, this <m>dx</m> notation is
       useful for a variety of integration calculations.
     </p>
     <p>
       The first problem with limit definition is the existence of the
       limit. Unfortunately, this is an extremely difficult question
-      to solve in general, particular since it has to work for any
+      to solve in general, particularly since it has to work for any
       possible choices of the values <m>x_k^*</m>. Fortunately, this
       limit will always exist if <m>f(x)</m> is continuous, a fact
       that is presented here without proof.
     </p>
     <p>
-      I should point out some important facts. First, this integral
-      returns a number: given a function and endpoints, it calculates
-      a fixed area. It isn't (yet) a new function. Second, I need
-      the bounds: the Riemann integral doesn't make any sense without
-      the bounds of the interval <m>[a,b]</m>. Third, I defined this
-      for positive functions. It also works for functions which have
-      negative values, but areas below the <m>x</m> axis are
-      interpreted as negative. If a function has both positive and
+      I should point out some important observations. First, this
+      integral returns a number: given a function and endpoints, it
+      calculates a fixed area. It isn't (yet) a new function. Second,
+      I need the bounds: the Riemann integral doesn't make any sense
+      without the bounds of the interval <m>[a,b]</m>. Third, I
+      defined this for positive functions. It also works for functions
+      which have negative values, but areas below the <m>x</m> axis
+      are interpreted as negative. If a function has both positive and
       negative values, the integral will give the difference between
       the area above the axis (the positive area) and the area below
       the (the negative area).

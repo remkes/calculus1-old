@@ -7,11 +7,20 @@
       sums. The name comes from the fact that it uses the upper case
       greek letter sigma: <m>\Sigma</m>. Sigma notation relies on an
       index and expresses the terms of the sum as expression of the
-      index. In the following, <m>k</m> is the index. The term below
-      the sigma tells where the index starts and the term above the
-      sigma tells where the index ends. The term following the sigma
-      is the expression of the sum: for each index from the start to the
-      end (in integer steps) I evaluate the expression.
+      index. Here is an example to show the general form.
+      <me>
+        \sum_{k=1}^{34} (k^2 - 4k)  
+      </me>
+      Let me define the terminology. In the example pressent, <m>k</m>
+      is the <term>index</term>. It ranges from <m>1</m> to <m>34</m>
+      <mdash /> the numbers that appear above and below the
+      <m>\Sigma</m>. These two numbers are called the
+      <term>bounds</term>. The bound below the sigma tells where the
+      index starts and the bound above the sigma tells where the index
+      ends. The expression following the sigma is called the
+      <term>term</term>. For each index from the lower bound and
+      proceeding to the upper bound (in integer steps), I evaluate the
+      expression. Here are some example sums to show how it works.
       <md>
         <mrow>
           \sum_{k=1}^5 5k \amp = 5(1) + 5(2) + 5(3) + 5(4) + 5(5) =
@@ -45,74 +54,44 @@
       There are some important rules for manipulating sigma notation.
       First, sums are (unsurprisingly) linear, so I can split them up
       over addition/subtraction and pull out constants. 
-    </p>
-    <example>
-      <statement>
-        <md>
-          <mrow>
-            \sum_{k=1}^n 6k \amp = 6 \sum_{k=1}^n k
-          </mrow>
-          <mrow>
-            \sum_{k=1}^n (3k^2 + 9k) \amp = 3 \sum_{k=1}^n k^2 + 9
-            \sum_{k=1}^n k 
-          </mrow>
-        </md>
-      </statement>
-    </example>
-    <p>
+      <md>
+        <mrow>
+          \sum_{k=1}^n 6k \amp = 6 \sum_{k=1}^n k
+        </mrow>
+        <mrow>
+          \sum_{k=1}^n (3k^2 + 9k) \amp = 3 \sum_{k=1}^n k^2 + 9
+          \sum_{k=1}^n k 
+        </mrow>
+      </md>
       I can combine sums if the indices match.
-    </p>
-    <example>
-      <statement>
-        <me>
-          \sum_{k=1}^{15} k^2 + \sum_{k=1}^{15} 4k = \sum_{k=1}^{15}
-          (k^2 + 4k)
-        </me>
-      </statement>
-    </example>
-    <p>
+      <me>
+        \sum_{k=1}^{15} k^2 + \sum_{k=1}^{15} 4k = \sum_{k=1}^{15}
+        (k^2 + 4k)
+      </me>
       If I want to combine sums when the indices don't match, I have
       to adjust the sums. There are two main methods of adjusting the
-      sum. First, we can take out terms.
-    </p>
-    <example>
-      <statement>
-        <me>
-          \sum_{k=1}^{15} k^2 + \sum_{k=3}^{15} 4k = 1^2 + 2^2 +
-          \sum_{k=3}^{15} k^2 + \sum_{k=3}^{15} 4k = 5 + \sum_{k=3}^{15}
-          (k^2 + 4k)
-        </me>
-      </statement>
-    </example>
-    <p>
+      sum. First, I can take out terms.
+      <me>
+        \sum_{k=1}^{15} k^2 + \sum_{k=3}^{15} 4k = 1^2 + 2^2 +
+        \sum_{k=3}^{15} k^2 + \sum_{k=3}^{15} 4k = 5 + \sum_{k=3}^{15}
+        (k^2 + 4k)
+      </me>
       I can also shift the indices. This might seem tricky, but it's
       easy to remember if you think of balance: whatever I do to the
-      index, I have to do the opposite to the expression.
+      index, I have to do the opposite to the expression.  Here I
+      shift the index by <m>+2</m>, so the expression is shifted by
+      <m>-2</m>.
+      <me>
+        \sum_{k=3}^{17} 4k = \sum_{k=1}^{15} 4(k+2)
+      </me>
+      I can use these two manipulations to combine sums if the
+      indices don't initially line up.
+      <me>
+        \sum_{k=1}^{15} k^2 + \sum_{k=3}^{17} 4k = \sum_{k=1}^{15}
+        k^2 + \sum_{k=1}^{15} 4(k+2) = \sum_{k=1}^{15} (k^2 + 4k +
+        8)
+      </me>
     </p>
-    <example>
-      <statement>
-        <p>
-          Here I shift the index by <m>+2</m>, so the expression is
-          shifted by <m>-2</m>.
-          <me>
-            \sum_{k=3}^{17} 4k = \sum_{k=1}^{15} 4(k+2)
-          </me>
-        </p>
-      </statement>
-    </example>
-    <example>
-      <statement>
-        <p>
-          I can use these two manipulations to combine sums if the
-          indices don't initially line up.
-          <me>
-            \sum_{k=1}^{15} k^2 + \sum_{k=3}^{17} 4k = \sum_{k=1}^{15}
-            k^2 + \sum_{k=1}^{15} 4(k+2) = \sum_{k=1}^{15} (k^2 + 4k +
-            8)
-          </me>
-        </p>
-      </statement>
-    </example>
   </subsection>
   <subsection xml:id="subsection-important-sums">
     <title>Some Important Sums</title>

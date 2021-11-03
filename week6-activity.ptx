@@ -473,10 +473,10 @@
             = \frac{-x \sin x - \cos x}{x^2} + \frac{x \cos x -
             \sin x}{x^2}
           </me>
-          Some change in expression could be made -- common
-          denominator for both fractions, or splitting up numerators.
-          None of them seems to me to create any substantially simpler
-          expression, so I'm content to leave the answer in this form. 
+          Some change in the expression could be made <mdash />
+          perhaps splitting up the numerators.  No change seems to me
+          to create any substantially simpler expression, so I'm
+          content to leave the answer in this form.
         </p>
       </solution>
     </activity>

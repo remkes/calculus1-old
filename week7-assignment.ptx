@@ -73,7 +73,7 @@
         explicitly check that this limit has the appropriate type
         before using L'Hôpital's Rule.) (6) 
         <me>
-          \lim_{x \rightarrow 3} \frac{x^3 - x^2 - 7x - 15}{x^3 -
+          \lim_{x \rightarrow 3} \frac{x^3 + x^2 - 7x - 15}{x^3 -
           4x^2 - 3x + 18} 
         </me>
       </p>
