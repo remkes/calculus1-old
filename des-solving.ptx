@@ -273,7 +273,7 @@
           If I want it expressed as a function, I can still solve for
           <m>y</m> after this. 
           <me>
-            y \amp = \pm \sqrt{25 - x^2} 
+            y = \pm \sqrt{25 - x^2} 
           </me>
         </p>
       </statement>

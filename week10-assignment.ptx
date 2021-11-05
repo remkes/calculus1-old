@@ -3,4 +3,45 @@
 -->
 <section xml:id="section-assignment-week10">
   <title>Week 10 Assignment</title>
+  <p><ol>
+    <li>
+      Solve this initial value problem. (6)  
+      <md>
+        <mrow>
+          \amp \frac{df}{dx} = x^3 - x \amp \amp f(0) = 2 
+        </mrow>
+      </md>
+    </li>
+    <li>
+      Solve this initial value problem. (6)  
+      <md>
+        <mrow>
+          \amp \frac{df}{dx} = \cos x - \tan x \sec x  \amp \amp f(0) = 2 
+        </mrow>
+      </md>
+    </li>
+    <li>
+      Solve this separable differential equation. (6)  
+      <md>
+        <mrow>
+          \frac{df}{dx} = \frac{s^3}{f^2}  
+        </mrow>
+      </md>
+    </li>
+    <li>
+      Solve this separable differential equation. (6)  
+      <md>
+        <mrow>
+          \frac{df}{dx} = f(x^2 + x + 1)
+        </mrow>
+      </md>
+    </li>
+    <li>
+      Write the function that describes logistic growth for a
+      population with carrying capacity of 5000 members, initial
+      population of 400, and growth rate coefficient of 4. Also write
+      the differential equation that describes the same situation.
+      Show that your function solves the differential equation. (6) 
+    </li>
+  </ol></p>
 </section>
