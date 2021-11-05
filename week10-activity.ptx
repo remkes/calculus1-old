@@ -16,7 +16,7 @@
       </statement>
       <solution>
         <p>
-          I use the form for seperable equations, with <m>f(x) =
+          I use the form for separable equations, with <m>f(x) =
           x^2</m> and <m>g(y) = y^2</m>.
           <me>
             \int \frac{dy}{y^2} = \int x^2 dx 
@@ -58,7 +58,7 @@
       </statement>
       <solution>
         <p>
-          I use the form for seperable equations, with <m>f(x) =
+          I use the form for separable equations, with <m>f(x) =
           e^x</m> and <m>g(y) = e^{-y}</m>.
           <me>
             \int e^y dy = \int e^x dx 
@@ -100,7 +100,7 @@
       </statement>
       <solution>
         <p>
-          I use the form for seperable equations, with <m>f(x) =
+          I use the form for separable equations, with <m>f(x) =
           \frac{1}{x}</m> and <m>g(y) = y</m>.
           <me>
             \int \frac{1}{y} = \int \frac{1}{x} dx 
@@ -145,7 +145,7 @@
         <p>
           The expression in the differential equation is not defined
           for this initial value. Therefore, this IVP cannot be
-          solved. We could do the seperable equation, but we won't be
+          solved. I could do the separable equation, but I won't be
           able to input the initial conditions.
         </p>
       </solution>
@@ -164,7 +164,7 @@
       </statement>
       <solution>
         <p>
-          I use the form for seperable equations, with <m>f(x) =
+          I use the form for separable equations, with <m>f(x) =
           \sin x 2</m> and <m>g(y) = y^2</m>.
           <me>
             \int \frac{dy}{y^2} = \int \sin x dx 
@@ -206,7 +206,7 @@
       </statement>
       <solution>
         <p>
-          I use the form for seperable equations, with <m>f(x) =
+          I use the form for separable equations, with <m>f(x) =
           (x-1)2</m> and <m>g(y) = \frac{1}{y}</m>.
           <me>
             \int y dy = \int (x-1)^2 dx 
@@ -250,7 +250,7 @@
       </statement>
       <solution>
         <p>
-          I use the form for seperable equations, with <m>f(x) =
+          I use the form for separable equations, with <m>f(x) =
           x^3</m> and <m>g(y) = y^4</m>.
           <me>
             \int \frac{1}{y^4} dy = \int x^3 dx 
@@ -301,7 +301,7 @@
       </statement>
       <solution>
         <p>
-          I use the form for seperable equations, with <m>f(x) =
+          I use the form for separable equations, with <m>f(x) =
           e^x</m> and <m>g(y) = y^2</m>.
           <me>
             \int \frac{1}{y^2} dy = \int e^x dx 
@@ -416,7 +416,7 @@
           <me>
             p(t) = 150000 e^{-0.14t} 
           </me>
-          This is exactly what we expect: population that starts at
+          This is exactly what I expect: population that starts at
           150000 with a growth rate coefficient of <m>-0.14</m>.
       </solution>
     </activity>
@@ -448,7 +448,7 @@
       </statement>
       <solution>
         <p>
-          We have to check two things. First, we can check that the
+          I have to check two things. First, I can check that the
           initial value is correct. This is simply evaluating
           <m>p(0)</m>. 
           <me>
@@ -456,7 +456,7 @@
             e^0} = \frac{400000}{600+ 400} =
             \frac{400000}{1000} = 400
           </me>
-          This is the correct initial value. Now we need to
+          This is the correct initial value. Now I need to
           differentiate <m>p(t)</m> using the quotient rule and check
           that it is the same as the left side of the differential
           equation. This calculation is a bit complicated with many
@@ -485,13 +485,13 @@
               \amp = \frac{12000000e^{0.05t}}{(600 + 400 e^{0.05t})^2}
             </mrow>
           </md>
-          After all that simplification, we have this expression. This
-          is the left side of the differential equation. We want to
+          After all that simplification, I have this expression. This
+          is the left side of the differential equation. I want to
           compare it to the right side of the differential equation.
-          Let's try to calculate that right side and see if we can
+          I'll try to calculate that right side and see if I can
           simplify it down to the same thing. From the third to the
-          fourth line below, we go to common denominator for the term
-          in brackets. 
+          fourth line below, I construct a common denominator for the
+          term in brackets. 
           <md>
             <mrow>
               \amp (0.05) p(t) \left( 1 - \frac{p(t)}{1000} \right) 
@@ -524,7 +524,7 @@
           expression. Therefore, since these simplification have made
           any actual changes to the function (just to how it is
           expressed), the right side and left side of the differential
-          equation are equal, and we have confirmed that the given
+          equation are equal, and I have confirmed that the given
           function solves the differential equation.
         </p>
       </solution>
@@ -552,7 +552,7 @@
       </statement>
       <solution>
         <p>
-          We have to check two things. First, we can check that the
+          I have to check two things. First, I can check that the
           initial value is correct. This is simply evaluating
           <m>p(0)</m>. 
           <me>
@@ -560,7 +560,7 @@
             e^0} = \frac{240000}{-500+ 800} =
             \frac{240000}{300} = 800
           </me>
-          This is the correct initial value. Now we need to
+          This is the correct initial value. Now I need to
           differentiate <m>p(t)</m> using the quotient rule and check
           that it is the same as the left side of the differential
           equation. This calculation is a bit complicated with many
@@ -592,13 +592,13 @@
               e^{0.02t})^2}
             </mrow>
           </md>
-          After all that simplification, we have this expression. This
-          is the left side of the differential equation. We want to
+          After all that simplification, I have this expression. This
+          is the left side of the differential equation. I want to
           compare it to the right side of the differential equation.
-          Let's try to calculate that right side and see if we can
+          Let's try to calculate that right side and see if I can
           simplify it down to the same thing. From the third to the
-          fourth line below, we go to common denominator for the term
-          in brackets. 
+          fourth line below, I construct a common denominator for the
+          term in brackets.
           <md>
             <mrow>
               \amp (0.02) p(t) \left( 1 - \frac{p(t)}{300} \right) 
@@ -632,7 +632,7 @@
           expression. Therefore, since these simplification have made
           any actual changes to the function (just to how it is
           expressed), the right side and left side of the differential
-          equation are equal, and we have confirmed that the given
+          equation are equal, and I have confirmed that the given
           function solves the differential equation.
         </p>
       </solution>
@@ -650,7 +650,7 @@
           What does it mean to solve a differential equation?
         </li>
         <li>
-          What is an initial condition and why do we need them to
+          What is an initial condition and why do I need them to
           solve differential conditions?
         </li>
       </ul>
