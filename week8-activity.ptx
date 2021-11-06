@@ -332,18 +332,18 @@
           Here is the general form.
           <me>
             \int_a^b f(x) dx = \lim_{n \rightarrow \infty}
-            \sum_{k=0}^n f(x_k^*) \left( \frac{b-a}{n} \right) 
+            \sum_{k=1}^n f(x_k^*) \left( \frac{b-a}{n} \right) 
           </me>
           In this situation, <m>a = -1</m>, <m>b = 1</m> and <m>f(x) =
           (x^2 + 2x +2)</m>. I put these into the general form. 
           <md>
             <mrow>
               \int_{-1}^1 (x^2 + 2x + 2) dx \amp = \lim_{n
-              \rightarrow \infty} \sum_{k=0}^n \left( (x_k^*)^2 +
+              \rightarrow \infty} \sum_{k=1}^n \left( (x_k^*)^2 +
               2x_k^* + 2 \right) \left( \frac{1-(-1)}{n} \right) 
             </mrow>
             <mrow>
-              \amp = \lim_{n \rightarrow \infty} \sum_{k=0}^n \left(
+              \amp = \lim_{n \rightarrow \infty} \sum_{k=1}^n \left(
               (x_k^*)^2 + 2x_k^* + 2 \right) \left( \frac{2}{n}
               \right)
             </mrow>
@@ -375,21 +375,21 @@
           <md>
             <mrow>
               \int_{-1}^1 (x^2+2+2) dx \amp = \lim_{n \rightarrow \infty}
-              \sum_{k=0}^n \left( \left( -1 + \frac{2k}{n} \right)^2 +
+              \sum_{k=1}^n \left( \left( -1 + \frac{2k}{n} \right)^2 +
               2 \left( -1 + \frac{2k}{n} \right) + 2 \right) \left(
               \frac{2}{n} \right) 
             </mrow>
             <mrow>
-              \amp = \lim_{n \rightarrow \infty} \sum_{k=0}^n \left(
+              \amp = \lim_{n \rightarrow \infty} \sum_{k=1}^n \left(
               1 - \frac{4k}{n} + \frac{4k^2}{n^2} + -2  - \frac{4k}{n}
               + 2 \right) \left( \frac{2}{n} \right) 
             </mrow>
             <mrow>
-              \amp = \lim_{n \rightarrow \infty} \sum_{k=0}^n \left(
+              \amp = \lim_{n \rightarrow \infty} \sum_{k=1}^n \left(
               1 + \frac{4k^2}{n^2} \right) \left( \frac{2}{n} \right) 
             </mrow>
             <mrow>
-              \amp = \lim_{n \rightarrow \infty} \sum_{k=0}^n \left(
+              \amp = \lim_{n \rightarrow \infty} \sum_{k=1}^n \left(
               \frac{2}{n} + \frac{8k^2}{n^3} \right) 
             </mrow>
           </md>
@@ -413,16 +413,16 @@
           <md>
             <mrow>
               \int_{-1}^1 (x^2+2x+2) dx \amp = \lim_{n \rightarrow \infty}
-              \sum_{k=0}^n \left( \frac{2}{n} + \frac{8k^2}{n^3}
+              \sum_{k=1}^n \left( \frac{2}{n} + \frac{8k^2}{n^3}
               \right) 
             </mrow>
             <mrow>
-              \amp = \lim_{n \rightarrow \infty} \left( \sum_{k=0}^n
-              \frac{2}{n} + \sum_{k=0}^n \frac{8k^2}{n^3} \right)
+              \amp = \lim_{n \rightarrow \infty} \left( \sum_{k=1}^n
+              \frac{2}{n} + \sum_{k=1}^n \frac{8k^2}{n^3} \right)
             </mrow>
             <mrow>
               \amp = \lim_{n \rightarrow \infty} \left( \frac{2}{n}
-              \sum_{k=0}^n 1+ \frac{8}{n^3} \sum_{k=0}^n k^2 \right)
+              \sum_{k=1}^n 1+ \frac{8}{n^3} \sum_{k=1}^n k^2 \right)
             </mrow>
           </md>
         </p>
@@ -444,7 +444,7 @@
           <md>
             <mrow>
               \amp \lim_{n \rightarrow \infty} \left( \frac{2}{n}
-              \sum_{k=0}^n 1 + \frac{8}{n^3} \sum_{k=0}^n k^2 \right)
+              \sum_{k=1}^n 1 + \frac{8}{n^3} \sum_{k=1}^n k^2 \right)
             </mrow>
             <mrow>
               \amp = \lim_{n \rightarrow \infty} \left( \frac{2}{n} n + 
