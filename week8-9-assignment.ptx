@@ -28,7 +28,7 @@
       </p>
       <p><ol>
         <li><me>
-          \int_{0}^{\pi} \cos dx dx 
+          \int_{0}^{\pi} \cos x dx 
         </me></li>
         <li><me>
           \int_{-2}^2 x^3 + 3 x dx 
