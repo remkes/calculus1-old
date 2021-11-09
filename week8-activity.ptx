@@ -171,7 +171,7 @@
       </statement>
       <solution>
         <p>
-          I need a pattern. This is a geometric progression, where
+          I need a pattern. This is a geometric sequence, where
           each steps multiplies by 2. I start with a value of 3. Using
           this, I can start at <m>i=0</m> and describe this pattern
           as <m>3(2^i)</m>. The value of <m>i</m> that gives 96 is
@@ -273,7 +273,7 @@
             <mrow>
               4 \sum_{i=0}^{10} i^3 - 15 \sum_{i=0}^{10} i^2 - 7
               \sum_{i=0}^{10} i + 9 \sum_{i=0}^{10} i \amp =
-              \sum_{i=0}^{10} (4i^3 - 15i^2 - 7 + 9i) 
+              \sum_{i=0}^{10} (4i^3 - 15i^2 - 7i + 9i) 
             </mrow>
             <mrow>
               \amp = \sum_{i=0}^{10} (4i^3 - 15i^2 + 2i)
@@ -355,7 +355,7 @@
       <statement>
         <p>
           When write an expression for <m>x_k^*</m> and use it in the
-          expresion.
+          expression.
         </p>
       </statement>
       <solution>
@@ -371,7 +371,7 @@
           </me>
           Then I can return to the form from the previous section and
           replace <m>x_k^*</m> with this new expression. I'll proceed
-          to simplify the polynomial after I've substituted<m>x_k^*</m>.
+          to simplify the polynomial after I've substituted <m>x_k^*</m>.
           <md>
             <mrow>
               \int_{-1}^1 (x^2+2+2) dx \amp = \lim_{n \rightarrow \infty}
@@ -507,7 +507,7 @@
       <solution>
         <p>
           I look to the tables of derivatives. <m>-\sin x</m> shows up
-          as the derivative of <m>cos x</m>, so I go backwards to
+          as the derivative of <m>\cos x</m>, so I go backwards to
           that original function.
           <me>
             \int -\sin x dx = \cos x + c 

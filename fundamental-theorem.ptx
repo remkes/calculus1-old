@@ -127,13 +127,14 @@
       to calculate definite integrals. Let <m>F</m> be any function
       such that <m>F^\prime(x) = f(x)</m>. Such a function <m>F</m> is
       called an <em>antiderivative</em> for <m>f</m>. I use
-      antiderivatives to evaluated integrals.
+      antiderivatives to evaluate integrals.
       <me>
         \int_a^b f(t) dt = F(b) - F(a)
       </me>
     </p>
   </subsection>
   <subsection xml:id="subsection-indefinite-integral">
+    <title>The Indefinite Integral</title>
     <p>
       To calculate antiderivatives, I need to do deriavitves backwards.
       Fortunately, this is much easier than using the definition of the
@@ -206,7 +207,7 @@
       I can use the fundamental theorem to calculate definite
       integrals as well. There is some special notation that is
       useful here: when I write <m>\left. F(x) \right|_a^b</m>, I
-      mean to evaluate  the function<m>F</m> at <m>a</m> and <m>b</m>
+      mean to evaluate  the function <m>F</m> at <m>a</m> and <m>b</m>
       and subtract the two evaluations. 
       <me>
         F(x) \Big|_a^b = F(b) - F(a)

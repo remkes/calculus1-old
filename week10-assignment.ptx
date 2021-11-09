@@ -24,7 +24,7 @@
       Solve this separable differential equation. (6)  
       <md>
         <mrow>
-          \frac{df}{dx} = \frac{s^3}{f^2}  
+          \frac{df}{dx} = \frac{x^3}{f^2}  
         </mrow>
       </md>
     </li>

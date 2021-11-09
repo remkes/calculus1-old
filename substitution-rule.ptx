@@ -6,22 +6,23 @@
       Since doing integrals is doing derivatives backwards, it might
       be reasonable to try to reversing all the differentiation rules.
       Linearity works exactly the same in reverse. The inverted power
-      rule works very similarly to the original power rule.  However,
-      inverting the product rule starts to become strange; I postpone
-      that to integration techniques covered in Calculus II. Arguably
-      the most important differentiation rule is the chain rule. I
-      will try to reverse it here.
+      rule works very similarly to the original power rule. After the
+      power rule, thouhg, the remaining rules don't easily reverse.
+      For most of these rules, I'll leave the strategies 
+      for Calculus II. But I do want to cover how to do the chain rule
+      backwards, which is the subject of this entire week. 
     </p>
     <p>
-      For a composition of function<m>f(g(x))</m>, the derivative is
-      <m>\frac{d}{dx} f(g(x)) = f^\prime(g(x)) g^\prime(x)</m>.
+      For a composition of functions <m>f(g(x))</m>, the derivative is
+      calculated by the chain rule.
+      <me>
+        \frac{d}{dx} f(g(x)) = f^\prime(g(x)) g^\prime(x)
+      </me>
       The simplest reversal of the chain rule is to integrate the
       right side to produce the left. 
-    </p>
-    <me>
-      \int f^\prime(g(x)) g^\prime(x) dx = f(g(x)) + c
-    </me>
-    <p>
+      <me>
+        \int f^\prime(g(x)) g^\prime(x) dx = f(g(x)) + c
+      </me>
       When I covered the chain rule, I recommended labelling the inside
       function with a new variable <m>u = g(x)</m>. This labelling
       becomes essential now. To implement the inverse of the chain
@@ -43,8 +44,10 @@
       The <m>dx</m> in the integral is not just a piece of notation
       that indicates the variable. It's actually part of the integral
       itself, even though it disappears in the anti-derivative
-      process. When I do the substitution rule, I need to replace this
-      <m>dx</m> with <m>du</m>. However, I can't just replace it
+      process. (This <m>dx</m> term is, quite confusingly, called the
+      <term>differential</term>.) When I do the substitution rule, I
+      need to replace the old differential <m>dx</m> with the new
+      differential<m>du</m>. However, I can't just replace it
       directy. The previous equation gives me the appropriate
       replacement: I need to replace <m>g^\prime(x) dx</m> with
       <m>du</m>. Lastly, if there are any other piece of the original
@@ -52,7 +55,7 @@
       done so far, I need to figure a way to replace those pieces as
       well, usually going some algebra with the new variable <m>u</m>.
       The key idea is that all of the original pieces of the original
-      variable -- all of the <m>x</m>'s, must be replace with
+      variable <mdash /> all of the <m>x</m>'s, must be replace with
       <m>u</m>. The old integral is entirely in <m>x</m>; the new
       integral is entirely in <m>u</m>. Once I've done the
       substitution, I get a new integral in <m>u</m> which is hopefuly

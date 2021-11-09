@@ -135,7 +135,7 @@
               \sum_{k=1}^n k^2
             </mrow>
           </md>
-          I evaluate the sum, which is on of the standard sums. 
+          I evaluate the sum, which is one of the standard sums. 
           <md>
             <mrow>
               \amp = \lim_{n \rightarrow \infty} \frac{27}{n^3}
@@ -241,7 +241,7 @@
         </mrow>
       </md>
       To integrate a constant, I just calculate the area of a
-      rectangle, since the area under a constant graph is a rectanble. 
+      rectangle, since the area under a constant graph is a rectangle. 
       <me>
         \int_a^b c dx = c(b-a)
       </me>

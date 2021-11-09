@@ -95,13 +95,11 @@
           do anything to the numerator, but I can factor the
           denominator to try to simplify the limit. The denominator
           factors using the special pattern for sums of cubes. 
-          <md>
-            <mrow>
-            \lim_{x \rightarrow -3} \frac{x+3}{x^3+27} \amp 0
+          <me>
+            \lim_{x \rightarrow -3} \frac{x+3}{x^3+27} =
             \lim_{x \rightarrow -3} \frac{(x+3)}{(x+3)(x^2-3x+9)} 
-            \amp = \lim_{x \rightarrow -3} \frac{1}{x^2-3x+9} 
-            </mrow>
-          </md>
+            = \lim_{x \rightarrow -3} \frac{1}{x^2-3x+9} 
+          </me>
           This is a limit I can now directly evaluate.
           <me>
             \lim_{x \rightarrow -3} \frac{1}{x^2-3x+9} =
