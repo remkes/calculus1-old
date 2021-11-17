@@ -27,7 +27,7 @@
               du \amp = 3x^2 dx 
             </mrow>
           </md>
-          We can rearrange the original integral to match these
+          I can rearrange the original integral to match these
           pieces, then do the replacement. 
           <md>
             <mrow>
@@ -182,7 +182,7 @@
               x \amp = 1 \implies u = (1)^2 + 4 = 5 
             </mrow>
           </md>
-          We can rearrange the integral so that I can substitute all
+          I can rearrange the integral so that I can substitute all
           the pieces clearly. 
           <me>
             \int_0^1 2x(x^2 + 4)^3 dx = \int_0^1 (x^2+4)^3 (2x dx)

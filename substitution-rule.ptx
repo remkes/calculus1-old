@@ -87,16 +87,16 @@
           \int (x^2+1)^4 (2x)dx \mapsto \int u^4 du
         </me>
         <p>
-          Then can find the anti-derivative easily by reversing the
+          Then can find the anti-derivative by reversing the
           power rule.
         </p>
         <me>
           \int u^4 du = \frac{u^5}{5} + c
         </me>
         <p>
-          AFter I find an antiderivative in the new variable <m>u</m>,
+          After I find an antiderivative in the new variable <m>u</m>,
           I need to return to the original variable by undoing the
-          substitution. I simply replace <m>u</m> with <m>x^2+4</m>.
+          substitution. I simply replace <m>u</m> with <m>x^2+1</m>.
           This gives me an antiderivative for the original function in
           the original variable.
         </p>

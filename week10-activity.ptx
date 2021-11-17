@@ -224,14 +224,14 @@
           Now I put the initial condition values in for <m>x</m> and
           <m>y</m>, to try to solve for the constant of integration.
           <me>
-            1 = \sqrt{\frac{2(2-1)^3+6c}{3}} \implies 1 = 2+6c \implies
-            c = \frac{-1}{6}
+            1 = \sqrt{\frac{2(2-1)^3+6c}{3}} \implies 3 = 2+6c \implies
+            c = \frac{1}{6}
           </me>
           Finally, having solve for the constant of integration, I
           replace <m>c</m> with the value solved for to get the final,
           unqiue solution.
           <me>
-            y = \sqrt{ \frac{2(x-1)^3-1}{3}}
+            y = \sqrt{ \frac{2(x-1)^3+1}{3}}
           </me>
         </p>
       </solution>
@@ -275,7 +275,7 @@
           <me>
             \frac{1}{27} = \frac{1+4c}{12} \implies 1+4c =
             \frac{12}{27} \implies 4c = \frac{-15}{27} \implies c =
-            \frac{-60}{27} 
+            \frac{-15}{108} = \frac{-5}{36}
           </me>
           Finally, having solve for the constant of integration, I
           replace <m>c</m> with the value solved for to get the final,

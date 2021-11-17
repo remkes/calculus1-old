@@ -16,7 +16,7 @@
       using a qualitative approach. In the easiest case, the right
       side of a DE only involves the independent variable. (This is
       the opposite of the autonomous equation, where the right side
-      only involved the <em>dependen</em> variable.)
+      only involved the <em>dependent</em> variable.)
       <me>
         \frac{df}{dx} = g(x)
       </me>
@@ -52,7 +52,7 @@
         <p>
           Here is a differential equation with an initial condition
           provided. After integrating both sides to solve the
-          differential equation, I replace <m>x</m> and <m>y</m> wiht
+          differential equation, I replace <m>x</m> and <m>y</m> with
           the values from the initial condition to solve for the
           constant of integrate. This lets me state a unique solution
           at the end. 
@@ -153,11 +153,11 @@
     </p>
     <p>
       In particular, this includes the autonomous equations 
-      previously studied; if set <m>f=1</m> in the previous
+      previously studied; if I set <m>f=1</m> in the previous
       expression, the resulting DE is an autonomous equation.
     </p>
     <p>
-      To solve these equations, I divie by  <m>g(y)</m> to move that
+      To solve these equations, I divide by  <m>g(y)</m> to move that
       function to the the left side of the equation. Then I integrate
       in <m>x</m>. 
       <md>
@@ -179,7 +179,7 @@
     </p>
     <p>
       I have now separated the problem into two integrals, hence
-      calling these separable equation. Now I try to integrate both
+      calling this a separable equation. Now I try to integrate both
       sides. In the integral, I need a constant of integration (which
       I wrote as <m>c</m>) but it is sufficient to include it on just
       one side of the equation.  After the integration is complete, I
