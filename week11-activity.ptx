@@ -14,11 +14,11 @@
       </statement>
       <solution>
         <p>
-          First we take the derivative.
+          First I take the derivative.
           <me>
             \frac{df}{dx} = 14x - 2
           </me>
-          Next we set the derivative to zero and solve.
+          Next I set the derivative to zero and solve.
           <md>
             <mrow>
               14x - 2 \amp = 0 
@@ -27,9 +27,9 @@
               x \amp = \frac{1}{7} 
             </mrow>
           </md>
-          The domain of this function is all real numbers. We split up
+          The domain of this function is all real numbers. I split up
           this domain using the critical point to get the intervals.
-          On each interval, we test the sign of the derivative.
+          On each interval, I test the sign of the derivative.
           <md>
             <mrow>
               \amp\left(-\infty, \frac{1}{7} \right) \amp 
@@ -49,7 +49,7 @@
             </mrow>
           </md>
           Since the function changes from decreasing to increasing at
-          the critical point, we must have a minimum at <m>x =
+          the critical point, there must be a minimum at <m>x =
           \frac{1}{7}</m>. 
         </p>
       </solution>
@@ -66,7 +66,7 @@
       </statement>
       <solution>
         <p>
-          First we take the derivative, using the quotient rule.
+          First I take the derivative, using the quotient rule.
           <md>
             <mrow>
             \frac{df}{dx} \amp = \frac{(x^2+7) \left( \frac{d}{dx} x-1
@@ -83,7 +83,7 @@
             \amp = \frac{-x^2 + 2x + 7}{(x^2+7)^2} 
             </mrow>
           </md>
-          Next we set the derivative to zero and solve. We only need
+          Next I set the derivative to zero and solve. I only need
           to set the numerator equal to zero. 
           <md>
             <mrow>
@@ -100,9 +100,9 @@
               \sqrt{8}}{2} = 1 \pm \sqrt{8}
             </mrow>
           </md>
-          The domain of this function is all real numbers. We split up
+          The domain of this function is all real numbers. I split up
           this domain using the critical points to get the intervals.
-          On each interval, we test the sign of the derivative. 
+          On each interval, I test the sign of the derivative. 
           <md>
             <mrow>
               \amp \left( -\infty, 1 - \sqrt{8} \right) \amp
@@ -144,13 +144,13 @@
       </statement>
       <solution>
         <p>
-          First we take the derivative, using the chain rule (I
+          First I take the derivative, using the chain rule (I
           haven't shown the steps here). 
           <me>
             \frac{df}{dx} = (2x)e^{x^2-4} 
           </me>
-          Next we set the derivative to zero and solve. Note that the
-          exponential term can never be zero, so we are free to divide
+          Next I set the derivative to zero and solve. Note that the
+          exponential term can never be zero, so I am free to divide
           by it, leaving only the polynomial term remaining. 
           <md>
             <mrow>
@@ -160,9 +160,9 @@
               x \amp = 0 
             </mrow>
           </md>
-          The domain of this function is all real numbers. We split up
+          The domain of this function is all real numbers. I split up
           this domain using the critical point to get the intervals.
-          On each interval, we test the sign of the derivative.
+          On each interval, I test the sign of the derivative.
           <md>
             <mrow>
               \amp \left(-\infty, 0 \right) \amp 
@@ -182,7 +182,7 @@
             </mrow>
           </md>
           Since the function change from decreasing to increasing at
-          the critical point, we must have a minimum at <m>x = 0</m>.
+          the critical point, there must be a minimum at <m>x = 0</m>.
         </p>
       </solution>
     </activity>
@@ -198,13 +198,13 @@
       </statement>
       <solution>
         <p>
-          First we take the derivative. I used the chain rule (with
+          First I take the derivative. I used the chain rule (with
           <m>u^{-1}</m> as the outside function), but the quotient
           rule works just a well.
           <me>
             \frac{df}{dx} = \frac{-(2x-6)}{(x^2-6x+10)^2} 
           </me>
-          Next we set the derivative to zero and solve. Note we only
+          Next I set the derivative to zero and solve. Note I only
           need to set the numerator equal to zero.
           <md>
             <mrow>
@@ -215,10 +215,10 @@
             </mrow>
           </md>
           This is not a root of the denominator, so this is a valid
-          critical point.  The domain of this function is all real
+          critical point. The domain of this function is all real
           numbers (since the denominator has no roots). We split up
           this domain using the critical point to get the intervals.
-          On each interval, we test the sign of the derivative.
+          On each interval, I test the sign of the derivative.
           <md>
             <mrow>
               \amp \left(-\infty, 3 \right) \amp 
@@ -238,7 +238,7 @@
             </mrow>
           </md>
           Since the function change from increasing to decreasing at
-          the critical point, we must have a minimum at <m>x = 3</m>. 
+          the critical point, there must be a minimum at <m>x = 3</m>. 
         </p>
       </solution>
     </activity>
@@ -258,11 +258,11 @@
       </statement>
       <solution>
         <p>
-          First we take the derivative.
+          First I take the derivative.
           <me>
             \frac{dh}{dt} = -6t + 9
           </me>
-          Next we set the derivative to zero and solve.
+          Next I set the derivative to zero and solve.
           <md>
             <mrow>
               -6t + 9 \amp = 0 
@@ -271,10 +271,10 @@
              t \amp = \frac{3}{2} 
             </mrow>
           </md>
-          The domain of this function is all real numbers, but we can
-          assume <m>t \geq </m> for the model. We split up
+          The domain of this function is all real numbers, but I can
+          assume <m>t \geq </m> for the model. I split up
           this domain using the critical point to get the intervals.
-          On each interval, we test the sign of the derivative.
+          On each interval, I test the sign of the derivative.
           <md>
             <mrow>
               \amp \left(0 \frac{3}{2} \right) \amp 
@@ -294,7 +294,7 @@
             </mrow>
           </md>
           Since the function change from increasing to decreasing at
-          the critical point, we must have a maximum at <m>t =
+          the critical point, there must be a maximum at <m>t =
           \frac{3}{2}</m>. The value at <m>t = \frac{3}{2}</m> is
           <m>-3 \left( \frac{3}{2} \right)^2 + 9 \frac{3}{2} + 7 =
           \frac{-27}{4} + \frac{27}{2} + 7 = \frac{27}{4} +
@@ -318,13 +318,13 @@
       </statement>
       <solution>
         <p>
-          First we take the derivative, using the chain rule (I
+          First I take the derivative, using the chain rule (I
           haven't shown the steps). 
           <me>
             \frac{dT}{dc} = \frac{14 (2c-4)}{2\sqrt{7 - 4c + c^2}} =
             \frac{14c - 28}{\sqrt{7 - 4c + c^2}} 
           </me>
-          Next we set the derivative to zero and solve. We only need
+          Next I set the derivative to zero and solve. I only need
           to consider the numerator. 
           <md>
             <mrow>
@@ -337,9 +337,9 @@
           The domain of this function is all real numbers, since the
           quadratic in the square root is always positive. However,
           concentration cannot be negative, so in the model we will
-          assume a domain of positive numbers. We split up
+          assume a domain of positive numbers. I split up
           this domain using the critical point to get the intervals.
-          On each interval, we test the sign of the derivative.
+          On each interval, I test the sign of the derivative.
           <md>
             <mrow>
               \amp \left(0, 2 \right) \amp 
@@ -361,7 +361,7 @@
             </mrow>
           </md>
           Since the function change from decreasing to increasing at
-          the critical point, we must have a minimum at <m>c = 2</m>.
+          the critical point, there must be a minimum at <m>c = 2</m>.
           The value of the function at <m>c=2</m> is <m>T(2) = 14
           \sqrt{7 - 8 + 4} = 14 \sqrt{3} \doteq 24.25</m>. The minimum
           bounding temperature if 24.25 degree celcius. 
@@ -383,15 +383,15 @@
       </statement>
       <solution>
         <p>
-          We replace <m>n</m> with 10000 in the function.
+          I replace <m>n</m> with 10000 in the function.
           <me>
             T(m) = 10000 \left(4m - 15 \ln (m-25) \right) 
           </me>
-          Then we take the derivative.
+          Then I take the derivative.
           <me>
             \frac{dT}{dm} = 10000 \left( 4 - 15 \frac{1}{m-25} \right)
           </me>
-          Next we set the derivative to zero and solve.
+          Next I set the derivative to zero and solve.
           <md>
             <mrow>
               4 - 15 \frac{1}{m-25} \amp = 0 
@@ -404,8 +404,8 @@
             </mrow>
           </md>
           The domain of this function is all numbers above 25. 
-          We split up this domain using the critical point to get the
-          intervals.  On each interval, we test the sign of the
+          I split up this domain using the critical point to get the
+          intervals.  On each interval, I test the sign of the
           derivative.
           <md>
             <mrow>
@@ -428,7 +428,7 @@
             </mrow>
           </md>
           Since the function change from decreasing to increasing at
-          the critical point, we must have a minimum at <m>m =
+          the critical point, there must be a minimum at <m>m =
           \frac{115}{4} </m>. The closest whole number to this is 29,
           so the ideal choice is 29 processors. 
         </p>
@@ -452,7 +452,7 @@
           <me>
             \frac{dE}{dh} = -\frac{1}{200}h^2 + \frac{2}{25}h 
           </me>
-          Next we set the derivative to zero and solve.
+          Next I set the derivative to zero and solve.
           <md>
             <mrow>
               \frac{-1}{200}h^2 + \frac{2}{25}h \amp = 0 
@@ -462,10 +462,10 @@
             </mrow>
           </md>
           The domain of this function is all real numbers, but the
-          model only makes sense for positive numbers. We ignore the
-          critical point at 0, since we interested in positive
-          heights. We split up this domain using the critical point to
-          get the intervals.  On each interval, we test the sign of
+          model only makes sense for positive numbers. I ignore the
+          critical point at 0, since I am only interested in positive
+          heights. I split up this domain using the critical point to
+          get the intervals. On each interval, I test the sign of
           the derivative.
           <md>
             <mrow>
@@ -488,7 +488,7 @@
             </mrow>
           </md>
           Since the function change from increasing to decreasing at
-          the critical point, we must have a maximum at <m>h =
+          the critical point, there must be a maximum at <m>h =
           16</m>. Therefore, the best fuel efficiency happens at a
           height of 16 kilometers.  
         </p>
@@ -517,8 +517,8 @@
       </statement>
       <solution>
         <p>
-          We have a possible maximum net benefit when the marginal cost
-          and marginal benefit are equal. We calculate those two and
+          There is a possible maximum net benefit when the marginal cost
+          and marginal benefit are equal. I calculate those two and
           set them equal to each other.
           <md>
             <mrow>
@@ -538,18 +538,18 @@
               x \amp = 4^\frac{2}{3} = \sqrt[3]{16} \doteq 2.52
             </mrow>
           </md>
-          Then we look at intervals. Below this critical value, say at
+          Then I look at intervals. Below this critical value, say at
           <m>x=1</m>, the marginal benefit is 2 and the marginal cost
           is <m>\frac{1}{2}</m>. Here the net benefit is increasing,
           since the marginal benefit exceeds the marginal cost. Above
           the critical value, say at <m>x=4</m>, the marginal cost is
           2 and the marginal benefit is 1. The marginal cost exceeds
-          the marginal benefit, so the net benefit is decreasing. We
-          conclude that we have a maximum net benefit at approximatly
+          the marginal benefit, so the net benefit is decreasing. I
+          conclude that there is a maximum net benefit at approximatly
           <m>x = 2.52</m>.
         </p>
         <p>
-          For the break even point, we set the two functions each to
+          For the break even point, I set the two functions each to
           each other and solve.
           <md>
             <mrow>
@@ -598,13 +598,13 @@
           </figure>
           These cost and benefit functions seems at least somewhat
           reasonable. The benefit function curves down, representing a
-          decreasing benefit with growing production. That reasonable
-          if the demand for a product eventually dries up. The cost
-          function curves up, showing that producing more eventually
-          ends up costing a great deal per unit. This might not be
-          correct if economies of scale bring down the cost, but it
-          might make sense if the skills or materials needed become
-          more difficult to acquire. 
+          decreasing benefit with growing production. That behaviour
+          is reasonable if the demand for a product eventually dries
+          up. The cost function curves up, showing that producing more
+          eventually ends up costing a great deal per unit. This might
+          not be correct if economies of scale bring down the cost,
+          but it might make sense if the skills or materials needed
+          become more difficult to acquire.
         </p>
       </solution>
     </activity>
@@ -623,15 +623,15 @@
           Determine the greatest possible net benefit. Also find the
           break-even point with the highest gross benefit. Given an
           interpretation of the cost and benefit functions, with
-          comment on their reasonability. (As a computer for the
+          comment on their reasonability. (Ask a computer for the
           solution for the break even point, since this is not easily
           solvable using algebraic methods.) 
         </p>
       </statement>
       <solution>
         <p>
-          We have a possile maximum net benefit when the marginal cost
-          and marginal benefit are equal. We calculate those two and
+          There is a possile maximum net benefit when the marginal cost
+          and marginal benefit are equal. I calculate those two and
           set them equal to each other.
           <md>
             <mrow>
@@ -651,18 +651,18 @@
              x \amp = \sqrt{20^3} \doteq 89.44
             </mrow>
           </md>
-          Then we look at intervals. The marginal cost is always
-          fixed, so we just need to look at the marginal benefit. When
+          Then I look at intervals. The marginal cost is always
+          fixed, so I just need to look at the marginal benefit. When
           <m>x \lt 89</m>, say <m>x = 27</m>, the marginal benefit is
           <m>\frac{2}{9}</m>, which is larger than the marginal
           cost. When <m>x \geq 90</m>, say <m>x = 125</m>, then the
           marginal benefit is <m>\frac{2}{25}</m>, which is smaller than
           the marginal cost. Therefore, the net benefit is increasing
-          before the critical point and decreasing after it, so we do
-          have a maximum.
+          before the critical point and decreasing after it, so there
+          is a maximum.
           </p>
           <p>
-          For the break even point, we set the two functions each to
+          For the break even point, I set the two functions each to
           each other and solve
           <md>
             <mrow>
@@ -709,7 +709,7 @@
           </figure>
           This cost function is linear, showing that producing more or
           less has no effect on the cost per unit. This is possible
-          for some items or services. The benefit function curve down
+          for some items or services. The benefit function curves down
           as in the previous activity, again likely representing that
           eventually the demand for the product or service becomes
           saturated.  
@@ -725,19 +725,21 @@
               C(x) \amp = \frac{1}{9} x^3
             </mrow>
             <mrow>
-              B(x) \amp = \left\{ \begin{matrix} 4x \amp x \leq 2 \\ 8 \amp
-              x > 2 \end{matrix} \right. 
+              B(x) \amp = \left\{ \begin{matrix} 
+                4x \amp x \leq 2 \\ 
+                8 \amp x > 2 
+              \end{matrix} \right. 
             </mrow>
           </md>
         </p>
       </statement>
       <solution>
         <p>
-          We have a possile maximum net benefit when the marginal cost
-          and marginal benefit are equal. We calculate those two and
-          set them equal to each other. We need to work with two
+          There is a possile maximum net benefit when the marginal cost
+          and marginal benefit are equal. I calculate those two and
+          set them equal to each other. I need to work with two
           pieces, one for <m>x \leq 2</m> and another for <m>x \gt
-          2</m>. We will start with <m> x \leq 2</m>.
+          2</m>. I will start with <m> x \leq 2</m>.
           <md>
             <mrow>
               \frac{d}{dx} C(x) \amp = \frac{x^2}{3} 
@@ -760,7 +762,7 @@
           of this part of the domain, the marginal cost is bounded by
           <m>\frac{4}{3}</m>, which is always smaller than the
           marginal benefit, so the net benefit is always increasing.
-          Now let's consider <m>x \gt 2</m>.
+          Now I'll consider <m>x \gt 2</m>.
           <md>
             <mrow>
               \frac{d}{dx} C(x) \amp = \frac{x^2}{3}
@@ -770,19 +772,19 @@
             </mrow>
           </md>
           These can never be equal and the marginal cost is always
-          larger than the marginal benefit. We don't have a critical
-          point and the net benefit is always decreasing. 
+          larger than the marginal benefit. There are no critical
+          points and the net benefit is always decreasing. 
           </p>
           <p>
-          Even though we don't have a critical point, we have an
+          Even though there are no critical points, there is still an
           understandable situation. Before <m>x=2</m>, the net benefit
           is increasing and after <m>x=2</m>, the net benefit is
-          decreasing. Therefore, we have the maximum net benefit at
+          decreasing. Therefore, the maximum net benefit is at
           the cross-over point, when <m>x=2</m>.
           </p>
           <p>
-          For the break even point, we set the two functions each to
-          each other and solve. Again, we work in two pieces, first
+          For the break even point, I set the two functions each to
+          each other and solve. Again, I work in two pieces, first
           taking <m>x \leq 2</m>. 
           <md>
             <mrow>
@@ -799,7 +801,7 @@
             </mrow>
           </md>
           This point isn't in this section of the domain, so it is not
-          a break even point. We also have <m>x=0</m> that satisfies
+          a break even point. It is also true that <m>x=0</m> satisfies
           this equality, but that isn't an interesting break even
           point. Now let's take <m>x \gt 2</m>. 
           <md>
@@ -816,7 +818,7 @@
               x \amp = \sqrt[3]{72} \doteq 4.16
             </mrow>
           </md>
-          We have a break even point. It is the only (non-zero) break
+          There is a break even point. It is the only (non-zero) break
           even point and the benefit is always positive, so it must be
           the largest break even point.  <xref
           ref="figure-marginal-3" /> shows the behaviour of this
@@ -856,9 +858,7 @@
           benefit is linear, meaning that each unit produces the same
           benefit. However, the benefit suddenly becomes flat, showing
           that after a period of time, the demand is suddenly zero and
-          no more benefit can be produces. In this case, the
-          break-even analysis isn't very useful, since we are already
-          at the highest benefit value much ealier. 
+          no more benefit can be produces. 
         </p>
       </solution>
     </activity>
@@ -868,11 +868,11 @@
     <p>
       <ul>
         <li>
-          Why can we use derivatives to find maxima and minima of
+          Why are derivatives used to find maxima and minima of
           function?
         </li>
         <li>
-          Why do we use intervals to test the sign of the derivative
+          Why are intervals used to test the sign of the derivative
           on the intervals?
         </li>
         <li>
@@ -883,7 +883,7 @@
           measure by derivatives?
         </li>
         <li>
-          Why do we have critical points when marginal cost and
+          Why are there critical points when marginal cost and
           marginal benefit are equal?
         </li>
       </ul>

@@ -6,37 +6,29 @@
       Let <m>f: [a,b] \rightarrow \RR</m> be a function.
       <ul>
         <li>
-          <p>
-            A point <m>(c,f(c))</m> is called a <em>local maximum</em>
-            for <m>f</m> if <m>f(c) \geq f(x)</m> for all <m>x</m> close
-            to <m>c</m>.
-          </p>
+          A point <m>(c,f(c))</m> is called a <em>local maximum</em>
+          for <m>f</m> if <m>f(c) \geq f(x)</m> for all <m>x</m> close
+          to <m>c</m>.
         </li>
         <li>
-          <p>
-            A point is a <em>local minimum</em> if <m>f(c) \leq f(x)</m>
-            for all <m>x</m> close to <m>c</m>.
-          </p>
+          A point is a <em>local minimum</em> if <m>f(c) \leq f(x)</m>
+          for all <m>x</m> close to <m>c</m>.
         </li>
       </ul>
     </p>
     <p>
       The plurals of these terms are local minima and local maxima; if
-      we want to refer to both, we will simply say local extrema. We
+      I want to refer to both, I will simply say local extrema. I
       can also define global extrema.
       <ul>
         <li>
-          <p>
-            The point <m>(c,f(c))</m> is a global maximum if
-            <m>f(c) > f(x)</m> for all <m>x</m> in the domain of the
-            function.
-          </p>
+          The point <m>(c,f(c))</m> is a global maximum if
+          <m>f(c) > f(x)</m> for all <m>x</m> in the domain of the
+          function.
         </li>
         <li>
-          <p>
-            The point is a global minimum if
-            <m>f(c) \lt f(x)</m> for all <m>x</m> in the domain.
-          </p>
+          The point is a global minimum if
+          <m>f(c) \lt f(x)</m> for all <m>x</m> in the domain.
         </li>
       </ul>
     </p>
@@ -68,10 +60,10 @@
       </image>
     </figure>
     <p>
-      The tangent lines are horizontal at maximum or minimum values. We
-      can make use of this fact to try to find these extrema.
+      The tangent lines are horizontal at maximum or minimum values. 
+      I can make use of this fact to try to find these extrema.
       Horizontal tangent lines have zero slope, to they can only occur
-      when <m>f^\prime(x) = 0</m>. Therefore, we look for points
+      when <m>f^\prime(x) = 0</m>. Therefore, I look for points
       <m>x</m> where the derivative vanishes. Such points will be
       called the <em>critical points</em> of the function.
     </p>
@@ -82,9 +74,9 @@
       critical points. I usually do this in a table of interval,
       demonstrated in <xref ref="example-extrema1" /> and <xref
       ref="example-extrema2" />. I use the
-      critical points to split up the domain into intervel. It is
+      critical points to split up the domain into intervals. It is
       important that I split <em>the domain</em> into intervals: if
-      the domain already have intervals in it, these are further split
+      the domain already has breaks in it, these are further split
       up by the critical points.
     </p>
     <p>
@@ -164,7 +156,7 @@
       <statement>
         <p>
           Consider the quadratic <m>f(x) = x^2 + 2</m>. The derivative
-          is <m>f^\prime(x) = 2x</m>. To find the critical points, we
+          is <m>f^\prime(x) = 2x</m>. To find the critical points, I
           set the derivative equal to zero.
           <md>
             <mrow>
@@ -179,18 +171,18 @@
           </md>
         </p>
         <p>
-          So <m>x=0</m> is the only critical point. After we have found
-          a critical point, we need to determine if it is a maximum,
-          minimum, or neither. We do this by looking at the sign of the
+          So <m>x=0</m> is the only critical point. After I have found
+          a critical point, I need to determine if it is a maximum,
+          minimum, or neither. I do this by looking at the sign of the
           derivative near the critical point. The easiest way to record
-          this information is in intevals of increase and decrease. We
+          this information is in intevals of increase and decrease. I
           divide the <em>domain</em> of the function into pieces
-          seperated by the critical points.
+          separated by the critical points.
         </p>
         <p>
           In this example, the domain is <m>\RR</m> and the only
           critical point is <m>x=0</m>. Splitting the domain by that
-          critical point gives us the intervals <m>(-\infty, 0)</m> and
+          critical point gives the intervals <m>(-\infty, 0)</m> and
           <m>(0,\infty)</m>. I set up a table to test the intervals.
           <md>
             <mrow>
@@ -207,9 +199,9 @@
               \amp \text{decreasing} \amp \amp \text{increasing}
             </mrow>
           </md>
-          This table lets us classify the critical point. At
+          This table lets me classify the critical point. At
           <m>x=0</m>, the function switches from decreasing to
-          increasing. This means that <m>x</m> must be a minimum. We
+          increasing. This means that <m>x</m> must be a minimum. I
           can conclude that <m>(0,2)</m> is a local minimum of the
           function.
         </p>
@@ -218,9 +210,10 @@
     <example xml:id="example-extrema2">
       <statement>
         <p>
-          If <m>f(x) = 2x^3 + 3x^2 - 36x + 4</m> then <m>f^\prime(x) =
-          6x^2 + 6x - 36 = 6(x^2 + x - 6)</m>. We set the derivative
-          equal to zero to find the critical points.
+          Now I'll consider a cubic <m>f(x) = 2x^3 + 3x^2 - 36x +
+          4</m> with derivative <m>f^\prime(x) = 6x^2 + 6x - 36 =
+          6(x^2 + x - 6)</m>. I set the derivative equal to zero to
+          find the critical points.
           <md>
             <mrow>
               6 (x^2 + x - 6) \amp  = 0
@@ -240,10 +233,10 @@
           </md>
         </p>
         <p>
-          We have two critical points, <m>x=2</m> and <m>x=-3</m>. The
+          I have two critical points, <m>x=2</m> and <m>x=-3</m>. The
           domain of the function is <m>\RR</m>, so the intervals are
-          <m>(-\infty,-3)</m>, <m>(-3,2)</m> and <m>(2,\infty)</m>. We
-          check the sign of the derivative on these intevals; we do this
+          <m>(-\infty,-3)</m>, <m>(-3,2)</m> and <m>(2,\infty)</m>. I
+          check the sign of the derivative on these intevals; I do this
           by simply choosing any point in the interval and evaluated.
           The following table shows the intervals and the behaviour of
           the derivative on each interval.
@@ -274,26 +267,26 @@
           behaviour.
         </p>
       </statement>
+      <figure xml:id="figure-cubic-extrema-example">
+        <caption>Extrema of a Cubic</caption>
+        <image xml:id="figure55"  width="60%">
+          <asymptote>
+            size(10cm,5cm,IgnoreAspect);
+  
+            import graph;
+  
+            xaxis("$x$");
+            yaxis("$y$");
+  
+            real f(real x) {return 2x^3+ 3x^2 - 36x + 4;}
+  
+            draw(graph(f,-6,5));
+  
+            dot("$(-3,85)$",(-3,85),N);
+            dot("$(2,-40)$",(2,-40),S);
+          </asymptote>
+        </image>
+      </figure>
     </example>
-    <figure xml:id="figure-cubic-extrema-example">
-      <caption>Extrema of a Cubic</caption>
-      <image xml:id="figure55"  width="60%">
-        <asymptote>
-          size(10cm,5cm,IgnoreAspect);
-
-          import graph;
-
-          xaxis("$x$");
-          yaxis("$y$");
-
-          real f(real x) {return 2x^3+ 3x^2 - 36x + 4;}
-
-          draw(graph(f,-6,5));
-
-          dot("$(-3,85)$",(-3,85),N);
-          dot("$(2,-40)$",(2,-40),S);
-        </asymptote>
-      </image>
-    </figure>
   </subsection>
 </section>

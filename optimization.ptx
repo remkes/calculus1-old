@@ -3,7 +3,7 @@
   <subsection xml:id="subsection-models-exterme-values">
     <title>Extreme Values of Models</title>
     <p>
-      Now that we understand how to find extrema using derivatives, we
+      Now that I understand how to find extrema using derivatives, I
       can use this technique to solve optimization problems. An
       optimization problem is any problem in applied mathematics where
       the goal is the optimal value of function, either expressed as a
@@ -40,21 +40,21 @@
           </image>
         </figure>
         <p>
-          We want to maximize area, so we will eventually be
+          I want to maximize area, so I will eventually be
           differentiating an area function. However, the area
-          function is <m>A = ab</m>, which has two variables. We need
+          function is <m>A = ab</m>, which has two variables. I need
           to use the perimeter restriction to eliminate one of the
-          variables. We know <m>P = 2a + 2b</m> so <m>a = \frac{P}{2}
-          - b</m>. If we substitute for <m>a</m> in the area
-          function, we get a single variable area function <m>A(b)</m>.
+          variables. I know <m>P = 2a + 2b</m> so <m>a = \frac{P}{2}
+          - b</m>. If I substitute for <m>a</m> in the area
+          function, I get a single variable area function <m>A(b)</m>.
           <me>
             A(b) = b \left( \frac{P}{2} - b \right)
           </me>
         </p>
         <p>
-          Then we can optimize. The derivative is <m>A^\prime(b) =
+          Then I can optimize. The derivative is <m>A^\prime(b) =
           \frac{P}{2} - 2b</m>. This vanishes when <m>b =
-          \frac{P}{4}</m>. We can test that the critical point is a
+          \frac{P}{4}</m>. I can test that the critical point is a
           maximum. Unsurprisingly, the result shows that a square
           (where both <m>b</m> and <m>a</m> are exactly one quarter of
           the perimeter) maximizes area.
@@ -98,11 +98,11 @@
     <p>
       The distance function is a well defined function which we can
       use to do optimization problems. That said, the square root is
-      difficult to work with, particular if we need to differentiate.
+      difficult to work with, particular if I need to differentiate.
       For distance problems, I am going to make use of a very
-      convenient trick. If two are at an optimized distance (closest
-      or most distance in some situation), then the  square of the
-      distance will also be smallest or
+      convenient trick. If two points are at an optimized distance
+      (closest or most distance in some situation), then the  square
+      of the distance will also be smallest or
       largest. Obviously, the square of the distance is a different
       number, but it is optimized at the same place that distance is
       optmized. For this reason, I will optimize the square of
