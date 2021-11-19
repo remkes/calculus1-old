@@ -7,13 +7,13 @@
     <li>
       Find the maxima and the minima of this function. (4)
       <me>
-        f(x) = \frac{x + 5}{x^2 - 1}
+        f(x) = \ln (1 + x - x^2)
       </me>
     </li>
     <li>
-      Find the maxima and the minima of this function. (4)
+      Find the maxima and the minima of this function. (6)
       <me>
-        f(x) = \ln (1 + x - x^2)
+        f(x) = \frac{x + 5}{x^2 - 1}
       </me>
     </li>
     <li>
@@ -34,14 +34,14 @@
         </md>
       </p>
       <p><ol>
-        <li><p>
+        <li>
           At what production level is there maximum net benefit?
-        </p></li>
-        <li><p>
+        </li>
+        <li>
           At what production level is there maximum gross benefit while
           still having cost not exceed benefit? 
-        </p></li>
-      </ol>
+        </li>
+      </ol></p>
     </li>
-  </ol>
+  </ol></p>
 </section>
