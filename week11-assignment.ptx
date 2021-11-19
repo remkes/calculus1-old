@@ -5,41 +5,35 @@
   <title>Week 11 Assignment</title>
   <p><ol>
     <li>
-    </li>
-  </ol></p>
-</section>
-
-<!-- Previous Assignment
-<section xml:id="section-assignment-week11">
-  <title>Week 11 Assignment</title>
-  <ol>
-    <li>
-      <p>
-        Find the maxima and the minima of this function. (6)
-        <me>
-          f(x) = \frac{x^3 + 7}{x^2 - 3}
-        </me>
-      </p>
+      Find the maxima and the minima of this function. (4)
+      <me>
+        f(x) = \frac{x + 5}{x^2 - 1}
+      </me>
     </li>
     <li>
-      <p>
-        Which point(s) on the parabola <m>y = (x-4)^2 + 3</m> are
-        closest to the the point <m>(4,6)</m>? (6) 
-      </p>
+      Find the maxima and the minima of this function. (4)
+      <me>
+        f(x) = \ln (1 + x - x^2)
+      </me>
+    </li>
+    <li>
+      Which point(s) on the parabola <m>y = x^2 - 4x - 2</m> are
+      closest to the the point <m>(4,-1)</m>? (Just the <m>x</m>
+      coordinate of the point is sufficient.) (6) 
     </li>
     <li>
       <p>
         Consider the following cost and benefit functions. (8)
         <md>
           <mrow>
-            C(x) \amp = 10x^3 - 10x^2 + 30x 
+            C(x) \amp = x^3 - x^2 - x + 5 
           </mrow>
           <mrow>
-            B(x) \amp = 80x 
+            B(x) \amp = 4x 
           </mrow>
         </md>
       </p>
-      <ol>
+      <p><ol>
         <li><p>
           At what production level is there maximum net benefit?
         </p></li>
@@ -51,4 +45,3 @@
     </li>
   </ol>
 </section>
--->
