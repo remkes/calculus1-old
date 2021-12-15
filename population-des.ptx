@@ -4,7 +4,7 @@
     <title>Percentage Growth</title>
     <p>
       In <xref ref="section-population-growth" />, I talked about
-      percetage growth of population. Then, in <xref
+      percetage growth for populations. Then, in <xref
       ref="section-differential-equations" />, I argued that I could
       translate percentage growth into a differential equation. If a
       population <m>p(t)</m> had a growth rate of <m>c</m>
@@ -20,11 +20,11 @@
       </me>.
       In the history of population models, this is often called the
       Malthusian model of population growth. It is one of the very
-      first pieces of mathematical biology. In Malthus' model, the
-      constant <m>\alpha</m> had two (or three pieces). There is a
-      positive birth rate <m>b</m>, a negative death rate <m>d</m>,
-      and possibly a migration rate <m>m</m> which could be positive
-      or negative. The total growth rate is 
+      first pieces of mathematical biology. In the original model that
+      Malthus produced, the constant <m>\alpha</m> had two (or three
+      pieces). There is a positive birth rate <m>b</m>, a negative
+      death rate <m>d</m>, and possibly a migration rate <m>m</m>
+      which could be positive or negative. The total growth rate is 
       <me>
         \alpha = b - d + m 
       </me>.
@@ -67,10 +67,10 @@
     <p>
       Being able to actually solve the DE justifies the previous
       connection I made between exponential functions and percentage
-      growth. This is the ideal situation: I want to observe a growth
-      pattern, write it down in a differential equation, and actually
-      solve that differential equation to get a function that
-      describese the growth.
+      growth. This is an ideal situation in applied mathematics: I
+      want to observe a growth pattern, write it down in a
+      differential equation, and actually solve that differential
+      equation to get a function that describese the growth.
     </p>
     <p>
       The Malthusian model is the starting point for population
@@ -105,23 +105,23 @@
       </me>.
       Now I want the rate of change to start out like this, but
       decrease as I get close to the carrying capacity. If the
-      population is 
-      exactly at its carrying capacity, I want the growth rate to be
-      zero. I can accomplish this by multiplying the right side by
-      <m>\left( 1 - \frac{p}{K} \right)</m>. When the population
-      is small (at least compared to <m>K</m>), this is almost
-      <m>1</m>, so multiplication by this term has little effect. When
-      the population is close to <m>K</m>, the fraction
-      <m>\frac{p}{K}</m> is close to <m>1</m>, so the term becomes
-      close to <m>0</m>.  Multiplying by something close to zero makes
-      the growth rate shrink to a small value. This is precisely what
-      I want: as the population approaches <m>K</m>, the growth rate
-      gets smaller and smaller. Finally, if the population start above
-      <m>K</m>, this term is negative and makes the population
-      decrease back down to this value, <m>K</m>.
+      population is exactly at its carrying capacity, I want the
+      growth rate to be zero. I can accomplish this by multiplying the
+      right side by <m>\left( 1 - \frac{p}{K} \right)</m>. When the
+      population is small (at least compared to <m>K</m>), this is
+      almost <m>1</m>, so multiplication by this term has little
+      effect. When the population is close to <m>K</m>, the fraction
+      <m>\frac{p}{K}</m> is close to <m>1</m>, so the difference in
+      brackets becomes close to <m>0</m>.  Multiplying by something
+      close to zero makes the growth rate shrink to a small value.
+      This is precisely what I want: as the population approaches
+      <m>K</m>, the growth rate gets smaller and smaller. Finally, if
+      the population starts above <m>K</m>, this term is negative and
+      makes the population decrease back down to this value,
+      <m>K</m>.
     </p>
     <p>
-      It I indluce this new adjustment to the Malthusian model, I get
+      If I indluce this new adjustment to the Malthusian model, I get
       the logistic equaiton.
       <me>
         \frac{dp}{dt} = \alpha p \left( 1 - \frac{p}{K} \right)
@@ -210,7 +210,7 @@
         p(t) = \frac{K\left( \frac{p_0}{K-p_0} \right) e^{\alpha
         t}}{ \left( \frac{p_0}{K - p_0} \right) e^{\alpha t} +1}
       </me>
-      Finally, I simplity by multiplying numerator and denominator by
+      Finally, I simplify by multiplying numerator and denominator by
       <m>(K-p_0)</m>
       <me>
         p(t) = \frac{Kp_0e^{\alpha t}}{ p_0e^{\alpha t} + K - p_0}
@@ -221,13 +221,13 @@
       />. 
     </p>
     <p>
-      In summary, I was able to turn the two most important
-      basic models of population into differential equations. Using
-      the method of separable equations, I was able to actually solve
-      the DEs and produce the function which I claimed were the solution
-      many weeks ago. I have justification for those functions, since
-      I have now produced them from the DE instead of pulling them out
-      of thin air. 
+      In summary, I was able to turn the two most important basic
+      models of population into differential equations. Using the
+      method of separable equations, I was able to actually solve the
+      DEs and produce the functions which I claimed were the solutions
+      in <xref ref="section-population-growth" />.  I have
+      justification for those functions, since I have now produced
+      them from the DE instead of pulling them out of thin air. 
     </p>
   </subsection>
 </section>

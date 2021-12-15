@@ -112,7 +112,7 @@
           Take the cost function <m>C(x) = x^3 - x^2 + x+ 1</m> and
           the benefit function <m>B(x) = 3x</m>. Assume that this
           model measures the produce of some objects that are then
-          sold. <m>x</m> can be measured in thousdands of units and
+          sold. <m>x</m> can be measured in thousands of units and
           <m>B</m> and <m>C</m> can be measured in millions of
           dollars. Notice that <m>C(0) = 1</m>, which could represent
           an initial start-up cost before the production of a single

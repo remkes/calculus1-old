@@ -30,7 +30,7 @@
           Intercepts: To find the <m>y</m> intercept, I simply
           evaluate the function at 0. 
           <me>
-            f(0) = e^{-0} (0^2 + 30 - 6) = -6
+            f(0) = e^{-0} (0^2 + 3(0) - 6) = -6
           </me>
           There is a <m>y</m> intercept at <m>(0,-6)</m>. To find the
           <m>x</m> intercept, I need to solve <m>f(x) = 0</m>. Note
@@ -216,9 +216,9 @@
               \amp f^{\prime\prime} (4) = e^{-4} (16 - 4 - 10) 
             </mrow>
             <mrow>
-              \amp f^{\prime\prime} (-4) = e^3 (2) \amp 
+              \amp f^{\prime\prime} (-3) = e^3 (2) \amp 
               \amp f^{\prime\prime} (0) = -10 \amp 
-              \amp f^{\prime\prime} (3) = e^{-4} (2) 
+              \amp f^{\prime\prime} (4) = e^{-4} (2) 
             </mrow>
             <mrow>
               \amp \text{Positive} \amp
@@ -540,7 +540,7 @@
           \infty</m>.
           <me>
             \lim_{t \rightarrow \infty} \frac{4t^2 + 3}{t^2 + 3} =
-            \frac{4}{1} = 1
+            \frac{4}{1} = 4
           </me>
           The asymptotic order of the numerator and denominator are
           the same, so the limit is the ratio of the leading
@@ -562,10 +562,10 @@
               (2t)}{(t^2+3)^2} 
             </mrow>
             <mrow>
-              \amp = \frac{8t^3 + 24t - 8t^3 + 16t}{(t^2+3)^2} 
+              \amp = \frac{8t^3 + 24t - 8t^3 - 6t}{(t^2+3)^2} 
             </mrow>
             <mrow>
-              \amp = \frac{8t}{(t^2+3)^2} 
+              \amp = \frac{18t}{(t^2+3)^2} 
             </mrow>
           </md>
           Assuming that I restrict to the domain <m> t \gt
@@ -622,7 +622,7 @@
           \infty</m>. 
           <me>
             \lim_{d \rightarrow \infty} 16 - \frac{\sqrt{d}}{3} =
-            \infty. 
+            -\infty. 
           </me>
           The temperature gets lower and lower without bound. 
         </p>

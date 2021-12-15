@@ -251,7 +251,7 @@
           without having to make that choice, I can leave the
           expression in <m>x</m> and <m>y</m> as it is, without
           isolating one variable. In that form, I can still input the
-          initial value and solve for the constant of integration. 
+          initial values and solve for the constant of integration. 
           <md>
             <mrow>
               \frac{y^2}{2} \amp = \frac{-x^2}{2} + c 

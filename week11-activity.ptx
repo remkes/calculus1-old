@@ -238,7 +238,7 @@
             </mrow>
           </md>
           Since the function change from increasing to decreasing at
-          the critical point, there must be a minimum at <m>x = 3</m>. 
+          the critical point, there must be a maximum at <m>x = 3</m>. 
         </p>
       </solution>
     </activity>
@@ -383,13 +383,12 @@
       </statement>
       <solution>
         <p>
-          I replace <m>n</m> with 10000 in the function.
           <me>
-            T(m) = 10000 \left(4m - 15 \ln (m-25) \right) 
+            T(m) = n \left(4m - 15 \ln (m-25) \right) 
           </me>
-          Then I take the derivative.
+          I start with  the derivative.
           <me>
-            \frac{dT}{dm} = 10000 \left( 4 - 15 \frac{1}{m-25} \right)
+            \frac{dT}{dm} = n \left( 4 - 15 \frac{1}{m-25} \right)
           </me>
           Next I set the derivative to zero and solve.
           <md>
@@ -413,10 +412,10 @@
               \amp \left( \frac{115}{4}, \infty \right)
             </mrow>
             <mrow>
-              \amp f^\prime (26) = 10000 \left(4 - 15 \frac{1}{1}
-              \right) = -1100000 \amp 
-              \amp f^\prime (35) = 10000 \left(4 - 15 \frac{1}{10}
-              \right) = 25000
+              \amp f^\prime (26) = n \left(4 - 15 \frac{1}{1}
+              \right) = -11n \amp 
+              \amp f^\prime (35) = n \left(4 - 15 \frac{1}{10}
+              \right) = \frac{2}{5} n
             </mrow>
             <mrow>
               \amp \text{Negative} \amp
