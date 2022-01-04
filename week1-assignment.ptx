@@ -1,5 +1,5 @@
 <!--
-  This assignment was used for the Fall 2021 term.
+  This assignment was used for the Winter 2022 term.
 -->
 <section xml:id="section-assignment-week1">
   <title>Week 1 Assignment</title>
@@ -9,27 +9,32 @@
         Find the intersection points of the following pairs of curves.
         (Where you have square roots, you can leave your answers in
         square root form <mdash /> you don't need to evaluate to
-        demical approximations.) (12)
+        demical approximations.) (16)
       </p>
       <p><ol>
         <li>
-          The line <m>y=x-5</m> and the hyperbola <m>y^2 - x^2 =
-          5</m>.
+          The line <m>x = 4</m> and the ellipse <m>\frac{x^2}{25} +
+          \frac{y^2}{36} = 1</m>.
         </li>
         <li>
-          The ellipse <m>\frac{x^2}{4} + \frac{y^2}{16} = 1</m> and
-          the parabola <m>y = \frac{x^2}{4}</m>. 
+          The line <m>y = 3x</m> and the parabola <m>y = x^2 - 9x -
+          4</m>.  
         </li>
         <li>
-          The hyperbola <m>\frac{-x^2}{6} + \frac{y^2}{27} = 1</m> and
-          the parabola <m>y = \frac{-3x^2}{4}</m>.
+          The ellipse <m>x^2 + \frac{y^2}{4} = 1</m> and
+          the circle <m>x^2 + y^2 = 4</m>. 
+        </li>
+        <li>
+          The hyperbola <m>\frac{x^2}{9} - \frac{y^2}{4} = 1</m> and
+          the line <m>x = 0</m>.
         </li>
       </ol></p>
     </li>
     <li>
-      What are all the ways two circles can intersect. Give
-      examples, either by drawing or by expressing in intersections
-      algebraically. (4)
+      Draw three examples of two conics meeting at exactly three
+      points. (The examples should each have a different structure or
+      pattern). It is necessary that at least one of the three points
+      is a tangential intersection? (6)
     </li>
   </ol></p>
 </section>
