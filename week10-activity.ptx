@@ -124,7 +124,7 @@
           replace <m>c</m> with the value solved for to get the final,
           unique solution.
           <me>
-            y = x e{-\ln 3} = \frac{x}{e^\ln 3} = \frac{x}{3}
+            y = x e^{-\ln 3} = \frac{x}{e^{\ln 3}} = \frac{x}{3}
           </me>
         </p>
       </solution>

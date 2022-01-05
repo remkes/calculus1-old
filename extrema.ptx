@@ -266,27 +266,27 @@
           ref="figure-cubic-extrema-example" /> shows the
           behaviour.
         </p>
+        <figure xml:id="figure-cubic-extrema-example">
+          <caption>Extrema of a Cubic</caption>
+          <image xml:id="figure55"  width="60%">
+            <asymptote>
+              size(10cm,5cm,IgnoreAspect);
+    
+              import graph;
+    
+              xaxis("$x$");
+              yaxis("$y$");
+    
+              real f(real x) {return 2x^3+ 3x^2 - 36x + 4;}
+    
+              draw(graph(f,-6,5));
+    
+              dot("$(-3,85)$",(-3,85),N);
+              dot("$(2,-40)$",(2,-40),S);
+            </asymptote>
+          </image>
+        </figure>
       </statement>
-      <figure xml:id="figure-cubic-extrema-example">
-        <caption>Extrema of a Cubic</caption>
-        <image xml:id="figure55"  width="60%">
-          <asymptote>
-            size(10cm,5cm,IgnoreAspect);
-  
-            import graph;
-  
-            xaxis("$x$");
-            yaxis("$y$");
-  
-            real f(real x) {return 2x^3+ 3x^2 - 36x + 4;}
-  
-            draw(graph(f,-6,5));
-  
-            dot("$(-3,85)$",(-3,85),N);
-            dot("$(2,-40)$",(2,-40),S);
-          </asymptote>
-        </image>
-      </figure>
     </example>
   </subsection>
 </section>
