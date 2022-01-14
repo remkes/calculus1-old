@@ -1,27 +1,42 @@
-
 <!--
   This assignment was used for the Winter 2022 term.
 -->
 <section xml:id="section-assignment-week2">
   <title>Week 2 Assignment</title>
-  <!--
   <p><ol>
     <li>
       <p>
         For each of the following situations, what kind of function
         might you choose to encode the dependence? Give reasons for
-        your answer, but feel free to be honest, satirical or ironic
-        as you see fit. (6) 
+        your answer. (6) 
       </p>
       <p><ol>
         <li>
-          Happiness as a function of chocolate consumed.  
+          The hours of sunlight per day as a function of time
+          measured in years. 
         </li>
         <li>
-          Fear as a function of diving board height when diving. 
+          The rate of tree growth as a function of hours of sunlight.
         </li>
         <li>
-          Stress as a function of hours of sleep per night. 
+          The average temperature as a function of lattitude. 
+        </li>
+      </ol></p>
+    </li>
+    <li>
+      <p>
+        For each of the following functions, express the function as
+        the composition of two other functions. (6) 
+      </p>
+      <p><ol>
+        <li>
+          <m>\sqrt{3x^2 + x^4}</m>
+        </li>
+        <li>
+          <m>\frac{1}{\ln (x^2 + 1)}</m>
+        </li>
+        <li>
+          <m>\tan (x^2 + 1) + \cot (x^2 + 1)</m>
         </li>
       </ol></p>
     </li>
@@ -35,13 +50,14 @@
       </p>
       <p><ol>
         <li>
-          <m>f(x) = \frac{1}{x^2-1}</m> and <m>g(x) = x^2-3</m>. 
+          <m>f(x) = \frac{1}{x+1}</m> and <m>g(x) = x^2 + 7 </m>. 
         </li>
         <li>
-          <m>f(x) = e^{\frac{1}{1+x}}</m> and <m>g(x) = 1-x</m>. 
+          <m>f(x) = e^x</m> and <m>g(x) = x^3 + 3^2 + 4x = 9</m>. 
         </li>
         <li>
-          <m>f(x) = \sin (x^2)</m> and <m>g(x) = 3 - e^x</m>. 
+          <m>f(x) = \sin \left( \frac{x}{4} \right)</m> and <m>g(x) =
+          \sqrt{x+2}</m>. 
         </li>
       </ol></p>
     </li>
@@ -49,22 +65,23 @@
       <p>
         Invert the following functions on the given domain. (You may
         assume the function is monotonic on the given domain). State
-        the domain of the inverse. (15) 
+        the domain of the inverse. (12) 
       </p>
       <p><ol>
         <li>
-          <m>f(x) = \frac{2+x}{3-x}</m> on the domain
-          <m>(3,\infty)</m>. 
+          <m>f(x) = \frac{4-x}{2+x}</m> on the domain
+          <m>(-2,\infty)</m>. 
         </li>
         <li>
-          <m>f(x) = \tan \left( \frac{1}{x} \right)</m> on the
-          domain <m>\left[ \frac{2}{\pi} ,\infty \right)</m>. 
+          <m>f(x) = \sin (x + 4)</m> on the
+          domain <m>\left( -4 - \frac{\pi}{2} , -4 + \frac{\pi}{2}
+          \right)</m>. 
         </li>
         <li>
-          <m>f(x) = e^{x^2+1}</m> on the domain <m>[0,\infty)</m>. 
+          <m>f(x) = \ln \left( \frac{1}{x-5} \right)</m> on the domain
+          <m> (5, \infty) </m>. 
         </li>
       </ol></p>
     </li>
   </ol></p>
-  -->
 </section>
