@@ -53,7 +53,7 @@
           <m>f(x) = \frac{1}{x+1}</m> and <m>g(x) = x^2 + 7 </m>. 
         </li>
         <li>
-          <m>f(x) = e^x</m> and <m>g(x) = x^3 + 3^2 + 4x = 9</m>. 
+          <m>f(x) = e^x</m> and <m>g(x) = x^3 + 3x^2 + 4x = 9</m>. 
         </li>
         <li>
           <m>f(x) = \sin \left( \frac{x}{4} \right)</m> and <m>g(x) =
