@@ -3,7 +3,6 @@
 -->
 <section xml:id="section-assignment-week5-6">
   <title>Weeks 5-6 Assignment</title>
-  <!--
   <p><ol>
     <li>
       <p>
@@ -11,76 +10,62 @@
       </p>
       <p><ol>
         <li><me>
-          \lim_{x \rightarrow 1} \frac{x^2 - x - 2}{x^2 + x - 2}
+          \lim_{x \rightarrow \infty} \frac{x^4 + x^2 + \sin x}{x^3
+          + x^5 + \cos x}
         </me></li>
         <li><me>
-          \lim_{x \rightarrow 2} \frac{x^2 + 7x + 12}{x^2 - 4x + 4}
+          \lim_{x \rightarrow \infty} \frac{\sqrt[3]{x^9 +
+          x^2}}{\sqrt[5]{x^{13} + x^{12}}}
         </me></li>
         <li><me>
-          \lim_{x \rightarrow 0} \frac{x^2 (x-1)^2}{\sin x}
+          \lim_{x \rightarrow \infty} \frac{e^{x^2 + x}}{ 5 + e^{x^3}} 
         </me></li>
         <li><me>
-          \lim_{x \rightarrow 2} \tan x \left( x - \frac{1}{x}
-          \right)
+          \lim_{x \rightarrow \infty} \frac{ 5 - \cos x}{1 + x^2} 
         </me></li>
       </ol></p>
     </li>
     <li>
       <p>
-        For each of the following functions, find a value of <m>a</m>
-        that makes the function continuous or demonstrate that no
-        value of <m>a</m> is possible. (8) 
+        What do limits at infinity say about mathematical models? Use
+        the following three popluation models to discuss the
+        interpretation of limits at infinity. (6)
       </p>
       <p><ol>
         <li><me>
-          f(x) = \left\{ \begin{matrix}
-            \sqrt{x^2 + 4} \amp x \geq 0 \\
-            (x+a)^3 \amp x \lt 0 
-          \end{matrix} \right.
+          P_1(x) = 2^{\frac{x}{300}}
         </me></li>
         <li><me>
-          f(x) = \left\{ \begin{matrix}
-            \sin \left( \frac{a}{x} \right) \amp x \gt 0 \\
-            x^2 \amp x \leq 0
-          \end{matrix} \right.
+          P_2(x) = x^2 + 7
+        </me></li>
+        <li><me>
+          P_3(x) = \frac{9x}{1 + 3x} 
         </me></li>
       </ol></p>
     </li>
     <li>
       <p>
-        Calculate the following limits. (12)
+        Calculate the following derivative by definition. (6)
+        <me>
+          \frac{d}{dx} \sqrt{x^3}
+        </me>
+      </p>
+    </li>  
+    <li>
+      <p>
+        Calculate the following derivatives. (12)
       </p>
       <p><ol>
         <li><me>
-          \lim_{x \rightarrow \infty} \frac{x^{\frac{5}{3}}}{x -
-          x^3} 
+          \frac{d}{dx} \left( x^2 + \frac{3}{1-3x} \right)
         </me></li>
         <li><me>
-          \lim_{x \rightarrow \infty} \frac{x^2 + x^4 + e^x}{x^3 -
-          x^5 + e^x}
+          \frac{d}{dx} \sqrt[4]{x^7} - \ln x 
         </me></li>
         <li><me>
-          \lim_{x \rightarrow \infty} \frac{\sqrt[3]{x^2 +
-          x^7}}{\sqrt[4]{x^3 + x^6}} 
-        </me></li>
-        <li><me>
-          \lim_{x \rightarrow \infty} \frac{\ln \left( \sqrt{x}
-          \right)}{ \sqrt{\ln x}} 
+          \frac{d}{dx} (x^2 + 1) (x^2 - 1) \sin x 
         </me></li>
       </ol></p>
-    </li>
-    <li>
-      Suppose that <m>f(x)</m> is a function with domain
-      <m>(0,1)</m> which has the following properties. (4)
-      <md>
-        <mrow>
-          \amp \lim_{x \rightarrow 0^+} f(x) = -\infty 
-          \amp \amp \lim_{x \rightarrow 1^-} f(x) = \infty 
-        </mrow>
-      </md>
-      What conclusion can you make (if any) about the contintuity of
-      <m>f(x)</m> based on these limits and why?
     </li>
   </ol></p>
-  -->
 </section>

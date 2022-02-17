@@ -3,14 +3,13 @@
 -->
 <section xml:id="section-assignment-week7">
   <title>Week 7 Assignment</title>
-  <!--
   <ol>
     <li>
       <p>
         Calculate this derivative. Label the rules that you
         used in your calculation. (4) 
         <me>
-          \frac{d}{dx} e^{x^2 + 1}
+          \frac{d}{dx} \frac{\sqrt{x}}{\sqrt{x+1}} 
         </me>
       </p>
     </li>
@@ -19,7 +18,7 @@
         Calculate this derivative. Label the rules that you
         used in your calculation. (4) 
         <me>
-          \frac{d}{dx} \sqrt[4]{\ln x (x+4)} 
+          \frac{d}{dx} \cos^3 x
         </me>
       </p>
     </li>
@@ -28,7 +27,7 @@
         Calculate this derivative. Label the rules that you
         used in your calculation. (4) 
         <me>
-          \frac{d}{dx} \sqrt{\tan x - \cot x}
+          \frac{d}{dx} \ln (x^2 - 2x) 
         </me>
       </p>
     </li>
