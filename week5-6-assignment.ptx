@@ -31,7 +31,7 @@
         the following three popluation models to discuss the
         interpretation of limits at infinity. (6)
       </p>
-      <p><ol>
+      <p><ul>
         <li><me>
           P_1(x) = 2^{\frac{x}{300}}
         </me></li>
@@ -41,7 +41,7 @@
         <li><me>
           P_3(x) = \frac{9x}{1 + 3x} 
         </me></li>
-      </ol></p>
+      </ul></p>
     </li>
     <li>
       <p>
