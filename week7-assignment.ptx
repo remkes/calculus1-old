@@ -45,7 +45,7 @@
         Calculate this derivative. Show sufficient steps to make the
         process of consecutive differentiation clear. (4)
         <me>
-          \frac{d^2}{dx^2} \ln (x^2) 
+          \frac{d^2}{dx^2} \sqrt{x}
         </me>
       </p>
     </li>
@@ -54,7 +54,7 @@
         Calculate this derivative. Show sufficient steps to make the
         process of consecutive differentiation clear. (4)
         <me>
-          \frac{d^2}{dx^2} x^2 e^{x^2}
+          \frac{d^4}{dx^4} \sin x + 4 \cos x 
         </me>
       </p>
     </li>
@@ -63,7 +63,7 @@
         Calculate this derivative. Show sufficient steps to make the
         process of consecutive differentiation clear. (4)
         <me>
-          \frac{d^2}{dx^2} e^{7x}
+          \frac{d^{100}}{dx^{100}} x^{98}
         </me>
       </p>
     </li>
@@ -73,8 +73,8 @@
         explicitly check that this limit has the appropriate type
         before using L'Hôpital's Rule.) (6) 
         <me>
-          \lim_{x \rightarrow 3} \frac{x^3 + x^2 - 7x - 15}{x^3 -
-          4x^2 - 3x + 18} 
+          \lim_{x \rightarrow 3} \frac{x^2 - 3x - 4}{x^3 - 7x - 36} 
+
         </me>
       </p>
     </li>
@@ -84,10 +84,9 @@
         explicitly check that this limit has the appropriate type
         before using L'Hôpital's Rule.) (6) 
         <me>
-          \lim_{x \rightarrow \infty} \frac{(\ln x)^2}{x + \ln x}
+          \lim_{x \rightarrow \infty} \frac{\ln x}{x^2 + 7} 
         </me>
       </p>
     </li>
   </ol>
-  -->
 </section>
