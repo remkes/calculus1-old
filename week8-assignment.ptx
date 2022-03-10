@@ -34,7 +34,7 @@
           \int_{1}^{e^2} \frac{3}{x} - \frac{2}{x} dx 
         </me></li>
         <li><me>
-          \int_{-1}^1 x^3 + 3x^2 - x d 
+          \int_{-1}^1 x^3 + 3x^2 - x dx
         </me></li>
       </ol></p>
     </li>
