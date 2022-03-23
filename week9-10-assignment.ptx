@@ -3,13 +3,41 @@
 -->
 <section xml:id="section-assignment-week9-10">
   <title>Week 9-10 Assignment</title>
-  <!--
   <p><ol>
     <li>
-      Solve this initial value problem. (6)  
+      Solve this integral using substitution. Clearly label your
+      substitution. (4)  
+      <me>
+        \int \cos (3x^2 + 4x)(6x + 4)dx
+      </me>
+    </li>
+    <li>
+      Solve this integral using substitution. Clearly label your
+      substitution. (4)  
+      <me>
+        \int xe^{\frac{x^2 + 4}{4}} dx 
+      </me>
+    </li>
+    <li>
+      Solve this integral using substitution. Clearly label your
+      substitution. (4)  
+      <me>
+        \int_0^2 \frac{4+x}{4-x} dx 
+      </me>
+    </li>
+    <li>
+      Solve this differential equation. (4)  
       <md>
         <mrow>
-          \amp \frac{df}{dx} = x^3 - x \amp \amp f(0) = 2 
+          \frac{df}{dx} = \frac{x^2}{f^3}  
+        </mrow>
+      </md>
+    </li>
+    <li>
+      Solve this differential equation. (4)  
+      <md>
+        <mrow>
+          \frac{df}{dx} = x^2 (1 + f^2)
         </mrow>
       </md>
     </li>
@@ -17,33 +45,17 @@
       Solve this initial value problem. (6)  
       <md>
         <mrow>
-          \amp \frac{df}{dx} = \cos x - \tan x \sec x  \amp \amp f(0) = 2 
+          \amp \frac{df}{dx} = \frac{e^x}{e^f} \amp \amp f(0) = 3 
         </mrow>
       </md>
     </li>
     <li>
-      Solve this separable differential equation. (6)  
+      Solve this initial value problem. (6)  
       <md>
         <mrow>
-          \frac{df}{dx} = \frac{x^3}{f^2}  
+          \amp \frac{df}{dx} = x^3 f^2  \amp \amp f(1) = 4 
         </mrow>
       </md>
-    </li>
-    <li>
-      Solve this separable differential equation. (6)  
-      <md>
-        <mrow>
-          \frac{df}{dx} = f(x^2 + x + 1)
-        </mrow>
-      </md>
-    </li>
-    <li>
-      Write the function that describes logistic growth for a
-      population with carrying capacity of 5000 members, initial
-      population of 400, and growth rate coefficient of 4. Also write
-      the differential equation that describes the same situation.
-      Show that your function solves the differential equation. (6) 
     </li>
   </ol></p>
-  -->
 </section>

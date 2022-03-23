@@ -3,22 +3,21 @@
 -->
 <section xml:id="section-assignment-week12">
   <title>Week 12 Assignment</title>
-  <!--
   <p><ol>
     <li>
       Sketch this function. Include all eight steps described in the
       videos and the notes. (12) 
       <me>
-        f(x) = \frac{x^2 + 7x - 5}{x - 3}
+        f(x) = \frac{x^2 + 3x - 9}{x +5}
       </me>
     </li>
     <li>
       <p>
-        Consider this model of an insect population. 
-        <m>t</m> is measured in years. (10)  
+        Consider this model of an tree population in a valley. 
+        <m>t</m> is measured in years and the population is measured
+        in millions. The model only applies for <m>t \geq 0</m>. (12)  
         <me>
-          p(t) = (10^8) e^{\frac{-1}{78}t} \left( 1 + \frac{1}{73} \sin
-          (2\pi t) \right)
+          p(t) = \frac{x^2 - 7x - 3}{x^2 + 4x + 3} + 1 
         </me>
       </p>
       <p><ol>
@@ -29,15 +28,16 @@
           What is the long term behaviour of the population?
         </li>
         <li>
+          What is the maximum poluation and when does it occur?
+        </li>
+        <li>
           Qualitatively describe the year-to-year behaviour of the
           model. 
         </li>
         <li>
-          Is this a reasonable population model? Why or why not? What
-          situations might create this population behaviour?
+          Is this a reasonable population model? Why or why not? 
         </li>
       </ol></p>
     </li>
   </ol></p>
-  -->
 </section>

@@ -3,34 +3,28 @@
 -->
 <section xml:id="section-assignment-week11">
   <title>Week 11 Assignment</title>
-  <!--
   <p><ol>
     <li>
-      Find the maxima and the minima of this function. (4)
+      Find the maxima and the minima of this function. (6)
       <me>
-        f(x) = \ln (1 + x - x^2)
+        f(x) = \fra{x+3}{x^2 - 4} 
       </me>
     </li>
     <li>
       Find the maxima and the minima of this function. (6)
       <me>
-        f(x) = \frac{x + 5}{x^2 - 1}
+        f(x) = \frac{1}{x^3 + x^2 - x - 1}
       </me>
-    </li>
-    <li>
-      Which point(s) on the parabola <m>y = x^2 - 4x - 2</m> are
-      closest to the the point <m>(4,-1)</m>? (Just the <m>x</m>
-      coordinate of the point is sufficient.) (6) 
     </li>
     <li>
       <p>
         Consider the following cost and benefit functions. (8)
         <md>
           <mrow>
-            C(x) \amp = x^3 - x^2 - x + 5 
+            C(x) \amp = \frac{1}{4} (x^3 - 7x^2 - 9x + 16) 
           </mrow>
           <mrow>
-            B(x) \amp = 4x 
+            B(x) \amp = \frac{x}{4}
           </mrow>
         </md>
       </p>
@@ -45,5 +39,4 @@
       </ol></p>
     </li>
   </ol></p>
-  -->
 </section>
