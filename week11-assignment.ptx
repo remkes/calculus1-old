@@ -7,7 +7,7 @@
     <li>
       Find the maxima and the minima of this function. (6)
       <me>
-        f(x) = \fra{x+3}{x^2 - 4} 
+        f(x) = \frac{x+3}{x^2 - 4} 
       </me>
     </li>
     <li>
