@@ -13,11 +13,11 @@
     </li>
     <li>
       <p>
-        Consider this model of an tree population in a valley. 
+        Consider this model of a tree population in a valley. 
         <m>t</m> is measured in years and the population is measured
         in millions. The model only applies for <m>t \geq 0</m>. (12)  
         <me>
-          p(t) = \frac{x^2 - 7x - 3}{x^2 + 4x + 3} + 1 
+          p(t) = \frac{t^2 - 7t - 3}{t^2 + 4t + 3} + 1 
         </me>
       </p>
       <p><ol>
@@ -28,7 +28,7 @@
           What is the long term behaviour of the population?
         </li>
         <li>
-          What is the maximum poluation and when does it occur?
+          What is the maximum population and when does it occur?
         </li>
         <li>
           Qualitatively describe the year-to-year behaviour of the
