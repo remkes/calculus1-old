@@ -13,31 +13,42 @@
       </p>
       <p><ol>
         <li>
-          The line <m>x + y - 2 = 0</m> and the line <m> x - y - 3 =
-          0</m>.
+          The line <m>y = 4x - 6</m> and the parabola <m> y = -2x^2 +
+          4x + 4</m>.
         </li>
         <li>
-          The line <m>y = 2x + 4</m> and the horizontal line through
-          <m>(0,6)</m>
+          The circle <m>x^2 + (y-3)^2 = 9</m> and parabola <m>y =
+          \frac{x^2}{10}</m> (Hint: If you get a degree 4 equation,
+          try something different.)
         </li>
         <li>
-          The line <m>y = 6x - 2</m> and the parabola <m>y = 4x^2</m>.
+          The ellipse <m>\frac{x^2}{4} + \frac{y^2}{16}</m> and the
+          line <m>x=1</m>.
         </li>
         <li>
-          The line <m>x + y - 2 = 0</m> and the ellipse <m>x^2 +
-          \frac{y^2}{4}</m>.
+          The circle <m>(x-4)^2 + (y-5)^2</m> and the circle
+          <m>(x+3)^2 + (y+2)^2 = 4</m>. (Hint: this question doesn't
+          need a long and complicated calculation. Look for an easier
+          way to answer it.) 
         </li>
         <li>
-          The hyperbola <m>\frac{x^2}{4} - \frac{y^2}{9} = 1</m> and
-          the parabola <m>y = 2x^2 </m>. (Hint: if you get a degree 4
-          equation, try a different approach or substitution). 
+          The hyperbola <m>\frac{x^2}{9} - \frac{y^2}{4} = 1</m> and
+          the ellipse <m>\frac{x^2}{9} + \frac{y^2}{4} = 1 </m>.
+          (Hint: if you get a degree 4 equation or an equation with
+          difficult square roots, try a different approach or
+          substitution). 
         </li>
       </ol></p>
     </li>
     <li>
-      What are the intersection point(s) of all ellipses of the form
-      <m>\frac{x^2}{16} + \frac{y^2}{b^2}</m> where <m>b</m> ranges
-      through the positive real numbers? (4)
+      At how many points can a line intersect a quadratic? Draw
+      examples to show the different number of intersection points.
+      (No equations are needed, just a simple drawing of the shapes.)
+      Do the same for a line and a cubic, and then a line and a
+      quartic. Make a proposition about the number of possible
+      intersection points of a line and a degree <m>n</m> polynomial.
+      (You don't have to argue for this proposition; just make a
+      hypothesis based on the first three cases.) (6) 
     </li>
   </ol></p>
 </section>
