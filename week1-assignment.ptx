@@ -1,40 +1,43 @@
 <!--
-  This assignment was used for the Winter 2022 term.
+  This assignment was used for the Fall 2022 term.
 -->
 <section xml:id="section-assignment-week1">
   <title>Week 1 Assignment</title>
   <p><ol>
     <li>
       <p>
-        Find the intersection points of the following pairs of curves.
+        Find the intersection points of the following pairs of objects.
         (Where you have square roots, you can leave your answers in
         square root form <mdash /> you don't need to evaluate to
-        demical approximations.) (16)
+        demical approximations.) (20)
       </p>
       <p><ol>
         <li>
-          The line <m>x = 4</m> and the ellipse <m>\frac{x^2}{25} +
-          \frac{y^2}{36} = 1</m>.
+          The line <m>x + y - 2 = 0</m> and the line <m> x - y - 3 =
+          0</m>.
         </li>
         <li>
-          The line <m>y = 3x</m> and the parabola <m>y = x^2 - 9x -
-          4</m>.  
+          The line <m>y = 2x + 4</m> and the horizontal line through
+          <m>(0,6)</m>
         </li>
         <li>
-          The ellipse <m>x^2 + \frac{y^2}{4} = 1</m> and
-          the circle <m>x^2 + y^2 = 4</m>. 
+          The line <m>y = 6x - 2</m> and the parabola <m>y = 4x^2</m>.
         </li>
         <li>
-          The hyperbola <m>\frac{x^2}{9} - \frac{y^2}{4} = 1</m> and
-          the line <m>x = 0</m>.
+          The line <m>x + y - 2 = 0</m> and the ellipse <m>x^2 +
+          \frac{y^2}{4}</m>.
+        </li>
+        <li>
+          The hyperbola <m>\frac{x^2}{4} - \frac{y^2}{9} = 1</m> and
+          the parabola <m>y = 2x^2 </m>. (Hint: if you get a degree 4
+          equation, try a different approach or substitution). 
         </li>
       </ol></p>
     </li>
     <li>
-      Draw three examples of two conics meeting at exactly three
-      points. (The examples should each have a different structure or
-      pattern). It is necessary that at least one of the three points
-      is a tangential intersection? (6)
+      What are the intersection point(s) of all ellipses of the form
+      <m>\frac{x^2}{16} + \frac{y^2}{b^2}</m> where <m>b</m> ranges
+      through the positive real numbers? (4)
     </li>
   </ol></p>
 </section>

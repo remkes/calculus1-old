@@ -1,0 +1,63 @@
+<!--
+  This assignment was used for the Fall 2022 term.
+-->
+<section xml:id="section-assignment-week10">
+  <title>Week 10 Assignment</title>
+  <!--
+  <p><ol>
+    <li>
+      Solve this integral using substitution. Clearly label your
+      substitution. (4)  
+      <me>
+        \int \cos (3x^2 + 4x)(6x + 4)dx
+      </me>
+    </li>
+    <li>
+      Solve this integral using substitution. Clearly label your
+      substitution. (4)  
+      <me>
+        \int xe^{\frac{x^2 + 4}{4}} dx 
+      </me>
+    </li>
+    <li>
+      Solve this integral using substitution. Clearly label your
+      substitution. (4)  
+      <me>
+        \int_0^2 \frac{4+x}{4-x} dx 
+      </me>
+    </li>
+    <li>
+      Solve this differential equation. (4)  
+      <md>
+        <mrow>
+          \frac{df}{dx} = \frac{x^2}{f^3}  
+        </mrow>
+      </md>
+    </li>
+    <li>
+      Solve this differential equation. (4)  
+      <md>
+        <mrow>
+          \frac{df}{dx} = x^2 (1 + f^2)
+        </mrow>
+      </md>
+    </li>
+    <li>
+      Solve this initial value problem. (6)  
+      <md>
+        <mrow>
+          \amp \frac{df}{dx} = \frac{e^x}{e^f} \amp \amp f(0) = 3 
+        </mrow>
+      </md>
+    </li>
+    <li>
+      Solve this initial value problem. (6)  
+      <md>
+        <mrow>
+          \amp \frac{df}{dx} = x^3 f^2  \amp \amp f(1) = 4 
+        </mrow>
+      </md>
+    </li>
+  </ol></p>
+  -->
+</section>
