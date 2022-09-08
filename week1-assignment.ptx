@@ -22,11 +22,11 @@
           try something different.)
         </li>
         <li>
-          The ellipse <m>\frac{x^2}{4} + \frac{y^2}{16}</m> and the
-          line <m>x=1</m>.
+          The ellipse <m>\frac{x^2}{4} + \frac{y^2}{16} = 1</m> and
+          the line <m>x=1</m>.
         </li>
         <li>
-          The circle <m>(x-4)^2 + (y-5)^2</m> and the circle
+          The circle <m>(x-4)^2 + (y-5)^2 = 4</m> and the circle
           <m>(x+3)^2 + (y+2)^2 = 4</m>. (Hint: this question doesn't
           need a long and complicated calculation. Look for an easier
           way to answer it.) 
