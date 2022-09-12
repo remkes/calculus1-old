@@ -9,35 +9,43 @@
       <p>
         For each of the following situations, what kind of function
         might you choose to encode the dependence? Give reasons for
-        your answer. (6) 
+        your answer. (10) 
       </p>
       <p><ol>
         <li>
-          The hours of sunlight per day as a function of time
-          measured in years. 
+          The fuel consumption of a car in terms of velocity. 
         </li>
         <li>
-          The rate of tree growth as a function of hours of sunlight.
+          Salary in an organization in terms of years served. 
         </li>
         <li>
-          The average temperature as a function of lattitude. 
+          Windchill adjustment to temperature in terms of windspeed. 
+        </li>
+        <li>
+          Population of rabbits in a valley in terms of time.
+        </li>
+        <li>
+          Ammount of homework required over term in terms of time. 
         </li>
       </ol></p>
     </li>
     <li>
       <p>
         For each of the following functions, express the function as
-        the composition of two other functions. (6) 
+        the composition of two other functions. (8) 
       </p>
       <p><ol>
         <li>
-          <m>\sqrt{3x^2 + x^4}</m>
+          <m>\frac{1}{3 + \sin x}</m>
         </li>
         <li>
-          <m>\frac{1}{\ln (x^2 + 1)}</m>
+          <m>\sqrt[3]{\frac{x}{x^2+1}}</m>
         </li>
         <li>
-          <m>\tan (x^2 + 1) + \cot (x^2 + 1)</m>
+          <m>\sqrt{\ln x} + \frac{1}{\ln x}</m>
+        </li>
+        <li>
+          <m>\frac{1}{x^2} + \frac{1}{4x^2 + 1}</m>
         </li>
       </ol></p>
     </li>
@@ -46,19 +54,17 @@
         For the following pairs of functions <m>f</m> and <m>g</m>,
         calculate <m>f \circ g</m> and <m>g \circ f</m>. Simplify the
         expressions for the composition as much as you can. Then state
-        the domains of <m>f</m>, <m>g</m>. <m>f \circ  g</m> and <m>g
-        \circ f</m>. (18) 
+        the domains of <m>f \circ  g</m> and <m>g \circ f</m>. (15) 
       </p>
       <p><ol>
         <li>
-          <m>f(x) = \frac{1}{x+1}</m> and <m>g(x) = x^2 + 7 </m>. 
+          <m>f(x) = \ln x</m> and <m>x^2</m>. 
         </li>
         <li>
-          <m>f(x) = e^x</m> and <m>g(x) = x^3 + 3x^2 + 4x = 9</m>. 
+          <m>f(x) = \sin x</m> and <m>g(x) = \cos x</m>. 
         </li>
         <li>
-          <m>f(x) = \sin \left( \frac{x}{4} \right)</m> and <m>g(x) =
-          \sqrt{x+2}</m>. 
+          <m>f(x) = x^3 + 7x + 5</m> and <m>g(x) = x^2 + 1</m>. 
         </li>
       </ol></p>
     </li>
@@ -70,17 +76,15 @@
       </p>
       <p><ol>
         <li>
-          <m>f(x) = \frac{4-x}{2+x}</m> on the domain
-          <m>(-2,\infty)</m>. 
+    <m>f(x) = e^{x-2)^2</m> on the domain <m>(2,\infty)</m>. 
         </li>
         <li>
-          <m>f(x) = \sin (x + 4)</m> on the
-          domain <m>\left( -4 - \frac{\pi}{2} , -4 + \frac{\pi}{2}
-          \right)</m>. 
+          <m>f(x) = \arctan \left( \frac{1}{x-5} \right) </m> on the
+          domain <m>\left( 6, \infty \right)</m>. 
         </li>
         <li>
-          <m>f(x) = \ln \left( \frac{1}{x-5} \right)</m> on the domain
-          <m> (5, \infty) </m>. 
+          <m>f(x) = \frac{6 + x}{3 - x} \right)</m> on the domain
+          <m> (3, \infty) </m>. 
         </li>
       </ol></p>
     </li>
