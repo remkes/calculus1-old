@@ -3,7 +3,6 @@
 -->
 <section xml:id="section-assignment-week2">
   <title>Week 2 Assignment</title>
-  <!--
   <p><ol>
     <li>
       <p>
@@ -76,18 +75,17 @@
       </p>
       <p><ol>
         <li>
-    <m>f(x) = e^{x-2)^2</m> on the domain <m>(2,\infty)</m>. 
+          <m>f(x) = e^{(x-2)^2}</m> on the domain <m>(2,\infty)</m>. 
         </li>
         <li>
           <m>f(x) = \arctan \left( \frac{1}{x-5} \right) </m> on the
           domain <m>\left( 6, \infty \right)</m>. 
         </li>
         <li>
-          <m>f(x) = \frac{6 + x}{3 - x} \right)</m> on the domain
-          <m> (3, \infty) </m>. 
+          <m>f(x) = \frac{6 + x}{3 - x}</m> on the domain
+          <m>(3, \infty)</m>. 
         </li>
       </ol></p>
     </li>
   </ol></p>
-  -->
 </section>
