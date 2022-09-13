@@ -3,26 +3,20 @@
 -->
 <section xml:id="section-assignment-week3">
   <title>Week 3 Assignment</title>
-  <!--
   <p><ol>
     <li>
       <p>
       Translate the following sentences into differential equations.
-      (6) 
+      (4) 
       </p>
       <p><ol>
         <li>
           The rate of change of a function if proportional to the
-          difference between the function and a positive constant. 
-          
+          cosine of the function. 
         </li>
         <li>
           The rate of change of a function is proportional to 
-          the function cubed. 
-        </li>
-        <li>
-          The rate of change of a function is a degree three
-          polynomial in the function. 
+          the square root of the function plus four.
         </li>
       </ol></p>
     </li>
@@ -31,7 +25,7 @@
       trajectories. You may assume this is a population model and <m>
       p \geq 0</m>. (5) 
       <me>
-        \frac{dp}{dt} = (p-4)(p-6)^2(p-8)
+        \frac{dp}{dt} = (p-2)(p-7)^2(p-9)
       </me>
     </li>
     <li>
@@ -39,17 +33,8 @@
       trajectories. You may assume this is a population model and <m>
       p \geq 0</m>. (5) 
       <me>
-        \frac{dp}{dt} = (p-6)(p-9)(p-11)
-      </me>
-    </li>
-    <li>
-      Draw a phase line for this differential equation and label the
-      trajectories. You may assume this is a population model and <m>
-      p \geq 0</m>. (5) 
-      <me>
-        \frac{dp}{dt} = (p-1)^3(p-3)^2(p-5)^2
+        \frac{dp}{dt} = (p-1)^3(p-2)(p-8)
       </me>
     </li>
   </ol></p>
-  -->
 </section>
