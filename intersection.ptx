@@ -31,7 +31,7 @@
       If two lines in the plane are not parallel, there
       will be exactly one point where they meet. This is called the
       intersection point.  <xref ref="figure-intersection-of-lines"
-      /> shows the lines <m>y=x+1</m> and <m>y=3-3x</m> and their
+      /> shows the lines <m>y=x+1</m> and <m>y=3x-x</m> and their
       intersection point at <m>(2,3)</m>. At this intersection
       point, the coordinates <m>(x,y)</m> satisfy both equations.
       Algebraically, we can find this point by solving the system

@@ -40,7 +40,7 @@
         <li><me>
           f(x) = \left\{ \begin{matrix}
             \frac{a}{x}  \amp x \lt 0 \\
-            \frac{a}{x + 1} \amp \geq 0
+            \frac{a}{x + 1} \amp x \geq 0
           \end{matrix} \right.
         </me></li>
       </ol></p>
