@@ -3,7 +3,6 @@
 -->
 <section xml:id="section-assignment-week5-6">
   <title>Weeks 5-6 Assignment</title>
-  <!--
   <p><ol>
     <li>
       <p>
@@ -11,63 +10,97 @@
       </p>
       <p><ol>
         <li><me>
-          \lim_{x \rightarrow \infty} \frac{x^4 + x^2 + \sin x}{x^3
-          + x^5 + \cos x}
+          \lim_{x \rightarrow \infty} \frac{x^2 + x^2(x^2 + x^3)}{x^3 
+          + x^2(x^5 + x^2)} 
         </me></li>
         <li><me>
-          \lim_{x \rightarrow \infty} \frac{\sqrt[3]{x^9 +
-          x^2}}{\sqrt[5]{x^{13} + x^{12}}}
+          \lim_{x \rightarrow \infty} \frac{x^2 \ln x + e^x (x^2 
+          + 3x) + e^{2x}(x + x^3)}{4x^2 + 56x^7 + e^x(x^3 + x^2)} 
         </me></li>
         <li><me>
-          \lim_{x \rightarrow \infty} \frac{e^{x^2 + x}}{ 5 + e^{x^3}} 
+          \lim_{x \rightarrow \infty} \frac{\sqrt[4]{x^{13} + 
+          x^{11}}}{\sqrt[6]{x^{15} + x^6}}
         </me></li>
         <li><me>
-          \lim_{x \rightarrow \infty} \frac{ 5 - \cos x}{1 + x^2} 
+          \lim_{x \rightarrow \infty} \frac{1}{\sin x + \cos x} 
         </me></li>
       </ol></p>
     </li>
     <li>
       <p>
-        What do limits at infinity say about mathematical models? Use
-        the following three popluation models to discuss the
-        interpretation of limits at infinity. (6)
+        What is the long term behaviour of the following models? 
+        Justify your answers. (9) 
       </p>
-      <p><ul>
-        <li><me>
-          P_1(x) = 2^{\frac{x}{300}}
-        </me></li>
-        <li><me>
-          P_2(x) = x^2 + 7
-        </me></li>
-        <li><me>
-          P_3(x) = \frac{9x}{1 + 3x} 
-        </me></li>
-      </ul></p>
+      <p>
+        <ol>
+          <li>
+            <p>
+              A population model (poluation in millions, time in years).
+            </p>
+            <me>
+              p(t) = \frac{10e^{3t}}{7 + 2e^{3t}}
+            </me>
+          </li>
+          <li>
+            <p>
+              A model of concentration of <m>H^+</m> ions (time in 
+              seconds). 
+            </p>
+            <me>
+              c(t) = \frac{t^2 + 1}{t^3 + t + 2} 
+            </me>
+          </li>
+          <li>
+            <p>
+              A model of inflation (time in year). 
+            </p>
+            <me>
+              I(t) = \frac{ 3 \sin (6 \pi t)}{7} + \frac{12}{7} 
+            </me>
+          </li>
+        </ol>
+      </p>
+    </li>
+    <li>
+      <p>
+        If <m>f</m> is a bounded function defined on all of <m>\RR</m>, 
+        must it have a horizontal asymptote? Use examples or
+        counter-examples in your argument. (4) 
+      </p>
+    </li>
+    <li>
+      <p>
+        Assume <m>f</m> and <m>g</m> are functions on <m>(0, \infty)</m>. 
+        If they have the same asymptotic order and <m>g</m> has a 
+        horizontal asymptote, must <m>f</m> also have one? Reference 
+        the definition and feel free to use examples or counter-examples
+        in your argument. (4) 
+      </p>
     </li>
     <li>
       <p>
         Calculate the following derivative by definition. (6)
         <me>
-          \frac{d}{dx} \sqrt{x^3}
+          \frac{d}{dx} x^2 + 3x 
         </me>
       </p>
     </li>  
     <li>
       <p>
-        Calculate the following derivatives. (12)
+        Calculate the following derivatives. Label the rules you used.
+        (12)
       </p>
       <p><ol>
         <li><me>
-          \frac{d}{dx} \left( x^2 + \frac{3}{1-3x} \right)
+          \frac{d}{dx} \sin x \tan x 
         </me></li>
         <li><me>
-          \frac{d}{dx} \sqrt[4]{x^7} - \ln x 
+          \frac{d}{dx} x^2 e^x + x^3 
         </me></li>
         <li><me>
-          \frac{d}{dx} (x^2 + 1) (x^2 - 1) \sin x 
+          \frac{d}{dx} \frac{x^2 - 3}{x^2 + 7x - 9}
         </me></li>
       </ol></p>
     </li>
   </ol></p>
-  -->
 </section>
