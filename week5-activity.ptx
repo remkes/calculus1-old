@@ -365,10 +365,10 @@
           <m> y = \frac{-\pi}{2}</m> in the negative direction.
           Multiplying by 8 means that there is a horizontal asymptote 
           of <m>y = 4\pi</m> in the positive direction and
-          <m> y = -4\pi</m> in the negative direction. Adding 4 means
-          that there is a horizontal asymptote of <m>y = 4\pi + 4 </m>
-          in the positive direction and <m> y = -4\pi + 4 </m> in the
-          negative direction. 
+          <m> y = -4\pi</m> in the negative direction. Subtracting 4
+          means that there is a horizontal asymptote of <m>y = 4\pi -
+          4 </m> in the positive direction and <m> y = -4\pi - 4 </m>
+          in the negative direction.
         </p>
       </solution>
     </activity>

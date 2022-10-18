@@ -122,10 +122,10 @@
           </me>
           cannot be directly evaluated due to division by zero.
           However, I can work this out logically. The numerator
-          approaches <m>4 + 2 = 6</m>, so I can think of it as some
-          number very close to <m>6</m>. The denominator is becoming
+          approaches <m>-2 + 4 = 2</m>, so I can think of it as some
+          number very close to <m>2</m>. The denominator is becoming
           very close to zero. If I take a number very close to
-          <m>6</m> and divide by a very small number, I get a very
+          <m>2</m> and divide by a very small number, I get a very
           large number. As I divide by smaller and smaller numbers,
           I get larger and larger numbers. I conclude that the limit
           diverges, getting larger and larger without bound. Since
