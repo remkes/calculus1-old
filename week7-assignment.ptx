@@ -36,7 +36,7 @@
         Calculate this derivative. Show sufficient steps to make the
         process of consecutive differentiation clear. (4)
         <me>
-          \frac{d^4}{dx^4} \sqrt{\cos (4x)} 
+          \frac{d}{dx} \sqrt{\cos (4x)} 
         </me>
       </p>
     </li>
