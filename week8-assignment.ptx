@@ -3,12 +3,12 @@
 -->
 <section xml:id="section-assignment-week8">
   <title>Week 8 Assignment</title>
-  <!--
   <p><ol>
     <li>
       <p>
-        Calculate the following indefinite integrals by using linearity
-        and the tables of anti-derivatives. (9) 
+        Calculate the following indefinite integrals by using
+        linearity, the power rule, and the tables of anti-derivatives.
+        (12) 
       </p>
       <p><ol>
         <li><me>
@@ -25,7 +25,7 @@
     <li>
       <p>
         Calculate the following definite integrals by using linearity
-        and the tables of anti-derivatives. (9) 
+        and the tables of anti-derivatives. (12)
       </p>
       <p><ol>
         <li><me>
@@ -39,6 +39,18 @@
         </me></li>
       </ol></p>
     </li>
+    <li>
+      <p>
+        Consider the following integral, for <m>n \in \NN</m>: (6) 
+        <me>
+          \int_0^1 nx dx 
+        </me>
+        Calculate this integral for <m>n = 1,2,3,4</m>. Describe what
+        is happening to the value of the integrals as <m>n</m>
+        increases. By using the fact that the definite integral is the
+        area under a curve, geometrically explain the change in this
+        integral as <m>n</m> increases. 
+      </p>
+    </li>
   </ol></p>
-  -->
 </section>
