@@ -3,22 +3,39 @@
 -->
 <section xml:id="section-assignment-week12">
   <title>Week 12 Assignment</title>
-  <!--
   <p><ol>
     <li>
       Sketch this function. Include all eight steps described in the
       videos and the notes. (12) 
       <me>
-        f(x) = \frac{x^2 + 3x - 9}{x +5}
+        f(x) = \frac{2x^2 + 2x - 12}{x+3}
       </me>
     </li>
     <li>
       <p>
-        Consider this model of a tree population in a valley. 
-        <m>t</m> is measured in years and the population is measured
-        in millions. The model only applies for <m>t \geq 0</m>. (12)  
+        Assume that <m>f</m>, <m>g</m>, and <m>h</m> are all
+        continuous function on <m>\RR</m> with <m> f(x) \leq g(x) \leq
+        h(x)</m>. Assume that <m>f</m> only has three extrema:
+        <m>f(-10) = -4</m> is a local minimum, <m>f(0) = 7</m> is a
+        local maximum, and <m>f(10) = -6</m> is a local minimum.
+        Assume that <m>h</m> also has only three extrema: <m>h(-10) =
+        0</m> is a local minimum, <m>h(0) = 12</m> is a local maximum,
+        and <m>h(10) = 1</m> is a local minimum. Assume also that the
+        long term behaviour of both <m>f</m> and <m>g</m>, in both the
+        positive directions, is unbounded growth. With these
+        assumption, what can be said about the extrema of <m>g</m>?
+        Draw some graphs to show the vareity of possible behaviours
+        for <m>g</m> between these two other functions. (4)
+      </p>
+    </li>
+    <li>
+      <p>
+        Consider this model of a population of lynx in a forest
+        ecosystem, whree <m>t</m> is measured in years. 
+        The model only applies for <m>t \geq 0</m>. (12)  
         <me>
-          p(t) = \frac{t^2 - 7t - 3}{t^2 + 4t + 3} + 1 
+          p(t) = e^{\frac{-1}{100}} \left( 5000 + 30 \sin (2 \pi t)
+          \right) 
         </me>
       </p>
       <p><ol>
@@ -29,7 +46,13 @@
           What is the long term behaviour of the population?
         </li>
         <li>
-          What is the maximum population and when does it occur?
+          How many critical points are there and when, roughly, do
+          they occur.  (The calculation of the critical points is very
+          difficult to do direction; I don't expect you to finish the
+          calculation. Instead, start the calculation and make a
+          conclusion simply about how often you will find a critical
+          point and, very roughly, how they are spaced relatve to each
+          other.)
         </li>
         <li>
           Qualitatively describe the year-to-year behaviour of the
@@ -41,5 +64,4 @@
       </ol></p>
     </li>
   </ol></p>
-  -->
 </section>
