@@ -19,7 +19,7 @@
           I use the form for separable equations, with <m>f(x) =
           x^2</m> and <m>g(y) = y^2</m>.
           <me>
-            \int \frac{dy}{y^2} = \int x^2 dx 
+            \int \frac{1}{y^2} dy = \int x^2 dx 
           </me>
           Then I integrate both sides, add the constant of integration
           on the right.
@@ -103,7 +103,7 @@
           I use the form for separable equations, with <m>f(x) =
           \frac{1}{x}</m> and <m>g(y) = y</m>.
           <me>
-            \int \frac{1}{y} = \int \frac{1}{x} dx 
+            \int \frac{1}{y} dy = \int \frac{1}{x} dx 
           </me>
           Then I integrate both sides, add the constant of integration
           on the right.
@@ -167,7 +167,7 @@
           I use the form for separable equations, with <m>f(x) =
           \sin x^2</m> and <m>g(y) = y^2</m>.
           <me>
-            \int \frac{dy}{y^2} = \int \sin x dx 
+            \int \frac{1}{y^2} dy = \int \sin x dx 
           </me>
           Then I integrate both sides, add the constant of integration
           on the right.

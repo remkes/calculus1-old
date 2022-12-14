@@ -689,7 +689,7 @@
           After I've done the derivatives, I replace <m>u</m> and
           <m>v</m> as the evaluation bar reminds me to do. 
           <me>
-            = \frac{1}{(\arctan \sqrt{x})(1+\sqrt{x}^2)(2 \sqrt{x}} =
+            = \frac{1}{(\arctan \sqrt{x})(1+\sqrt{x}^2)(2 \sqrt{x})} =
             \frac{1}{2(1+x)(\sqrt{x})(\arctan \sqrt{x})} 
           </me>
         </p>
@@ -758,7 +758,7 @@
           <md>
             <mrow>
               \lim_{x \rightarrow \infty} \frac{\ln x}{\sqrt[9]{x}}
-              \amp - \lim_{x \rightarrow \infty} \frac{ \frac{d}{dx}
+              \amp = \lim_{x \rightarrow \infty} \frac{ \frac{d}{dx}
               \ln x}{ \frac{d}{dx} \sqrt[9]{x} }
             </mrow>
             <mrow>

@@ -274,4 +274,45 @@
       </statement>
     </example>
   </subsection>
+  <section>
+    <title>Limits at <m>-\infty</m></title>
+    <p>
+      Most of this section has focused on limits at the variables goes
+      to <m>\infty</m>. This is the most common place for asymptotic
+      analysis (particular when the variable is time and this <m>t
+      \rightarrow \infty</m> in interpreted as long-term behaviour),
+      but I can also consider limits as the variable approaches
+      <m>-\infty</m>. The same principles apply: I can use exactly the
+      same techniques of asymptotic analysis. However, I have to be a
+      bit careful with the behaviour of functions for negative
+      numbers.
+    </p>
+    <p>
+      <ul>
+        <li>
+          Many functions have the same asymptotic order going either
+          to positive or negative <m>\infty</m>. This includes trig
+          functions, polynomials, and odd roots. 
+        </li>
+        <li>
+          Some function simply aren't defined for a domain that goes
+          to <m>-\infty</m>. Asking for limits of these functions
+          doesn't make sense and they don't have an asymptotic order
+          going to <m>-\infty</m>. This include logarithms and even
+          roots.
+        </li>
+        <li>
+          Some functions simply have a different behaviour going to
+          <m>-\infty</m>. The most important example if the
+          exponentail. <m>f(x) = e^x</m> is exponential growth as
+          <m>x \rightarrow \infty</m>, but exponential decay as <m>x
+          \rightarrow \infty</m>. For <m>f(x) = e^{-x}</m>,
+          these are reverse. Doing asymptotic analysis with these
+          functions is really just a matter of familiarity: knowing
+          the behaviours of various functions and how they different
+          in the positive and negative directions. 
+        </li>
+      </ul>
+    </p>
+  </section>
 </section>

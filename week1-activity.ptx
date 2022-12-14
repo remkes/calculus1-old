@@ -407,6 +407,158 @@
         </p>
       </solution>
     </activity>
+    <activity>
+      <statement>
+        <p>
+          Find the intersection of the circle <m>x^2 + y^2 = 160</m>
+          and the ellipse <m>\frac{x^2}{16} + \frac{y^2}{4} = 1</m>. 
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Unlike the previous activities, I know have two conics. In
+          general, intersections of two conics can be quite difficult:
+          four intersection points are possible, and sometimes the
+          solution require dealing with a degree 4 polynomial. Where
+          possible, I'll look for algebraic or geometric tricks to
+          make the process easier.
+        </p>
+        <p>
+          One important algebraic trick is substituting an expression,
+          instead of just the variable. In the two equations for this
+          activity, <m>x</m> shows up only as <m>x^2</m>, and likewise
+          <m>y</m> shows up only as <m>y^2</m>. Therefore, I can
+          isolate <m>x^2</m> (or, if I wanted, <m>y^2</m>) in one
+          equation and substitute that in the other equation. I'll use
+          the circle equation first.
+          <me>
+            x^2 + y^2 = 16 \implies x^2 = 16 - y^2
+          </me>
+          Then I can use this expression to replace the <m>x^2</m> in
+          the equation of the ellipse. That will give a quadratic in
+          <m>y</m>, which I can then solve. 
+          <md>
+            <mrow>
+              \frac{(16-y^2)}{16} + \frac{y^2}{4} \amp = 1 
+            </mrow>
+            <mrow>
+              1 - \frac{y^2}{16} + \frac{y^2}{4} \amp = 1
+            </mrow>
+            <mrow>
+              \frac{3y^2}{16} = 0  \implies y = 0 
+            </mrow>
+          </md>
+          With <m>y=0</m>, substituting this value for <m>y</m> in
+          either equation will result in <m>x = \pm 4</m>. Therefore,
+          there are two intersection points: <m>(4,0)</m> and
+          <m>(-4,0)</m>.
+        </p>
+        <p>
+          There is an alternative approach here as well. It is often
+          good to think about the geometry when solving intersection
+          problems. In this problem, I have two conics centred at the
+          origin. There is a circle with radius <m>4</m> and an
+          ellipse with major axis of <m>4</m> in the <m>x</m>
+          direction and minor axis of <m>2</m> in the <m>y</m>
+          direction. Therefore, from the geometry alone, I can
+          conclude that the ellipse sits inside the circle but that
+          they both reach out to the points <m>(4,0)</m> and
+          <m>(-4,0</m> along the <m>x</m> axis. This gives me a
+          geometric argument for the intersection points without any
+          calculation at all. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Find the intersection of the ellipse <m>\frac{(x-4)^2}{25} +
+          \frac{(y-3)^2}{9} = 1 </m> and the hyperbola
+          <m>\frac{(x-4)^2}{25} - \frac{(y+2)^2}{16} = 1</m>. 
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Here I have two conics again. However, the expression
+          <m>\frac{(x-4)^2}{25}</m> shows up in both equations, and
+          there are no other instances of the <m>x</m>. Therefore, I
+          can solve for this expression in one equation and replace it
+          in the other. Doing this is, by far, the most reasoanble
+          approach. Solving for <m>x</m> or <m>y</m> and then
+          substituting would be quite difficult, involving square
+          roots. 
+        </p>
+        <p>
+          I solve for the expression in the equation of the ellipse.
+          <me>
+            \frac{(x-4)^2}{25} = 1 - \frac{(y-3)^2}{9}
+          </me>
+          Then I replace the whole expression in the hyperbola. After
+          that, I clear denominators, expand the binomials, and end up
+          with a quadratic in <m>y</m> which I can solve. 
+          <md>
+            <mrow>
+              1 - \frac{(y-3)^2}{9} - \frac{(y+2)^2}{9} \amp = 1 
+            </mrow>
+            <mrow>
+              -16(y-3)^2 - 9(y+2)^2 \amp = 0 
+            </mrow>
+            <mrow>
+              -16(y^2 - 6y + 9)  - 9(y^2 + 4y + 4) \amp = 0 
+            </mrow>
+            <mrow>
+              -16y^2 + 96y - 144  - 9y^2 -36y -36 \amp = 0 
+            </mrow>
+            <mrow>
+              -25y^2 + 60y - 180 \amp = 0 
+            </mrow>
+            <mrow>
+              y = \frac{-60 \pm \sqrt{18000}}{-50} = \frac{60 \pm
+              60\sqrt{5}}{50} = \frac{6 \pm 6 \sqrt{5}}{5} 
+            </mrow>
+          </md>
+          I get two <m>y</m> values. The matching <m>x</m> values
+          can be found using either of the two equations. The square
+          root algebra gets a bit annoying here, but I work with it
+          the best I can. Let me to back to the equation of the
+          ellipse as I wrote it for the substitution. Then I'll
+          replace <m>y</m> with its two values and see what <m>x</m>
+          coordinates I get. Here is the calcluation using the
+          positive choice for <m>y</m>. 
+          <md>
+            <mrow>
+              \frac{(x-4)^2}{25} \amp = 1 - \frac{(y-3)^2}{9}
+            </mrow>
+            <mrow>
+              \frac{(x-4)^2}{25} \amp = 1 - \frac{ \left( \frac{6 +
+              5\sqrt{5}}{5} - 3 \right)^2}{9}
+            </mrow>
+            <mrow>
+              \frac{(x-4)^2}{25} \amp = 1 - \frac{\left( \frac{-9 +
+              5\sqrt{5}}{5} \right)}{9}
+            </mrow>
+            <mrow>
+              \frac{(x-4)^2}{25} \amp = 1 - \frac{81 -90\sqrt{5} +
+              125}{225} = 1 - \frac{306 - 80\sqrt{5}}{225} =
+              \frac{-81 - 80\sqrt{5}}{225} 
+            </mrow>
+            <mrow>
+              (x-4)^2 = \frac{-81 - 80\sqrt{5}}{9}  
+            </mrow>
+            <mrow>
+              (x-4) = \sqrt{\frac{-81 - 80\sqrt{5}}{9}}
+            </mrow>
+          </md>
+          Now I have to stop, since the right side is a negative
+          under the square root. I conclude that this <m>y</m>
+          value leads to no solutions. I'll skip the calculation,
+          but very similar steps show that the other <m>y</m>
+          value leads to the same problem, with a negative under
+          the square root. I conclude that there are no
+          intersection points. 
+        </p>
+      </solution>
+    </activity>
   </subsection>
   <subsection xml:id="subsection-week1-concepts">
     <title>Conceptual Review Questions</title>

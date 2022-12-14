@@ -21,10 +21,11 @@
       In the history of population models, this is often called the
       Malthusian model of population growth. It is one of the very
       first pieces of mathematical biology. In the original model that
-      Malthus produced, the constant <m>\alpha</m> had two (or three
-      pieces). There is a positive birth rate <m>b</m>, a negative
-      death rate <m>d</m>, and possibly a migration rate <m>m</m>
-      which could be positive or negative. The total growth rate is 
+      Malthus produced, the constant <m>\alpha</m> had two (or
+      sometimes three) pieces. There is a positive birth rate
+      <m>b</m>, a negative death rate <m>d</m>, and possibly a
+      migration rate <m>m</m> which could be positive or negative. The
+      total growth rate is 
       <me>
         \alpha = b - d + m 
       </me>.
