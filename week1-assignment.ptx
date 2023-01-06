@@ -3,7 +3,6 @@
 -->
 <section xml:id="section-assignment-week1">
   <title>Week 1 Assignment</title>
-  <!--
   <p><ol>
     <li>
       <p>
@@ -14,13 +13,12 @@
       </p>
       <p><ol>
         <li>
-          The line <m>y = 4x - 6</m> and the parabola <m> y = -2x^2 +
-          4x + 4</m>.
+          The line <m>y = -2x + 7</m> and the circle <m>x^2 + y
+          ^2 = 40</m>.
         </li>
         <li>
-          The circle <m>x^2 + (y-3)^2 = 9</m> and parabola <m>y =
-          \frac{x^2}{10}</m> (Hint: If you get a degree 4 equation,
-          try something different.)
+          The parabola <m>y = x^2 + 4</m> and parabola <m>y =
+          -x^2 - 3</m> 
         </li>
         <li>
           The ellipse <m>\frac{x^2}{4} + \frac{y^2}{16} = 1</m> and
