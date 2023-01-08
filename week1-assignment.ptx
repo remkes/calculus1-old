@@ -25,7 +25,7 @@
           the circle <m>x^2 + y^2 = 1</m>.
         </li>
         <li>
-          The circle <m>x^2 + (y-2)^2 = 4</m> and the circle parabola 
+          The circle <m>(x-2)^2 + y^2 = 4</m> and the circle parabola 
           <m>x=y^2</m>. 
         </li>
       </ol></p>
