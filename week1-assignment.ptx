@@ -21,34 +21,19 @@
           -x^2 - 3</m> 
         </li>
         <li>
-          The ellipse <m>\frac{x^2}{4} + \frac{y^2}{16} = 1</m> and
-          the line <m>x=1</m>.
+          The hyperbola <m>\frac{x^2}{16} + \frac{y^2}{25} = 1</m> and
+          the circle <m>x^2 + y^2 = 1</m>.
         </li>
         <li>
-          The circle <m>(x-4)^2 + (y-5)^2 = 4</m> and the circle
-          <m>(x+3)^2 + (y+2)^2 = 4</m>. (Hint: this question doesn't
-          need a long and complicated calculation. Look for an easier
-          way to answer it.) 
-        </li>
-        <li>
-          The hyperbola <m>\frac{x^2}{9} - \frac{y^2}{4} = 1</m> and
-          the ellipse <m>\frac{x^2}{9} + \frac{y^2}{4} = 1 </m>.
-          (Hint: if you get a degree 4 equation or an equation with
-          difficult square roots, try a different approach or
-          substitution). 
+          The circle <m>x^2 + (y-2)^2 = 4</m> and the circle parabola 
+          <m>x=y^2</m>. 
         </li>
       </ol></p>
     </li>
     <li>
-      At how many points can a line intersect a quadratic? Draw
-      examples to show the different number of intersection points.
-      (No equations are needed, just a simple drawing of the shapes.)
-      Do the same for a line and a cubic, and then a line and a
-      quartic. Make a proposition about the number of possible
-      intersection points of a line and a degree <m>n</m> polynomial.
-      (You don't have to argue for this proposition; just make a
-      hypothesis based on the first three cases.) (6) 
+      How many ways can two hyperbolae intersect? You may assume both
+      are oriented to open along the same axis. Draw some examples,
+      but you do not need to provide equations for your examples. (6) 
     </li>
   </ol></p>
-  -->
 </section>
