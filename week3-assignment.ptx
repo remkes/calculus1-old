@@ -3,7 +3,6 @@
 -->
 <section xml:id="section-assignment-week3">
   <title>Week 3 Assignment</title>
-  <!--
   <p><ol>
     <li>
       <p>
@@ -12,12 +11,12 @@
       </p>
       <p><ol>
         <li>
-          The rate of change of a function if proportional to the
+          The rate of change of a function is proportional to the
           cosine of the function. 
         </li>
         <li>
           The rate of change of a function is proportional to 
-          the square root of the function plus four.
+          the reciprocal of the logarithm of the function.
         </li>
       </ol></p>
     </li>
@@ -26,7 +25,7 @@
       trajectories. You may assume this is a population model and <m>
       p \geq 0</m>. (5) 
       <me>
-        \frac{dp}{dt} = (p-2)(p-7)^2(p-9)
+        \frac{dp}{dt} = (p-4)^2(p-5)(p-8)
       </me>
     </li>
     <li>
@@ -34,9 +33,8 @@
       trajectories. You may assume this is a population model and <m>
       p \geq 0</m>. (5) 
       <me>
-        \frac{dp}{dt} = (p-1)^3(p-2)(p-8)
+        \frac{dp}{dt} = (p-2)^3(p-3)^3(p-9)
       </me>
     </li>
   </ol></p>
-  -->
 </section>
