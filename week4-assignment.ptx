@@ -3,7 +3,6 @@
 -->
 <section xml:id="section-assignment-week4">
   <title>Week 4 Assignment</title>
-  <!--
   <p><ol>
     <li>
       <p>
@@ -11,17 +10,16 @@
       </p>
       <p><ol>
         <li><me>
-          \lim_{x \rightarrow -1} \frac{x^2 + 2x + 1}{x^2 -1}
+          \lim_{x \rightarrow 3} \frac{x^2 - x - 6}{x^2 - 5x - 6}
         </me></li>
         <li><me>
-          \lim_{x \rightarrow -1} \frac{x^2 - x - 6}{x^2 + 5x + 4}
+          \lim_{x \rightarrow 3} \frac{x^2 + 6x + 5}{x^2 - 6x + 9}
         </me></li>
         <li><me>
-          \lim_{x \rightarrow 0} \frac{\frac{1}{x} -
-          \frac{4}{x}}{\frac{3}{x} - \frac{2}{x}} 
+          \lim_{x \rightarrow 3} \frac{x^2 - 4x + 3}{x^2 + 9x - 36}
         </me></li>
         <li><me>
-          \lim_{x \rightarrow 0} \frac{\sin^2 x}{x^2 + 4x} 
+          \lim_{x \rightarrow 0} \frac{\sin^2 x + \sin^3 x}{x^2}
         </me></li>
       </ol></p>
     </li>
@@ -29,23 +27,30 @@
       <p>
         For each of the following functions, find a value of <m>a</m>
         that makes the function continuous or demonstrate that no
-        value of <m>a</m> is possible. (12) 
+        value of <m>a</m> is possible. (10) 
       </p>
       <p><ol>
         <li><me>
           f(x) = \left\{ \begin{matrix}
-            \sin (x + a) \amp x \gt \pi \\
-            \cos x \amp x \leq \pi 
+            x^2 + ax + 4 \amp x \leq 1 \\
+            x^2 - 6 \amp x \gt 1 
           \end{matrix} \right.
         </me></li>
         <li><me>
           f(x) = \left\{ \begin{matrix}
-            \frac{a}{x}  \amp x \lt 0 \\
-            \frac{a}{x + 1} \amp x \geq 0
+            \frac{\sin x}{x}  \amp x \geq 0 \\
+            x^2 + a  \amp x \lt 0
           \end{matrix} \right.
         </me></li>
       </ol></p>
     </li>
+    <li>
+      <p>
+        Consider a function <m>\frac{p(x)}{q(x)}</m> where <m>p(x)</m>
+        and <m>q(x)</m> are polymomials. How many vertical
+        asymptotes can this function have? What information about
+        <m>p</m> and <m>q</m> determines the number of asymptotes? (4) 
+      </p>
+    </li>
   </ol></p>
-  -->
 </section>
