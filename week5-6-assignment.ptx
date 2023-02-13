@@ -3,34 +3,30 @@
 -->
 <section xml:id="section-assignment-week5-6">
   <title>Weeks 5 and 6 Assignment</title>
-  <!--
   <p><ol>
     <li>
       <p>
-        Calculate the following limits. (12)
+        Calculate the following limits. (9)
       </p>
       <p><ol>
         <li><me>
-          \lim_{x \rightarrow \infty} \frac{x^2 + x^2(x^2 + x^3)}{x^3 
-          + x^2(x^5 + x^2)} 
+          \lim_{x \rightarrow \infty} \frac{x^2(3x^4 + 2x^5) + x(x^7 +
+          4x^2)}{x^2 (4x^2 + 1) + x^3(x^6 + 3x)} 
         </me></li>
         <li><me>
-          \lim_{x \rightarrow \infty} \frac{x^2 \ln x + e^x (x^2 
-          + 3x) + e^{2x}(x + x^3)}{4x^2 + 56x^7 + e^x(x^3 + x^2)} 
+          \lim_{x \rightarrow \infty} \frac{x^2 + 4x^2 \ln x + x^2
+          e^x}{x^3 + x \ln x + 3xe^x} 
         </me></li>
         <li><me>
-          \lim_{x \rightarrow \infty} \frac{\sqrt[4]{x^{13} + 
-          x^{11}}}{\sqrt[6]{x^{15} + x^6}}
-        </me></li>
-        <li><me>
-          \lim_{x \rightarrow \infty} \frac{1}{\sin x + \cos x} 
+          \lim_{x \rightarrow \infty} \frac{\sqrt[6]{x^{17} +
+          x^2}}{\sqrt[7]{x^{12} + x^3}}
         </me></li>
       </ol></p>
     </li>
     <li>
       <p>
         What is the long term behaviour of the following models? 
-        Justify your answers. (9) 
+        Justify your answers. (12) 
       </p>
       <p>
         <ol>
@@ -39,24 +35,35 @@
               A population model (poluation in millions, time in years).
             </p>
             <me>
-              p(t) = \frac{10e^{3t}}{7 + 2e^{3t}}
+              p(t) = \frac{7 + 4 \sin (2\pi t)}{4 + 9t} 
             </me>
           </li>
           <li>
             <p>
-              A model of concentration of <m>H^+</m> ions (time in 
-              seconds). 
+              A model of production cost for an item (cost in
+              thousands of dollars, time in years). 
             </p>
             <me>
-              c(t) = \frac{t^2 + 1}{t^3 + t + 2} 
+              c(t) = \frac{t^3 + 4t}{t^2 + 6} 
             </me>
           </li>
           <li>
             <p>
-              A model of inflation (time in year). 
+              A model of internal temperature in a star (temperature
+              in degress Kelvin, time in years). 
             </p>
             <me>
-              I(t) = \frac{ 3 \sin (6 \pi t)}{7} + \frac{12}{7} 
+              T(t) = (10^7 + 10^3 \sin (9 \pi t))
+              e^{\frac{-t}{100000}} 
+            </me>
+          </li>
+          <li>
+            <p>
+              A tree population in a new forest (population in
+              millions of trees, time in years) 
+            </p>
+            <me>
+              p(t) = 1000 \left( 1 - e^{\frac{-t}{40}} \right) 
             </me>
           </li>
         </ol>
@@ -64,25 +71,9 @@
     </li>
     <li>
       <p>
-        If <m>f</m> is a bounded function defined on all of <m>\RR</m>, 
-        must it have a horizontal asymptote? Use examples or
-        counter-examples in your argument. (4) 
-      </p>
-    </li>
-    <li>
-      <p>
-        Assume <m>f</m> and <m>g</m> are functions on <m>(0, \infty)</m>. 
-        If they have the same asymptotic order and <m>g</m> has a 
-        horizontal asymptote, must <m>f</m> also have one? Reference 
-        the definition and feel free to use examples or counter-examples
-        in your argument. (4) 
-      </p>
-    </li>
-    <li>
-      <p>
         Calculate the following derivative by definition. (6)
         <me>
-          \frac{d}{dx} x^2 + 3x 
+          \frac{d}{dx} \sqrt{x+5}
         </me>
       </p>
     </li>  
@@ -93,16 +84,15 @@
       </p>
       <p><ol>
         <li><me>
-          \frac{d}{dx} \sin x \tan x 
+          \frac{d}{dx} \left( (x^2 + 1) \tan x \right)
         </me></li>
         <li><me>
-          \frac{d}{dx} x^2 e^x + x^3 
+          \frac{d}{dx} x^2 (x^2 + 1)(x^2 + 2)
         </me></li>
         <li><me>
-          \frac{d}{dx} \frac{x^2 - 3}{x^2 + 7x - 9}
+          \frac{d}{dx} \frac{x^2 + 7x - 9}{x^3 - 6x^2 + 3x + 1}
         </me></li>
       </ol></p>
     </li>
   </ol></p>
-  -->
 </section>
