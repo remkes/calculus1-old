@@ -3,14 +3,13 @@
 -->
 <section xml:id="section-assignment-week7">
   <title>Week 7 Assignment</title>
-  <!--
   <ol>
     <li>
       <p>
         Calculate this derivative. Label the rules that you
         used in your calculation. (4) 
         <me>
-          \frac{d}{dx} \frac{1}{\sqrt{3x^2 - 4}}
+          \frac{d}{dx} \ln (\cos x) 
         </me>
       </p>
     </li>
@@ -19,7 +18,7 @@
         Calculate this derivative. Label the rules that you
         used in your calculation. (4) 
         <me>
-          \frac{d}{dx} \ln \left( \frac{1}{1-x} \right) 
+          \frac{d}{dx} \sqrt{\sin (x+1)} 
         </me>
       </p>
     </li>
@@ -28,7 +27,7 @@
         Calculate this derivative. Label the rules that you
         used in your calculation. (4) 
         <me>
-          \frac{d}{dx} x^2 e^{x^3} + x^3 
+          \frac{d}{dx} \left( e^{\frac{1}{x}} - x^2 \right) 
         </me>
       </p>
     </li>
@@ -37,7 +36,7 @@
         Calculate this derivative. Show sufficient steps to make the
         process of consecutive differentiation clear. (4)
         <me>
-          \frac{d}{dx} \sqrt{\cos (4x)} 
+          \frac{d^2}{dx^2} x^3 + 7x^2 + 4
         </me>
       </p>
     </li>
@@ -46,7 +45,7 @@
         Calculate this derivative. Show sufficient steps to make the
         process of consecutive differentiation clear. (4)
         <me>
-          \frac{d^4}{dx^4} x^3 
+          \frac{d^2}{dx^2} e^x \sin x 
         </me>
       </p>
     </li>
@@ -55,7 +54,7 @@
         Calculate this derivative. Show sufficient steps to make the
         process of consecutive differentiation clear. (4)
         <me>
-          \frac{d^3}{dx^3} x^2 e^x 
+          \frac{d^{108}}{dx^{108}} \sin x 
         </me>
       </p>
     </li>
@@ -65,8 +64,8 @@
         explicitly check that this limit has the appropriate type
         before using L'Hôpital's Rule.) (6) 
         <me>
-          \lim_{x \rightarrow 4} \frac{x^3 - 8x^2 + 21x - 20}{x^3 -
-          8x^2 + 64} 
+          \lim_{x \rightarrow 4} \frac{x^3 - 4x^2 - 3x^ - 10}{x^3 -
+          7x^2 + 16x - 30} 
         </me>
       </p>
     </li>
@@ -76,10 +75,10 @@
         explicitly check that this limit has the appropriate type
         before using L'Hôpital's Rule.) (6) 
         <me>
-          \lim_{x \rightarrow \infty} \frac{\ln (\ln x)}{\ln x + x} 
+          \lim_{x \rightarrow \infty} \frac{x^3 - 8x^2 + 16x}{\ln
+          (x-3)} 
         </me>
       </p>
     </li>
   </ol>
-  -->
 </section>
