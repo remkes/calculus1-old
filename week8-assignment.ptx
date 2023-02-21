@@ -3,56 +3,95 @@
 -->
 <section xml:id="section-assignment-week8">
   <title>Week 8 Assignment</title>
-  <!--
   <p><ol>
     <li>
       <p>
-        Calculate the following indefinite integrals by using
-        linearity, the power rule, and the tables of anti-derivatives.
-        (12) 
+        Calculate this indefinite integral using linearity, the power
+        rule, and/or the tables of anti-derivatives.  (3) 
       </p>
-      <p><ol>
-        <li><me>
-          \int 4^x + x^2 dx
-        </me></li>
-        <li><me>
-          \int x^{\frac{3}{2}} + x^{\frac{5}{2}}dx 
-        </me></li>
-        <li><me>
-          \int \frac{1}{1+x^2} + x^2 dx 
-        </me></li>
-      </ol></p>
+      <me>
+        \int \frac{1}{1+x^2} dx 
+      </me>
     </li>
     <li>
       <p>
-        Calculate the following definite integrals by using linearity
-        and the tables of anti-derivatives. (12)
+        Calculate this indefinite integral using linearity, the power
+        rule, and/or the tables of anti-derivatives.  (3) 
       </p>
-      <p><ol>
-        <li><me>
-          \int_{0}^{9\pi} \sin x + \cos x dx 
-        </me></li>
-        <li><me>
-          \int_{1}^{e^2} \frac{3}{x} - \frac{2}{x} dx 
-        </me></li>
-        <li><me>
-          \int_{-1}^1 x^3 + 3x^2 - x dx
-        </me></li>
-      </ol></p>
+      <me>
+        \int (3x)^2 dx 
+      </me>
     </li>
     <li>
       <p>
-        Consider the following integral, for <m>n \in \NN</m>: (6) 
+        Calculate this indefinite integral using linearity, the power
+        rule, and/or the tables of anti-derivatives.  (3) 
+      </p>
+      <me>
+        \int \sin x + \cos x dx 
+      </me>
+    </li>
+    <li>
+      <p>
+        Calculate this indefinite integral using linearity, the power
+        rule, and/or the tables of anti-derivatives.  (3) 
+      </p>
+      <me>
+        \int \sqrt[5]{x} dx 
+      </me>
+    </li>
+    <li>
+      <p>
+        Calculate this definite integrals using linearity, the power
+        rules, and/or the tables of anti-derivatives. (4)
+      </p>
+      <me>
+        \int_{-1}^6 \frac{x^2}{4} + \frac{x}{2} dx 
+      </me>
+    </li>
+    <li>
+      <p>
+        Calculate this definite integrals using linearity, the power
+        rules, and/or the tables of anti-derivatives. (4)
+      </p>
+      <me>
+        \int_{-\pi}^{\pi} \sin x + 1 dx
+      </me>
+    </li>
+    <li>
+      <p>
+        Calculate this definite integrals using linearity, the power
+        rules, and/or the tables of anti-derivatives. (4)
+      </p>
+      <me>
+        \int_0^{\ln 6} \frac{7e^x}{12} dx 
+      </me>
+    </li>
+    <li>
+      <p>
+        Consider this piecewise function. (4)
         <me>
-          \int_0^1 nx dx 
+          f(x) = \left\{ \begin{matrix} 
+            0 \amp x \leq 0 \\
+            \frac{x^2}{9} \amp x \gt 0
+          \end{matrix} \right. 
         </me>
-        Calculate this integral for <m>n = 1,2,3,4</m>. Describe what
-        is happening to the value of the integrals as <m>n</m>
-        increases. By using the fact that the definite integral is the
-        area under a curve, geometrically explain the change in this
-        integral as <m>n</m> increases. 
+        Calculate this definite integral.
+      <me>
+        \int_{-7}^7 f(x) dx 
+      </me>
+      </p>
+    </li>
+    <li>
+      <p>
+        Consider the following integral, for <m>n \in \NN</m>: (4) 
+        <me>
+          \int_0^{\pi} \sin (nx) dx 
+        </me>
+        By looking at the graph of the sine function, give a geometric
+        argument why this integral should be zero whenever <m>n</m> is
+        even, but non-zero whenever <m>n</m> is odd. 
       </p>
     </li>
   </ol></p>
-  -->
 </section>
