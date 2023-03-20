@@ -3,111 +3,70 @@
 -->
 <section xml:id="section-assignment-week9-10">
   <title>Weeks 9 and 10  Assignment</title>
-  <!--
   <p><ol>
     <li>
       Solve this integral using substitution. Clearly label your
-      substitution. (4)  
+      substitution. (5)  
       <me>
-        \int \ln (6x^2 - 5x + 1) (12x - 5) dx 
+        \int 14x \cos (7x^2 - 4) dx 
       </me>
     </li>
     <li>
       Solve this integral using substitution. Clearly label your
-      substitution. (4)  
+      substitution. (5)  
       <me>
-        \int \frac{6 + x}{1 - x} dx 
+        \int \frac{7 + x}{x - 4} dx 
       </me>
     </li>
     <li>
       Solve this integral using substitution. Clearly label your
-      substitution. (4)  
+      substitution. (5)  
       <me>
-        \int_0^2 6x \sin \left( \frac{x^2 + 4}{9} \right) dx 
+        \int_0^1 x e^{\frac{x^2}{7} = 4} dx 
       </me>
     </li>
     <li>
-      Solve this integral using substitution. Clearly label your
-      substitution. (4)  
+      Solve this initial value problem  with initial condition <m>f(0)
+      = 6</m>. (6)  
       <me>
-        \int_0^2 \frac{4x^2 + 2x + 1}{x + 3} dx 
+        \frac{df}{dx} = 6x^5 + 3x^2 - 7x - 2
       </me>
     </li>
     <li>
-      Consider this integral. (4) 
-      <md>
-        <mrow>
-          \int \sin \left( \frac{1}{e^{4x}} \right) \left(
-          \frac{-4}{e^{4x}} \right) dx 
-        </mrow>
-      </md>
-      There are different ways to break apart this composition with
-      the sine function. The inside function could be <m>4x</m>,
-      <m>e^{4x}</m>, or <m>\frac{1}{e^{4x}}</m>. Explain why the
-      substitution <m>u = \frac{1}{e^{4x}}</m> works to solve this
-      integral, while the substitutions <m>u = 4x</m> or <m>u =
-      e^{4x}</m> would not be helpful for this integral. 
-    </li>
-    <li>
-      Solve this differential equation with initial condition <m>f(0)
-      = 4</m>. (4)  
+      Solve this initial value problem  with initial condition <m>f(0)
+      = 1</m>. (6)  
       <me>
-        \frac{df}{dx} = x^7 + x^2 + 1 
+        \frac{df}{dx} = x^2 f^2 
       </me>
     </li>
     <li>
-      Solve this differential equation with initial condition <m>f(0)
-      = 1</m>. (4)  
+      Solve this initial value problem  with initial condition <m>f(3)
+      = 1</m>. (6)  
       <me>
-        \frac{df}{dx} = x^3 f 
-      </me>
-    </li>
-    <li>
-      Solve this differential equation with initial condition <m>f(0)
-      = 1</m>. (4)  
-      <me>
-        \frac{df}{dx} = (x^2 + 1) f 
-      </me>
-    </li>
-    <li>
-      Solve this differential equation with initial condition <m>f(0)
-      = 0</m>. (4)  
-      <me>
-        \frac{df}{dx} = x (f^2 + 1)
+        \frac{df}{dx} = \frac{f}{x} 
       </me>
     </li>
     <li>
       <p>
-      For each of the following differential equations, describe the
-      growth of the function <em>without</em> solving the differential
-      equation. The growth may depend on the initial condition: tell
-      how different initial conditions lead to different growth
-      behaviour. (You may assume all initial conditions are positive.)
-      (12) 
+        Consider these three differential equations. (6) 
       </p>
-      <p><ol>
-        <li>
-          <me>
-            \frac{df}{dx} = f^{\frac{3}{2}}
-          </me>
-        </li>
-        <li>
-          <me>
-            \frac{df}{dx} = f^2 - 9 
-          </me>
-        </li>
-        <li>
-          <me>
-            \frac{df}{dx} = 3 - f
-          </me>
-        </li>
-        <li>
-          <me>
-            \frac{df}{dx} = \frac{f}{10000}
-          </me>
-        </li>
-      </ol></p>
+      <md>
+        <mrow>
+          \frac{df}{dx} = f 
+        </mrow>
+        <mrow>
+          \frac{dg}{dx} = g + 1 
+        </mrow>
+        <mrow>
+          \frac{dh}{dx} = h + 2 
+        </mrow>
+      </md>
+      <p>
+      Asymptotically, are the functions <m>f</m>. <m>g</m> and
+      <m>h</m> of the same order? Do the terms <m>+1</m> and <m>+2</m>
+      make the functions <m>g</m> and <m>h</m> grow substantially
+      faster? (6) 
+      </p>
     </li>
   </ol></p>
-  -->
 </section>
