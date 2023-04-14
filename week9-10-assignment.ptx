@@ -22,7 +22,7 @@
       Solve this integral using substitution. Clearly label your
       substitution. (5)  
       <me>
-        \int_0^1 x e^{\frac{x^2}{7} = 4} dx 
+        \int_0^1 x e^{\frac{x^2}{7} + 4} dx 
       </me>
     </li>
     <li>

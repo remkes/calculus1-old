@@ -19,9 +19,9 @@
         time is measured in months. (12) 
         <me>
           p(t) = \left\{ \begin{matrix} 
-            30000 \cdot 2^{\frac{1}{24}t} \amp t \in [0, 24) \\
+            (30000) 2^{\frac{1}{24}t} \amp t \in [0, 24) \\
             60000 \amp t \in [24, 48) \\
-            10000 2^{-\frac{1}{2}t} \amp t \in [48, \infty) 
+            (10000) 2^{-\frac{1}{2}t} \amp t \in [48, \infty) 
           \end{matrix} \right. 
         </me>
       </p>

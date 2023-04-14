@@ -64,7 +64,7 @@
         explicitly check that this limit has the appropriate type
         before using L'Hôpital's Rule.) (6) 
         <me>
-          \lim_{x \rightarrow 4} \frac{x^3 - 4x^2 - 3x^ - 10}{x^3 -
+          \lim_{x \rightarrow 5} \frac{x^3 - 4x^2 - 3x - 10}{x^3 -
           7x^2 + 16x - 30} 
         </me>
       </p>
